@@ -65,6 +65,27 @@ function setPreservePitch(a: HTMLAudioElement) {
   el.webkitPreservesPitch = true;
 }
 
+// 오디오 하드웨어를 계속 깨워두기 — 아무 소리도 없을 때 첫 재생 시 장치가
+// 깨어나며 앞부분(첫음)이 잘리는 문제 방지. 거의 무음 오실레이터를 상시 흘려보낸다.
+let audioCtx: AudioContext | null = null;
+export function keepAudioAwake() {
+  if (typeof window === "undefined") return;
+  try {
+    if (!audioCtx) {
+      const AC = window.AudioContext || (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+      if (!AC) return;
+      audioCtx = new AC();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      gain.gain.value = 0.0002; // 사실상 무음, 파이프라인 유지용
+      osc.frequency.value = 30;
+      osc.connect(gain).connect(audioCtx.destination);
+      osc.start();
+    }
+    if (audioCtx.state === "suspended") void audioCtx.resume();
+  } catch { /* noop */ }
+}
+
 // url이 있으면 음성 파일을, 실패하면 text를 Web Speech로 읽는다.
 // 첫음 잘림 방지: 재생 전 오디오를 충분히 버퍼링(canplaythrough)한 뒤 재생 →
 // 데이터가 준비된 상태에서 0초부터 재생돼 브라우저가 앞부분을 건너뛰지 않는다.
@@ -73,6 +94,7 @@ export function playClip(url: string | null | undefined, text: string, slow = fa
   window.speechSynthesis?.cancel();
   if (currentAudio) { try { currentAudio.pause(); } catch { /* noop */ } currentAudio = null; }
   const fallback = () => speak(text, slow ? 0.6 : 0.95);
+  keepAudioAwake(); // 재생 직전 오디오 장치 깨워두기 (첫음 잘림 방지)
   if (!url) { fallback(); return; }
   const a = new Audio();
   setPreservePitch(a);
@@ -114,9 +136,16 @@ if (typeof window !== "undefined" && window.speechSynthesis) {
   // 첫 사용자 제스처에서 엔진 예열 → 이후 버튼 클릭이 즉시 재생됨
   const warm = () => {
     warmUpSpeech();
+    keepAudioAwake(); // 오디오 장치 상시 깨우기 시작
     window.removeEventListener("pointerdown", warm);
   };
   window.addEventListener("pointerdown", warm, { once: true });
+}
+
+// speechSynthesis가 없는 환경에서도 오디오 장치는 깨워둔다
+if (typeof window !== "undefined" && !window.speechSynthesis) {
+  const warmA = () => { keepAudioAwake(); window.removeEventListener("pointerdown", warmA); };
+  window.addEventListener("pointerdown", warmA, { once: true });
 }
 
 // 발음 인식 (Web Speech API SpeechRecognition)
