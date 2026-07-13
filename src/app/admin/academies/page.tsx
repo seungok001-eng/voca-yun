@@ -14,6 +14,8 @@ export default function AcademiesPage() {
   const [orgs, setOrgs] = useState<Org[] | null>(null);
   const [showNew, setShowNew] = useState(false);
   const [form, setForm] = useState({ name: "", phone: "", address: "", adminName: "", adminUsername: "", adminPassword: "" });
+  const [staffFor, setStaffFor] = useState<Org | null>(null);
+  const [staff, setStaff] = useState({ role: "DIRECTOR", name: "", username: "", password: "", phone: "" });
 
   const load = useCallback(() => {
     api<{ organizations: Org[] }>("/api/admin/organizations").then((d) => setOrgs(d.organizations)).catch(() => setOrgs([]));
@@ -30,6 +32,19 @@ export default function AcademiesPage() {
       load();
     } catch (e) {
       alert(e instanceof Error ? e.message : "등록 실패");
+    }
+  }
+
+  async function createStaff() {
+    if (!staffFor) return;
+    try {
+      await api(`/api/admin/organizations/${staffFor.id}/staff`, { method: "POST", body: JSON.stringify(staff) });
+      alert(`${staffFor.name}에 ${staff.role === "DIRECTOR" ? "원장" : "선생님"} 계정(${staff.username})을 만들었습니다. 바로 로그인할 수 있습니다.`);
+      setStaff({ role: "DIRECTOR", name: "", username: "", password: "", phone: "" });
+      setStaffFor(null);
+      load();
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "계정 생성 실패");
     }
   }
 
@@ -71,12 +86,33 @@ export default function AcademiesPage() {
         </div>
       )}
 
+      {staffFor && (
+        <div className="card p-5 space-y-3 pop-in border-2 border-[#c9a227]/40">
+          <h2 className="font-black text-[#16204a]">👤 {staffFor.name} — 원장/선생님 계정 만들기</h2>
+          <p className="text-xs text-slate-400">생성 즉시 승인되어 바로 로그인할 수 있습니다. 아이디·비밀번호를 전달하고, 첫 로그인 후 비밀번호를 변경하도록 안내하세요.</p>
+          <div className="grid gap-2 sm:grid-cols-5">
+            <select className="input" value={staff.role} onChange={(e) => setStaff((f) => ({ ...f, role: e.target.value }))}>
+              <option value="DIRECTOR">원장</option>
+              <option value="TEACHER">선생님</option>
+            </select>
+            <input className="input" placeholder="이름" value={staff.name} onChange={(e) => setStaff((f) => ({ ...f, name: e.target.value }))} />
+            <input className="input" placeholder="아이디" value={staff.username} onChange={(e) => setStaff((f) => ({ ...f, username: e.target.value }))} autoCapitalize="none" />
+            <input className="input" placeholder="비밀번호" value={staff.password} onChange={(e) => setStaff((f) => ({ ...f, password: e.target.value }))} />
+            <input className="input" placeholder="연락처 (선택)" value={staff.phone} onChange={(e) => setStaff((f) => ({ ...f, phone: e.target.value }))} />
+          </div>
+          <div className="flex gap-2">
+            <button className="btn-primary" onClick={createStaff}>계정 생성</button>
+            <button className="btn-ghost" onClick={() => setStaffFor(null)}>취소</button>
+          </div>
+        </div>
+      )}
+
       <div className="card overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left text-[11px] text-slate-400 border-b border-slate-100">
               <th className="p-3">학원</th><th className="p-3">원장</th><th className="p-3">인원</th>
-              <th className="p-3">반</th><th className="p-3">가입 노출</th><th className="p-3">연락처</th>
+              <th className="p-3">반</th><th className="p-3">가입 노출</th><th className="p-3">연락처</th><th className="p-3"></th>
             </tr>
           </thead>
           <tbody>
@@ -100,6 +136,12 @@ export default function AcademiesPage() {
                   </button>
                 </td>
                 <td className="p-3 text-xs text-slate-400">{o.phone ?? "-"}</td>
+                <td className="p-3">
+                  <button className="chip bg-[#16204a] text-white whitespace-nowrap"
+                    onClick={() => { setStaffFor(o); setShowNew(false); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
+                    ＋ 계정
+                  </button>
+                </td>
               </tr>
             ))}
           </tbody>

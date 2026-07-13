@@ -97,14 +97,15 @@ async function main() {
     });
   }
   const pw = await bcrypt.hash("1234", 10);
+  // 총관리자 = 앱 관리 전용 (특정 학원 소속 아님). 정철 원장은 별도 계정으로 학원관리에서 생성.
   const director = await db.user.upsert({
     where: { username: "director" },
-    update: { organizationId: org.id, role: "SUPER_ADMIN", status: "APPROVED", plainPassword: "1234" },
-    create: { username: "director", passwordHash: pw, plainPassword: "1234", name: "원장님", role: "SUPER_ADMIN", status: "APPROVED", organizationId: org.id },
+    update: { organizationId: null, role: "SUPER_ADMIN", status: "APPROVED", name: "앱 관리자" },
+    create: { username: "director", passwordHash: pw, plainPassword: "1234", name: "앱 관리자", role: "SUPER_ADMIN", status: "APPROVED", organizationId: null },
   });
   const teacher = await db.user.upsert({
     where: { username: "teacher1" },
-    update: { organizationId: org.id, status: "APPROVED", plainPassword: "1234" },
+    update: { organizationId: org.id, status: "APPROVED" },
     create: { username: "teacher1", passwordHash: pw, plainPassword: "1234", name: "김선생", role: "TEACHER", status: "APPROVED", organizationId: org.id },
   });
   let cls = await db.class.findFirst({ where: { name: "새싹반 A", organizationId: org.id } });
@@ -118,16 +119,16 @@ async function main() {
   for (const [username, name, grade] of [["student1", "이하은", "중1"], ["student2", "박도윤", "중2"], ["student3", "최서연", "초6"]] as const) {
     await db.user.upsert({
       where: { username },
-      update: { organizationId: org.id, status: "APPROVED", plainPassword: "1234" },
+      update: { organizationId: org.id, status: "APPROVED" },
       create: { username, passwordHash: pw, plainPassword: "1234", name, role: "STUDENT", status: "APPROVED", organizationId: org.id, classId: cls.id, parentPhone: "010-0000-0000", school: "청당중", grade },
     });
   }
   await db.user.upsert({
     where: { username: "individual1" },
-    update: { plainPassword: "1234" },
+    update: {},
     create: { username: "individual1", passwordHash: pw, plainPassword: "1234", name: "김개인", role: "INDIVIDUAL", status: "APPROVED" },
   });
-  console.log(`✅ 데모 계정 준비 완료 (원장 ${director.name}, 반 ${cls.name})`);
+  console.log(`✅ 계정 준비 완료 (총관리자 ${director.name}, 반 ${cls.name})`);
 }
 
 main()

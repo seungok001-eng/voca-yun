@@ -15,8 +15,8 @@ export async function GET() {
     });
     return Response.json({
       organizations: orgs.map((o) => {
-        const director = o.members.find((m) => m.role === "DIRECTOR" || m.role === "SUPER_ADMIN") ?? null;
-        const directors = o.members.filter((m) => m.role === "DIRECTOR" || m.role === "SUPER_ADMIN").length;
+        const director = o.members.find((m) => m.role === "DIRECTOR") ?? null;
+        const directors = o.members.filter((m) => m.role === "DIRECTOR").length;
         const teachers = o.members.filter((m) => m.role === "TEACHER").length;
         const students = o.members.filter((m) => m.role === "STUDENT").length;
         const pending = o.members.filter((m) => m.role === "STUDENT" && m.status === "PENDING").length;
@@ -61,6 +61,7 @@ export async function POST(req: Request) {
       data: {
         username: adminUsername,
         passwordHash: await bcrypt.hash(adminPassword, 10),
+        plainPassword: adminPassword,
         name: adminName,
         role: "DIRECTOR",
         status: "APPROVED",
