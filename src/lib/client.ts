@@ -80,8 +80,8 @@ export function keepAudioAwake() {
       const gain = audioCtx.createGain();
       // 블루투스 등 레벨 게이트형 장치가 절전에 못 들어가도록,
       // 게이트가 인식할 만한 레벨의 초저음(25Hz)을 상시 흘린다. 귀에는 거의 안 들림.
-      gain.gain.value = 0.01;
-      osc.frequency.value = 25;
+      gain.gain.value = 0.02;
+      osc.frequency.value = 30;
       osc.connect(gain).connect(audioCtx.destination);
       osc.start();
     }
@@ -104,8 +104,8 @@ function stopCurrent() {
 // → 적응형 리드타임: 방금까지 소리가 났으면 거의 즉시(0.08초), 한동안 조용했으면
 //   충분히 길게(0.75초) 웨이크 톤+무음을 먼저 흘린 뒤 본 소리를 시작한다.
 const LEAD_WARM = 0.08; // 장치가 이미 깨어 있을 때
-const LEAD_COLD = 0.75; // 한동안 조용했을 때 (절전 해제 대기)
-const AWAKE_GRACE_MS = 3000; // 소리가 끝난 뒤 이 시간까지는 깨어 있다고 간주
+const LEAD_COLD = 1.4; // 한동안 조용했을 때 (블루투스 절전 해제는 1초 이상 걸리기도 함)
+const AWAKE_GRACE_MS = 8000; // 소리가 끝난 뒤 이 시간까지는 깨어 있다고 간주
 
 let audioActiveUntil = 0; // 마지막 소리가 끝나는(끝난) 시각 + 여유
 function leadSeconds(): number {
@@ -117,9 +117,11 @@ function markActive(durationSec: number, leadSec: number) {
 }
 
 function writeWakeTone(dst: Float32Array, sampleRate: number) {
-  const wake = Math.round(sampleRate * 0.08); // 게이트를 여는 미세 톤 80ms
+  // 게이트를 확실히 여는 부드러운 저음 톤 250ms (서서히 사라져 톡 소리 없음)
+  const wake = Math.round(sampleRate * 0.25);
   for (let i = 0; i < wake && i < dst.length; i++) {
-    dst[i] = Math.sin((2 * Math.PI * 160 * i) / sampleRate) * 0.006 * (1 - i / wake);
+    const env = Math.sin((Math.PI * i) / wake); // 페이드 인/아웃
+    dst[i] = Math.sin((2 * Math.PI * 160 * i) / sampleRate) * 0.02 * env;
   }
 }
 
