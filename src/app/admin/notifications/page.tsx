@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { api } from "@/lib/client";
 
 type Log = {
   id: number; type: string; message: string; sentAt: string;
   studentName: string; className: string; parentPhone: string;
 };
+type Academy = { id: number; name: string };
 
 const TYPE_CHIP: Record<string, { label: string; cls: string }> = {
   TEST_PASS: { label: "통과", cls: "bg-emerald-50 text-emerald-600" },
@@ -16,11 +17,20 @@ const TYPE_CHIP: Record<string, { label: string; cls: string }> = {
 
 export default function NotificationsPage() {
   const [logs, setLogs] = useState<Log[] | null>(null);
+  const [academies, setAcademies] = useState<Academy[]>([]);
+  const [academyId, setAcademyId] = useState("");
 
-  function load() {
-    api<{ logs: Log[] }>("/api/admin/notifications").then((d) => setLogs(d.logs));
-  }
-  useEffect(load, []);
+  // 총관리자면 학원 목록 (아니면 403 → 무시)
+  useEffect(() => {
+    api<{ organizations: Academy[] }>("/api/admin/organizations")
+      .then((r) => setAcademies(r.organizations)).catch(() => setAcademies([]));
+  }, []);
+
+  const load = useCallback(() => {
+    const qs = academyId ? `?academyId=${academyId}` : "";
+    api<{ logs: Log[] }>(`/api/admin/notifications${qs}`).then((d) => setLogs(d.logs));
+  }, [academyId]);
+  useEffect(load, [load]);
 
   async function removeOne(l: Log) {
     if (!confirm(`${l.studentName} 학생의 이 알림을 삭제할까요?`)) return;
@@ -28,8 +38,9 @@ export default function NotificationsPage() {
     setLogs((cur) => cur?.filter((x) => x.id !== l.id) ?? null);
   }
   async function clearAll() {
-    if (!confirm("표시된 학부모 알림을 모두 삭제할까요? 되돌릴 수 없습니다.")) return;
-    await api("/api/admin/notifications", { method: "DELETE" });
+    const scope = academyId ? academies.find((a) => String(a.id) === academyId)?.name ?? "선택한 학원" : (academies.length > 0 ? "전체 학원" : "");
+    if (!confirm(`${scope ? scope + "의 " : ""}학부모 알림을 모두 삭제할까요? 되돌릴 수 없습니다.`)) return;
+    await api(`/api/admin/notifications${academyId ? `?academyId=${academyId}` : ""}`, { method: "DELETE" });
     load();
   }
 
@@ -44,9 +55,17 @@ export default function NotificationsPage() {
             시험 통과/탈락 시 자동 생성되는 알림 메시지입니다. 카카오 알림톡·SMS 발송 서비스와 연동하면 학부모 휴대폰으로 자동 발송됩니다.
           </p>
         </div>
-        {logs.length > 0 && (
-          <button className="btn-ghost !border-rose-200 !text-rose-500 whitespace-nowrap" onClick={clearAll}>🗑️ 전체 삭제</button>
-        )}
+        <div className="flex items-center gap-2">
+          {academies.length > 0 && (
+            <select className="input !w-auto" value={academyId} onChange={(e) => setAcademyId(e.target.value)}>
+              <option value="">전체 학원</option>
+              {academies.map((a) => <option key={a.id} value={a.id}>{a.name}</option>)}
+            </select>
+          )}
+          {logs.length > 0 && (
+            <button className="btn-ghost !border-rose-200 !text-rose-500 whitespace-nowrap" onClick={clearAll}>🗑️ 전체 삭제</button>
+          )}
+        </div>
       </div>
       <div className="card overflow-x-auto">
         <table className="w-full text-sm">
