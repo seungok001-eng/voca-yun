@@ -86,34 +86,67 @@ export function keepAudioAwake() {
   } catch { /* noop */ }
 }
 
-// url이 있으면 음성 파일을, 실패하면 text를 Web Speech로 읽는다.
-// 첫음 잘림 방지: 재생 전 오디오를 충분히 버퍼링(canplaythrough)한 뒤 재생 →
-// 데이터가 준비된 상태에서 0초부터 재생돼 브라우저가 앞부분을 건너뛰지 않는다.
-export function playClip(url: string | null | undefined, text: string, slow = false) {
-  if (typeof window === "undefined") return;
+// 재생 중인 것 정리 (Web Audio 소스 + HTMLAudio + Web Speech)
+let currentSource: AudioBufferSourceNode | null = null;
+const bufferCache = new Map<string, AudioBuffer>();
+let playToken = 0;
+function stopCurrent() {
   window.speechSynthesis?.cancel();
   if (currentAudio) { try { currentAudio.pause(); } catch { /* noop */ } currentAudio = null; }
-  const fallback = () => speak(text, slow ? 0.6 : 0.95);
-  keepAudioAwake(); // 재생 직전 오디오 장치 깨워두기 (첫음 잘림 방지)
-  if (!url) { fallback(); return; }
-  const a = new Audio();
-  setPreservePitch(a);
-  a.playbackRate = slow ? 0.6 : 1;
-  a.preload = "auto";
-  a.onerror = fallback;
-  currentAudio = a;
-  let started = false;
-  const start = () => {
-    if (started || currentAudio !== a) return;
-    started = true;
-    a.play().catch(fallback);
-  };
-  // 완전 버퍼링되면 재생 (캐시된 경우 즉시 발생)
-  a.addEventListener("canplaythrough", start, { once: true });
-  // 안전장치: 이벤트가 안 뜨거나 지연되면 최대 400ms 후 강제 재생
-  window.setTimeout(start, 400);
-  a.src = url;
-  a.load();
+  if (currentSource) { try { currentSource.stop(); } catch { /* noop */ } currentSource = null; }
+}
+
+// 보통 속도: Web Audio로 재생 (샘플 단위 정확 시작 → 첫음 잘림 없음, 캐시로 반복 재생 즉시)
+async function playViaWebAudio(url: string, token: number, fallback: () => void) {
+  try {
+    keepAudioAwake();
+    if (!audioCtx) { fallback(); return; }
+    let buf = bufferCache.get(url);
+    if (!buf) {
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error("fetch failed");
+      buf = await audioCtx.decodeAudioData(await resp.arrayBuffer());
+      bufferCache.set(url, buf);
+    }
+    if (token !== playToken) return; // 그 사이 다른 재생 요청됨
+    const src = audioCtx.createBufferSource();
+    src.buffer = buf;
+    src.connect(audioCtx.destination);
+    stopCurrent();
+    currentSource = src;
+    src.start();
+  } catch {
+    if (token === playToken) fallback();
+  }
+}
+
+// url이 있으면 음성 파일을, 실패하면 text를 Web Speech로 읽는다.
+// 보통 속도 = Web Audio(첫음 잘림 없음), 천천히 = HTMLAudio(음정 유지).
+export function playClip(url: string | null | undefined, text: string, slow = false) {
+  if (typeof window === "undefined") return;
+  const token = ++playToken;
+  keepAudioAwake();
+  const fallback = () => { if (token === playToken) speak(text, slow ? 0.6 : 0.95); };
+  if (!url) { stopCurrent(); fallback(); return; }
+  if (slow) {
+    // 천천히 = HTMLAudio (0.6배속, 음정 유지)
+    stopCurrent();
+    const a = new Audio();
+    setPreservePitch(a);
+    a.playbackRate = 0.6;
+    a.preload = "auto";
+    a.onerror = fallback;
+    currentAudio = a;
+    let started = false;
+    const start = () => { if (started || currentAudio !== a) return; started = true; a.play().catch(fallback); };
+    a.addEventListener("canplaythrough", start, { once: true });
+    window.setTimeout(start, 400);
+    a.src = url;
+    a.load();
+  } else {
+    // 보통 = Web Audio
+    void playViaWebAudio(url, token, fallback);
+  }
 }
 
 // 엔진 예열: 첫 발화 지연을 없애기 위해 앱 로드 직후 무음을 한 번 흘려보낸다.
