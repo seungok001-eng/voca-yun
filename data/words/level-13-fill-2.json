@@ -1,0 +1,1897 @@
+{
+  "level": 13,
+  "words": [
+    {
+      "word": "academy",
+      "pos": "n",
+      "meanings": [
+        "학원",
+        "학회"
+      ],
+      "example": "He enrolled in a private academy to prepare for the entrance exam.",
+      "exampleKo": "그는 입학시험을 준비하기 위해 사립 학원에 등록했다.",
+      "emoji": "🏫"
+    },
+    {
+      "word": "analysis",
+      "pos": "n",
+      "meanings": [
+        "분석"
+      ],
+      "example": "The report presents a detailed analysis of climate change data.",
+      "exampleKo": "그 보고서는 기후 변화 자료에 대한 상세한 분석을 제시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "appendix",
+      "pos": "n",
+      "meanings": [
+        "부록"
+      ],
+      "example": "The raw data tables are included in the appendix of the report.",
+      "exampleKo": "원자료 표는 그 보고서의 부록에 포함되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "archive",
+      "pos": "n",
+      "meanings": [
+        "기록 보관소",
+        "자료 보관소"
+      ],
+      "example": "The historian spent months searching through the university archive.",
+      "exampleKo": "그 역사학자는 대학 자료 보관소를 몇 달 동안 뒤졌다.",
+      "emoji": "🗄️"
+    },
+    {
+      "word": "assumption",
+      "pos": "n",
+      "meanings": [
+        "가정",
+        "추정"
+      ],
+      "example": "The theory rests on the assumption that all people act rationally.",
+      "exampleKo": "그 이론은 모든 사람이 합리적으로 행동한다는 가정에 기초한다.",
+      "emoji": ""
+    },
+    {
+      "word": "bachelor",
+      "pos": "n",
+      "meanings": [
+        "학사"
+      ],
+      "example": "She earned a bachelor's degree in biology last spring.",
+      "exampleKo": "그녀는 지난봄에 생물학 학사 학위를 받았다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "bibliography",
+      "pos": "n",
+      "meanings": [
+        "참고 문헌 목록"
+      ],
+      "example": "Every source you cite must appear in the bibliography at the end.",
+      "exampleKo": "인용한 모든 출처는 끝부분의 참고 문헌 목록에 나와야 한다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "campus",
+      "pos": "n",
+      "meanings": [
+        "캠퍼스",
+        "교정"
+      ],
+      "example": "The new library building stands at the center of the campus.",
+      "exampleKo": "새 도서관 건물은 캠퍼스 중앙에 서 있다.",
+      "emoji": "🏛️"
+    },
+    {
+      "word": "certificate",
+      "pos": "n",
+      "meanings": [
+        "자격증",
+        "수료증"
+      ],
+      "example": "He received a certificate after completing the training course.",
+      "exampleKo": "그는 교육 과정을 마친 후 수료증을 받았다.",
+      "emoji": "📜"
+    },
+    {
+      "word": "chapter",
+      "pos": "n",
+      "meanings": [
+        "장(章)"
+      ],
+      "example": "The first chapter of the textbook introduces basic scientific methods.",
+      "exampleKo": "그 교과서의 첫 번째 장은 기본적인 과학적 방법을 소개한다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "classification",
+      "pos": "n",
+      "meanings": [
+        "분류"
+      ],
+      "example": "The classification of animals is based on their shared characteristics.",
+      "exampleKo": "동물의 분류는 공통된 특징을 바탕으로 이루어진다.",
+      "emoji": ""
+    },
+    {
+      "word": "cognition",
+      "pos": "n",
+      "meanings": [
+        "인지"
+      ],
+      "example": "The course explores how memory and cognition develop in early childhood.",
+      "exampleKo": "그 강좌는 유아기에 기억과 인지가 어떻게 발달하는지 탐구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "compose",
+      "pos": "v",
+      "meanings": [
+        "구성하다",
+        "작성하다"
+      ],
+      "example": "Students were asked to compose a short paragraph about their goals.",
+      "exampleKo": "학생들은 자신의 목표에 관한 짧은 문단을 작성하라는 요청을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "comprehension",
+      "pos": "n",
+      "meanings": [
+        "이해력"
+      ],
+      "example": "The exam includes a section that tests reading comprehension.",
+      "exampleKo": "그 시험에는 독해력을 측정하는 부분이 포함되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "context",
+      "pos": "n",
+      "meanings": [
+        "맥락",
+        "문맥"
+      ],
+      "example": "You can often guess a word's meaning from its context.",
+      "exampleKo": "흔히 문맥을 통해 단어의 의미를 추측할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "contribution",
+      "pos": "n",
+      "meanings": [
+        "기여",
+        "공헌"
+      ],
+      "example": "Her contribution to the field of genetics was widely recognized.",
+      "exampleKo": "유전학 분야에 대한 그녀의 기여는 널리 인정받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "coursework",
+      "pos": "n",
+      "meanings": [
+        "수업 과제"
+      ],
+      "example": "Most of her grade depends on coursework rather than the final exam.",
+      "exampleKo": "그녀의 성적 대부분은 기말시험보다는 수업 과제에 좌우된다.",
+      "emoji": ""
+    },
+    {
+      "word": "dean",
+      "pos": "n",
+      "meanings": [
+        "학장"
+      ],
+      "example": "The dean announced new scholarship opportunities for freshmen.",
+      "exampleKo": "학장은 신입생을 위한 새로운 장학금 기회를 발표했다.",
+      "emoji": ""
+    },
+    {
+      "word": "definition",
+      "pos": "n",
+      "meanings": [
+        "정의"
+      ],
+      "example": "The dictionary offers several definitions for this single word.",
+      "exampleKo": "사전은 이 한 단어에 대해 여러 정의를 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "dissertation",
+      "pos": "n",
+      "meanings": [
+        "학위 논문"
+      ],
+      "example": "She spent two years researching her doctoral dissertation.",
+      "exampleKo": "그녀는 박사 학위 논문을 연구하는 데 2년을 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "document",
+      "pos": "v",
+      "meanings": [
+        "기록하다",
+        "문서화하다"
+      ],
+      "example": "Researchers carefully documented every stage of the experiment.",
+      "exampleKo": "연구자들은 실험의 모든 단계를 꼼꼼히 기록했다.",
+      "emoji": ""
+    },
+    {
+      "word": "edit",
+      "pos": "v",
+      "meanings": [
+        "편집하다"
+      ],
+      "example": "He edited his report to remove unnecessary details.",
+      "exampleKo": "그는 불필요한 세부 사항을 없애기 위해 보고서를 편집했다.",
+      "emoji": ""
+    },
+    {
+      "word": "enrollment",
+      "pos": "n",
+      "meanings": [
+        "등록"
+      ],
+      "example": "University enrollment has increased steadily over the past decade.",
+      "exampleKo": "대학 등록자 수는 지난 10년 동안 꾸준히 증가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "evaluation",
+      "pos": "n",
+      "meanings": [
+        "평가"
+      ],
+      "example": "The committee's evaluation determined which projects would receive funding.",
+      "exampleKo": "위원회의 평가가 어떤 프로젝트가 지원금을 받을지 결정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "excerpt",
+      "pos": "n",
+      "meanings": [
+        "발췌",
+        "인용문"
+      ],
+      "example": "Read the following excerpt and answer the questions that follow.",
+      "exampleKo": "다음 발췌문을 읽고 이어지는 질문에 답하시오.",
+      "emoji": ""
+    },
+    {
+      "word": "experiment",
+      "pos": "n",
+      "meanings": [
+        "실험"
+      ],
+      "example": "The class conducted an experiment to measure the boiling point of water.",
+      "exampleKo": "그 학급은 물의 끓는점을 측정하는 실험을 실시했다.",
+      "emoji": "🧪"
+    },
+    {
+      "word": "expertise",
+      "pos": "n",
+      "meanings": [
+        "전문 지식"
+      ],
+      "example": "The panel included scholars with expertise in ancient history.",
+      "exampleKo": "그 패널에는 고대사 전문 지식을 가진 학자들이 포함되어 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "explanation",
+      "pos": "n",
+      "meanings": [
+        "설명"
+      ],
+      "example": "The textbook gives a clear explanation of how photosynthesis works.",
+      "exampleKo": "그 교과서는 광합성이 어떻게 일어나는지에 대해 명확한 설명을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "exploration",
+      "pos": "n",
+      "meanings": [
+        "탐구",
+        "탐사"
+      ],
+      "example": "The seminar encourages the exploration of new ideas in psychology.",
+      "exampleKo": "그 세미나는 심리학의 새로운 개념에 대한 탐구를 장려한다.",
+      "emoji": ""
+    },
+    {
+      "word": "faculty",
+      "pos": "n",
+      "meanings": [
+        "교수진",
+        "학부"
+      ],
+      "example": "The faculty voted to change the requirements for graduation.",
+      "exampleKo": "교수진은 졸업 요건을 변경하기로 투표했다.",
+      "emoji": ""
+    },
+    {
+      "word": "finding",
+      "pos": "n",
+      "meanings": [
+        "연구 결과"
+      ],
+      "example": "The study's main finding surprised even the researchers themselves.",
+      "exampleKo": "그 연구의 주요 결과는 연구자들 자신도 놀라게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "footnote",
+      "pos": "n",
+      "meanings": [
+        "각주"
+      ],
+      "example": "The author added a footnote to explain an unfamiliar term.",
+      "exampleKo": "저자는 낯선 용어를 설명하기 위해 각주를 추가했다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "genre",
+      "pos": "n",
+      "meanings": [
+        "장르"
+      ],
+      "example": "Science fiction is her favorite genre of literature.",
+      "exampleKo": "공상 과학 소설은 그녀가 가장 좋아하는 문학 장르이다.",
+      "emoji": ""
+    },
+    {
+      "word": "grant",
+      "pos": "n",
+      "meanings": [
+        "보조금",
+        "연구비"
+      ],
+      "example": "The university received a large grant to fund climate research.",
+      "exampleKo": "그 대학은 기후 연구 자금을 위한 큰 보조금을 받았다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "illustration",
+      "pos": "n",
+      "meanings": [
+        "삽화",
+        "예시"
+      ],
+      "example": "The textbook includes a helpful illustration of the human heart.",
+      "exampleKo": "그 교과서에는 인간의 심장에 대한 유용한 삽화가 포함되어 있다.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "index",
+      "pos": "n",
+      "meanings": [
+        "색인"
+      ],
+      "example": "You can find the exact page number in the index at the back.",
+      "exampleKo": "뒤쪽 색인에서 정확한 쪽수를 찾을 수 있다.",
+      "emoji": "📇"
+    },
+    {
+      "word": "inquiry",
+      "pos": "n",
+      "meanings": [
+        "질문",
+        "탐구"
+      ],
+      "example": "The course promotes scientific inquiry through hands-on projects.",
+      "exampleKo": "그 강좌는 실습 프로젝트를 통해 과학적 탐구를 장려한다.",
+      "emoji": ""
+    },
+    {
+      "word": "institute",
+      "pos": "n",
+      "meanings": [
+        "협회",
+        "연구소"
+      ],
+      "example": "He works at a research institute that studies renewable energy.",
+      "exampleKo": "그는 재생 에너지를 연구하는 연구소에서 일한다.",
+      "emoji": ""
+    },
+    {
+      "word": "institution",
+      "pos": "n",
+      "meanings": [
+        "기관"
+      ],
+      "example": "The university is one of the oldest academic institutions in the country.",
+      "exampleKo": "그 대학교는 그 나라에서 가장 오래된 학문 기관 중 하나이다.",
+      "emoji": ""
+    },
+    {
+      "word": "instruct",
+      "pos": "v",
+      "meanings": [
+        "가르치다",
+        "지시하다"
+      ],
+      "example": "The manual instructs students on how to use the equipment safely.",
+      "exampleKo": "그 설명서는 학생들에게 장비를 안전하게 사용하는 방법을 알려준다.",
+      "emoji": ""
+    },
+    {
+      "word": "instruction",
+      "pos": "n",
+      "meanings": [
+        "지시",
+        "설명"
+      ],
+      "example": "Follow the instructions carefully before starting the experiment.",
+      "exampleKo": "실험을 시작하기 전에 지시 사항을 주의 깊게 따르라.",
+      "emoji": ""
+    },
+    {
+      "word": "chronicle",
+      "pos": "v",
+      "meanings": [
+        "연대순으로 기록하다",
+        "기록하다"
+      ],
+      "example": "The documentary chronicles the history of the university over two centuries.",
+      "exampleKo": "그 다큐멘터리는 그 대학의 200년 역사를 연대순으로 기록한다.",
+      "emoji": ""
+    },
+    {
+      "word": "investigation",
+      "pos": "n",
+      "meanings": [
+        "조사"
+      ],
+      "example": "The investigation revealed several flaws in the original theory.",
+      "exampleKo": "그 조사는 원래 이론의 여러 결함을 밝혀냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "journal",
+      "pos": "n",
+      "meanings": [
+        "학술지",
+        "저널"
+      ],
+      "example": "Her paper was published in a leading scientific journal.",
+      "exampleKo": "그녀의 논문은 유수의 과학 학술지에 게재되었다.",
+      "emoji": "📓"
+    },
+    {
+      "word": "lecturer",
+      "pos": "n",
+      "meanings": [
+        "강사"
+      ],
+      "example": "The guest lecturer shared her experience working abroad.",
+      "exampleKo": "그 초청 강사는 해외에서 일한 경험을 나누었다.",
+      "emoji": "👨‍🏫"
+    },
+    {
+      "word": "literacy",
+      "pos": "n",
+      "meanings": [
+        "문해력",
+        "읽고 쓰는 능력"
+      ],
+      "example": "The program aims to improve literacy among young children.",
+      "exampleKo": "그 프로그램은 어린이들의 문해력을 향상시키는 것을 목표로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "manuscript",
+      "pos": "n",
+      "meanings": [
+        "원고"
+      ],
+      "example": "The editor reviewed the manuscript before sending it for publication.",
+      "exampleKo": "편집자는 출판을 위해 보내기 전에 원고를 검토했다.",
+      "emoji": "📃"
+    },
+    {
+      "word": "methodology",
+      "pos": "n",
+      "meanings": [
+        "방법론"
+      ],
+      "example": "The paper explains the methodology used to collect data.",
+      "exampleKo": "그 논문은 자료 수집에 사용된 방법론을 설명한다.",
+      "emoji": ""
+    },
+    {
+      "word": "module",
+      "pos": "n",
+      "meanings": [
+        "모듈",
+        "학습 단위"
+      ],
+      "example": "The online course is divided into ten separate modules.",
+      "exampleKo": "그 온라인 강좌는 열 개의 별도 모듈로 나뉘어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "observation",
+      "pos": "n",
+      "meanings": [
+        "관찰"
+      ],
+      "example": "The biologist recorded her observations in a small notebook.",
+      "exampleKo": "그 생물학자는 자신의 관찰 내용을 작은 공책에 기록했다.",
+      "emoji": ""
+    },
+    {
+      "word": "paragraph",
+      "pos": "n",
+      "meanings": [
+        "문단"
+      ],
+      "example": "Each paragraph should focus on a single main idea.",
+      "exampleKo": "각 문단은 하나의 중심 생각에 초점을 맞추어야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "participant",
+      "pos": "n",
+      "meanings": [
+        "참가자"
+      ],
+      "example": "Each participant answered a series of questions about their habits.",
+      "exampleKo": "각 참가자는 자신의 습관에 관한 일련의 질문에 답했다.",
+      "emoji": ""
+    },
+    {
+      "word": "peer",
+      "pos": "n",
+      "meanings": [
+        "또래",
+        "동료"
+      ],
+      "example": "The article was reviewed by several peer scientists before publication.",
+      "exampleKo": "그 논문은 출판 전에 여러 동료 과학자들의 심사를 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "plagiarism",
+      "pos": "n",
+      "meanings": [
+        "표절"
+      ],
+      "example": "The university has strict rules against plagiarism in student papers.",
+      "exampleKo": "그 대학교는 학생 논문의 표절에 대해 엄격한 규정을 두고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "postgraduate",
+      "pos": "n",
+      "meanings": [
+        "대학원생"
+      ],
+      "example": "She continued her studies as a postgraduate after finishing college.",
+      "exampleKo": "그녀는 대학을 마친 후 대학원생으로서 학업을 계속했다.",
+      "emoji": ""
+    },
+    {
+      "word": "proceeding",
+      "pos": "n",
+      "meanings": [
+        "(학회) 회보",
+        "진행 과정"
+      ],
+      "example": "The conference proceedings were published online for other researchers.",
+      "exampleKo": "학회 회보는 다른 연구자들을 위해 온라인으로 게재되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "proposal",
+      "pos": "n",
+      "meanings": [
+        "제안서",
+        "연구 계획서"
+      ],
+      "example": "The committee approved her research proposal after several revisions.",
+      "exampleKo": "위원회는 몇 차례 수정을 거친 후 그녀의 연구 계획서를 승인했다.",
+      "emoji": ""
+    },
+    {
+      "word": "publication",
+      "pos": "n",
+      "meanings": [
+        "출판",
+        "간행물"
+      ],
+      "example": "The scholar has more than fifty publications to her name.",
+      "exampleKo": "그 학자는 자신의 이름으로 낸 간행물이 50편이 넘는다.",
+      "emoji": ""
+    },
+    {
+      "word": "publish",
+      "pos": "v",
+      "meanings": [
+        "출판하다",
+        "게재하다"
+      ],
+      "example": "The team plans to publish their results next month.",
+      "exampleKo": "그 연구팀은 다음 달에 결과를 게재할 계획이다.",
+      "emoji": ""
+    },
+    {
+      "word": "quotation",
+      "pos": "n",
+      "meanings": [
+        "인용문"
+      ],
+      "example": "The essay opens with a famous quotation from a philosopher.",
+      "exampleKo": "그 에세이는 한 철학자의 유명한 인용문으로 시작한다.",
+      "emoji": ""
+    },
+    {
+      "word": "reference",
+      "pos": "n",
+      "meanings": [
+        "참고 문헌",
+        "참고"
+      ],
+      "example": "Add a full reference list at the end of your report.",
+      "exampleKo": "보고서 끝에 전체 참고 문헌 목록을 추가하라.",
+      "emoji": ""
+    },
+    {
+      "word": "register",
+      "pos": "v",
+      "meanings": [
+        "등록하다"
+      ],
+      "example": "New students must register for classes before the semester begins.",
+      "exampleKo": "신입생들은 학기가 시작되기 전에 수업에 등록해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "registration",
+      "pos": "n",
+      "meanings": [
+        "등록"
+      ],
+      "example": "Course registration opens online next Monday.",
+      "exampleKo": "수강 등록은 다음 주 월요일에 온라인으로 시작된다.",
+      "emoji": ""
+    },
+    {
+      "word": "rigorous",
+      "pos": "adj",
+      "meanings": [
+        "엄격한",
+        "철저한"
+      ],
+      "example": "The graduate program is known for its rigorous requirements.",
+      "exampleKo": "그 대학원 과정은 엄격한 요건으로 알려져 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "scholar",
+      "pos": "n",
+      "meanings": [
+        "학자"
+      ],
+      "example": "The scholar devoted his career to studying medieval literature.",
+      "exampleKo": "그 학자는 중세 문학을 연구하는 데 자신의 경력을 바쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "scholarly",
+      "pos": "adj",
+      "meanings": [
+        "학문적인"
+      ],
+      "example": "The journal publishes only scholarly articles reviewed by experts.",
+      "exampleKo": "그 학술지는 전문가의 검토를 거친 학문적인 논문만 게재한다.",
+      "emoji": ""
+    },
+    {
+      "word": "seminar",
+      "pos": "n",
+      "meanings": [
+        "세미나"
+      ],
+      "example": "The graduate seminar meets once a week to discuss recent research.",
+      "exampleKo": "그 대학원 세미나는 최근 연구를 논의하기 위해 일주일에 한 번 모인다.",
+      "emoji": ""
+    },
+    {
+      "word": "session",
+      "pos": "n",
+      "meanings": [
+        "수업 시간",
+        "회기"
+      ],
+      "example": "The tutoring session focused on solving math problems.",
+      "exampleKo": "그 개인 지도 시간은 수학 문제를 푸는 데 집중되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "source",
+      "pos": "n",
+      "meanings": [
+        "출처",
+        "자료"
+      ],
+      "example": "Always check whether your source is reliable before citing it.",
+      "exampleKo": "인용하기 전에 항상 출처가 신뢰할 만한지 확인하라.",
+      "emoji": ""
+    },
+    {
+      "word": "specimen",
+      "pos": "n",
+      "meanings": [
+        "표본"
+      ],
+      "example": "The students examined a leaf specimen under the microscope.",
+      "exampleKo": "학생들은 현미경으로 나뭇잎 표본을 관찰했다.",
+      "emoji": "🔬"
+    },
+    {
+      "word": "statistics",
+      "pos": "n",
+      "meanings": [
+        "통계학",
+        "통계"
+      ],
+      "example": "He is taking a statistics course to support his research.",
+      "exampleKo": "그는 자신의 연구를 뒷받침하기 위해 통계학 강좌를 듣고 있다.",
+      "emoji": "📊"
+    },
+    {
+      "word": "statistical",
+      "pos": "adj",
+      "meanings": [
+        "통계적인"
+      ],
+      "example": "The results showed a statistical difference between the two groups.",
+      "exampleKo": "그 결과는 두 집단 사이에 통계적인 차이가 있음을 보여주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "submission",
+      "pos": "n",
+      "meanings": [
+        "제출"
+      ],
+      "example": "The deadline for paper submission was extended by one week.",
+      "exampleKo": "논문 제출 마감일이 일주일 연장되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "supervise",
+      "pos": "v",
+      "meanings": [
+        "감독하다",
+        "지도하다"
+      ],
+      "example": "A senior researcher will supervise the student's thesis project.",
+      "exampleKo": "선임 연구원이 그 학생의 논문 프로젝트를 지도할 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "supervisor",
+      "pos": "n",
+      "meanings": [
+        "지도교수",
+        "감독자"
+      ],
+      "example": "She met with her supervisor to discuss her progress.",
+      "exampleKo": "그녀는 진행 상황을 논의하기 위해 지도교수를 만났다.",
+      "emoji": ""
+    },
+    {
+      "word": "survey",
+      "pos": "n",
+      "meanings": [
+        "설문조사"
+      ],
+      "example": "The survey asked students about their study habits.",
+      "exampleKo": "그 설문조사는 학생들에게 학습 습관에 대해 물었다.",
+      "emoji": ""
+    },
+    {
+      "word": "synthesis",
+      "pos": "n",
+      "meanings": [
+        "종합",
+        "통합"
+      ],
+      "example": "The final chapter offers a synthesis of all the previous findings.",
+      "exampleKo": "마지막 장은 이전의 모든 연구 결과에 대한 종합을 제시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "terminology",
+      "pos": "n",
+      "meanings": [
+        "전문 용어"
+      ],
+      "example": "Medical terminology can be confusing for new students.",
+      "exampleKo": "의학 전문 용어는 신입 학생들에게 혼란스러울 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "theorem",
+      "pos": "n",
+      "meanings": [
+        "정리(定理)"
+      ],
+      "example": "The class spent an entire lesson proving the famous theorem.",
+      "exampleKo": "그 학급은 그 유명한 정리를 증명하는 데 한 수업 전체를 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "tuition",
+      "pos": "n",
+      "meanings": [
+        "수업료",
+        "교습"
+      ],
+      "example": "University tuition has risen sharply over the past few years.",
+      "exampleKo": "대학 수업료는 지난 몇 년 동안 급격히 상승했다.",
+      "emoji": "💸"
+    },
+    {
+      "word": "tutorial",
+      "pos": "n",
+      "meanings": [
+        "지도 시간",
+        "강습"
+      ],
+      "example": "She attended a tutorial to review the previous lecture.",
+      "exampleKo": "그녀는 지난 강의를 복습하기 위해 지도 시간에 참석했다.",
+      "emoji": ""
+    },
+    {
+      "word": "undergraduate",
+      "pos": "n",
+      "meanings": [
+        "학부생"
+      ],
+      "example": "Many undergraduates work part-time while attending classes.",
+      "exampleKo": "많은 학부생들이 수업을 들으면서 시간제로 일한다.",
+      "emoji": ""
+    },
+    {
+      "word": "replicate",
+      "pos": "v",
+      "meanings": [
+        "복제하다",
+        "재현하다"
+      ],
+      "example": "Other laboratories were unable to replicate the original results.",
+      "exampleKo": "다른 실험실들은 원래의 결과를 재현할 수 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "framework",
+      "pos": "n",
+      "meanings": [
+        "틀",
+        "체계"
+      ],
+      "example": "The essay uses a simple framework to compare the two theories.",
+      "exampleKo": "그 에세이는 두 이론을 비교하기 위해 간단한 틀을 사용한다.",
+      "emoji": ""
+    },
+    {
+      "word": "paradigm",
+      "pos": "n",
+      "meanings": [
+        "패러다임",
+        "전형적인 사례"
+      ],
+      "example": "The discovery led to a paradigm shift in modern physics.",
+      "exampleKo": "그 발견은 현대 물리학에서 패러다임의 전환을 가져왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "qualitative",
+      "pos": "adj",
+      "meanings": [
+        "질적인"
+      ],
+      "example": "The researchers used qualitative interviews rather than a survey.",
+      "exampleKo": "연구자들은 설문조사 대신 질적인 인터뷰를 활용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "quantitative",
+      "pos": "adj",
+      "meanings": [
+        "양적인"
+      ],
+      "example": "The study relies heavily on quantitative data from test scores.",
+      "exampleKo": "그 연구는 시험 점수에서 나온 양적인 자료에 크게 의존한다.",
+      "emoji": ""
+    },
+    {
+      "word": "longitudinal",
+      "pos": "adj",
+      "meanings": [
+        "종단적인"
+      ],
+      "example": "A longitudinal study followed the same students for ten years.",
+      "exampleKo": "한 종단 연구는 같은 학생들을 10년 동안 추적했다.",
+      "emoji": ""
+    },
+    {
+      "word": "academia",
+      "pos": "n",
+      "meanings": [
+        "학계"
+      ],
+      "example": "After finishing her doctorate, she decided to stay in academia rather than join a company.",
+      "exampleKo": "박사 학위를 마친 후 그녀는 회사에 들어가는 대신 학계에 남기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "admission",
+      "pos": "n",
+      "meanings": [
+        "입학",
+        "입학 허가"
+      ],
+      "example": "His admission to the university depended largely on his entrance exam score.",
+      "exampleKo": "그의 대학 입학은 주로 입학시험 점수에 달려 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "advisor",
+      "pos": "n",
+      "meanings": [
+        "지도교수",
+        "조언자"
+      ],
+      "example": "Her academic advisor helped her choose the right courses for her major.",
+      "exampleKo": "그녀의 지도교수는 전공에 맞는 과목을 선택하도록 도와주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "annotate",
+      "pos": "v",
+      "meanings": [
+        "주석을 달다"
+      ],
+      "example": "Students were asked to annotate the poem, marking key images and ideas.",
+      "exampleKo": "학생들은 주요 이미지와 생각을 표시하며 그 시에 주석을 달라는 요청을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "annotation",
+      "pos": "n",
+      "meanings": [
+        "주석"
+      ],
+      "example": "His annotations in the margins helped him remember the main points later.",
+      "exampleKo": "여백에 적은 그의 주석은 나중에 주요 요점을 기억하는 데 도움이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "anthology",
+      "pos": "n",
+      "meanings": [
+        "선집",
+        "작품집"
+      ],
+      "example": "The class read short stories from a well-known anthology of world literature.",
+      "exampleKo": "그 학급은 잘 알려진 세계 문학 선집에서 단편 소설을 읽었다.",
+      "emoji": ""
+    },
+    {
+      "word": "aptitude",
+      "pos": "n",
+      "meanings": [
+        "소질",
+        "적성"
+      ],
+      "example": "He showed a natural aptitude for mathematics from an early age.",
+      "exampleKo": "그는 어릴 때부터 수학에 타고난 소질을 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "benchmark",
+      "pos": "n",
+      "meanings": [
+        "기준",
+        "척도"
+      ],
+      "example": "The test scores serve as a benchmark for measuring student progress.",
+      "exampleKo": "그 시험 점수는 학생의 발전을 측정하는 기준이 된다.",
+      "emoji": "📏"
+    },
+    {
+      "word": "biography",
+      "pos": "n",
+      "meanings": [
+        "전기(傳記)"
+      ],
+      "example": "For the assignment, she wrote a short biography of a famous scientist.",
+      "exampleKo": "그 과제로 그녀는 유명한 과학자에 대한 짧은 전기를 썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "breakthrough",
+      "pos": "n",
+      "meanings": [
+        "획기적인 발전",
+        "돌파구"
+      ],
+      "example": "The team announced a major breakthrough in cancer research.",
+      "exampleKo": "그 연구팀은 암 연구에서 획기적인 발전을 발표했다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "calculus",
+      "pos": "n",
+      "meanings": [
+        "미적분학"
+      ],
+      "example": "He struggled with calculus until his tutor explained it step by step.",
+      "exampleKo": "그는 개인 지도교사가 단계별로 설명해 줄 때까지 미적분학을 어려워했다.",
+      "emoji": "📐"
+    },
+    {
+      "word": "clarification",
+      "pos": "n",
+      "meanings": [
+        "설명",
+        "해명"
+      ],
+      "example": "The student raised her hand to ask for clarification on the assignment.",
+      "exampleKo": "그 학생은 과제에 대한 설명을 요청하기 위해 손을 들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "coherence",
+      "pos": "n",
+      "meanings": [
+        "일관성",
+        "통일성"
+      ],
+      "example": "The essay lacked coherence, jumping from one idea to another.",
+      "exampleKo": "그 에세이는 일관성이 부족해서 이 생각에서 저 생각으로 넘어갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "collaboration",
+      "pos": "n",
+      "meanings": [
+        "협업",
+        "공동 작업"
+      ],
+      "example": "The discovery was the result of close collaboration between two laboratories.",
+      "exampleKo": "그 발견은 두 실험실 간의 긴밀한 협업의 결과였다.",
+      "emoji": ""
+    },
+    {
+      "word": "commentary",
+      "pos": "n",
+      "meanings": [
+        "논평",
+        "해설"
+      ],
+      "example": "The textbook includes a brief commentary after each historical event.",
+      "exampleKo": "그 교과서는 각 역사적 사건 뒤에 짧은 해설을 포함하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "comparative",
+      "pos": "adj",
+      "meanings": [
+        "비교의",
+        "비교적인"
+      ],
+      "example": "The professor teaches a comparative study of Eastern and Western philosophy.",
+      "exampleKo": "그 교수는 동양 철학과 서양 철학에 대한 비교 연구를 가르친다.",
+      "emoji": ""
+    },
+    {
+      "word": "conceptual",
+      "pos": "adj",
+      "meanings": [
+        "개념적인"
+      ],
+      "example": "The lecture focused on the conceptual foundations of modern economics.",
+      "exampleKo": "그 강의는 현대 경제학의 개념적 토대에 초점을 맞추었다.",
+      "emoji": ""
+    },
+    {
+      "word": "coordinate",
+      "pos": "v",
+      "meanings": [
+        "조정하다",
+        "조직하다"
+      ],
+      "example": "The department head coordinates research projects across several teams.",
+      "exampleKo": "학과장은 여러 팀에 걸친 연구 프로젝트를 조정한다.",
+      "emoji": ""
+    },
+    {
+      "word": "correspondence",
+      "pos": "n",
+      "meanings": [
+        "서신",
+        "일치"
+      ],
+      "example": "Historians studied the correspondence between the two scholars for new insights.",
+      "exampleKo": "역사학자들은 새로운 통찰을 얻기 위해 두 학자 사이의 서신을 연구했다.",
+      "emoji": ""
+    },
+    {
+      "word": "credential",
+      "pos": "n",
+      "meanings": [
+        "자격",
+        "자격증"
+      ],
+      "example": "A teaching credential is required before you can work in a public school.",
+      "exampleKo": "공립학교에서 일하기 전에 교사 자격증이 필요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "curricular",
+      "pos": "adj",
+      "meanings": [
+        "교육 과정의"
+      ],
+      "example": "The school added several extra-curricular clubs alongside its curricular subjects.",
+      "exampleKo": "그 학교는 교육 과정 과목과 더불어 여러 과외 동아리를 추가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "demography",
+      "pos": "n",
+      "meanings": [
+        "인구 통계학"
+      ],
+      "example": "The course examines how demography affects economic development.",
+      "exampleKo": "그 강좌는 인구 통계학이 경제 발전에 어떻게 영향을 미치는지 살펴본다.",
+      "emoji": ""
+    },
+    {
+      "word": "derivative",
+      "pos": "n",
+      "meanings": [
+        "파생물",
+        "도함수"
+      ],
+      "example": "Students learned how to find the derivative of a simple function.",
+      "exampleKo": "학생들은 간단한 함수의 도함수를 구하는 법을 배웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "descriptive",
+      "pos": "adj",
+      "meanings": [
+        "기술적인",
+        "묘사하는"
+      ],
+      "example": "The report uses descriptive statistics to summarize the survey results.",
+      "exampleKo": "그 보고서는 설문 결과를 요약하기 위해 기술 통계를 사용한다.",
+      "emoji": ""
+    },
+    {
+      "word": "detection",
+      "pos": "n",
+      "meanings": [
+        "탐지",
+        "발견"
+      ],
+      "example": "Early detection of the error saved the researchers a great deal of time.",
+      "exampleKo": "그 오류의 조기 발견은 연구자들에게 많은 시간을 절약해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "diagram",
+      "pos": "n",
+      "meanings": [
+        "도표",
+        "도해"
+      ],
+      "example": "The teacher drew a diagram to show how blood flows through the heart.",
+      "exampleKo": "교사는 혈액이 심장을 통해 어떻게 흐르는지 보여주기 위해 도표를 그렸다.",
+      "emoji": "📊"
+    },
+    {
+      "word": "diploma",
+      "pos": "n",
+      "meanings": [
+        "졸업장",
+        "수료증"
+      ],
+      "example": "She proudly displayed her diploma on the wall of her office.",
+      "exampleKo": "그녀는 사무실 벽에 자신의 졸업장을 자랑스럽게 걸어 두었다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "disciplinary",
+      "pos": "adj",
+      "meanings": [
+        "학과의",
+        "학문 분야의"
+      ],
+      "example": "Traditional disciplinary boundaries make it hard for biologists and chemists to collaborate.",
+      "exampleKo": "전통적인 학문 분야의 경계 때문에 생물학자와 화학자가 협력하기 어렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "doctoral",
+      "pos": "adj",
+      "meanings": [
+        "박사의"
+      ],
+      "example": "He is currently completing his doctoral studies in physics.",
+      "exampleKo": "그는 현재 물리학 박사 과정을 마치는 중이다.",
+      "emoji": ""
+    },
+    {
+      "word": "doctrine",
+      "pos": "n",
+      "meanings": [
+        "교리",
+        "학설"
+      ],
+      "example": "The seminar traced the development of a major economic doctrine.",
+      "exampleKo": "그 세미나는 주요 경제 학설의 발전 과정을 추적했다.",
+      "emoji": ""
+    },
+    {
+      "word": "edition",
+      "pos": "n",
+      "meanings": [
+        "판(版)"
+      ],
+      "example": "The library purchased the latest edition of the encyclopedia.",
+      "exampleKo": "그 도서관은 최신판 백과사전을 구입했다.",
+      "emoji": ""
+    },
+    {
+      "word": "elective",
+      "pos": "n",
+      "meanings": [
+        "선택 과목"
+      ],
+      "example": "Students may choose one elective in addition to their required courses.",
+      "exampleKo": "학생들은 필수 과목 외에 선택 과목을 하나 고를 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "encyclopedia",
+      "pos": "n",
+      "meanings": [
+        "백과사전"
+      ],
+      "example": "She looked up the term in an online encyclopedia before her presentation.",
+      "exampleKo": "그녀는 발표 전에 온라인 백과사전에서 그 용어를 찾아보았다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "enlighten",
+      "pos": "v",
+      "meanings": [
+        "깨우치다",
+        "이해시키다"
+      ],
+      "example": "The lecture enlightened students about the true causes of the war.",
+      "exampleKo": "그 강의는 학생들에게 그 전쟁의 진정한 원인을 깨우쳐 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "ethic",
+      "pos": "n",
+      "meanings": [
+        "윤리"
+      ],
+      "example": "The seminar discussed research ethic and the responsible use of data.",
+      "exampleKo": "그 세미나는 연구 윤리와 자료의 책임 있는 사용에 대해 논의했다.",
+      "emoji": ""
+    },
+    {
+      "word": "evaluative",
+      "pos": "adj",
+      "meanings": [
+        "평가의"
+      ],
+      "example": "The teacher gave evaluative feedback on each student's presentation.",
+      "exampleKo": "교사는 각 학생의 발표에 대해 평가적인 피드백을 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "examiner",
+      "pos": "n",
+      "meanings": [
+        "시험관",
+        "심사관"
+      ],
+      "example": "The oral exam examiner asked several follow-up questions.",
+      "exampleKo": "그 구술시험 시험관은 여러 추가 질문을 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "exhibition",
+      "pos": "n",
+      "meanings": [
+        "전시회"
+      ],
+      "example": "The art students organized an exhibition of their final projects.",
+      "exampleKo": "미술 전공 학생들은 자신들의 기말 프로젝트 전시회를 열었다.",
+      "emoji": "🖼️"
+    },
+    {
+      "word": "expound",
+      "pos": "v",
+      "meanings": [
+        "상세히 설명하다"
+      ],
+      "example": "The professor expounded his theory in a two-hour lecture.",
+      "exampleKo": "그 교수는 두 시간짜리 강의에서 자신의 이론을 상세히 설명했다.",
+      "emoji": ""
+    },
+    {
+      "word": "fellowship",
+      "pos": "n",
+      "meanings": [
+        "연구비",
+        "장학 제도"
+      ],
+      "example": "She was awarded a fellowship to conduct research abroad.",
+      "exampleKo": "그녀는 해외에서 연구를 수행하기 위한 연구비를 받았다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "fieldwork",
+      "pos": "n",
+      "meanings": [
+        "현장 조사"
+      ],
+      "example": "The anthropologist spent a year doing fieldwork in a remote village.",
+      "exampleKo": "그 인류학자는 외딴 마을에서 현장 조사를 하며 1년을 보냈다.",
+      "emoji": "🌾"
+    },
+    {
+      "word": "freshman",
+      "pos": "n",
+      "meanings": [
+        "신입생"
+      ],
+      "example": "As a freshman, she felt nervous about her first college lecture.",
+      "exampleKo": "신입생으로서 그녀는 첫 대학 강의를 앞두고 긴장했다.",
+      "emoji": "🐣"
+    },
+    {
+      "word": "glossary",
+      "pos": "n",
+      "meanings": [
+        "용어 해설집"
+      ],
+      "example": "Check the glossary at the back if you don't know a term.",
+      "exampleKo": "모르는 용어가 있으면 뒤쪽의 용어 해설집을 확인하라.",
+      "emoji": ""
+    },
+    {
+      "word": "honors",
+      "pos": "n",
+      "meanings": [
+        "우등",
+        "우등 학위"
+      ],
+      "example": "He graduated with honors after maintaining a high grade average.",
+      "exampleKo": "그는 높은 평점을 유지하여 우등으로 졸업했다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "illustrative",
+      "pos": "adj",
+      "meanings": [
+        "예시가 되는",
+        "설명적인"
+      ],
+      "example": "The teacher provided an illustrative case to make the theory easier to grasp.",
+      "exampleKo": "교사는 그 이론을 더 쉽게 이해하도록 예시가 되는 사례를 제시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "indication",
+      "pos": "n",
+      "meanings": [
+        "징후",
+        "암시"
+      ],
+      "example": "There was no clear indication of why the results changed so suddenly.",
+      "exampleKo": "결과가 왜 그렇게 갑자기 바뀌었는지 명확한 징후가 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "innovate",
+      "pos": "v",
+      "meanings": [
+        "혁신하다"
+      ],
+      "example": "The engineering program encourages students to innovate rather than memorize.",
+      "exampleKo": "그 공학 프로그램은 학생들이 암기하기보다 혁신하도록 장려한다.",
+      "emoji": ""
+    },
+    {
+      "word": "inspect",
+      "pos": "v",
+      "meanings": [
+        "점검하다",
+        "검사하다"
+      ],
+      "example": "The lab assistant inspects each sample before recording the results.",
+      "exampleKo": "그 실험 조교는 결과를 기록하기 전에 각 시료를 검사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "inspection",
+      "pos": "n",
+      "meanings": [
+        "점검",
+        "검사"
+      ],
+      "example": "A careful inspection of the data revealed a small calculation error.",
+      "exampleKo": "자료를 꼼꼼히 점검한 결과 작은 계산 오류가 드러났다.",
+      "emoji": ""
+    },
+    {
+      "word": "instructional",
+      "pos": "adj",
+      "meanings": [
+        "교육용의",
+        "지도의"
+      ],
+      "example": "The school developed new instructional materials for online classes.",
+      "exampleKo": "그 학교는 온라인 수업을 위한 새로운 교육용 자료를 개발했다.",
+      "emoji": ""
+    },
+    {
+      "word": "intellect",
+      "pos": "n",
+      "meanings": [
+        "지성",
+        "지력"
+      ],
+      "example": "The novel explores the intellect and imagination of its young hero.",
+      "exampleKo": "그 소설은 어린 주인공의 지성과 상상력을 탐구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "intellectual",
+      "pos": "adj",
+      "meanings": [
+        "지적인"
+      ],
+      "example": "The debate club fosters intellectual growth through structured argument.",
+      "exampleKo": "그 토론 동아리는 체계적인 논쟁을 통해 지적 성장을 촉진한다.",
+      "emoji": ""
+    },
+    {
+      "word": "intelligible",
+      "pos": "adj",
+      "meanings": [
+        "이해하기 쉬운"
+      ],
+      "example": "The professor made a complex theory intelligible to first-year students.",
+      "exampleKo": "그 교수는 복잡한 이론을 1학년 학생들이 이해하기 쉽게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "intensive",
+      "pos": "adj",
+      "meanings": [
+        "집중적인"
+      ],
+      "example": "She took an intensive summer course to prepare for the exam.",
+      "exampleKo": "그녀는 시험을 준비하기 위해 집중적인 여름 강좌를 들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "interdisciplinary",
+      "pos": "adj",
+      "meanings": [
+        "학제간의"
+      ],
+      "example": "The new degree combines biology and computer science in an interdisciplinary program.",
+      "exampleKo": "그 새로운 학위 과정은 학제간 프로그램으로 생물학과 컴퓨터 과학을 결합한다.",
+      "emoji": ""
+    },
+    {
+      "word": "intern",
+      "pos": "n",
+      "meanings": [
+        "인턴",
+        "실습생"
+      ],
+      "example": "The lab hired two interns to help with the summer research project.",
+      "exampleKo": "그 실험실은 여름 연구 프로젝트를 돕기 위해 인턴 두 명을 채용했다.",
+      "emoji": "💼"
+    },
+    {
+      "word": "internship",
+      "pos": "n",
+      "meanings": [
+        "인턴십",
+        "실습"
+      ],
+      "example": "Her internship at the museum gave her valuable research experience.",
+      "exampleKo": "그 박물관에서의 인턴십은 그녀에게 귀중한 연구 경험을 주었다.",
+      "emoji": "💼"
+    },
+    {
+      "word": "interval",
+      "pos": "n",
+      "meanings": [
+        "간격",
+        "시간"
+      ],
+      "example": "The researchers measured temperature at regular intervals throughout the day.",
+      "exampleKo": "연구자들은 하루 동안 일정한 간격으로 온도를 측정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "introductory",
+      "pos": "adj",
+      "meanings": [
+        "입문의",
+        "서론의"
+      ],
+      "example": "The introductory chapter outlines the goals of the entire textbook.",
+      "exampleKo": "그 서론 장은 교과서 전체의 목표를 개괄한다.",
+      "emoji": ""
+    },
+    {
+      "word": "keynote",
+      "pos": "n",
+      "meanings": [
+        "기조연설"
+      ],
+      "example": "A famous scientist delivered the keynote at the conference.",
+      "exampleKo": "한 유명한 과학자가 그 학회에서 기조연설을 했다.",
+      "emoji": "🎤"
+    },
+    {
+      "word": "knowledgeable",
+      "pos": "adj",
+      "meanings": [
+        "박식한",
+        "아는 것이 많은"
+      ],
+      "example": "The tutor was knowledgeable about every topic on the exam.",
+      "exampleKo": "그 개인 지도교사는 시험에 나오는 모든 주제에 대해 박식했다.",
+      "emoji": ""
+    },
+    {
+      "word": "layout",
+      "pos": "n",
+      "meanings": [
+        "배치",
+        "구성"
+      ],
+      "example": "The report's layout makes it easy to find each section quickly.",
+      "exampleKo": "그 보고서의 구성은 각 부분을 빨리 찾기 쉽게 만든다.",
+      "emoji": ""
+    },
+    {
+      "word": "learner",
+      "pos": "n",
+      "meanings": [
+        "학습자"
+      ],
+      "example": "The app is designed for learners at every level of English.",
+      "exampleKo": "그 앱은 모든 수준의 영어 학습자를 위해 설계되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "lexicon",
+      "pos": "n",
+      "meanings": [
+        "어휘 목록",
+        "용어집"
+      ],
+      "example": "Scientists must master the specific lexicon of their field.",
+      "exampleKo": "과학자들은 자기 분야의 특정 용어집을 숙달해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "linguistics",
+      "pos": "n",
+      "meanings": [
+        "언어학"
+      ],
+      "example": "She majored in linguistics because she loved comparing languages.",
+      "exampleKo": "그녀는 언어를 비교하는 것을 좋아해서 언어학을 전공했다.",
+      "emoji": ""
+    },
+    {
+      "word": "literary",
+      "pos": "adj",
+      "meanings": [
+        "문학의"
+      ],
+      "example": "The class analyzed the literary devices used in the short story.",
+      "exampleKo": "그 학급은 그 단편 소설에 쓰인 문학적 기법을 분석했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mathematician",
+      "pos": "n",
+      "meanings": [
+        "수학자"
+      ],
+      "example": "The mathematician proved a theorem that had puzzled scholars for decades.",
+      "exampleKo": "그 수학자는 수십 년 동안 학자들을 어리둥절하게 했던 정리를 증명했다.",
+      "emoji": "🔢"
+    },
+    {
+      "word": "practicum",
+      "pos": "n",
+      "meanings": [
+        "실습 과정"
+      ],
+      "example": "Education majors must complete a classroom practicum before graduation.",
+      "exampleKo": "교육학 전공생들은 졸업 전에 교실 실습 과정을 마쳐야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "mentorship",
+      "pos": "n",
+      "meanings": [
+        "멘토링",
+        "지도"
+      ],
+      "example": "The program pairs new students with senior researchers for mentorship.",
+      "exampleKo": "그 프로그램은 멘토링을 위해 신입생들을 선임 연구원들과 짝지어 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "methodical",
+      "pos": "adj",
+      "meanings": [
+        "체계적인",
+        "조직적인"
+      ],
+      "example": "His methodical approach to research rarely leaves room for error.",
+      "exampleKo": "그의 체계적인 연구 접근 방식은 오류의 여지를 거의 남기지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "misconception",
+      "pos": "n",
+      "meanings": [
+        "오해",
+        "잘못된 개념"
+      ],
+      "example": "The lecture aimed to correct a common misconception about evolution.",
+      "exampleKo": "그 강의는 진화에 관한 흔한 오해를 바로잡는 것을 목표로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "narrative",
+      "pos": "n",
+      "meanings": [
+        "서술",
+        "이야기"
+      ],
+      "example": "The historian offers a new narrative of the country's founding.",
+      "exampleKo": "그 역사학자는 그 나라의 건국에 관한 새로운 서술을 제시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "notation",
+      "pos": "n",
+      "meanings": [
+        "표기법"
+      ],
+      "example": "Scientific notation makes it easier to write extremely large numbers.",
+      "exampleKo": "과학적 표기법은 매우 큰 숫자를 쓰기 더 쉽게 만들어 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "objectivity",
+      "pos": "n",
+      "meanings": [
+        "객관성"
+      ],
+      "example": "Good journalism requires objectivity when reporting controversial issues.",
+      "exampleKo": "훌륭한 언론은 논란이 되는 사안을 보도할 때 객관성을 필요로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "observational",
+      "pos": "adj",
+      "meanings": [
+        "관찰의"
+      ],
+      "example": "The team relied on observational data rather than controlled experiments.",
+      "exampleKo": "그 팀은 통제된 실험보다는 관찰 자료에 의존했다.",
+      "emoji": ""
+    },
+    {
+      "word": "orientation",
+      "pos": "n",
+      "meanings": [
+        "오리엔테이션",
+        "방향 설정"
+      ],
+      "example": "New students attended an orientation before the first day of classes.",
+      "exampleKo": "신입생들은 수업 첫날 전에 오리엔테이션에 참석했다.",
+      "emoji": "🧭"
+    },
+    {
+      "word": "overview",
+      "pos": "n",
+      "meanings": [
+        "개관",
+        "개요"
+      ],
+      "example": "The introduction gives a brief overview of the book's main themes.",
+      "exampleKo": "서론은 그 책의 주요 주제에 대한 간단한 개관을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "panel",
+      "pos": "n",
+      "meanings": [
+        "패널",
+        "심사단"
+      ],
+      "example": "A panel of experts judged the students' final projects.",
+      "exampleKo": "전문가 패널이 학생들의 기말 프로젝트를 심사했다.",
+      "emoji": "🗣️"
+    },
+    {
+      "word": "pedagogical",
+      "pos": "adj",
+      "meanings": [
+        "교육학의",
+        "교수법의"
+      ],
+      "example": "The workshop introduced new pedagogical strategies for teaching science.",
+      "exampleKo": "그 워크숍은 과학을 가르치기 위한 새로운 교수법 전략을 소개했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pedagogy",
+      "pos": "n",
+      "meanings": [
+        "교육학",
+        "교수법"
+      ],
+      "example": "Her thesis examines modern pedagogy in elementary classrooms.",
+      "exampleKo": "그녀의 논문은 초등 교실에서의 현대 교육학을 검토한다.",
+      "emoji": ""
+    },
+    {
+      "word": "periodical",
+      "pos": "n",
+      "meanings": [
+        "정기 간행물"
+      ],
+      "example": "The library subscribes to several academic periodicals each year.",
+      "exampleKo": "그 도서관은 매년 여러 학술 정기 간행물을 구독한다.",
+      "emoji": ""
+    },
+    {
+      "word": "philosopher",
+      "pos": "n",
+      "meanings": [
+        "철학자"
+      ],
+      "example": "The ancient philosopher's ideas still influence modern ethics.",
+      "exampleKo": "그 고대 철학자의 사상은 오늘날의 윤리학에도 여전히 영향을 미친다.",
+      "emoji": "🤔"
+    },
+    {
+      "word": "philosophy",
+      "pos": "n",
+      "meanings": [
+        "철학"
+      ],
+      "example": "She took an introductory philosophy course in her first semester.",
+      "exampleKo": "그녀는 첫 학기에 철학 입문 강좌를 들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "portfolio",
+      "pos": "n",
+      "meanings": [
+        "포트폴리오",
+        "작품집"
+      ],
+      "example": "Students submit a portfolio of their best work at the end of the course.",
+      "exampleKo": "학생들은 강좌가 끝날 때 자신의 최고 작품을 모은 포트폴리오를 제출한다.",
+      "emoji": "💼"
+    },
+    {
+      "word": "prediction",
+      "pos": "n",
+      "meanings": [
+        "예측"
+      ],
+      "example": "The model's predictions were later confirmed by real data.",
+      "exampleKo": "그 모델의 예측은 나중에 실제 자료로 확인되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "preparatory",
+      "pos": "adj",
+      "meanings": [
+        "준비의",
+        "예비의"
+      ],
+      "example": "The preparatory course covers basic concepts before the main program begins.",
+      "exampleKo": "그 준비 과정은 본 프로그램이 시작되기 전 기본 개념을 다룬다.",
+      "emoji": ""
+    },
+    {
+      "word": "prerequisite",
+      "pos": "n",
+      "meanings": [
+        "선수 과목",
+        "필요조건"
+      ],
+      "example": "Basic chemistry is a prerequisite for the advanced biology course.",
+      "exampleKo": "기초 화학은 고급 생물학 강좌의 선수 과목이다.",
+      "emoji": ""
+    },
+    {
+      "word": "primer",
+      "pos": "n",
+      "meanings": [
+        "입문서"
+      ],
+      "example": "The book serves as a simple primer on economic theory.",
+      "exampleKo": "그 책은 경제 이론에 대한 간단한 입문서 역할을 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "procedural",
+      "pos": "adj",
+      "meanings": [
+        "절차상의"
+      ],
+      "example": "The committee identified several procedural errors in the study.",
+      "exampleKo": "위원회는 그 연구에서 여러 절차상의 오류를 발견했다.",
+      "emoji": ""
+    },
+    {
+      "word": "procedure",
+      "pos": "n",
+      "meanings": [
+        "절차"
+      ],
+      "example": "Follow the standard procedure when recording your experimental data.",
+      "exampleKo": "실험 자료를 기록할 때는 표준 절차를 따르라.",
+      "emoji": ""
+    },
+    {
+      "word": "proficiency",
+      "pos": "n",
+      "meanings": [
+        "숙달",
+        "능숙함"
+      ],
+      "example": "The exam measures students' proficiency in written and spoken English.",
+      "exampleKo": "그 시험은 학생들의 영작문과 회화 숙달도를 측정한다.",
+      "emoji": ""
+    },
+    {
+      "word": "protocol",
+      "pos": "n",
+      "meanings": [
+        "규정",
+        "프로토콜"
+      ],
+      "example": "Every researcher must follow strict safety protocol in the laboratory.",
+      "exampleKo": "모든 연구자는 실험실에서 엄격한 안전 규정을 따라야 한다.",
+      "emoji": ""
+    }
+  ]
+}

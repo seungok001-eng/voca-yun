@@ -1,0 +1,370 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL") // 런타임용 (Supabase Transaction pooler, 6543, ?pgbouncer=true)
+  directUrl = env("DIRECT_URL") // 스키마 생성/변경용 (Supabase Session pooler, 5432)
+  schemas   = ["voca"] // 이 앱 전용 스키마 — 기존 public 데이터와 완전 분리
+}
+
+// 기관(학원). 개인(INDIVIDUAL)은 기관 없이 단독 학습.
+model Organization {
+  id        Int      @id @default(autoincrement())
+  name      String
+  type      String   @default("ACADEMY") // ACADEMY | TEACHER(선생님 단독)
+  phone     String?
+  address   String?
+  visible     Boolean @default(true) // 회원가입 학원 선택칸 노출 여부
+  status      String  @default("ACTIVE") // ACTIVE | SUSPENDED
+  rankingTopN Int     @default(10) // 학원 전체 랭킹에 보여줄 순위 수
+  skipKoreanHolidays Boolean @default(true) // 한국 공휴일 자동 휴무
+  createdAt   DateTime @default(now())
+
+  members  User[]    @relation("OrgMembers")
+  classes  Class[]
+  holidays Holiday[]
+
+  @@schema("voca")
+}
+
+// 휴무 기간 (방학·시험기간·행사 등) — classId 없으면 학원 전체
+model Holiday {
+  id             Int          @id @default(autoincrement())
+  organizationId Int
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  classId        Int?
+  name           String // 예: 여름방학, 중간고사 기간
+  startDate      String // YYYY-MM-DD
+  endDate        String // YYYY-MM-DD (당일 하루면 시작=종료)
+  createdAt      DateTime     @default(now())
+
+  @@index([organizationId, startDate])
+  @@schema("voca")
+}
+
+// 사용자: 총관리자(SUPER_ADMIN) / 원장(DIRECTOR) / 선생님(TEACHER) / 학생(STUDENT) / 개인(INDIVIDUAL)
+model User {
+  id            Int       @id @default(autoincrement())
+  username      String    @unique
+  passwordHash  String
+  name          String
+  role          String // SUPER_ADMIN | DIRECTOR | TEACHER | STUDENT | INDIVIDUAL
+  status        String    @default("APPROVED") // PENDING | APPROVED | REJECTED
+  // 회원가입 정보
+  birthdate     String? // YYYY-MM-DD
+  gender        String? // M | F | OTHER
+  school        String?
+  grade         String? // 학년 (예: 중1, 초5, 고2)
+  plainPassword String? // 교직원 확인용 비밀번호 사본 (학원 운영 편의)
+  organizationId Int?
+  organization  Organization? @relation("OrgMembers", fields: [organizationId], references: [id])
+  classId       Int?
+  class         Class?    @relation("ClassStudents", fields: [classId], references: [id])
+  parentPhone   String?
+  points        Int       @default(0)
+  streak        Int       @default(0)
+  bestStreak    Int       @default(0)
+  lastPassDate  String? // YYYY-MM-DD (스트릭 계산용)
+  createdAt     DateTime  @default(now())
+
+  teachClasses  Class[]            @relation("ClassTeacher")
+  setting       StudentSetting?
+  progress      StudentProgress[]
+  sessions      TestSession[]
+  wrongNotes    WrongNote[]
+  reviews       ReviewItem[]
+  notifications NotificationLog[]
+  wordbooks     Wordbook[]
+  pointLogs     PointLog[]
+  badges        BadgeLog[]
+
+  @@index([organizationId, status])
+  @@schema("voca")
+}
+
+// 연속 통과 뱃지: 3일 연속 통과부터 매 통과일 1개, 뱃지당 10P (PointLog에도 적립)
+model BadgeLog {
+  id        Int      @id @default(autoincrement())
+  studentId Int
+  student   User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  date      String // YYYY-MM-DD (KST) — 하루 최대 1개
+  streak    Int // 획득 당시 연속 통과일
+  points    Int      @default(10)
+  createdAt DateTime @default(now())
+
+  @@unique([studentId, date])
+  @@index([studentId, createdAt])
+  @@schema("voca")
+}
+
+// 서버 오류 로그 (관리자 모니터링)
+model ErrorLog {
+  id        Int      @id @default(autoincrement())
+  message   String
+  stack     String?
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@schema("voca")
+}
+
+// 월별 랭킹 집계용 포인트 적립 기록
+model PointLog {
+  id        Int      @id @default(autoincrement())
+  studentId Int
+  student   User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  points    Int
+  createdAt DateTime @default(now())
+
+  @@index([studentId, createdAt])
+  @@schema("voca")
+}
+
+model Class {
+  id        Int           @id @default(autoincrement())
+  name      String
+  organizationId Int?
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+  teacherId Int?
+  teacher   User?         @relation("ClassTeacher", fields: [teacherId], references: [id])
+  students  User[]        @relation("ClassStudents")
+  setting   ClassSetting?
+  createdAt DateTime      @default(now())
+  assignments Assignment[]
+
+  @@index([organizationId])
+  @@schema("voca")
+}
+
+// 반 기본 설정 (학생별 설정이 없으면 이 값을 상속)
+model ClassSetting {
+  id             Int     @id @default(autoincrement())
+  classId        Int     @unique
+  class          Class   @relation(fields: [classId], references: [id], onDelete: Cascade)
+  testMode       String  @default("MIXED") // KO_TO_EN | EN_TO_KO | MIXED
+  dailyWordCount Int     @default(30) // 하루 목표 단어 수
+  failThreshold  Int     @default(3) // 이 개수 이상 틀리면 탈락
+  retestScope    String  @default("ALL") // ALL(전체 재시험) | WRONG_ONLY(틀린 것만)
+  posStrict      Boolean @default(true) // 품사(조사/어미)까지 정확히 채점
+  pronEnabled    Boolean @default(false) // 발음 테스트 사용
+  pronThreshold  Int     @default(60) // 발음 정확도 커트라인 (0-100)
+  reviewMixCount Int     @default(5) // 일일시험에 섞을 누적복습 단어 수
+  studyDays      String  @default("MON,TUE,WED,THU,FRI,SAT,SUN") // 학습 요일
+
+  @@schema("voca")
+}
+
+// 학생별 설정 오버라이드 (null = 반 설정 상속)
+model StudentSetting {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  testMode       String?
+  dailyWordCount Int?
+  failThreshold  Int?
+  retestScope    String?
+  posStrict      Boolean?
+  pronEnabled    Boolean?
+  pronThreshold  Int?
+  reviewMixCount Int?
+  studyDays      String?
+
+  @@schema("voca")
+}
+
+// 20단계 레벨 (600단어 단위)
+model Level {
+  id          Int     @id @default(autoincrement())
+  order       Int     @unique // 1..20
+  name        String // Seed 1, Sprout 2 ...
+  nameKo      String // 씨앗 1단계 ...
+  groupName   String // Seed | Sprout | Tree | Forest | Summit
+  groupKo     String // 씨앗 | 새싹 | 나무 | 숲 | 정상
+  description String?
+  words       Word[]
+  assignments Assignment[]
+
+  @@schema("voca")
+}
+
+// 커스텀 단어장 (선생님이 엑셀 업로드로 생성)
+model Wordbook {
+  id          Int      @id @default(autoincrement())
+  name        String
+  createdById Int?
+  createdBy   User?    @relation(fields: [createdById], references: [id])
+  createdAt   DateTime @default(now())
+  words       Word[]
+  assignments Assignment[]
+
+  @@schema("voca")
+}
+
+model Word {
+  id           Int           @id @default(autoincrement())
+  levelId      Int?
+  level        Level?        @relation(fields: [levelId], references: [id])
+  wordbookId   Int?
+  wordbook     Wordbook?     @relation(fields: [wordbookId], references: [id], onDelete: Cascade)
+  day          Int           @default(1)
+  text         String // 영어 단어
+  pos          String // n, v, adj, adv, prep, conj, pron, int, num, phrase
+  meaningsJson String // 한글 뜻 배열 JSON — 모두 정답 처리
+  defEn        String? // 영어 뜻풀이 (시험지 4지선다용)
+  example      String?
+  exampleKo    String?
+  audioUrl     String?
+  emoji        String? // 뜻을 나타내는 그림(이모지) — 저학년 이해 보조
+  aliases      AnswerAlias[]
+  answers      TestAnswer[]
+  wrongNotes   WrongNote[]
+  reviews      ReviewItem[]
+
+  @@index([levelId, day])
+  @@schema("voca")
+}
+
+// 선생님이 추가로 정답 인정한 한글 표현
+model AnswerAlias {
+  id     Int    @id @default(autoincrement())
+  wordId Int
+  word   Word   @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  text   String
+
+  @@schema("voca")
+}
+
+// 반 또는 학생에게 배정된 학습 (레벨 또는 커스텀 단어장)
+model Assignment {
+  id         Int       @id @default(autoincrement())
+  classId    Int?
+  class      Class?    @relation(fields: [classId], references: [id], onDelete: Cascade)
+  studentId  Int?
+  sourceType String // LEVEL | WORDBOOK
+  levelId    Int?
+  level      Level?    @relation(fields: [levelId], references: [id])
+  wordbookId Int?
+  wordbook   Wordbook? @relation(fields: [wordbookId], references: [id], onDelete: Cascade)
+  active     Boolean   @default(true)
+  createdAt  DateTime  @default(now())
+  progress   StudentProgress[]
+  sessions   TestSession[]
+
+  @@schema("voca")
+}
+
+// 학생별 학습 진도 (단어 커서: 통과한 단어 수 인덱스)
+model StudentProgress {
+  id           Int        @id @default(autoincrement())
+  studentId    Int
+  student      User       @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  assignmentId Int
+  assignment   Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  wordCursor   Int        @default(0)
+  baseCursor   Int        @default(0) // 시작 지점(번호-1) — 여기부터 진도·밀림 계산
+  startedAt    DateTime   @default(now()) // 시작(재설정) 날짜 — 밀림 계산 기준일
+
+  @@unique([studentId, assignmentId])
+  @@schema("voca")
+}
+
+model TestSession {
+  id              Int          @id @default(autoincrement())
+  studentId       Int
+  student         User         @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  assignmentId    Int?
+  assignment      Assignment?  @relation(fields: [assignmentId], references: [id])
+  kind            String // DAILY | RETEST | WRONG_NOTE | REVIEW
+  mode            String // KO_TO_EN | EN_TO_KO | MIXED
+  itemsJson       String // [{wordId, dir}] 셔플된 출제 순서
+  currentIndex    Int          @default(0)
+  status          String       @default("IN_PROGRESS") // IN_PROGRESS | PASSED | FAILED
+  wrongCount      Int          @default(0)
+  failThreshold   Int
+  posStrict       Boolean
+  pronEnabled     Boolean
+  pronThreshold   Int
+  retestScope     String       @default("ALL")
+  attemptNo       Int          @default(1)
+  parentSessionId Int?
+  cheatCount      Int          @default(0)
+  advanceCount    Int          @default(0) // DAILY 통과시 커서 전진량 (복습 섞기 제외)
+  startedAt       DateTime     @default(now())
+  finishedAt      DateTime?
+  answers         TestAnswer[]
+  cheats          CheatEvent[]
+
+  @@index([studentId, status])
+  @@schema("voca")
+}
+
+model TestAnswer {
+  id          Int         @id @default(autoincrement())
+  sessionId   Int
+  session     TestSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  wordId      Int
+  word        Word        @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  direction   String // KO_TO_EN | EN_TO_KO
+  given       String
+  textCorrect Boolean
+  pronScore   Int?
+  pronPassed  Boolean?
+  correct     Boolean
+  createdAt   DateTime    @default(now())
+
+  @@schema("voca")
+}
+
+// 오답노트
+model WrongNote {
+  id          Int      @id @default(autoincrement())
+  studentId   Int
+  student     User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  wordId      Int
+  word        Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  wrongCount  Int      @default(1)
+  lastWrongAt DateTime @default(now())
+  resolved    Boolean  @default(false)
+
+  @@unique([studentId, wordId])
+  @@schema("voca")
+}
+
+// 간격 반복(SRS) 복습 큐: 3일 → 7일 → 21일
+model ReviewItem {
+  id        Int      @id @default(autoincrement())
+  studentId Int
+  student   User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  wordId    Int
+  word      Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  stage     Int      @default(0) // 0:+3일, 1:+7일, 2:+21일, 3:졸업
+  dueAt     DateTime
+
+  @@unique([studentId, wordId])
+  @@index([studentId, dueAt])
+  @@schema("voca")
+}
+
+// 학부모 알림 로그 (알림톡/SMS 연동 지점)
+model NotificationLog {
+  id        Int      @id @default(autoincrement())
+  studentId Int
+  student   User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  type      String // TEST_PASS | TEST_FAIL | REPEAT_FAIL
+  message   String
+  sentAt    DateTime @default(now())
+
+  @@schema("voca")
+}
+
+model CheatEvent {
+  id        Int         @id @default(autoincrement())
+  sessionId Int
+  session   TestSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  type      String // BLUR | HIDDEN
+  at        DateTime    @default(now())
+
+  @@schema("voca")
+}

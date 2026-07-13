@@ -1,0 +1,158 @@
+{
+  "level": 14,
+  "words": [
+    {
+      "word": "serf",
+      "pos": "n",
+      "meanings": [
+        "농노"
+      ],
+      "example": "Serfs worked the land but were not free to leave it.",
+      "exampleKo": "농노들은 땅에서 일했지만 그곳을 떠날 자유가 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "crusade",
+      "pos": "n",
+      "meanings": [
+        "십자군 원정"
+      ],
+      "example": "The Crusades were religious wars fought in the Middle Ages.",
+      "exampleKo": "십자군 원정은 중세에 벌어진 종교 전쟁이었다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "feudalism",
+      "pos": "n",
+      "meanings": [
+        "봉건제도"
+      ],
+      "example": "Under feudalism, land was exchanged for loyalty and service.",
+      "exampleKo": "봉건제도 아래에서 땅은 충성과 봉사의 대가로 주어졌다.",
+      "emoji": "🏰"
+    },
+    {
+      "word": "surrealism",
+      "pos": "n",
+      "meanings": [
+        "초현실주의"
+      ],
+      "example": "Salvador Dali created strange, dreamlike images that captured the spirit of surrealism.",
+      "exampleKo": "살바도르 달리는 초현실주의의 정신을 담아낸 기이하고 꿈같은 이미지를 창조했다.",
+      "emoji": ""
+    },
+    {
+      "word": "cubism",
+      "pos": "n",
+      "meanings": [
+        "입체파"
+      ],
+      "example": "Picasso helped develop cubism in the early 20th century.",
+      "exampleKo": "피카소는 20세기 초에 입체파를 발전시키는 데 기여했다.",
+      "emoji": ""
+    },
+    {
+      "word": "abstraction",
+      "pos": "n",
+      "meanings": [
+        "추상화",
+        "추상적 개념"
+      ],
+      "example": "The artist used abstraction to express emotion rather than reality.",
+      "exampleKo": "그 예술가는 현실보다 감정을 표현하기 위해 추상화를 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "enlightenment",
+      "pos": "n",
+      "meanings": [
+        "계몽주의",
+        "깨달음"
+      ],
+      "example": "The Enlightenment encouraged people to value reason and science.",
+      "exampleKo": "계몽주의는 사람들이 이성과 과학을 중시하도록 장려했다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "transcendence",
+      "pos": "n",
+      "meanings": [
+        "초월"
+      ],
+      "example": "The philosopher wrote about transcendence beyond ordinary experience.",
+      "exampleKo": "그 철학자는 일상적 경험을 넘어서는 초월에 대해 글을 썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "social contract",
+      "pos": "n",
+      "meanings": [
+        "사회 계약"
+      ],
+      "example": "The social contract theory explains why people agree to follow laws.",
+      "exampleKo": "사회 계약 이론은 사람들이 법을 따르기로 동의하는 이유를 설명한다.",
+      "emoji": ""
+    },
+    {
+      "word": "mercantilism",
+      "pos": "n",
+      "meanings": [
+        "중상주의"
+      ],
+      "example": "Mercantilism encouraged nations to export more than they imported.",
+      "exampleKo": "중상주의는 국가가 수입보다 수출을 더 많이 하도록 장려했다.",
+      "emoji": "🚢"
+    },
+    {
+      "word": "privatization",
+      "pos": "n",
+      "meanings": [
+        "민영화"
+      ],
+      "example": "The privatization of the railway system caused a public debate.",
+      "exampleKo": "철도 시스템의 민영화는 공개적인 논쟁을 일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "nationalization",
+      "pos": "n",
+      "meanings": [
+        "국유화"
+      ],
+      "example": "The government's nationalization of the oil industry shocked investors.",
+      "exampleKo": "정부의 석유 산업 국유화는 투자자들을 놀라게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "cold war",
+      "pos": "n",
+      "meanings": [
+        "냉전"
+      ],
+      "example": "The Cold War was a long period of tension between two superpowers.",
+      "exampleKo": "냉전은 두 초강대국 사이의 긴장이 지속된 오랜 시기였다.",
+      "emoji": "❄️"
+    },
+    {
+      "word": "historiography",
+      "pos": "n",
+      "meanings": [
+        "역사 서술",
+        "사학사"
+      ],
+      "example": "Historiography examines how historians interpret the past.",
+      "exampleKo": "역사 서술은 역사가들이 과거를 어떻게 해석하는지 살펴본다.",
+      "emoji": ""
+    },
+    {
+      "word": "archaeological site",
+      "pos": "n",
+      "meanings": [
+        "유적지"
+      ],
+      "example": "Researchers found ancient pottery at the archaeological site.",
+      "exampleKo": "연구자들은 그 유적지에서 고대 도자기를 발견했다.",
+      "emoji": "⛏️"
+    }
+  ]
+}

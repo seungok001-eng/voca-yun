@@ -1,0 +1,1917 @@
+{
+  "level": 14,
+  "words": [
+    {
+      "word": "metaphor",
+      "pos": "n",
+      "meanings": [
+        "은유",
+        "비유"
+      ],
+      "example": "The poet used the sea as a metaphor for the vastness of human emotion.",
+      "exampleKo": "그 시인은 인간 감정의 광대함을 나타내는 은유로 바다를 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "portray",
+      "pos": "v",
+      "meanings": [
+        "묘사하다",
+        "그리다"
+      ],
+      "example": "The novel portrays the struggles of a family during wartime.",
+      "exampleKo": "그 소설은 전쟁 중 한 가족의 고난을 묘사한다.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "symbolism",
+      "pos": "n",
+      "meanings": [
+        "상징성",
+        "상징주의"
+      ],
+      "example": "Critics praised the novel for its rich symbolism and layered meaning.",
+      "exampleKo": "비평가들은 그 소설의 풍부한 상징성과 중층적 의미를 높이 평가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "composition",
+      "pos": "n",
+      "meanings": [
+        "구성",
+        "작문",
+        "작품"
+      ],
+      "example": "The teacher analyzed the composition of the painting, focusing on balance and color.",
+      "exampleKo": "선생님은 균형과 색채에 초점을 맞추어 그 그림의 구성을 분석했다.",
+      "emoji": ""
+    },
+    {
+      "word": "poetic",
+      "pos": "adj",
+      "meanings": [
+        "시적인"
+      ],
+      "example": "Her poetic description of the sunset captivated the readers.",
+      "exampleKo": "석양에 대한 그녀의 시적인 묘사는 독자들을 사로잡았다.",
+      "emoji": ""
+    },
+    {
+      "word": "satire",
+      "pos": "n",
+      "meanings": [
+        "풍자"
+      ],
+      "example": "The novel is a biting satire of modern politics.",
+      "exampleKo": "그 소설은 현대 정치에 대한 신랄한 풍자이다.",
+      "emoji": ""
+    },
+    {
+      "word": "plot",
+      "pos": "n",
+      "meanings": [
+        "줄거리",
+        "구성"
+      ],
+      "example": "The plot of the novel revolves around a mysterious inheritance.",
+      "exampleKo": "그 소설의 줄거리는 수수께끼 같은 유산을 중심으로 전개된다.",
+      "emoji": ""
+    },
+    {
+      "word": "protagonist",
+      "pos": "n",
+      "meanings": [
+        "주인공"
+      ],
+      "example": "The protagonist must overcome her fear to save her village.",
+      "exampleKo": "주인공은 마을을 구하기 위해 자신의 두려움을 극복해야 한다.",
+      "emoji": "🦸"
+    },
+    {
+      "word": "antagonist",
+      "pos": "n",
+      "meanings": [
+        "적대자",
+        "반동인물"
+      ],
+      "example": "The antagonist in the story represents the corrupting influence of power.",
+      "exampleKo": "이야기 속 적대자는 권력의 타락시키는 영향력을 상징한다.",
+      "emoji": "🦹"
+    },
+    {
+      "word": "theme",
+      "pos": "n",
+      "meanings": [
+        "주제"
+      ],
+      "example": "Loss and redemption are recurring themes throughout the author's work.",
+      "exampleKo": "상실과 구원은 그 작가의 작품 전반에 걸쳐 반복되는 주제이다.",
+      "emoji": ""
+    },
+    {
+      "word": "motif",
+      "pos": "n",
+      "meanings": [
+        "모티프",
+        "반복되는 요소"
+      ],
+      "example": "The recurring motif of light and darkness reflects the novel's moral conflict.",
+      "exampleKo": "빛과 어둠이라는 반복되는 모티프는 그 소설의 도덕적 갈등을 반영한다.",
+      "emoji": ""
+    },
+    {
+      "word": "imagery",
+      "pos": "n",
+      "meanings": [
+        "심상",
+        "이미지"
+      ],
+      "example": "The poem is rich in imagery that appeals to all five senses.",
+      "exampleKo": "그 시는 오감을 자극하는 심상으로 가득하다.",
+      "emoji": ""
+    },
+    {
+      "word": "allegory",
+      "pos": "n",
+      "meanings": [
+        "우화",
+        "풍유"
+      ],
+      "example": "The story can be read as an allegory of the struggle between good and evil.",
+      "exampleKo": "그 이야기는 선과 악의 싸움에 대한 우화로 읽힐 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "verse",
+      "pos": "n",
+      "meanings": [
+        "운문",
+        "시구"
+      ],
+      "example": "He expressed his grief in a few simple lines of verse.",
+      "exampleKo": "그는 몇 줄의 소박한 운문으로 자신의 슬픔을 표현했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sculpture",
+      "pos": "n",
+      "meanings": [
+        "조각",
+        "조각품"
+      ],
+      "example": "The museum's courtyard displays a striking bronze sculpture.",
+      "exampleKo": "그 박물관의 안뜰에는 인상적인 청동 조각품이 전시되어 있다.",
+      "emoji": "🗿"
+    },
+    {
+      "word": "prose",
+      "pos": "n",
+      "meanings": [
+        "산문"
+      ],
+      "example": "Unlike poetry, prose does not rely on a fixed rhythm or rhyme.",
+      "exampleKo": "시와 달리 산문은 고정된 운율이나 각운에 의존하지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "stanza",
+      "pos": "n",
+      "meanings": [
+        "(시의) 연"
+      ],
+      "example": "Each stanza of the poem explores a different stage of grief.",
+      "exampleKo": "그 시의 각 연은 슬픔의 서로 다른 단계를 탐구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "rhyme",
+      "pos": "n",
+      "meanings": [
+        "운",
+        "각운"
+      ],
+      "example": "The nursery rhyme's simple rhyme makes it easy for children to memorize.",
+      "exampleKo": "그 동요의 단순한 각운은 아이들이 외우기 쉽게 만든다.",
+      "emoji": ""
+    },
+    {
+      "word": "rhythm",
+      "pos": "n",
+      "meanings": [
+        "리듬",
+        "운율"
+      ],
+      "example": "The rhythm of the poem mimics the steady beat of a heart.",
+      "exampleKo": "그 시의 운율은 심장의 규칙적인 박동을 흉내 낸다.",
+      "emoji": "🎵"
+    },
+    {
+      "word": "tone",
+      "pos": "n",
+      "meanings": [
+        "어조",
+        "분위기"
+      ],
+      "example": "The author maintains a hopeful tone despite the tragic events of the story.",
+      "exampleKo": "작가는 이야기 속 비극적인 사건들에도 불구하고 희망적인 어조를 유지한다.",
+      "emoji": ""
+    },
+    {
+      "word": "dramatize",
+      "pos": "v",
+      "meanings": [
+        "극화하다",
+        "각색하다"
+      ],
+      "example": "The film dramatizes the true story of a scientist's discovery.",
+      "exampleKo": "그 영화는 한 과학자의 발견에 관한 실화를 극화한다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "characterization",
+      "pos": "n",
+      "meanings": [
+        "성격 묘사",
+        "인물 묘사"
+      ],
+      "example": "The novel is praised for its vivid characterization of ordinary people.",
+      "exampleKo": "그 소설은 평범한 사람들에 대한 생생한 인물 묘사로 찬사를 받는다.",
+      "emoji": ""
+    },
+    {
+      "word": "foreshadow",
+      "pos": "v",
+      "meanings": [
+        "암시하다",
+        "예시하다"
+      ],
+      "example": "The dark clouds in the opening scene foreshadow the tragedy to come.",
+      "exampleKo": "첫 장면의 먹구름은 앞으로 닥칠 비극을 암시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "climax",
+      "pos": "n",
+      "meanings": [
+        "절정",
+        "최고조"
+      ],
+      "example": "The story reaches its climax when the hero finally confronts his rival.",
+      "exampleKo": "주인공이 마침내 라이벌과 맞서면서 이야기는 절정에 이른다.",
+      "emoji": ""
+    },
+    {
+      "word": "epilogue",
+      "pos": "n",
+      "meanings": [
+        "에필로그",
+        "후기"
+      ],
+      "example": "The epilogue reveals what happened to the characters years later.",
+      "exampleKo": "에필로그는 몇 년 후 등장인물들에게 일어난 일을 보여준다.",
+      "emoji": ""
+    },
+    {
+      "word": "prologue",
+      "pos": "n",
+      "meanings": [
+        "프롤로그",
+        "서두"
+      ],
+      "example": "The prologue sets the historical background for the events of the novel.",
+      "exampleKo": "프롤로그는 소설 속 사건들의 역사적 배경을 제시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "playwright",
+      "pos": "n",
+      "meanings": [
+        "극작가"
+      ],
+      "example": "The playwright drew inspiration from his own troubled childhood.",
+      "exampleKo": "그 극작가는 자신의 힘들었던 어린 시절에서 영감을 얻었다.",
+      "emoji": ""
+    },
+    {
+      "word": "craftsmanship",
+      "pos": "n",
+      "meanings": [
+        "장인 정신",
+        "솜씨"
+      ],
+      "example": "The old wooden chair reflects the craftsmanship of a skilled artisan.",
+      "exampleKo": "그 오래된 나무 의자는 숙련된 장인의 솜씨를 보여준다.",
+      "emoji": "🛠️"
+    },
+    {
+      "word": "masterpiece",
+      "pos": "n",
+      "meanings": [
+        "걸작",
+        "명작"
+      ],
+      "example": "Many critics regard the novel as the author's masterpiece.",
+      "exampleKo": "많은 비평가들은 그 소설을 그 작가의 걸작으로 여긴다.",
+      "emoji": "🖼️"
+    },
+    {
+      "word": "portrait",
+      "pos": "n",
+      "meanings": [
+        "초상화",
+        "인물 묘사"
+      ],
+      "example": "The biography paints a vivid portrait of a woman ahead of her time.",
+      "exampleKo": "그 전기는 시대를 앞서간 한 여성의 생생한 인물 묘사를 그려낸다.",
+      "emoji": "🖼️"
+    },
+    {
+      "word": "fresco",
+      "pos": "n",
+      "meanings": [
+        "프레스코화",
+        "벽화"
+      ],
+      "example": "Tourists gather to admire the ceiling fresco painted centuries ago.",
+      "exampleKo": "관광객들은 수백 년 전에 그려진 천장 프레스코화를 감상하기 위해 모여든다.",
+      "emoji": ""
+    },
+    {
+      "word": "mural",
+      "pos": "n",
+      "meanings": [
+        "벽화"
+      ],
+      "example": "Local artists painted a colorful mural on the school wall.",
+      "exampleKo": "지역 예술가들이 학교 벽에 화려한 벽화를 그렸다.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "narrate",
+      "pos": "v",
+      "meanings": [
+        "이야기하다",
+        "서술하다"
+      ],
+      "example": "The documentary is narrated by a voice that sounds calm and detached.",
+      "exampleKo": "그 다큐멘터리는 차분하고 담담하게 들리는 목소리로 서술된다.",
+      "emoji": ""
+    },
+    {
+      "word": "personify",
+      "pos": "v",
+      "meanings": [
+        "의인화하다"
+      ],
+      "example": "The poet personifies the wind, giving it a voice and a will of its own.",
+      "exampleKo": "그 시인은 바람을 의인화하여 목소리와 고유한 의지를 부여한다.",
+      "emoji": ""
+    },
+    {
+      "word": "hyperbole",
+      "pos": "n",
+      "meanings": [
+        "과장법"
+      ],
+      "example": "Saying he was 'starving to death' after skipping lunch was pure hyperbole.",
+      "exampleKo": "점심을 걸렀다고 '굶어 죽겠다'고 말한 것은 순전한 과장법이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "irony",
+      "pos": "n",
+      "meanings": [
+        "아이러니",
+        "반어법"
+      ],
+      "example": "There is a sad irony in the fact that the firefighter's own house burned down.",
+      "exampleKo": "소방관 자신의 집이 불타버렸다는 사실에는 슬픈 아이러니가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "oxymoron",
+      "pos": "n",
+      "meanings": [
+        "모순 어법"
+      ],
+      "example": "'Deafening silence' is a classic oxymoron used to intensify description.",
+      "exampleKo": "'귀청이 터질 듯한 침묵'은 묘사를 강화하기 위해 쓰이는 전형적인 모순 어법이다.",
+      "emoji": ""
+    },
+    {
+      "word": "cliche",
+      "pos": "n",
+      "meanings": [
+        "상투적인 표현",
+        "진부한 것"
+      ],
+      "example": "The critic complained that the ending relied too heavily on a familiar cliche.",
+      "exampleKo": "그 평론가는 결말이 익숙한 상투적인 표현에 지나치게 의존한다고 불평했다.",
+      "emoji": ""
+    },
+    {
+      "word": "jargon",
+      "pos": "n",
+      "meanings": [
+        "전문 용어"
+      ],
+      "example": "The article was filled with technical jargon that confused ordinary readers.",
+      "exampleKo": "그 기사는 일반 독자들을 혼란스럽게 하는 전문 용어로 가득했다.",
+      "emoji": ""
+    },
+    {
+      "word": "vernacular",
+      "pos": "n",
+      "meanings": [
+        "토속어",
+        "일상어"
+      ],
+      "example": "The playwright wrote his dialogue in the vernacular of the working class.",
+      "exampleKo": "그 극작가는 노동 계급의 일상어로 대사를 썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "colloquial",
+      "pos": "adj",
+      "meanings": [
+        "구어체의",
+        "일상적인"
+      ],
+      "example": "The essay's colloquial style makes it feel like a casual conversation.",
+      "exampleKo": "그 수필의 구어체 문체는 마치 편안한 대화처럼 느껴지게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "idiom",
+      "pos": "n",
+      "meanings": [
+        "관용구",
+        "숙어"
+      ],
+      "example": "Understanding an idiom often requires more than knowing each word's meaning.",
+      "exampleKo": "관용구를 이해하는 것은 흔히 각 단어의 의미를 아는 것 이상을 필요로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "proverb",
+      "pos": "n",
+      "meanings": [
+        "속담",
+        "격언"
+      ],
+      "example": "The old proverb reminds us that patience is a virtue.",
+      "exampleKo": "그 오래된 속담은 인내가 미덕임을 우리에게 일깨워 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "fable",
+      "pos": "n",
+      "meanings": [
+        "우화"
+      ],
+      "example": "The fable teaches children the value of honesty through a simple story.",
+      "exampleKo": "그 우화는 간단한 이야기를 통해 아이들에게 정직의 가치를 가르친다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "essayist",
+      "pos": "n",
+      "meanings": [
+        "수필가",
+        "에세이 작가"
+      ],
+      "example": "As an essayist, she is known for blending personal experience with social commentary.",
+      "exampleKo": "수필가로서 그녀는 개인적 경험과 사회적 논평을 결합하는 것으로 유명하다.",
+      "emoji": ""
+    },
+    {
+      "word": "oratory",
+      "pos": "n",
+      "meanings": [
+        "웅변",
+        "연설"
+      ],
+      "example": "His powerful oratory inspired the crowd to take action.",
+      "exampleKo": "그의 강력한 웅변은 군중이 행동에 나서도록 영감을 주었다.",
+      "emoji": "🎤"
+    },
+    {
+      "word": "semantics",
+      "pos": "n",
+      "meanings": [
+        "의미론",
+        "어의"
+      ],
+      "example": "The debate over the contract's wording became an argument about semantics.",
+      "exampleKo": "계약서 문구를 둘러싼 논쟁은 의미론에 관한 다툼으로 번졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "tragedy",
+      "pos": "n",
+      "meanings": [
+        "비극"
+      ],
+      "example": "The play is considered one of the greatest tragedies in world literature.",
+      "exampleKo": "그 희곡은 세계 문학에서 가장 위대한 비극 중 하나로 여겨진다.",
+      "emoji": "😢"
+    },
+    {
+      "word": "tragic",
+      "pos": "adj",
+      "meanings": [
+        "비극적인"
+      ],
+      "example": "The novel's tragic ending left many readers in tears.",
+      "exampleKo": "그 소설의 비극적인 결말은 많은 독자들을 눈물짓게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "comedic",
+      "pos": "adj",
+      "meanings": [
+        "희극의",
+        "코미디의"
+      ],
+      "example": "The film balances serious themes with comedic moments.",
+      "exampleKo": "그 영화는 진지한 주제와 희극적인 순간들의 균형을 이룬다.",
+      "emoji": "😂"
+    },
+    {
+      "word": "farce",
+      "pos": "n",
+      "meanings": [
+        "소극",
+        "웃음거리"
+      ],
+      "example": "The trial quickly turned into a farce, with no one taking it seriously.",
+      "exampleKo": "그 재판은 아무도 그것을 진지하게 받아들이지 않으면서 순식간에 웃음거리가 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "melodrama",
+      "pos": "n",
+      "meanings": [
+        "멜로드라마",
+        "과장된 사건"
+      ],
+      "example": "The film was criticized for descending into melodrama in its final act.",
+      "exampleKo": "그 영화는 마지막 장에서 멜로드라마로 전락했다는 비판을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "translation",
+      "pos": "n",
+      "meanings": [
+        "번역"
+      ],
+      "example": "Something is always lost in translation, no matter how skilled the translator.",
+      "exampleKo": "번역가가 아무리 뛰어나도 번역에서는 항상 무언가가 손실된다.",
+      "emoji": "🌐"
+    },
+    {
+      "word": "aesthetics",
+      "pos": "n",
+      "meanings": [
+        "미학"
+      ],
+      "example": "The architect's design reflects a deep concern with aesthetics as well as function.",
+      "exampleKo": "그 건축가의 설계는 기능뿐만 아니라 미학에 대한 깊은 관심을 반영한다.",
+      "emoji": ""
+    },
+    {
+      "word": "artistic",
+      "pos": "adj",
+      "meanings": [
+        "예술적인"
+      ],
+      "example": "The film received praise for its artistic vision and bold cinematography.",
+      "exampleKo": "그 영화는 예술적 안목과 대담한 촬영 기법으로 찬사를 받았다.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "creativity",
+      "pos": "n",
+      "meanings": [
+        "창의성"
+      ],
+      "example": "The workshop is designed to encourage creativity among young students.",
+      "exampleKo": "그 워크숍은 어린 학생들 사이에서 창의성을 북돋우기 위해 마련되었다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "imagination",
+      "pos": "n",
+      "meanings": [
+        "상상력"
+      ],
+      "example": "A vivid imagination allowed the author to create entirely new worlds.",
+      "exampleKo": "생생한 상상력 덕분에 그 작가는 완전히 새로운 세계를 창조할 수 있었다.",
+      "emoji": "💭"
+    },
+    {
+      "word": "treatise",
+      "pos": "n",
+      "meanings": [
+        "논문",
+        "저술"
+      ],
+      "example": "He wrote a lengthy treatise on the nature of beauty in art.",
+      "exampleKo": "그는 예술에서의 아름다움의 본질에 관한 방대한 논문을 썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "connote",
+      "pos": "v",
+      "meanings": [
+        "함축하다",
+        "암시하다"
+      ],
+      "example": "The word 'home' connotes warmth and safety beyond its literal meaning.",
+      "exampleKo": "'집'이라는 단어는 문자 그대로의 의미를 넘어 따뜻함과 안전함을 함축한다.",
+      "emoji": ""
+    },
+    {
+      "word": "denotation",
+      "pos": "n",
+      "meanings": [
+        "지시적 의미",
+        "표시"
+      ],
+      "example": "Unlike its connotation, the denotation of the word is quite neutral.",
+      "exampleKo": "그 단어의 함축적 의미와 달리 지시적 의미는 상당히 중립적이다.",
+      "emoji": ""
+    },
+    {
+      "word": "nuance",
+      "pos": "n",
+      "meanings": [
+        "뉘앙스",
+        "미묘한 차이"
+      ],
+      "example": "A good translator captures every nuance of the original text.",
+      "exampleKo": "훌륭한 번역가는 원문의 모든 미묘한 뉘앙스를 포착한다.",
+      "emoji": ""
+    },
+    {
+      "word": "nuanced",
+      "pos": "adj",
+      "meanings": [
+        "미묘한 차이가 있는",
+        "세심한"
+      ],
+      "example": "The critic offered a nuanced reading of the novel's ambiguous ending.",
+      "exampleKo": "그 평론가는 그 소설의 모호한 결말에 대해 세심한 해석을 내놓았다.",
+      "emoji": ""
+    },
+    {
+      "word": "subtlety",
+      "pos": "n",
+      "meanings": [
+        "미묘함",
+        "정교함"
+      ],
+      "example": "The humor in the play relies on subtlety rather than obvious jokes.",
+      "exampleKo": "그 희곡의 유머는 노골적인 농담보다는 미묘함에 의존한다.",
+      "emoji": ""
+    },
+    {
+      "word": "baroque",
+      "pos": "adj",
+      "meanings": [
+        "바로크 양식의",
+        "화려한"
+      ],
+      "example": "The cathedral's baroque interior overwhelms visitors with ornate detail.",
+      "exampleKo": "그 대성당의 바로크 양식 내부는 화려한 장식으로 방문객들을 압도한다.",
+      "emoji": ""
+    },
+    {
+      "word": "allusion",
+      "pos": "n",
+      "meanings": [
+        "암시",
+        "언급"
+      ],
+      "example": "The title of the poem contains an allusion to a Greek myth.",
+      "exampleKo": "그 시의 제목에는 그리스 신화에 대한 암시가 담겨 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "cohesive",
+      "pos": "adj",
+      "meanings": [
+        "결속력 있는",
+        "응집력 있는"
+      ],
+      "example": "A cohesive narrative connects every scene to the central theme.",
+      "exampleKo": "응집력 있는 서사는 모든 장면을 중심 주제와 연결한다.",
+      "emoji": ""
+    },
+    {
+      "word": "cohesion",
+      "pos": "n",
+      "meanings": [
+        "결속",
+        "응집력"
+      ],
+      "example": "The essay lacks cohesion, jumping abruptly from one idea to another.",
+      "exampleKo": "그 에세이는 한 생각에서 다른 생각으로 갑작스럽게 넘어가면서 응집력이 부족하다.",
+      "emoji": ""
+    },
+    {
+      "word": "eloquence",
+      "pos": "n",
+      "meanings": [
+        "웅변",
+        "유창함"
+      ],
+      "example": "The speaker's eloquence moved the entire audience to tears.",
+      "exampleKo": "그 연설자의 웅변은 청중 전체를 눈물짓게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "rhetorical",
+      "pos": "adj",
+      "meanings": [
+        "수사적인"
+      ],
+      "example": "The politician's rhetorical skill made even simple ideas sound profound.",
+      "exampleKo": "그 정치인의 수사적 기술은 단순한 생각조차 심오하게 들리게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "persuasion",
+      "pos": "n",
+      "meanings": [
+        "설득"
+      ],
+      "example": "Advertising relies heavily on the art of persuasion.",
+      "exampleKo": "광고는 설득의 기술에 크게 의존한다.",
+      "emoji": ""
+    },
+    {
+      "word": "striking",
+      "pos": "adj",
+      "meanings": [
+        "인상적인",
+        "눈에 띄는"
+      ],
+      "example": "The novel opens with a striking image that sets the tone for the entire story.",
+      "exampleKo": "그 소설은 이야기 전체의 분위기를 결정짓는 인상적인 이미지로 시작한다.",
+      "emoji": ""
+    },
+    {
+      "word": "expressive",
+      "pos": "adj",
+      "meanings": [
+        "표현력이 풍부한"
+      ],
+      "example": "The dancer's expressive movements conveyed emotions words could not.",
+      "exampleKo": "그 무용수의 표현력이 풍부한 몸짓은 말로 표현할 수 없는 감정을 전달했다.",
+      "emoji": ""
+    },
+    {
+      "word": "symbolic",
+      "pos": "adj",
+      "meanings": [
+        "상징적인"
+      ],
+      "example": "The white flag is symbolic of surrender in many cultures.",
+      "exampleKo": "흰 깃발은 많은 문화권에서 항복을 상징한다.",
+      "emoji": ""
+    },
+    {
+      "word": "thematic",
+      "pos": "adj",
+      "meanings": [
+        "주제의",
+        "주제별의"
+      ],
+      "example": "The exhibition is organized by thematic categories rather than chronological order.",
+      "exampleKo": "그 전시회는 연대순이 아니라 주제별 범주로 구성되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "stylistic",
+      "pos": "adj",
+      "meanings": [
+        "문체상의",
+        "양식의"
+      ],
+      "example": "The two novels share stylistic similarities despite being written decades apart.",
+      "exampleKo": "그 두 소설은 수십 년의 시간차를 두고 쓰였음에도 문체상의 유사점을 공유한다.",
+      "emoji": ""
+    },
+    {
+      "word": "embellishment",
+      "pos": "n",
+      "meanings": [
+        "윤색",
+        "장식"
+      ],
+      "example": "The reporter was accused of adding embellishment to an otherwise ordinary story.",
+      "exampleKo": "그 기자는 평범한 이야기에 윤색을 더했다는 비난을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "verbose",
+      "pos": "adj",
+      "meanings": [
+        "장황한"
+      ],
+      "example": "The professor's verbose explanation confused more than it clarified.",
+      "exampleKo": "그 교수의 장황한 설명은 명확하게 하기보다 오히려 혼란스럽게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "concise",
+      "pos": "adj",
+      "meanings": [
+        "간결한"
+      ],
+      "example": "A concise summary at the beginning helps readers grasp the main idea quickly.",
+      "exampleKo": "서두의 간결한 요약은 독자들이 요지를 빠르게 파악하도록 돕는다.",
+      "emoji": ""
+    },
+    {
+      "word": "terse",
+      "pos": "adj",
+      "meanings": [
+        "간결한",
+        "짧은"
+      ],
+      "example": "His terse reply suggested he was not in the mood to talk.",
+      "exampleKo": "그의 간결한 대답은 그가 대화할 기분이 아니라는 것을 암시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "lucid",
+      "pos": "adj",
+      "meanings": [
+        "명료한"
+      ],
+      "example": "The professor gave a lucid explanation of an otherwise complicated theory.",
+      "exampleKo": "그 교수는 다소 복잡한 이론을 명료하게 설명해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "figurative",
+      "pos": "adj",
+      "meanings": [
+        "비유적인"
+      ],
+      "example": "The phrase 'break the ice' is used in a figurative, not literal, sense.",
+      "exampleKo": "'break the ice'라는 표현은 문자 그대로가 아니라 비유적인 의미로 쓰인다.",
+      "emoji": ""
+    },
+    {
+      "word": "literal",
+      "pos": "adj",
+      "meanings": [
+        "문자 그대로의"
+      ],
+      "example": "Students often struggle to move beyond the literal meaning of a poem.",
+      "exampleKo": "학생들은 흔히 시의 문자 그대로의 의미를 넘어서는 데 어려움을 겪는다.",
+      "emoji": ""
+    },
+    {
+      "word": "synopsis",
+      "pos": "n",
+      "meanings": [
+        "개요",
+        "요약"
+      ],
+      "example": "The back cover offers a brief synopsis of the novel's plot.",
+      "exampleKo": "뒤표지에는 그 소설의 줄거리에 대한 간략한 개요가 실려 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "passage",
+      "pos": "n",
+      "meanings": [
+        "(글의) 구절",
+        "문단"
+      ],
+      "example": "Read the following passage and answer the questions below.",
+      "exampleKo": "다음 구절을 읽고 아래 질문에 답하시오.",
+      "emoji": ""
+    },
+    {
+      "word": "subtext",
+      "pos": "n",
+      "meanings": [
+        "이면의 의미",
+        "함축된 의미"
+      ],
+      "example": "Beneath the polite dialogue lies a subtext of tension between the characters.",
+      "exampleKo": "정중한 대화 이면에는 등장인물들 사이의 긴장이라는 이면의 의미가 숨어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "undertone",
+      "pos": "n",
+      "meanings": [
+        "은근한 느낌",
+        "저의"
+      ],
+      "example": "Despite its cheerful tone, the poem carries a bitter undertone.",
+      "exampleKo": "그 시는 밝은 어조에도 불구하고 씁쓸한 저의를 담고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "sentiment",
+      "pos": "n",
+      "meanings": [
+        "정서",
+        "감정",
+        "견해"
+      ],
+      "example": "The letter expresses a deep sentiment of gratitude and longing.",
+      "exampleKo": "그 편지는 감사와 그리움이라는 깊은 정서를 표현한다.",
+      "emoji": ""
+    },
+    {
+      "word": "whimsical",
+      "pos": "adj",
+      "meanings": [
+        "엉뚱한",
+        "기발한"
+      ],
+      "example": "The children's book is filled with whimsical characters and imaginary worlds.",
+      "exampleKo": "그 동화책은 엉뚱한 등장인물들과 상상의 세계로 가득하다.",
+      "emoji": ""
+    },
+    {
+      "word": "satirical",
+      "pos": "adj",
+      "meanings": [
+        "풍자적인"
+      ],
+      "example": "The cartoon offers a satirical take on modern consumer culture.",
+      "exampleKo": "그 만화는 현대 소비 문화에 대한 풍자적인 시각을 보여준다.",
+      "emoji": ""
+    },
+    {
+      "word": "penetrating",
+      "pos": "adj",
+      "meanings": [
+        "예리한",
+        "통찰력 있는"
+      ],
+      "example": "The essay offers a penetrating look into the character's inner conflict.",
+      "exampleKo": "그 에세이는 그 인물의 내적 갈등을 예리하게 들여다본다.",
+      "emoji": ""
+    },
+    {
+      "word": "parody",
+      "pos": "n",
+      "meanings": [
+        "패러디",
+        "풍자적 모방"
+      ],
+      "example": "The comedian performed a parody of a famous political speech.",
+      "exampleKo": "그 코미디언은 유명한 정치 연설의 패러디를 공연했다.",
+      "emoji": ""
+    },
+    {
+      "word": "homage",
+      "pos": "n",
+      "meanings": [
+        "경의",
+        "존경의 표시"
+      ],
+      "example": "The director's latest film pays homage to classic silent movies.",
+      "exampleKo": "그 감독의 최신 영화는 고전 무성 영화들에 경의를 표한다.",
+      "emoji": ""
+    },
+    {
+      "word": "muse",
+      "pos": "n",
+      "meanings": [
+        "뮤즈",
+        "영감의 원천"
+      ],
+      "example": "The painter often described his wife as his greatest muse.",
+      "exampleKo": "그 화가는 종종 자신의 아내를 자신의 가장 큰 영감의 원천이라고 묘사했다.",
+      "emoji": ""
+    },
+    {
+      "word": "omniscient",
+      "pos": "adj",
+      "meanings": [
+        "전지적인"
+      ],
+      "example": "The story is told from an omniscient narrator who knows every character's thoughts.",
+      "exampleKo": "그 이야기는 모든 등장인물의 생각을 아는 전지적 서술자의 시점으로 전개된다.",
+      "emoji": "👁️"
+    },
+    {
+      "word": "catharsis",
+      "pos": "n",
+      "meanings": [
+        "카타르시스",
+        "정화"
+      ],
+      "example": "Watching the tragedy unfold gave the audience a sense of catharsis.",
+      "exampleKo": "비극이 펼쳐지는 것을 지켜보면서 관객들은 카타르시스를 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "sublime",
+      "pos": "adj",
+      "meanings": [
+        "숭고한",
+        "장엄한"
+      ],
+      "example": "Standing before the towering mountains, she felt a sense of the sublime.",
+      "exampleKo": "우뚝 솟은 산들 앞에 서서 그녀는 숭고함을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "grotesque",
+      "pos": "adj",
+      "meanings": [
+        "기괴한"
+      ],
+      "example": "The novel's grotesque imagery is meant to unsettle the reader.",
+      "exampleKo": "그 소설의 기괴한 이미지는 독자를 불안하게 만들려는 의도이다.",
+      "emoji": ""
+    },
+    {
+      "word": "surreal",
+      "pos": "adj",
+      "meanings": [
+        "초현실적인"
+      ],
+      "example": "The painting's surreal landscape blends dream and reality.",
+      "exampleKo": "그 그림의 초현실적인 풍경은 꿈과 현실을 뒤섞어 놓는다.",
+      "emoji": ""
+    },
+    {
+      "word": "realism",
+      "pos": "n",
+      "meanings": [
+        "사실주의"
+      ],
+      "example": "The novel is a landmark of literary realism, depicting everyday life in detail.",
+      "exampleKo": "그 소설은 일상생활을 세밀하게 그려낸 문학적 사실주의의 이정표이다.",
+      "emoji": ""
+    },
+    {
+      "word": "romanticism",
+      "pos": "n",
+      "meanings": [
+        "낭만주의"
+      ],
+      "example": "Romanticism emphasized emotion and nature over reason and order.",
+      "exampleKo": "낭만주의는 이성과 질서보다 감정과 자연을 중시했다.",
+      "emoji": "🌹"
+    },
+    {
+      "word": "modernism",
+      "pos": "n",
+      "meanings": [
+        "모더니즘",
+        "현대주의"
+      ],
+      "example": "Modernism broke away from traditional forms to experiment with new styles.",
+      "exampleKo": "모더니즘은 전통적인 형식에서 벗어나 새로운 양식을 실험했다.",
+      "emoji": ""
+    },
+    {
+      "word": "avant-garde",
+      "pos": "adj",
+      "meanings": [
+        "전위적인"
+      ],
+      "example": "The gallery is known for showcasing avant-garde artists who challenge convention.",
+      "exampleKo": "그 화랑은 관습에 도전하는 전위적인 예술가들을 소개하는 것으로 유명하다.",
+      "emoji": ""
+    },
+    {
+      "word": "minimalism",
+      "pos": "n",
+      "meanings": [
+        "미니멀리즘",
+        "최소주의"
+      ],
+      "example": "The architect's minimalism favors clean lines over ornate detail.",
+      "exampleKo": "그 건축가의 미니멀리즘은 화려한 장식보다 깔끔한 선을 선호한다.",
+      "emoji": ""
+    },
+    {
+      "word": "ornament",
+      "pos": "n",
+      "meanings": [
+        "장식",
+        "장식품"
+      ],
+      "example": "The cathedral's walls are covered with intricate stone ornament.",
+      "exampleKo": "그 대성당의 벽은 정교한 돌 장식으로 뒤덮여 있다.",
+      "emoji": "💎"
+    },
+    {
+      "word": "texture",
+      "pos": "n",
+      "meanings": [
+        "질감",
+        "감촉"
+      ],
+      "example": "The painter used thick brushstrokes to give the canvas a rough texture.",
+      "exampleKo": "그 화가는 캔버스에 거친 질감을 주기 위해 두꺼운 붓질을 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "symmetry",
+      "pos": "n",
+      "meanings": [
+        "대칭",
+        "균형"
+      ],
+      "example": "The building's design is admired for its perfect symmetry.",
+      "exampleKo": "그 건물의 디자인은 완벽한 대칭으로 찬사를 받는다.",
+      "emoji": "🦋"
+    },
+    {
+      "word": "juxtaposition",
+      "pos": "n",
+      "meanings": [
+        "병치",
+        "나란히 놓기"
+      ],
+      "example": "The juxtaposition of wealth and poverty in the photograph is striking.",
+      "exampleKo": "그 사진 속 부와 빈곤의 병치는 강렬한 인상을 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "cadence",
+      "pos": "n",
+      "meanings": [
+        "억양",
+        "운율"
+      ],
+      "example": "The speaker's gentle cadence made the story soothing to listen to.",
+      "exampleKo": "그 화자의 부드러운 억양은 이야기를 듣기 편안하게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "alliteration",
+      "pos": "n",
+      "meanings": [
+        "두운법"
+      ],
+      "example": "The poet used alliteration, repeating the 's' sound throughout the line.",
+      "exampleKo": "그 시인은 그 행 내내 's' 소리를 반복하는 두운법을 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "onomatopoeia",
+      "pos": "n",
+      "meanings": [
+        "의성어"
+      ],
+      "example": "Words like 'buzz' and 'hiss' are examples of onomatopoeia.",
+      "exampleKo": "'buzz'와 'hiss' 같은 단어들은 의성어의 예이다.",
+      "emoji": "💥"
+    },
+    {
+      "word": "sonnet",
+      "pos": "n",
+      "meanings": [
+        "소네트"
+      ],
+      "example": "Shakespeare's sonnets often explore themes of love and time.",
+      "exampleKo": "셰익스피어의 소네트는 흔히 사랑과 시간이라는 주제를 탐구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "ballad",
+      "pos": "n",
+      "meanings": [
+        "발라드",
+        "담시"
+      ],
+      "example": "The folk ballad tells the tragic story of two star-crossed lovers.",
+      "exampleKo": "그 민요 발라드는 비극적인 운명을 타고난 두 연인의 이야기를 들려준다.",
+      "emoji": "🎵"
+    },
+    {
+      "word": "elegy",
+      "pos": "n",
+      "meanings": [
+        "애가",
+        "비가"
+      ],
+      "example": "The poet wrote an elegy to mourn the loss of his close friend.",
+      "exampleKo": "그 시인은 가까운 친구의 죽음을 애도하며 애가를 썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "ode",
+      "pos": "n",
+      "meanings": [
+        "송시",
+        "오드"
+      ],
+      "example": "The poem is an ode celebrating the beauty of autumn.",
+      "exampleKo": "그 시는 가을의 아름다움을 찬미하는 송시이다.",
+      "emoji": ""
+    },
+    {
+      "word": "lyrical",
+      "pos": "adj",
+      "meanings": [
+        "서정적인"
+      ],
+      "example": "The novelist's lyrical prose reads almost like poetry.",
+      "exampleKo": "그 소설가의 서정적인 산문은 거의 시처럼 읽힌다.",
+      "emoji": "🎵"
+    },
+    {
+      "word": "autobiography",
+      "pos": "n",
+      "meanings": [
+        "자서전"
+      ],
+      "example": "In her autobiography, she reflects candidly on her early struggles.",
+      "exampleKo": "그녀는 자서전에서 초년의 고난에 대해 솔직하게 회고한다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "memoir",
+      "pos": "n",
+      "meanings": [
+        "회고록"
+      ],
+      "example": "The former diplomat's memoir offers a rare glimpse into international politics.",
+      "exampleKo": "그 전 외교관의 회고록은 국제 정치에 대한 흔치 않은 통찰을 제공한다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "diction",
+      "pos": "n",
+      "meanings": [
+        "어법",
+        "말씨"
+      ],
+      "example": "The poet's careful diction gives every word a precise weight.",
+      "exampleKo": "그 시인의 신중한 어법은 모든 단어에 정확한 무게를 부여한다.",
+      "emoji": ""
+    },
+    {
+      "word": "syntax",
+      "pos": "n",
+      "meanings": [
+        "구문",
+        "통사론"
+      ],
+      "example": "The unusual syntax of the sentence forces readers to slow down.",
+      "exampleKo": "그 문장의 특이한 구문은 독자들이 천천히 읽도록 만든다.",
+      "emoji": ""
+    },
+    {
+      "word": "ambivalence",
+      "pos": "n",
+      "meanings": [
+        "양가감정",
+        "상반된 감정"
+      ],
+      "example": "She felt a deep ambivalence about leaving her hometown for the city.",
+      "exampleKo": "그녀는 고향을 떠나 도시로 가는 것에 대해 깊은 양가감정을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "renowned",
+      "pos": "adj",
+      "meanings": [
+        "유명한",
+        "명성 있는"
+      ],
+      "example": "The museum houses works by a renowned sculptor from the nineteenth century.",
+      "exampleKo": "그 박물관은 19세기의 명성 있는 조각가의 작품들을 소장하고 있다.",
+      "emoji": "⭐"
+    },
+    {
+      "word": "stylized",
+      "pos": "adj",
+      "meanings": [
+        "양식화된"
+      ],
+      "example": "The film uses a highly stylized visual style reminiscent of old paintings.",
+      "exampleKo": "그 영화는 옛 그림을 연상시키는 매우 양식화된 시각적 스타일을 사용한다.",
+      "emoji": ""
+    },
+    {
+      "word": "embodiment",
+      "pos": "n",
+      "meanings": [
+        "구현",
+        "화신"
+      ],
+      "example": "The character is often seen as the embodiment of pure innocence.",
+      "exampleKo": "그 등장인물은 흔히 순수함의 화신으로 여겨진다.",
+      "emoji": ""
+    },
+    {
+      "word": "evocative",
+      "pos": "adj",
+      "meanings": [
+        "연상시키는",
+        "환기시키는"
+      ],
+      "example": "The song's evocative melody brings back memories of childhood summers.",
+      "exampleKo": "그 노래의 연상시키는 멜로디는 어린 시절 여름의 기억을 되살린다.",
+      "emoji": ""
+    },
+    {
+      "word": "poignant",
+      "pos": "adj",
+      "meanings": [
+        "가슴 아픈",
+        "절절한"
+      ],
+      "example": "The film's final scene is quietly poignant, leaving the audience in silence.",
+      "exampleKo": "그 영화의 마지막 장면은 조용히 가슴 아프며 관객들을 침묵에 잠기게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "haunting",
+      "pos": "adj",
+      "meanings": [
+        "잊혀지지 않는"
+      ],
+      "example": "The haunting melody stayed with me long after the concert ended.",
+      "exampleKo": "그 잊혀지지 않는 멜로디는 콘서트가 끝난 후에도 오랫동안 내 마음에 남았다.",
+      "emoji": "👻"
+    },
+    {
+      "word": "gripping",
+      "pos": "adj",
+      "meanings": [
+        "마음을 사로잡는"
+      ],
+      "example": "The thriller's gripping plot kept readers turning pages late into the night.",
+      "exampleKo": "그 스릴러의 마음을 사로잡는 줄거리는 독자들이 밤늦도록 책장을 넘기게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "resonate",
+      "pos": "v",
+      "meanings": [
+        "울려 퍼지다",
+        "공감을 불러일으키다"
+      ],
+      "example": "The novel's message about loneliness still resonates with readers today.",
+      "exampleKo": "외로움에 관한 그 소설의 메시지는 오늘날에도 여전히 독자들에게 공감을 불러일으킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "perceptive",
+      "pos": "adj",
+      "meanings": [
+        "통찰력 있는"
+      ],
+      "example": "The critic's perceptive analysis revealed layers of meaning most readers missed.",
+      "exampleKo": "그 평론가의 통찰력 있는 분석은 대부분의 독자들이 놓친 여러 겹의 의미를 드러냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "incisive",
+      "pos": "adj",
+      "meanings": [
+        "예리한"
+      ],
+      "example": "Her incisive comments cut straight to the heart of the argument.",
+      "exampleKo": "그녀의 예리한 논평은 논쟁의 핵심을 곧바로 짚어냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "illuminate",
+      "pos": "v",
+      "meanings": [
+        "밝히다",
+        "분명하게 하다"
+      ],
+      "example": "The essay helps illuminate the hidden motives behind the character's actions.",
+      "exampleKo": "그 에세이는 그 인물의 행동 이면에 숨겨진 동기를 밝히는 데 도움을 준다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "thought-provoking",
+      "pos": "adj",
+      "meanings": [
+        "생각하게 하는"
+      ],
+      "example": "The documentary raises thought-provoking questions about identity and belonging.",
+      "exampleKo": "그 다큐멘터리는 정체성과 소속감에 관해 생각하게 하는 질문들을 제기한다.",
+      "emoji": "🤔"
+    },
+    {
+      "word": "archetype",
+      "pos": "n",
+      "meanings": [
+        "원형"
+      ],
+      "example": "The wise old mentor is a common archetype found in stories across cultures.",
+      "exampleKo": "현명한 노스승은 여러 문화권의 이야기에서 흔히 발견되는 원형이다.",
+      "emoji": ""
+    },
+    {
+      "word": "caricature",
+      "pos": "n",
+      "meanings": [
+        "캐리커처",
+        "풍자화"
+      ],
+      "example": "The cartoonist drew a caricature that exaggerated the politician's features.",
+      "exampleKo": "그 만화가는 그 정치인의 특징을 과장한 캐리커처를 그렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "exaggeration",
+      "pos": "n",
+      "meanings": [
+        "과장"
+      ],
+      "example": "To say the trip changed her life completely was hardly an exaggeration.",
+      "exampleKo": "그 여행이 그녀의 삶을 완전히 바꾸어 놓았다고 말하는 것은 과장이 아니었다.",
+      "emoji": ""
+    },
+    {
+      "word": "distortion",
+      "pos": "n",
+      "meanings": [
+        "왜곡"
+      ],
+      "example": "The mirror created a comic distortion of everyone who looked into it.",
+      "exampleKo": "그 거울은 들여다보는 모든 사람의 모습을 우스꽝스럽게 왜곡했다.",
+      "emoji": ""
+    },
+    {
+      "word": "intricacy",
+      "pos": "n",
+      "meanings": [
+        "복잡함",
+        "정교함"
+      ],
+      "example": "The intricacy of the plot requires readers to pay close attention to detail.",
+      "exampleKo": "그 줄거리의 정교함은 독자들이 세부 사항에 세심한 주의를 기울일 것을 요구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "classical",
+      "pos": "adj",
+      "meanings": [
+        "고전의",
+        "고전적인"
+      ],
+      "example": "The composer drew heavily on classical forms while adding modern touches.",
+      "exampleKo": "그 작곡가는 현대적인 요소를 더하면서도 고전적인 형식에 크게 의존했다.",
+      "emoji": "🏛️"
+    },
+    {
+      "word": "versatility",
+      "pos": "n",
+      "meanings": [
+        "다재다능함",
+        "다용도성"
+      ],
+      "example": "The actor's versatility allows her to move easily between comedy and tragedy.",
+      "exampleKo": "그 배우의 다재다능함 덕분에 그녀는 희극과 비극을 자유롭게 오갈 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "seminal",
+      "pos": "adj",
+      "meanings": [
+        "중요한",
+        "독창적인"
+      ],
+      "example": "The essay is considered a seminal work in the field of literary criticism.",
+      "exampleKo": "그 에세이는 문학 비평 분야에서 독창적이고 중요한 작품으로 여겨진다.",
+      "emoji": ""
+    },
+    {
+      "word": "influential",
+      "pos": "adj",
+      "meanings": [
+        "영향력 있는"
+      ],
+      "example": "The poet was one of the most influential writers of her generation.",
+      "exampleKo": "그 시인은 자신의 세대에서 가장 영향력 있는 작가 중 한 명이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "pioneering",
+      "pos": "adj",
+      "meanings": [
+        "선구적인"
+      ],
+      "example": "Her pioneering novel broke new ground in narrative structure.",
+      "exampleKo": "그녀의 선구적인 소설은 서사 구조에서 새로운 지평을 열었다.",
+      "emoji": ""
+    },
+    {
+      "word": "visionary",
+      "pos": "adj",
+      "meanings": [
+        "선견지명이 있는"
+      ],
+      "example": "The visionary artist imagined worlds that no one else had dared to depict.",
+      "exampleKo": "그 선견지명이 있는 예술가는 아무도 감히 그려내지 못했던 세계를 상상했다.",
+      "emoji": ""
+    },
+    {
+      "word": "iconic",
+      "pos": "adj",
+      "meanings": [
+        "상징적인",
+        "대표적인"
+      ],
+      "example": "The painting has become an iconic image recognized around the world.",
+      "exampleKo": "그 그림은 전 세계적으로 알려진 상징적인 이미지가 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "timeless",
+      "pos": "adj",
+      "meanings": [
+        "시대를 초월한"
+      ],
+      "example": "The story's timeless themes still resonate with readers centuries later.",
+      "exampleKo": "그 이야기의 시대를 초월한 주제는 수 세기가 지난 지금도 독자들에게 공감을 불러일으킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "immortalize",
+      "pos": "v",
+      "meanings": [
+        "불멸하게 하다",
+        "영원히 남게 하다"
+      ],
+      "example": "The sculptor immortalized the queen's likeness in marble.",
+      "exampleKo": "그 조각가는 여왕의 모습을 대리석으로 영원히 남겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "commemorate",
+      "pos": "v",
+      "meanings": [
+        "기념하다",
+        "추모하다"
+      ],
+      "example": "The mural was painted to commemorate the town's founding.",
+      "exampleKo": "그 벽화는 마을의 창립을 기념하기 위해 그려졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "eulogy",
+      "pos": "n",
+      "meanings": [
+        "추도사",
+        "찬사"
+      ],
+      "example": "He delivered a moving eulogy at his grandfather's funeral.",
+      "exampleKo": "그는 할아버지의 장례식에서 감동적인 추도사를 낭독했다.",
+      "emoji": ""
+    },
+    {
+      "word": "subplot",
+      "pos": "n",
+      "meanings": [
+        "부차적 줄거리"
+      ],
+      "example": "A minor subplot about a lost letter adds depth to the main story.",
+      "exampleKo": "잃어버린 편지에 관한 사소한 부차적 줄거리는 본 이야기에 깊이를 더한다.",
+      "emoji": ""
+    },
+    {
+      "word": "flashback",
+      "pos": "n",
+      "meanings": [
+        "회상 장면"
+      ],
+      "example": "The novel uses flashback to reveal the protagonist's traumatic past.",
+      "exampleKo": "그 소설은 주인공의 트라우마가 된 과거를 드러내기 위해 회상 장면을 사용한다.",
+      "emoji": "⏪"
+    },
+    {
+      "word": "foreboding",
+      "pos": "n",
+      "meanings": [
+        "불길한 예감"
+      ],
+      "example": "A sense of foreboding filled the room as the storm approached.",
+      "exampleKo": "폭풍이 다가오면서 방 안은 불길한 예감으로 가득 찼다.",
+      "emoji": ""
+    },
+    {
+      "word": "suspense",
+      "pos": "n",
+      "meanings": [
+        "긴장감"
+      ],
+      "example": "The director builds suspense slowly, revealing clues one by one.",
+      "exampleKo": "그 감독은 단서를 하나씩 드러내며 긴장감을 천천히 쌓아 올린다.",
+      "emoji": ""
+    },
+    {
+      "word": "exposition",
+      "pos": "n",
+      "meanings": [
+        "(이야기의) 도입부 설명",
+        "해설"
+      ],
+      "example": "The opening chapter provides exposition about the setting and characters.",
+      "exampleKo": "첫 장은 배경과 등장인물에 대한 도입부 설명을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "symbolize",
+      "pos": "v",
+      "meanings": [
+        "상징하다"
+      ],
+      "example": "In many cultures, the color white symbolizes purity.",
+      "exampleKo": "많은 문화권에서 흰색은 순수함을 상징한다.",
+      "emoji": ""
+    },
+    {
+      "word": "representation",
+      "pos": "n",
+      "meanings": [
+        "표현",
+        "묘사"
+      ],
+      "example": "The film has been praised for its honest representation of immigrant life.",
+      "exampleKo": "그 영화는 이민자 삶에 대한 정직한 묘사로 찬사를 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "patron",
+      "pos": "n",
+      "meanings": [
+        "후원자"
+      ],
+      "example": "The wealthy patron funded the artist's travels across Europe.",
+      "exampleKo": "그 부유한 후원자는 그 예술가의 유럽 전역 여행 자금을 지원했다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "groundbreaking",
+      "pos": "adj",
+      "meanings": [
+        "획기적인",
+        "선구적인"
+      ],
+      "example": "The author's groundbreaking style influenced an entire generation of writers.",
+      "exampleKo": "그 작가의 획기적인 문체는 한 세대 전체의 작가들에게 영향을 미쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "curator",
+      "pos": "n",
+      "meanings": [
+        "큐레이터",
+        "학예사"
+      ],
+      "example": "The curator arranged the paintings to tell a story about the artist's life.",
+      "exampleKo": "그 큐레이터는 그 예술가의 삶에 관한 이야기를 전하기 위해 그림들을 배치했다.",
+      "emoji": ""
+    },
+    {
+      "word": "narrator",
+      "pos": "n",
+      "meanings": [
+        "서술자",
+        "화자"
+      ],
+      "example": "The novel's narrator often withholds information to build suspense.",
+      "exampleKo": "그 소설의 서술자는 긴장감을 조성하기 위해 흔히 정보를 감춘다.",
+      "emoji": ""
+    },
+    {
+      "word": "subjectivity",
+      "pos": "n",
+      "meanings": [
+        "주관성"
+      ],
+      "example": "Art criticism inevitably involves a degree of subjectivity.",
+      "exampleKo": "예술 비평은 필연적으로 어느 정도의 주관성을 수반한다.",
+      "emoji": ""
+    },
+    {
+      "word": "impressionism",
+      "pos": "n",
+      "meanings": [
+        "인상주의"
+      ],
+      "example": "Impressionism captured fleeting moments of light rather than precise detail.",
+      "exampleKo": "인상주의는 정교한 세부 묘사보다 빛의 순간적인 변화를 포착했다.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "tribute",
+      "pos": "n",
+      "meanings": [
+        "헌사",
+        "찬사"
+      ],
+      "example": "The concert was organized as a tribute to the composer's lifelong work.",
+      "exampleKo": "그 콘서트는 그 작곡가의 평생에 걸친 작품에 대한 헌사로 기획되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "gothic",
+      "pos": "adj",
+      "meanings": [
+        "고딕 양식의",
+        "고딕풍의"
+      ],
+      "example": "The novel's gothic atmosphere is created through dark settings and eerie sounds.",
+      "exampleKo": "그 소설의 고딕풍 분위기는 어두운 배경과 으스스한 소리를 통해 만들어진다.",
+      "emoji": "🦇"
+    },
+    {
+      "word": "figure of speech",
+      "pos": "phrase",
+      "meanings": [
+        "비유적 표현",
+        "수사법"
+      ],
+      "example": "'Time flies' is a figure of speech, not a literal statement about time.",
+      "exampleKo": "'시간이 날아간다'는 시간에 대한 문자 그대로의 서술이 아니라 비유적 표현이다.",
+      "emoji": ""
+    },
+    {
+      "word": "literary device",
+      "pos": "phrase",
+      "meanings": [
+        "문학적 장치"
+      ],
+      "example": "Foreshadowing is a literary device that hints at events to come.",
+      "exampleKo": "복선은 앞으로 일어날 사건을 암시하는 문학적 장치이다.",
+      "emoji": ""
+    },
+    {
+      "word": "nonlinear",
+      "pos": "adj",
+      "meanings": [
+        "비선형적인"
+      ],
+      "example": "The film's nonlinear structure jumps back and forth between past and present.",
+      "exampleKo": "그 영화의 비선형적 구조는 과거와 현재를 오가며 전개된다.",
+      "emoji": ""
+    },
+    {
+      "word": "retrospective",
+      "pos": "adj",
+      "meanings": [
+        "회고하는"
+      ],
+      "example": "The museum held a retrospective exhibition covering the artist's entire career.",
+      "exampleKo": "그 박물관은 그 예술가의 전 경력을 아우르는 회고전을 개최했다.",
+      "emoji": ""
+    },
+    {
+      "word": "reminisce",
+      "pos": "v",
+      "meanings": [
+        "회상하다",
+        "추억하다"
+      ],
+      "example": "The old friends spent the evening reminiscing about their school days.",
+      "exampleKo": "오랜 친구들은 저녁 시간 내내 학창 시절을 회상하며 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "reminiscent",
+      "pos": "adj",
+      "meanings": [
+        "연상시키는",
+        "떠올리게 하는"
+      ],
+      "example": "The painting's soft colors are reminiscent of early morning light.",
+      "exampleKo": "그 그림의 부드러운 색채는 이른 아침의 빛을 연상시킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "wistful",
+      "pos": "adj",
+      "meanings": [
+        "아쉬워하는",
+        "그리워하는"
+      ],
+      "example": "She gave a wistful smile as she recalled her childhood home.",
+      "exampleKo": "그녀는 어린 시절 살던 집을 떠올리며 아쉬운 미소를 지었다.",
+      "emoji": ""
+    },
+    {
+      "word": "solemn",
+      "pos": "adj",
+      "meanings": [
+        "엄숙한",
+        "근엄한"
+      ],
+      "example": "A solemn silence fell over the audience as the poem was read aloud.",
+      "exampleKo": "그 시가 낭송되는 동안 청중들 사이에 엄숙한 침묵이 흘렀다.",
+      "emoji": ""
+    },
+    {
+      "word": "stark",
+      "pos": "adj",
+      "meanings": [
+        "극명한",
+        "삭막한"
+      ],
+      "example": "The stark contrast between the two characters drives the story's conflict.",
+      "exampleKo": "두 인물 사이의 극명한 대조가 이야기의 갈등을 이끌어간다.",
+      "emoji": ""
+    },
+    {
+      "word": "bleak",
+      "pos": "adj",
+      "meanings": [
+        "암울한",
+        "황량한"
+      ],
+      "example": "The novel paints a bleak picture of a future ruled by machines.",
+      "exampleKo": "그 소설은 기계가 지배하는 암울한 미래를 그려낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "succinct",
+      "pos": "adj",
+      "meanings": [
+        "간결한"
+      ],
+      "example": "The critic offered a succinct summary of the play's central conflict.",
+      "exampleKo": "그 평론가는 그 희곡의 중심 갈등에 대해 간결한 요약을 제시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "paradoxical",
+      "pos": "adj",
+      "meanings": [
+        "역설적인"
+      ],
+      "example": "It seems paradoxical that the character finds freedom through confinement.",
+      "exampleKo": "그 인물이 속박을 통해 자유를 찾는다는 것은 역설적으로 보인다.",
+      "emoji": ""
+    },
+    {
+      "word": "rhetorical question",
+      "pos": "phrase",
+      "meanings": [
+        "수사 의문문"
+      ],
+      "example": "The speaker asked a rhetorical question to make the audience reflect.",
+      "exampleKo": "그 연설자는 청중이 곰곰이 생각하도록 수사 의문문을 던졌다.",
+      "emoji": "❓"
+    },
+    {
+      "word": "canon",
+      "pos": "n",
+      "meanings": [
+        "정전",
+        "고전 작품군"
+      ],
+      "example": "The novel has recently been added to the literary canon taught in schools.",
+      "exampleKo": "그 소설은 최근 학교에서 가르치는 문학 정전에 포함되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "verbatim",
+      "pos": "adv",
+      "meanings": [
+        "그대로",
+        "축어적으로"
+      ],
+      "example": "She recited the poem verbatim, without missing a single word.",
+      "exampleKo": "그녀는 단 한 단어도 빠뜨리지 않고 그 시를 그대로 암송했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tragic flaw",
+      "pos": "phrase",
+      "meanings": [
+        "비극적 결함"
+      ],
+      "example": "The hero's tragic flaw, his excessive pride, ultimately leads to his downfall.",
+      "exampleKo": "그 영웅의 비극적 결함인 과도한 자존심은 결국 그의 몰락으로 이어진다.",
+      "emoji": ""
+    },
+    {
+      "word": "comic relief",
+      "pos": "phrase",
+      "meanings": [
+        "희극적 완화",
+        "긴장을 푸는 요소"
+      ],
+      "example": "The clumsy servant provides comic relief amid the play's tense scenes.",
+      "exampleKo": "그 서투른 하인은 희곡의 긴장된 장면들 속에서 희극적 완화를 제공한다.",
+      "emoji": "😂"
+    }
+  ]
+}

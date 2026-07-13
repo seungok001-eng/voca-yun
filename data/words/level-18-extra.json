@@ -1,0 +1,8 @@
+{
+  "level": 18,
+  "words": [
+    {"word": "laconic", "pos": "adj", "meanings": ["간결한", "말수가 적은"], "example": "His laconic reply suggested he was not interested.", "exampleKo": "그의 간결한 대답은 그가 관심이 없음을 시사했다.", "emoji": ""},
+    {"word": "obsequious", "pos": "adj", "meanings": ["아첨하는", "굽실거리는"], "example": "The obsequious waiter hovered around the wealthy guests.", "exampleKo": "그 아첨하는 웨이터는 부유한 손님들 주위를 맴돌았다.", "emoji": ""},
+    {"word": "truculent", "pos": "adj", "meanings": ["반항적인", "험악한", "공격적인"], "example": "The truculent student refused to follow any instructions.", "exampleKo": "그 반항적인 학생은 어떤 지시도 따르기를 거부했다.", "emoji": ""}
+  ]
+}

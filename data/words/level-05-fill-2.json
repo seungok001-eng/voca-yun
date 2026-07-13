@@ -1,0 +1,1847 @@
+{
+  "level": 5,
+  "words": [
+    {
+      "word": "dictionary",
+      "pos": "n",
+      "meanings": [
+        "사전"
+      ],
+      "example": "I looked up the new word in a dictionary.",
+      "exampleKo": "나는 사전에서 새 단어를 찾아보았다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "memorize",
+      "pos": "v",
+      "meanings": [
+        "암기하다",
+        "외우다"
+      ],
+      "example": "We need to memorize these English words.",
+      "exampleKo": "우리는 이 영어 단어들을 암기해야 한다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "essay",
+      "pos": "n",
+      "meanings": [
+        "에세이",
+        "작문"
+      ],
+      "example": "She wrote an essay about her summer vacation.",
+      "exampleKo": "그녀는 여름 방학에 대한 에세이를 썼다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "lecture",
+      "pos": "n",
+      "meanings": [
+        "강의"
+      ],
+      "example": "The professor gave a lecture on history.",
+      "exampleKo": "교수님은 역사에 관한 강의를 하셨다.",
+      "emoji": "🧑‍🏫"
+    },
+    {
+      "word": "semester",
+      "pos": "n",
+      "meanings": [
+        "학기"
+      ],
+      "example": "The new semester starts in March.",
+      "exampleKo": "새 학기는 3월에 시작한다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "absent",
+      "pos": "adj",
+      "meanings": [
+        "결석한"
+      ],
+      "example": "He was absent from school yesterday.",
+      "exampleKo": "그는 어제 학교에 결석했다.",
+      "emoji": "🙅"
+    },
+    {
+      "word": "attendance",
+      "pos": "n",
+      "meanings": [
+        "출석"
+      ],
+      "example": "The teacher checked attendance first.",
+      "exampleKo": "선생님은 먼저 출석을 확인하셨다.",
+      "emoji": "✅"
+    },
+    {
+      "word": "vice principal",
+      "pos": "n",
+      "meanings": [
+        "교감"
+      ],
+      "example": "The vice principal welcomed the new students.",
+      "exampleKo": "교감 선생님은 새 학생들을 환영하셨다.",
+      "emoji": "🏫"
+    },
+    {
+      "word": "assignment",
+      "pos": "n",
+      "meanings": [
+        "과제"
+      ],
+      "example": "Our teacher gave us a science assignment.",
+      "exampleKo": "선생님은 우리에게 과학 과제를 내주셨다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "curriculum",
+      "pos": "n",
+      "meanings": [
+        "교육과정"
+      ],
+      "example": "The school changed its curriculum this year.",
+      "exampleKo": "학교는 올해 교육과정을 바꾸었다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "grammar",
+      "pos": "n",
+      "meanings": [
+        "문법"
+      ],
+      "example": "English grammar can be tricky at first.",
+      "exampleKo": "영어 문법은 처음에는 까다로울 수 있다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "vocabulary",
+      "pos": "n",
+      "meanings": [
+        "어휘"
+      ],
+      "example": "Reading books helps build your vocabulary.",
+      "exampleKo": "책을 읽으면 어휘력을 기르는 데 도움이 된다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "pronunciation",
+      "pos": "n",
+      "meanings": [
+        "발음"
+      ],
+      "example": "Her pronunciation improved after practice.",
+      "exampleKo": "연습을 한 후 그녀의 발음이 좋아졌다.",
+      "emoji": "🗣️"
+    },
+    {
+      "word": "spelling",
+      "pos": "n",
+      "meanings": [
+        "철자"
+      ],
+      "example": "He made a spelling mistake in his essay.",
+      "exampleKo": "그는 작문에서 철자를 틀렸다.",
+      "emoji": "🔤"
+    },
+    {
+      "word": "handwriting",
+      "pos": "n",
+      "meanings": [
+        "필체",
+        "손글씨"
+      ],
+      "example": "Her handwriting is neat and easy to read.",
+      "exampleKo": "그녀의 필체는 깔끔하고 읽기 쉽다.",
+      "emoji": "✍️"
+    },
+    {
+      "word": "chalkboard eraser",
+      "pos": "n",
+      "meanings": [
+        "칠판지우개"
+      ],
+      "example": "The teacher clapped the chalkboard eraser outside.",
+      "exampleKo": "선생님은 밖에서 칠판지우개를 털었다.",
+      "emoji": ""
+    },
+    {
+      "word": "pop quiz",
+      "pos": "n",
+      "meanings": [
+        "깜짝 시험"
+      ],
+      "example": "We had a pop quiz this morning.",
+      "exampleKo": "오늘 아침 우리는 깜짝 시험을 봤다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "midterm",
+      "pos": "n",
+      "meanings": [
+        "중간고사"
+      ],
+      "example": "The midterm exams start next Monday.",
+      "exampleKo": "중간고사는 다음 주 월요일에 시작한다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "final exam",
+      "pos": "n",
+      "meanings": [
+        "기말고사"
+      ],
+      "example": "Students are nervous about the final exam.",
+      "exampleKo": "학생들은 기말고사를 앞두고 긴장하고 있다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "report card",
+      "pos": "n",
+      "meanings": [
+        "성적표"
+      ],
+      "example": "I got my report card at the end of the term.",
+      "exampleKo": "학기 말에 성적표를 받았다.",
+      "emoji": "📄"
+    },
+    {
+      "word": "graduate",
+      "pos": "v",
+      "meanings": [
+        "졸업하다"
+      ],
+      "example": "My sister will graduate from elementary school this year.",
+      "exampleKo": "내 여동생은 올해 초등학교를 졸업할 것이다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "graduation",
+      "pos": "n",
+      "meanings": [
+        "졸업"
+      ],
+      "example": "The graduation ceremony was held in the gym.",
+      "exampleKo": "졸업식은 체육관에서 열렸다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "enroll",
+      "pos": "v",
+      "meanings": [
+        "등록하다",
+        "입학하다"
+      ],
+      "example": "He will enroll in middle school next spring.",
+      "exampleKo": "그는 내년 봄에 중학교에 입학할 것이다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "submit",
+      "pos": "v",
+      "meanings": [
+        "제출하다"
+      ],
+      "example": "You must submit your report by Friday.",
+      "exampleKo": "금요일까지 보고서를 제출해야 한다.",
+      "emoji": "📤"
+    },
+    {
+      "word": "underline",
+      "pos": "v",
+      "meanings": [
+        "밑줄을 긋다"
+      ],
+      "example": "Underline the main idea in each paragraph.",
+      "exampleKo": "각 문단에서 핵심 내용에 밑줄을 그으세요.",
+      "emoji": "✏️"
+    },
+    {
+      "word": "highlighter",
+      "pos": "n",
+      "meanings": [
+        "형광펜"
+      ],
+      "example": "She used a highlighter to mark key words.",
+      "exampleKo": "그녀는 형광펜으로 핵심 단어를 표시했다.",
+      "emoji": "🖍️"
+    },
+    {
+      "word": "raise a hand",
+      "pos": "phrase",
+      "meanings": [
+        "손을 들다"
+      ],
+      "example": "Raise your hand if you know the answer.",
+      "exampleKo": "답을 알면 손을 드세요.",
+      "emoji": "✋"
+    },
+    {
+      "word": "take notes",
+      "pos": "phrase",
+      "meanings": [
+        "필기하다"
+      ],
+      "example": "I always take notes during class.",
+      "exampleKo": "나는 항상 수업 중에 필기한다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "pay attention",
+      "pos": "phrase",
+      "meanings": [
+        "집중하다",
+        "주의를 기울이다"
+      ],
+      "example": "Please pay attention while the teacher is talking.",
+      "exampleKo": "선생님이 말씀하시는 동안 집중해 주세요.",
+      "emoji": "👀"
+    },
+    {
+      "word": "tardy",
+      "pos": "adj",
+      "meanings": [
+        "지각한"
+      ],
+      "example": "He was tardy for class three times this month.",
+      "exampleKo": "그는 이번 달에 세 번 지각했다.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "punctual",
+      "pos": "adj",
+      "meanings": [
+        "시간을 잘 지키는"
+      ],
+      "example": "She is always punctual for school.",
+      "exampleKo": "그녀는 항상 학교에 시간 맞춰 온다.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "diligent",
+      "pos": "adj",
+      "meanings": [
+        "부지런한",
+        "성실한"
+      ],
+      "example": "He is a diligent student who never skips homework.",
+      "exampleKo": "그는 숙제를 절대 빠뜨리지 않는 부지런한 학생이다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "academic",
+      "pos": "adj",
+      "meanings": [
+        "학업의",
+        "학문적인"
+      ],
+      "example": "Her academic performance improved this semester.",
+      "exampleKo": "그녀의 학업 성적은 이번 학기에 좋아졌다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "extracurricular",
+      "pos": "adj",
+      "meanings": [
+        "과외의",
+        "방과 후의"
+      ],
+      "example": "He joins many extracurricular activities.",
+      "exampleKo": "그는 많은 과외 활동에 참여한다.",
+      "emoji": ""
+    },
+    {
+      "word": "tutoring",
+      "pos": "n",
+      "meanings": [
+        "과외",
+        "개인지도"
+      ],
+      "example": "She gets math tutoring twice a week.",
+      "exampleKo": "그녀는 일주일에 두 번 수학 과외를 받는다.",
+      "emoji": "🧑‍🏫"
+    },
+    {
+      "word": "scholarship",
+      "pos": "n",
+      "meanings": [
+        "장학금"
+      ],
+      "example": "He received a scholarship for his good grades.",
+      "exampleKo": "그는 좋은 성적으로 장학금을 받았다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "classmate list",
+      "pos": "n",
+      "meanings": [
+        "학급 명단"
+      ],
+      "example": "The teacher read out the classmate list.",
+      "exampleKo": "선생님은 학급 명단을 읽으셨다.",
+      "emoji": "📋"
+    },
+    {
+      "word": "seatwork",
+      "pos": "n",
+      "meanings": [
+        "자습 과제"
+      ],
+      "example": "We finished our seatwork before recess.",
+      "exampleKo": "우리는 쉬는 시간 전에 자습 과제를 끝냈다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "self-study",
+      "pos": "n",
+      "meanings": [
+        "자율학습"
+      ],
+      "example": "He does self-study every evening.",
+      "exampleKo": "그는 매일 저녁 자율학습을 한다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "presentation",
+      "pos": "n",
+      "meanings": [
+        "발표"
+      ],
+      "example": "I gave a presentation about space in class.",
+      "exampleKo": "나는 수업 시간에 우주에 관해 발표했다.",
+      "emoji": "📊"
+    },
+    {
+      "word": "discussion",
+      "pos": "n",
+      "meanings": [
+        "토의",
+        "논의"
+      ],
+      "example": "The group discussion lasted twenty minutes.",
+      "exampleKo": "그 모둠 토의는 20분 동안 이어졌다.",
+      "emoji": "💬"
+    },
+    {
+      "word": "group project",
+      "pos": "n",
+      "meanings": [
+        "모둠 과제"
+      ],
+      "example": "We are working on a group project together.",
+      "exampleKo": "우리는 함께 모둠 과제를 하고 있다.",
+      "emoji": "👥"
+    },
+    {
+      "word": "field trip",
+      "pos": "n",
+      "meanings": [
+        "현장학습"
+      ],
+      "example": "Our class went on a field trip to the museum.",
+      "exampleKo": "우리 반은 박물관으로 현장학습을 갔다.",
+      "emoji": "🚌"
+    },
+    {
+      "word": "club activity",
+      "pos": "n",
+      "meanings": [
+        "동아리 활동"
+      ],
+      "example": "He enjoys his club activity after school.",
+      "exampleKo": "그는 방과 후 동아리 활동을 즐긴다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "principal's office",
+      "pos": "n",
+      "meanings": [
+        "교장실"
+      ],
+      "example": "He was called to the principal's office.",
+      "exampleKo": "그는 교장실로 불려 갔다.",
+      "emoji": "🏫"
+    },
+    {
+      "word": "nurse's office",
+      "pos": "n",
+      "meanings": [
+        "보건실"
+      ],
+      "example": "She went to the nurse's office with a headache.",
+      "exampleKo": "그녀는 두통 때문에 보건실에 갔다.",
+      "emoji": "🏥"
+    },
+    {
+      "word": "chemistry lab",
+      "pos": "n",
+      "meanings": [
+        "과학실"
+      ],
+      "example": "We did an experiment in the chemistry lab.",
+      "exampleKo": "우리는 과학실에서 실험을 했다.",
+      "emoji": "🧪"
+    },
+    {
+      "word": "gymnasium",
+      "pos": "n",
+      "meanings": [
+        "체육관"
+      ],
+      "example": "The whole school gathered in the gymnasium.",
+      "exampleKo": "전교생이 체육관에 모였다.",
+      "emoji": "🏋️"
+    },
+    {
+      "word": "auditorium",
+      "pos": "n",
+      "meanings": [
+        "강당"
+      ],
+      "example": "The concert was held in the school auditorium.",
+      "exampleKo": "콘서트는 학교 강당에서 열렸다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "education",
+      "pos": "n",
+      "meanings": [
+        "교육"
+      ],
+      "example": "A good education helps you grow.",
+      "exampleKo": "좋은 교육은 성장하는 데 도움이 된다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "knowledge test",
+      "pos": "n",
+      "meanings": [
+        "지식 시험"
+      ],
+      "example": "The knowledge test covered five subjects.",
+      "exampleKo": "그 지식 시험은 다섯 과목을 다뤘다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "literature",
+      "pos": "n",
+      "meanings": [
+        "문학"
+      ],
+      "example": "She loves reading classic literature.",
+      "exampleKo": "그녀는 고전 문학 읽는 것을 좋아한다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "geography",
+      "pos": "n",
+      "meanings": [
+        "지리"
+      ],
+      "example": "We are studying African geography this week.",
+      "exampleKo": "우리는 이번 주에 아프리카 지리를 공부하고 있다.",
+      "emoji": "🗺️"
+    },
+    {
+      "word": "physical education",
+      "pos": "n",
+      "meanings": [
+        "체육"
+      ],
+      "example": "Physical education class is right after lunch.",
+      "exampleKo": "체육 수업은 점심 직후에 있다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "biology",
+      "pos": "n",
+      "meanings": [
+        "생물학"
+      ],
+      "example": "In biology class, we studied plant cells.",
+      "exampleKo": "생물 수업에서 우리는 식물 세포를 공부했다.",
+      "emoji": "🧬"
+    },
+    {
+      "word": "physics",
+      "pos": "n",
+      "meanings": [
+        "물리학"
+      ],
+      "example": "Physics explains why objects fall down.",
+      "exampleKo": "물리학은 물체가 왜 아래로 떨어지는지 설명해 준다.",
+      "emoji": "⚛️"
+    },
+    {
+      "word": "algebra",
+      "pos": "n",
+      "meanings": [
+        "대수학"
+      ],
+      "example": "We will start learning algebra next year.",
+      "exampleKo": "우리는 내년에 대수학을 배우기 시작할 것이다.",
+      "emoji": "➗"
+    },
+    {
+      "word": "arithmetic",
+      "pos": "n",
+      "meanings": [
+        "산수"
+      ],
+      "example": "Basic arithmetic includes addition and subtraction.",
+      "exampleKo": "기초 산수에는 덧셈과 뺄셈이 포함된다.",
+      "emoji": "➕"
+    },
+    {
+      "word": "handout",
+      "pos": "n",
+      "meanings": [
+        "유인물"
+      ],
+      "example": "The teacher passed out a handout for today's lesson.",
+      "exampleKo": "선생님은 오늘 수업 유인물을 나눠 주셨다.",
+      "emoji": "📄"
+    },
+    {
+      "word": "lesson plan",
+      "pos": "n",
+      "meanings": [
+        "수업 계획"
+      ],
+      "example": "The teacher prepared a detailed lesson plan.",
+      "exampleKo": "선생님은 자세한 수업 계획을 준비하셨다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "study group",
+      "pos": "n",
+      "meanings": [
+        "스터디 그룹"
+      ],
+      "example": "We formed a study group before the exam.",
+      "exampleKo": "우리는 시험 전에 스터디 그룹을 만들었다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "cram school",
+      "pos": "n",
+      "meanings": [
+        "학원"
+      ],
+      "example": "She goes to cram school twice a week.",
+      "exampleKo": "그녀는 일주일에 두 번 학원에 다닌다.",
+      "emoji": "🏫"
+    },
+    {
+      "word": "class president",
+      "pos": "n",
+      "meanings": [
+        "반장"
+      ],
+      "example": "He was elected class president this year.",
+      "exampleKo": "그는 올해 반장으로 뽑혔다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "student council",
+      "pos": "n",
+      "meanings": [
+        "학생회"
+      ],
+      "example": "The student council planned the school festival.",
+      "exampleKo": "학생회가 학교 축제를 기획했다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "seat number",
+      "pos": "n",
+      "meanings": [
+        "번호",
+        "자리 번호"
+      ],
+      "example": "Find your seat number on the board.",
+      "exampleKo": "칠판에서 네 자리 번호를 찾아라.",
+      "emoji": "💺"
+    },
+    {
+      "word": "answer sheet",
+      "pos": "n",
+      "meanings": [
+        "답안지"
+      ],
+      "example": "Write your name on the answer sheet first.",
+      "exampleKo": "먼저 답안지에 이름을 쓰세요.",
+      "emoji": "📝"
+    },
+    {
+      "word": "multiple choice",
+      "pos": "n",
+      "meanings": [
+        "객관식"
+      ],
+      "example": "The test has ten multiple choice questions.",
+      "exampleKo": "그 시험에는 객관식 문제가 열 개 있다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "short answer",
+      "pos": "n",
+      "meanings": [
+        "주관식"
+      ],
+      "example": "The last section is a short answer question.",
+      "exampleKo": "마지막 부분은 주관식 문제이다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "cheat",
+      "pos": "v",
+      "meanings": [
+        "부정행위를 하다",
+        "컨닝하다"
+      ],
+      "example": "You should never cheat on a test.",
+      "exampleKo": "시험에서 절대 부정행위를 하면 안 된다.",
+      "emoji": "❌"
+    },
+    {
+      "word": "academic year",
+      "pos": "n",
+      "meanings": [
+        "학년도"
+      ],
+      "example": "The academic year begins in March in Korea.",
+      "exampleKo": "한국에서 학년도는 3월에 시작한다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "periodic table",
+      "pos": "n",
+      "meanings": [
+        "주기율표"
+      ],
+      "example": "We memorized part of the periodic table.",
+      "exampleKo": "우리는 주기율표의 일부를 암기했다.",
+      "emoji": "🧪"
+    },
+    {
+      "word": "repeat after",
+      "pos": "phrase",
+      "meanings": [
+        "따라 말하다"
+      ],
+      "example": "Please repeat after me.",
+      "exampleKo": "저를 따라 말해 보세요.",
+      "emoji": "🗣️"
+    },
+    {
+      "word": "raise your grade",
+      "pos": "phrase",
+      "meanings": [
+        "성적을 올리다"
+      ],
+      "example": "He studied more to raise his grade.",
+      "exampleKo": "그는 성적을 올리기 위해 더 열심히 공부했다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "turn in",
+      "pos": "phrase",
+      "meanings": [
+        "제출하다"
+      ],
+      "example": "Turn in your homework before class starts.",
+      "exampleKo": "수업이 시작하기 전에 숙제를 제출하세요.",
+      "emoji": "📤"
+    },
+    {
+      "word": "skip class",
+      "pos": "phrase",
+      "meanings": [
+        "수업을 빼먹다"
+      ],
+      "example": "He never skips class, even when he's tired.",
+      "exampleKo": "그는 피곤해도 절대 수업을 빼먹지 않는다.",
+      "emoji": "🙅"
+    },
+    {
+      "word": "honor roll",
+      "pos": "n",
+      "meanings": [
+        "우등생 명단"
+      ],
+      "example": "She made the honor roll again this term.",
+      "exampleKo": "그녀는 이번 학기에 다시 우등생 명단에 올랐다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "transcript",
+      "pos": "n",
+      "meanings": [
+        "성적 증명서"
+      ],
+      "example": "The school sent his transcript to the new school.",
+      "exampleKo": "학교는 그의 성적 증명서를 새 학교에 보냈다.",
+      "emoji": "📄"
+    },
+    {
+      "word": "index card",
+      "pos": "n",
+      "meanings": [
+        "단어 카드"
+      ],
+      "example": "She uses index cards to memorize vocabulary.",
+      "exampleKo": "그녀는 단어를 암기하기 위해 단어 카드를 사용한다.",
+      "emoji": "🗂️"
+    },
+    {
+      "word": "proofread",
+      "pos": "v",
+      "meanings": [
+        "교정을 보다"
+      ],
+      "example": "Always proofread your writing before you turn it in.",
+      "exampleKo": "제출하기 전에 항상 글을 교정해 보세요.",
+      "emoji": ""
+    },
+    {
+      "word": "jealous",
+      "pos": "adj",
+      "meanings": [
+        "질투하는"
+      ],
+      "example": "She felt jealous when her friend won the prize.",
+      "exampleKo": "그녀는 친구가 상을 받자 질투가 났다.",
+      "emoji": "😒"
+    },
+    {
+      "word": "stubborn",
+      "pos": "adj",
+      "meanings": [
+        "고집 센"
+      ],
+      "example": "My little brother is very stubborn about his opinions.",
+      "exampleKo": "내 남동생은 자신의 의견에 대해 매우 고집이 세다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "ashamed",
+      "pos": "adj",
+      "meanings": [
+        "부끄러운",
+        "창피한"
+      ],
+      "example": "He felt ashamed after breaking his promise.",
+      "exampleKo": "그는 약속을 어긴 후 부끄러워했다.",
+      "emoji": "😳"
+    },
+    {
+      "word": "embarrassed",
+      "pos": "adj",
+      "meanings": [
+        "당황한",
+        "창피한"
+      ],
+      "example": "She was embarrassed when she tripped in class.",
+      "exampleKo": "그녀는 교실에서 넘어져서 당황했다.",
+      "emoji": "😳"
+    },
+    {
+      "word": "caring",
+      "pos": "adj",
+      "meanings": [
+        "배려심 있는"
+      ],
+      "example": "My teacher is very caring toward every student.",
+      "exampleKo": "우리 선생님은 모든 학생에게 매우 배려심이 있으시다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "selfish",
+      "pos": "adj",
+      "meanings": [
+        "이기적인"
+      ],
+      "example": "It's selfish to never share your toys.",
+      "exampleKo": "장난감을 절대 나누지 않는 것은 이기적인 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "polite manner",
+      "pos": "n",
+      "meanings": [
+        "예의 바른 태도"
+      ],
+      "example": "He greeted his teacher with a polite manner.",
+      "exampleKo": "그는 예의 바른 태도로 선생님께 인사했다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "rude behavior",
+      "pos": "n",
+      "meanings": [
+        "무례한 행동"
+      ],
+      "example": "Talking during class is rude behavior.",
+      "exampleKo": "수업 중에 떠드는 것은 무례한 행동이다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "optimistic",
+      "pos": "adj",
+      "meanings": [
+        "낙천적인"
+      ],
+      "example": "She is optimistic that she will pass the exam.",
+      "exampleKo": "그녀는 시험에 합격할 것이라고 낙천적으로 생각한다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "pessimistic",
+      "pos": "adj",
+      "meanings": [
+        "비관적인"
+      ],
+      "example": "He was pessimistic about winning the game.",
+      "exampleKo": "그는 경기에서 이길 것에 대해 비관적이었다.",
+      "emoji": "😞"
+    },
+    {
+      "word": "determined",
+      "pos": "adj",
+      "meanings": [
+        "단호한",
+        "결심이 굳은"
+      ],
+      "example": "She is determined to improve her grades.",
+      "exampleKo": "그녀는 성적을 올리겠다고 굳게 결심했다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "impatient",
+      "pos": "adj",
+      "meanings": [
+        "참을성 없는",
+        "성급한"
+      ],
+      "example": "He got impatient waiting for the bus.",
+      "exampleKo": "그는 버스를 기다리다가 참을성이 없어졌다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "cautious",
+      "pos": "adj",
+      "meanings": [
+        "조심스러운"
+      ],
+      "example": "She was cautious when crossing the busy street.",
+      "exampleKo": "그녀는 복잡한 거리를 건널 때 조심스러웠다.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "careless mistake",
+      "pos": "n",
+      "meanings": [
+        "부주의한 실수"
+      ],
+      "example": "He made a careless mistake on the test.",
+      "exampleKo": "그는 시험에서 부주의한 실수를 했다.",
+      "emoji": "❌"
+    },
+    {
+      "word": "sincere",
+      "pos": "adj",
+      "meanings": [
+        "진실한",
+        "진심 어린"
+      ],
+      "example": "He gave a sincere apology to his friend.",
+      "exampleKo": "그는 친구에게 진심 어린 사과를 했다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "modest",
+      "pos": "adj",
+      "meanings": [
+        "겸손한"
+      ],
+      "example": "She stayed modest even after winning first prize.",
+      "exampleKo": "그녀는 1등 상을 받고도 겸손함을 잃지 않았다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "arrogant",
+      "pos": "adj",
+      "meanings": [
+        "거만한"
+      ],
+      "example": "Nobody likes him because he is so arrogant.",
+      "exampleKo": "그가 너무 거만해서 아무도 그를 좋아하지 않는다.",
+      "emoji": "😏"
+    },
+    {
+      "word": "timid",
+      "pos": "adj",
+      "meanings": [
+        "소심한",
+        "겁 많은"
+      ],
+      "example": "The timid boy hid behind his mother.",
+      "exampleKo": "소심한 소년은 엄마 뒤에 숨었다.",
+      "emoji": "😳"
+    },
+    {
+      "word": "outgoing",
+      "pos": "adj",
+      "meanings": [
+        "외향적인",
+        "사교적인"
+      ],
+      "example": "She is outgoing and makes friends easily.",
+      "exampleKo": "그녀는 외향적이어서 친구를 쉽게 사귄다.",
+      "emoji": "😄"
+    },
+    {
+      "word": "reserved",
+      "pos": "adj",
+      "meanings": [
+        "내성적인",
+        "말수가 적은"
+      ],
+      "example": "He is reserved and speaks only when needed.",
+      "exampleKo": "그는 내성적이어서 필요할 때만 말한다.",
+      "emoji": ""
+    },
+    {
+      "word": "friendly attitude",
+      "pos": "n",
+      "meanings": [
+        "친절한 태도"
+      ],
+      "example": "The new student has a friendly attitude.",
+      "exampleKo": "그 전학생은 친절한 태도를 가지고 있다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "cooperative",
+      "pos": "adj",
+      "meanings": [
+        "협조적인"
+      ],
+      "example": "All students were cooperative during the group project.",
+      "exampleKo": "모든 학생이 모둠 과제 동안 협조적이었다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "responsible student",
+      "pos": "n",
+      "meanings": [
+        "책임감 있는 학생"
+      ],
+      "example": "A responsible student always finishes homework on time.",
+      "exampleKo": "책임감 있는 학생은 항상 제때에 숙제를 끝낸다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "forgetful",
+      "pos": "adj",
+      "meanings": [
+        "건망증이 있는"
+      ],
+      "example": "He is forgetful and often loses his pencil case.",
+      "exampleKo": "그는 건망증이 있어서 필통을 자주 잃어버린다.",
+      "emoji": ""
+    },
+    {
+      "word": "clumsy",
+      "pos": "adj",
+      "meanings": [
+        "서투른"
+      ],
+      "example": "She felt clumsy during the dance practice.",
+      "exampleKo": "그녀는 춤 연습 중에 서투르다고 느꼈다.",
+      "emoji": "🤦"
+    },
+    {
+      "word": "grumpy mood",
+      "pos": "n",
+      "meanings": [
+        "짜증난 기분"
+      ],
+      "example": "He was in a grumpy mood after the exam.",
+      "exampleKo": "그는 시험 후에 짜증난 기분이었다.",
+      "emoji": "😠"
+    },
+    {
+      "word": "content",
+      "pos": "adj",
+      "meanings": [
+        "만족하는"
+      ],
+      "example": "She felt content with her test score.",
+      "exampleKo": "그녀는 자신의 시험 점수에 만족했다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "disappointed",
+      "pos": "adj",
+      "meanings": [
+        "실망한"
+      ],
+      "example": "He was disappointed with his low grade.",
+      "exampleKo": "그는 낮은 성적에 실망했다.",
+      "emoji": "😞"
+    },
+    {
+      "word": "delighted",
+      "pos": "adj",
+      "meanings": [
+        "기뻐하는",
+        "즐거워하는"
+      ],
+      "example": "She was delighted to get a perfect score.",
+      "exampleKo": "그녀는 만점을 받아서 기뻐했다.",
+      "emoji": "😄"
+    },
+    {
+      "word": "annoyed",
+      "pos": "adj",
+      "meanings": [
+        "짜증난"
+      ],
+      "example": "He got annoyed when his sister interrupted his studying.",
+      "exampleKo": "그는 여동생이 공부를 방해해서 짜증이 났다.",
+      "emoji": "😒"
+    },
+    {
+      "word": "furious",
+      "pos": "adj",
+      "meanings": [
+        "몹시 화난"
+      ],
+      "example": "The coach was furious about the team's mistake.",
+      "exampleKo": "코치는 팀의 실수에 몹시 화가 났다.",
+      "emoji": "😡"
+    },
+    {
+      "word": "terrified",
+      "pos": "adj",
+      "meanings": [
+        "겁에 질린"
+      ],
+      "example": "She was terrified before the big performance.",
+      "exampleKo": "그녀는 큰 공연 전에 겁에 질렸다.",
+      "emoji": "😱"
+    },
+    {
+      "word": "anxious",
+      "pos": "adj",
+      "meanings": [
+        "불안해하는"
+      ],
+      "example": "He felt anxious about the upcoming exam.",
+      "exampleKo": "그는 다가오는 시험 때문에 불안했다.",
+      "emoji": "😰"
+    },
+    {
+      "word": "relieved",
+      "pos": "adj",
+      "meanings": [
+        "안심한"
+      ],
+      "example": "She was relieved when the test was easier than expected.",
+      "exampleKo": "그녀는 시험이 예상보다 쉬워서 안심했다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "regretful",
+      "pos": "adj",
+      "meanings": [
+        "후회하는"
+      ],
+      "example": "He felt regretful about not studying harder.",
+      "exampleKo": "그는 더 열심히 공부하지 않은 것을 후회했다.",
+      "emoji": "😔"
+    },
+    {
+      "word": "envious",
+      "pos": "adj",
+      "meanings": [
+        "부러워하는"
+      ],
+      "example": "She felt envious of her friend's new bike.",
+      "exampleKo": "그녀는 친구의 새 자전거를 부러워했다.",
+      "emoji": "😒"
+    },
+    {
+      "word": "gloomy mood",
+      "pos": "n",
+      "meanings": [
+        "우울한 기분"
+      ],
+      "example": "Rainy days often bring a gloomy mood.",
+      "exampleKo": "비 오는 날은 종종 우울한 기분을 가져온다.",
+      "emoji": "😔"
+    },
+    {
+      "word": "miserable",
+      "pos": "adj",
+      "meanings": [
+        "비참한",
+        "불행한"
+      ],
+      "example": "He felt miserable after losing his favorite pen.",
+      "exampleKo": "그는 좋아하는 펜을 잃어버려서 비참했다.",
+      "emoji": "😢"
+    },
+    {
+      "word": "puzzled",
+      "pos": "adj",
+      "meanings": [
+        "어리둥절한"
+      ],
+      "example": "She looked puzzled by the difficult question.",
+      "exampleKo": "그녀는 어려운 질문에 어리둥절해 보였다.",
+      "emoji": "😕"
+    },
+    {
+      "word": "astonished",
+      "pos": "adj",
+      "meanings": [
+        "깜짝 놀란"
+      ],
+      "example": "We were astonished by the magician's trick.",
+      "exampleKo": "우리는 마술사의 마술에 깜짝 놀랐다.",
+      "emoji": "😲"
+    },
+    {
+      "word": "content with oneself",
+      "pos": "phrase",
+      "meanings": [
+        "스스로에게 만족하는"
+      ],
+      "example": "He felt content with himself after finishing the race.",
+      "exampleKo": "그는 경주를 마친 후 스스로에게 만족했다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "passionate",
+      "pos": "adj",
+      "meanings": [
+        "열정적인"
+      ],
+      "example": "He is passionate about learning new languages.",
+      "exampleKo": "그는 새로운 언어를 배우는 데 열정적이다.",
+      "emoji": "🔥"
+    },
+    {
+      "word": "considerate",
+      "pos": "adj",
+      "meanings": [
+        "사려 깊은",
+        "배려하는"
+      ],
+      "example": "She is considerate of her classmates' feelings.",
+      "exampleKo": "그녀는 반 친구들의 감정을 배려한다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "thoughtless",
+      "pos": "adj",
+      "meanings": [
+        "경솔한",
+        "사려 없는"
+      ],
+      "example": "His thoughtless comment hurt her feelings.",
+      "exampleKo": "그의 경솔한 말이 그녀의 감정을 상하게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "humble",
+      "pos": "adj",
+      "meanings": [
+        "겸손한"
+      ],
+      "example": "Despite winning, she remained humble.",
+      "exampleKo": "우승했음에도 불구하고 그녀는 겸손함을 유지했다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "bold",
+      "pos": "adj",
+      "meanings": [
+        "대담한"
+      ],
+      "example": "He made a bold decision to try out for the team.",
+      "exampleKo": "그는 팀에 지원하는 대담한 결정을 내렸다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "calm down",
+      "pos": "phrase",
+      "meanings": [
+        "진정하다"
+      ],
+      "example": "Take a deep breath and calm down.",
+      "exampleKo": "심호흡을 하고 진정하세요.",
+      "emoji": "😌"
+    },
+    {
+      "word": "upbeat",
+      "pos": "adj",
+      "meanings": [
+        "긍정적인",
+        "활기찬"
+      ],
+      "example": "Her upbeat personality cheers everyone up.",
+      "exampleKo": "그녀의 활기찬 성격은 모두를 기운 나게 한다.",
+      "emoji": "😄"
+    },
+    {
+      "word": "withdrawn",
+      "pos": "adj",
+      "meanings": [
+        "내성적인",
+        "소극적인"
+      ],
+      "example": "He became withdrawn after moving to a new school.",
+      "exampleKo": "그는 새 학교로 전학 온 후 소극적이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "sociable",
+      "pos": "adj",
+      "meanings": [
+        "사교적인"
+      ],
+      "example": "She is sociable and talks to everyone at recess.",
+      "exampleKo": "그녀는 사교적이어서 쉬는 시간에 모두와 이야기한다.",
+      "emoji": "😄"
+    },
+    {
+      "word": "tolerant",
+      "pos": "adj",
+      "meanings": [
+        "관대한",
+        "포용력 있는"
+      ],
+      "example": "He is tolerant of different opinions in class discussions.",
+      "exampleKo": "그는 학급 토의에서 다른 의견에 관대하다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "critical of others",
+      "pos": "phrase",
+      "meanings": [
+        "다른 사람에게 비판적인"
+      ],
+      "example": "He is too critical of others' small mistakes.",
+      "exampleKo": "그는 다른 사람들의 작은 실수에 너무 비판적이다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "cranky",
+      "pos": "adj",
+      "meanings": [
+        "짜증을 잘 내는"
+      ],
+      "example": "He gets cranky when he is tired.",
+      "exampleKo": "그는 피곤할 때 짜증을 잘 낸다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "sensitive",
+      "pos": "adj",
+      "meanings": [
+        "예민한",
+        "민감한"
+      ],
+      "example": "She is sensitive about her test scores.",
+      "exampleKo": "그녀는 시험 점수에 대해 예민하다.",
+      "emoji": ""
+    },
+    {
+      "word": "easygoing",
+      "pos": "adj",
+      "meanings": [
+        "느긋한",
+        "편안한"
+      ],
+      "example": "My best friend has an easygoing personality.",
+      "exampleKo": "내 가장 친한 친구는 느긋한 성격이다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "reliable friend",
+      "pos": "n",
+      "meanings": [
+        "믿음직한 친구"
+      ],
+      "example": "He is a reliable friend who always keeps promises.",
+      "exampleKo": "그는 항상 약속을 지키는 믿음직한 친구이다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "trustworthy",
+      "pos": "adj",
+      "meanings": [
+        "신뢰할 수 있는"
+      ],
+      "example": "She is trustworthy, so I share my secrets with her.",
+      "exampleKo": "그녀는 신뢰할 수 있어서 나는 그녀에게 비밀을 털어놓는다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "loyal",
+      "pos": "adj",
+      "meanings": [
+        "의리 있는",
+        "충실한"
+      ],
+      "example": "He is loyal to his friends no matter what.",
+      "exampleKo": "그는 무슨 일이 있어도 친구들에게 의리 있다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "kind-hearted",
+      "pos": "adj",
+      "meanings": [
+        "마음씨 착한"
+      ],
+      "example": "The kind-hearted girl helped the lost puppy.",
+      "exampleKo": "마음씨 착한 소녀는 길 잃은 강아지를 도와주었다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "cheerful smile",
+      "pos": "n",
+      "meanings": [
+        "밝은 미소"
+      ],
+      "example": "He greets everyone with a cheerful smile.",
+      "exampleKo": "그는 밝은 미소로 모두에게 인사한다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "witty",
+      "pos": "adj",
+      "meanings": [
+        "재치 있는"
+      ],
+      "example": "She is witty and always makes us laugh.",
+      "exampleKo": "그녀는 재치 있어서 항상 우리를 웃게 만든다.",
+      "emoji": ""
+    },
+    {
+      "word": "quirky",
+      "pos": "adj",
+      "meanings": [
+        "엉뚱한",
+        "독특한"
+      ],
+      "example": "His quirky ideas surprise the whole class.",
+      "exampleKo": "그의 엉뚱한 아이디어는 반 전체를 놀라게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "open-minded",
+      "pos": "adj",
+      "meanings": [
+        "열린 마음의"
+      ],
+      "example": "She is open-minded about trying new subjects.",
+      "exampleKo": "그녀는 새로운 과목을 시도하는 데 열린 마음을 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "strict teacher",
+      "pos": "n",
+      "meanings": [
+        "엄격한 선생님"
+      ],
+      "example": "Our strict teacher never allows late homework.",
+      "exampleKo": "우리의 엄격한 선생님은 숙제 지각을 절대 허용하지 않는다.",
+      "emoji": "😠"
+    },
+    {
+      "word": "gentle voice",
+      "pos": "n",
+      "meanings": [
+        "부드러운 목소리"
+      ],
+      "example": "She spoke to the crying child in a gentle voice.",
+      "exampleKo": "그녀는 울고 있는 아이에게 부드러운 목소리로 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "talkative",
+      "pos": "adj",
+      "meanings": [
+        "수다스러운"
+      ],
+      "example": "My deskmate is very talkative during class.",
+      "exampleKo": "내 짝꿍은 수업 시간에 매우 수다스럽다.",
+      "emoji": "💬"
+    },
+    {
+      "word": "mischievous",
+      "pos": "adj",
+      "meanings": [
+        "장난꾸러기인"
+      ],
+      "example": "The mischievous boy hid his friend's shoes.",
+      "exampleKo": "그 장난꾸러기 소년은 친구의 신발을 숨겼다.",
+      "emoji": "😏"
+    },
+    {
+      "word": "studious",
+      "pos": "adj",
+      "meanings": [
+        "학구적인",
+        "면학하는"
+      ],
+      "example": "She is studious and reads every night.",
+      "exampleKo": "그녀는 학구적이어서 매일 밤 책을 읽는다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "absent-minded",
+      "pos": "adj",
+      "meanings": [
+        "멍한",
+        "깜박하는"
+      ],
+      "example": "He is absent-minded and forgets his lunch often.",
+      "exampleKo": "그는 멍해서 점심 도시락을 자주 깜박한다.",
+      "emoji": "😵‍💫"
+    },
+    {
+      "word": "self-confident",
+      "pos": "adj",
+      "meanings": [
+        "자신감 있는"
+      ],
+      "example": "She became more self-confident after joining the debate club.",
+      "exampleKo": "그녀는 토론 동아리에 가입한 후 더 자신감이 생겼다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "syllabus",
+      "pos": "n",
+      "meanings": [
+        "강의 계획서"
+      ],
+      "example": "The teacher handed out the syllabus on the first day.",
+      "exampleKo": "선생님은 첫날 강의 계획서를 나눠 주셨다.",
+      "emoji": "📋"
+    },
+    {
+      "word": "recite",
+      "pos": "v",
+      "meanings": [
+        "암송하다",
+        "낭송하다"
+      ],
+      "example": "She had to recite the poem in front of the class.",
+      "exampleKo": "그녀는 반 친구들 앞에서 시를 암송해야 했다.",
+      "emoji": "🗣️"
+    },
+    {
+      "word": "study plan",
+      "pos": "n",
+      "meanings": [
+        "학습 계획"
+      ],
+      "example": "He made a study plan for the winter vacation.",
+      "exampleKo": "그는 겨울 방학 학습 계획을 세웠다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "concentration",
+      "pos": "n",
+      "meanings": [
+        "집중"
+      ],
+      "example": "Loud noise breaks my concentration while studying.",
+      "exampleKo": "시끄러운 소리는 공부할 때 내 집중을 깨뜨린다.",
+      "emoji": "🎯"
+    },
+    {
+      "word": "daydream",
+      "pos": "v",
+      "meanings": [
+        "공상하다",
+        "백일몽을 꾸다"
+      ],
+      "example": "He was daydreaming instead of listening to the lecture.",
+      "exampleKo": "그는 강의를 듣는 대신 공상에 잠겨 있었다.",
+      "emoji": "💭"
+    },
+    {
+      "word": "catch up",
+      "pos": "phrase",
+      "meanings": [
+        "따라잡다"
+      ],
+      "example": "She studied all weekend to catch up with her classmates.",
+      "exampleKo": "그녀는 반 친구들을 따라잡기 위해 주말 내내 공부했다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "fall behind",
+      "pos": "phrase",
+      "meanings": [
+        "뒤처지다"
+      ],
+      "example": "He fell behind in math after being absent for a week.",
+      "exampleKo": "그는 일주일 동안 결석한 후 수학에서 뒤처졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "excel at",
+      "pos": "phrase",
+      "meanings": [
+        "뛰어나다",
+        "탁월하다"
+      ],
+      "example": "She excels at science experiments.",
+      "exampleKo": "그녀는 과학 실험에 뛰어나다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "top student",
+      "pos": "n",
+      "meanings": [
+        "우수한 학생"
+      ],
+      "example": "He is known as the top student in his grade.",
+      "exampleKo": "그는 학년에서 가장 우수한 학생으로 알려져 있다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "homeroom",
+      "pos": "n",
+      "meanings": [
+        "담임 반",
+        "조례"
+      ],
+      "example": "We meet in homeroom every morning at eight.",
+      "exampleKo": "우리는 매일 아침 8시에 담임 반에서 모인다.",
+      "emoji": "🏫"
+    },
+    {
+      "word": "career day",
+      "pos": "n",
+      "meanings": [
+        "진로의 날"
+      ],
+      "example": "A firefighter visited our school on career day.",
+      "exampleKo": "진로의 날에 소방관이 우리 학교를 방문했다.",
+      "emoji": "💼"
+    },
+    {
+      "word": "dream job",
+      "pos": "n",
+      "meanings": [
+        "꿈의 직업"
+      ],
+      "example": "Being a scientist is her dream job.",
+      "exampleKo": "과학자가 되는 것이 그녀의 꿈의 직업이다.",
+      "emoji": "💭"
+    },
+    {
+      "word": "progress report",
+      "pos": "n",
+      "meanings": [
+        "학업 진행 보고서"
+      ],
+      "example": "The teacher sent home a progress report last week.",
+      "exampleKo": "선생님은 지난주에 학업 진행 보고서를 집으로 보내셨다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "plagiarize",
+      "pos": "v",
+      "meanings": [
+        "표절하다"
+      ],
+      "example": "Never plagiarize someone else's writing for your essay.",
+      "exampleKo": "에세이를 쓸 때 다른 사람의 글을 절대 표절하지 마라.",
+      "emoji": ""
+    },
+    {
+      "word": "deadline",
+      "pos": "n",
+      "meanings": [
+        "마감 기한"
+      ],
+      "example": "The deadline for the project is this Friday.",
+      "exampleKo": "그 과제의 마감 기한은 이번 주 금요일이다.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "spelling bee",
+      "pos": "n",
+      "meanings": [
+        "철자 맞히기 대회"
+      ],
+      "example": "She won first place in the school spelling bee.",
+      "exampleKo": "그녀는 학교 철자 맞히기 대회에서 1등을 했다.",
+      "emoji": "🔤"
+    },
+    {
+      "word": "self-centered",
+      "pos": "adj",
+      "meanings": [
+        "자기중심적인"
+      ],
+      "example": "He is too self-centered to notice how others feel.",
+      "exampleKo": "그는 너무 자기중심적이어서 다른 사람의 기분을 알아차리지 못한다.",
+      "emoji": ""
+    },
+    {
+      "word": "broad-minded",
+      "pos": "adj",
+      "meanings": [
+        "마음이 넓은",
+        "포용력 있는"
+      ],
+      "example": "Our teacher is broad-minded about different opinions.",
+      "exampleKo": "우리 선생님은 다른 의견에 대해 마음이 넓으시다.",
+      "emoji": "🤗"
+    },
+    {
+      "word": "warm-hearted",
+      "pos": "adj",
+      "meanings": [
+        "마음이 따뜻한"
+      ],
+      "example": "The warm-hearted nurse comforted the crying child.",
+      "exampleKo": "마음이 따뜻한 간호사는 우는 아이를 위로해 주었다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "hot-tempered",
+      "pos": "adj",
+      "meanings": [
+        "성미가 급한",
+        "다혈질인"
+      ],
+      "example": "He is hot-tempered and yells when he loses a game.",
+      "exampleKo": "그는 다혈질이어서 게임에 지면 소리를 지른다.",
+      "emoji": "😡"
+    },
+    {
+      "word": "strong-willed",
+      "pos": "adj",
+      "meanings": [
+        "의지가 강한"
+      ],
+      "example": "She is strong-willed and never gives up on her goals.",
+      "exampleKo": "그녀는 의지가 강해서 목표를 절대 포기하지 않는다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "indecisive",
+      "pos": "adj",
+      "meanings": [
+        "우유부단한"
+      ],
+      "example": "He is indecisive about which club to join.",
+      "exampleKo": "그는 어떤 동아리에 가입할지 우유부단하다.",
+      "emoji": "🤷"
+    },
+    {
+      "word": "assertive",
+      "pos": "adj",
+      "meanings": [
+        "자기주장이 강한",
+        "적극적인"
+      ],
+      "example": "She is assertive when sharing her ideas in class.",
+      "exampleKo": "그녀는 수업 시간에 자신의 생각을 말할 때 적극적이다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "dependable",
+      "pos": "adj",
+      "meanings": [
+        "믿을 만한"
+      ],
+      "example": "He is a dependable classmate who always helps out.",
+      "exampleKo": "그는 항상 도와주는 믿을 만한 반 친구이다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "bossy",
+      "pos": "adj",
+      "meanings": [
+        "으스대는",
+        "명령하기 좋아하는"
+      ],
+      "example": "Nobody wants to work with him because he is so bossy.",
+      "exampleKo": "그가 너무 명령하기 좋아해서 아무도 그와 함께 일하고 싶어 하지 않는다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "show-off",
+      "pos": "n",
+      "meanings": [
+        "잘난 척하는 사람"
+      ],
+      "example": "He is a show-off who always brags about his grades.",
+      "exampleKo": "그는 항상 자기 성적을 자랑하는 잘난 척하는 사람이다.",
+      "emoji": "😎"
+    },
+    {
+      "word": "perfectionist",
+      "pos": "n",
+      "meanings": [
+        "완벽주의자"
+      ],
+      "example": "She is a perfectionist who rewrites her essays many times.",
+      "exampleKo": "그녀는 에세이를 여러 번 다시 쓰는 완벽주의자이다.",
+      "emoji": "💯"
+    },
+    {
+      "word": "hard worker",
+      "pos": "n",
+      "meanings": [
+        "노력파",
+        "열심히 일하는 사람"
+      ],
+      "example": "Everyone knows he is a hard worker in class.",
+      "exampleKo": "모두가 그가 반에서 노력파라는 것을 안다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "picky eater",
+      "pos": "n",
+      "meanings": [
+        "편식하는 사람"
+      ],
+      "example": "My little brother is a picky eater at lunch.",
+      "exampleKo": "내 남동생은 점심시간에 편식하는 아이이다.",
+      "emoji": ""
+    },
+    {
+      "word": "stressed out",
+      "pos": "phrase",
+      "meanings": [
+        "스트레스를 받는"
+      ],
+      "example": "She felt stressed out before the big exam.",
+      "exampleKo": "그녀는 큰 시험 전에 스트레스를 받았다.",
+      "emoji": "😰"
+    },
+    {
+      "word": "composed",
+      "pos": "adj",
+      "meanings": [
+        "침착한"
+      ],
+      "example": "He stayed composed even when he made a mistake.",
+      "exampleKo": "그는 실수를 했을 때도 침착함을 유지했다.",
+      "emoji": "😌"
+    }
+  ]
+}

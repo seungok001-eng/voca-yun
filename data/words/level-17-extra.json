@@ -1,0 +1,23 @@
+{
+  "level": 17,
+  "words": [
+    {"word": "dexterous", "pos": "adj", "meanings": ["손재주가 좋은", "능숙한"], "example": "The dexterous surgeon completed the operation quickly.", "exampleKo": "손재주가 좋은 그 외과 의사는 수술을 빠르게 마쳤다.", "emoji": "🤹"},
+    {"word": "didactic", "pos": "adj", "meanings": ["교훈적인", "가르치려 드는"], "example": "The fable has a clearly didactic purpose.", "exampleKo": "그 우화는 분명히 교훈적인 목적을 지니고 있다.", "emoji": ""},
+    {"word": "dilapidated", "pos": "adj", "meanings": ["황폐한", "다 허물어져 가는"], "example": "They renovated the dilapidated house into a cafe.", "exampleKo": "그들은 다 허물어져 가는 집을 카페로 개조했다.", "emoji": "🏚️"},
+    {"word": "disconcert", "pos": "v", "meanings": ["당황하게 하다", "불안하게 만들다"], "example": "The unexpected question disconcerted the speaker.", "exampleKo": "예상치 못한 질문이 발표자를 당황하게 했다.", "emoji": ""},
+    {"word": "dogmatic", "pos": "adj", "meanings": ["독단적인", "교조적인"], "example": "His dogmatic attitude left no room for discussion.", "exampleKo": "그의 독단적인 태도는 토론의 여지를 남기지 않았다.", "emoji": ""},
+    {"word": "eminent", "pos": "adj", "meanings": ["저명한", "탁월한"], "example": "An eminent scholar delivered the keynote speech.", "exampleKo": "저명한 학자가 기조연설을 했다.", "emoji": ""},
+    {"word": "engross", "pos": "v", "meanings": ["몰두시키다", "열중하게 하다"], "example": "The mystery novel completely engrossed her for hours.", "exampleKo": "그 추리 소설은 몇 시간 동안 그녀를 완전히 몰두하게 했다.", "emoji": ""},
+    {"word": "epitome", "pos": "n", "meanings": ["전형", "완벽한 본보기"], "example": "Her calm response was the epitome of professionalism.", "exampleKo": "그녀의 침착한 대응은 전문가 정신의 전형이었다.", "emoji": ""},
+    {"word": "equanimity", "pos": "n", "meanings": ["평정심", "침착함"], "example": "He accepted the bad news with remarkable equanimity.", "exampleKo": "그는 놀라운 평정심으로 그 나쁜 소식을 받아들였다.", "emoji": ""},
+    {"word": "exemplify", "pos": "v", "meanings": ["전형적으로 보여주다", "예증하다"], "example": "Her career exemplifies the value of persistence.", "exampleKo": "그녀의 경력은 끈기의 가치를 전형적으로 보여준다.", "emoji": ""},
+    {"word": "extol", "pos": "v", "meanings": ["극찬하다", "칭송하다"], "example": "The critics extolled the virtues of the new symphony.", "exampleKo": "비평가들은 그 새 교향곡의 장점을 극찬했다.", "emoji": ""},
+    {"word": "fallacious", "pos": "adj", "meanings": ["잘못된", "오류가 있는"], "example": "The argument was based on fallacious reasoning.", "exampleKo": "그 주장은 오류가 있는 추론에 근거하고 있었다.", "emoji": ""},
+    {"word": "fickle", "pos": "adj", "meanings": ["변덕스러운"], "example": "Fashion trends are notoriously fickle.", "exampleKo": "패션 유행은 변덕스럽기로 악명이 높다.", "emoji": ""},
+    {"word": "garner", "pos": "v", "meanings": ["얻다", "모으다"], "example": "The proposal garnered support from both parties.", "exampleKo": "그 제안은 양당 모두로부터 지지를 얻었다.", "emoji": ""},
+    {"word": "garrulous", "pos": "adj", "meanings": ["수다스러운", "말이 많은"], "example": "The garrulous passenger talked throughout the entire flight.", "exampleKo": "그 수다스러운 승객은 비행 내내 이야기를 했다.", "emoji": "🗣️"},
+    {"word": "hackneyed", "pos": "adj", "meanings": ["진부한", "상투적인"], "example": "The essay was full of hackneyed expressions.", "exampleKo": "그 에세이는 상투적인 표현들로 가득했다.", "emoji": ""},
+    {"word": "impetuous", "pos": "adj", "meanings": ["성급한", "충동적인"], "example": "His impetuous decision to quit surprised everyone.", "exampleKo": "그만두겠다는 그의 충동적인 결정은 모두를 놀라게 했다.", "emoji": ""},
+    {"word": "implacable", "pos": "adj", "meanings": ["화해할 수 없는", "누그러지지 않는"], "example": "She faced implacable opposition to her reform plan.", "exampleKo": "그녀는 자신의 개혁안에 대한 누그러지지 않는 반대에 직면했다.", "emoji": ""}
+  ]
+}

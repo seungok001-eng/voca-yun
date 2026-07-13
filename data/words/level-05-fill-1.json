@@ -1,0 +1,1874 @@
+{
+  "level": 5,
+  "words": [
+    {
+      "word": "mumble",
+      "pos": "v",
+      "meanings": [
+        "중얼거리다"
+      ],
+      "example": "He mumbled an answer and looked away.",
+      "exampleKo": "그는 무언가를 중얼거리고 시선을 돌렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "nag",
+      "pos": "v",
+      "meanings": [
+        "잔소리하다"
+      ],
+      "example": "My mom always nags me to clean my room.",
+      "exampleKo": "우리 엄마는 항상 내게 방을 치우라고 잔소리하신다.",
+      "emoji": ""
+    },
+    {
+      "word": "console",
+      "pos": "v",
+      "meanings": [
+        "위로하다"
+      ],
+      "example": "He tried to console his crying sister.",
+      "exampleKo": "그는 우는 여동생을 위로하려고 했다.",
+      "emoji": "🤗"
+    },
+    {
+      "word": "compliment",
+      "pos": "v",
+      "meanings": [
+        "칭찬하다"
+      ],
+      "example": "My teacher complimented me on my essay.",
+      "exampleKo": "선생님이 내 글을 칭찬해 주셨다.",
+      "emoji": "👏"
+    },
+    {
+      "word": "boast",
+      "pos": "v",
+      "meanings": [
+        "자랑하다"
+      ],
+      "example": "He always boasts about his grades.",
+      "exampleKo": "그는 항상 자기 성적을 자랑한다.",
+      "emoji": "😎"
+    },
+    {
+      "word": "brag",
+      "pos": "v",
+      "meanings": [
+        "자랑하다"
+      ],
+      "example": "Stop bragging about your new phone.",
+      "exampleKo": "새 휴대폰 자랑 그만해.",
+      "emoji": "😎"
+    },
+    {
+      "word": "tease",
+      "pos": "v",
+      "meanings": [
+        "놀리다"
+      ],
+      "example": "My brother teases me about my haircut.",
+      "exampleKo": "우리 오빠는 내 머리 모양을 가지고 나를 놀린다.",
+      "emoji": "😝"
+    },
+    {
+      "word": "bully",
+      "pos": "v",
+      "meanings": [
+        "괴롭히다"
+      ],
+      "example": "It is wrong to bully younger students.",
+      "exampleKo": "어린 학생들을 괴롭히는 것은 잘못된 일이다.",
+      "emoji": "😠"
+    },
+    {
+      "word": "betray",
+      "pos": "v",
+      "meanings": [
+        "배신하다"
+      ],
+      "example": "He felt betrayed when his friend told his secret.",
+      "exampleKo": "친구가 그의 비밀을 말했을 때 그는 배신감을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "suppose",
+      "pos": "v",
+      "meanings": [
+        "추측하다",
+        "생각하다"
+      ],
+      "example": "I suppose he forgot about our plan.",
+      "exampleKo": "나는 그가 우리 계획을 잊어버렸다고 생각한다.",
+      "emoji": ""
+    },
+    {
+      "word": "recall",
+      "pos": "v",
+      "meanings": [
+        "기억해 내다",
+        "회상하다"
+      ],
+      "example": "I couldn't recall his name at first.",
+      "exampleKo": "나는 처음에 그의 이름을 기억해 내지 못했다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "quarrel",
+      "pos": "v",
+      "meanings": [
+        "다투다",
+        "말다툼하다"
+      ],
+      "example": "The two brothers quarreled over the last cookie.",
+      "exampleKo": "형제는 마지막 쿠키를 두고 다투었다.",
+      "emoji": "😠"
+    },
+    {
+      "word": "host",
+      "pos": "v",
+      "meanings": [
+        "주최하다",
+        "개최하다"
+      ],
+      "example": "Our class will host a small art show.",
+      "exampleKo": "우리 반은 작은 미술 전시회를 개최할 것이다.",
+      "emoji": "🎤"
+    },
+    {
+      "word": "postpone",
+      "pos": "v",
+      "meanings": [
+        "연기하다",
+        "미루다"
+      ],
+      "example": "The game was postponed until next Saturday.",
+      "exampleKo": "경기는 다음 주 토요일로 연기되었다.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "reschedule",
+      "pos": "v",
+      "meanings": [
+        "일정을 다시 잡다"
+      ],
+      "example": "We had to reschedule the meeting for Friday.",
+      "exampleKo": "우리는 회의 일정을 금요일로 다시 잡아야 했다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "motivate",
+      "pos": "v",
+      "meanings": [
+        "동기를 부여하다"
+      ],
+      "example": "Her coach motivated her to try again.",
+      "exampleKo": "그녀의 코치는 그녀가 다시 시도하도록 동기를 부여했다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "regret",
+      "pos": "v",
+      "meanings": [
+        "후회하다"
+      ],
+      "example": "I regret not studying harder for the test.",
+      "exampleKo": "나는 시험공부를 더 열심히 하지 않은 것을 후회한다.",
+      "emoji": "😔"
+    },
+    {
+      "word": "treasure",
+      "pos": "v",
+      "meanings": [
+        "소중히 여기다"
+      ],
+      "example": "He treasures the watch his father gave him.",
+      "exampleKo": "그는 아버지가 준 시계를 소중히 여긴다.",
+      "emoji": "💎"
+    },
+    {
+      "word": "miss",
+      "pos": "v",
+      "meanings": [
+        "그리워하다"
+      ],
+      "example": "I miss my old friends from my hometown.",
+      "exampleKo": "나는 고향의 옛 친구들이 그립다.",
+      "emoji": "😢"
+    },
+    {
+      "word": "figure",
+      "pos": "v",
+      "meanings": [
+        "생각하다",
+        "판단하다"
+      ],
+      "example": "I figured we should leave early to avoid traffic.",
+      "exampleKo": "나는 교통 체증을 피하려면 일찍 출발해야 한다고 생각했다.",
+      "emoji": ""
+    },
+    {
+      "word": "swap",
+      "pos": "v",
+      "meanings": [
+        "교환하다",
+        "바꾸다"
+      ],
+      "example": "We swapped lunches because I wanted her sandwich.",
+      "exampleKo": "나는 그녀의 샌드위치가 먹고 싶어서 우리는 도시락을 바꿔 먹었다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "donate",
+      "pos": "v",
+      "meanings": [
+        "기부하다"
+      ],
+      "example": "They donated books to the school library.",
+      "exampleKo": "그들은 학교 도서관에 책을 기부했다.",
+      "emoji": "🎁"
+    },
+    {
+      "word": "double-check",
+      "pos": "v",
+      "meanings": [
+        "다시 한번 확인하다"
+      ],
+      "example": "Always double-check your spelling before you submit.",
+      "exampleKo": "제출하기 전에 항상 철자를 다시 한번 확인해.",
+      "emoji": "✅"
+    },
+    {
+      "word": "resolve",
+      "pos": "v",
+      "meanings": [
+        "해결하다"
+      ],
+      "example": "They resolved the conflict by talking calmly.",
+      "exampleKo": "그들은 침착하게 이야기하여 갈등을 해결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "settle",
+      "pos": "v",
+      "meanings": [
+        "해결하다",
+        "정착하다"
+      ],
+      "example": "They settled the argument with a fair game.",
+      "exampleKo": "그들은 공정한 게임으로 다툼을 해결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "balance",
+      "pos": "v",
+      "meanings": [
+        "균형을 맞추다"
+      ],
+      "example": "She balances homework with hobbies well.",
+      "exampleKo": "그녀는 숙제와 취미 사이의 균형을 잘 맞춘다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "memorize",
+      "pos": "v",
+      "meanings": [
+        "암기하다"
+      ],
+      "example": "She memorized the poem for class.",
+      "exampleKo": "그녀는 수업을 위해 그 시를 암기했다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "master",
+      "pos": "v",
+      "meanings": [
+        "숙달하다",
+        "통달하다"
+      ],
+      "example": "She mastered the recipe after many tries.",
+      "exampleKo": "그녀는 여러 번 시도한 끝에 그 요리법을 숙달했다.",
+      "emoji": ""
+    },
+    {
+      "word": "obey",
+      "pos": "v",
+      "meanings": [
+        "따르다",
+        "순종하다"
+      ],
+      "example": "Dogs are trained to obey simple commands.",
+      "exampleKo": "개들은 간단한 명령을 따르도록 훈련받는다.",
+      "emoji": ""
+    },
+    {
+      "word": "disobey",
+      "pos": "v",
+      "meanings": [
+        "따르지 않다",
+        "불복종하다"
+      ],
+      "example": "He was punished for disobeying the rules.",
+      "exampleKo": "그는 규칙을 따르지 않아서 벌을 받았다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "ban",
+      "pos": "v",
+      "meanings": [
+        "금지하다"
+      ],
+      "example": "The school banned phones during class.",
+      "exampleKo": "학교는 수업 중 휴대폰 사용을 금지했다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "prohibit",
+      "pos": "v",
+      "meanings": [
+        "금지하다"
+      ],
+      "example": "Running in the hallway is prohibited.",
+      "exampleKo": "복도에서 뛰는 것은 금지되어 있다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "require",
+      "pos": "v",
+      "meanings": [
+        "요구하다"
+      ],
+      "example": "The teacher required us to bring our own pencils.",
+      "exampleKo": "선생님은 우리가 각자 연필을 가져오도록 요구하셨다.",
+      "emoji": ""
+    },
+    {
+      "word": "unwind",
+      "pos": "v",
+      "meanings": [
+        "긴장을 풀다"
+      ],
+      "example": "He likes to unwind by reading comics.",
+      "exampleKo": "그는 만화책을 읽으며 긴장을 푸는 것을 좋아한다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "de-stress",
+      "pos": "v",
+      "meanings": [
+        "스트레스를 풀다"
+      ],
+      "example": "Exercise is a good way to de-stress.",
+      "exampleKo": "운동은 스트레스를 푸는 좋은 방법이다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "high-five",
+      "pos": "v",
+      "meanings": [
+        "하이파이브를 하다"
+      ],
+      "example": "The teammates high-fived after scoring a goal.",
+      "exampleKo": "팀원들은 골을 넣은 후 하이파이브를 했다.",
+      "emoji": "🙌"
+    },
+    {
+      "word": "congratulate",
+      "pos": "v",
+      "meanings": [
+        "축하하다"
+      ],
+      "example": "We congratulated him on winning the contest.",
+      "exampleKo": "우리는 그가 대회에서 우승한 것을 축하했다.",
+      "emoji": "🎉"
+    },
+    {
+      "word": "nominate",
+      "pos": "v",
+      "meanings": [
+        "추천하다",
+        "지명하다"
+      ],
+      "example": "We nominated Jimin as our class president.",
+      "exampleKo": "우리는 지민이를 반장으로 추천했다.",
+      "emoji": ""
+    },
+    {
+      "word": "elect",
+      "pos": "v",
+      "meanings": [
+        "선출하다"
+      ],
+      "example": "The students elected a new class leader.",
+      "exampleKo": "학생들은 새로운 반장을 선출했다.",
+      "emoji": "🗳️"
+    },
+    {
+      "word": "mentor",
+      "pos": "v",
+      "meanings": [
+        "멘토가 되다",
+        "지도하다"
+      ],
+      "example": "The older student mentored the younger ones in coding.",
+      "exampleKo": "선배 학생이 후배들에게 코딩을 지도해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "investigate",
+      "pos": "v",
+      "meanings": [
+        "조사하다"
+      ],
+      "example": "The detective investigated the mysterious noise.",
+      "exampleKo": "탐정은 그 수상한 소리를 조사했다.",
+      "emoji": "🔍"
+    },
+    {
+      "word": "research",
+      "pos": "v",
+      "meanings": [
+        "조사하다",
+        "연구하다"
+      ],
+      "example": "We researched sea animals for our science report.",
+      "exampleKo": "우리는 과학 보고서를 위해 바다 동물을 조사했다.",
+      "emoji": "🔍"
+    },
+    {
+      "word": "design",
+      "pos": "v",
+      "meanings": [
+        "디자인하다",
+        "설계하다"
+      ],
+      "example": "She designed a poster for the school festival.",
+      "exampleKo": "그녀는 학교 축제를 위한 포스터를 디자인했다.",
+      "emoji": "✏️"
+    },
+    {
+      "word": "mend",
+      "pos": "v",
+      "meanings": [
+        "고치다",
+        "수선하다"
+      ],
+      "example": "My grandmother mended my torn jacket.",
+      "exampleKo": "할머니께서 내 찢어진 재킷을 수선해 주셨다.",
+      "emoji": "🧵"
+    },
+    {
+      "word": "restore",
+      "pos": "v",
+      "meanings": [
+        "복원하다",
+        "회복시키다"
+      ],
+      "example": "The workers restored the old painting.",
+      "exampleKo": "일꾼들은 오래된 그림을 복원했다.",
+      "emoji": ""
+    },
+    {
+      "word": "equip",
+      "pos": "v",
+      "meanings": [
+        "장비를 갖추다"
+      ],
+      "example": "The classroom is equipped with new computers.",
+      "exampleKo": "교실에는 새 컴퓨터가 갖추어져 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "sigh",
+      "pos": "v",
+      "meanings": [
+        "한숨을 쉬다"
+      ],
+      "example": "She sighed as she looked at her messy room.",
+      "exampleKo": "그녀는 지저분한 방을 보며 한숨을 쉬었다.",
+      "emoji": "😮‍💨"
+    },
+    {
+      "word": "squeal",
+      "pos": "v",
+      "meanings": [
+        "끼익 소리를 내다",
+        "환호성을 지르다"
+      ],
+      "example": "The kids squealed with joy at the amusement park.",
+      "exampleKo": "아이들은 놀이공원에서 기뻐서 환호성을 질렀다.",
+      "emoji": ""
+    },
+    {
+      "word": "stroll",
+      "pos": "v",
+      "meanings": [
+        "산책하다"
+      ],
+      "example": "We strolled along the river after dinner.",
+      "exampleKo": "우리는 저녁을 먹은 후 강변을 산책했다.",
+      "emoji": "🚶"
+    },
+    {
+      "word": "stomp",
+      "pos": "v",
+      "meanings": [
+        "쿵쿵거리며 걷다",
+        "발을 구르다"
+      ],
+      "example": "He stomped up the stairs, still angry.",
+      "exampleKo": "그는 아직 화가 난 채로 계단을 쿵쿵거리며 올라갔다.",
+      "emoji": "👣"
+    },
+    {
+      "word": "murmur",
+      "pos": "v",
+      "meanings": [
+        "중얼거리다",
+        "웅얼거리다"
+      ],
+      "example": "The audience murmured quietly before the show began.",
+      "exampleKo": "공연이 시작되기 전 관객들이 조용히 웅성거렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "gasp",
+      "pos": "v",
+      "meanings": [
+        "헉 하고 숨을 쉬다",
+        "놀라다"
+      ],
+      "example": "Everyone gasped when the magician disappeared.",
+      "exampleKo": "마술사가 사라지자 모두가 놀라 숨을 들이켰다.",
+      "emoji": "😲"
+    },
+    {
+      "word": "groan",
+      "pos": "v",
+      "meanings": [
+        "신음하다",
+        "끙끙거리다"
+      ],
+      "example": "The students groaned when they heard about the extra homework.",
+      "exampleKo": "학생들은 추가 숙제 소식을 듣고 끙끙거렸다.",
+      "emoji": "😩"
+    },
+    {
+      "word": "grumble",
+      "pos": "v",
+      "meanings": [
+        "투덜거리다"
+      ],
+      "example": "He grumbled about having to wake up early.",
+      "exampleKo": "그는 일찍 일어나야 하는 것에 대해 투덜거렸다.",
+      "emoji": "😒"
+    },
+    {
+      "word": "pout",
+      "pos": "v",
+      "meanings": [
+        "입을 삐죽 내밀다",
+        "토라지다"
+      ],
+      "example": "The little boy pouted when he lost the game.",
+      "exampleKo": "어린 소년은 게임에서 져서 토라졌다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "beam",
+      "pos": "v",
+      "meanings": [
+        "환하게 웃다"
+      ],
+      "example": "She beamed with pride when she received the award.",
+      "exampleKo": "그녀는 상을 받고 자랑스러워하며 환하게 웃었다.",
+      "emoji": "😁"
+    },
+    {
+      "word": "nudge",
+      "pos": "v",
+      "meanings": [
+        "슬쩍 찌르다",
+        "쿡 찌르다"
+      ],
+      "example": "She nudged her friend to look at the funny sign.",
+      "exampleKo": "그녀는 친구를 슬쩍 찔러서 재미있는 표지판을 보라고 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "snatch",
+      "pos": "v",
+      "meanings": [
+        "잽싸게 잡아채다"
+      ],
+      "example": "The dog snatched the ball before I could throw it.",
+      "exampleKo": "내가 공을 던지기도 전에 개가 잽싸게 잡아챘다.",
+      "emoji": ""
+    },
+    {
+      "word": "grab",
+      "pos": "v",
+      "meanings": [
+        "움켜잡다",
+        "잡다"
+      ],
+      "example": "He grabbed his umbrella before running out the door.",
+      "exampleKo": "그는 문을 뛰쳐나가기 전에 우산을 움켜잡았다.",
+      "emoji": ""
+    },
+    {
+      "word": "befriend",
+      "pos": "v",
+      "meanings": [
+        "친구가 되다"
+      ],
+      "example": "He befriended the new student on the first day.",
+      "exampleKo": "그는 첫날 새로운 학생과 친구가 되었다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "reunite",
+      "pos": "v",
+      "meanings": [
+        "재회하다"
+      ],
+      "example": "The old classmates reunited after ten years.",
+      "exampleKo": "옛 반 친구들은 10년 만에 재회했다.",
+      "emoji": "🤗"
+    },
+    {
+      "word": "socialize",
+      "pos": "v",
+      "meanings": [
+        "어울리다",
+        "사교하다"
+      ],
+      "example": "She enjoys socializing with people from different classes.",
+      "exampleKo": "그녀는 다른 반 친구들과 어울리는 것을 즐긴다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "chat",
+      "pos": "v",
+      "meanings": [
+        "수다를 떨다",
+        "이야기를 나누다"
+      ],
+      "example": "We chatted about our weekend plans during lunch.",
+      "exampleKo": "우리는 점심시간에 주말 계획에 대해 이야기를 나눴다.",
+      "emoji": "💬"
+    },
+    {
+      "word": "recruit",
+      "pos": "v",
+      "meanings": [
+        "모집하다"
+      ],
+      "example": "The club recruited new members this semester.",
+      "exampleKo": "그 동아리는 이번 학기에 새 회원을 모집했다.",
+      "emoji": ""
+    },
+    {
+      "word": "retire",
+      "pos": "v",
+      "meanings": [
+        "은퇴하다"
+      ],
+      "example": "My grandfather retired from his job last year.",
+      "exampleKo": "할아버지는 작년에 직장에서 은퇴하셨다.",
+      "emoji": ""
+    },
+    {
+      "word": "quit",
+      "pos": "v",
+      "meanings": [
+        "그만두다"
+      ],
+      "example": "She quit the soccer team because of her injury.",
+      "exampleKo": "그녀는 부상 때문에 축구팀을 그만두었다.",
+      "emoji": ""
+    },
+    {
+      "word": "interview",
+      "pos": "v",
+      "meanings": [
+        "면담하다",
+        "인터뷰하다"
+      ],
+      "example": "We interviewed the librarian for our school newspaper.",
+      "exampleKo": "우리는 학교 신문을 위해 사서 선생님을 인터뷰했다.",
+      "emoji": "🎤"
+    },
+    {
+      "word": "linger",
+      "pos": "v",
+      "meanings": [
+        "남아 있다",
+        "오래 머물다"
+      ],
+      "example": "The smell of cookies lingered in the kitchen.",
+      "exampleKo": "쿠키 냄새가 부엌에 오래 남아 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "dawdle",
+      "pos": "v",
+      "meanings": [
+        "꾸물거리다"
+      ],
+      "example": "Stop dawdling and get ready for school.",
+      "exampleKo": "꾸물거리지 말고 학교 갈 준비 해.",
+      "emoji": ""
+    },
+    {
+      "word": "procrastinate",
+      "pos": "v",
+      "meanings": [
+        "미루다",
+        "꾸물거리다"
+      ],
+      "example": "He always procrastinates until the night before the test.",
+      "exampleKo": "그는 항상 시험 전날 밤까지 미룬다.",
+      "emoji": ""
+    },
+    {
+      "word": "dash",
+      "pos": "v",
+      "meanings": [
+        "질주하다",
+        "급히 가다"
+      ],
+      "example": "She dashed to the bus stop when she saw the bus coming.",
+      "exampleKo": "그녀는 버스가 오는 것을 보고 정류장으로 질주했다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "sprint",
+      "pos": "v",
+      "meanings": [
+        "전력 질주하다"
+      ],
+      "example": "He sprinted the last hundred meters of the race.",
+      "exampleKo": "그는 경주의 마지막 100미터를 전력 질주했다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "agree to",
+      "pos": "phrase",
+      "meanings": [
+        "~하기로 동의하다"
+      ],
+      "example": "I agree to help you clean the room.",
+      "exampleKo": "나는 네가 방 청소하는 것을 돕기로 동의해.",
+      "emoji": "👍"
+    },
+    {
+      "word": "volunteer to",
+      "pos": "phrase",
+      "meanings": [
+        "자원해서 ~하다"
+      ],
+      "example": "She volunteered to water the plants every day.",
+      "exampleKo": "그녀는 매일 식물에 물을 주겠다고 자원했다.",
+      "emoji": "🙋"
+    },
+    {
+      "word": "cheer up",
+      "pos": "phrase",
+      "meanings": [
+        "기운을 내다",
+        "격려하다"
+      ],
+      "example": "I tried to cheer up my little brother after he lost the game.",
+      "exampleKo": "나는 동생이 경기에서 진 후 기운을 북돋아 주려고 했다.",
+      "emoji": "📣"
+    },
+    {
+      "word": "give up",
+      "pos": "phrase",
+      "meanings": [
+        "포기하다"
+      ],
+      "example": "Don't give up on your dream so easily.",
+      "exampleKo": "네 꿈을 그렇게 쉽게 포기하지 마.",
+      "emoji": "🏳️"
+    },
+    {
+      "word": "make up",
+      "pos": "phrase",
+      "meanings": [
+        "화해하다",
+        "지어내다"
+      ],
+      "example": "The two friends made up after their small fight.",
+      "exampleKo": "두 친구는 작은 다툼 후에 화해했다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "look after",
+      "pos": "phrase",
+      "meanings": [
+        "돌보다"
+      ],
+      "example": "Can you look after my dog this weekend?",
+      "exampleKo": "이번 주말에 우리 강아지 좀 돌봐 줄 수 있어?",
+      "emoji": "🤗"
+    },
+    {
+      "word": "get along with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 잘 지내다"
+      ],
+      "example": "I get along with all of my classmates.",
+      "exampleKo": "나는 우리 반 친구들 모두와 잘 지낸다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "keep in touch",
+      "pos": "phrase",
+      "meanings": [
+        "연락을 유지하다"
+      ],
+      "example": "Let's keep in touch even after we move to different schools.",
+      "exampleKo": "우리 다른 학교로 가더라도 계속 연락하고 지내자.",
+      "emoji": "📞"
+    },
+    {
+      "word": "take a break",
+      "pos": "phrase",
+      "meanings": [
+        "잠깐 쉬다"
+      ],
+      "example": "We studied for two hours, so let's take a break.",
+      "exampleKo": "우리 두 시간 동안 공부했으니 잠깐 쉬자.",
+      "emoji": "☕"
+    },
+    {
+      "word": "make a decision",
+      "pos": "phrase",
+      "meanings": [
+        "결정을 내리다"
+      ],
+      "example": "It took me a long time to make a decision about the trip.",
+      "exampleKo": "나는 그 여행에 대해 결정을 내리는 데 오랜 시간이 걸렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "in a hurry",
+      "pos": "phrase",
+      "meanings": [
+        "서두르는",
+        "급한"
+      ],
+      "example": "He was in a hurry, so he forgot his umbrella.",
+      "exampleKo": "그는 급해서 우산을 두고 갔다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "pay attention to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 주의를 기울이다"
+      ],
+      "example": "Please pay attention to the teacher during class.",
+      "exampleKo": "수업 시간에는 선생님 말씀에 주의를 기울여 주세요.",
+      "emoji": "👀"
+    },
+    {
+      "word": "take turns",
+      "pos": "phrase",
+      "meanings": [
+        "교대로 하다",
+        "차례로 하다"
+      ],
+      "example": "We took turns riding the new bike.",
+      "exampleKo": "우리는 새 자전거를 차례로 탔다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "hang out with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 어울려 놀다"
+      ],
+      "example": "I like to hang out with my friends after school.",
+      "exampleKo": "나는 방과 후에 친구들과 어울려 노는 것을 좋아한다.",
+      "emoji": "👫"
+    },
+    {
+      "word": "run out of",
+      "pos": "phrase",
+      "meanings": [
+        "~이 다 떨어지다"
+      ],
+      "example": "We ran out of milk this morning.",
+      "exampleKo": "오늘 아침에 우유가 다 떨어졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "show up",
+      "pos": "phrase",
+      "meanings": [
+        "나타나다",
+        "도착하다"
+      ],
+      "example": "He showed up late for the meeting.",
+      "exampleKo": "그는 회의에 늦게 나타났다.",
+      "emoji": ""
+    },
+    {
+      "word": "figure out",
+      "pos": "phrase",
+      "meanings": [
+        "알아내다",
+        "이해하다"
+      ],
+      "example": "I couldn't figure out how to fix the toy.",
+      "exampleKo": "나는 그 장난감을 어떻게 고쳐야 할지 알아낼 수 없었다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "keep an eye on",
+      "pos": "phrase",
+      "meanings": [
+        "지켜보다",
+        "주시하다"
+      ],
+      "example": "Please keep an eye on the baby for a minute.",
+      "exampleKo": "잠깐 아기를 좀 지켜봐 주세요.",
+      "emoji": "👀"
+    },
+    {
+      "word": "in the end",
+      "pos": "phrase",
+      "meanings": [
+        "결국에는"
+      ],
+      "example": "In the end, we decided to walk instead of taking the bus.",
+      "exampleKo": "결국 우리는 버스를 타는 대신 걷기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "all of a sudden",
+      "pos": "phrase",
+      "meanings": [
+        "갑자기"
+      ],
+      "example": "All of a sudden, the lights went out.",
+      "exampleKo": "갑자기 불이 꺼졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "on purpose",
+      "pos": "phrase",
+      "meanings": [
+        "일부러",
+        "고의로"
+      ],
+      "example": "I don't think she broke the vase on purpose.",
+      "exampleKo": "나는 그녀가 일부러 꽃병을 깼다고 생각하지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "by mistake",
+      "pos": "phrase",
+      "meanings": [
+        "실수로"
+      ],
+      "example": "I sent the message to the wrong person by mistake.",
+      "exampleKo": "나는 실수로 메시지를 엉뚱한 사람에게 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "get used to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 익숙해지다"
+      ],
+      "example": "It took a while to get used to the new school.",
+      "exampleKo": "새 학교에 익숙해지는 데 시간이 좀 걸렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "look forward to",
+      "pos": "phrase",
+      "meanings": [
+        "~을 기대하다"
+      ],
+      "example": "I'm looking forward to summer vacation.",
+      "exampleKo": "나는 여름 방학을 기대하고 있다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "stand out",
+      "pos": "phrase",
+      "meanings": [
+        "눈에 띄다",
+        "두드러지다"
+      ],
+      "example": "Her bright yellow jacket made her stand out in the crowd.",
+      "exampleKo": "그녀의 밝은 노란색 재킷 때문에 그녀는 군중 속에서 눈에 띄었다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "catch up with",
+      "pos": "phrase",
+      "meanings": [
+        "따라잡다"
+      ],
+      "example": "I had to run to catch up with my friends.",
+      "exampleKo": "나는 친구들을 따라잡기 위해 뛰어야 했다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "come up with",
+      "pos": "phrase",
+      "meanings": [
+        "생각해 내다",
+        "떠올리다"
+      ],
+      "example": "She came up with a great idea for the project.",
+      "exampleKo": "그녀는 프로젝트를 위한 좋은 아이디어를 생각해 냈다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "put off",
+      "pos": "phrase",
+      "meanings": [
+        "미루다",
+        "연기하다"
+      ],
+      "example": "Don't put off your homework until the last minute.",
+      "exampleKo": "숙제를 마지막 순간까지 미루지 마.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "take care of",
+      "pos": "phrase",
+      "meanings": [
+        "돌보다",
+        "처리하다"
+      ],
+      "example": "She takes care of her little sister every afternoon.",
+      "exampleKo": "그녀는 매일 오후 여동생을 돌본다.",
+      "emoji": "🤗"
+    },
+    {
+      "word": "break a promise",
+      "pos": "phrase",
+      "meanings": [
+        "약속을 어기다"
+      ],
+      "example": "I felt sad when my friend broke a promise.",
+      "exampleKo": "친구가 약속을 어겼을 때 나는 슬펐다.",
+      "emoji": "💔"
+    },
+    {
+      "word": "keep a promise",
+      "pos": "phrase",
+      "meanings": [
+        "약속을 지키다"
+      ],
+      "example": "He always keeps a promise once he makes it.",
+      "exampleKo": "그는 한번 약속을 하면 항상 지킨다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "change one's mind",
+      "pos": "phrase",
+      "meanings": [
+        "마음을 바꾸다"
+      ],
+      "example": "I changed my mind and chose the blue shirt instead.",
+      "exampleKo": "나는 마음을 바꿔서 대신 파란 셔츠를 골랐다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "make sense",
+      "pos": "phrase",
+      "meanings": [
+        "이치에 맞다",
+        "이해가 되다"
+      ],
+      "example": "Her explanation didn't make sense to me at first.",
+      "exampleKo": "그녀의 설명은 처음에는 나에게 이해가 되지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "out of order",
+      "pos": "phrase",
+      "meanings": [
+        "고장 난"
+      ],
+      "example": "The elevator was out of order, so we used the stairs.",
+      "exampleKo": "엘리베이터가 고장 나서 우리는 계단을 이용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "in the mood for",
+      "pos": "phrase",
+      "meanings": [
+        "~하고 싶은 기분인"
+      ],
+      "example": "I'm not in the mood for pizza tonight.",
+      "exampleKo": "나는 오늘 밤 피자가 그다지 당기지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "get over",
+      "pos": "phrase",
+      "meanings": [
+        "극복하다",
+        "이겨내다"
+      ],
+      "example": "It took her a week to get over her cold.",
+      "exampleKo": "그녀는 감기를 이겨내는 데 일주일이 걸렸다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "show off",
+      "pos": "phrase",
+      "meanings": [
+        "자랑하다",
+        "과시하다"
+      ],
+      "example": "He likes to show off his new sneakers.",
+      "exampleKo": "그는 새 운동화를 자랑하는 것을 좋아한다.",
+      "emoji": "😎"
+    },
+    {
+      "word": "turn down",
+      "pos": "phrase",
+      "meanings": [
+        "거절하다",
+        "소리를 줄이다"
+      ],
+      "example": "She had to turn down the invitation because she was busy.",
+      "exampleKo": "그녀는 바빠서 초대를 거절해야 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "check in",
+      "pos": "phrase",
+      "meanings": [
+        "체크인하다",
+        "확인하다"
+      ],
+      "example": "We need to check in at the front desk first.",
+      "exampleKo": "우리는 먼저 프런트에서 체크인해야 한다.",
+      "emoji": "✅"
+    },
+    {
+      "word": "drop by",
+      "pos": "phrase",
+      "meanings": [
+        "잠깐 들르다"
+      ],
+      "example": "Feel free to drop by our house anytime.",
+      "exampleKo": "언제든지 편하게 우리 집에 들러.",
+      "emoji": ""
+    },
+    {
+      "word": "hold on",
+      "pos": "phrase",
+      "meanings": [
+        "기다리다",
+        "잠깐만"
+      ],
+      "example": "Hold on a second, I need to tie my shoe.",
+      "exampleKo": "잠깐만 기다려, 신발끈을 묶어야 해.",
+      "emoji": "✋"
+    },
+    {
+      "word": "watch out for",
+      "pos": "phrase",
+      "meanings": [
+        "조심하다"
+      ],
+      "example": "Watch out for cars when you cross the street.",
+      "exampleKo": "길을 건널 때는 자동차를 조심해.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "speak up",
+      "pos": "phrase",
+      "meanings": [
+        "더 크게 말하다",
+        "의견을 말하다"
+      ],
+      "example": "Please speak up so everyone can hear you.",
+      "exampleKo": "모두가 들을 수 있도록 더 크게 말해 주세요.",
+      "emoji": "📢"
+    },
+    {
+      "word": "get in touch",
+      "pos": "phrase",
+      "meanings": [
+        "연락하다"
+      ],
+      "example": "Please get in touch with me if you have questions.",
+      "exampleKo": "질문이 있으면 저에게 연락해 주세요.",
+      "emoji": "📞"
+    },
+    {
+      "word": "run into",
+      "pos": "phrase",
+      "meanings": [
+        "우연히 만나다"
+      ],
+      "example": "I ran into my old friend at the mall.",
+      "exampleKo": "나는 쇼핑몰에서 옛 친구를 우연히 만났다.",
+      "emoji": ""
+    },
+    {
+      "word": "rely on",
+      "pos": "phrase",
+      "meanings": [
+        "~에 의존하다",
+        "~을 믿다"
+      ],
+      "example": "You can rely on your teammates during the game.",
+      "exampleKo": "경기 중에는 팀원들을 믿고 의지해도 돼.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "depend on",
+      "pos": "phrase",
+      "meanings": [
+        "~에 달려 있다",
+        "~에 의존하다"
+      ],
+      "example": "Whether we go outside depends on the weather.",
+      "exampleKo": "우리가 밖에 나갈지는 날씨에 달려 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "point out",
+      "pos": "phrase",
+      "meanings": [
+        "지적하다",
+        "가리키다"
+      ],
+      "example": "The teacher pointed out my spelling mistake.",
+      "exampleKo": "선생님은 내 철자 실수를 지적하셨다.",
+      "emoji": "👉"
+    },
+    {
+      "word": "whisper to",
+      "pos": "phrase",
+      "meanings": [
+        "~에게 속삭이다"
+      ],
+      "example": "She leaned over and whispered to her friend.",
+      "exampleKo": "그녀는 몸을 숙이고 친구에게 속삭였다.",
+      "emoji": "🤫"
+    },
+    {
+      "word": "shout at",
+      "pos": "phrase",
+      "meanings": [
+        "~에게 소리 지르다"
+      ],
+      "example": "He didn't mean to shout at his little brother.",
+      "exampleKo": "그는 동생에게 소리를 지를 생각은 없었다.",
+      "emoji": "📢"
+    },
+    {
+      "word": "argue with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 다투다"
+      ],
+      "example": "I don't want to argue with you about this.",
+      "exampleKo": "나는 이 일로 너와 다투고 싶지 않다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "negotiate with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 협상하다"
+      ],
+      "example": "We negotiated with our parents for a later bedtime.",
+      "exampleKo": "우리는 늦게 자게 해달라고 부모님과 협상했다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "cooperate with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 협력하다"
+      ],
+      "example": "Students should cooperate with each other on group projects.",
+      "exampleKo": "학생들은 모둠 과제에서 서로 협력해야 한다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "participate in",
+      "pos": "phrase",
+      "meanings": [
+        "~에 참여하다"
+      ],
+      "example": "Everyone in class participated in the school festival.",
+      "exampleKo": "반의 모든 학생이 학교 축제에 참여했다.",
+      "emoji": "🙋"
+    },
+    {
+      "word": "plan out",
+      "pos": "phrase",
+      "meanings": [
+        "계획을 세우다"
+      ],
+      "example": "Let's plan out our trip before we leave.",
+      "exampleKo": "출발하기 전에 여행 계획을 세우자.",
+      "emoji": "📋"
+    },
+    {
+      "word": "carry out",
+      "pos": "phrase",
+      "meanings": [
+        "실행하다",
+        "수행하다"
+      ],
+      "example": "We carried out the science experiment carefully.",
+      "exampleKo": "우리는 과학 실험을 조심스럽게 수행했다.",
+      "emoji": "✅"
+    },
+    {
+      "word": "succeed in",
+      "pos": "phrase",
+      "meanings": [
+        "~에 성공하다"
+      ],
+      "example": "He succeeded in fixing the broken bike.",
+      "exampleKo": "그는 고장난 자전거를 고치는 데 성공했다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "struggle with",
+      "pos": "phrase",
+      "meanings": [
+        "~로 고생하다",
+        "~와 씨름하다"
+      ],
+      "example": "I struggled with the last math problem.",
+      "exampleKo": "나는 마지막 수학 문제와 씨름했다.",
+      "emoji": "😣"
+    },
+    {
+      "word": "compete with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 경쟁하다"
+      ],
+      "example": "Our team will compete with another school today.",
+      "exampleKo": "오늘 우리 팀은 다른 학교와 경쟁할 것이다.",
+      "emoji": "🏁"
+    },
+    {
+      "word": "apologize for",
+      "pos": "phrase",
+      "meanings": [
+        "~에 대해 사과하다"
+      ],
+      "example": "He apologized for being late to practice.",
+      "exampleKo": "그는 연습에 늦은 것에 대해 사과했다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "forgive and forget",
+      "pos": "phrase",
+      "meanings": [
+        "용서하고 잊다"
+      ],
+      "example": "We decided to forgive and forget after the argument.",
+      "exampleKo": "우리는 말다툼 후에 용서하고 잊기로 했다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "long for",
+      "pos": "phrase",
+      "meanings": [
+        "~을 갈망하다",
+        "몹시 그리워하다"
+      ],
+      "example": "During winter break, she longed for her summer trip.",
+      "exampleKo": "겨울 방학 동안 그녀는 여름 여행을 몹시 그리워했다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "hope for",
+      "pos": "phrase",
+      "meanings": [
+        "~을 바라다"
+      ],
+      "example": "Everyone hoped for sunny weather on the field trip.",
+      "exampleKo": "모두가 소풍날 맑은 날씨를 바랐다.",
+      "emoji": "🤞"
+    },
+    {
+      "word": "dream of",
+      "pos": "phrase",
+      "meanings": [
+        "~을 꿈꾸다"
+      ],
+      "example": "She dreams of becoming a pilot someday.",
+      "exampleKo": "그녀는 언젠가 조종사가 되는 것을 꿈꾼다.",
+      "emoji": "💭"
+    },
+    {
+      "word": "wish for",
+      "pos": "phrase",
+      "meanings": [
+        "~을 소원하다"
+      ],
+      "example": "I wished for a new bicycle on my birthday.",
+      "exampleKo": "나는 생일에 새 자전거를 소원했다.",
+      "emoji": "🌠"
+    },
+    {
+      "word": "plan to",
+      "pos": "phrase",
+      "meanings": [
+        "~할 계획이다"
+      ],
+      "example": "We plan to visit our cousins this weekend.",
+      "exampleKo": "우리는 이번 주말에 사촌들을 방문할 계획이다.",
+      "emoji": "📋"
+    },
+    {
+      "word": "intend to",
+      "pos": "phrase",
+      "meanings": [
+        "~할 의도이다"
+      ],
+      "example": "She intends to finish the book by Friday.",
+      "exampleKo": "그녀는 금요일까지 그 책을 다 읽을 의도이다.",
+      "emoji": ""
+    },
+    {
+      "word": "aim to",
+      "pos": "phrase",
+      "meanings": [
+        "~하는 것을 목표로 하다"
+      ],
+      "example": "Our team aims to win the championship this year.",
+      "exampleKo": "우리 팀은 올해 챔피언십에서 우승하는 것을 목표로 한다.",
+      "emoji": "🎯"
+    },
+    {
+      "word": "try one's best",
+      "pos": "phrase",
+      "meanings": [
+        "최선을 다하다"
+      ],
+      "example": "Just try your best on the test.",
+      "exampleKo": "시험에서 그냥 최선을 다해.",
+      "emoji": "💪"
+    },
+    {
+      "word": "do one's best",
+      "pos": "phrase",
+      "meanings": [
+        "최선을 다하다"
+      ],
+      "example": "She always does her best in every game.",
+      "exampleKo": "그녀는 매 경기마다 항상 최선을 다한다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "keep trying",
+      "pos": "phrase",
+      "meanings": [
+        "계속 노력하다"
+      ],
+      "example": "Even after failing, he kept trying.",
+      "exampleKo": "실패한 후에도 그는 계속 노력했다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "never give up",
+      "pos": "phrase",
+      "meanings": [
+        "절대 포기하지 않다"
+      ],
+      "example": "Never give up on your dreams.",
+      "exampleKo": "네 꿈을 절대 포기하지 마.",
+      "emoji": "💪"
+    },
+    {
+      "word": "keep going",
+      "pos": "phrase",
+      "meanings": [
+        "계속하다"
+      ],
+      "example": "It's tiring, but let's keep going.",
+      "exampleKo": "힘들지만 계속하자.",
+      "emoji": "💪"
+    },
+    {
+      "word": "hang in there",
+      "pos": "phrase",
+      "meanings": [
+        "버티다",
+        "포기하지 말고 견디다"
+      ],
+      "example": "Hang in there, the race is almost over.",
+      "exampleKo": "조금만 버텨, 경주가 거의 끝나가.",
+      "emoji": "💪"
+    },
+    {
+      "word": "pull through",
+      "pos": "phrase",
+      "meanings": [
+        "잘 이겨내다",
+        "회복하다"
+      ],
+      "example": "She pulled through the difficult week with help from her friends.",
+      "exampleKo": "그녀는 친구들의 도움으로 힘든 한 주를 잘 이겨냈다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "bounce back",
+      "pos": "phrase",
+      "meanings": [
+        "다시 회복하다"
+      ],
+      "example": "He bounced back quickly after losing the match.",
+      "exampleKo": "그는 경기에서 진 후 빠르게 회복했다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "recover from",
+      "pos": "phrase",
+      "meanings": [
+        "~에서 회복하다"
+      ],
+      "example": "It took a week for her to recover from the flu.",
+      "exampleKo": "그녀가 독감에서 회복하는 데 일주일이 걸렸다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "adapt to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 적응하다"
+      ],
+      "example": "It took me a while to adapt to the new classroom.",
+      "exampleKo": "나는 새 교실에 적응하는 데 시간이 좀 걸렸다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "adjust to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 적응하다"
+      ],
+      "example": "He quickly adjusted to his new school schedule.",
+      "exampleKo": "그는 새로운 학교 일정에 빨리 적응했다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "settle in",
+      "pos": "phrase",
+      "meanings": [
+        "새 환경에 적응하다",
+        "자리잡다"
+      ],
+      "example": "It took the new student a week to settle in.",
+      "exampleKo": "새로 온 학생이 적응하는 데 일주일이 걸렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "fit in",
+      "pos": "phrase",
+      "meanings": [
+        "어울리다",
+        "적응하다"
+      ],
+      "example": "She tried hard to fit in with her new classmates.",
+      "exampleKo": "그녀는 새 반 친구들과 어울리려고 열심히 노력했다.",
+      "emoji": ""
+    },
+    {
+      "word": "stand up for",
+      "pos": "phrase",
+      "meanings": [
+        "~을 옹호하다",
+        "지지하다"
+      ],
+      "example": "He stood up for his friend when others laughed at her.",
+      "exampleKo": "다른 사람들이 친구를 비웃었을 때 그는 친구 편을 들어 주었다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "side with",
+      "pos": "phrase",
+      "meanings": [
+        "~의 편을 들다"
+      ],
+      "example": "I didn't want to side with either of them.",
+      "exampleKo": "나는 둘 중 누구의 편도 들고 싶지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "team up with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 팀을 이루다"
+      ],
+      "example": "Let's team up with the other class for the project.",
+      "exampleKo": "그 프로젝트를 위해 다른 반과 팀을 이루자.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "split up",
+      "pos": "phrase",
+      "meanings": [
+        "나뉘다",
+        "헤어지다"
+      ],
+      "example": "We split up into small groups to search the park.",
+      "exampleKo": "우리는 공원을 수색하기 위해 작은 조로 나뉘었다.",
+      "emoji": ""
+    },
+    {
+      "word": "meet up",
+      "pos": "phrase",
+      "meanings": [
+        "만나다"
+      ],
+      "example": "Let's meet up at the library after school.",
+      "exampleKo": "방과 후에 도서관에서 만나자.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "say goodbye to",
+      "pos": "phrase",
+      "meanings": [
+        "~에게 작별 인사를 하다"
+      ],
+      "example": "We said goodbye to our teacher on the last day.",
+      "exampleKo": "우리는 마지막 날 선생님께 작별 인사를 드렸다.",
+      "emoji": "👋"
+    },
+    {
+      "word": "wave goodbye",
+      "pos": "phrase",
+      "meanings": [
+        "손을 흔들며 작별하다"
+      ],
+      "example": "She waved goodbye to us from the train window.",
+      "exampleKo": "그녀는 기차 창문에서 우리에게 손을 흔들며 작별했다.",
+      "emoji": "👋"
+    },
+    {
+      "word": "line up",
+      "pos": "phrase",
+      "meanings": [
+        "줄을 서다"
+      ],
+      "example": "Please line up quietly before entering the classroom.",
+      "exampleKo": "교실에 들어가기 전에 조용히 줄을 서 주세요.",
+      "emoji": "🚶"
+    },
+    {
+      "word": "wait in line",
+      "pos": "phrase",
+      "meanings": [
+        "줄을 서서 기다리다"
+      ],
+      "example": "We waited in line for the roller coaster.",
+      "exampleKo": "우리는 롤러코스터를 타려고 줄을 서서 기다렸다.",
+      "emoji": "⏳"
+    },
+    {
+      "word": "cut in line",
+      "pos": "phrase",
+      "meanings": [
+        "새치기하다"
+      ],
+      "example": "It's rude to cut in line at the cafeteria.",
+      "exampleKo": "식당에서 새치기하는 것은 무례한 일이다.",
+      "emoji": "🙅"
+    },
+    {
+      "word": "take one's place",
+      "pos": "phrase",
+      "meanings": [
+        "~의 자리를 대신하다"
+      ],
+      "example": "She took my place in line while I tied my shoe.",
+      "exampleKo": "내가 신발끈을 묶는 동안 그녀가 줄에서 내 자리를 대신 지켜 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "share with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 나누다"
+      ],
+      "example": "Please share your snacks with your friends.",
+      "exampleKo": "간식을 친구들과 나누어 먹으렴.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "divide up",
+      "pos": "phrase",
+      "meanings": [
+        "나누다"
+      ],
+      "example": "We divided up the chores among the family members.",
+      "exampleKo": "우리는 집안일을 가족들끼리 나누었다.",
+      "emoji": "➗"
+    },
+    {
+      "word": "hand out",
+      "pos": "phrase",
+      "meanings": [
+        "나누어 주다"
+      ],
+      "example": "The teacher handed out the test papers.",
+      "exampleKo": "선생님이 시험지를 나누어 주셨다.",
+      "emoji": ""
+    },
+    {
+      "word": "pass around",
+      "pos": "phrase",
+      "meanings": [
+        "돌리다"
+      ],
+      "example": "She passed around the cookies to everyone in class.",
+      "exampleKo": "그녀는 반 친구들 모두에게 쿠키를 돌렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "give away",
+      "pos": "phrase",
+      "meanings": [
+        "나눠 주다",
+        "거저 주다"
+      ],
+      "example": "We gave away our old toys to charity.",
+      "exampleKo": "우리는 오래된 장난감을 자선 단체에 기부했다.",
+      "emoji": "🎁"
+    },
+    {
+      "word": "contribute to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 기여하다"
+      ],
+      "example": "Every student contributed to the class garden.",
+      "exampleKo": "모든 학생이 반 정원 가꾸기에 기여했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pitch in",
+      "pos": "phrase",
+      "meanings": [
+        "힘을 보태다",
+        "협력하다"
+      ],
+      "example": "Everyone pitched in to clean up after the party.",
+      "exampleKo": "모두가 파티 후 청소하는 데 힘을 보탰다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "lend a hand",
+      "pos": "phrase",
+      "meanings": [
+        "도와주다"
+      ],
+      "example": "Could you lend a hand with these heavy boxes?",
+      "exampleKo": "이 무거운 상자들 좀 도와줄 수 있어?",
+      "emoji": "🤝"
+    },
+    {
+      "word": "do a favor",
+      "pos": "phrase",
+      "meanings": [
+        "부탁을 들어주다"
+      ],
+      "example": "Could you do me a favor and hold this bag?",
+      "exampleKo": "부탁 하나만 들어줄 수 있어, 이 가방 좀 들어줘?",
+      "emoji": "🤝"
+    },
+    {
+      "word": "ask for help",
+      "pos": "phrase",
+      "meanings": [
+        "도움을 요청하다"
+      ],
+      "example": "Don't be afraid to ask for help when you need it.",
+      "exampleKo": "필요할 때 도움을 요청하는 것을 두려워하지 마.",
+      "emoji": "🙋"
+    },
+    {
+      "word": "count on",
+      "pos": "phrase",
+      "meanings": [
+        "~에 의지하다",
+        "믿다"
+      ],
+      "example": "You can always count on your family.",
+      "exampleKo": "너는 언제나 가족에게 의지할 수 있어.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "stick together",
+      "pos": "phrase",
+      "meanings": [
+        "함께 뭉치다"
+      ],
+      "example": "The team decided to stick together no matter what.",
+      "exampleKo": "팀은 무슨 일이 있어도 함께 뭉치기로 했다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "look up to",
+      "pos": "phrase",
+      "meanings": [
+        "존경하다",
+        "우러러보다"
+      ],
+      "example": "Many kids look up to their older siblings.",
+      "exampleKo": "많은 아이들이 형이나 언니를 존경한다.",
+      "emoji": "⭐"
+    },
+    {
+      "word": "look down on",
+      "pos": "phrase",
+      "meanings": [
+        "얕보다",
+        "무시하다"
+      ],
+      "example": "It's not kind to look down on others.",
+      "exampleKo": "다른 사람을 얕보는 것은 친절하지 않은 행동이다.",
+      "emoji": ""
+    },
+    {
+      "word": "make fun of",
+      "pos": "phrase",
+      "meanings": [
+        "놀리다",
+        "비웃다"
+      ],
+      "example": "It's not nice to make fun of someone's mistakes.",
+      "exampleKo": "누군가의 실수를 놀리는 것은 좋지 않다.",
+      "emoji": "😝"
+    },
+    {
+      "word": "laugh at",
+      "pos": "phrase",
+      "meanings": [
+        "비웃다",
+        "~을 보고 웃다"
+      ],
+      "example": "We all laughed at the funny video.",
+      "exampleKo": "우리는 모두 그 재미있는 영상을 보고 웃었다.",
+      "emoji": "😂"
+    }
+  ]
+}

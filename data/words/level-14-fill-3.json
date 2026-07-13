@@ -1,0 +1,1868 @@
+{
+  "level": 14,
+  "words": [
+    {
+      "word": "infrastructure",
+      "pos": "n",
+      "meanings": [
+        "기반 시설",
+        "사회 기반 시설"
+      ],
+      "example": "The government invested heavily in transportation infrastructure.",
+      "exampleKo": "정부는 교통 기반 시설에 막대한 투자를 했다.",
+      "emoji": "🏗️"
+    },
+    {
+      "word": "demographic",
+      "pos": "adj",
+      "meanings": [
+        "인구 통계학적인",
+        "인구의"
+      ],
+      "example": "The company analyzed the demographic changes in the region.",
+      "exampleKo": "그 회사는 그 지역의 인구 통계학적 변화를 분석했다.",
+      "emoji": ""
+    },
+    {
+      "word": "workforce",
+      "pos": "n",
+      "meanings": [
+        "노동력",
+        "인력"
+      ],
+      "example": "Automation has reduced the need for a large workforce.",
+      "exampleKo": "자동화는 대규모 노동력의 필요성을 줄였다.",
+      "emoji": "👷"
+    },
+    {
+      "word": "productivity",
+      "pos": "n",
+      "meanings": [
+        "생산성"
+      ],
+      "example": "Flexible working hours can increase employee productivity.",
+      "exampleKo": "유연 근무 시간은 직원의 생산성을 높일 수 있다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "capitalism",
+      "pos": "n",
+      "meanings": [
+        "자본주의"
+      ],
+      "example": "Capitalism is based on private ownership and free markets.",
+      "exampleKo": "자본주의는 사적 소유와 자유 시장에 기초한다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "labor union",
+      "pos": "n",
+      "meanings": [
+        "노동조합"
+      ],
+      "example": "The labor union negotiated better wages for workers.",
+      "exampleKo": "노동조합은 노동자들을 위해 더 나은 임금을 협상했다.",
+      "emoji": "✊"
+    },
+    {
+      "word": "minimum wage",
+      "pos": "n",
+      "meanings": [
+        "최저임금"
+      ],
+      "example": "Raising the minimum wage can help low-income workers.",
+      "exampleKo": "최저임금을 인상하는 것은 저소득 노동자들에게 도움이 될 수 있다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "supply chain",
+      "pos": "n",
+      "meanings": [
+        "공급망"
+      ],
+      "example": "The pandemic disrupted global supply chains.",
+      "exampleKo": "팬데믹은 전 세계 공급망을 혼란에 빠뜨렸다.",
+      "emoji": "🔗"
+    },
+    {
+      "word": "fiscal policy",
+      "pos": "n",
+      "meanings": [
+        "재정 정책"
+      ],
+      "example": "The government used fiscal policy to stimulate the economy.",
+      "exampleKo": "정부는 경제를 부양하기 위해 재정 정책을 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "monetary policy",
+      "pos": "n",
+      "meanings": [
+        "통화 정책"
+      ],
+      "example": "The central bank adjusted its monetary policy to control inflation.",
+      "exampleKo": "중앙은행은 인플레이션을 통제하기 위해 통화 정책을 조정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "interest rate",
+      "pos": "n",
+      "meanings": [
+        "금리",
+        "이자율"
+      ],
+      "example": "A rise in interest rates discourages borrowing.",
+      "exampleKo": "금리 인상은 대출을 저해한다.",
+      "emoji": "💹"
+    },
+    {
+      "word": "exchange rate",
+      "pos": "n",
+      "meanings": [
+        "환율"
+      ],
+      "example": "The exchange rate between the two currencies fluctuates daily.",
+      "exampleKo": "두 통화 간의 환율은 매일 변동한다.",
+      "emoji": "💱"
+    },
+    {
+      "word": "stock market",
+      "pos": "n",
+      "meanings": [
+        "주식 시장"
+      ],
+      "example": "Investors watched the stock market anxiously during the crisis.",
+      "exampleKo": "투자자들은 위기 동안 주식 시장을 불안하게 지켜보았다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "bankruptcy",
+      "pos": "n",
+      "meanings": [
+        "파산"
+      ],
+      "example": "The company filed for bankruptcy after years of losses.",
+      "exampleKo": "그 회사는 수년간의 손실 끝에 파산을 신청했다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "dividend",
+      "pos": "n",
+      "meanings": [
+        "배당금"
+      ],
+      "example": "Shareholders receive a dividend from the company's profits.",
+      "exampleKo": "주주들은 회사 이익에서 배당금을 받는다.",
+      "emoji": ""
+    },
+    {
+      "word": "merger",
+      "pos": "n",
+      "meanings": [
+        "합병"
+      ],
+      "example": "The merger of the two firms created a global giant.",
+      "exampleKo": "두 기업의 합병은 세계적인 거대 기업을 탄생시켰다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "outsourcing",
+      "pos": "n",
+      "meanings": [
+        "외주",
+        "아웃소싱"
+      ],
+      "example": "Outsourcing production abroad can lower manufacturing costs.",
+      "exampleKo": "해외로 생산을 외주화하면 제조 비용을 낮출 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "wealth gap",
+      "pos": "n",
+      "meanings": [
+        "빈부 격차"
+      ],
+      "example": "The widening wealth gap has become a serious social issue.",
+      "exampleKo": "확대되는 빈부 격차는 심각한 사회 문제가 되었다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "socioeconomic",
+      "pos": "adj",
+      "meanings": [
+        "사회 경제적인"
+      ],
+      "example": "Socioeconomic status affects access to quality education.",
+      "exampleKo": "사회 경제적 지위는 양질의 교육에 대한 접근성에 영향을 미친다.",
+      "emoji": ""
+    },
+    {
+      "word": "redistribution",
+      "pos": "n",
+      "meanings": [
+        "재분배"
+      ],
+      "example": "Taxation is a common tool for the redistribution of wealth.",
+      "exampleKo": "조세는 부의 재분배를 위한 일반적인 수단이다.",
+      "emoji": ""
+    },
+    {
+      "word": "philanthropy",
+      "pos": "n",
+      "meanings": [
+        "자선 활동",
+        "박애"
+      ],
+      "example": "The billionaire is known for his philanthropy toward education.",
+      "exampleKo": "그 억만장자는 교육을 위한 자선 활동으로 유명하다.",
+      "emoji": "🤲"
+    },
+    {
+      "word": "lobbying",
+      "pos": "n",
+      "meanings": [
+        "로비 활동"
+      ],
+      "example": "The industry spent millions on lobbying against the new regulation.",
+      "exampleKo": "그 업계는 새 규제에 반대하는 로비 활동에 수백만 달러를 썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "overpopulation",
+      "pos": "n",
+      "meanings": [
+        "인구 과잉"
+      ],
+      "example": "Overpopulation puts pressure on natural resources.",
+      "exampleKo": "인구 과잉은 천연자원에 압박을 가한다.",
+      "emoji": "👥"
+    },
+    {
+      "word": "birth rate",
+      "pos": "n",
+      "meanings": [
+        "출산율"
+      ],
+      "example": "The country's birth rate has declined steadily for a decade.",
+      "exampleKo": "그 나라의 출산율은 십 년 동안 꾸준히 감소했다.",
+      "emoji": "👶"
+    },
+    {
+      "word": "aging population",
+      "pos": "n",
+      "meanings": [
+        "고령화 인구"
+      ],
+      "example": "An aging population poses challenges for the pension system.",
+      "exampleKo": "고령화 인구는 연금 제도에 어려움을 초래한다.",
+      "emoji": "👴"
+    },
+    {
+      "word": "life expectancy",
+      "pos": "n",
+      "meanings": [
+        "기대 수명"
+      ],
+      "example": "Life expectancy has risen thanks to advances in medicine.",
+      "exampleKo": "의학의 발전 덕분에 기대 수명이 늘어났다.",
+      "emoji": ""
+    },
+    {
+      "word": "census",
+      "pos": "n",
+      "meanings": [
+        "인구 조사"
+      ],
+      "example": "The government conducts a census every ten years.",
+      "exampleKo": "정부는 10년마다 인구 조사를 실시한다.",
+      "emoji": "📋"
+    },
+    {
+      "word": "household income",
+      "pos": "n",
+      "meanings": [
+        "가구 소득"
+      ],
+      "example": "Median household income varies widely between regions.",
+      "exampleKo": "가구 소득 중앙값은 지역마다 크게 다르다.",
+      "emoji": ""
+    },
+    {
+      "word": "cost of living",
+      "pos": "n",
+      "meanings": [
+        "생활비"
+      ],
+      "example": "The cost of living in the city has risen sharply.",
+      "exampleKo": "그 도시의 생활비가 급격히 상승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "standard of living",
+      "pos": "n",
+      "meanings": [
+        "생활 수준"
+      ],
+      "example": "Economic growth has improved the standard of living for many.",
+      "exampleKo": "경제 성장은 많은 사람들의 생활 수준을 향상시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "purchasing power",
+      "pos": "n",
+      "meanings": [
+        "구매력"
+      ],
+      "example": "Inflation erodes the purchasing power of consumers.",
+      "exampleKo": "인플레이션은 소비자의 구매력을 약화시킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "austerity",
+      "pos": "n",
+      "meanings": [
+        "긴축 정책",
+        "내핍"
+      ],
+      "example": "The government introduced austerity measures to reduce debt.",
+      "exampleKo": "정부는 부채를 줄이기 위해 긴축 정책을 도입했다.",
+      "emoji": ""
+    },
+    {
+      "word": "protectionism",
+      "pos": "n",
+      "meanings": [
+        "보호무역주의"
+      ],
+      "example": "Protectionism can trigger trade disputes between nations.",
+      "exampleKo": "보호무역주의는 국가 간 무역 분쟁을 촉발할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "free trade",
+      "pos": "n",
+      "meanings": [
+        "자유 무역"
+      ],
+      "example": "Free trade agreements remove tariffs between countries.",
+      "exampleKo": "자유 무역 협정은 국가 간 관세를 없앤다.",
+      "emoji": "🚢"
+    },
+    {
+      "word": "trade barrier",
+      "pos": "n",
+      "meanings": [
+        "무역 장벽"
+      ],
+      "example": "High tariffs act as a trade barrier for foreign goods.",
+      "exampleKo": "높은 관세는 외국 상품에 대한 무역 장벽으로 작용한다.",
+      "emoji": "🚧"
+    },
+    {
+      "word": "embargo",
+      "pos": "n",
+      "meanings": [
+        "금수 조치",
+        "통상 금지"
+      ],
+      "example": "The country imposed an embargo on oil exports.",
+      "exampleKo": "그 나라는 석유 수출에 금수 조치를 내렸다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "sanction",
+      "pos": "n",
+      "meanings": [
+        "제재"
+      ],
+      "example": "The United Nations imposed sanctions on the regime.",
+      "exampleKo": "유엔은 그 정권에 제재를 가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "boycott",
+      "pos": "v",
+      "meanings": [
+        "불매 운동을 하다"
+      ],
+      "example": "Consumers boycotted the company over its unethical practices.",
+      "exampleKo": "소비자들은 그 회사의 비윤리적 관행에 항의하여 불매 운동을 벌였다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "resource allocation",
+      "pos": "n",
+      "meanings": [
+        "자원 배분"
+      ],
+      "example": "Efficient resource allocation is key to economic growth.",
+      "exampleKo": "효율적인 자원 배분은 경제 성장의 핵심이다.",
+      "emoji": ""
+    },
+    {
+      "word": "opportunity cost",
+      "pos": "n",
+      "meanings": [
+        "기회비용"
+      ],
+      "example": "The opportunity cost of studying abroad includes lost income.",
+      "exampleKo": "해외 유학의 기회비용에는 잃어버린 소득이 포함된다.",
+      "emoji": ""
+    },
+    {
+      "word": "economies of scale",
+      "pos": "n",
+      "meanings": [
+        "규모의 경제"
+      ],
+      "example": "Large factories benefit from economies of scale.",
+      "exampleKo": "대규모 공장은 규모의 경제로부터 이익을 얻는다.",
+      "emoji": ""
+    },
+    {
+      "word": "oligopoly",
+      "pos": "n",
+      "meanings": [
+        "과점"
+      ],
+      "example": "A few large firms dominate the market in an oligopoly.",
+      "exampleKo": "과점 시장에서는 소수의 대기업이 시장을 지배한다.",
+      "emoji": ""
+    },
+    {
+      "word": "cartel",
+      "pos": "n",
+      "meanings": [
+        "카르텔",
+        "담합"
+      ],
+      "example": "The oil cartel controls a large share of global supply.",
+      "exampleKo": "그 석유 카르텔은 세계 공급량의 큰 부분을 통제한다.",
+      "emoji": ""
+    },
+    {
+      "word": "antitrust",
+      "pos": "adj",
+      "meanings": [
+        "반독점의"
+      ],
+      "example": "The company faced an antitrust investigation over its market power.",
+      "exampleKo": "그 회사는 시장 지배력에 대한 반독점 조사를 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "black market",
+      "pos": "n",
+      "meanings": [
+        "암시장"
+      ],
+      "example": "Banned goods are often sold on the black market.",
+      "exampleKo": "금지된 물품은 종종 암시장에서 팔린다.",
+      "emoji": ""
+    },
+    {
+      "word": "gig economy",
+      "pos": "n",
+      "meanings": [
+        "긱 경제"
+      ],
+      "example": "The gig economy allows people to work flexible, short-term jobs.",
+      "exampleKo": "긱 경제는 사람들이 유연한 단기 일자리에서 일할 수 있게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "freelance",
+      "pos": "adj",
+      "meanings": [
+        "프리랜서의",
+        "자유 계약의"
+      ],
+      "example": "She left her office job to work as a freelance writer.",
+      "exampleKo": "그녀는 프리랜서 작가로 일하기 위해 사무직을 그만두었다.",
+      "emoji": "💻"
+    },
+    {
+      "word": "telecommute",
+      "pos": "v",
+      "meanings": [
+        "재택근무를 하다"
+      ],
+      "example": "Many employees now telecommute instead of going to the office.",
+      "exampleKo": "이제 많은 직원들이 사무실에 가는 대신 재택근무를 한다.",
+      "emoji": "💻"
+    },
+    {
+      "word": "work-life balance",
+      "pos": "n",
+      "meanings": [
+        "일과 삶의 균형"
+      ],
+      "example": "Companies are paying more attention to employees' work-life balance.",
+      "exampleKo": "기업들은 직원들의 일과 삶의 균형에 더 많은 관심을 기울이고 있다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "layoff",
+      "pos": "n",
+      "meanings": [
+        "해고",
+        "정리 해고"
+      ],
+      "example": "The recession led to massive layoffs across the industry.",
+      "exampleKo": "경기 침체는 업계 전반에 걸친 대규모 정리 해고로 이어졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "downsizing",
+      "pos": "n",
+      "meanings": [
+        "감원",
+        "규모 축소"
+      ],
+      "example": "The firm announced downsizing to cut operating costs.",
+      "exampleKo": "그 회사는 운영 비용을 줄이기 위해 감원을 발표했다.",
+      "emoji": ""
+    },
+    {
+      "word": "restructuring",
+      "pos": "n",
+      "meanings": [
+        "구조 조정"
+      ],
+      "example": "The corporate restructuring resulted in thousands of job losses.",
+      "exampleKo": "그 기업 구조 조정은 수천 개의 일자리 손실을 초래했다.",
+      "emoji": ""
+    },
+    {
+      "word": "renewable energy",
+      "pos": "n",
+      "meanings": [
+        "재생 가능 에너지"
+      ],
+      "example": "Countries are shifting toward renewable energy sources.",
+      "exampleKo": "여러 나라들이 재생 가능 에너지원으로 전환하고 있다.",
+      "emoji": "☀️"
+    },
+    {
+      "word": "greenhouse gas",
+      "pos": "n",
+      "meanings": [
+        "온실가스"
+      ],
+      "example": "Cars and factories emit greenhouse gases into the atmosphere.",
+      "exampleKo": "자동차와 공장은 대기 중으로 온실가스를 배출한다.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "overconsumption",
+      "pos": "n",
+      "meanings": [
+        "과잉 소비"
+      ],
+      "example": "Overconsumption of natural resources threatens future generations.",
+      "exampleKo": "천연자원의 과잉 소비는 미래 세대를 위협한다.",
+      "emoji": ""
+    },
+    {
+      "word": "recycling",
+      "pos": "n",
+      "meanings": [
+        "재활용"
+      ],
+      "example": "Recycling programs help reduce the amount of waste in landfills.",
+      "exampleKo": "재활용 프로그램은 매립지의 쓰레기 양을 줄이는 데 도움이 된다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "income tax",
+      "pos": "n",
+      "meanings": [
+        "소득세"
+      ],
+      "example": "The new law raised income tax for high earners.",
+      "exampleKo": "그 새 법은 고소득자들의 소득세를 인상했다.",
+      "emoji": ""
+    },
+    {
+      "word": "property tax",
+      "pos": "n",
+      "meanings": [
+        "재산세"
+      ],
+      "example": "Homeowners must pay an annual property tax.",
+      "exampleKo": "주택 소유자들은 매년 재산세를 납부해야 한다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "welfare state",
+      "pos": "n",
+      "meanings": [
+        "복지 국가"
+      ],
+      "example": "Scandinavian countries are often cited as models of the welfare state.",
+      "exampleKo": "스칸디나비아 국가들은 종종 복지 국가의 모델로 언급된다.",
+      "emoji": ""
+    },
+    {
+      "word": "safety net",
+      "pos": "n",
+      "meanings": [
+        "안전망"
+      ],
+      "example": "Unemployment insurance serves as a safety net for workers.",
+      "exampleKo": "실업 보험은 노동자들을 위한 안전망 역할을 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "trade deficit",
+      "pos": "n",
+      "meanings": [
+        "무역 적자"
+      ],
+      "example": "The country recorded its largest trade deficit in a decade.",
+      "exampleKo": "그 나라는 십 년 만에 최대 무역 적자를 기록했다.",
+      "emoji": ""
+    },
+    {
+      "word": "deregulation",
+      "pos": "n",
+      "meanings": [
+        "규제 완화"
+      ],
+      "example": "Deregulation of the airline industry led to lower fares.",
+      "exampleKo": "항공 산업의 규제 완화는 더 낮은 요금으로 이어졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "nationalize",
+      "pos": "v",
+      "meanings": [
+        "국유화하다"
+      ],
+      "example": "The government decided to nationalize the failing railway company.",
+      "exampleKo": "정부는 경영난에 처한 철도 회사를 국유화하기로 결정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "franchise",
+      "pos": "n",
+      "meanings": [
+        "가맹점",
+        "프랜차이즈"
+      ],
+      "example": "She opened a franchise of a popular coffee chain.",
+      "exampleKo": "그녀는 인기 있는 커피 체인의 가맹점을 열었다.",
+      "emoji": "🏪"
+    },
+    {
+      "word": "e-commerce",
+      "pos": "n",
+      "meanings": [
+        "전자 상거래"
+      ],
+      "example": "E-commerce has transformed the way people shop.",
+      "exampleKo": "전자 상거래는 사람들이 쇼핑하는 방식을 변화시켰다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "supply and demand",
+      "pos": "n",
+      "meanings": [
+        "수요와 공급"
+      ],
+      "example": "Prices are determined by the balance of supply and demand.",
+      "exampleKo": "가격은 수요와 공급의 균형에 의해 결정된다.",
+      "emoji": ""
+    },
+    {
+      "word": "hyperinflation",
+      "pos": "n",
+      "meanings": [
+        "초인플레이션"
+      ],
+      "example": "Hyperinflation made the country's currency almost worthless.",
+      "exampleKo": "초인플레이션은 그 나라의 화폐를 거의 무가치하게 만들었다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "deflation",
+      "pos": "n",
+      "meanings": [
+        "디플레이션",
+        "물가 하락"
+      ],
+      "example": "Deflation can discourage consumers from spending.",
+      "exampleKo": "디플레이션은 소비자들의 지출을 위축시킬 수 있다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "brain drain",
+      "pos": "n",
+      "meanings": [
+        "두뇌 유출"
+      ],
+      "example": "Many developing nations suffer from a brain drain of skilled workers.",
+      "exampleKo": "많은 개발도상국은 숙련된 인력의 두뇌 유출로 어려움을 겪는다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "human capital",
+      "pos": "n",
+      "meanings": [
+        "인적 자본"
+      ],
+      "example": "Investing in education builds a nation's human capital.",
+      "exampleKo": "교육에 투자하는 것은 국가의 인적 자본을 형성한다.",
+      "emoji": ""
+    },
+    {
+      "word": "intellectual property",
+      "pos": "n",
+      "meanings": [
+        "지적 재산권"
+      ],
+      "example": "Companies protect their inventions through intellectual property law.",
+      "exampleKo": "기업들은 지적 재산권법을 통해 발명품을 보호한다.",
+      "emoji": ""
+    },
+    {
+      "word": "patent",
+      "pos": "n",
+      "meanings": [
+        "특허권"
+      ],
+      "example": "The inventor obtained a patent for his new device.",
+      "exampleKo": "그 발명가는 자신의 새 장치에 대한 특허를 획득했다.",
+      "emoji": "📜"
+    },
+    {
+      "word": "copyright",
+      "pos": "n",
+      "meanings": [
+        "저작권"
+      ],
+      "example": "Copyright protects authors from having their work copied without permission.",
+      "exampleKo": "저작권은 저자들이 허락 없이 작품을 복제당하지 않도록 보호한다.",
+      "emoji": ""
+    },
+    {
+      "word": "venture capital",
+      "pos": "n",
+      "meanings": [
+        "벤처 자본"
+      ],
+      "example": "The startup raised venture capital to expand its business.",
+      "exampleKo": "그 스타트업은 사업 확장을 위해 벤처 자본을 유치했다.",
+      "emoji": ""
+    },
+    {
+      "word": "startup",
+      "pos": "n",
+      "meanings": [
+        "신생 기업",
+        "스타트업"
+      ],
+      "example": "The tech startup grew rapidly within a few years.",
+      "exampleKo": "그 기술 스타트업은 몇 년 만에 빠르게 성장했다.",
+      "emoji": "🚀"
+    },
+    {
+      "word": "crowdfunding",
+      "pos": "n",
+      "meanings": [
+        "크라우드펀딩"
+      ],
+      "example": "The project was financed through crowdfunding.",
+      "exampleKo": "그 프로젝트는 크라우드펀딩을 통해 자금이 조달되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "credit score",
+      "pos": "n",
+      "meanings": [
+        "신용 점수"
+      ],
+      "example": "A high credit score makes it easier to get a loan.",
+      "exampleKo": "높은 신용 점수는 대출을 받기 더 쉽게 만든다.",
+      "emoji": ""
+    },
+    {
+      "word": "collateral",
+      "pos": "n",
+      "meanings": [
+        "담보물"
+      ],
+      "example": "The bank required collateral before approving the loan.",
+      "exampleKo": "은행은 대출을 승인하기 전에 담보를 요구했다.",
+      "emoji": ""
+    },
+    {
+      "word": "liquidity",
+      "pos": "n",
+      "meanings": [
+        "유동성"
+      ],
+      "example": "The company faced a liquidity crisis and could not pay its bills.",
+      "exampleKo": "그 회사는 유동성 위기에 직면하여 청구서를 지불할 수 없었다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "real estate",
+      "pos": "n",
+      "meanings": [
+        "부동산"
+      ],
+      "example": "Real estate prices in the capital have doubled in five years.",
+      "exampleKo": "수도의 부동산 가격이 5년 만에 두 배로 뛰었다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "urban sprawl",
+      "pos": "n",
+      "meanings": [
+        "도시의 무분별한 확장"
+      ],
+      "example": "Urban sprawl has swallowed up much of the farmland nearby.",
+      "exampleKo": "도시의 무분별한 확장은 인근 농지의 많은 부분을 잠식했다.",
+      "emoji": "🏙️"
+    },
+    {
+      "word": "gentrification",
+      "pos": "n",
+      "meanings": [
+        "젠트리피케이션",
+        "구도심 고급화"
+      ],
+      "example": "Gentrification often pushes long-time residents out of their neighborhoods.",
+      "exampleKo": "젠트리피케이션은 종종 오랜 주민들을 그들의 동네에서 밀어낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "homelessness",
+      "pos": "n",
+      "meanings": [
+        "노숙",
+        "노숙자 신세"
+      ],
+      "example": "The city launched a program to address homelessness.",
+      "exampleKo": "그 도시는 노숙 문제를 해결하기 위한 프로그램을 시작했다.",
+      "emoji": ""
+    },
+    {
+      "word": "food security",
+      "pos": "n",
+      "meanings": [
+        "식량 안보"
+      ],
+      "example": "Climate change threatens food security in many regions.",
+      "exampleKo": "기후 변화는 여러 지역의 식량 안보를 위협한다.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "malnutrition",
+      "pos": "n",
+      "meanings": [
+        "영양실조"
+      ],
+      "example": "Malnutrition remains a serious problem in some parts of the world.",
+      "exampleKo": "영양실조는 세계 일부 지역에서 여전히 심각한 문제이다.",
+      "emoji": ""
+    },
+    {
+      "word": "humanitarian aid",
+      "pos": "n",
+      "meanings": [
+        "인도주의적 원조"
+      ],
+      "example": "International organizations sent humanitarian aid to the disaster area.",
+      "exampleKo": "국제기구들은 재난 지역에 인도주의적 원조를 보냈다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "social mobility",
+      "pos": "n",
+      "meanings": [
+        "사회적 이동성"
+      ],
+      "example": "Education is often seen as a key path to social mobility.",
+      "exampleKo": "교육은 흔히 사회적 이동성을 위한 핵심 경로로 여겨진다.",
+      "emoji": "🪜"
+    },
+    {
+      "word": "meritocracy",
+      "pos": "n",
+      "meanings": [
+        "능력주의 사회"
+      ],
+      "example": "A true meritocracy rewards talent and effort rather than birth.",
+      "exampleKo": "진정한 능력주의 사회는 출신이 아니라 재능과 노력에 보상한다.",
+      "emoji": ""
+    },
+    {
+      "word": "nepotism",
+      "pos": "n",
+      "meanings": [
+        "정실 인사",
+        "족벌주의"
+      ],
+      "example": "Critics accused the mayor of nepotism for hiring his relatives.",
+      "exampleKo": "비판자들은 시장이 친척들을 고용했다며 정실 인사를 비판했다.",
+      "emoji": ""
+    },
+    {
+      "word": "transparency",
+      "pos": "n",
+      "meanings": [
+        "투명성"
+      ],
+      "example": "Transparency in government builds public trust.",
+      "exampleKo": "정부의 투명성은 대중의 신뢰를 쌓는다.",
+      "emoji": ""
+    },
+    {
+      "word": "accountability",
+      "pos": "n",
+      "meanings": [
+        "책임성",
+        "해명 의무"
+      ],
+      "example": "Public officials should be held to a high standard of accountability.",
+      "exampleKo": "공직자들은 높은 수준의 책임성 기준을 지켜야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "governance",
+      "pos": "n",
+      "meanings": [
+        "통치",
+        "거버넌스"
+      ],
+      "example": "Good governance is essential for a stable society.",
+      "exampleKo": "좋은 거버넌스는 안정된 사회에 필수적이다.",
+      "emoji": ""
+    },
+    {
+      "word": "public policy",
+      "pos": "n",
+      "meanings": [
+        "공공 정책"
+      ],
+      "example": "The professor specializes in public policy and urban planning.",
+      "exampleKo": "그 교수는 공공 정책과 도시 계획을 전공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "unemployment benefit",
+      "pos": "n",
+      "meanings": [
+        "실업 급여"
+      ],
+      "example": "Workers who lose their jobs can apply for unemployment benefits.",
+      "exampleKo": "일자리를 잃은 노동자들은 실업 급여를 신청할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "social security",
+      "pos": "n",
+      "meanings": [
+        "사회 보장 제도"
+      ],
+      "example": "Social security provides income for retired and disabled citizens.",
+      "exampleKo": "사회 보장 제도는 은퇴자와 장애인 시민들에게 소득을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "universal basic income",
+      "pos": "n",
+      "meanings": [
+        "기본소득"
+      ],
+      "example": "Some economists propose a universal basic income to reduce poverty.",
+      "exampleKo": "일부 경제학자들은 빈곤을 줄이기 위해 기본소득을 제안한다.",
+      "emoji": ""
+    },
+    {
+      "word": "underprivileged",
+      "pos": "adj",
+      "meanings": [
+        "혜택받지 못한",
+        "불우한"
+      ],
+      "example": "The charity provides scholarships to underprivileged students.",
+      "exampleKo": "그 자선 단체는 혜택받지 못한 학생들에게 장학금을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "marginalized",
+      "pos": "adj",
+      "meanings": [
+        "소외된"
+      ],
+      "example": "The policy aims to give a voice to marginalized communities.",
+      "exampleKo": "그 정책은 소외된 지역 사회에 목소리를 부여하는 것을 목표로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "job market",
+      "pos": "n",
+      "meanings": [
+        "취업 시장",
+        "고용 시장"
+      ],
+      "example": "The job market for graduates has become increasingly competitive.",
+      "exampleKo": "졸업생들을 위한 취업 시장은 점점 더 경쟁이 치열해지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "wage gap",
+      "pos": "n",
+      "meanings": [
+        "임금 격차"
+      ],
+      "example": "The gender wage gap remains a persistent issue in many industries.",
+      "exampleKo": "성별 임금 격차는 많은 산업에서 여전히 지속되는 문제이다.",
+      "emoji": ""
+    },
+    {
+      "word": "statistic",
+      "pos": "n",
+      "meanings": [
+        "통계치",
+        "통계 자료"
+      ],
+      "example": "The statistic showed a sharp rise in online shopping.",
+      "exampleKo": "그 통계치는 온라인 쇼핑의 급격한 증가를 보여주었다.",
+      "emoji": "📊"
+    },
+    {
+      "word": "criteria",
+      "pos": "n",
+      "meanings": [
+        "기준"
+      ],
+      "example": "The judges used strict criteria to evaluate the contestants.",
+      "exampleKo": "심사위원들은 참가자들을 평가하기 위해 엄격한 기준을 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "consistency",
+      "pos": "n",
+      "meanings": [
+        "일관성"
+      ],
+      "example": "Consistency in your training schedule leads to better results.",
+      "exampleKo": "훈련 일정의 일관성은 더 나은 결과로 이어진다.",
+      "emoji": ""
+    },
+    {
+      "word": "inconsistency",
+      "pos": "n",
+      "meanings": [
+        "불일치",
+        "모순"
+      ],
+      "example": "The lawyer pointed out an inconsistency in the witness's statement.",
+      "exampleKo": "변호사는 증인의 진술에서 불일치를 지적했다.",
+      "emoji": ""
+    },
+    {
+      "word": "shareholder",
+      "pos": "n",
+      "meanings": [
+        "주주"
+      ],
+      "example": "Shareholders voted to approve the merger at the annual meeting.",
+      "exampleKo": "주주들은 연례 총회에서 그 합병을 승인하는 데 투표했다.",
+      "emoji": ""
+    },
+    {
+      "word": "accuracy",
+      "pos": "n",
+      "meanings": [
+        "정확성"
+      ],
+      "example": "Scientists strive for accuracy when recording their observations.",
+      "exampleKo": "과학자들은 관찰 내용을 기록할 때 정확성을 추구한다.",
+      "emoji": "🎯"
+    },
+    {
+      "word": "credibility",
+      "pos": "n",
+      "meanings": [
+        "신뢰성"
+      ],
+      "example": "Repeated errors damaged the researcher's credibility.",
+      "exampleKo": "반복된 오류는 그 연구자의 신뢰성을 손상시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "authenticity",
+      "pos": "n",
+      "meanings": [
+        "진정성",
+        "진짜임"
+      ],
+      "example": "Experts examined the painting to confirm its authenticity.",
+      "exampleKo": "전문가들은 그 그림의 진위를 확인하기 위해 조사했다.",
+      "emoji": ""
+    },
+    {
+      "word": "speculation",
+      "pos": "n",
+      "meanings": [
+        "추측",
+        "짐작"
+      ],
+      "example": "Without solid evidence, the theory remains mere speculation.",
+      "exampleKo": "확실한 증거가 없다면 그 이론은 단순한 추측에 불과하다.",
+      "emoji": ""
+    },
+    {
+      "word": "implausible",
+      "pos": "adj",
+      "meanings": [
+        "믿기 어려운",
+        "타당하지 않은"
+      ],
+      "example": "The witness's explanation sounded implausible to the jury.",
+      "exampleKo": "그 증인의 설명은 배심원단에게 믿기 어렵게 들렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "induction",
+      "pos": "n",
+      "meanings": [
+        "귀납법"
+      ],
+      "example": "Induction involves drawing general conclusions from specific examples.",
+      "exampleKo": "귀납법은 구체적인 사례로부터 일반적인 결론을 이끌어 내는 것을 포함한다.",
+      "emoji": ""
+    },
+    {
+      "word": "counterexample",
+      "pos": "n",
+      "meanings": [
+        "반례"
+      ],
+      "example": "A single counterexample can disprove a general claim.",
+      "exampleKo": "단 하나의 반례가 일반적인 주장을 반증할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "control group",
+      "pos": "n",
+      "meanings": [
+        "대조군"
+      ],
+      "example": "The control group received no treatment during the experiment.",
+      "exampleKo": "대조군은 실험 동안 아무런 처치도 받지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "interconnected",
+      "pos": "adj",
+      "meanings": [
+        "서로 연결된",
+        "상호 연관된"
+      ],
+      "example": "Global markets are so interconnected that a crisis in one country can spread quickly.",
+      "exampleKo": "세계 시장은 서로 매우 연결되어 있어서 한 나라의 위기가 빠르게 퍼질 수 있다.",
+      "emoji": "🔗"
+    },
+    {
+      "word": "presupposition",
+      "pos": "n",
+      "meanings": [
+        "전제",
+        "가정"
+      ],
+      "example": "The argument rests on a presupposition that everyone shares.",
+      "exampleKo": "그 주장은 모두가 공유하는 전제에 근거한다.",
+      "emoji": ""
+    },
+    {
+      "word": "unbiased sample",
+      "pos": "n",
+      "meanings": [
+        "편향되지 않은 표본"
+      ],
+      "example": "Researchers tried to select an unbiased sample from the entire population.",
+      "exampleKo": "연구자들은 전체 모집단에서 편향되지 않은 표본을 선택하려고 노력했다.",
+      "emoji": ""
+    },
+    {
+      "word": "taxonomy",
+      "pos": "n",
+      "meanings": [
+        "분류(법)",
+        "분류 체계"
+      ],
+      "example": "Biologists developed a taxonomy to organize living things into groups.",
+      "exampleKo": "생물학자들은 생물을 여러 집단으로 정리하기 위해 분류 체계를 개발했다.",
+      "emoji": ""
+    },
+    {
+      "word": "causal relationship",
+      "pos": "n",
+      "meanings": [
+        "인과 관계"
+      ],
+      "example": "The study failed to establish a causal relationship between the two factors.",
+      "exampleKo": "그 연구는 두 요인 사이의 인과 관계를 입증하지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "longitudinal study",
+      "pos": "n",
+      "meanings": [
+        "종단 연구"
+      ],
+      "example": "The longitudinal study tracked the same subjects for twenty years.",
+      "exampleKo": "그 종단 연구는 20년 동안 동일한 대상을 추적했다.",
+      "emoji": ""
+    },
+    {
+      "word": "peer review",
+      "pos": "n",
+      "meanings": [
+        "동료 평가",
+        "전문가 심사"
+      ],
+      "example": "Scientific papers undergo peer review before publication.",
+      "exampleKo": "과학 논문은 출판 전에 동료 평가를 거친다.",
+      "emoji": ""
+    },
+    {
+      "word": "cognitive bias",
+      "pos": "n",
+      "meanings": [
+        "인지 편향"
+      ],
+      "example": "Cognitive bias can distort the way people interpret information.",
+      "exampleKo": "인지 편향은 사람들이 정보를 해석하는 방식을 왜곡할 수 있다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "confirmation bias",
+      "pos": "n",
+      "meanings": [
+        "확증 편향"
+      ],
+      "example": "Confirmation bias leads people to favor evidence that supports their beliefs.",
+      "exampleKo": "확증 편향은 사람들이 자신의 신념을 뒷받침하는 증거를 선호하게 만든다.",
+      "emoji": ""
+    },
+    {
+      "word": "margin of error",
+      "pos": "n",
+      "meanings": [
+        "오차 범위"
+      ],
+      "example": "The poll's results had a margin of error of three percent.",
+      "exampleKo": "그 여론 조사 결과는 3퍼센트의 오차 범위를 가지고 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "standard deviation",
+      "pos": "n",
+      "meanings": [
+        "표준 편차"
+      ],
+      "example": "A small standard deviation means the data points are close to the average.",
+      "exampleKo": "작은 표준 편차는 데이터 값들이 평균에 가깝다는 것을 의미한다.",
+      "emoji": ""
+    },
+    {
+      "word": "probability",
+      "pos": "n",
+      "meanings": [
+        "확률",
+        "가능성"
+      ],
+      "example": "The probability of rain tomorrow is quite high.",
+      "exampleKo": "내일 비가 올 확률은 상당히 높다.",
+      "emoji": "🎲"
+    },
+    {
+      "word": "likelihood",
+      "pos": "n",
+      "meanings": [
+        "가능성"
+      ],
+      "example": "Exercise reduces the likelihood of developing heart disease.",
+      "exampleKo": "운동은 심장병에 걸릴 가능성을 줄여 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "interpolate",
+      "pos": "v",
+      "meanings": [
+        "보간하다",
+        "사이 값을 추정하다"
+      ],
+      "example": "Scientists interpolated the missing values from the surrounding data.",
+      "exampleKo": "과학자들은 주변 데이터로부터 누락된 값을 보간했다.",
+      "emoji": ""
+    },
+    {
+      "word": "theoretical framework",
+      "pos": "n",
+      "meanings": [
+        "이론적 틀"
+      ],
+      "example": "The paper is based on a well-established theoretical framework.",
+      "exampleKo": "그 논문은 확립된 이론적 틀에 기반하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "operational definition",
+      "pos": "n",
+      "meanings": [
+        "조작적 정의"
+      ],
+      "example": "Researchers must provide an operational definition of key terms.",
+      "exampleKo": "연구자들은 핵심 용어에 대한 조작적 정의를 제시해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "data set",
+      "pos": "n",
+      "meanings": [
+        "데이터 집합",
+        "자료 세트"
+      ],
+      "example": "The team analyzed a large data set collected over five years.",
+      "exampleKo": "그 팀은 5년에 걸쳐 수집된 대규모 데이터 집합을 분석했다.",
+      "emoji": ""
+    },
+    {
+      "word": "outlier",
+      "pos": "n",
+      "meanings": [
+        "이상치",
+        "예외적인 것"
+      ],
+      "example": "The researcher removed the outlier before calculating the average.",
+      "exampleKo": "그 연구자는 평균을 계산하기 전에 이상치를 제거했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pattern recognition",
+      "pos": "n",
+      "meanings": [
+        "패턴 인식"
+      ],
+      "example": "Pattern recognition allows computers to identify faces in photos.",
+      "exampleKo": "패턴 인식은 컴퓨터가 사진 속 얼굴을 식별할 수 있게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "placebo effect",
+      "pos": "n",
+      "meanings": [
+        "위약 효과"
+      ],
+      "example": "Patients who took the fake pill still improved due to the placebo effect.",
+      "exampleKo": "가짜 약을 먹은 환자들도 위약 효과로 인해 호전되었다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "dependent variable",
+      "pos": "n",
+      "meanings": [
+        "종속 변수"
+      ],
+      "example": "In this experiment, test scores are the dependent variable.",
+      "exampleKo": "이 실험에서 시험 점수는 종속 변수이다.",
+      "emoji": ""
+    },
+    {
+      "word": "independent variable",
+      "pos": "n",
+      "meanings": [
+        "독립 변수"
+      ],
+      "example": "The amount of sunlight was the independent variable in the study.",
+      "exampleKo": "그 연구에서 햇빛의 양은 독립 변수였다.",
+      "emoji": ""
+    },
+    {
+      "word": "glass ceiling",
+      "pos": "n",
+      "meanings": [
+        "보이지 않는 장벽",
+        "유리 천장"
+      ],
+      "example": "Many women in the company felt they had hit a glass ceiling in their careers.",
+      "exampleKo": "그 회사의 많은 여성들은 자신의 경력에서 유리 천장에 부딪혔다고 느꼈다.",
+      "emoji": "🪟"
+    },
+    {
+      "word": "deductive reasoning",
+      "pos": "n",
+      "meanings": [
+        "연역적 추론"
+      ],
+      "example": "Deductive reasoning moves from general principles to specific conclusions.",
+      "exampleKo": "연역적 추론은 일반 원리에서 구체적인 결론으로 나아간다.",
+      "emoji": ""
+    },
+    {
+      "word": "inductive reasoning",
+      "pos": "n",
+      "meanings": [
+        "귀납적 추론"
+      ],
+      "example": "Inductive reasoning builds general theories from specific observations.",
+      "exampleKo": "귀납적 추론은 구체적인 관찰로부터 일반적인 이론을 세운다.",
+      "emoji": ""
+    },
+    {
+      "word": "valid argument",
+      "pos": "n",
+      "meanings": [
+        "타당한 논증"
+      ],
+      "example": "A valid argument must follow logically from its premises.",
+      "exampleKo": "타당한 논증은 전제로부터 논리적으로 도출되어야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "false dichotomy",
+      "pos": "n",
+      "meanings": [
+        "잘못된 이분법"
+      ],
+      "example": "The debate presented a false dichotomy between safety and freedom.",
+      "exampleKo": "그 논쟁은 안전과 자유 사이의 잘못된 이분법을 제시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "ad hoc",
+      "pos": "adj",
+      "meanings": [
+        "임시방편의",
+        "즉흥적인"
+      ],
+      "example": "The committee formed an ad hoc solution to the sudden crisis.",
+      "exampleKo": "위원회는 갑작스러운 위기에 임시방편의 해결책을 마련했다.",
+      "emoji": ""
+    },
+    {
+      "word": "empirical evidence",
+      "pos": "n",
+      "meanings": [
+        "경험적 증거",
+        "실증적 증거"
+      ],
+      "example": "The claim lacks empirical evidence to support it.",
+      "exampleKo": "그 주장은 그것을 뒷받침할 경험적 증거가 부족하다.",
+      "emoji": ""
+    },
+    {
+      "word": "random sample",
+      "pos": "n",
+      "meanings": [
+        "무작위 표본"
+      ],
+      "example": "The survey was based on a random sample of one thousand people.",
+      "exampleKo": "그 설문 조사는 천 명의 무작위 표본을 기반으로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "questionnaire",
+      "pos": "n",
+      "meanings": [
+        "설문지"
+      ],
+      "example": "Participants filled out a questionnaire about their eating habits.",
+      "exampleKo": "참가자들은 자신의 식습관에 관한 설문지를 작성했다.",
+      "emoji": "📋"
+    },
+    {
+      "word": "forecast",
+      "pos": "v",
+      "meanings": [
+        "예측하다",
+        "예보하다"
+      ],
+      "example": "Economists forecast slow growth for the coming year.",
+      "exampleKo": "경제학자들은 내년에 완만한 성장을 예측한다.",
+      "emoji": "🔮"
+    },
+    {
+      "word": "projection",
+      "pos": "n",
+      "meanings": [
+        "예측치",
+        "추정"
+      ],
+      "example": "The population projection suggests a decline over the next decade.",
+      "exampleKo": "그 인구 예측치는 향후 10년간 감소를 시사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "threshold",
+      "pos": "n",
+      "meanings": [
+        "문턱값",
+        "한계점"
+      ],
+      "example": "Once pain crosses a certain threshold, the body reacts automatically.",
+      "exampleKo": "통증이 특정 한계점을 넘으면 신체는 자동으로 반응한다.",
+      "emoji": ""
+    },
+    {
+      "word": "indicator",
+      "pos": "n",
+      "meanings": [
+        "지표"
+      ],
+      "example": "GDP is often used as an indicator of economic health.",
+      "exampleKo": "GDP는 흔히 경제 건전성의 지표로 사용된다.",
+      "emoji": ""
+    },
+    {
+      "word": "aggregate",
+      "pos": "adj",
+      "meanings": [
+        "총계의",
+        "총합의"
+      ],
+      "example": "The aggregate demand for the product rose sharply last quarter.",
+      "exampleKo": "그 제품에 대한 총수요는 지난 분기에 급격히 증가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "composite",
+      "pos": "adj",
+      "meanings": [
+        "합성의",
+        "복합의"
+      ],
+      "example": "Researchers created a composite image from several photographs.",
+      "exampleKo": "연구자들은 여러 장의 사진으로부터 합성 이미지를 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "baseline",
+      "pos": "n",
+      "meanings": [
+        "기준선",
+        "기준치"
+      ],
+      "example": "Doctors measured a baseline heart rate before the experiment began.",
+      "exampleKo": "의사들은 실험이 시작되기 전에 기준 심박수를 측정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "parameter",
+      "pos": "n",
+      "meanings": [
+        "매개변수",
+        "조건"
+      ],
+      "example": "The scientists adjusted several parameters to improve the model.",
+      "exampleKo": "과학자들은 모델을 개선하기 위해 여러 매개변수를 조정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "coefficient",
+      "pos": "n",
+      "meanings": [
+        "계수"
+      ],
+      "example": "A correlation coefficient close to one indicates a strong relationship.",
+      "exampleKo": "1에 가까운 상관계수는 강한 관계를 나타낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "feasibility",
+      "pos": "n",
+      "meanings": [
+        "실현 가능성"
+      ],
+      "example": "The company conducted a study to test the feasibility of the project.",
+      "exampleKo": "그 회사는 그 프로젝트의 실현 가능성을 검토하기 위해 연구를 수행했다.",
+      "emoji": ""
+    },
+    {
+      "word": "viability",
+      "pos": "n",
+      "meanings": [
+        "실행 가능성",
+        "생존 가능성"
+      ],
+      "example": "Investors questioned the long-term viability of the business plan.",
+      "exampleKo": "투자자들은 그 사업 계획의 장기적인 실행 가능성에 의문을 제기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "optimal",
+      "pos": "adj",
+      "meanings": [
+        "최적의"
+      ],
+      "example": "Researchers determined the optimal temperature for plant growth.",
+      "exampleKo": "연구자들은 식물 성장에 최적의 온도를 결정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "maximize",
+      "pos": "v",
+      "meanings": [
+        "극대화하다",
+        "최대화하다"
+      ],
+      "example": "The company redesigned its process to maximize efficiency.",
+      "exampleKo": "그 회사는 효율성을 극대화하기 위해 공정을 재설계했다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "stagnate",
+      "pos": "v",
+      "meanings": [
+        "침체되다",
+        "정체되다"
+      ],
+      "example": "Wages have stagnated despite rising productivity.",
+      "exampleKo": "생산성이 상승했음에도 불구하고 임금은 정체되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "plateau",
+      "pos": "n",
+      "meanings": [
+        "정체기",
+        "안정 상태"
+      ],
+      "example": "Sales growth reached a plateau after the initial surge.",
+      "exampleKo": "매출 성장은 초기 급증 이후 정체기에 이르렀다.",
+      "emoji": ""
+    },
+    {
+      "word": "surge",
+      "pos": "v",
+      "meanings": [
+        "급증하다",
+        "급등하다"
+      ],
+      "example": "Demand for masks surged during the outbreak.",
+      "exampleKo": "마스크 수요는 발병 기간 동안 급증했다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "correlate",
+      "pos": "v",
+      "meanings": [
+        "상관관계가 있다",
+        "관련시키다"
+      ],
+      "example": "Studies show that sleep quality correlates with academic performance.",
+      "exampleKo": "연구들은 수면의 질이 학업 성취도와 상관관계가 있음을 보여 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "interrelate",
+      "pos": "v",
+      "meanings": [
+        "서로 관련되다",
+        "연관시키다"
+      ],
+      "example": "Economic and social factors often interrelate in complex ways.",
+      "exampleKo": "경제적 요인과 사회적 요인은 흔히 복잡한 방식으로 서로 관련된다.",
+      "emoji": ""
+    },
+    {
+      "word": "interdependent",
+      "pos": "adj",
+      "meanings": [
+        "상호 의존적인"
+      ],
+      "example": "Modern economies are increasingly interdependent across borders.",
+      "exampleKo": "현대 경제는 국경을 초월하여 점점 더 상호 의존적이 되고 있다.",
+      "emoji": "🔗"
+    },
+    {
+      "word": "multifaceted",
+      "pos": "adj",
+      "meanings": [
+        "다면적인",
+        "여러 측면이 있는"
+      ],
+      "example": "Poverty is a multifaceted problem with no single solution.",
+      "exampleKo": "빈곤은 단 하나의 해결책이 없는 다면적인 문제이다.",
+      "emoji": "💎"
+    },
+    {
+      "word": "holistic",
+      "pos": "adj",
+      "meanings": [
+        "전체론적인",
+        "종합적인"
+      ],
+      "example": "The clinic takes a holistic approach to treating patients.",
+      "exampleKo": "그 병원은 환자를 치료하는 데 전체론적인 접근 방식을 취한다.",
+      "emoji": ""
+    },
+    {
+      "word": "substantive",
+      "pos": "adj",
+      "meanings": [
+        "실질적인",
+        "본질적인"
+      ],
+      "example": "The two sides made substantive progress in the negotiations.",
+      "exampleKo": "양측은 협상에서 실질적인 진전을 이루었다.",
+      "emoji": ""
+    },
+    {
+      "word": "conclusive",
+      "pos": "adj",
+      "meanings": [
+        "결정적인",
+        "확정적인"
+      ],
+      "example": "The test results were not conclusive enough to confirm the diagnosis.",
+      "exampleKo": "그 검사 결과는 진단을 확정하기에 충분히 결정적이지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "indisputable",
+      "pos": "adj",
+      "meanings": [
+        "반박의 여지가 없는",
+        "명백한"
+      ],
+      "example": "The photographs provided indisputable proof of the event.",
+      "exampleKo": "그 사진들은 그 사건에 대한 반박의 여지가 없는 증거를 제공했다.",
+      "emoji": ""
+    },
+    {
+      "word": "irrefutable",
+      "pos": "adj",
+      "meanings": [
+        "논박할 수 없는"
+      ],
+      "example": "The scientist presented irrefutable data supporting her theory.",
+      "exampleKo": "그 과학자는 자신의 이론을 뒷받침하는 논박할 수 없는 데이터를 제시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "groundless",
+      "pos": "adj",
+      "meanings": [
+        "근거 없는"
+      ],
+      "example": "The rumor turned out to be entirely groundless.",
+      "exampleKo": "그 소문은 완전히 근거 없는 것으로 밝혀졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "discernible",
+      "pos": "adj",
+      "meanings": [
+        "식별할 수 있는",
+        "뚜렷한"
+      ],
+      "example": "There was no discernible difference between the two samples.",
+      "exampleKo": "두 표본 사이에는 식별할 수 있는 차이가 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "categorize",
+      "pos": "v",
+      "meanings": [
+        "분류하다"
+      ],
+      "example": "Scientists categorize animals according to their shared traits.",
+      "exampleKo": "과학자들은 동물을 공통된 특성에 따라 분류한다.",
+      "emoji": "🗂️"
+    },
+    {
+      "word": "quantify",
+      "pos": "v",
+      "meanings": [
+        "수량화하다",
+        "정량화하다"
+      ],
+      "example": "It is difficult to quantify the emotional impact of the loss.",
+      "exampleKo": "그 상실의 정서적 영향을 수량화하기는 어렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "tenable",
+      "pos": "adj",
+      "meanings": [
+        "옹호할 수 있는",
+        "지지될 수 있는"
+      ],
+      "example": "The new evidence made his theory no longer tenable.",
+      "exampleKo": "새로운 증거는 그의 이론을 더 이상 옹호할 수 없게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "anecdotal",
+      "pos": "adj",
+      "meanings": [
+        "일화적인",
+        "입증되지 않은"
+      ],
+      "example": "The claim was based on anecdotal evidence rather than rigorous research.",
+      "exampleKo": "그 주장은 엄밀한 연구가 아니라 일화적인 증거에 근거했다.",
+      "emoji": ""
+    },
+    {
+      "word": "quantifiable",
+      "pos": "adj",
+      "meanings": [
+        "수량화할 수 있는"
+      ],
+      "example": "Not every benefit of education is quantifiable in numbers.",
+      "exampleKo": "교육의 모든 이점이 숫자로 수량화할 수 있는 것은 아니다.",
+      "emoji": ""
+    },
+    {
+      "word": "measurable",
+      "pos": "adj",
+      "meanings": [
+        "측정 가능한"
+      ],
+      "example": "The new policy led to a measurable improvement in air quality.",
+      "exampleKo": "그 새 정책은 측정 가능한 대기질 개선으로 이어졌다.",
+      "emoji": "📏"
+    },
+    {
+      "word": "replicable",
+      "pos": "adj",
+      "meanings": [
+        "재현 가능한"
+      ],
+      "example": "A good experiment should be replicable by other researchers.",
+      "exampleKo": "좋은 실험은 다른 연구자들에 의해 재현 가능해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "systemic",
+      "pos": "adj",
+      "meanings": [
+        "전반적인",
+        "체계적인"
+      ],
+      "example": "Poverty is often the result of systemic inequality rather than individual failure.",
+      "exampleKo": "빈곤은 흔히 개인의 실패라기보다는 전반적인 불평등의 결과이다.",
+      "emoji": ""
+    },
+    {
+      "word": "contextual",
+      "pos": "adj",
+      "meanings": [
+        "맥락상의",
+        "문맥의"
+      ],
+      "example": "The meaning of the word depends heavily on its contextual use.",
+      "exampleKo": "그 단어의 의미는 문맥상의 쓰임에 크게 좌우된다.",
+      "emoji": ""
+    }
+  ]
+}

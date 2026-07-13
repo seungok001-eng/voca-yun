@@ -1,0 +1,61 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { api } from "@/lib/client";
+
+type Log = {
+  id: number; type: string; message: string; sentAt: string;
+  studentName: string; className: string; parentPhone: string;
+};
+
+const TYPE_CHIP: Record<string, { label: string; cls: string }> = {
+  TEST_PASS: { label: "통과", cls: "bg-emerald-50 text-emerald-600" },
+  TEST_FAIL: { label: "탈락", cls: "bg-rose-50 text-rose-500" },
+  REPEAT_FAIL: { label: "연속 탈락 ⚠️", cls: "bg-amber-50 text-amber-600" },
+};
+
+export default function NotificationsPage() {
+  const [logs, setLogs] = useState<Log[] | null>(null);
+
+  useEffect(() => {
+    api<{ logs: Log[] }>("/api/admin/notifications").then((d) => setLogs(d.logs));
+  }, []);
+
+  if (!logs) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
+
+  return (
+    <div className="space-y-4">
+      <div>
+        <h1 className="text-xl font-black text-[#16204a]">💬 학부모 알림</h1>
+        <p className="text-xs text-slate-400 mt-1">
+          시험 통과/탈락 시 자동 생성되는 알림 메시지입니다. 카카오 알림톡·SMS 발송 서비스와 연동하면 학부모 휴대폰으로 자동 발송됩니다.
+        </p>
+      </div>
+      <div className="card overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="text-left text-[11px] text-slate-400 border-b border-slate-100">
+              <th className="p-3">시각</th><th className="p-3">학생</th><th className="p-3">유형</th>
+              <th className="p-3">메시지</th><th className="p-3">수신번호</th>
+            </tr>
+          </thead>
+          <tbody>
+            {logs.map((l) => {
+              const t = TYPE_CHIP[l.type] ?? { label: l.type, cls: "bg-slate-100 text-slate-500" };
+              return (
+                <tr key={l.id} className="border-b border-slate-50">
+                  <td className="p-3 text-xs text-slate-500 whitespace-nowrap">{new Date(l.sentAt).toLocaleString("ko-KR")}</td>
+                  <td className="p-3 font-bold text-[#16204a] whitespace-nowrap">{l.studentName} <span className="text-[10px] text-slate-400">({l.className})</span></td>
+                  <td className="p-3"><span className={"chip " + t.cls}>{t.label}</span></td>
+                  <td className="p-3 text-xs text-slate-600">{l.message}</td>
+                  <td className="p-3 text-xs text-slate-400 whitespace-nowrap">{l.parentPhone}</td>
+                </tr>
+              );
+            })}
+            {logs.length === 0 && <tr><td colSpan={5} className="p-8 text-center text-slate-400">알림이 없습니다.</td></tr>}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}

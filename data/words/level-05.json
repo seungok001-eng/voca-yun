@@ -1,0 +1,646 @@
+{
+  "level": 5,
+  "words": [
+    {
+      "word": "borrow",
+      "pos": "v",
+      "meanings": [
+        "빌리다"
+      ],
+      "example": "May I borrow your umbrella?",
+      "exampleKo": "네 우산을 빌려도 될까?",
+      "emoji": "🤝"
+    },
+    {
+      "word": "arrive",
+      "pos": "v",
+      "meanings": [
+        "도착하다"
+      ],
+      "example": "The train will arrive at ten thirty.",
+      "exampleKo": "기차는 열 시 삼십 분에 도착할 것이다.",
+      "emoji": "🛬"
+    },
+    {
+      "word": "invite",
+      "pos": "v",
+      "meanings": [
+        "초대하다"
+      ],
+      "example": "I will invite my friends to my birthday party.",
+      "exampleKo": "나는 내 생일 파티에 친구들을 초대할 것이다.",
+      "emoji": "💌"
+    },
+    {
+      "word": "introduce",
+      "pos": "v",
+      "meanings": [
+        "소개하다"
+      ],
+      "example": "Let me introduce myself to the class.",
+      "exampleKo": "반 친구들에게 제 소개를 하겠습니다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "travel",
+      "pos": "v",
+      "meanings": [
+        "여행하다"
+      ],
+      "example": "We will travel to Jeju this summer.",
+      "exampleKo": "우리는 이번 여름에 제주도로 여행을 갈 것이다.",
+      "emoji": "✈️"
+    },
+    {
+      "word": "return",
+      "pos": "v",
+      "meanings": [
+        "돌아오다",
+        "돌려주다",
+        "반납하다"
+      ],
+      "example": "You must return the books by Friday.",
+      "exampleKo": "금요일까지 책을 반납해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "spend",
+      "pos": "v",
+      "meanings": [
+        "(돈을) 쓰다",
+        "(시간을) 보내다"
+      ],
+      "example": "I spent the weekend at my grandma's house.",
+      "exampleKo": "나는 주말을 할머니 댁에서 보냈다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "save",
+      "pos": "v",
+      "meanings": [
+        "저축하다",
+        "구하다",
+        "아끼다"
+      ],
+      "example": "I save money to buy a present for my mom.",
+      "exampleKo": "나는 엄마 선물을 사려고 돈을 모은다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "choose",
+      "pos": "v",
+      "meanings": [
+        "고르다",
+        "선택하다"
+      ],
+      "example": "You can choose any color you like.",
+      "exampleKo": "네가 좋아하는 색을 아무거나 골라도 돼.",
+      "emoji": "👉"
+    },
+    {
+      "word": "decide",
+      "pos": "v",
+      "meanings": [
+        "결정하다",
+        "결심하다"
+      ],
+      "example": "We decided to go camping this weekend.",
+      "exampleKo": "우리는 이번 주말에 캠핑을 가기로 결정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "believe",
+      "pos": "v",
+      "meanings": [
+        "믿다"
+      ],
+      "example": "I believe you can do it.",
+      "exampleKo": "나는 네가 할 수 있다고 믿어.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "understand",
+      "pos": "v",
+      "meanings": [
+        "이해하다",
+        "알다"
+      ],
+      "example": "Do you understand this question?",
+      "exampleKo": "이 문제를 이해하니?",
+      "emoji": "💡"
+    },
+    {
+      "word": "worry",
+      "pos": "v",
+      "meanings": [
+        "걱정하다"
+      ],
+      "example": "Don't worry about the test too much.",
+      "exampleKo": "시험에 대해 너무 걱정하지 마.",
+      "emoji": "😟"
+    },
+    {
+      "word": "hope",
+      "pos": "v",
+      "meanings": [
+        "바라다",
+        "희망하다"
+      ],
+      "example": "I hope you feel better soon.",
+      "exampleKo": "네가 곧 낫기를 바라.",
+      "emoji": "🤞"
+    },
+    {
+      "word": "promise",
+      "pos": "v",
+      "meanings": [
+        "약속하다"
+      ],
+      "example": "I promise to come home early.",
+      "exampleKo": "집에 일찍 오겠다고 약속할게.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "prepare",
+      "pos": "v",
+      "meanings": [
+        "준비하다"
+      ],
+      "example": "We are preparing for the school festival.",
+      "exampleKo": "우리는 학교 축제를 준비하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "protect",
+      "pos": "v",
+      "meanings": [
+        "보호하다",
+        "지키다"
+      ],
+      "example": "We should protect the animals in the forest.",
+      "exampleKo": "우리는 숲속의 동물들을 보호해야 한다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "recycle",
+      "pos": "v",
+      "meanings": [
+        "재활용하다"
+      ],
+      "example": "We recycle paper and plastic at school.",
+      "exampleKo": "우리는 학교에서 종이와 플라스틱을 재활용한다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "exercise",
+      "pos": "v",
+      "meanings": [
+        "운동하다"
+      ],
+      "example": "I exercise for thirty minutes every day.",
+      "exampleKo": "나는 매일 30분씩 운동한다.",
+      "emoji": "🏋️"
+    },
+    {
+      "word": "remember",
+      "pos": "v",
+      "meanings": [
+        "기억하다"
+      ],
+      "example": "Do you remember our first day of school?",
+      "exampleKo": "우리 학교 첫날을 기억하니?",
+      "emoji": "🧠"
+    },
+    {
+      "word": "forget",
+      "pos": "v",
+      "meanings": [
+        "잊다",
+        "잊어버리다"
+      ],
+      "example": "Don't forget to bring your homework.",
+      "exampleKo": "숙제 가져오는 것을 잊지 마.",
+      "emoji": ""
+    },
+    {
+      "word": "lose",
+      "pos": "v",
+      "meanings": [
+        "잃다",
+        "잃어버리다",
+        "지다"
+      ],
+      "example": "I lost my key on the way home.",
+      "exampleKo": "나는 집에 오는 길에 열쇠를 잃어버렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "vacation",
+      "pos": "n",
+      "meanings": [
+        "방학",
+        "휴가"
+      ],
+      "example": "What did you do during summer vacation?",
+      "exampleKo": "여름 방학 동안 무엇을 했니?",
+      "emoji": "🏖️"
+    },
+    {
+      "word": "subject",
+      "pos": "n",
+      "meanings": [
+        "과목",
+        "주제"
+      ],
+      "example": "My favorite subject is science.",
+      "exampleKo": "내가 가장 좋아하는 과목은 과학이다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "grade",
+      "pos": "n",
+      "meanings": [
+        "학년",
+        "성적"
+      ],
+      "example": "I am in the sixth grade.",
+      "exampleKo": "나는 6학년이다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "health",
+      "pos": "n",
+      "meanings": [
+        "건강"
+      ],
+      "example": "Vegetables are good for your health.",
+      "exampleKo": "채소는 건강에 좋다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "culture",
+      "pos": "n",
+      "meanings": [
+        "문화"
+      ],
+      "example": "We learned about Korean culture in class.",
+      "exampleKo": "우리는 수업 시간에 한국 문화에 대해 배웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "nature",
+      "pos": "n",
+      "meanings": [
+        "자연"
+      ],
+      "example": "We should take care of nature.",
+      "exampleKo": "우리는 자연을 소중히 돌봐야 한다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "future",
+      "pos": "n",
+      "meanings": [
+        "미래",
+        "장래"
+      ],
+      "example": "What do you want to be in the future?",
+      "exampleKo": "너는 미래에 무엇이 되고 싶니?",
+      "emoji": "🔮"
+    },
+    {
+      "word": "weekend",
+      "pos": "n",
+      "meanings": [
+        "주말"
+      ],
+      "example": "How was your weekend?",
+      "exampleKo": "주말 잘 보냈니?",
+      "emoji": "🎉"
+    },
+    {
+      "word": "holiday",
+      "pos": "n",
+      "meanings": [
+        "휴일",
+        "공휴일",
+        "명절"
+      ],
+      "example": "Chuseok is a big holiday in Korea.",
+      "exampleKo": "추석은 한국의 큰 명절이다.",
+      "emoji": "🎉"
+    },
+    {
+      "word": "festival",
+      "pos": "n",
+      "meanings": [
+        "축제"
+      ],
+      "example": "Our school festival is next Friday.",
+      "exampleKo": "우리 학교 축제는 다음 주 금요일이다.",
+      "emoji": "🎉"
+    },
+    {
+      "word": "hometown",
+      "pos": "n",
+      "meanings": [
+        "고향"
+      ],
+      "example": "My dad's hometown is Gwangju.",
+      "exampleKo": "우리 아빠의 고향은 광주이다.",
+      "emoji": "🏘️"
+    },
+    {
+      "word": "address",
+      "pos": "n",
+      "meanings": [
+        "주소"
+      ],
+      "example": "Please write your name and address here.",
+      "exampleKo": "여기에 이름과 주소를 써 주세요.",
+      "emoji": "📍"
+    },
+    {
+      "word": "message",
+      "pos": "n",
+      "meanings": [
+        "메시지",
+        "전할 말"
+      ],
+      "example": "I sent a message to my friend.",
+      "exampleKo": "나는 친구에게 메시지를 보냈다.",
+      "emoji": "💬"
+    },
+    {
+      "word": "experience",
+      "pos": "n",
+      "meanings": [
+        "경험",
+        "체험"
+      ],
+      "example": "The trip was a great experience for me.",
+      "exampleKo": "그 여행은 나에게 멋진 경험이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "contest",
+      "pos": "n",
+      "meanings": [
+        "대회",
+        "경연"
+      ],
+      "example": "She won first prize in the singing contest.",
+      "exampleKo": "그녀는 노래 대회에서 1등을 했다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "prize",
+      "pos": "n",
+      "meanings": [
+        "상",
+        "상품"
+      ],
+      "example": "The prize for the winner is a new bike.",
+      "exampleKo": "우승자에게 주는 상품은 새 자전거이다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "schedule",
+      "pos": "n",
+      "meanings": [
+        "일정",
+        "시간표"
+      ],
+      "example": "Check the class schedule for tomorrow.",
+      "exampleKo": "내일 수업 시간표를 확인해라.",
+      "emoji": "📅"
+    },
+    {
+      "word": "habit",
+      "pos": "n",
+      "meanings": [
+        "습관",
+        "버릇"
+      ],
+      "example": "Reading every day is a good habit.",
+      "exampleKo": "매일 책을 읽는 것은 좋은 습관이다.",
+      "emoji": ""
+    },
+    {
+      "word": "volunteer",
+      "pos": "n",
+      "meanings": [
+        "자원봉사자",
+        "자원봉사"
+      ],
+      "example": "Many volunteers helped clean the beach.",
+      "exampleKo": "많은 자원봉사자들이 해변 청소를 도왔다.",
+      "emoji": "🙋"
+    },
+    {
+      "word": "environment",
+      "pos": "n",
+      "meanings": [
+        "환경"
+      ],
+      "example": "Plastic bags are bad for the environment.",
+      "exampleKo": "비닐봉지는 환경에 나쁘다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "favorite",
+      "pos": "adj",
+      "meanings": [
+        "가장 좋아하는"
+      ],
+      "example": "What is your favorite season?",
+      "exampleKo": "네가 가장 좋아하는 계절은 뭐야?",
+      "emoji": "⭐"
+    },
+    {
+      "word": "special",
+      "pos": "adj",
+      "meanings": [
+        "특별한"
+      ],
+      "example": "Today is a special day for our family.",
+      "exampleKo": "오늘은 우리 가족에게 특별한 날이다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "different",
+      "pos": "adj",
+      "meanings": [
+        "다른",
+        "여러 가지의"
+      ],
+      "example": "My idea is different from yours.",
+      "exampleKo": "내 생각은 네 생각과 다르다.",
+      "emoji": ""
+    },
+    {
+      "word": "important",
+      "pos": "adj",
+      "meanings": [
+        "중요한"
+      ],
+      "example": "Breakfast is the most important meal of the day.",
+      "exampleKo": "아침 식사는 하루 중 가장 중요한 식사이다.",
+      "emoji": "❗"
+    },
+    {
+      "word": "popular",
+      "pos": "adj",
+      "meanings": [
+        "인기 있는",
+        "대중적인"
+      ],
+      "example": "This game is popular among students.",
+      "exampleKo": "이 게임은 학생들 사이에서 인기가 있다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "healthy",
+      "pos": "adj",
+      "meanings": [
+        "건강한",
+        "건강에 좋은"
+      ],
+      "example": "Eating vegetables keeps you healthy.",
+      "exampleKo": "채소를 먹으면 건강을 유지할 수 있다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "brave",
+      "pos": "adj",
+      "meanings": [
+        "용감한",
+        "씩씩한"
+      ],
+      "example": "The brave firefighter went into the building.",
+      "exampleKo": "용감한 소방관이 건물 안으로 들어갔다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "careful",
+      "pos": "adj",
+      "meanings": [
+        "조심하는",
+        "주의 깊은"
+      ],
+      "example": "Be careful when you cross the street.",
+      "exampleKo": "길을 건널 때 조심해라.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "curious",
+      "pos": "adj",
+      "meanings": [
+        "궁금한",
+        "호기심 많은"
+      ],
+      "example": "I am curious about space and stars.",
+      "exampleKo": "나는 우주와 별에 대해 궁금하다.",
+      "emoji": "🤔"
+    },
+    {
+      "word": "proud",
+      "pos": "adj",
+      "meanings": [
+        "자랑스러운",
+        "자랑스러워하는"
+      ],
+      "example": "I am proud of my little sister.",
+      "exampleKo": "나는 내 여동생이 자랑스럽다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "nervous",
+      "pos": "adj",
+      "meanings": [
+        "긴장한",
+        "불안한"
+      ],
+      "example": "I was nervous before the speech contest.",
+      "exampleKo": "나는 말하기 대회 전에 긴장했다.",
+      "emoji": "😬"
+    },
+    {
+      "word": "usually",
+      "pos": "adv",
+      "meanings": [
+        "보통",
+        "대개"
+      ],
+      "example": "I usually get up at seven.",
+      "exampleKo": "나는 보통 일곱 시에 일어난다.",
+      "emoji": ""
+    },
+    {
+      "word": "always",
+      "pos": "adv",
+      "meanings": [
+        "항상",
+        "언제나"
+      ],
+      "example": "She always smiles at everyone.",
+      "exampleKo": "그녀는 항상 모두에게 미소를 짓는다.",
+      "emoji": ""
+    },
+    {
+      "word": "often",
+      "pos": "adv",
+      "meanings": [
+        "자주",
+        "종종"
+      ],
+      "example": "We often play badminton in the park.",
+      "exampleKo": "우리는 공원에서 자주 배드민턴을 친다.",
+      "emoji": ""
+    },
+    {
+      "word": "sometimes",
+      "pos": "adv",
+      "meanings": [
+        "가끔",
+        "때때로"
+      ],
+      "example": "Sometimes I help my mom with cooking.",
+      "exampleKo": "가끔 나는 엄마의 요리를 돕는다.",
+      "emoji": ""
+    },
+    {
+      "word": "never",
+      "pos": "adv",
+      "meanings": [
+        "결코 ~않다",
+        "절대 ~않다"
+      ],
+      "example": "I never give up on my dream.",
+      "exampleKo": "나는 내 꿈을 절대 포기하지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "together",
+      "pos": "adv",
+      "meanings": [
+        "함께",
+        "같이"
+      ],
+      "example": "Let's do our homework together.",
+      "exampleKo": "우리 함께 숙제를 하자.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "early",
+      "pos": "adv",
+      "meanings": [
+        "일찍",
+        "빨리"
+      ],
+      "example": "I went to bed early last night.",
+      "exampleKo": "나는 어젯밤에 일찍 잠자리에 들었다.",
+      "emoji": "⏰"
+    }
+  ]
+}

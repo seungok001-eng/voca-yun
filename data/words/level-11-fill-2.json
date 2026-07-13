@@ -1,0 +1,1945 @@
+{
+  "level": 11,
+  "words": [
+    {
+      "word": "acquisition",
+      "pos": "n",
+      "meanings": [
+        "습득",
+        "취득",
+        "인수"
+      ],
+      "example": "Language acquisition happens most rapidly in early childhood.",
+      "exampleKo": "언어 습득은 어린 시절에 가장 빠르게 일어난다.",
+      "emoji": ""
+    },
+    {
+      "word": "adjustment",
+      "pos": "n",
+      "meanings": [
+        "조정",
+        "적응"
+      ],
+      "example": "The new employee needed time to make the necessary adjustments.",
+      "exampleKo": "신입 사원은 필요한 조정을 하는 데 시간이 필요했다.",
+      "emoji": ""
+    },
+    {
+      "word": "adolescence",
+      "pos": "n",
+      "meanings": [
+        "청소년기"
+      ],
+      "example": "Adolescence is often marked by rapid physical and emotional change.",
+      "exampleKo": "청소년기는 흔히 급격한 신체적, 정서적 변화로 특징지어진다.",
+      "emoji": ""
+    },
+    {
+      "word": "affiliation",
+      "pos": "n",
+      "meanings": [
+        "제휴",
+        "소속"
+      ],
+      "example": "The researcher listed her university affiliation on the paper.",
+      "exampleKo": "그 연구자는 논문에 자신의 대학 소속을 명시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "agenda",
+      "pos": "n",
+      "meanings": [
+        "의제",
+        "안건"
+      ],
+      "example": "Climate change topped the agenda at the summit.",
+      "exampleKo": "기후 변화가 정상회담 의제의 최우선 순위였다.",
+      "emoji": "📋"
+    },
+    {
+      "word": "ambiguity",
+      "pos": "n",
+      "meanings": [
+        "모호함",
+        "애매함"
+      ],
+      "example": "The report was criticized for its ambiguity.",
+      "exampleKo": "그 보고서는 모호함 때문에 비판받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "antecedent",
+      "pos": "n",
+      "meanings": [
+        "선행 사건",
+        "전례"
+      ],
+      "example": "Historians looked for antecedents to the current crisis.",
+      "exampleKo": "역사가들은 현재 위기의 전례를 찾았다.",
+      "emoji": ""
+    },
+    {
+      "word": "apprenticeship",
+      "pos": "n",
+      "meanings": [
+        "수습 기간",
+        "도제 제도"
+      ],
+      "example": "He completed a five-year apprenticeship as a carpenter.",
+      "exampleKo": "그는 목수로서 5년간의 수습 기간을 마쳤다.",
+      "emoji": "🛠️"
+    },
+    {
+      "word": "attainment",
+      "pos": "n",
+      "meanings": [
+        "성취",
+        "달성"
+      ],
+      "example": "Educational attainment is closely linked to future income.",
+      "exampleKo": "교육 성취도는 미래 소득과 밀접하게 연관되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "chronology",
+      "pos": "n",
+      "meanings": [
+        "연대기",
+        "시간 순서"
+      ],
+      "example": "The museum arranged the exhibits in strict chronology.",
+      "exampleKo": "박물관은 전시물을 엄격한 연대순으로 배치했다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "conception",
+      "pos": "n",
+      "meanings": [
+        "개념",
+        "구상"
+      ],
+      "example": "Their conception of justice differs from ours.",
+      "exampleKo": "그들의 정의에 대한 개념은 우리와 다르다.",
+      "emoji": ""
+    },
+    {
+      "word": "confinement",
+      "pos": "n",
+      "meanings": [
+        "감금",
+        "제한"
+      ],
+      "example": "Prolonged confinement can affect mental health.",
+      "exampleKo": "장기간의 감금은 정신 건강에 영향을 미칠 수 있다.",
+      "emoji": "🔒"
+    },
+    {
+      "word": "congregation",
+      "pos": "n",
+      "meanings": [
+        "집합",
+        "모임",
+        "신도들"
+      ],
+      "example": "A large congregation gathered for the annual ceremony.",
+      "exampleKo": "많은 사람들이 연례 행사를 위해 모였다.",
+      "emoji": "👥"
+    },
+    {
+      "word": "consultation",
+      "pos": "n",
+      "meanings": [
+        "상담",
+        "협의"
+      ],
+      "example": "Policy changes were made after consultation with experts.",
+      "exampleKo": "정책 변경은 전문가들과의 협의 후에 이루어졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "deficiency",
+      "pos": "n",
+      "meanings": [
+        "결핍",
+        "부족"
+      ],
+      "example": "Iron deficiency can lead to fatigue.",
+      "exampleKo": "철분 결핍은 피로로 이어질 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "delegation",
+      "pos": "n",
+      "meanings": [
+        "대표단",
+        "위임"
+      ],
+      "example": "A delegation of scientists attended the conference.",
+      "exampleKo": "과학자 대표단이 그 학회에 참석했다.",
+      "emoji": ""
+    },
+    {
+      "word": "denomination",
+      "pos": "n",
+      "meanings": [
+        "단위",
+        "명칭",
+        "종파"
+      ],
+      "example": "Coins come in several different denominations.",
+      "exampleKo": "동전은 여러 다른 단위로 나온다.",
+      "emoji": ""
+    },
+    {
+      "word": "dependency",
+      "pos": "n",
+      "meanings": [
+        "의존",
+        "종속"
+      ],
+      "example": "The country reduced its dependency on imported fuel.",
+      "exampleKo": "그 나라는 수입 연료에 대한 의존을 줄였다.",
+      "emoji": ""
+    },
+    {
+      "word": "deprivation",
+      "pos": "n",
+      "meanings": [
+        "박탈",
+        "결핍"
+      ],
+      "example": "Sleep deprivation impairs concentration and memory.",
+      "exampleKo": "수면 박탈은 집중력과 기억력을 손상시킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "designation",
+      "pos": "n",
+      "meanings": [
+        "지정",
+        "명칭"
+      ],
+      "example": "The area received official designation as a nature reserve.",
+      "exampleKo": "그 지역은 자연보호구역으로 공식 지정을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "dissent",
+      "pos": "n",
+      "meanings": [
+        "반대 의견",
+        "이의"
+      ],
+      "example": "One judge expressed strong dissent from the majority ruling.",
+      "exampleKo": "한 판사는 다수 판결에 강하게 반대 의견을 표명했다.",
+      "emoji": ""
+    },
+    {
+      "word": "elite",
+      "pos": "n",
+      "meanings": [
+        "엘리트",
+        "지배층"
+      ],
+      "example": "Only a small elite had access to higher education.",
+      "exampleKo": "소수의 엘리트만이 고등 교육에 접근할 수 있었다.",
+      "emoji": "👑"
+    },
+    {
+      "word": "establishment",
+      "pos": "n",
+      "meanings": [
+        "기관",
+        "설립",
+        "체제"
+      ],
+      "example": "The medical establishment was slow to accept the new theory.",
+      "exampleKo": "의료계는 그 새로운 이론을 받아들이는 데 더뎠다.",
+      "emoji": ""
+    },
+    {
+      "word": "estate",
+      "pos": "n",
+      "meanings": [
+        "재산",
+        "토지",
+        "사유지"
+      ],
+      "example": "He inherited a large estate from his grandfather.",
+      "exampleKo": "그는 할아버지로부터 넓은 토지를 물려받았다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "exception",
+      "pos": "n",
+      "meanings": [
+        "예외"
+      ],
+      "example": "Every rule has an exception, and this case is one.",
+      "exampleKo": "모든 규칙에는 예외가 있으며, 이 경우가 그렇다.",
+      "emoji": ""
+    },
+    {
+      "word": "exemption",
+      "pos": "n",
+      "meanings": [
+        "면제"
+      ],
+      "example": "Students from low-income families received a fee exemption.",
+      "exampleKo": "저소득 가정의 학생들은 수업료 면제를 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "extremity",
+      "pos": "n",
+      "meanings": [
+        "극단",
+        "맨 끝"
+      ],
+      "example": "The debate revealed the extremity of both positions.",
+      "exampleKo": "그 토론은 양측 입장의 극단성을 드러냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "faction",
+      "pos": "n",
+      "meanings": [
+        "파벌",
+        "분파"
+      ],
+      "example": "The party split into rival factions over the issue.",
+      "exampleKo": "그 정당은 그 사안을 두고 대립하는 파벌로 나뉘었다.",
+      "emoji": ""
+    },
+    {
+      "word": "fluency",
+      "pos": "n",
+      "meanings": [
+        "유창함"
+      ],
+      "example": "Years of practice gave her fluency in three languages.",
+      "exampleKo": "수년간의 연습으로 그녀는 세 언어에 유창해졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "formation",
+      "pos": "n",
+      "meanings": [
+        "형성",
+        "구성"
+      ],
+      "example": "The formation of habits often takes several weeks.",
+      "exampleKo": "습관 형성은 흔히 몇 주가 걸린다.",
+      "emoji": ""
+    },
+    {
+      "word": "fusion",
+      "pos": "n",
+      "meanings": [
+        "융합",
+        "결합"
+      ],
+      "example": "The dish is a fusion of two culinary traditions.",
+      "exampleKo": "그 요리는 두 요리 전통의 융합이다.",
+      "emoji": "⚛️"
+    },
+    {
+      "word": "grievance",
+      "pos": "n",
+      "meanings": [
+        "불만",
+        "고충"
+      ],
+      "example": "Workers filed a formal grievance about unsafe conditions.",
+      "exampleKo": "노동자들은 안전하지 않은 환경에 대해 공식적인 불만을 제기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "guideline",
+      "pos": "n",
+      "meanings": [
+        "지침"
+      ],
+      "example": "The ministry issued new guidelines for online safety.",
+      "exampleKo": "그 부처는 온라인 안전에 관한 새로운 지침을 발표했다.",
+      "emoji": "📏"
+    },
+    {
+      "word": "hindrance",
+      "pos": "n",
+      "meanings": [
+        "방해",
+        "장애물"
+      ],
+      "example": "Lack of funding proved to be a major hindrance.",
+      "exampleKo": "자금 부족이 주요한 방해 요소로 드러났다.",
+      "emoji": "🚧"
+    },
+    {
+      "word": "inheritance",
+      "pos": "n",
+      "meanings": [
+        "유산",
+        "상속"
+      ],
+      "example": "She used her inheritance to fund the scholarship program.",
+      "exampleKo": "그녀는 자신의 유산을 장학 프로그램에 사용했다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "intensity",
+      "pos": "n",
+      "meanings": [
+        "강도",
+        "세기"
+      ],
+      "example": "The intensity of the storm caught residents off guard.",
+      "exampleKo": "그 폭풍의 강도는 주민들을 놀라게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "interaction",
+      "pos": "n",
+      "meanings": [
+        "상호작용"
+      ],
+      "example": "Social interaction plays a key role in language development.",
+      "exampleKo": "사회적 상호작용은 언어 발달에 핵심적인 역할을 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "longevity",
+      "pos": "n",
+      "meanings": [
+        "장수",
+        "지속성"
+      ],
+      "example": "Regular exercise is linked to greater longevity.",
+      "exampleKo": "규칙적인 운동은 더 큰 장수와 관련이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "mobility",
+      "pos": "n",
+      "meanings": [
+        "이동성",
+        "유동성"
+      ],
+      "example": "Social mobility remains limited in many societies.",
+      "exampleKo": "사회적 이동성은 많은 사회에서 여전히 제한적이다.",
+      "emoji": ""
+    },
+    {
+      "word": "modification",
+      "pos": "n",
+      "meanings": [
+        "수정",
+        "변경"
+      ],
+      "example": "The design underwent several modifications before release.",
+      "exampleKo": "그 디자인은 출시 전에 여러 차례 수정을 거쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "morale",
+      "pos": "n",
+      "meanings": [
+        "사기",
+        "의욕"
+      ],
+      "example": "Team morale improved after the successful project.",
+      "exampleKo": "성공적인 프로젝트 이후 팀의 사기가 향상되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "mortality",
+      "pos": "n",
+      "meanings": [
+        "사망률",
+        "죽음"
+      ],
+      "example": "Infant mortality has declined significantly over the century.",
+      "exampleKo": "영아 사망률은 한 세기 동안 크게 감소했다.",
+      "emoji": ""
+    },
+    {
+      "word": "motive",
+      "pos": "n",
+      "meanings": [
+        "동기"
+      ],
+      "example": "Investigators tried to determine the suspect's motive.",
+      "exampleKo": "수사관들은 용의자의 동기를 밝혀내려 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "observance",
+      "pos": "n",
+      "meanings": [
+        "준수",
+        "의식"
+      ],
+      "example": "Strict observance of the rules is expected.",
+      "exampleKo": "규칙의 엄격한 준수가 요구된다.",
+      "emoji": ""
+    },
+    {
+      "word": "obsession",
+      "pos": "n",
+      "meanings": [
+        "집착",
+        "강박"
+      ],
+      "example": "His obsession with detail slowed down the whole project.",
+      "exampleKo": "세부 사항에 대한 그의 집착은 전체 프로젝트를 지연시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "outlook",
+      "pos": "n",
+      "meanings": [
+        "전망",
+        "견해"
+      ],
+      "example": "The economic outlook for next year remains uncertain.",
+      "exampleKo": "내년의 경제 전망은 여전히 불확실하다.",
+      "emoji": ""
+    },
+    {
+      "word": "patriotism",
+      "pos": "n",
+      "meanings": [
+        "애국심"
+      ],
+      "example": "The ceremony was meant to inspire patriotism.",
+      "exampleKo": "그 행사는 애국심을 고취하기 위한 것이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "phase",
+      "pos": "n",
+      "meanings": [
+        "단계",
+        "국면"
+      ],
+      "example": "The project entered its final phase last month.",
+      "exampleKo": "그 프로젝트는 지난달에 마지막 단계에 들어섰다.",
+      "emoji": ""
+    },
+    {
+      "word": "polarity",
+      "pos": "n",
+      "meanings": [
+        "양극성",
+        "대립"
+      ],
+      "example": "The debate highlighted a growing polarity of opinion.",
+      "exampleKo": "그 토론은 의견의 심화되는 양극성을 부각시켰다.",
+      "emoji": "🧲"
+    },
+    {
+      "word": "populace",
+      "pos": "n",
+      "meanings": [
+        "대중",
+        "민중"
+      ],
+      "example": "The new tax angered a large part of the populace.",
+      "exampleKo": "새로운 세금은 대중의 상당 부분을 화나게 했다.",
+      "emoji": "👥"
+    },
+    {
+      "word": "predecessor",
+      "pos": "n",
+      "meanings": [
+        "전임자",
+        "이전 것"
+      ],
+      "example": "The new model improves on its predecessor in every way.",
+      "exampleKo": "새 모델은 모든 면에서 이전 모델보다 개선되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "preference",
+      "pos": "n",
+      "meanings": [
+        "선호"
+      ],
+      "example": "Consumer preference has shifted toward sustainable products.",
+      "exampleKo": "소비자 선호는 지속 가능한 제품 쪽으로 이동했다.",
+      "emoji": ""
+    },
+    {
+      "word": "prestige",
+      "pos": "n",
+      "meanings": [
+        "명성",
+        "위신"
+      ],
+      "example": "The award added considerable prestige to the university.",
+      "exampleKo": "그 상은 그 대학에 상당한 명성을 더해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "presumption",
+      "pos": "n",
+      "meanings": [
+        "추정",
+        "가정"
+      ],
+      "example": "There is a legal presumption of innocence until proven guilty.",
+      "exampleKo": "유죄가 입증되기 전까지는 무죄로 추정하는 법적 원칙이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "proceeds",
+      "pos": "n",
+      "meanings": [
+        "수익금"
+      ],
+      "example": "All proceeds from the event go to charity.",
+      "exampleKo": "그 행사의 모든 수익금은 자선단체로 간다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "proclamation",
+      "pos": "n",
+      "meanings": [
+        "선언",
+        "공포"
+      ],
+      "example": "The king issued a proclamation to end the conflict.",
+      "exampleKo": "왕은 갈등을 끝내기 위한 선언을 발표했다.",
+      "emoji": "📜"
+    },
+    {
+      "word": "prohibition",
+      "pos": "n",
+      "meanings": [
+        "금지"
+      ],
+      "example": "The prohibition on smoking in public places was widely supported.",
+      "exampleKo": "공공장소에서의 흡연 금지는 널리 지지를 받았다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "reciprocity",
+      "pos": "n",
+      "meanings": [
+        "호혜",
+        "상호주의"
+      ],
+      "example": "Trade agreements are often based on reciprocity.",
+      "exampleKo": "무역 협정은 흔히 호혜주의에 기반한다.",
+      "emoji": ""
+    },
+    {
+      "word": "recognition",
+      "pos": "n",
+      "meanings": [
+        "인정",
+        "인식"
+      ],
+      "example": "Her efforts finally received public recognition.",
+      "exampleKo": "그녀의 노력은 마침내 대중의 인정을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "recruitment",
+      "pos": "n",
+      "meanings": [
+        "모집",
+        "채용"
+      ],
+      "example": "The company launched a new recruitment campaign.",
+      "exampleKo": "그 회사는 새로운 채용 캠페인을 시작했다.",
+      "emoji": ""
+    },
+    {
+      "word": "reinforcement",
+      "pos": "n",
+      "meanings": [
+        "강화",
+        "보강"
+      ],
+      "example": "Positive reinforcement can encourage good behavior in students.",
+      "exampleKo": "긍정적 강화는 학생들의 바람직한 행동을 장려할 수 있다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "relevance",
+      "pos": "n",
+      "meanings": [
+        "관련성",
+        "타당성"
+      ],
+      "example": "Teachers should explain the relevance of the topic to real life.",
+      "exampleKo": "교사들은 그 주제가 실생활과 갖는 관련성을 설명해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "reliance",
+      "pos": "n",
+      "meanings": [
+        "의존"
+      ],
+      "example": "Excessive reliance on technology can weaken basic skills.",
+      "exampleKo": "기술에 대한 과도한 의존은 기본 능력을 약화시킬 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "relocation",
+      "pos": "n",
+      "meanings": [
+        "이전",
+        "재배치"
+      ],
+      "example": "The factory's relocation affected hundreds of workers.",
+      "exampleKo": "그 공장의 이전은 수백 명의 노동자에게 영향을 미쳤다.",
+      "emoji": "🚚"
+    },
+    {
+      "word": "renewal",
+      "pos": "n",
+      "meanings": [
+        "갱신",
+        "재개"
+      ],
+      "example": "The contract is subject to annual renewal.",
+      "exampleKo": "그 계약은 매년 갱신 대상이다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "replication",
+      "pos": "n",
+      "meanings": [
+        "복제",
+        "재현"
+      ],
+      "example": "Scientific claims require replication by other researchers.",
+      "exampleKo": "과학적 주장은 다른 연구자들에 의한 재현이 필요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "repression",
+      "pos": "n",
+      "meanings": [
+        "억압"
+      ],
+      "example": "The regime was known for its repression of free speech.",
+      "exampleKo": "그 정권은 표현의 자유 억압으로 알려져 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "requisite",
+      "pos": "n",
+      "meanings": [
+        "필요조건",
+        "필수품"
+      ],
+      "example": "Patience is a requisite for good research.",
+      "exampleKo": "인내심은 좋은 연구를 위한 필수조건이다.",
+      "emoji": ""
+    },
+    {
+      "word": "resemblance",
+      "pos": "n",
+      "meanings": [
+        "유사성",
+        "닮음"
+      ],
+      "example": "The theory bears a striking resemblance to an earlier one.",
+      "exampleKo": "그 이론은 이전 이론과 놀라운 유사성을 보인다.",
+      "emoji": ""
+    },
+    {
+      "word": "residence",
+      "pos": "n",
+      "meanings": [
+        "거주",
+        "거주지"
+      ],
+      "example": "Proof of residence is required to enroll in the school.",
+      "exampleKo": "그 학교에 등록하려면 거주 증명이 필요하다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "resignation",
+      "pos": "n",
+      "meanings": [
+        "사직",
+        "체념"
+      ],
+      "example": "Her resignation surprised the entire department.",
+      "exampleKo": "그녀의 사직은 부서 전체를 놀라게 했다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "restoration",
+      "pos": "n",
+      "meanings": [
+        "복원",
+        "회복"
+      ],
+      "example": "The restoration of the old building took two years.",
+      "exampleKo": "그 오래된 건물의 복원에는 2년이 걸렸다.",
+      "emoji": "🛠️"
+    },
+    {
+      "word": "restraint",
+      "pos": "n",
+      "meanings": [
+        "자제",
+        "제약"
+      ],
+      "example": "The negotiators showed remarkable restraint under pressure.",
+      "exampleKo": "협상가들은 압박 속에서도 놀라운 자제력을 보였다.",
+      "emoji": "⛓️"
+    },
+    {
+      "word": "retention",
+      "pos": "n",
+      "meanings": [
+        "보유",
+        "유지"
+      ],
+      "example": "Employee retention improved after the new policy.",
+      "exampleKo": "새로운 정책 이후 직원 보유율이 향상되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "retrieval",
+      "pos": "n",
+      "meanings": [
+        "검색",
+        "회수"
+      ],
+      "example": "Data retrieval was faster with the upgraded system.",
+      "exampleKo": "업그레이드된 시스템으로 자료 검색이 더 빨라졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "reverence",
+      "pos": "n",
+      "meanings": [
+        "존경",
+        "경외"
+      ],
+      "example": "The students showed great reverence toward their mentor.",
+      "exampleKo": "학생들은 스승에게 큰 존경심을 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "rigidity",
+      "pos": "n",
+      "meanings": [
+        "경직성",
+        "완고함"
+      ],
+      "example": "Excessive rigidity in the rules discouraged creativity.",
+      "exampleKo": "규칙의 지나친 경직성은 창의성을 저해했다.",
+      "emoji": ""
+    },
+    {
+      "word": "scenario",
+      "pos": "n",
+      "meanings": [
+        "시나리오",
+        "상황"
+      ],
+      "example": "Analysts considered several possible scenarios.",
+      "exampleKo": "분석가들은 여러 가능한 시나리오를 고려했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sequence",
+      "pos": "n",
+      "meanings": [
+        "순서",
+        "연속"
+      ],
+      "example": "The events unfolded in an unexpected sequence.",
+      "exampleKo": "그 사건들은 예상치 못한 순서로 전개되었다.",
+      "emoji": "🔢"
+    },
+    {
+      "word": "severity",
+      "pos": "n",
+      "meanings": [
+        "심각성",
+        "가혹함"
+      ],
+      "example": "The severity of the punishment sparked public debate.",
+      "exampleKo": "그 처벌의 가혹함은 대중의 논쟁을 촉발했다.",
+      "emoji": ""
+    },
+    {
+      "word": "simplicity",
+      "pos": "n",
+      "meanings": [
+        "단순함"
+      ],
+      "example": "The design's simplicity is what makes it effective.",
+      "exampleKo": "그 디자인의 효과성은 바로 단순함에 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "stagnation",
+      "pos": "n",
+      "meanings": [
+        "침체",
+        "정체"
+      ],
+      "example": "Economic stagnation persisted for nearly a decade.",
+      "exampleKo": "경제 침체는 거의 십 년간 지속되었다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "stratum",
+      "pos": "n",
+      "meanings": [
+        "계층",
+        "지층"
+      ],
+      "example": "The policy mainly benefits a particular social stratum.",
+      "exampleKo": "그 정책은 주로 특정 사회 계층에 혜택을 준다.",
+      "emoji": "🪨"
+    },
+    {
+      "word": "subsistence",
+      "pos": "n",
+      "meanings": [
+        "생계",
+        "최저 생활"
+      ],
+      "example": "Many farmers still rely on subsistence agriculture.",
+      "exampleKo": "많은 농민들이 여전히 자급 농업에 의존한다.",
+      "emoji": ""
+    },
+    {
+      "word": "superiority",
+      "pos": "n",
+      "meanings": [
+        "우월성",
+        "우위"
+      ],
+      "example": "The team demonstrated clear superiority in the final match.",
+      "exampleKo": "그 팀은 결승전에서 확실한 우위를 보여주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "supervision",
+      "pos": "n",
+      "meanings": [
+        "감독",
+        "관리"
+      ],
+      "example": "The experiment was conducted under close supervision.",
+      "exampleKo": "그 실험은 철저한 감독 하에 수행되었다.",
+      "emoji": "👀"
+    },
+    {
+      "word": "tenure",
+      "pos": "n",
+      "meanings": [
+        "재임 기간",
+        "종신 재직권"
+      ],
+      "example": "The professor was granted tenure after ten years.",
+      "exampleKo": "그 교수는 10년 만에 종신 재직권을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "transition",
+      "pos": "n",
+      "meanings": [
+        "전환",
+        "이행"
+      ],
+      "example": "The transition to renewable energy will take decades.",
+      "exampleKo": "재생 에너지로의 전환에는 수십 년이 걸릴 것이다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "uniformity",
+      "pos": "n",
+      "meanings": [
+        "획일성",
+        "균일함"
+      ],
+      "example": "Critics argue the curriculum enforces too much uniformity.",
+      "exampleKo": "비평가들은 그 교육과정이 지나친 획일성을 강요한다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "unrest",
+      "pos": "n",
+      "meanings": [
+        "불안",
+        "소요"
+      ],
+      "example": "Political unrest disrupted the region for months.",
+      "exampleKo": "정치적 불안이 몇 달 동안 그 지역을 혼란에 빠뜨렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "vacancy",
+      "pos": "n",
+      "meanings": [
+        "공석",
+        "결원"
+      ],
+      "example": "The company advertised a vacancy for a research assistant.",
+      "exampleKo": "그 회사는 연구 보조원 공석을 공고했다.",
+      "emoji": ""
+    },
+    {
+      "word": "variation",
+      "pos": "n",
+      "meanings": [
+        "변형",
+        "변이"
+      ],
+      "example": "Slight variation in temperature can affect the results.",
+      "exampleKo": "온도의 미세한 변화가 결과에 영향을 미칠 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "warfare",
+      "pos": "n",
+      "meanings": [
+        "전쟁",
+        "전투"
+      ],
+      "example": "Modern warfare increasingly relies on technology.",
+      "exampleKo": "현대 전쟁은 점점 더 기술에 의존한다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "cost-benefit analysis",
+      "pos": "phrase",
+      "meanings": [
+        "비용 편익 분석"
+      ],
+      "example": "Before investing, the firm ran a cost-benefit analysis.",
+      "exampleKo": "투자하기 전에 그 회사는 비용 편익 분석을 실시했다.",
+      "emoji": "📊"
+    },
+    {
+      "word": "decision making",
+      "pos": "phrase",
+      "meanings": [
+        "의사 결정"
+      ],
+      "example": "Data plays a central role in modern decision making.",
+      "exampleKo": "자료는 현대의 의사 결정에서 핵심적인 역할을 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "mother tongue",
+      "pos": "phrase",
+      "meanings": [
+        "모국어"
+      ],
+      "example": "Learning grammar is often easier in one's mother tongue.",
+      "exampleKo": "문법을 배우는 것은 흔히 모국어로 할 때 더 쉽다.",
+      "emoji": "🗣️"
+    },
+    {
+      "word": "natural resources",
+      "pos": "phrase",
+      "meanings": [
+        "천연자원"
+      ],
+      "example": "The country's economy depends heavily on natural resources.",
+      "exampleKo": "그 나라의 경제는 천연자원에 크게 의존한다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "quality control",
+      "pos": "phrase",
+      "meanings": [
+        "품질 관리"
+      ],
+      "example": "The factory strengthened its quality control procedures.",
+      "exampleKo": "그 공장은 품질 관리 절차를 강화했다.",
+      "emoji": "✅"
+    },
+    {
+      "word": "raw material",
+      "pos": "phrase",
+      "meanings": [
+        "원자재"
+      ],
+      "example": "The price of raw material affects the final product cost.",
+      "exampleKo": "원자재 가격은 최종 제품 비용에 영향을 미친다.",
+      "emoji": "🪵"
+    },
+    {
+      "word": "ripple effect",
+      "pos": "phrase",
+      "meanings": [
+        "파급 효과"
+      ],
+      "example": "The policy change had a ripple effect across the industry.",
+      "exampleKo": "그 정책 변화는 업계 전반에 파급 효과를 미쳤다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "status quo",
+      "pos": "phrase",
+      "meanings": [
+        "현상 유지"
+      ],
+      "example": "Many voters preferred to maintain the status quo.",
+      "exampleKo": "많은 유권자들은 현상 유지를 선호했다.",
+      "emoji": ""
+    },
+    {
+      "word": "trial and error",
+      "pos": "phrase",
+      "meanings": [
+        "시행착오"
+      ],
+      "example": "The design was perfected through years of trial and error.",
+      "exampleKo": "그 디자인은 수년간의 시행착오를 통해 완성되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "word of mouth",
+      "pos": "phrase",
+      "meanings": [
+        "입소문"
+      ],
+      "example": "The small restaurant became popular through word of mouth.",
+      "exampleKo": "그 작은 식당은 입소문을 통해 인기를 얻었다.",
+      "emoji": ""
+    },
+    {
+      "word": "work ethic",
+      "pos": "phrase",
+      "meanings": [
+        "직업 윤리",
+        "근면성"
+      ],
+      "example": "Her strong work ethic impressed her supervisors.",
+      "exampleKo": "그녀의 강한 근면성은 상사들에게 깊은 인상을 남겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "class action",
+      "pos": "phrase",
+      "meanings": [
+        "집단 소송"
+      ],
+      "example": "Customers filed a class action against the company.",
+      "exampleKo": "고객들은 그 회사를 상대로 집단 소송을 제기했다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "comparative advantage",
+      "pos": "phrase",
+      "meanings": [
+        "비교 우위"
+      ],
+      "example": "Each country focuses on goods where it has a comparative advantage.",
+      "exampleKo": "각 나라는 비교 우위가 있는 상품에 집중한다.",
+      "emoji": ""
+    },
+    {
+      "word": "consumer behavior",
+      "pos": "phrase",
+      "meanings": [
+        "소비자 행동"
+      ],
+      "example": "The survey aims to analyze consumer behavior trends.",
+      "exampleKo": "그 설문은 소비자 행동 경향을 분석하는 것을 목표로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "division of labor",
+      "pos": "phrase",
+      "meanings": [
+        "노동 분업"
+      ],
+      "example": "Efficient division of labor increased factory output.",
+      "exampleKo": "효율적인 노동 분업은 공장 생산량을 증가시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "economic growth",
+      "pos": "phrase",
+      "meanings": [
+        "경제 성장"
+      ],
+      "example": "Sustainable economic growth requires long-term planning.",
+      "exampleKo": "지속 가능한 경제 성장은 장기적인 계획을 필요로 한다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "gender gap",
+      "pos": "phrase",
+      "meanings": [
+        "성별 격차"
+      ],
+      "example": "The report examined the gender gap in science careers.",
+      "exampleKo": "그 보고서는 과학 분야 직업에서의 성별 격차를 조사했다.",
+      "emoji": ""
+    },
+    {
+      "word": "industrial revolution",
+      "pos": "phrase",
+      "meanings": [
+        "산업 혁명"
+      ],
+      "example": "The industrial revolution transformed how goods were produced.",
+      "exampleKo": "산업 혁명은 상품이 생산되는 방식을 변화시켰다.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "information age",
+      "pos": "phrase",
+      "meanings": [
+        "정보화 시대"
+      ],
+      "example": "Critical thinking is essential in the information age.",
+      "exampleKo": "비판적 사고는 정보화 시대에 필수적이다.",
+      "emoji": "💻"
+    },
+    {
+      "word": "labor force",
+      "pos": "phrase",
+      "meanings": [
+        "노동력",
+        "노동 인구"
+      ],
+      "example": "Automation is reshaping the labor force.",
+      "exampleKo": "자동화는 노동력을 재편하고 있다.",
+      "emoji": "👷"
+    },
+    {
+      "word": "living standard",
+      "pos": "phrase",
+      "meanings": [
+        "생활 수준"
+      ],
+      "example": "Living standards have risen steadily over the decades.",
+      "exampleKo": "생활 수준은 수십 년에 걸쳐 꾸준히 상승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mass production",
+      "pos": "phrase",
+      "meanings": [
+        "대량 생산"
+      ],
+      "example": "Mass production made goods more affordable for everyone.",
+      "exampleKo": "대량 생산은 상품을 모두에게 더 저렴하게 만들었다.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "national identity",
+      "pos": "phrase",
+      "meanings": [
+        "국가 정체성"
+      ],
+      "example": "Language plays a key role in shaping national identity.",
+      "exampleKo": "언어는 국가 정체성을 형성하는 데 핵심적인 역할을 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "natural selection",
+      "pos": "phrase",
+      "meanings": [
+        "자연 선택"
+      ],
+      "example": "Darwin explained evolution through the process of natural selection.",
+      "exampleKo": "다윈은 자연 선택의 과정을 통해 진화를 설명했다.",
+      "emoji": "🧬"
+    },
+    {
+      "word": "nuclear family",
+      "pos": "phrase",
+      "meanings": [
+        "핵가족"
+      ],
+      "example": "The traditional nuclear family structure has changed over time.",
+      "exampleKo": "전통적인 핵가족 구조는 시간이 지나면서 변화했다.",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "word": "private sector",
+      "pos": "phrase",
+      "meanings": [
+        "민간 부문"
+      ],
+      "example": "Investment from the private sector boosted the local economy.",
+      "exampleKo": "민간 부문의 투자는 지역 경제를 촉진했다.",
+      "emoji": ""
+    },
+    {
+      "word": "public sector",
+      "pos": "phrase",
+      "meanings": [
+        "공공 부문"
+      ],
+      "example": "Wages in the public sector are set by government policy.",
+      "exampleKo": "공공 부문의 임금은 정부 정책에 의해 정해진다.",
+      "emoji": ""
+    },
+    {
+      "word": "social status",
+      "pos": "phrase",
+      "meanings": [
+        "사회적 지위"
+      ],
+      "example": "Education has long influenced social status.",
+      "exampleKo": "교육은 오랫동안 사회적 지위에 영향을 미쳐 왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "value judgment",
+      "pos": "phrase",
+      "meanings": [
+        "가치 판단"
+      ],
+      "example": "The essay avoids making a value judgment about the practice.",
+      "exampleKo": "그 에세이는 그 관행에 대한 가치 판단을 피한다.",
+      "emoji": ""
+    },
+    {
+      "word": "affluence",
+      "pos": "n",
+      "meanings": [
+        "부유함",
+        "풍요"
+      ],
+      "example": "Growing affluence has changed consumer habits.",
+      "exampleKo": "증가하는 부유함은 소비 습관을 바꿔 놓았다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "antipathy",
+      "pos": "n",
+      "meanings": [
+        "반감",
+        "혐오"
+      ],
+      "example": "The two leaders have a long-standing antipathy toward each other.",
+      "exampleKo": "두 지도자는 서로에 대해 오랜 반감을 갖고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "backlash",
+      "pos": "n",
+      "meanings": [
+        "반발",
+        "역풍"
+      ],
+      "example": "The policy triggered a public backlash.",
+      "exampleKo": "그 정책은 대중의 반발을 불러일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "bedrock",
+      "pos": "n",
+      "meanings": [
+        "근본",
+        "기반"
+      ],
+      "example": "Trust is the bedrock of any lasting relationship.",
+      "exampleKo": "신뢰는 모든 지속적인 관계의 근본이다.",
+      "emoji": "🪨"
+    },
+    {
+      "word": "blueprint",
+      "pos": "n",
+      "meanings": [
+        "청사진",
+        "설계도"
+      ],
+      "example": "The proposal serves as a blueprint for future reform.",
+      "exampleKo": "그 제안은 향후 개혁의 청사진 역할을 한다.",
+      "emoji": "📐"
+    },
+    {
+      "word": "decorum",
+      "pos": "n",
+      "meanings": [
+        "예의범절",
+        "품위"
+      ],
+      "example": "Guests were expected to observe proper decorum at the ceremony.",
+      "exampleKo": "손님들은 그 행사에서 적절한 예의범절을 지킬 것으로 기대되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "detriment",
+      "pos": "n",
+      "meanings": [
+        "손해",
+        "피해"
+      ],
+      "example": "Overwork can be a detriment to one's health.",
+      "exampleKo": "과로는 건강에 손해가 될 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "exodus",
+      "pos": "n",
+      "meanings": [
+        "대탈출",
+        "대이동"
+      ],
+      "example": "The city experienced an exodus of young workers.",
+      "exampleKo": "그 도시는 젊은 노동자들의 대이동을 겪었다.",
+      "emoji": ""
+    },
+    {
+      "word": "fixture",
+      "pos": "n",
+      "meanings": [
+        "고정된 것",
+        "붙박이"
+      ],
+      "example": "The annual fair has become a fixture of the community calendar.",
+      "exampleKo": "그 연례 축제는 지역 사회 일정의 고정된 행사가 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "foresight",
+      "pos": "n",
+      "meanings": [
+        "선견지명",
+        "예지력"
+      ],
+      "example": "The founders showed remarkable foresight in planning the city.",
+      "exampleKo": "창립자들은 도시를 계획하는 데 놀라운 선견지명을 보였다.",
+      "emoji": "🔮"
+    },
+    {
+      "word": "groundwork",
+      "pos": "n",
+      "meanings": [
+        "기초 작업",
+        "토대"
+      ],
+      "example": "Early research laid the groundwork for the discovery.",
+      "exampleKo": "초기 연구는 그 발견의 토대를 마련했다.",
+      "emoji": "🛠️"
+    },
+    {
+      "word": "hallmark",
+      "pos": "n",
+      "meanings": [
+        "특징",
+        "특질"
+      ],
+      "example": "Rigorous testing is a hallmark of good science.",
+      "exampleKo": "엄격한 검증은 좋은 과학의 특징이다.",
+      "emoji": ""
+    },
+    {
+      "word": "hindsight",
+      "pos": "n",
+      "meanings": [
+        "뒤늦은 깨달음",
+        "사후 판단"
+      ],
+      "example": "In hindsight, the decision seems obviously flawed.",
+      "exampleKo": "돌이켜 보면 그 결정은 명백히 결함이 있어 보인다.",
+      "emoji": ""
+    },
+    {
+      "word": "hybrid",
+      "pos": "n",
+      "meanings": [
+        "혼합물",
+        "잡종"
+      ],
+      "example": "The car is a hybrid of electric and gasoline power.",
+      "exampleKo": "그 자동차는 전기와 휘발유 동력의 혼합물이다.",
+      "emoji": "🔋"
+    },
+    {
+      "word": "inertia",
+      "pos": "n",
+      "meanings": [
+        "관성",
+        "무기력"
+      ],
+      "example": "Organizational inertia often slows down needed reforms.",
+      "exampleKo": "조직의 관성은 흔히 필요한 개혁을 늦춘다.",
+      "emoji": ""
+    },
+    {
+      "word": "infamy",
+      "pos": "n",
+      "meanings": [
+        "악명"
+      ],
+      "example": "The scandal brought the company lasting infamy.",
+      "exampleKo": "그 스캔들은 그 회사에 지속적인 악명을 가져다주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "ingenuity",
+      "pos": "n",
+      "meanings": [
+        "독창성",
+        "창의력"
+      ],
+      "example": "The solution reflects remarkable engineering ingenuity.",
+      "exampleKo": "그 해결책은 놀라운 공학적 독창성을 반영한다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "interplay",
+      "pos": "n",
+      "meanings": [
+        "상호작용"
+      ],
+      "example": "The study examines the interplay between genes and environment.",
+      "exampleKo": "그 연구는 유전자와 환경 사이의 상호작용을 조사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "liaison",
+      "pos": "n",
+      "meanings": [
+        "연락",
+        "연결책"
+      ],
+      "example": "She serves as a liaison between the two departments.",
+      "exampleKo": "그녀는 두 부서 사이의 연락 담당자 역할을 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "onset",
+      "pos": "n",
+      "meanings": [
+        "시작",
+        "발병"
+      ],
+      "example": "Symptoms often appear at the onset of the illness.",
+      "exampleKo": "증상은 흔히 질병의 발병 초기에 나타난다.",
+      "emoji": ""
+    },
+    {
+      "word": "outset",
+      "pos": "n",
+      "meanings": [
+        "처음",
+        "시작"
+      ],
+      "example": "The rules were made clear from the outset.",
+      "exampleKo": "규칙은 처음부터 명확히 정해졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "parity",
+      "pos": "n",
+      "meanings": [
+        "동등",
+        "평등"
+      ],
+      "example": "The union pushed for wage parity between departments.",
+      "exampleKo": "노조는 부서 간 임금 동등을 요구했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pitfall",
+      "pos": "n",
+      "meanings": [
+        "함정",
+        "위험 요소"
+      ],
+      "example": "The guide warns beginners about common pitfalls.",
+      "exampleKo": "그 안내서는 초보자들에게 흔한 함정에 대해 경고한다.",
+      "emoji": "🕳️"
+    },
+    {
+      "word": "precursor",
+      "pos": "n",
+      "meanings": [
+        "선구자",
+        "전조"
+      ],
+      "example": "The device was a precursor to the modern smartphone.",
+      "exampleKo": "그 기기는 현대 스마트폰의 선구자였다.",
+      "emoji": ""
+    },
+    {
+      "word": "realm",
+      "pos": "n",
+      "meanings": [
+        "영역",
+        "분야"
+      ],
+      "example": "The discovery expanded the realm of possible treatments.",
+      "exampleKo": "그 발견은 가능한 치료법의 영역을 확장시켰다.",
+      "emoji": "🏰"
+    },
+    {
+      "word": "resonance",
+      "pos": "n",
+      "meanings": [
+        "공명",
+        "반향"
+      ],
+      "example": "The message had particular resonance with young voters.",
+      "exampleKo": "그 메시지는 젊은 유권자들 사이에서 특히 반향을 일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "rigor",
+      "pos": "n",
+      "meanings": [
+        "엄격함",
+        "철저함"
+      ],
+      "example": "The study was praised for its scientific rigor.",
+      "exampleKo": "그 연구는 과학적 엄격함으로 칭찬받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "spectacle",
+      "pos": "n",
+      "meanings": [
+        "장관",
+        "구경거리"
+      ],
+      "example": "The eclipse was a rare celestial spectacle.",
+      "exampleKo": "그 일식은 보기 드문 천체 장관이었다.",
+      "emoji": "🎪"
+    },
+    {
+      "word": "tactic",
+      "pos": "n",
+      "meanings": [
+        "전술",
+        "전략"
+      ],
+      "example": "Delay became the negotiators' main tactic.",
+      "exampleKo": "지연은 협상가들의 주요 전술이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "trajectory",
+      "pos": "n",
+      "meanings": [
+        "궤적",
+        "진로"
+      ],
+      "example": "The company's trajectory changed after new leadership arrived.",
+      "exampleKo": "새로운 경영진이 도착한 후 그 회사의 진로가 바뀌었다.",
+      "emoji": "🚀"
+    },
+    {
+      "word": "tumult",
+      "pos": "n",
+      "meanings": [
+        "소란",
+        "소동"
+      ],
+      "example": "The announcement caused tumult in the crowded hall.",
+      "exampleKo": "그 발표는 붐비는 강당에서 소란을 일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "upheaval",
+      "pos": "n",
+      "meanings": [
+        "격변",
+        "대변동"
+      ],
+      "example": "The country went through political upheaval last year.",
+      "exampleKo": "그 나라는 작년에 정치적 격변을 겪었다.",
+      "emoji": "🌋"
+    },
+    {
+      "word": "utopia",
+      "pos": "n",
+      "meanings": [
+        "이상향",
+        "유토피아"
+      ],
+      "example": "The novel imagines a technological utopia.",
+      "exampleKo": "그 소설은 기술적 이상향을 상상한다.",
+      "emoji": "🏝️"
+    },
+    {
+      "word": "vindication",
+      "pos": "n",
+      "meanings": [
+        "정당성 입증"
+      ],
+      "example": "The court ruling was a vindication of her claims.",
+      "exampleKo": "그 법원 판결은 그녀의 주장이 옳았음을 입증해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "dissonance",
+      "pos": "n",
+      "meanings": [
+        "불협화음",
+        "부조화"
+      ],
+      "example": "There is a growing dissonance between policy and practice.",
+      "exampleKo": "정책과 실제 사이에 점점 커지는 부조화가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "forte",
+      "pos": "n",
+      "meanings": [
+        "장기",
+        "강점"
+      ],
+      "example": "Public speaking is not her forte.",
+      "exampleKo": "대중 연설은 그녀의 강점이 아니다.",
+      "emoji": ""
+    },
+    {
+      "word": "incarnation",
+      "pos": "n",
+      "meanings": [
+        "화신",
+        "구현체"
+      ],
+      "example": "The latest model is a modern incarnation of a classic design.",
+      "exampleKo": "최신 모델은 고전적 디자인의 현대적 구현이다.",
+      "emoji": ""
+    },
+    {
+      "word": "insularity",
+      "pos": "n",
+      "meanings": [
+        "고립성",
+        "편협함"
+      ],
+      "example": "Critics pointed to the policy's insularity.",
+      "exampleKo": "비평가들은 그 정책의 고립성을 지적했다.",
+      "emoji": ""
+    },
+    {
+      "word": "juncture",
+      "pos": "n",
+      "meanings": [
+        "시점",
+        "국면"
+      ],
+      "example": "At this juncture, further delay would be costly.",
+      "exampleKo": "이 시점에서 더 이상의 지연은 비용이 클 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "lapse",
+      "pos": "n",
+      "meanings": [
+        "실수",
+        "착오",
+        "공백"
+      ],
+      "example": "A brief lapse in concentration caused the error.",
+      "exampleKo": "잠깐의 집중력 저하가 그 오류를 일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "mainstay",
+      "pos": "n",
+      "meanings": [
+        "중심",
+        "주축"
+      ],
+      "example": "Agriculture remains the mainstay of the local economy.",
+      "exampleKo": "농업은 여전히 지역 경제의 주축이다.",
+      "emoji": ""
+    },
+    {
+      "word": "mantra",
+      "pos": "n",
+      "meanings": [
+        "신조",
+        "구호"
+      ],
+      "example": "Innovation became the company's constant mantra.",
+      "exampleKo": "혁신은 그 회사의 끊임없는 신조가 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "mishap",
+      "pos": "n",
+      "meanings": [
+        "작은 사고",
+        "불행한 일"
+      ],
+      "example": "A minor mishap delayed the launch by a day.",
+      "exampleKo": "작은 사고로 발사가 하루 늦춰졌다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "mystique",
+      "pos": "n",
+      "meanings": [
+        "신비감"
+      ],
+      "example": "The brand carefully maintains an air of mystique.",
+      "exampleKo": "그 브랜드는 신비감을 세심하게 유지한다.",
+      "emoji": ""
+    },
+    {
+      "word": "orthodoxy",
+      "pos": "n",
+      "meanings": [
+        "정설",
+        "정통 교리"
+      ],
+      "example": "The theory challenged the scientific orthodoxy of its time.",
+      "exampleKo": "그 이론은 당대의 과학적 정설에 도전했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pathos",
+      "pos": "n",
+      "meanings": [
+        "비애감",
+        "연민을 자아냄"
+      ],
+      "example": "The speech was filled with pathos and personal stories.",
+      "exampleKo": "그 연설은 비애감과 개인적인 이야기로 가득했다.",
+      "emoji": ""
+    },
+    {
+      "word": "persona",
+      "pos": "n",
+      "meanings": [
+        "이미지",
+        "페르소나"
+      ],
+      "example": "The politician carefully crafted a friendly public persona.",
+      "exampleKo": "그 정치인은 친근한 대외 이미지를 세심하게 만들어냈다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "precept",
+      "pos": "n",
+      "meanings": [
+        "교훈",
+        "원칙"
+      ],
+      "example": "The book is based on simple moral precepts.",
+      "exampleKo": "그 책은 단순한 도덕적 원칙에 바탕을 둔다.",
+      "emoji": ""
+    },
+    {
+      "word": "repertoire",
+      "pos": "n",
+      "meanings": [
+        "레퍼토리",
+        "목록"
+      ],
+      "example": "The orchestra expanded its repertoire this season.",
+      "exampleKo": "그 오케스트라는 이번 시즌에 레퍼토리를 확장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "stratagem",
+      "pos": "n",
+      "meanings": [
+        "전략",
+        "책략"
+      ],
+      "example": "The company used a clever stratagem to enter the new market.",
+      "exampleKo": "그 회사는 새로운 시장에 진입하기 위해 영리한 전략을 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tirade",
+      "pos": "n",
+      "meanings": [
+        "장황한 비난",
+        "독설"
+      ],
+      "example": "He launched into a tirade against the new policy.",
+      "exampleKo": "그는 새로운 정책에 대해 장황한 비난을 쏟아냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "triviality",
+      "pos": "n",
+      "meanings": [
+        "사소함",
+        "하찮은 것"
+      ],
+      "example": "The debate quickly descended into triviality.",
+      "exampleKo": "그 토론은 빠르게 사소한 것들로 흘러갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "vestige",
+      "pos": "n",
+      "meanings": [
+        "흔적",
+        "자취"
+      ],
+      "example": "Few vestiges of the ancient city remain today.",
+      "exampleKo": "그 고대 도시의 흔적은 오늘날 거의 남아 있지 않다.",
+      "emoji": ""
+    },
+    {
+      "word": "appellation",
+      "pos": "n",
+      "meanings": [
+        "명칭",
+        "호칭"
+      ],
+      "example": "The town earned the appellation 'city of festivals.'",
+      "exampleKo": "그 마을은 '축제의 도시'라는 명칭을 얻었다.",
+      "emoji": ""
+    },
+    {
+      "word": "avarice",
+      "pos": "n",
+      "meanings": [
+        "탐욕"
+      ],
+      "example": "The novel portrays the ruin caused by unchecked avarice.",
+      "exampleKo": "그 소설은 억제되지 않은 탐욕이 초래한 파멸을 묘사한다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "rejoinder",
+      "pos": "n",
+      "meanings": [
+        "응수",
+        "답변"
+      ],
+      "example": "She offered a sharp rejoinder to the criticism.",
+      "exampleKo": "그녀는 그 비판에 날카로운 응수를 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "scaffold",
+      "pos": "n",
+      "meanings": [
+        "발판",
+        "토대"
+      ],
+      "example": "The pilot program served as a scaffold for later reforms.",
+      "exampleKo": "그 시범 프로그램은 이후 개혁의 발판이 되었다.",
+      "emoji": "🏗️"
+    },
+    {
+      "word": "throwback",
+      "pos": "n",
+      "meanings": [
+        "복고풍",
+        "회귀"
+      ],
+      "example": "The design is a throwback to earlier decades.",
+      "exampleKo": "그 디자인은 이전 시대로의 복고풍이다.",
+      "emoji": ""
+    }
+  ]
+}

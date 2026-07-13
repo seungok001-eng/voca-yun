@@ -1,0 +1,208 @@
+{
+  "level": 4,
+  "words": [
+    {
+      "word": "layover",
+      "pos": "n",
+      "meanings": [
+        "경유",
+        "환승 대기 시간"
+      ],
+      "example": "We had a two-hour layover in Tokyo.",
+      "exampleKo": "우리는 도쿄에서 두 시간 동안 경유했다.",
+      "emoji": "✈️"
+    },
+    {
+      "word": "seasick",
+      "pos": "adj",
+      "meanings": [
+        "뱃멀미가 난"
+      ],
+      "example": "I felt seasick on the ferry.",
+      "exampleKo": "나는 페리에서 뱃멀미가 났다.",
+      "emoji": "🤢"
+    },
+    {
+      "word": "escalator",
+      "pos": "n",
+      "meanings": [
+        "에스컬레이터"
+      ],
+      "example": "Take the escalator to the second floor.",
+      "exampleKo": "2층까지 에스컬레이터를 타세요.",
+      "emoji": "🛗"
+    },
+    {
+      "word": "paramedic",
+      "pos": "n",
+      "meanings": [
+        "구급대원"
+      ],
+      "example": "The paramedic helped the injured man quickly.",
+      "exampleKo": "구급대원은 다친 남자를 빠르게 도왔다.",
+      "emoji": "🚑"
+    },
+    {
+      "word": "shopkeeper",
+      "pos": "n",
+      "meanings": [
+        "가게 주인"
+      ],
+      "example": "The shopkeeper smiled and welcomed us inside.",
+      "exampleKo": "가게 주인은 미소를 지으며 우리를 안으로 맞이했다.",
+      "emoji": "🏪"
+    },
+    {
+      "word": "delivery driver",
+      "pos": "n",
+      "meanings": [
+        "배달 기사"
+      ],
+      "example": "The delivery driver left the box at the door.",
+      "exampleKo": "배달 기사는 문 앞에 상자를 두고 갔다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "construction worker",
+      "pos": "n",
+      "meanings": [
+        "건설 노동자"
+      ],
+      "example": "The construction worker wore a yellow helmet.",
+      "exampleKo": "그 건설 노동자는 노란색 헬멧을 썼다.",
+      "emoji": "👷"
+    },
+    {
+      "word": "hairstylist",
+      "pos": "n",
+      "meanings": [
+        "미용사"
+      ],
+      "example": "The hairstylist cut my hair short.",
+      "exampleKo": "미용사가 내 머리를 짧게 잘라 주었다.",
+      "emoji": "💇"
+    },
+    {
+      "word": "optician",
+      "pos": "n",
+      "meanings": [
+        "안경사"
+      ],
+      "example": "The optician checked my eyesight.",
+      "exampleKo": "안경사가 내 시력을 검사해 주었다.",
+      "emoji": "👓"
+    },
+    {
+      "word": "personal trainer",
+      "pos": "n",
+      "meanings": [
+        "개인 트레이너"
+      ],
+      "example": "My personal trainer helps me exercise every week.",
+      "exampleKo": "내 개인 트레이너는 매주 내가 운동하는 것을 도와준다.",
+      "emoji": "🏋️"
+    },
+    {
+      "word": "duty-free",
+      "pos": "adj",
+      "meanings": [
+        "면세의"
+      ],
+      "example": "She bought chocolate at the duty-free shop.",
+      "exampleKo": "그녀는 면세점에서 초콜릿을 샀다.",
+      "emoji": ""
+    },
+    {
+      "word": "connecting flight",
+      "pos": "n",
+      "meanings": [
+        "연결편",
+        "환승 항공편"
+      ],
+      "example": "We ran to catch our connecting flight.",
+      "exampleKo": "우리는 환승 항공편을 타기 위해 뛰었다.",
+      "emoji": "✈️"
+    },
+    {
+      "word": "window seat",
+      "pos": "n",
+      "meanings": [
+        "창가 자리"
+      ],
+      "example": "I always ask for a window seat on the plane.",
+      "exampleKo": "나는 항상 비행기에서 창가 자리를 요청한다.",
+      "emoji": "🪟"
+    },
+    {
+      "word": "carry-on",
+      "pos": "n",
+      "meanings": [
+        "기내 휴대 수하물"
+      ],
+      "example": "He packed his laptop in his carry-on bag.",
+      "exampleKo": "그는 노트북을 기내 휴대 가방에 넣었다.",
+      "emoji": "🧳"
+    },
+    {
+      "word": "free shipping",
+      "pos": "n",
+      "meanings": [
+        "무료 배송"
+      ],
+      "example": "The website offers free shipping over 30 dollars.",
+      "exampleKo": "그 웹사이트는 30달러 이상 구매 시 무료 배송을 제공한다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "store credit",
+      "pos": "n",
+      "meanings": [
+        "매장 적립금"
+      ],
+      "example": "I got store credit instead of a cash refund.",
+      "exampleKo": "나는 현금 환불 대신 매장 적립금을 받았다.",
+      "emoji": "💳"
+    },
+    {
+      "word": "loyalty card",
+      "pos": "n",
+      "meanings": [
+        "적립 카드"
+      ],
+      "example": "Show your loyalty card to get extra points.",
+      "exampleKo": "추가 포인트를 받으려면 적립 카드를 보여주세요.",
+      "emoji": "💳"
+    },
+    {
+      "word": "home run",
+      "pos": "n",
+      "meanings": [
+        "홈런"
+      ],
+      "example": "He hit a home run in the last inning.",
+      "exampleKo": "그는 마지막 이닝에서 홈런을 쳤다.",
+      "emoji": "⚾"
+    },
+    {
+      "word": "penalty kick",
+      "pos": "n",
+      "meanings": [
+        "페널티 킥"
+      ],
+      "example": "The team scored with a penalty kick.",
+      "exampleKo": "그 팀은 페널티 킥으로 득점했다.",
+      "emoji": "⚽"
+    },
+    {
+      "word": "instant replay",
+      "pos": "n",
+      "meanings": [
+        "즉석 재생",
+        "리플레이"
+      ],
+      "example": "The referee checked the instant replay before deciding.",
+      "exampleKo": "심판은 결정을 내리기 전에 즉석 재생을 확인했다.",
+      "emoji": "📹"
+    }
+  ]
+}

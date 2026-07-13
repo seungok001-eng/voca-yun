@@ -1,0 +1,640 @@
+{
+  "level": 1,
+  "words": [
+    {
+      "word": "cat",
+      "pos": "n",
+      "meanings": [
+        "고양이"
+      ],
+      "example": "The cat is on the bed.",
+      "exampleKo": "고양이가 침대 위에 있다.",
+      "emoji": "🐱"
+    },
+    {
+      "word": "dog",
+      "pos": "n",
+      "meanings": [
+        "개",
+        "강아지"
+      ],
+      "example": "I have a dog.",
+      "exampleKo": "나는 개를 한 마리 키운다.",
+      "emoji": "🐶"
+    },
+    {
+      "word": "pig",
+      "pos": "n",
+      "meanings": [
+        "돼지"
+      ],
+      "example": "The pig is pink.",
+      "exampleKo": "그 돼지는 분홍색이다.",
+      "emoji": "🐷"
+    },
+    {
+      "word": "hen",
+      "pos": "n",
+      "meanings": [
+        "암탉"
+      ],
+      "example": "The hen has an egg.",
+      "exampleKo": "암탉이 알을 하나 품고 있다.",
+      "emoji": "🐔"
+    },
+    {
+      "word": "fox",
+      "pos": "n",
+      "meanings": [
+        "여우"
+      ],
+      "example": "The fox is fast.",
+      "exampleKo": "여우는 빠르다.",
+      "emoji": "🦊"
+    },
+    {
+      "word": "bee",
+      "pos": "n",
+      "meanings": [
+        "벌",
+        "꿀벌"
+      ],
+      "example": "A bee is on the flower.",
+      "exampleKo": "벌 한 마리가 꽃 위에 있다.",
+      "emoji": "🐝"
+    },
+    {
+      "word": "ant",
+      "pos": "n",
+      "meanings": [
+        "개미"
+      ],
+      "example": "The ant is very small.",
+      "exampleKo": "개미는 아주 작다.",
+      "emoji": "🐜"
+    },
+    {
+      "word": "fish",
+      "pos": "n",
+      "meanings": [
+        "물고기",
+        "생선"
+      ],
+      "example": "The fish is in the water.",
+      "exampleKo": "물고기가 물속에 있다.",
+      "emoji": "🐟"
+    },
+    {
+      "word": "bird",
+      "pos": "n",
+      "meanings": [
+        "새"
+      ],
+      "example": "The bird can fly.",
+      "exampleKo": "새는 날 수 있다.",
+      "emoji": "🐦"
+    },
+    {
+      "word": "sun",
+      "pos": "n",
+      "meanings": [
+        "해",
+        "태양"
+      ],
+      "example": "The sun is hot.",
+      "exampleKo": "해는 뜨겁다.",
+      "emoji": "☀️"
+    },
+    {
+      "word": "moon",
+      "pos": "n",
+      "meanings": [
+        "달"
+      ],
+      "example": "I see the moon at night.",
+      "exampleKo": "나는 밤에 달을 본다.",
+      "emoji": "🌙"
+    },
+    {
+      "word": "star",
+      "pos": "n",
+      "meanings": [
+        "별"
+      ],
+      "example": "The star is bright.",
+      "exampleKo": "별이 반짝반짝 빛난다.",
+      "emoji": "⭐"
+    },
+    {
+      "word": "tree",
+      "pos": "n",
+      "meanings": [
+        "나무"
+      ],
+      "example": "The bird is in the tree.",
+      "exampleKo": "새가 나무에 앉아 있다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "apple",
+      "pos": "n",
+      "meanings": [
+        "사과"
+      ],
+      "example": "I eat an apple every day.",
+      "exampleKo": "나는 매일 사과를 하나 먹는다.",
+      "emoji": "🍎"
+    },
+    {
+      "word": "egg",
+      "pos": "n",
+      "meanings": [
+        "달걀",
+        "알"
+      ],
+      "example": "I eat an egg for breakfast.",
+      "exampleKo": "나는 아침으로 달걀을 먹는다.",
+      "emoji": "🥚"
+    },
+    {
+      "word": "milk",
+      "pos": "n",
+      "meanings": [
+        "우유"
+      ],
+      "example": "I drink milk every morning.",
+      "exampleKo": "나는 매일 아침 우유를 마신다.",
+      "emoji": "🥛"
+    },
+    {
+      "word": "hat",
+      "pos": "n",
+      "meanings": [
+        "모자"
+      ],
+      "example": "I like your hat.",
+      "exampleKo": "네 모자가 마음에 들어.",
+      "emoji": "👒"
+    },
+    {
+      "word": "cup",
+      "pos": "n",
+      "meanings": [
+        "컵",
+        "잔"
+      ],
+      "example": "The cup is on the table.",
+      "exampleKo": "컵이 탁자 위에 있다.",
+      "emoji": "☕"
+    },
+    {
+      "word": "bed",
+      "pos": "n",
+      "meanings": [
+        "침대"
+      ],
+      "example": "I sleep in my bed.",
+      "exampleKo": "나는 내 침대에서 잔다.",
+      "emoji": "🛏️"
+    },
+    {
+      "word": "book",
+      "pos": "n",
+      "meanings": [
+        "책"
+      ],
+      "example": "This is my book.",
+      "exampleKo": "이것은 내 책이다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "ball",
+      "pos": "n",
+      "meanings": [
+        "공"
+      ],
+      "example": "Throw the ball to me.",
+      "exampleKo": "나에게 공을 던져 줘.",
+      "emoji": "⚽"
+    },
+    {
+      "word": "pen",
+      "pos": "n",
+      "meanings": [
+        "펜"
+      ],
+      "example": "I write with a pen.",
+      "exampleKo": "나는 펜으로 글씨를 쓴다.",
+      "emoji": "🖊️"
+    },
+    {
+      "word": "bag",
+      "pos": "n",
+      "meanings": [
+        "가방"
+      ],
+      "example": "My bag is blue.",
+      "exampleKo": "내 가방은 파란색이다.",
+      "emoji": "👜"
+    },
+    {
+      "word": "box",
+      "pos": "n",
+      "meanings": [
+        "상자"
+      ],
+      "example": "The toy is in the box.",
+      "exampleKo": "장난감이 상자 안에 있다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "car",
+      "pos": "n",
+      "meanings": [
+        "자동차",
+        "차"
+      ],
+      "example": "The car is very fast.",
+      "exampleKo": "그 차는 아주 빠르다.",
+      "emoji": "🚗"
+    },
+    {
+      "word": "bus",
+      "pos": "n",
+      "meanings": [
+        "버스"
+      ],
+      "example": "I go to school by bus.",
+      "exampleKo": "나는 버스를 타고 학교에 간다.",
+      "emoji": "🚌"
+    },
+    {
+      "word": "mom",
+      "pos": "n",
+      "meanings": [
+        "엄마"
+      ],
+      "example": "My mom is kind.",
+      "exampleKo": "우리 엄마는 친절하시다.",
+      "emoji": "👩"
+    },
+    {
+      "word": "dad",
+      "pos": "n",
+      "meanings": [
+        "아빠"
+      ],
+      "example": "My dad is tall.",
+      "exampleKo": "우리 아빠는 키가 크시다.",
+      "emoji": "👨"
+    },
+    {
+      "word": "boy",
+      "pos": "n",
+      "meanings": [
+        "소년",
+        "남자아이"
+      ],
+      "example": "The boy is running.",
+      "exampleKo": "그 남자아이는 달리고 있다.",
+      "emoji": "👦"
+    },
+    {
+      "word": "girl",
+      "pos": "n",
+      "meanings": [
+        "소녀",
+        "여자아이"
+      ],
+      "example": "The girl is my friend.",
+      "exampleKo": "그 여자아이는 내 친구이다.",
+      "emoji": "👧"
+    },
+    {
+      "word": "hand",
+      "pos": "n",
+      "meanings": [
+        "손"
+      ],
+      "example": "Wash your hands.",
+      "exampleKo": "손을 씻어라.",
+      "emoji": "✋"
+    },
+    {
+      "word": "eye",
+      "pos": "n",
+      "meanings": [
+        "눈"
+      ],
+      "example": "I have two eyes.",
+      "exampleKo": "나는 눈이 두 개 있다.",
+      "emoji": "👁️"
+    },
+    {
+      "word": "ear",
+      "pos": "n",
+      "meanings": [
+        "귀"
+      ],
+      "example": "A rabbit has long ears.",
+      "exampleKo": "토끼는 귀가 길다.",
+      "emoji": "👂"
+    },
+    {
+      "word": "nose",
+      "pos": "n",
+      "meanings": [
+        "코"
+      ],
+      "example": "Touch your nose.",
+      "exampleKo": "코를 만져 보세요.",
+      "emoji": "👃"
+    },
+    {
+      "word": "leg",
+      "pos": "n",
+      "meanings": [
+        "다리"
+      ],
+      "example": "My legs are strong.",
+      "exampleKo": "내 다리는 튼튼하다.",
+      "emoji": "🦵"
+    },
+    {
+      "word": "run",
+      "pos": "v",
+      "meanings": [
+        "달리다",
+        "뛰다"
+      ],
+      "example": "I can run fast.",
+      "exampleKo": "나는 빨리 달릴 수 있다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "jump",
+      "pos": "v",
+      "meanings": [
+        "뛰다",
+        "점프하다"
+      ],
+      "example": "The frog can jump high.",
+      "exampleKo": "개구리는 높이 뛸 수 있다.",
+      "emoji": "🤸"
+    },
+    {
+      "word": "sit",
+      "pos": "v",
+      "meanings": [
+        "앉다"
+      ],
+      "example": "Please sit down.",
+      "exampleKo": "앉으세요.",
+      "emoji": "🪑"
+    },
+    {
+      "word": "go",
+      "pos": "v",
+      "meanings": [
+        "가다"
+      ],
+      "example": "Let's go to the park.",
+      "exampleKo": "공원에 가자.",
+      "emoji": ""
+    },
+    {
+      "word": "stop",
+      "pos": "v",
+      "meanings": [
+        "멈추다",
+        "그만하다"
+      ],
+      "example": "Stop the car, please.",
+      "exampleKo": "차를 멈춰 주세요.",
+      "emoji": "🛑"
+    },
+    {
+      "word": "see",
+      "pos": "v",
+      "meanings": [
+        "보다",
+        "보이다"
+      ],
+      "example": "I see a bird in the sky.",
+      "exampleKo": "하늘에 새 한 마리가 보인다.",
+      "emoji": "👀"
+    },
+    {
+      "word": "big",
+      "pos": "adj",
+      "meanings": [
+        "큰",
+        "커다란"
+      ],
+      "example": "The elephant is big.",
+      "exampleKo": "코끼리는 크다.",
+      "emoji": "🐘"
+    },
+    {
+      "word": "small",
+      "pos": "adj",
+      "meanings": [
+        "작은"
+      ],
+      "example": "The mouse is small.",
+      "exampleKo": "쥐는 작다.",
+      "emoji": "🐜"
+    },
+    {
+      "word": "red",
+      "pos": "adj",
+      "meanings": [
+        "빨간",
+        "빨간색의"
+      ],
+      "example": "The apple is red.",
+      "exampleKo": "그 사과는 빨갛다.",
+      "emoji": "🟥"
+    },
+    {
+      "word": "blue",
+      "pos": "adj",
+      "meanings": [
+        "파란",
+        "파란색의"
+      ],
+      "example": "The sky is blue.",
+      "exampleKo": "하늘은 파랗다.",
+      "emoji": "🟦"
+    },
+    {
+      "word": "green",
+      "pos": "adj",
+      "meanings": [
+        "초록색의",
+        "녹색의"
+      ],
+      "example": "The leaves are green.",
+      "exampleKo": "나뭇잎은 초록색이다.",
+      "emoji": "🟩"
+    },
+    {
+      "word": "yellow",
+      "pos": "adj",
+      "meanings": [
+        "노란",
+        "노란색의"
+      ],
+      "example": "The banana is yellow.",
+      "exampleKo": "바나나는 노랗다.",
+      "emoji": "🟡"
+    },
+    {
+      "word": "hot",
+      "pos": "adj",
+      "meanings": [
+        "뜨거운",
+        "더운"
+      ],
+      "example": "The soup is hot.",
+      "exampleKo": "수프가 뜨겁다.",
+      "emoji": "🔥"
+    },
+    {
+      "word": "cold",
+      "pos": "adj",
+      "meanings": [
+        "차가운",
+        "추운"
+      ],
+      "example": "The ice is cold.",
+      "exampleKo": "얼음은 차갑다.",
+      "emoji": "🥶"
+    },
+    {
+      "word": "wet",
+      "pos": "adj",
+      "meanings": [
+        "젖은",
+        "축축한"
+      ],
+      "example": "My socks are wet.",
+      "exampleKo": "내 양말이 젖었다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "up",
+      "pos": "adv",
+      "meanings": [
+        "위로",
+        "위쪽으로"
+      ],
+      "example": "Look up at the sky.",
+      "exampleKo": "하늘을 올려다봐.",
+      "emoji": "⬆️"
+    },
+    {
+      "word": "down",
+      "pos": "adv",
+      "meanings": [
+        "아래로",
+        "아래쪽으로"
+      ],
+      "example": "The ball is rolling down.",
+      "exampleKo": "공이 아래로 굴러가고 있다.",
+      "emoji": "⬇️"
+    },
+    {
+      "word": "in",
+      "pos": "prep",
+      "meanings": [
+        "~ 안에",
+        "~ 속에"
+      ],
+      "example": "The cat is in the box.",
+      "exampleKo": "고양이가 상자 안에 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "out",
+      "pos": "adv",
+      "meanings": [
+        "밖으로",
+        "밖에"
+      ],
+      "example": "Let's go out and play.",
+      "exampleKo": "밖에 나가서 놀자.",
+      "emoji": ""
+    },
+    {
+      "word": "yes",
+      "pos": "int",
+      "meanings": [
+        "네",
+        "응",
+        "그래"
+      ],
+      "example": "Yes, I like it.",
+      "exampleKo": "응, 나는 그게 좋아.",
+      "emoji": "✅"
+    },
+    {
+      "word": "no",
+      "pos": "int",
+      "meanings": [
+        "아니요",
+        "아니"
+      ],
+      "example": "No, thank you.",
+      "exampleKo": "아니요, 괜찮아요.",
+      "emoji": "🙅"
+    },
+    {
+      "word": "hi",
+      "pos": "int",
+      "meanings": [
+        "안녕",
+        "안녕하세요"
+      ],
+      "example": "Hi, my name is Minsu.",
+      "exampleKo": "안녕, 내 이름은 민수야.",
+      "emoji": "👋"
+    },
+    {
+      "word": "one",
+      "pos": "num",
+      "meanings": [
+        "하나",
+        "일",
+        "한 개의"
+      ],
+      "example": "I have one brother.",
+      "exampleKo": "나는 형이 한 명 있다.",
+      "emoji": "1️⃣"
+    },
+    {
+      "word": "two",
+      "pos": "num",
+      "meanings": [
+        "둘",
+        "이",
+        "두 개의"
+      ],
+      "example": "I see two dogs.",
+      "exampleKo": "개 두 마리가 보인다.",
+      "emoji": "2️⃣"
+    },
+    {
+      "word": "three",
+      "pos": "num",
+      "meanings": [
+        "셋",
+        "삼",
+        "세 개의"
+      ],
+      "example": "I have three books.",
+      "exampleKo": "나는 책이 세 권 있다.",
+      "emoji": "3️⃣"
+    }
+  ]
+}

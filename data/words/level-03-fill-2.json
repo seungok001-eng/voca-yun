@@ -1,0 +1,1846 @@
+{
+  "level": 3,
+  "words": [
+    {
+      "word": "lightning",
+      "pos": "n",
+      "meanings": [
+        "번개"
+      ],
+      "example": "Lightning flashed in the sky.",
+      "exampleKo": "하늘에 번개가 번쩍였습니다.",
+      "emoji": "⚡"
+    },
+    {
+      "word": "rainbow",
+      "pos": "n",
+      "meanings": [
+        "무지개"
+      ],
+      "example": "We saw a rainbow after the rain.",
+      "exampleKo": "우리는 비 온 뒤에 무지개를 보았습니다.",
+      "emoji": "🌈"
+    },
+    {
+      "word": "fog",
+      "pos": "n",
+      "meanings": [
+        "안개"
+      ],
+      "example": "The fog covers the mountain.",
+      "exampleKo": "안개가 산을 뒤덮습니다.",
+      "emoji": "🌫️"
+    },
+    {
+      "word": "ice",
+      "pos": "n",
+      "meanings": [
+        "얼음"
+      ],
+      "example": "The lake turns to ice in winter.",
+      "exampleKo": "겨울에는 호수가 얼음이 됩니다.",
+      "emoji": "🧊"
+    },
+    {
+      "word": "frost",
+      "pos": "n",
+      "meanings": [
+        "서리"
+      ],
+      "example": "There was frost on the grass this morning.",
+      "exampleKo": "오늘 아침 잔디에 서리가 내렸습니다.",
+      "emoji": "❄️"
+    },
+    {
+      "word": "lake",
+      "pos": "n",
+      "meanings": [
+        "호수"
+      ],
+      "example": "We swim in the lake.",
+      "exampleKo": "우리는 호수에서 수영합니다.",
+      "emoji": "🏞️"
+    },
+    {
+      "word": "ocean",
+      "pos": "n",
+      "meanings": [
+        "대양",
+        "바다"
+      ],
+      "example": "The ocean is very deep.",
+      "exampleKo": "대양은 매우 깊습니다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "field",
+      "pos": "n",
+      "meanings": [
+        "들판",
+        "밭"
+      ],
+      "example": "Cows eat grass in the field.",
+      "exampleKo": "소들이 들판에서 풀을 먹습니다.",
+      "emoji": "🌾"
+    },
+    {
+      "word": "valley",
+      "pos": "n",
+      "meanings": [
+        "계곡"
+      ],
+      "example": "The village is in a valley.",
+      "exampleKo": "그 마을은 계곡에 있습니다.",
+      "emoji": "⛰️"
+    },
+    {
+      "word": "hill",
+      "pos": "n",
+      "meanings": [
+        "언덕"
+      ],
+      "example": "We ran up the hill.",
+      "exampleKo": "우리는 언덕을 뛰어 올라갔습니다.",
+      "emoji": "⛰️"
+    },
+    {
+      "word": "rock",
+      "pos": "n",
+      "meanings": [
+        "바위"
+      ],
+      "example": "He sat on a big rock.",
+      "exampleKo": "그는 큰 바위 위에 앉았습니다.",
+      "emoji": "🪨"
+    },
+    {
+      "word": "stone",
+      "pos": "n",
+      "meanings": [
+        "돌"
+      ],
+      "example": "The path is made of stones.",
+      "exampleKo": "그 길은 돌로 만들어졌습니다.",
+      "emoji": "🪨"
+    },
+    {
+      "word": "sand",
+      "pos": "n",
+      "meanings": [
+        "모래"
+      ],
+      "example": "We built a castle with sand.",
+      "exampleKo": "우리는 모래로 성을 만들었습니다.",
+      "emoji": "🏖️"
+    },
+    {
+      "word": "leaf",
+      "pos": "n",
+      "meanings": [
+        "나뭇잎"
+      ],
+      "example": "The leaf falls from the tree.",
+      "exampleKo": "나뭇잎이 나무에서 떨어집니다.",
+      "emoji": "🍃"
+    },
+    {
+      "word": "branch",
+      "pos": "n",
+      "meanings": [
+        "나뭇가지"
+      ],
+      "example": "A bird sits on the branch.",
+      "exampleKo": "새 한 마리가 나뭇가지에 앉아 있습니다.",
+      "emoji": "🌿"
+    },
+    {
+      "word": "root",
+      "pos": "n",
+      "meanings": [
+        "뿌리"
+      ],
+      "example": "The tree's roots are deep.",
+      "exampleKo": "그 나무의 뿌리는 깊습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "grass",
+      "pos": "n",
+      "meanings": [
+        "잔디",
+        "풀"
+      ],
+      "example": "The grass is green.",
+      "exampleKo": "잔디가 초록색입니다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "bush",
+      "pos": "n",
+      "meanings": [
+        "덤불"
+      ],
+      "example": "A rabbit hides in the bush.",
+      "exampleKo": "토끼가 덤불에 숨습니다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "seed",
+      "pos": "n",
+      "meanings": [
+        "씨앗"
+      ],
+      "example": "We plant a seed in the pot.",
+      "exampleKo": "우리는 화분에 씨앗을 심습니다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "fruit",
+      "pos": "n",
+      "meanings": [
+        "과일"
+      ],
+      "example": "I eat fruit every day.",
+      "exampleKo": "저는 매일 과일을 먹습니다.",
+      "emoji": "🍎"
+    },
+    {
+      "word": "vegetable",
+      "pos": "n",
+      "meanings": [
+        "채소"
+      ],
+      "example": "Vegetables are good for health.",
+      "exampleKo": "채소는 건강에 좋습니다.",
+      "emoji": "🥕"
+    },
+    {
+      "word": "insect",
+      "pos": "n",
+      "meanings": [
+        "곤충"
+      ],
+      "example": "We study insects in science class.",
+      "exampleKo": "우리는 과학 시간에 곤충을 공부합니다.",
+      "emoji": "🐛"
+    },
+    {
+      "word": "butterfly",
+      "pos": "n",
+      "meanings": [
+        "나비"
+      ],
+      "example": "A butterfly flies over the flower.",
+      "exampleKo": "나비가 꽃 위를 날아갑니다.",
+      "emoji": "🦋"
+    },
+    {
+      "word": "spider",
+      "pos": "n",
+      "meanings": [
+        "거미"
+      ],
+      "example": "A spider makes a web.",
+      "exampleKo": "거미가 거미줄을 만듭니다.",
+      "emoji": "🕷️"
+    },
+    {
+      "word": "frog",
+      "pos": "n",
+      "meanings": [
+        "개구리"
+      ],
+      "example": "The frog jumps into the pond.",
+      "exampleKo": "개구리가 연못으로 뛰어듭니다.",
+      "emoji": "🐸"
+    },
+    {
+      "word": "snake",
+      "pos": "n",
+      "meanings": [
+        "뱀"
+      ],
+      "example": "A snake moves without legs.",
+      "exampleKo": "뱀은 다리 없이 움직입니다.",
+      "emoji": "🐍"
+    },
+    {
+      "word": "owl",
+      "pos": "n",
+      "meanings": [
+        "부엉이"
+      ],
+      "example": "The owl sleeps during the day.",
+      "exampleKo": "부엉이는 낮에 잠을 잡니다.",
+      "emoji": "🦉"
+    },
+    {
+      "word": "eagle",
+      "pos": "n",
+      "meanings": [
+        "독수리"
+      ],
+      "example": "The eagle flies high in the sky.",
+      "exampleKo": "독수리가 하늘 높이 날아갑니다.",
+      "emoji": "🦅"
+    },
+    {
+      "word": "squirrel",
+      "pos": "n",
+      "meanings": [
+        "다람쥐"
+      ],
+      "example": "The squirrel climbs the tree.",
+      "exampleKo": "다람쥐가 나무를 오릅니다.",
+      "emoji": "🐿️"
+    },
+    {
+      "word": "deer",
+      "pos": "n",
+      "meanings": [
+        "사슴"
+      ],
+      "example": "We saw a deer in the forest.",
+      "exampleKo": "우리는 숲에서 사슴을 보았습니다.",
+      "emoji": "🦌"
+    },
+    {
+      "word": "wolf",
+      "pos": "n",
+      "meanings": [
+        "늑대"
+      ],
+      "example": "The wolf howls at night.",
+      "exampleKo": "늑대는 밤에 울부짖습니다.",
+      "emoji": "🐺"
+    },
+    {
+      "word": "pond",
+      "pos": "n",
+      "meanings": [
+        "연못"
+      ],
+      "example": "Fish swim in the pond.",
+      "exampleKo": "물고기가 연못에서 헤엄칩니다.",
+      "emoji": "🐸"
+    },
+    {
+      "word": "cave",
+      "pos": "n",
+      "meanings": [
+        "동굴"
+      ],
+      "example": "A bear lives in the cave.",
+      "exampleKo": "곰이 동굴에 삽니다.",
+      "emoji": "🕳️"
+    },
+    {
+      "word": "soup",
+      "pos": "n",
+      "meanings": [
+        "수프",
+        "국"
+      ],
+      "example": "I like hot soup in winter.",
+      "exampleKo": "저는 겨울에 뜨거운 수프를 좋아합니다.",
+      "emoji": "🍲"
+    },
+    {
+      "word": "salad",
+      "pos": "n",
+      "meanings": [
+        "샐러드"
+      ],
+      "example": "She makes a fresh salad.",
+      "exampleKo": "그녀는 신선한 샐러드를 만듭니다.",
+      "emoji": "🥗"
+    },
+    {
+      "word": "sandwich",
+      "pos": "n",
+      "meanings": [
+        "샌드위치"
+      ],
+      "example": "I bring a sandwich for lunch.",
+      "exampleKo": "저는 점심으로 샌드위치를 가져옵니다.",
+      "emoji": "🥪"
+    },
+    {
+      "word": "noodle",
+      "pos": "n",
+      "meanings": [
+        "국수"
+      ],
+      "example": "I love noodle soup.",
+      "exampleKo": "저는 국수 요리를 좋아합니다.",
+      "emoji": "🍜"
+    },
+    {
+      "word": "beef",
+      "pos": "n",
+      "meanings": [
+        "소고기"
+      ],
+      "example": "Beef soup is delicious.",
+      "exampleKo": "소고기 국은 맛있습니다.",
+      "emoji": "🥩"
+    },
+    {
+      "word": "pork",
+      "pos": "n",
+      "meanings": [
+        "돼지고기"
+      ],
+      "example": "We had pork for lunch.",
+      "exampleKo": "우리는 점심에 돼지고기를 먹었습니다.",
+      "emoji": "🥓"
+    },
+    {
+      "word": "cheese",
+      "pos": "n",
+      "meanings": [
+        "치즈"
+      ],
+      "example": "I like cheese on my pizza.",
+      "exampleKo": "저는 피자에 치즈를 좋아합니다.",
+      "emoji": "🧀"
+    },
+    {
+      "word": "butter",
+      "pos": "n",
+      "meanings": [
+        "버터"
+      ],
+      "example": "Spread butter on the bread.",
+      "exampleKo": "빵에 버터를 발라 주세요.",
+      "emoji": "🧈"
+    },
+    {
+      "word": "sugar",
+      "pos": "n",
+      "meanings": [
+        "설탕"
+      ],
+      "example": "Add some sugar to the tea.",
+      "exampleKo": "차에 설탕을 좀 넣으세요.",
+      "emoji": "🍬"
+    },
+    {
+      "word": "salt",
+      "pos": "n",
+      "meanings": [
+        "소금"
+      ],
+      "example": "Add a little salt to the soup.",
+      "exampleKo": "수프에 소금을 조금 넣으세요.",
+      "emoji": "🧂"
+    },
+    {
+      "word": "pepper",
+      "pos": "n",
+      "meanings": [
+        "후추"
+      ],
+      "example": "He adds pepper to his soup.",
+      "exampleKo": "그는 수프에 후추를 넣습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "sauce",
+      "pos": "n",
+      "meanings": [
+        "소스"
+      ],
+      "example": "This sauce is spicy.",
+      "exampleKo": "이 소스는 맵습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "spoon",
+      "pos": "n",
+      "meanings": [
+        "숟가락"
+      ],
+      "example": "Use a spoon to eat soup.",
+      "exampleKo": "수프를 먹을 때 숟가락을 사용하세요.",
+      "emoji": "🥄"
+    },
+    {
+      "word": "fork",
+      "pos": "n",
+      "meanings": [
+        "포크"
+      ],
+      "example": "She eats salad with a fork.",
+      "exampleKo": "그녀는 포크로 샐러드를 먹습니다.",
+      "emoji": "🍴"
+    },
+    {
+      "word": "knife",
+      "pos": "n",
+      "meanings": [
+        "칼"
+      ],
+      "example": "Be careful with the knife.",
+      "exampleKo": "칼을 조심하세요.",
+      "emoji": "🔪"
+    },
+    {
+      "word": "plate",
+      "pos": "n",
+      "meanings": [
+        "접시"
+      ],
+      "example": "Put the food on the plate.",
+      "exampleKo": "음식을 접시에 담으세요.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "bowl",
+      "pos": "n",
+      "meanings": [
+        "그릇"
+      ],
+      "example": "Fill the bowl with rice.",
+      "exampleKo": "그릇에 밥을 채우세요.",
+      "emoji": "🥣"
+    },
+    {
+      "word": "pot",
+      "pos": "n",
+      "meanings": [
+        "냄비"
+      ],
+      "example": "The soup is in the pot.",
+      "exampleKo": "수프가 냄비에 있습니다.",
+      "emoji": "🍲"
+    },
+    {
+      "word": "pan",
+      "pos": "n",
+      "meanings": [
+        "프라이팬"
+      ],
+      "example": "Fry the egg in the pan.",
+      "exampleKo": "프라이팬에 계란을 부치세요.",
+      "emoji": "🍳"
+    },
+    {
+      "word": "oven",
+      "pos": "n",
+      "meanings": [
+        "오븐"
+      ],
+      "example": "Bake the cake in the oven.",
+      "exampleKo": "케이크를 오븐에 구우세요.",
+      "emoji": ""
+    },
+    {
+      "word": "stove",
+      "pos": "n",
+      "meanings": [
+        "가스레인지",
+        "화덕"
+      ],
+      "example": "Mom cooks on the stove.",
+      "exampleKo": "엄마는 가스레인지에서 요리하십니다.",
+      "emoji": "🍳"
+    },
+    {
+      "word": "recipe",
+      "pos": "n",
+      "meanings": [
+        "조리법",
+        "레시피"
+      ],
+      "example": "This is my favorite recipe.",
+      "exampleKo": "이것은 제가 가장 좋아하는 조리법입니다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "ingredient",
+      "pos": "n",
+      "meanings": [
+        "재료"
+      ],
+      "example": "Flour is the main ingredient.",
+      "exampleKo": "밀가루는 주재료입니다.",
+      "emoji": "🥕"
+    },
+    {
+      "word": "flavor",
+      "pos": "n",
+      "meanings": [
+        "맛",
+        "풍미"
+      ],
+      "example": "This ice cream has a sweet flavor.",
+      "exampleKo": "이 아이스크림은 단맛이 납니다.",
+      "emoji": "😋"
+    },
+    {
+      "word": "raw",
+      "pos": "adj",
+      "meanings": [
+        "날것의",
+        "익히지 않은"
+      ],
+      "example": "Don't eat raw meat.",
+      "exampleKo": "날고기를 먹지 마세요.",
+      "emoji": ""
+    },
+    {
+      "word": "meal",
+      "pos": "n",
+      "meanings": [
+        "식사"
+      ],
+      "example": "Breakfast is an important meal.",
+      "exampleKo": "아침 식사는 중요한 식사입니다.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "snack",
+      "pos": "n",
+      "meanings": [
+        "간식"
+      ],
+      "example": "I eat a snack after school.",
+      "exampleKo": "저는 방과 후에 간식을 먹습니다.",
+      "emoji": "🍿"
+    },
+    {
+      "word": "dessert",
+      "pos": "n",
+      "meanings": [
+        "디저트",
+        "후식"
+      ],
+      "example": "Ice cream is my favorite dessert.",
+      "exampleKo": "아이스크림은 제가 가장 좋아하는 디저트입니다.",
+      "emoji": "🍮"
+    },
+    {
+      "word": "beverage",
+      "pos": "n",
+      "meanings": [
+        "음료"
+      ],
+      "example": "Water is a healthy beverage.",
+      "exampleKo": "물은 건강한 음료입니다.",
+      "emoji": "🥤"
+    },
+    {
+      "word": "menu",
+      "pos": "n",
+      "meanings": [
+        "메뉴"
+      ],
+      "example": "Let's look at the menu.",
+      "exampleKo": "메뉴를 봅시다.",
+      "emoji": "📋"
+    },
+    {
+      "word": "puzzle",
+      "pos": "n",
+      "meanings": [
+        "퍼즐"
+      ],
+      "example": "I solve a puzzle every day.",
+      "exampleKo": "저는 매일 퍼즐을 풉니다.",
+      "emoji": "🧩"
+    },
+    {
+      "word": "chess",
+      "pos": "n",
+      "meanings": [
+        "체스"
+      ],
+      "example": "We play chess after school.",
+      "exampleKo": "우리는 방과 후에 체스를 둡니다.",
+      "emoji": "♟️"
+    },
+    {
+      "word": "checkers",
+      "pos": "n",
+      "meanings": [
+        "체커 게임"
+      ],
+      "example": "Grandpa taught me checkers.",
+      "exampleKo": "할아버지는 저에게 체커 게임을 가르쳐 주셨습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "violin",
+      "pos": "n",
+      "meanings": [
+        "바이올린"
+      ],
+      "example": "He learns to play the violin.",
+      "exampleKo": "그는 바이올린 연주를 배웁니다.",
+      "emoji": "🎻"
+    },
+    {
+      "word": "drum",
+      "pos": "n",
+      "meanings": [
+        "드럼",
+        "북"
+      ],
+      "example": "My brother plays the drum.",
+      "exampleKo": "제 형은 드럼을 칩니다.",
+      "emoji": "🥁"
+    },
+    {
+      "word": "instrument",
+      "pos": "n",
+      "meanings": [
+        "악기"
+      ],
+      "example": "What instrument do you play?",
+      "exampleKo": "당신은 어떤 악기를 연주하나요?",
+      "emoji": "🎸"
+    },
+    {
+      "word": "photography",
+      "pos": "n",
+      "meanings": [
+        "사진 촬영"
+      ],
+      "example": "Photography is her hobby.",
+      "exampleKo": "사진 촬영은 그녀의 취미입니다.",
+      "emoji": "📷"
+    },
+    {
+      "word": "craft",
+      "pos": "n",
+      "meanings": [
+        "공예",
+        "만들기"
+      ],
+      "example": "We make crafts in class.",
+      "exampleKo": "우리는 수업 시간에 공예품을 만듭니다.",
+      "emoji": "✂️"
+    },
+    {
+      "word": "gardening",
+      "pos": "n",
+      "meanings": [
+        "원예",
+        "정원 가꾸기"
+      ],
+      "example": "Gardening is fun in spring.",
+      "exampleKo": "원예는 봄에 재미있습니다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "fishing",
+      "pos": "n",
+      "meanings": [
+        "낚시"
+      ],
+      "example": "We go fishing on weekends.",
+      "exampleKo": "우리는 주말에 낚시를 갑니다.",
+      "emoji": "🎣"
+    },
+    {
+      "word": "hiking",
+      "pos": "n",
+      "meanings": [
+        "등산",
+        "하이킹"
+      ],
+      "example": "Hiking is good exercise.",
+      "exampleKo": "하이킹은 좋은 운동입니다.",
+      "emoji": "🥾"
+    },
+    {
+      "word": "bicycle",
+      "pos": "n",
+      "meanings": [
+        "자전거"
+      ],
+      "example": "I ride my bicycle to school.",
+      "exampleKo": "저는 자전거를 타고 학교에 갑니다.",
+      "emoji": "🚲"
+    },
+    {
+      "word": "skateboard",
+      "pos": "n",
+      "meanings": [
+        "스케이트보드"
+      ],
+      "example": "He rides a skateboard in the park.",
+      "exampleKo": "그는 공원에서 스케이트보드를 탑니다.",
+      "emoji": "🛹"
+    },
+    {
+      "word": "badminton",
+      "pos": "n",
+      "meanings": [
+        "배드민턴"
+      ],
+      "example": "They play badminton in the yard.",
+      "exampleKo": "그들은 마당에서 배드민턴을 칩니다.",
+      "emoji": "🏸"
+    },
+    {
+      "word": "swimming",
+      "pos": "n",
+      "meanings": [
+        "수영"
+      ],
+      "example": "Swimming is good for health.",
+      "exampleKo": "수영은 건강에 좋습니다.",
+      "emoji": "🏊"
+    },
+    {
+      "word": "coach",
+      "pos": "n",
+      "meanings": [
+        "코치",
+        "감독"
+      ],
+      "example": "The coach teaches us soccer.",
+      "exampleKo": "코치는 우리에게 축구를 가르칩니다.",
+      "emoji": "🏋️"
+    },
+    {
+      "word": "player",
+      "pos": "n",
+      "meanings": [
+        "선수"
+      ],
+      "example": "He is a great soccer player.",
+      "exampleKo": "그는 훌륭한 축구 선수입니다.",
+      "emoji": "🎮"
+    },
+    {
+      "word": "score",
+      "pos": "n",
+      "meanings": [
+        "점수"
+      ],
+      "example": "What is the final score?",
+      "exampleKo": "최종 점수가 어떻게 되나요?",
+      "emoji": ""
+    },
+    {
+      "word": "quickly",
+      "pos": "adv",
+      "meanings": [
+        "빨리",
+        "재빨리"
+      ],
+      "example": "He runs quickly.",
+      "exampleKo": "그는 빨리 달립니다.",
+      "emoji": "💨"
+    },
+    {
+      "word": "slowly",
+      "pos": "adv",
+      "meanings": [
+        "천천히"
+      ],
+      "example": "She walks slowly.",
+      "exampleKo": "그녀는 천천히 걷습니다.",
+      "emoji": "🐌"
+    },
+    {
+      "word": "loudly",
+      "pos": "adv",
+      "meanings": [
+        "큰 소리로"
+      ],
+      "example": "He speaks loudly.",
+      "exampleKo": "그는 큰 소리로 말합니다.",
+      "emoji": "📢"
+    },
+    {
+      "word": "quietly",
+      "pos": "adv",
+      "meanings": [
+        "조용히"
+      ],
+      "example": "Please read quietly.",
+      "exampleKo": "조용히 읽어 주세요.",
+      "emoji": "🤫"
+    },
+    {
+      "word": "carefully",
+      "pos": "adv",
+      "meanings": [
+        "조심스럽게"
+      ],
+      "example": "Cross the street carefully.",
+      "exampleKo": "길을 조심스럽게 건너세요.",
+      "emoji": ""
+    },
+    {
+      "word": "easily",
+      "pos": "adv",
+      "meanings": [
+        "쉽게"
+      ],
+      "example": "She solves the problem easily.",
+      "exampleKo": "그녀는 그 문제를 쉽게 풉니다.",
+      "emoji": ""
+    },
+    {
+      "word": "happily",
+      "pos": "adv",
+      "meanings": [
+        "행복하게"
+      ],
+      "example": "They lived happily.",
+      "exampleKo": "그들은 행복하게 살았습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "sadly",
+      "pos": "adv",
+      "meanings": [
+        "슬프게"
+      ],
+      "example": "She looked at me sadly.",
+      "exampleKo": "그녀는 슬프게 저를 바라보았습니다.",
+      "emoji": "😢"
+    },
+    {
+      "word": "alone",
+      "pos": "adv",
+      "meanings": [
+        "혼자",
+        "홀로"
+      ],
+      "example": "He lives alone.",
+      "exampleKo": "그는 혼자 삽니다.",
+      "emoji": ""
+    },
+    {
+      "word": "apart",
+      "pos": "adv",
+      "meanings": [
+        "떨어져서"
+      ],
+      "example": "The two houses stand apart.",
+      "exampleKo": "두 집은 떨어져 있습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "forward",
+      "pos": "adv",
+      "meanings": [
+        "앞으로"
+      ],
+      "example": "Please step forward.",
+      "exampleKo": "앞으로 나오세요.",
+      "emoji": "➡️"
+    },
+    {
+      "word": "backward",
+      "pos": "adv",
+      "meanings": [
+        "뒤로"
+      ],
+      "example": "Don't walk backward.",
+      "exampleKo": "뒤로 걷지 마세요.",
+      "emoji": ""
+    },
+    {
+      "word": "inside",
+      "pos": "prep",
+      "meanings": [
+        "안에",
+        "안으로"
+      ],
+      "example": "Come inside the house.",
+      "exampleKo": "집 안으로 들어오세요.",
+      "emoji": ""
+    },
+    {
+      "word": "outside",
+      "pos": "adv",
+      "meanings": [
+        "밖에",
+        "밖으로"
+      ],
+      "example": "The kids play outside.",
+      "exampleKo": "아이들은 밖에서 놉니다.",
+      "emoji": ""
+    },
+    {
+      "word": "above",
+      "pos": "prep",
+      "meanings": [
+        "~위에"
+      ],
+      "example": "A plane flies above the clouds.",
+      "exampleKo": "비행기가 구름 위로 날아갑니다.",
+      "emoji": "⬆️"
+    },
+    {
+      "word": "below",
+      "pos": "prep",
+      "meanings": [
+        "~아래에"
+      ],
+      "example": "The fish swim below the boat.",
+      "exampleKo": "물고기가 배 아래에서 헤엄칩니다.",
+      "emoji": ""
+    },
+    {
+      "word": "under",
+      "pos": "prep",
+      "meanings": [
+        "~아래에"
+      ],
+      "example": "The cat sleeps under the table.",
+      "exampleKo": "고양이가 탁자 아래에서 잡니다.",
+      "emoji": ""
+    },
+    {
+      "word": "over",
+      "pos": "prep",
+      "meanings": [
+        "~위에",
+        "~너머"
+      ],
+      "example": "The bird flies over the house.",
+      "exampleKo": "새가 집 위로 날아갑니다.",
+      "emoji": ""
+    },
+    {
+      "word": "between",
+      "pos": "prep",
+      "meanings": [
+        "~사이에"
+      ],
+      "example": "The park is between two schools.",
+      "exampleKo": "그 공원은 두 학교 사이에 있습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "among",
+      "pos": "prep",
+      "meanings": [
+        "~중에",
+        "~사이에"
+      ],
+      "example": "She is popular among her friends.",
+      "exampleKo": "그녀는 친구들 사이에서 인기가 많습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "beside",
+      "pos": "prep",
+      "meanings": [
+        "~옆에"
+      ],
+      "example": "Sit beside me.",
+      "exampleKo": "제 옆에 앉으세요.",
+      "emoji": ""
+    },
+    {
+      "word": "behind",
+      "pos": "prep",
+      "meanings": [
+        "~뒤에"
+      ],
+      "example": "The ball is behind the door.",
+      "exampleKo": "공이 문 뒤에 있습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "through",
+      "pos": "prep",
+      "meanings": [
+        "~을 통해",
+        "~을 지나"
+      ],
+      "example": "We walked through the park.",
+      "exampleKo": "우리는 공원을 지나 걸었습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "across",
+      "pos": "prep",
+      "meanings": [
+        "~을 가로질러"
+      ],
+      "example": "She swims across the river.",
+      "exampleKo": "그녀는 강을 가로질러 헤엄칩니다.",
+      "emoji": ""
+    },
+    {
+      "word": "around",
+      "pos": "prep",
+      "meanings": [
+        "~주위에",
+        "~둘레에"
+      ],
+      "example": "We walked around the lake.",
+      "exampleKo": "우리는 호수 주위를 걸었습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "along",
+      "pos": "prep",
+      "meanings": [
+        "~을 따라"
+      ],
+      "example": "We walk along the beach.",
+      "exampleKo": "우리는 해변을 따라 걷습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "toward",
+      "pos": "prep",
+      "meanings": [
+        "~을 향해"
+      ],
+      "example": "The dog runs toward me.",
+      "exampleKo": "개가 저를 향해 달려옵니다.",
+      "emoji": ""
+    },
+    {
+      "word": "away",
+      "pos": "adv",
+      "meanings": [
+        "멀리",
+        "떨어져"
+      ],
+      "example": "The school is far away.",
+      "exampleKo": "학교는 멀리 떨어져 있습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "everywhere",
+      "pos": "adv",
+      "meanings": [
+        "어디에나",
+        "모든 곳에"
+      ],
+      "example": "I looked everywhere for my pen.",
+      "exampleKo": "저는 제 펜을 찾으려고 모든 곳을 찾아봤습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "somewhere",
+      "pos": "adv",
+      "meanings": [
+        "어딘가에"
+      ],
+      "example": "I left my bag somewhere.",
+      "exampleKo": "저는 제 가방을 어딘가에 두었습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "nowhere",
+      "pos": "adv",
+      "meanings": [
+        "아무 데도"
+      ],
+      "example": "My keys are nowhere to be found.",
+      "exampleKo": "제 열쇠가 아무 데도 없습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "anywhere",
+      "pos": "adv",
+      "meanings": [
+        "어디에나",
+        "어디든"
+      ],
+      "example": "You can sit anywhere.",
+      "exampleKo": "어디든 앉으셔도 됩니다.",
+      "emoji": ""
+    },
+    {
+      "word": "against",
+      "pos": "prep",
+      "meanings": [
+        "~에 맞서",
+        "~에 반대하여"
+      ],
+      "example": "Our team plays against theirs.",
+      "exampleKo": "우리 팀은 그들의 팀과 맞붙습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "also",
+      "pos": "adv",
+      "meanings": [
+        "또한",
+        "역시"
+      ],
+      "example": "I like apples. I also like bananas.",
+      "exampleKo": "저는 사과를 좋아합니다. 저는 또한 바나나도 좋아합니다.",
+      "emoji": ""
+    },
+    {
+      "word": "either",
+      "pos": "adv",
+      "meanings": [
+        "~도(부정문)"
+      ],
+      "example": "I don't like coffee either.",
+      "exampleKo": "저도 커피를 좋아하지 않습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "neither",
+      "pos": "conj",
+      "meanings": [
+        "~도 아니다"
+      ],
+      "example": "Neither of us knows the answer.",
+      "exampleKo": "우리 둘 다 답을 모릅니다.",
+      "emoji": ""
+    },
+    {
+      "word": "unless",
+      "pos": "conj",
+      "meanings": [
+        "~하지 않으면"
+      ],
+      "example": "We won't go unless it stops raining.",
+      "exampleKo": "비가 그치지 않으면 우리는 가지 않을 것입니다.",
+      "emoji": ""
+    },
+    {
+      "word": "whether",
+      "pos": "conj",
+      "meanings": [
+        "~인지 아닌지"
+      ],
+      "example": "I don't know whether he will come.",
+      "exampleKo": "그가 올지 안 올지 모르겠습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "pants",
+      "pos": "n",
+      "meanings": [
+        "바지"
+      ],
+      "example": "He wears blue pants.",
+      "exampleKo": "그는 파란 바지를 입습니다.",
+      "emoji": "👖"
+    },
+    {
+      "word": "jacket",
+      "pos": "n",
+      "meanings": [
+        "재킷"
+      ],
+      "example": "Put on your jacket, it's cold.",
+      "exampleKo": "추우니 재킷을 입으세요.",
+      "emoji": "🧥"
+    },
+    {
+      "word": "coat",
+      "pos": "n",
+      "meanings": [
+        "코트",
+        "외투"
+      ],
+      "example": "She wears a warm coat in winter.",
+      "exampleKo": "그녀는 겨울에 따뜻한 코트를 입습니다.",
+      "emoji": "🧥"
+    },
+    {
+      "word": "sweater",
+      "pos": "n",
+      "meanings": [
+        "스웨터"
+      ],
+      "example": "I like this yellow sweater.",
+      "exampleKo": "저는 이 노란 스웨터가 좋습니다.",
+      "emoji": "🧶"
+    },
+    {
+      "word": "skirt",
+      "pos": "n",
+      "meanings": [
+        "치마"
+      ],
+      "example": "She is wearing a pink skirt.",
+      "exampleKo": "그녀는 분홍색 치마를 입고 있습니다.",
+      "emoji": "👗"
+    },
+    {
+      "word": "glove",
+      "pos": "n",
+      "meanings": [
+        "장갑"
+      ],
+      "example": "Wear gloves in the snow.",
+      "exampleKo": "눈 속에서는 장갑을 끼세요.",
+      "emoji": "🧤"
+    },
+    {
+      "word": "scarf",
+      "pos": "n",
+      "meanings": [
+        "목도리",
+        "스카프"
+      ],
+      "example": "Grandma knit me a scarf.",
+      "exampleKo": "할머니는 저에게 목도리를 떠 주셨습니다.",
+      "emoji": "🧣"
+    },
+    {
+      "word": "boot",
+      "pos": "n",
+      "meanings": [
+        "부츠",
+        "장화"
+      ],
+      "example": "I wear boots in the rain.",
+      "exampleKo": "저는 비 올 때 장화를 신습니다.",
+      "emoji": "👢"
+    },
+    {
+      "word": "belt",
+      "pos": "n",
+      "meanings": [
+        "벨트",
+        "허리띠"
+      ],
+      "example": "He wears a black belt.",
+      "exampleKo": "그는 검은색 벨트를 착용합니다.",
+      "emoji": ""
+    },
+    {
+      "word": "button",
+      "pos": "n",
+      "meanings": [
+        "단추"
+      ],
+      "example": "A button fell off my shirt.",
+      "exampleKo": "제 셔츠에서 단추가 떨어졌습니다.",
+      "emoji": "🔘"
+    },
+    {
+      "word": "notebook",
+      "pos": "n",
+      "meanings": [
+        "공책",
+        "노트"
+      ],
+      "example": "I write in my notebook.",
+      "exampleKo": "저는 제 공책에 씁니다.",
+      "emoji": "📓"
+    },
+    {
+      "word": "backpack",
+      "pos": "n",
+      "meanings": [
+        "책가방",
+        "배낭"
+      ],
+      "example": "My backpack is heavy.",
+      "exampleKo": "제 책가방은 무겁습니다.",
+      "emoji": "🎒"
+    },
+    {
+      "word": "ruler",
+      "pos": "n",
+      "meanings": [
+        "자"
+      ],
+      "example": "Use a ruler to draw a line.",
+      "exampleKo": "선을 그으려면 자를 사용하세요.",
+      "emoji": "📏"
+    },
+    {
+      "word": "scissors",
+      "pos": "n",
+      "meanings": [
+        "가위"
+      ],
+      "example": "Be careful with the scissors.",
+      "exampleKo": "가위를 조심하세요.",
+      "emoji": "✂️"
+    },
+    {
+      "word": "crayon",
+      "pos": "n",
+      "meanings": [
+        "크레용"
+      ],
+      "example": "The children draw with crayons.",
+      "exampleKo": "아이들이 크레용으로 그림을 그립니다.",
+      "emoji": "🖍️"
+    },
+    {
+      "word": "marker",
+      "pos": "n",
+      "meanings": [
+        "마커",
+        "사인펜"
+      ],
+      "example": "I colored the poster with markers.",
+      "exampleKo": "저는 마커로 포스터를 색칠했습니다.",
+      "emoji": "🖊️"
+    },
+    {
+      "word": "textbook",
+      "pos": "n",
+      "meanings": [
+        "교과서"
+      ],
+      "example": "Open your textbook to page ten.",
+      "exampleKo": "교과서 10페이지를 펴세요.",
+      "emoji": "📚"
+    },
+    {
+      "word": "homework",
+      "pos": "n",
+      "meanings": [
+        "숙제"
+      ],
+      "example": "I finish my homework after dinner.",
+      "exampleKo": "저는 저녁 식사 후에 숙제를 끝냅니다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "classroom",
+      "pos": "n",
+      "meanings": [
+        "교실"
+      ],
+      "example": "Our classroom is on the third floor.",
+      "exampleKo": "우리 교실은 3층에 있습니다.",
+      "emoji": "🏫"
+    },
+    {
+      "word": "lesson",
+      "pos": "n",
+      "meanings": [
+        "수업",
+        "교훈"
+      ],
+      "example": "Today's lesson is about plants.",
+      "exampleKo": "오늘 수업은 식물에 관한 것입니다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "parent",
+      "pos": "n",
+      "meanings": [
+        "부모"
+      ],
+      "example": "My parents work hard.",
+      "exampleKo": "제 부모님은 열심히 일하십니다.",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "word": "son",
+      "pos": "n",
+      "meanings": [
+        "아들"
+      ],
+      "example": "He is their only son.",
+      "exampleKo": "그는 그들의 외아들입니다.",
+      "emoji": "👦"
+    },
+    {
+      "word": "daughter",
+      "pos": "n",
+      "meanings": [
+        "딸"
+      ],
+      "example": "Their daughter loves music.",
+      "exampleKo": "그들의 딸은 음악을 좋아합니다.",
+      "emoji": "👧"
+    },
+    {
+      "word": "husband",
+      "pos": "n",
+      "meanings": [
+        "남편"
+      ],
+      "example": "Her husband is a teacher.",
+      "exampleKo": "그녀의 남편은 선생님입니다.",
+      "emoji": "🤵"
+    },
+    {
+      "word": "wife",
+      "pos": "n",
+      "meanings": [
+        "아내"
+      ],
+      "example": "His wife cooks very well.",
+      "exampleKo": "그의 아내는 요리를 매우 잘합니다.",
+      "emoji": "👰"
+    },
+    {
+      "word": "town",
+      "pos": "n",
+      "meanings": [
+        "마을",
+        "소도시"
+      ],
+      "example": "It's a small quiet town.",
+      "exampleKo": "그곳은 작고 조용한 마을입니다.",
+      "emoji": "🏘️"
+    },
+    {
+      "word": "zoo",
+      "pos": "n",
+      "meanings": [
+        "동물원"
+      ],
+      "example": "We visit the zoo every spring.",
+      "exampleKo": "우리는 매년 봄 동물원을 방문합니다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "playground",
+      "pos": "n",
+      "meanings": [
+        "놀이터"
+      ],
+      "example": "Children play at the playground.",
+      "exampleKo": "아이들이 놀이터에서 놉니다.",
+      "emoji": "🛝"
+    },
+    {
+      "word": "bakery",
+      "pos": "n",
+      "meanings": [
+        "빵집",
+        "제과점"
+      ],
+      "example": "The bakery smells like fresh bread.",
+      "exampleKo": "그 빵집에서는 신선한 빵 냄새가 납니다.",
+      "emoji": "🥖"
+    },
+    {
+      "word": "bookstore",
+      "pos": "n",
+      "meanings": [
+        "서점"
+      ],
+      "example": "I bought a book at the bookstore.",
+      "exampleKo": "저는 서점에서 책을 샀습니다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "bank",
+      "pos": "n",
+      "meanings": [
+        "은행"
+      ],
+      "example": "My mom works at a bank.",
+      "exampleKo": "제 엄마는 은행에서 일하십니다.",
+      "emoji": "🏦"
+    },
+    {
+      "word": "square",
+      "pos": "n",
+      "meanings": [
+        "정사각형"
+      ],
+      "example": "The box is a square shape.",
+      "exampleKo": "그 상자는 정사각형 모양입니다.",
+      "emoji": "⬛"
+    },
+    {
+      "word": "fourth",
+      "pos": "num",
+      "meanings": [
+        "네 번째의"
+      ],
+      "example": "This is the fourth chapter.",
+      "exampleKo": "이것은 네 번째 장입니다.",
+      "emoji": ""
+    },
+    {
+      "word": "fifth",
+      "pos": "num",
+      "meanings": [
+        "다섯 번째의"
+      ],
+      "example": "Today is her fifth birthday.",
+      "exampleKo": "오늘은 그녀의 다섯 번째 생일입니다.",
+      "emoji": ""
+    },
+    {
+      "word": "sofa",
+      "pos": "n",
+      "meanings": [
+        "소파"
+      ],
+      "example": "We sit on the sofa and read.",
+      "exampleKo": "우리는 소파에 앉아서 책을 읽습니다.",
+      "emoji": "🛋️"
+    },
+    {
+      "word": "lamp",
+      "pos": "n",
+      "meanings": [
+        "램프",
+        "전등"
+      ],
+      "example": "Turn on the lamp, please.",
+      "exampleKo": "램프를 켜 주세요.",
+      "emoji": "💡"
+    },
+    {
+      "word": "mirror",
+      "pos": "n",
+      "meanings": [
+        "거울"
+      ],
+      "example": "She looks in the mirror.",
+      "exampleKo": "그녀는 거울을 봅니다.",
+      "emoji": "🪞"
+    },
+    {
+      "word": "closet",
+      "pos": "n",
+      "meanings": [
+        "옷장"
+      ],
+      "example": "Hang your coat in the closet.",
+      "exampleKo": "코트를 옷장에 거세요.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "curtain",
+      "pos": "n",
+      "meanings": [
+        "커튼"
+      ],
+      "example": "Close the curtain, please.",
+      "exampleKo": "커튼을 닫아 주세요.",
+      "emoji": ""
+    },
+    {
+      "word": "carpet",
+      "pos": "n",
+      "meanings": [
+        "카펫",
+        "양탄자"
+      ],
+      "example": "The carpet is soft.",
+      "exampleKo": "그 카펫은 부드럽습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "roof",
+      "pos": "n",
+      "meanings": [
+        "지붕"
+      ],
+      "example": "Snow covers the roof.",
+      "exampleKo": "눈이 지붕을 덮습니다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "wall",
+      "pos": "n",
+      "meanings": [
+        "벽"
+      ],
+      "example": "We hang pictures on the wall.",
+      "exampleKo": "우리는 벽에 그림을 겁니다.",
+      "emoji": "🧱"
+    },
+    {
+      "word": "floor",
+      "pos": "n",
+      "meanings": [
+        "바닥",
+        "층"
+      ],
+      "example": "The toys are on the floor.",
+      "exampleKo": "장난감들이 바닥에 있습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "rainy",
+      "pos": "adj",
+      "meanings": [
+        "비가 오는"
+      ],
+      "example": "It is a rainy day.",
+      "exampleKo": "비가 오는 날입니다.",
+      "emoji": "🌧️"
+    },
+    {
+      "word": "snowy",
+      "pos": "adj",
+      "meanings": [
+        "눈이 오는"
+      ],
+      "example": "The snowy street is quiet.",
+      "exampleKo": "눈 내리는 거리는 조용합니다.",
+      "emoji": "❄️"
+    },
+    {
+      "word": "foggy",
+      "pos": "adj",
+      "meanings": [
+        "안개가 낀"
+      ],
+      "example": "It is foggy this morning.",
+      "exampleKo": "오늘 아침은 안개가 꼈습니다.",
+      "emoji": "🌫️"
+    },
+    {
+      "word": "humid",
+      "pos": "adj",
+      "meanings": [
+        "습한"
+      ],
+      "example": "The weather is hot and humid.",
+      "exampleKo": "날씨가 덥고 습합니다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "dry",
+      "pos": "adj",
+      "meanings": [
+        "건조한"
+      ],
+      "example": "The desert air is very dry.",
+      "exampleKo": "사막의 공기는 매우 건조합니다.",
+      "emoji": "🏜️"
+    },
+    {
+      "word": "sick",
+      "pos": "adj",
+      "meanings": [
+        "아픈"
+      ],
+      "example": "He is sick today.",
+      "exampleKo": "그는 오늘 아픕니다.",
+      "emoji": "🤒"
+    },
+    {
+      "word": "medicine",
+      "pos": "n",
+      "meanings": [
+        "약"
+      ],
+      "example": "Take your medicine after meals.",
+      "exampleKo": "식사 후에 약을 드세요.",
+      "emoji": "💊"
+    },
+    {
+      "word": "pain",
+      "pos": "n",
+      "meanings": [
+        "통증",
+        "아픔"
+      ],
+      "example": "She has a pain in her leg.",
+      "exampleKo": "그녀는 다리에 통증이 있습니다.",
+      "emoji": "😖"
+    },
+    {
+      "word": "fever",
+      "pos": "n",
+      "meanings": [
+        "열"
+      ],
+      "example": "The baby has a fever.",
+      "exampleKo": "아기가 열이 있습니다.",
+      "emoji": "🤒"
+    },
+    {
+      "word": "headache",
+      "pos": "n",
+      "meanings": [
+        "두통"
+      ],
+      "example": "I have a headache today.",
+      "exampleKo": "저는 오늘 두통이 있습니다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "raincoat",
+      "pos": "n",
+      "meanings": [
+        "우비"
+      ],
+      "example": "Wear your raincoat, it's raining.",
+      "exampleKo": "비가 오니 우비를 입으세요.",
+      "emoji": "🧥"
+    },
+    {
+      "word": "swimsuit",
+      "pos": "n",
+      "meanings": [
+        "수영복"
+      ],
+      "example": "Bring your swimsuit to the pool.",
+      "exampleKo": "수영장에 수영복을 가져오세요.",
+      "emoji": "🩱"
+    },
+    {
+      "word": "pajamas",
+      "pos": "n",
+      "meanings": [
+        "잠옷"
+      ],
+      "example": "I wear pajamas to sleep.",
+      "exampleKo": "저는 잠옷을 입고 잡니다.",
+      "emoji": "👗"
+    },
+    {
+      "word": "mitten",
+      "pos": "n",
+      "meanings": [
+        "벙어리장갑"
+      ],
+      "example": "She wears mittens in winter.",
+      "exampleKo": "그녀는 겨울에 벙어리장갑을 낍니다.",
+      "emoji": "🧤"
+    },
+    {
+      "word": "sunglasses",
+      "pos": "n",
+      "meanings": [
+        "선글라스"
+      ],
+      "example": "He wears sunglasses at the beach.",
+      "exampleKo": "그는 해변에서 선글라스를 씁니다.",
+      "emoji": "🕶️"
+    },
+    {
+      "word": "blanket",
+      "pos": "n",
+      "meanings": [
+        "담요"
+      ],
+      "example": "I sleep with a warm blanket.",
+      "exampleKo": "저는 따뜻한 담요를 덮고 잡니다.",
+      "emoji": "🛏️"
+    },
+    {
+      "word": "pillow",
+      "pos": "n",
+      "meanings": [
+        "베개"
+      ],
+      "example": "My pillow is very soft.",
+      "exampleKo": "제 베개는 매우 부드럽습니다.",
+      "emoji": ""
+    },
+    {
+      "word": "towel",
+      "pos": "n",
+      "meanings": [
+        "수건"
+      ],
+      "example": "Dry your hands with a towel.",
+      "exampleKo": "수건으로 손을 말리세요.",
+      "emoji": "🧻"
+    }
+  ]
+}

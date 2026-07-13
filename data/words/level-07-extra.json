@@ -1,0 +1,8 @@
+{
+  "level": 7,
+  "words": [
+    {"word": "wonder", "pos": "v", "meanings": ["궁금해하다","궁금하다"], "example": "I wonder why the sky is blue.", "exampleKo": "나는 하늘이 왜 파란지 궁금하다.", "emoji": "🤔"},
+    {"word": "guess", "pos": "v", "meanings": ["추측하다","짐작하다"], "example": "Can you guess my age?", "exampleKo": "내 나이를 맞혀 볼래?", "emoji": "🤷"},
+    {"word": "share", "pos": "v", "meanings": ["나누다","공유하다","함께 쓰다"], "example": "I share a room with my brother.", "exampleKo": "나는 형과 방을 함께 쓴다.", "emoji": "🤝"}
+  ]
+}

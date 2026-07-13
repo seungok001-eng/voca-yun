@@ -1,0 +1,1947 @@
+{
+  "level": 13,
+  "words": [
+    {
+      "word": "grief",
+      "pos": "n",
+      "meanings": [
+        "큰 슬픔",
+        "비탄"
+      ],
+      "example": "The loss of her grandmother filled her with deep grief.",
+      "exampleKo": "할머니를 잃은 것은 그녀를 깊은 슬픔으로 가득 채웠다.",
+      "emoji": "💔"
+    },
+    {
+      "word": "sorrow",
+      "pos": "n",
+      "meanings": [
+        "슬픔",
+        "비애"
+      ],
+      "example": "He could not hide the sorrow in his eyes after the news.",
+      "exampleKo": "그는 그 소식을 들은 후 눈에 어린 슬픔을 감출 수 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "despair",
+      "pos": "n",
+      "meanings": [
+        "절망"
+      ],
+      "example": "A sense of despair spread through the town after the factory closed.",
+      "exampleKo": "공장이 문을 닫은 후 마을에 절망감이 퍼졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "gloom",
+      "pos": "n",
+      "meanings": [
+        "우울",
+        "암울함"
+      ],
+      "example": "A feeling of gloom settled over the class when the trip was cancelled.",
+      "exampleKo": "여행이 취소되자 반 전체에 우울한 분위기가 감돌았다.",
+      "emoji": ""
+    },
+    {
+      "word": "melancholy",
+      "pos": "n",
+      "meanings": [
+        "우울감",
+        "쓸쓸함"
+      ],
+      "example": "The old song filled her with a strange melancholy.",
+      "exampleKo": "그 오래된 노래는 그녀를 이상한 쓸쓸함으로 채웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "nostalgia",
+      "pos": "n",
+      "meanings": [
+        "향수",
+        "옛 추억에 대한 그리움"
+      ],
+      "example": "Looking at the photographs, he was overcome with nostalgia for his childhood.",
+      "exampleKo": "사진들을 보며 그는 어린 시절에 대한 향수에 사로잡혔다.",
+      "emoji": ""
+    },
+    {
+      "word": "euphoria",
+      "pos": "n",
+      "meanings": [
+        "행복감",
+        "극도의 희열"
+      ],
+      "example": "A wave of euphoria swept over the team when they won the championship.",
+      "exampleKo": "팀이 우승했을 때 벅찬 행복감이 밀려왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "agitation",
+      "pos": "n",
+      "meanings": [
+        "동요",
+        "불안"
+      ],
+      "example": "She spoke with obvious agitation about the missed deadline.",
+      "exampleKo": "그녀는 마감을 놓친 것에 대해 눈에 띄게 동요하며 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "apprehension",
+      "pos": "n",
+      "meanings": [
+        "불안감",
+        "우려"
+      ],
+      "example": "He felt a growing apprehension as the exam date approached.",
+      "exampleKo": "시험 날짜가 다가오자 그는 점점 불안해졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "dread",
+      "pos": "n",
+      "meanings": [
+        "두려움",
+        "공포"
+      ],
+      "example": "A sense of dread filled her before the surgery.",
+      "exampleKo": "수술을 앞두고 그녀는 두려움에 휩싸였다.",
+      "emoji": ""
+    },
+    {
+      "word": "misery",
+      "pos": "n",
+      "meanings": [
+        "고통",
+        "비참함"
+      ],
+      "example": "The long war brought years of misery to the region.",
+      "exampleKo": "그 긴 전쟁은 그 지역에 수년간의 고통을 가져왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "jealousy",
+      "pos": "n",
+      "meanings": [
+        "질투"
+      ],
+      "example": "His jealousy grew whenever his friend received praise.",
+      "exampleKo": "친구가 칭찬을 받을 때마다 그의 질투심이 커졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "envy",
+      "pos": "n",
+      "meanings": [
+        "부러움",
+        "선망"
+      ],
+      "example": "She looked at her sister's new bike with envy.",
+      "exampleKo": "그녀는 언니의 새 자전거를 부러운 눈으로 바라보았다.",
+      "emoji": "😒"
+    },
+    {
+      "word": "guilt",
+      "pos": "n",
+      "meanings": [
+        "죄책감"
+      ],
+      "example": "He was consumed by guilt after lying to his parents.",
+      "exampleKo": "그는 부모님께 거짓말을 한 후 죄책감에 시달렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "shame",
+      "pos": "n",
+      "meanings": [
+        "수치심"
+      ],
+      "example": "A deep shame washed over him when he was caught cheating.",
+      "exampleKo": "부정행위가 들켰을 때 그는 깊은 수치심에 휩싸였다.",
+      "emoji": ""
+    },
+    {
+      "word": "embarrassment",
+      "pos": "n",
+      "meanings": [
+        "당혹감",
+        "창피함"
+      ],
+      "example": "To her embarrassment, she tripped in front of the whole class.",
+      "exampleKo": "당혹스럽게도 그녀는 반 전체 앞에서 넘어졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "humiliation",
+      "pos": "n",
+      "meanings": [
+        "굴욕"
+      ],
+      "example": "Losing the match in front of his family was a bitter humiliation.",
+      "exampleKo": "가족들 앞에서 경기에 진 것은 쓰라린 굴욕이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "remorse",
+      "pos": "n",
+      "meanings": [
+        "후회",
+        "양심의 가책"
+      ],
+      "example": "The driver showed deep remorse for the accident he had caused.",
+      "exampleKo": "그 운전자는 자신이 낸 사고에 깊은 후회를 나타냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "relief",
+      "pos": "n",
+      "meanings": [
+        "안도"
+      ],
+      "example": "She let out a sigh of relief when the results came back normal.",
+      "exampleKo": "결과가 정상으로 나오자 그녀는 안도의 한숨을 내쉬었다.",
+      "emoji": "😮‍💨"
+    },
+    {
+      "word": "contentment",
+      "pos": "n",
+      "meanings": [
+        "만족감"
+      ],
+      "example": "A quiet contentment filled him as he watched the sunset.",
+      "exampleKo": "그는 노을을 바라보며 조용한 만족감을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "gratitude",
+      "pos": "n",
+      "meanings": [
+        "감사"
+      ],
+      "example": "She wrote a letter to express her gratitude to her teacher.",
+      "exampleKo": "그녀는 선생님께 감사를 표현하기 위해 편지를 썼다.",
+      "emoji": "🙏"
+    },
+    {
+      "word": "compassion",
+      "pos": "n",
+      "meanings": [
+        "연민",
+        "동정심"
+      ],
+      "example": "The nurse treated every patient with great compassion.",
+      "exampleKo": "그 간호사는 모든 환자를 큰 연민으로 대했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sympathy",
+      "pos": "n",
+      "meanings": [
+        "동정",
+        "공감"
+      ],
+      "example": "Friends offered their sympathy after hearing about his loss.",
+      "exampleKo": "그의 상실 소식을 들은 친구들은 위로를 전했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pity",
+      "pos": "n",
+      "meanings": [
+        "연민",
+        "동정"
+      ],
+      "example": "She felt pity for the stray dog shivering in the rain.",
+      "exampleKo": "그녀는 빗속에서 떨고 있는 유기견을 보며 연민을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "longing",
+      "pos": "n",
+      "meanings": [
+        "갈망",
+        "그리움"
+      ],
+      "example": "He felt a longing for the mountains of his hometown.",
+      "exampleKo": "그는 고향의 산들을 향한 그리움을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "tedium",
+      "pos": "n",
+      "meanings": [
+        "지루함",
+        "권태"
+      ],
+      "example": "The tedium of the long meeting made everyone restless.",
+      "exampleKo": "긴 회의의 지루함에 모두가 안절부절못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "anguish",
+      "pos": "n",
+      "meanings": [
+        "고뇌",
+        "괴로움"
+      ],
+      "example": "The mother waited in anguish for news of her missing son.",
+      "exampleKo": "어머니는 실종된 아들의 소식을 애타는 마음으로 기다렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "turmoil",
+      "pos": "n",
+      "meanings": [
+        "혼란",
+        "동요"
+      ],
+      "example": "Her mind was in turmoil after receiving the unexpected letter.",
+      "exampleKo": "예상치 못한 편지를 받은 후 그녀의 마음은 혼란스러웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "resentment",
+      "pos": "n",
+      "meanings": [
+        "분함",
+        "억울함"
+      ],
+      "example": "He harbored resentment toward his brother for years.",
+      "exampleKo": "그는 수년간 형에 대한 원망을 품고 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "bliss",
+      "pos": "n",
+      "meanings": [
+        "더없는 행복"
+      ],
+      "example": "For a moment, holding the newborn, she felt pure bliss.",
+      "exampleKo": "갓난아기를 안고 있는 순간, 그녀는 더없는 행복을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "somber",
+      "pos": "adj",
+      "meanings": [
+        "침울한",
+        "어두운"
+      ],
+      "example": "A somber mood filled the hall after the announcement.",
+      "exampleKo": "그 발표 이후 강당에는 침울한 분위기가 감돌았다.",
+      "emoji": ""
+    },
+    {
+      "word": "melancholic",
+      "pos": "adj",
+      "meanings": [
+        "우울한",
+        "쓸쓸한"
+      ],
+      "example": "The film had a melancholic tone that stayed with viewers.",
+      "exampleKo": "그 영화는 관객들의 마음에 남는 쓸쓸한 분위기를 지니고 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "nostalgic",
+      "pos": "adj",
+      "meanings": [
+        "향수를 불러일으키는"
+      ],
+      "example": "The smell of fresh bread made her feel nostalgic about her grandmother's kitchen.",
+      "exampleKo": "갓 구운 빵 냄새는 그녀에게 할머니의 부엌에 대한 향수를 불러일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "euphoric",
+      "pos": "adj",
+      "meanings": [
+        "행복감에 넘치는"
+      ],
+      "example": "The crowd was euphoric after their team scored the winning goal.",
+      "exampleKo": "팀이 결승골을 넣자 관중들은 환희에 넘쳤다.",
+      "emoji": "🥳"
+    },
+    {
+      "word": "agitated",
+      "pos": "adj",
+      "meanings": [
+        "동요된",
+        "불안한"
+      ],
+      "example": "The passengers grew agitated as the flight was delayed for hours.",
+      "exampleKo": "비행기가 몇 시간이나 지연되자 승객들은 초조해졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "jittery",
+      "pos": "adj",
+      "meanings": [
+        "초조한",
+        "불안해하는"
+      ],
+      "example": "He felt jittery waiting for his interview to begin.",
+      "exampleKo": "그는 면접이 시작되기를 기다리며 초조했다.",
+      "emoji": ""
+    },
+    {
+      "word": "dreadful",
+      "pos": "adj",
+      "meanings": [
+        "끔찍한",
+        "두려운"
+      ],
+      "example": "The news of the earthquake was dreadful to hear.",
+      "exampleKo": "지진 소식을 듣는 것은 끔찍했다.",
+      "emoji": ""
+    },
+    {
+      "word": "forlorn",
+      "pos": "adj",
+      "meanings": [
+        "비참한",
+        "쓸쓸한"
+      ],
+      "example": "The forlorn puppy sat alone in the empty yard.",
+      "exampleKo": "그 쓸쓸한 강아지는 텅 빈 마당에 홀로 앉아 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "possessive",
+      "pos": "adj",
+      "meanings": [
+        "소유욕이 강한",
+        "독점욕이 강한"
+      ],
+      "example": "He became possessive whenever his best friend talked to someone new.",
+      "exampleKo": "가장 친한 친구가 새로운 사람과 이야기할 때마다 그는 소유욕을 드러냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "covetous",
+      "pos": "adj",
+      "meanings": [
+        "탐내는",
+        "부러워하는"
+      ],
+      "example": "She cast a covetous glance at her friend's new phone.",
+      "exampleKo": "그녀는 친구의 새 휴대폰을 탐내는 눈길로 바라보았다.",
+      "emoji": ""
+    },
+    {
+      "word": "repentant",
+      "pos": "adj",
+      "meanings": [
+        "뉘우치는",
+        "참회하는"
+      ],
+      "example": "He looked repentant after realizing he had hurt her feelings.",
+      "exampleKo": "그는 그녀의 마음을 상하게 했다는 것을 깨닫고 뉘우치는 표정을 지었다.",
+      "emoji": ""
+    },
+    {
+      "word": "mortified",
+      "pos": "adj",
+      "meanings": [
+        "몹시 창피한",
+        "굴욕적인"
+      ],
+      "example": "She was mortified when her phone rang loudly during the exam.",
+      "exampleKo": "시험 도중 휴대폰이 크게 울리자 그녀는 몹시 창피했다.",
+      "emoji": ""
+    },
+    {
+      "word": "flustered",
+      "pos": "adj",
+      "meanings": [
+        "당황한",
+        "허둥대는"
+      ],
+      "example": "The waiter looked flustered after mixing up the orders.",
+      "exampleKo": "그 종업원은 주문을 뒤섞은 후 당황한 모습이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "humiliated",
+      "pos": "adj",
+      "meanings": [
+        "굴욕감을 느끼는"
+      ],
+      "example": "She felt humiliated when her mistake was pointed out in front of everyone.",
+      "exampleKo": "모두 앞에서 실수가 지적되자 그녀는 굴욕감을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "remorseful",
+      "pos": "adj",
+      "meanings": [
+        "후회하는",
+        "뉘우치는"
+      ],
+      "example": "He seemed genuinely remorseful about breaking his promise.",
+      "exampleKo": "그는 약속을 어긴 것에 대해 진심으로 뉘우치는 듯했다.",
+      "emoji": ""
+    },
+    {
+      "word": "unburdened",
+      "pos": "adj",
+      "meanings": [
+        "부담을 덜어낸",
+        "홀가분한"
+      ],
+      "example": "He felt unburdened after finally telling his parents the truth.",
+      "exampleKo": "마침내 부모님께 사실을 말한 후 그는 홀가분함을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "gratified",
+      "pos": "adj",
+      "meanings": [
+        "만족한",
+        "흡족해하는"
+      ],
+      "example": "She felt gratified seeing her students succeed on their own.",
+      "exampleKo": "학생들이 스스로 성공하는 것을 보며 그녀는 흡족함을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "appreciative",
+      "pos": "adj",
+      "meanings": [
+        "고마워하는",
+        "감사히 여기는"
+      ],
+      "example": "He was deeply appreciative of the help his neighbors gave him.",
+      "exampleKo": "그는 이웃들이 준 도움에 깊이 감사했다.",
+      "emoji": ""
+    },
+    {
+      "word": "affectionate",
+      "pos": "adj",
+      "meanings": [
+        "다정한",
+        "애정어린"
+      ],
+      "example": "The dog gave its owner an affectionate look before falling asleep.",
+      "exampleKo": "그 개는 잠들기 전 주인에게 다정한 눈길을 보냈다.",
+      "emoji": "🥰"
+    },
+    {
+      "word": "compassionate",
+      "pos": "adj",
+      "meanings": [
+        "동정심 많은",
+        "인정 많은"
+      ],
+      "example": "The doctor was known for being compassionate toward frightened children.",
+      "exampleKo": "그 의사는 겁먹은 아이들에게 인정이 많기로 유명했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sympathetic",
+      "pos": "adj",
+      "meanings": [
+        "동정적인",
+        "공감하는"
+      ],
+      "example": "Her teacher was sympathetic when she explained why the homework was late.",
+      "exampleKo": "숙제가 늦은 이유를 설명하자 선생님은 이해해 주셨다.",
+      "emoji": ""
+    },
+    {
+      "word": "pitiful",
+      "pos": "adj",
+      "meanings": [
+        "측은한",
+        "가엾은"
+      ],
+      "example": "The pitiful cry of the kitten drew everyone's attention.",
+      "exampleKo": "새끼 고양이의 애처로운 울음소리가 모두의 관심을 끌었다.",
+      "emoji": ""
+    },
+    {
+      "word": "weary",
+      "pos": "adj",
+      "meanings": [
+        "지친",
+        "피곤한"
+      ],
+      "example": "After the long hike, the students looked weary but happy.",
+      "exampleKo": "긴 도보 여행 후 학생들은 지쳤지만 행복해 보였다.",
+      "emoji": "🥱"
+    },
+    {
+      "word": "resentful",
+      "pos": "adj",
+      "meanings": [
+        "분개하는",
+        "억울해하는"
+      ],
+      "example": "He grew resentful of being blamed for something he didn't do.",
+      "exampleKo": "그는 하지도 않은 일로 비난받은 것에 분개했다.",
+      "emoji": ""
+    },
+    {
+      "word": "antagonistic",
+      "pos": "adj",
+      "meanings": [
+        "적대적인"
+      ],
+      "example": "The two rival teams grew antagonistic as the tournament went on.",
+      "exampleKo": "토너먼트가 진행되면서 두 라이벌 팀은 점점 적대적으로 변했다.",
+      "emoji": ""
+    },
+    {
+      "word": "serene",
+      "pos": "adj",
+      "meanings": [
+        "평온한",
+        "고요한"
+      ],
+      "example": "The lake looked serene under the morning light.",
+      "exampleKo": "그 호수는 아침 햇살 아래 고요해 보였다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "tranquil",
+      "pos": "adj",
+      "meanings": [
+        "고요한",
+        "평화로운"
+      ],
+      "example": "They spent a tranquil afternoon reading by the river.",
+      "exampleKo": "그들은 강가에서 책을 읽으며 평온한 오후를 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "discontented",
+      "pos": "adj",
+      "meanings": [
+        "불만스러운"
+      ],
+      "example": "The workers grew discontented with their long hours and low pay.",
+      "exampleKo": "노동자들은 긴 근무 시간과 낮은 임금에 불만이 커졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "disheartened",
+      "pos": "adj",
+      "meanings": [
+        "낙담한",
+        "실망한"
+      ],
+      "example": "The players looked disheartened after their winning streak ended.",
+      "exampleKo": "연승 행진이 끝나자 선수들은 낙담한 표정이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "meek",
+      "pos": "adj",
+      "meanings": [
+        "온순한",
+        "소심한"
+      ],
+      "example": "His meek manner made him easy to overlook in meetings.",
+      "exampleKo": "그의 온순한 태도 때문에 회의에서 그는 쉽게 간과되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "bashful",
+      "pos": "adj",
+      "meanings": [
+        "수줍어하는"
+      ],
+      "example": "She gave a bashful smile when she was complimented.",
+      "exampleKo": "그녀는 칭찬을 받자 수줍은 미소를 지었다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "haughty",
+      "pos": "adj",
+      "meanings": [
+        "거만한",
+        "오만한"
+      ],
+      "example": "Her haughty tone made the new students feel unwelcome.",
+      "exampleKo": "그녀의 거만한 말투는 신입생들이 환영받지 못한다고 느끼게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "unassuming",
+      "pos": "adj",
+      "meanings": [
+        "겸손한",
+        "잘난 체하지 않는"
+      ],
+      "example": "Despite winning the prize, he remained unassuming and quiet.",
+      "exampleKo": "상을 받았음에도 그는 겸손하고 조용한 태도를 유지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "unpretentious",
+      "pos": "adj",
+      "meanings": [
+        "가식 없는",
+        "소박한"
+      ],
+      "example": "She gave an unpretentious speech about her years of hard work.",
+      "exampleKo": "그녀는 오랜 노력에 대해 가식 없는 연설을 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "headstrong",
+      "pos": "adj",
+      "meanings": [
+        "고집 센",
+        "제멋대로인"
+      ],
+      "example": "The headstrong toddler refused to hold anyone's hand.",
+      "exampleKo": "그 고집 센 아이는 누구의 손도 잡으려 하지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "unyielding",
+      "pos": "adj",
+      "meanings": [
+        "완고한",
+        "단호한"
+      ],
+      "example": "His unyielding attitude made the negotiation drag on for hours.",
+      "exampleKo": "그의 완고한 태도 때문에 협상이 몇 시간이나 지연되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "wary",
+      "pos": "adj",
+      "meanings": [
+        "경계하는",
+        "조심하는"
+      ],
+      "example": "She stayed wary of strangers who approached her too quickly.",
+      "exampleKo": "그녀는 너무 빨리 다가오는 낯선 사람들을 경계했다.",
+      "emoji": "🧐"
+    },
+    {
+      "word": "reckless",
+      "pos": "adj",
+      "meanings": [
+        "무모한",
+        "경솔한"
+      ],
+      "example": "The reckless driver ignored every warning sign on the road.",
+      "exampleKo": "그 무모한 운전자는 도로의 모든 경고 표지판을 무시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "impulsive",
+      "pos": "adj",
+      "meanings": [
+        "충동적인"
+      ],
+      "example": "Buying the expensive jacket was an impulsive decision she later regretted.",
+      "exampleKo": "그 비싼 재킷을 산 것은 그녀가 나중에 후회한 충동적인 결정이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "painstaking",
+      "pos": "adj",
+      "meanings": [
+        "공들인",
+        "꼼꼼한"
+      ],
+      "example": "His painstaking attention to detail made the project a success.",
+      "exampleKo": "세부 사항에 대한 그의 꼼꼼한 주의 덕분에 그 프로젝트는 성공했다.",
+      "emoji": ""
+    },
+    {
+      "word": "industrious",
+      "pos": "adj",
+      "meanings": [
+        "근면한",
+        "부지런한"
+      ],
+      "example": "The industrious student finished every assignment ahead of schedule.",
+      "exampleKo": "그 부지런한 학생은 모든 과제를 기한보다 일찍 끝냈다.",
+      "emoji": "🐝"
+    },
+    {
+      "word": "kindhearted",
+      "pos": "adj",
+      "meanings": [
+        "마음씨 착한",
+        "인정 많은"
+      ],
+      "example": "The kindhearted shopkeeper let the boy pay for the bread later.",
+      "exampleKo": "마음씨 착한 가게 주인은 소년이 빵값을 나중에 내도록 해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "stingy",
+      "pos": "adj",
+      "meanings": [
+        "인색한"
+      ],
+      "example": "He was too stingy to buy his friends a small gift.",
+      "exampleKo": "그는 너무 인색해서 친구들에게 작은 선물조차 사 주지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "greedy",
+      "pos": "adj",
+      "meanings": [
+        "탐욕스러운"
+      ],
+      "example": "The greedy merchant raised his prices during the shortage.",
+      "exampleKo": "그 탐욕스러운 상인은 물자 부족 동안 가격을 올렸다.",
+      "emoji": "🤑"
+    },
+    {
+      "word": "egocentric",
+      "pos": "adj",
+      "meanings": [
+        "자기중심적인"
+      ],
+      "example": "His egocentric habit of interrupting others annoyed the whole class.",
+      "exampleKo": "다른 사람의 말을 끊는 그의 자기중심적인 습관은 반 전체를 짜증나게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "accommodating",
+      "pos": "adj",
+      "meanings": [
+        "배려하는",
+        "협조적인"
+      ],
+      "example": "The host was accommodating, adjusting the schedule for latecomers.",
+      "exampleKo": "주최자는 배려심이 있어 늦게 온 사람들을 위해 일정을 조정해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "nurturing",
+      "pos": "adj",
+      "meanings": [
+        "보살피는",
+        "양육하는"
+      ],
+      "example": "Growing up in a nurturing home gave her great confidence.",
+      "exampleKo": "보살핌이 많은 가정에서 자란 것은 그녀에게 큰 자신감을 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "tactless",
+      "pos": "adj",
+      "meanings": [
+        "눈치 없는",
+        "무신경한"
+      ],
+      "example": "His tactless comment about her weight hurt her feelings.",
+      "exampleKo": "그녀의 체중에 대한 그의 무신경한 발언은 그녀의 마음을 상하게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "blunt",
+      "pos": "adj",
+      "meanings": [
+        "직설적인",
+        "무뚝뚝한"
+      ],
+      "example": "Her blunt feedback surprised the new employee.",
+      "exampleKo": "그녀의 직설적인 피드백은 신입 사원을 놀라게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tender",
+      "pos": "adj",
+      "meanings": [
+        "다정한",
+        "부드러운"
+      ],
+      "example": "He spoke in a tender voice to calm his little sister.",
+      "exampleKo": "그는 어린 여동생을 진정시키기 위해 다정한 목소리로 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "stern",
+      "pos": "adj",
+      "meanings": [
+        "엄격한",
+        "단호한"
+      ],
+      "example": "The coach gave the players a stern warning about being late.",
+      "exampleKo": "코치는 선수들에게 지각에 대해 엄격한 경고를 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "restless",
+      "pos": "adj",
+      "meanings": [
+        "안절부절못하는"
+      ],
+      "example": "The children grew restless during the long car ride.",
+      "exampleKo": "긴 차 여행 동안 아이들은 안절부절못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "jumpy",
+      "pos": "adj",
+      "meanings": [
+        "신경과민의",
+        "조마조마한"
+      ],
+      "example": "She grew jumpy after watching the horror movie alone.",
+      "exampleKo": "그녀는 혼자 공포 영화를 본 후 신경이 예민해졌다.",
+      "emoji": "😱"
+    },
+    {
+      "word": "courageous",
+      "pos": "adj",
+      "meanings": [
+        "용감한"
+      ],
+      "example": "The courageous firefighter ran back into the burning building to save the dog.",
+      "exampleKo": "그 용감한 소방관은 개를 구하기 위해 불타는 건물로 다시 뛰어들어갔다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "cowardly",
+      "pos": "adj",
+      "meanings": [
+        "비겁한",
+        "겁많은"
+      ],
+      "example": "Running away from the argument was a cowardly thing to do.",
+      "exampleKo": "말다툼에서 도망친 것은 비겁한 행동이었다.",
+      "emoji": "🐔"
+    },
+    {
+      "word": "daring",
+      "pos": "adj",
+      "meanings": [
+        "대담한"
+      ],
+      "example": "His daring plan to cross the river impressed the whole team.",
+      "exampleKo": "강을 건너겠다는 그의 대담한 계획은 팀 전체를 감동시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "outspoken",
+      "pos": "adj",
+      "meanings": [
+        "거침없이 말하는",
+        "솔직한"
+      ],
+      "example": "She has always been outspoken about issues she cares about.",
+      "exampleKo": "그녀는 자신이 중요하게 여기는 문제에 대해 항상 거침없이 말해 왔다.",
+      "emoji": "📢"
+    },
+    {
+      "word": "submissive",
+      "pos": "adj",
+      "meanings": [
+        "순종적인",
+        "복종하는"
+      ],
+      "example": "The younger dog remained submissive around the older one.",
+      "exampleKo": "어린 개는 나이 든 개 앞에서 계속 순종적인 태도를 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "combative",
+      "pos": "adj",
+      "meanings": [
+        "호전적인",
+        "공격적인"
+      ],
+      "example": "His combative tone turned the friendly debate into an argument.",
+      "exampleKo": "그의 호전적인 어조는 우호적인 토론을 말다툼으로 바꿔 놓았다.",
+      "emoji": ""
+    },
+    {
+      "word": "passive",
+      "pos": "adj",
+      "meanings": [
+        "수동적인",
+        "소극적인"
+      ],
+      "example": "He took a passive role during the group discussion.",
+      "exampleKo": "그는 조별 토론에서 수동적인 역할을 맡았다.",
+      "emoji": ""
+    },
+    {
+      "word": "gregarious",
+      "pos": "adj",
+      "meanings": [
+        "사교적인",
+        "어울리기 좋아하는"
+      ],
+      "example": "Her gregarious personality made every party more lively.",
+      "exampleKo": "그녀의 사교적인 성격은 모든 파티를 더욱 활기차게 만들었다.",
+      "emoji": "🎉"
+    },
+    {
+      "word": "introverted",
+      "pos": "adj",
+      "meanings": [
+        "내성적인"
+      ],
+      "example": "As an introverted student, he preferred reading alone to parties.",
+      "exampleKo": "내성적인 학생인 그는 파티보다 혼자 책 읽기를 선호했다.",
+      "emoji": ""
+    },
+    {
+      "word": "loquacious",
+      "pos": "adj",
+      "meanings": [
+        "말이 많은",
+        "수다스러운"
+      ],
+      "example": "The loquacious taxi driver talked the entire ride into town.",
+      "exampleKo": "그 수다스러운 택시 기사는 시내로 가는 내내 이야기를 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "guarded",
+      "pos": "adj",
+      "meanings": [
+        "조심스러운",
+        "경계하는"
+      ],
+      "example": "He stayed guarded about his personal life even with close coworkers.",
+      "exampleKo": "그는 가까운 동료들에게조차 자신의 사생활에 대해 조심스러운 태도를 유지했다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "detached",
+      "pos": "adj",
+      "meanings": [
+        "냉담한",
+        "거리를 두는"
+      ],
+      "example": "She stayed detached during the argument, refusing to take sides.",
+      "exampleKo": "그녀는 말다툼 중 어느 편도 들지 않으며 거리를 두었다.",
+      "emoji": ""
+    },
+    {
+      "word": "buoyant",
+      "pos": "adj",
+      "meanings": [
+        "쾌활한",
+        "명랑한"
+      ],
+      "example": "Her buoyant mood lifted the spirits of the whole office.",
+      "exampleKo": "그녀의 쾌활한 기분은 사무실 전체의 사기를 북돋았다.",
+      "emoji": ""
+    },
+    {
+      "word": "volatile",
+      "pos": "adj",
+      "meanings": [
+        "변덕스러운",
+        "불안정한"
+      ],
+      "example": "His volatile temper made it hard to predict how he would react.",
+      "exampleKo": "그의 변덕스러운 성질 때문에 그가 어떻게 반응할지 예측하기 어려웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "laid-back",
+      "pos": "adj",
+      "meanings": [
+        "느긋한",
+        "태평한"
+      ],
+      "example": "His laid-back attitude helped the group relax before the exam.",
+      "exampleKo": "그의 느긋한 태도는 시험 전 조원들을 편안하게 해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "uptight",
+      "pos": "adj",
+      "meanings": [
+        "긴장한",
+        "초조해하는"
+      ],
+      "example": "He gets uptight whenever his schedule changes suddenly.",
+      "exampleKo": "그는 일정이 갑자기 바뀔 때마다 초조해한다.",
+      "emoji": ""
+    },
+    {
+      "word": "unbending",
+      "pos": "adj",
+      "meanings": [
+        "완고한",
+        "융통성 없는"
+      ],
+      "example": "Her unbending schedule left no time for spontaneous plans.",
+      "exampleKo": "그녀의 융통성 없는 일정은 즉흥적인 계획을 세울 여지를 남기지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "adaptable",
+      "pos": "adj",
+      "meanings": [
+        "적응력 있는"
+      ],
+      "example": "Children are often more adaptable to change than adults.",
+      "exampleKo": "아이들은 종종 어른보다 변화에 더 잘 적응한다.",
+      "emoji": ""
+    },
+    {
+      "word": "hardy",
+      "pos": "adj",
+      "meanings": [
+        "강인한",
+        "굳센"
+      ],
+      "example": "The hardy climbers pushed on despite the sudden storm.",
+      "exampleKo": "그 강인한 등반가들은 갑작스러운 폭풍에도 계속 나아갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "frail",
+      "pos": "adj",
+      "meanings": [
+        "연약한",
+        "여린"
+      ],
+      "example": "His frail confidence crumbled after another round of criticism.",
+      "exampleKo": "또 한 차례의 비판 이후 그의 여린 자신감은 무너져 내렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "prone",
+      "pos": "adj",
+      "meanings": [
+        "~하기 쉬운",
+        "~에 걸리기 쉬운"
+      ],
+      "example": "People under constant stress are more prone to anxiety.",
+      "exampleKo": "지속적인 스트레스를 받는 사람들은 불안감을 느끼기 더 쉽다.",
+      "emoji": ""
+    },
+    {
+      "word": "touchy",
+      "pos": "adj",
+      "meanings": [
+        "예민한",
+        "화를 잘 내는"
+      ],
+      "example": "He gets touchy whenever someone mentions his old nickname.",
+      "exampleKo": "그는 누군가 자신의 옛 별명을 언급할 때마다 예민해진다.",
+      "emoji": ""
+    },
+    {
+      "word": "insensitive",
+      "pos": "adj",
+      "meanings": [
+        "둔감한",
+        "무신경한"
+      ],
+      "example": "Her insensitive joke offended several of her classmates.",
+      "exampleKo": "그녀의 무신경한 농담은 여러 반 친구의 기분을 상하게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "callous",
+      "pos": "adj",
+      "meanings": [
+        "냉담한",
+        "무정한"
+      ],
+      "example": "His callous remark about the accident shocked everyone in the room.",
+      "exampleKo": "그 사고에 대한 그의 냉담한 발언은 방 안의 모두를 충격에 빠뜨렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "apathetic",
+      "pos": "adj",
+      "meanings": [
+        "무관심한"
+      ],
+      "example": "Many students seemed apathetic about the upcoming election.",
+      "exampleKo": "많은 학생들이 다가오는 선거에 무관심해 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "distrustful",
+      "pos": "adj",
+      "meanings": [
+        "불신하는",
+        "의심하는"
+      ],
+      "example": "After being cheated twice, she became distrustful of new offers.",
+      "exampleKo": "두 번이나 사기를 당한 후 그녀는 새로운 제안을 불신하게 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "incredulous",
+      "pos": "adj",
+      "meanings": [
+        "믿기지 않는",
+        "회의적인"
+      ],
+      "example": "She gave an incredulous look when he claimed to have finished already.",
+      "exampleKo": "그가 벌써 끝냈다고 주장하자 그녀는 믿기지 않는다는 표정을 지었다.",
+      "emoji": ""
+    },
+    {
+      "word": "unwary",
+      "pos": "adj",
+      "meanings": [
+        "경계하지 않는",
+        "방심한"
+      ],
+      "example": "The scammer targeted unwary shoppers outside the station.",
+      "exampleKo": "그 사기꾼은 역 밖의 방심한 쇼핑객들을 노렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "naive",
+      "pos": "adj",
+      "meanings": [
+        "순진한"
+      ],
+      "example": "It was naive of him to trust a stranger with his money.",
+      "exampleKo": "낯선 사람에게 돈을 맡긴 것은 그의 순진한 행동이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "heartfelt",
+      "pos": "adj",
+      "meanings": [
+        "진심 어린"
+      ],
+      "example": "He offered a heartfelt thanks to everyone who had supported him.",
+      "exampleKo": "그는 자신을 지지해 준 모든 이들에게 진심 어린 감사를 전했다.",
+      "emoji": ""
+    },
+    {
+      "word": "hypocritical",
+      "pos": "adj",
+      "meanings": [
+        "위선적인"
+      ],
+      "example": "It seemed hypocritical of him to criticize lateness when he was late himself.",
+      "exampleKo": "자신도 지각하면서 지각을 비판하는 것은 그의 위선적인 행동으로 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "earnest",
+      "pos": "adj",
+      "meanings": [
+        "진지한",
+        "성실한"
+      ],
+      "example": "Her earnest desire to help was clear from the start.",
+      "exampleKo": "돕고자 하는 그녀의 진지한 마음은 처음부터 분명했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pretentious",
+      "pos": "adj",
+      "meanings": [
+        "허세 부리는",
+        "가식적인"
+      ],
+      "example": "His pretentious language made the essay hard to enjoy.",
+      "exampleKo": "그의 허세 부리는 문체 때문에 그 에세이는 읽는 재미가 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "self-satisfied",
+      "pos": "adj",
+      "meanings": [
+        "자기만족적인",
+        "안주하는"
+      ],
+      "example": "He grew self-satisfied after his first small success.",
+      "exampleKo": "그는 첫 작은 성공 이후 자기만족에 빠졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "conceited",
+      "pos": "adj",
+      "meanings": [
+        "자만하는"
+      ],
+      "example": "He became conceited after receiving so much praise.",
+      "exampleKo": "그는 많은 칭찬을 받은 후 자만하게 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "selfless",
+      "pos": "adj",
+      "meanings": [
+        "사심 없는",
+        "이타적인"
+      ],
+      "example": "Her selfless devotion to the shelter inspired the whole community.",
+      "exampleKo": "보호소에 대한 그녀의 사심 없는 헌신은 지역 사회 전체에 영감을 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "mindful",
+      "pos": "adj",
+      "meanings": [
+        "마음을 쓰는",
+        "신경 쓰는"
+      ],
+      "example": "Be mindful of your classmates' feelings when you give feedback.",
+      "exampleKo": "피드백을 줄 때 반 친구들의 감정에 신경 쓰도록 해라.",
+      "emoji": ""
+    },
+    {
+      "word": "oblivious",
+      "pos": "adj",
+      "meanings": [
+        "의식하지 못하는",
+        "알아채지 못하는"
+      ],
+      "example": "He was completely oblivious to the tension in the room.",
+      "exampleKo": "그는 방 안의 긴장감을 전혀 알아채지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "scatterbrained",
+      "pos": "adj",
+      "meanings": [
+        "정신없는",
+        "덜렁대는"
+      ],
+      "example": "Her scatterbrained roommate kept losing the apartment keys.",
+      "exampleKo": "그녀의 덜렁대는 룸메이트는 아파트 열쇠를 계속 잃어버렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "attentive",
+      "pos": "adj",
+      "meanings": [
+        "주의 깊은",
+        "세심한"
+      ],
+      "example": "An attentive listener, she remembered every detail of the story.",
+      "exampleKo": "주의 깊은 청자인 그녀는 이야기의 모든 세부 사항을 기억했다.",
+      "emoji": ""
+    },
+    {
+      "word": "inattentive",
+      "pos": "adj",
+      "meanings": [
+        "부주의한",
+        "주의를 기울이지 않는"
+      ],
+      "example": "The teacher scolded the inattentive students at the back of the room.",
+      "exampleKo": "선생님은 뒷자리에서 주의를 기울이지 않는 학생들을 꾸짖었다.",
+      "emoji": ""
+    },
+    {
+      "word": "distracted",
+      "pos": "adj",
+      "meanings": [
+        "산만한",
+        "정신이 팔린"
+      ],
+      "example": "She seemed distracted during the meeting, checking her phone often.",
+      "exampleKo": "그녀는 회의 중 자주 휴대폰을 확인하며 산만해 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "preoccupied",
+      "pos": "adj",
+      "meanings": [
+        "몰두한",
+        "정신이 팔린"
+      ],
+      "example": "He was too preoccupied with his exam to notice the noise outside.",
+      "exampleKo": "그는 시험에 너무 몰두해서 밖의 소음을 알아채지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "obsessed",
+      "pos": "adj",
+      "meanings": [
+        "집착하는",
+        "사로잡힌"
+      ],
+      "example": "She became obsessed with perfecting every page of her sketchbook.",
+      "exampleKo": "그녀는 스케치북의 모든 페이지를 완벽하게 만드는 것에 집착하게 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "paranoid",
+      "pos": "adj",
+      "meanings": [
+        "피해망상적인",
+        "지나치게 의심하는"
+      ],
+      "example": "He grew paranoid, convinced that everyone was talking about him.",
+      "exampleKo": "그는 모두가 자신에 대해 이야기한다고 확신하며 피해망상적이 되었다.",
+      "emoji": "👀"
+    },
+    {
+      "word": "irrational",
+      "pos": "adj",
+      "meanings": [
+        "비이성적인",
+        "불합리한"
+      ],
+      "example": "Her sudden fear of the harmless spider seemed irrational.",
+      "exampleKo": "무해한 거미에 대한 그녀의 갑작스러운 두려움은 비이성적으로 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "sentimental",
+      "pos": "adj",
+      "meanings": [
+        "감상적인"
+      ],
+      "example": "He kept the old ticket stub for sentimental reasons.",
+      "exampleKo": "그는 감상적인 이유로 오래된 티켓 조각을 간직했다.",
+      "emoji": ""
+    },
+    {
+      "word": "grieve",
+      "pos": "v",
+      "meanings": [
+        "슬퍼하다",
+        "애도하다"
+      ],
+      "example": "The whole village grieved for the fisherman lost at sea.",
+      "exampleKo": "온 마을이 바다에서 실종된 어부를 애도했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mourn",
+      "pos": "v",
+      "meanings": [
+        "애도하다",
+        "슬퍼하다"
+      ],
+      "example": "They gathered to mourn the passing of their beloved teacher.",
+      "exampleKo": "그들은 사랑하는 선생님의 별세를 애도하기 위해 모였다.",
+      "emoji": ""
+    },
+    {
+      "word": "sulk",
+      "pos": "v",
+      "meanings": [
+        "부루퉁해 있다",
+        "토라지다"
+      ],
+      "example": "He sulked in his room after losing the game.",
+      "exampleKo": "그는 게임에서 진 후 방에서 부루퉁해 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "brood",
+      "pos": "v",
+      "meanings": [
+        "곰곰이 생각하다",
+        "우울하게 생각에 잠기다"
+      ],
+      "example": "She sat by the window, brooding over the argument.",
+      "exampleKo": "그녀는 창가에 앉아 그 말다툼에 대해 우울하게 곱씹었다.",
+      "emoji": ""
+    },
+    {
+      "word": "fret",
+      "pos": "v",
+      "meanings": [
+        "초조해하다",
+        "안달하다"
+      ],
+      "example": "There's no need to fret about the results now.",
+      "exampleKo": "지금 결과에 대해 초조해할 필요는 없다.",
+      "emoji": ""
+    },
+    {
+      "word": "recoil",
+      "pos": "v",
+      "meanings": [
+        "움찔하다",
+        "뒤로 물러서다"
+      ],
+      "example": "She recoiled in surprise when the balloon suddenly popped.",
+      "exampleKo": "풍선이 갑자기 터지자 그녀는 놀라서 움찔 물러났다.",
+      "emoji": ""
+    },
+    {
+      "word": "wail",
+      "pos": "v",
+      "meanings": [
+        "울부짖다",
+        "통곡하다"
+      ],
+      "example": "The toddler wailed loudly after dropping his ice cream cone.",
+      "exampleKo": "아이는 아이스크림콘을 떨어뜨린 후 큰 소리로 울부짖었다.",
+      "emoji": "😭"
+    },
+    {
+      "word": "weep",
+      "pos": "v",
+      "meanings": [
+        "눈물을 흘리다",
+        "울다"
+      ],
+      "example": "He wept with joy when he heard he had been accepted.",
+      "exampleKo": "합격 소식을 듣고 그는 기뻐서 눈물을 흘렸다.",
+      "emoji": "😢"
+    },
+    {
+      "word": "whimper",
+      "pos": "v",
+      "meanings": [
+        "훌쩍이다",
+        "낑낑거리다"
+      ],
+      "example": "The puppy whimpered softly outside the closed door.",
+      "exampleKo": "그 강아지는 닫힌 문 밖에서 조용히 낑낑거렸다.",
+      "emoji": "🥺"
+    },
+    {
+      "word": "shudder",
+      "pos": "v",
+      "meanings": [
+        "몸서리치다",
+        "떨다"
+      ],
+      "example": "She shuddered at the memory of the accident.",
+      "exampleKo": "그녀는 그 사고의 기억에 몸서리쳤다.",
+      "emoji": "😰"
+    },
+    {
+      "word": "quiver",
+      "pos": "v",
+      "meanings": [
+        "떨다",
+        "흔들리다"
+      ],
+      "example": "Her voice quivered as she read the final line of the poem.",
+      "exampleKo": "그녀가 시의 마지막 구절을 읽을 때 목소리가 떨렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "flinch",
+      "pos": "v",
+      "meanings": [
+        "움찔하다"
+      ],
+      "example": "He flinched when the loud noise suddenly went off.",
+      "exampleKo": "큰 소음이 갑자기 울리자 그는 움찔했다.",
+      "emoji": "😧"
+    },
+    {
+      "word": "cringe",
+      "pos": "v",
+      "meanings": [
+        "움츠러들다",
+        "민망해하다"
+      ],
+      "example": "She cringed remembering the awkward speech she gave.",
+      "exampleKo": "그녀는 자신이 한 어색한 연설을 떠올리며 민망해했다.",
+      "emoji": "😬"
+    },
+    {
+      "word": "wince",
+      "pos": "v",
+      "meanings": [
+        "움찔하다",
+        "얼굴을 찌푸리다"
+      ],
+      "example": "He winced as the doctor cleaned his wound.",
+      "exampleKo": "의사가 상처를 소독하자 그는 얼굴을 찌푸렸다.",
+      "emoji": "😖"
+    },
+    {
+      "word": "blush",
+      "pos": "v",
+      "meanings": [
+        "얼굴을 붉히다"
+      ],
+      "example": "She blushed when the teacher praised her essay in front of the class.",
+      "exampleKo": "선생님이 반 전체 앞에서 그녀의 글을 칭찬하자 그녀는 얼굴을 붉혔다.",
+      "emoji": "😳"
+    },
+    {
+      "word": "moan",
+      "pos": "v",
+      "meanings": [
+        "신음하다",
+        "불평하다"
+      ],
+      "example": "He moaned about the amount of homework left for the weekend.",
+      "exampleKo": "그는 주말에 남은 숙제의 양에 대해 불평했다.",
+      "emoji": ""
+    },
+    {
+      "word": "yearn",
+      "pos": "v",
+      "meanings": [
+        "갈망하다",
+        "그리워하다"
+      ],
+      "example": "She yearned to see her family again after months abroad.",
+      "exampleKo": "몇 달간 해외에 있던 그녀는 다시 가족을 보고 싶어 갈망했다.",
+      "emoji": ""
+    },
+    {
+      "word": "crave",
+      "pos": "v",
+      "meanings": [
+        "갈망하다",
+        "몹시 원하다"
+      ],
+      "example": "After the long exam period, he craved a full night of sleep.",
+      "exampleKo": "긴 시험 기간이 끝난 후 그는 밤새 충분한 잠을 몹시 원했다.",
+      "emoji": "🤤"
+    },
+    {
+      "word": "cherish",
+      "pos": "v",
+      "meanings": [
+        "소중히 여기다"
+      ],
+      "example": "She will always cherish the memories of her school days.",
+      "exampleKo": "그녀는 학창 시절의 추억을 항상 소중히 여길 것이다.",
+      "emoji": "💝"
+    },
+    {
+      "word": "despise",
+      "pos": "v",
+      "meanings": [
+        "경멸하다"
+      ],
+      "example": "He despised dishonesty in any form.",
+      "exampleKo": "그는 어떤 형태의 부정직함도 경멸했다.",
+      "emoji": ""
+    },
+    {
+      "word": "spurn",
+      "pos": "v",
+      "meanings": [
+        "거부하다",
+        "경멸하다"
+      ],
+      "example": "He spurned every offer of help, insisting he could manage alone.",
+      "exampleKo": "그는 혼자 해낼 수 있다고 고집하며 모든 도움의 제안을 거부했다.",
+      "emoji": ""
+    },
+    {
+      "word": "loathe",
+      "pos": "v",
+      "meanings": [
+        "혐오하다",
+        "몹시 싫어하다"
+      ],
+      "example": "He loathes waking up early on weekends.",
+      "exampleKo": "그는 주말에 일찍 일어나는 것을 몹시 싫어한다.",
+      "emoji": "🤢"
+    },
+    {
+      "word": "scorn",
+      "pos": "v",
+      "meanings": [
+        "경멸하다",
+        "비웃다"
+      ],
+      "example": "The critics scorned the film for its weak plot.",
+      "exampleKo": "평론가들은 그 영화의 부실한 줄거리를 혹평했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mock",
+      "pos": "v",
+      "meanings": [
+        "조롱하다",
+        "놀리다"
+      ],
+      "example": "The older kids mocked his accent, which hurt his feelings.",
+      "exampleKo": "형들이 그의 억양을 놀려서 그의 기분이 상했다.",
+      "emoji": "😏"
+    },
+    {
+      "word": "ridicule",
+      "pos": "v",
+      "meanings": [
+        "조롱하다",
+        "비웃다"
+      ],
+      "example": "It is unkind to ridicule someone for making an honest mistake.",
+      "exampleKo": "정직한 실수를 한 사람을 조롱하는 것은 몰인정한 일이다.",
+      "emoji": ""
+    },
+    {
+      "word": "taunt",
+      "pos": "v",
+      "meanings": [
+        "조롱하다",
+        "놀리다"
+      ],
+      "example": "The opposing fans taunted the players after the loss.",
+      "exampleKo": "상대 팬들은 패배 후 선수들을 조롱했다.",
+      "emoji": "😜"
+    },
+    {
+      "word": "goad",
+      "pos": "v",
+      "meanings": [
+        "부추기다",
+        "자극하다"
+      ],
+      "example": "His friends goaded him into asking the question aloud.",
+      "exampleKo": "친구들은 그가 그 질문을 소리 내어 묻도록 부추겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "irritate",
+      "pos": "v",
+      "meanings": [
+        "짜증나게 하다"
+      ],
+      "example": "The constant noise from construction began to irritate the neighbors.",
+      "exampleKo": "공사장에서 나는 끊임없는 소음이 이웃들을 짜증나게 하기 시작했다.",
+      "emoji": "😠"
+    },
+    {
+      "word": "annoy",
+      "pos": "v",
+      "meanings": [
+        "짜증나게 하다",
+        "귀찮게 하다"
+      ],
+      "example": "Her habit of tapping her pen began to annoy everyone in the library.",
+      "exampleKo": "펜을 두드리는 그녀의 습관이 도서관의 모두를 짜증나게 하기 시작했다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "infuriate",
+      "pos": "v",
+      "meanings": [
+        "격분시키다"
+      ],
+      "example": "The unfair decision infuriated the entire team.",
+      "exampleKo": "그 불공정한 판정은 팀 전체를 격분시켰다.",
+      "emoji": "😡"
+    },
+    {
+      "word": "appease",
+      "pos": "v",
+      "meanings": [
+        "달래다",
+        "누그러뜨리다"
+      ],
+      "example": "He tried to appease his angry customer with a refund.",
+      "exampleKo": "그는 환불로 화난 고객을 달래려 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "soothe",
+      "pos": "v",
+      "meanings": [
+        "달래다",
+        "진정시키다"
+      ],
+      "example": "The mother's lullaby soothed the crying baby.",
+      "exampleKo": "어머니의 자장가가 우는 아기를 달래주었다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "placate",
+      "pos": "v",
+      "meanings": [
+        "달래다",
+        "진정시키다"
+      ],
+      "example": "The manager tried to placate the frustrated customer with an apology.",
+      "exampleKo": "매니저는 사과로 화가 난 고객을 달래려 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "reassure",
+      "pos": "v",
+      "meanings": [
+        "안심시키다"
+      ],
+      "example": "The coach reassured the nervous rookie before the game.",
+      "exampleKo": "코치는 경기 전 긴장한 신인 선수를 안심시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "discourage",
+      "pos": "v",
+      "meanings": [
+        "낙담시키다",
+        "단념시키다"
+      ],
+      "example": "One bad grade shouldn't discourage you from trying again.",
+      "exampleKo": "한 번의 나쁜 성적이 다시 시도하려는 너를 낙담시켜서는 안 된다.",
+      "emoji": ""
+    },
+    {
+      "word": "intimidate",
+      "pos": "v",
+      "meanings": [
+        "위협하다",
+        "겁을 주다"
+      ],
+      "example": "The tall opponent tried to intimidate the younger players before the match.",
+      "exampleKo": "덩치 큰 상대는 경기 전 어린 선수들에게 겁을 주려 했다.",
+      "emoji": "😨"
+    },
+    {
+      "word": "humiliate",
+      "pos": "v",
+      "meanings": [
+        "굴욕감을 주다",
+        "창피를 주다"
+      ],
+      "example": "He never meant to humiliate his sister in front of her friends.",
+      "exampleKo": "그는 여동생의 친구들 앞에서 창피를 주려는 의도가 전혀 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "flatter",
+      "pos": "v",
+      "meanings": [
+        "아첨하다",
+        "치켜세우다"
+      ],
+      "example": "He flattered the teacher, hoping for a better grade.",
+      "exampleKo": "그는 더 좋은 성적을 바라며 선생님에게 아첨했다.",
+      "emoji": "😘"
+    },
+    {
+      "word": "accuse",
+      "pos": "v",
+      "meanings": [
+        "비난하다",
+        "고발하다"
+      ],
+      "example": "She accused her classmate of copying her homework.",
+      "exampleKo": "그녀는 급우가 자신의 숙제를 베꼈다고 비난했다.",
+      "emoji": "👉"
+    },
+    {
+      "word": "pardon",
+      "pos": "v",
+      "meanings": [
+        "용서하다"
+      ],
+      "example": "She found it hard to pardon the friend who had lied to her.",
+      "exampleKo": "그녀는 자신에게 거짓말한 친구를 용서하기가 힘들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "sympathize",
+      "pos": "v",
+      "meanings": [
+        "동정하다",
+        "공감하다"
+      ],
+      "example": "I sympathize with anyone who has to work two jobs to get by.",
+      "exampleKo": "나는 생계를 위해 투잡을 뛰어야 하는 사람이라면 누구에게나 공감한다.",
+      "emoji": ""
+    },
+    {
+      "word": "grapple",
+      "pos": "v",
+      "meanings": [
+        "씨름하다",
+        "대처하다"
+      ],
+      "example": "She spent months grappling with the fear of speaking in public.",
+      "exampleKo": "그녀는 대중 앞에서 말하는 두려움과 씨름하며 몇 달을 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "stifle",
+      "pos": "v",
+      "meanings": [
+        "억누르다",
+        "억압하다"
+      ],
+      "example": "He struggled to stifle a yawn during the long lecture.",
+      "exampleKo": "그는 긴 강의 동안 하품을 억누르려 애썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "temper",
+      "pos": "v",
+      "meanings": [
+        "누그러뜨리다",
+        "완화하다"
+      ],
+      "example": "He learned to temper his frustration before responding to criticism.",
+      "exampleKo": "그는 비판에 반응하기 전 자신의 좌절감을 누그러뜨리는 법을 배웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "overpower",
+      "pos": "v",
+      "meanings": [
+        "압도하다",
+        "제압하다"
+      ],
+      "example": "His confident arguments overpowered every objection in the debate.",
+      "exampleKo": "그의 자신감 있는 주장은 토론에서 모든 반론을 압도했다.",
+      "emoji": ""
+    },
+    {
+      "word": "abuse",
+      "pos": "v",
+      "meanings": [
+        "악용하다",
+        "남용하다"
+      ],
+      "example": "He abused his classmate's trust by spreading her secret.",
+      "exampleKo": "그는 급우의 비밀을 퍼뜨려 그녀의 신뢰를 악용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mislead",
+      "pos": "v",
+      "meanings": [
+        "속이다",
+        "오도하다"
+      ],
+      "example": "The advertisement misled customers about the product's true price.",
+      "exampleKo": "그 광고는 제품의 실제 가격에 대해 고객들을 속였다.",
+      "emoji": ""
+    },
+    {
+      "word": "forsake",
+      "pos": "v",
+      "meanings": [
+        "저버리다",
+        "버리다"
+      ],
+      "example": "He promised never to forsake his friends, even in hard times.",
+      "exampleKo": "그는 힘든 시기에도 친구들을 절대 저버리지 않겠다고 약속했다.",
+      "emoji": ""
+    },
+    {
+      "word": "falter",
+      "pos": "v",
+      "meanings": [
+        "주저하다",
+        "흔들리다"
+      ],
+      "example": "Her voice faltered as she tried to explain what had happened.",
+      "exampleKo": "그녀가 무슨 일이 있었는지 설명하려 하자 목소리가 흔들렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "persevere",
+      "pos": "v",
+      "meanings": [
+        "인내하다",
+        "버텨내다"
+      ],
+      "example": "Despite many failures, she persevered until she finally succeeded.",
+      "exampleKo": "많은 실패에도 불구하고 그녀는 마침내 성공할 때까지 버텨냈다.",
+      "emoji": "💪"
+    }
+  ]
+}

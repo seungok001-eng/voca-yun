@@ -1,0 +1,1885 @@
+{
+  "level": 12,
+  "words": [
+    {
+      "word": "activism",
+      "pos": "n",
+      "meanings": [
+        "행동주의",
+        "사회 운동"
+      ],
+      "example": "Her activism helped raise awareness about climate change.",
+      "exampleKo": "그녀의 사회 운동은 기후 변화에 대한 인식을 높이는 데 도움이 되었다.",
+      "emoji": "✊"
+    },
+    {
+      "word": "activist",
+      "pos": "n",
+      "meanings": [
+        "운동가",
+        "활동가"
+      ],
+      "example": "The activist organized a march for workers' rights.",
+      "exampleKo": "그 운동가는 노동자의 권리를 위한 행진을 조직했다.",
+      "emoji": ""
+    },
+    {
+      "word": "administration",
+      "pos": "n",
+      "meanings": [
+        "행정",
+        "행정부"
+      ],
+      "example": "The new administration promised to reform the tax system.",
+      "exampleKo": "새 행정부는 세금 제도를 개혁하겠다고 약속했다.",
+      "emoji": ""
+    },
+    {
+      "word": "alliance",
+      "pos": "n",
+      "meanings": [
+        "동맹",
+        "연합"
+      ],
+      "example": "The two countries formed a military alliance.",
+      "exampleKo": "두 나라는 군사 동맹을 맺었다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "army",
+      "pos": "n",
+      "meanings": [
+        "군대",
+        "육군"
+      ],
+      "example": "The army was sent to help after the flood.",
+      "exampleKo": "홍수 이후 군대가 도움을 주기 위해 파견되었다.",
+      "emoji": "🪖"
+    },
+    {
+      "word": "asset",
+      "pos": "n",
+      "meanings": [
+        "자산"
+      ],
+      "example": "Land is one of the family's most valuable assets.",
+      "exampleKo": "토지는 그 가족이 보유한 가장 값진 자산 중 하나이다.",
+      "emoji": ""
+    },
+    {
+      "word": "assimilate",
+      "pos": "v",
+      "meanings": [
+        "동화되다",
+        "흡수하다"
+      ],
+      "example": "Many immigrants gradually assimilate into the local culture.",
+      "exampleKo": "많은 이민자들은 점차 현지 문화에 동화된다.",
+      "emoji": ""
+    },
+    {
+      "word": "authoritarian",
+      "pos": "adj",
+      "meanings": [
+        "권위주의적인",
+        "독재적인"
+      ],
+      "example": "The authoritarian government banned public protests.",
+      "exampleKo": "그 권위주의적인 정부는 공개 시위를 금지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "ballot",
+      "pos": "n",
+      "meanings": [
+        "투표",
+        "투표용지"
+      ],
+      "example": "Voters marked their choice on the ballot.",
+      "exampleKo": "유권자들은 투표용지에 자신의 선택을 표시했다.",
+      "emoji": "🗳️"
+    },
+    {
+      "word": "banking",
+      "pos": "n",
+      "meanings": [
+        "은행업",
+        "금융업"
+      ],
+      "example": "She works in the banking industry.",
+      "exampleKo": "그녀는 은행업계에서 일한다.",
+      "emoji": "🏦"
+    },
+    {
+      "word": "belief",
+      "pos": "n",
+      "meanings": [
+        "신념",
+        "믿음"
+      ],
+      "example": "Freedom of belief is protected by the constitution.",
+      "exampleKo": "신념의 자유는 헌법에 의해 보호된다.",
+      "emoji": ""
+    },
+    {
+      "word": "bill",
+      "pos": "n",
+      "meanings": [
+        "법안"
+      ],
+      "example": "The senate passed the bill after a long debate.",
+      "exampleKo": "상원은 긴 논쟁 끝에 그 법안을 통과시켰다.",
+      "emoji": "📜"
+    },
+    {
+      "word": "bureaucracy",
+      "pos": "n",
+      "meanings": [
+        "관료제",
+        "관료 조직"
+      ],
+      "example": "Starting a business here involves a lot of bureaucracy.",
+      "exampleKo": "이곳에서 사업을 시작하려면 많은 관료적 절차를 거쳐야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "campaign",
+      "pos": "n",
+      "meanings": [
+        "선거 운동",
+        "캠페인"
+      ],
+      "example": "The candidate launched her campaign in March.",
+      "exampleKo": "그 후보자는 3월에 선거 운동을 시작했다.",
+      "emoji": "📢"
+    },
+    {
+      "word": "capital",
+      "pos": "n",
+      "meanings": [
+        "자본",
+        "수도"
+      ],
+      "example": "The company needs more capital to expand.",
+      "exampleKo": "그 회사는 사업을 확장하기 위해 더 많은 자본이 필요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "censor",
+      "pos": "v",
+      "meanings": [
+        "검열하다"
+      ],
+      "example": "The government tried to censor news reports about the protest.",
+      "exampleKo": "정부는 시위에 관한 뉴스 보도를 검열하려 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "censorship",
+      "pos": "n",
+      "meanings": [
+        "검열"
+      ],
+      "example": "Strict censorship limited what citizens could read.",
+      "exampleKo": "엄격한 검열은 시민들이 읽을 수 있는 것을 제한했다.",
+      "emoji": ""
+    },
+    {
+      "word": "charity",
+      "pos": "n",
+      "meanings": [
+        "자선",
+        "자선단체"
+      ],
+      "example": "He donates part of his salary to charity every month.",
+      "exampleKo": "그는 매달 월급의 일부를 자선단체에 기부한다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "citizen",
+      "pos": "n",
+      "meanings": [
+        "시민",
+        "국민"
+      ],
+      "example": "Every citizen has the right to vote.",
+      "exampleKo": "모든 시민은 투표할 권리가 있다.",
+      "emoji": "🪪"
+    },
+    {
+      "word": "citizenship",
+      "pos": "n",
+      "meanings": [
+        "시민권",
+        "국적"
+      ],
+      "example": "She applied for citizenship after living there for ten years.",
+      "exampleKo": "그녀는 그곳에서 10년을 산 후 시민권을 신청했다.",
+      "emoji": ""
+    },
+    {
+      "word": "civic",
+      "pos": "adj",
+      "meanings": [
+        "시민의",
+        "시민 의식의"
+      ],
+      "example": "Voting is an important civic duty.",
+      "exampleKo": "투표는 중요한 시민의 의무이다.",
+      "emoji": ""
+    },
+    {
+      "word": "civil",
+      "pos": "adj",
+      "meanings": [
+        "시민의",
+        "민사의"
+      ],
+      "example": "The organization fights for civil rights.",
+      "exampleKo": "그 단체는 시민권을 위해 싸운다.",
+      "emoji": ""
+    },
+    {
+      "word": "competition",
+      "pos": "n",
+      "meanings": [
+        "경쟁"
+      ],
+      "example": "Competition among companies can lower prices.",
+      "exampleKo": "기업 간의 경쟁은 가격을 낮출 수 있다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "competitive",
+      "pos": "adj",
+      "meanings": [
+        "경쟁적인",
+        "경쟁력 있는"
+      ],
+      "example": "The job market has become extremely competitive.",
+      "exampleKo": "취업 시장은 매우 경쟁적으로 변했다.",
+      "emoji": ""
+    },
+    {
+      "word": "congress",
+      "pos": "n",
+      "meanings": [
+        "의회",
+        "국회"
+      ],
+      "example": "Congress voted to pass the new law.",
+      "exampleKo": "의회는 그 새 법안을 통과시키기로 투표했다.",
+      "emoji": ""
+    },
+    {
+      "word": "constitution",
+      "pos": "n",
+      "meanings": [
+        "헌법"
+      ],
+      "example": "The constitution guarantees freedom of speech.",
+      "exampleKo": "헌법은 언론의 자유를 보장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "consumer",
+      "pos": "n",
+      "meanings": [
+        "소비자"
+      ],
+      "example": "Consumers are demanding more eco-friendly products.",
+      "exampleKo": "소비자들은 더 친환경적인 제품을 요구하고 있다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "consumption",
+      "pos": "n",
+      "meanings": [
+        "소비"
+      ],
+      "example": "Household consumption rose sharply last quarter.",
+      "exampleKo": "가계 소비가 지난 분기에 급격히 증가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "corporation",
+      "pos": "n",
+      "meanings": [
+        "기업",
+        "법인"
+      ],
+      "example": "The corporation opened new offices overseas.",
+      "exampleKo": "그 기업은 해외에 새 사무소를 열었다.",
+      "emoji": "🏢"
+    },
+    {
+      "word": "corrupt",
+      "pos": "adj",
+      "meanings": [
+        "부패한"
+      ],
+      "example": "Voters were angry at the corrupt officials.",
+      "exampleKo": "유권자들은 부패한 공직자들에게 분노했다.",
+      "emoji": ""
+    },
+    {
+      "word": "corruption",
+      "pos": "n",
+      "meanings": [
+        "부패"
+      ],
+      "example": "The new leader promised to fight corruption.",
+      "exampleKo": "새 지도자는 부패와 싸우겠다고 약속했다.",
+      "emoji": ""
+    },
+    {
+      "word": "crime",
+      "pos": "n",
+      "meanings": [
+        "범죄"
+      ],
+      "example": "The city's crime rate has dropped this year.",
+      "exampleKo": "그 도시의 범죄율이 올해 감소했다.",
+      "emoji": "🚨"
+    },
+    {
+      "word": "criminal",
+      "pos": "n",
+      "meanings": [
+        "범죄자"
+      ],
+      "example": "The criminal was sentenced to five years in prison.",
+      "exampleKo": "그 범죄자는 징역 5년을 선고받았다.",
+      "emoji": "🦹"
+    },
+    {
+      "word": "cultural",
+      "pos": "adj",
+      "meanings": [
+        "문화적인"
+      ],
+      "example": "The festival celebrates the region's cultural diversity.",
+      "exampleKo": "그 축제는 그 지역의 문화적 다양성을 기념한다.",
+      "emoji": ""
+    },
+    {
+      "word": "currency",
+      "pos": "n",
+      "meanings": [
+        "통화",
+        "화폐"
+      ],
+      "example": "The value of the currency fell against the dollar.",
+      "exampleKo": "그 통화의 가치가 달러 대비 하락했다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "democracy",
+      "pos": "n",
+      "meanings": [
+        "민주주의"
+      ],
+      "example": "Free elections are the foundation of democracy.",
+      "exampleKo": "자유 선거는 민주주의의 근간이다.",
+      "emoji": ""
+    },
+    {
+      "word": "democratic",
+      "pos": "adj",
+      "meanings": [
+        "민주적인",
+        "민주주의의"
+      ],
+      "example": "They held a democratic election for the first time.",
+      "exampleKo": "그들은 처음으로 민주적인 선거를 치렀다.",
+      "emoji": ""
+    },
+    {
+      "word": "demonstration",
+      "pos": "n",
+      "meanings": [
+        "시위"
+      ],
+      "example": "Thousands joined the demonstration downtown.",
+      "exampleKo": "수천 명이 시내에서 열린 시위에 참여했다.",
+      "emoji": "🪧"
+    },
+    {
+      "word": "depression",
+      "pos": "n",
+      "meanings": [
+        "불경기",
+        "공황"
+      ],
+      "example": "The Great Depression left millions without jobs.",
+      "exampleKo": "대공황은 수백만 명을 실업 상태로 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "dictator",
+      "pos": "n",
+      "meanings": [
+        "독재자"
+      ],
+      "example": "The dictator ruled the country for thirty years.",
+      "exampleKo": "그 독재자는 30년 동안 그 나라를 통치했다.",
+      "emoji": ""
+    },
+    {
+      "word": "diplomacy",
+      "pos": "n",
+      "meanings": [
+        "외교"
+      ],
+      "example": "The conflict was resolved through diplomacy.",
+      "exampleKo": "그 분쟁은 외교를 통해 해결되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "diplomat",
+      "pos": "n",
+      "meanings": [
+        "외교관"
+      ],
+      "example": "The diplomat represented her country at the summit.",
+      "exampleKo": "그 외교관은 정상 회담에서 자국을 대표했다.",
+      "emoji": ""
+    },
+    {
+      "word": "discrimination",
+      "pos": "n",
+      "meanings": [
+        "차별"
+      ],
+      "example": "The law bans discrimination based on age.",
+      "exampleKo": "그 법은 나이에 따른 차별을 금지한다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "distribution",
+      "pos": "n",
+      "meanings": [
+        "분배",
+        "유통"
+      ],
+      "example": "The unequal distribution of wealth is a serious problem.",
+      "exampleKo": "부의 불평등한 분배는 심각한 문제이다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "diversity",
+      "pos": "n",
+      "meanings": [
+        "다양성"
+      ],
+      "example": "The company values diversity in its workforce.",
+      "exampleKo": "그 회사는 직원 구성의 다양성을 중시한다.",
+      "emoji": "🌈"
+    },
+    {
+      "word": "economics",
+      "pos": "n",
+      "meanings": [
+        "경제학"
+      ],
+      "example": "She is studying economics at university.",
+      "exampleKo": "그녀는 대학에서 경제학을 공부하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "economist",
+      "pos": "n",
+      "meanings": [
+        "경제학자"
+      ],
+      "example": "The economist predicted a slow recovery.",
+      "exampleKo": "그 경제학자는 더딘 회복을 예측했다.",
+      "emoji": ""
+    },
+    {
+      "word": "election",
+      "pos": "n",
+      "meanings": [
+        "선거"
+      ],
+      "example": "The presidential election will be held in November.",
+      "exampleKo": "대통령 선거는 11월에 치러질 것이다.",
+      "emoji": "🗳️"
+    },
+    {
+      "word": "employment",
+      "pos": "n",
+      "meanings": [
+        "고용"
+      ],
+      "example": "The factory provides employment for hundreds of workers.",
+      "exampleKo": "그 공장은 수백 명의 노동자에게 일자리를 제공한다.",
+      "emoji": "💼"
+    },
+    {
+      "word": "enforcement",
+      "pos": "n",
+      "meanings": [
+        "집행",
+        "시행"
+      ],
+      "example": "Law enforcement officers patrolled the streets.",
+      "exampleKo": "법 집행관들이 거리를 순찰했다.",
+      "emoji": "👮"
+    },
+    {
+      "word": "entrepreneur",
+      "pos": "n",
+      "meanings": [
+        "기업가",
+        "사업가"
+      ],
+      "example": "The young entrepreneur started her own company at 22.",
+      "exampleKo": "그 젊은 기업가는 22세에 자신의 회사를 창업했다.",
+      "emoji": "🚀"
+    },
+    {
+      "word": "equity",
+      "pos": "n",
+      "meanings": [
+        "형평성",
+        "공평"
+      ],
+      "example": "The policy aims to improve equity in education.",
+      "exampleKo": "그 정책은 교육에서의 형평성을 개선하는 것을 목표로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "ethnic",
+      "pos": "adj",
+      "meanings": [
+        "민족의",
+        "인종의"
+      ],
+      "example": "The city is home to many ethnic communities.",
+      "exampleKo": "그 도시에는 많은 민족 공동체가 살고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "export",
+      "pos": "v",
+      "meanings": [
+        "수출하다"
+      ],
+      "example": "The country exports rice to many nations.",
+      "exampleKo": "그 나라는 많은 나라에 쌀을 수출한다.",
+      "emoji": "📤"
+    },
+    {
+      "word": "federal",
+      "pos": "adj",
+      "meanings": [
+        "연방의"
+      ],
+      "example": "The federal government funds many schools.",
+      "exampleKo": "연방 정부는 많은 학교에 재정을 지원한다.",
+      "emoji": ""
+    },
+    {
+      "word": "finance",
+      "pos": "n",
+      "meanings": [
+        "재정",
+        "금융"
+      ],
+      "example": "He studied finance before joining the bank.",
+      "exampleKo": "그는 은행에 입사하기 전 재정학을 공부했다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "financial",
+      "pos": "adj",
+      "meanings": [
+        "재정적인",
+        "금융의"
+      ],
+      "example": "The family faced serious financial difficulties.",
+      "exampleKo": "그 가족은 심각한 재정적 어려움에 직면했다.",
+      "emoji": ""
+    },
+    {
+      "word": "freedom",
+      "pos": "n",
+      "meanings": [
+        "자유"
+      ],
+      "example": "Freedom of speech is protected by law.",
+      "exampleKo": "언론의 자유는 법으로 보호된다.",
+      "emoji": "🕊️"
+    },
+    {
+      "word": "gdp",
+      "pos": "n",
+      "meanings": [
+        "국내총생산"
+      ],
+      "example": "The country's GDP grew by three percent this year.",
+      "exampleKo": "그 나라의 국내총생산은 올해 3퍼센트 성장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "gender",
+      "pos": "n",
+      "meanings": [
+        "성",
+        "성별"
+      ],
+      "example": "The company promotes gender equality in hiring.",
+      "exampleKo": "그 회사는 채용에서 성평등을 추구한다.",
+      "emoji": "⚧️"
+    },
+    {
+      "word": "generational",
+      "pos": "adj",
+      "meanings": [
+        "세대의",
+        "세대 간의"
+      ],
+      "example": "There is a generational gap in views on technology.",
+      "exampleKo": "기술에 대한 견해에는 세대 차이가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "global",
+      "pos": "adj",
+      "meanings": [
+        "세계적인",
+        "지구의"
+      ],
+      "example": "Climate change is a global issue.",
+      "exampleKo": "기후 변화는 세계적인 문제이다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "globalization",
+      "pos": "n",
+      "meanings": [
+        "세계화"
+      ],
+      "example": "Globalization has connected markets around the world.",
+      "exampleKo": "세계화는 전 세계의 시장을 연결시켰다.",
+      "emoji": "🌐"
+    },
+    {
+      "word": "government",
+      "pos": "n",
+      "meanings": [
+        "정부"
+      ],
+      "example": "The government announced a new housing policy.",
+      "exampleKo": "정부는 새로운 주택 정책을 발표했다.",
+      "emoji": "🏛️"
+    },
+    {
+      "word": "heritage",
+      "pos": "n",
+      "meanings": [
+        "문화유산",
+        "유산"
+      ],
+      "example": "The old palace is an important part of our cultural heritage.",
+      "exampleKo": "그 오래된 궁궐은 우리 문화유산의 중요한 부분이다.",
+      "emoji": ""
+    },
+    {
+      "word": "household",
+      "pos": "n",
+      "meanings": [
+        "가구",
+        "가정"
+      ],
+      "example": "The average household spends a lot on rent.",
+      "exampleKo": "평균적인 가구는 임대료에 많은 돈을 지출한다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "ideology",
+      "pos": "n",
+      "meanings": [
+        "이념",
+        "사상"
+      ],
+      "example": "The two parties have very different political ideologies.",
+      "exampleKo": "그 두 정당은 매우 다른 정치 이념을 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "immigrant",
+      "pos": "n",
+      "meanings": [
+        "이민자"
+      ],
+      "example": "Many immigrants opened small businesses in the city.",
+      "exampleKo": "많은 이민자들이 그 도시에서 작은 사업체를 열었다.",
+      "emoji": "🧳"
+    },
+    {
+      "word": "immigration",
+      "pos": "n",
+      "meanings": [
+        "이민"
+      ],
+      "example": "Immigration policy has become a major political issue.",
+      "exampleKo": "이민 정책은 중요한 정치적 쟁점이 되었다.",
+      "emoji": "🛂"
+    },
+    {
+      "word": "import",
+      "pos": "v",
+      "meanings": [
+        "수입하다"
+      ],
+      "example": "The country imports most of its oil.",
+      "exampleKo": "그 나라는 대부분의 석유를 수입한다.",
+      "emoji": "📥"
+    },
+    {
+      "word": "income",
+      "pos": "n",
+      "meanings": [
+        "소득",
+        "수입"
+      ],
+      "example": "Their monthly income barely covers the rent.",
+      "exampleKo": "그들의 월 소득은 겨우 임대료를 충당한다.",
+      "emoji": ""
+    },
+    {
+      "word": "inequality",
+      "pos": "n",
+      "meanings": [
+        "불평등"
+      ],
+      "example": "Income inequality has widened in recent years.",
+      "exampleKo": "최근 몇 년간 소득 불평등이 심화되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "inflation",
+      "pos": "n",
+      "meanings": [
+        "인플레이션",
+        "물가 상승"
+      ],
+      "example": "High inflation made everyday goods more expensive.",
+      "exampleKo": "높은 인플레이션은 일상용품의 가격을 더 비싸게 만들었다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "injustice",
+      "pos": "n",
+      "meanings": [
+        "부당함",
+        "불의"
+      ],
+      "example": "The novel exposes the injustice of the legal system.",
+      "exampleKo": "그 소설은 사법 제도의 부당함을 폭로한다.",
+      "emoji": ""
+    },
+    {
+      "word": "insurance",
+      "pos": "n",
+      "meanings": [
+        "보험"
+      ],
+      "example": "Health insurance covers most of the medical bill.",
+      "exampleKo": "건강 보험은 대부분의 병원비를 부담한다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "integration",
+      "pos": "n",
+      "meanings": [
+        "통합"
+      ],
+      "example": "The school promotes the integration of students from different backgrounds.",
+      "exampleKo": "그 학교는 다양한 배경을 가진 학생들의 통합을 촉진한다.",
+      "emoji": ""
+    },
+    {
+      "word": "interest",
+      "pos": "n",
+      "meanings": [
+        "이자",
+        "이해관계"
+      ],
+      "example": "The bank offers a low interest rate on loans.",
+      "exampleKo": "그 은행은 대출에 낮은 이자율을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "international",
+      "pos": "adj",
+      "meanings": [
+        "국제적인"
+      ],
+      "example": "The conference attracted international attention.",
+      "exampleKo": "그 회의는 국제적인 관심을 끌었다.",
+      "emoji": ""
+    },
+    {
+      "word": "investment",
+      "pos": "n",
+      "meanings": [
+        "투자"
+      ],
+      "example": "The company made a large investment in new technology.",
+      "exampleKo": "그 회사는 새로운 기술에 많은 투자를 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "journalism",
+      "pos": "n",
+      "meanings": [
+        "언론",
+        "저널리즘"
+      ],
+      "example": "She studied journalism to become a reporter.",
+      "exampleKo": "그녀는 기자가 되기 위해 언론학을 공부했다.",
+      "emoji": "📰"
+    },
+    {
+      "word": "journalist",
+      "pos": "n",
+      "meanings": [
+        "기자",
+        "언론인"
+      ],
+      "example": "The journalist interviewed the mayor about the new policy.",
+      "exampleKo": "그 기자는 새 정책에 대해 시장을 인터뷰했다.",
+      "emoji": "🎙️"
+    },
+    {
+      "word": "judge",
+      "pos": "n",
+      "meanings": [
+        "판사"
+      ],
+      "example": "The judge sentenced the man to two years in prison.",
+      "exampleKo": "판사는 그 남자에게 징역 2년을 선고했다.",
+      "emoji": "🔨"
+    },
+    {
+      "word": "jury",
+      "pos": "n",
+      "meanings": [
+        "배심원단"
+      ],
+      "example": "The jury found the defendant not guilty.",
+      "exampleKo": "배심원단은 피고인에게 무죄를 선고했다.",
+      "emoji": ""
+    },
+    {
+      "word": "justice",
+      "pos": "n",
+      "meanings": [
+        "정의",
+        "사법"
+      ],
+      "example": "The victims demanded justice for the crime.",
+      "exampleKo": "피해자들은 그 범죄에 대한 정의를 요구했다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "labor",
+      "pos": "n",
+      "meanings": [
+        "노동"
+      ],
+      "example": "The factory relies heavily on manual labor.",
+      "exampleKo": "그 공장은 수작업 노동에 크게 의존한다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "lawsuit",
+      "pos": "n",
+      "meanings": [
+        "소송"
+      ],
+      "example": "The company faced a lawsuit over unsafe products.",
+      "exampleKo": "그 회사는 안전하지 않은 제품으로 소송에 직면했다.",
+      "emoji": ""
+    },
+    {
+      "word": "lawyer",
+      "pos": "n",
+      "meanings": [
+        "변호사"
+      ],
+      "example": "She hired a lawyer to handle the contract.",
+      "exampleKo": "그녀는 계약을 처리하기 위해 변호사를 고용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "legislation",
+      "pos": "n",
+      "meanings": [
+        "법률",
+        "입법"
+      ],
+      "example": "New legislation will limit plastic use.",
+      "exampleKo": "새 법률은 플라스틱 사용을 제한할 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "liberty",
+      "pos": "n",
+      "meanings": [
+        "자유"
+      ],
+      "example": "The statue symbolizes liberty and independence.",
+      "exampleKo": "그 동상은 자유와 독립을 상징한다.",
+      "emoji": "🗽"
+    },
+    {
+      "word": "loan",
+      "pos": "n",
+      "meanings": [
+        "대출"
+      ],
+      "example": "He took out a loan to buy a car.",
+      "exampleKo": "그는 차를 사기 위해 대출을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "loss",
+      "pos": "n",
+      "meanings": [
+        "손실"
+      ],
+      "example": "The company reported a loss last quarter.",
+      "exampleKo": "그 회사는 지난 분기에 손실을 보고했다.",
+      "emoji": ""
+    },
+    {
+      "word": "manufacture",
+      "pos": "v",
+      "meanings": [
+        "제조하다"
+      ],
+      "example": "The factory manufactures furniture for export.",
+      "exampleKo": "그 공장은 수출용 가구를 제조한다.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "media",
+      "pos": "n",
+      "meanings": [
+        "언론",
+        "매체"
+      ],
+      "example": "The media covered the election closely.",
+      "exampleKo": "언론은 그 선거를 면밀히 보도했다.",
+      "emoji": "📺"
+    },
+    {
+      "word": "migrant",
+      "pos": "n",
+      "meanings": [
+        "이주자"
+      ],
+      "example": "Many migrant workers send money home to their families.",
+      "exampleKo": "많은 이주 노동자들은 가족에게 돈을 송금한다.",
+      "emoji": ""
+    },
+    {
+      "word": "migration",
+      "pos": "n",
+      "meanings": [
+        "이주"
+      ],
+      "example": "The war caused a huge migration of refugees.",
+      "exampleKo": "그 전쟁은 대규모 난민 이주를 초래했다.",
+      "emoji": ""
+    },
+    {
+      "word": "military",
+      "pos": "adj",
+      "meanings": [
+        "군사의"
+      ],
+      "example": "The country increased its military spending.",
+      "exampleKo": "그 나라는 군사비 지출을 늘렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "ministry",
+      "pos": "n",
+      "meanings": [
+        "부처",
+        "정부 부서"
+      ],
+      "example": "The Ministry of Education announced new school rules.",
+      "exampleKo": "교육부는 새로운 학교 규정을 발표했다.",
+      "emoji": ""
+    },
+    {
+      "word": "minority",
+      "pos": "n",
+      "meanings": [
+        "소수",
+        "소수 집단"
+      ],
+      "example": "The law protects the rights of ethnic minorities.",
+      "exampleKo": "그 법은 소수 민족의 권리를 보호한다.",
+      "emoji": ""
+    },
+    {
+      "word": "monopoly",
+      "pos": "n",
+      "meanings": [
+        "독점"
+      ],
+      "example": "The company held a monopoly on the local market.",
+      "exampleKo": "그 회사는 그 지역 시장을 독점했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mortgage",
+      "pos": "n",
+      "meanings": [
+        "주택 담보 대출"
+      ],
+      "example": "They took out a mortgage to buy their first house.",
+      "exampleKo": "그들은 첫 집을 사기 위해 주택 담보 대출을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "multicultural",
+      "pos": "adj",
+      "meanings": [
+        "다문화의"
+      ],
+      "example": "Seoul has become an increasingly multicultural city.",
+      "exampleKo": "서울은 점점 더 다문화 도시가 되고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "nation",
+      "pos": "n",
+      "meanings": [
+        "국가",
+        "나라"
+      ],
+      "example": "Leaders from every nation attended the summit.",
+      "exampleKo": "모든 국가의 지도자들이 정상 회담에 참석했다.",
+      "emoji": ""
+    },
+    {
+      "word": "national",
+      "pos": "adj",
+      "meanings": [
+        "국가의",
+        "전국적인"
+      ],
+      "example": "The team won the national championship.",
+      "exampleKo": "그 팀은 전국 선수권 대회에서 우승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "nationalism",
+      "pos": "n",
+      "meanings": [
+        "민족주의",
+        "국가주의"
+      ],
+      "example": "Rising nationalism affected trade between the two countries.",
+      "exampleKo": "고조되는 민족주의가 두 나라 간의 무역에 영향을 미쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "negotiation",
+      "pos": "n",
+      "meanings": [
+        "협상"
+      ],
+      "example": "The negotiation between the two companies lasted for weeks.",
+      "exampleKo": "두 회사 간의 협상은 몇 주 동안 계속되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "nonprofit",
+      "pos": "adj",
+      "meanings": [
+        "비영리의"
+      ],
+      "example": "She works for a nonprofit that helps homeless families.",
+      "exampleKo": "그녀는 노숙자 가족을 돕는 비영리 단체에서 일한다.",
+      "emoji": ""
+    },
+    {
+      "word": "oppress",
+      "pos": "v",
+      "meanings": [
+        "억압하다"
+      ],
+      "example": "The regime oppressed anyone who criticized it.",
+      "exampleKo": "그 정권은 자신을 비판하는 사람은 누구든 억압했다.",
+      "emoji": ""
+    },
+    {
+      "word": "oppression",
+      "pos": "n",
+      "meanings": [
+        "억압"
+      ],
+      "example": "The novel describes years of political oppression.",
+      "exampleKo": "그 소설은 수년간의 정치적 억압을 묘사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "ownership",
+      "pos": "n",
+      "meanings": [
+        "소유",
+        "소유권"
+      ],
+      "example": "The law clarifies who has ownership of the land.",
+      "exampleKo": "그 법은 누가 그 토지의 소유권을 가지는지 명확히 한다.",
+      "emoji": "🔑"
+    },
+    {
+      "word": "parliament",
+      "pos": "n",
+      "meanings": [
+        "의회"
+      ],
+      "example": "The bill was debated in parliament for months.",
+      "exampleKo": "그 법안은 몇 달 동안 의회에서 논의되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "patriot",
+      "pos": "n",
+      "meanings": [
+        "애국자"
+      ],
+      "example": "He is remembered as a patriot who fought for independence.",
+      "exampleKo": "그는 독립을 위해 싸운 애국자로 기억된다.",
+      "emoji": ""
+    },
+    {
+      "word": "peace",
+      "pos": "n",
+      "meanings": [
+        "평화"
+      ],
+      "example": "The two nations finally signed a peace agreement.",
+      "exampleKo": "두 나라는 마침내 평화 협정을 체결했다.",
+      "emoji": "☮️"
+    },
+    {
+      "word": "peaceful",
+      "pos": "adj",
+      "meanings": [
+        "평화로운",
+        "평화적인"
+      ],
+      "example": "The protest remained peaceful throughout the day.",
+      "exampleKo": "그 시위는 하루 종일 평화롭게 진행되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "pension",
+      "pos": "n",
+      "meanings": [
+        "연금"
+      ],
+      "example": "Many elderly citizens depend on their pension.",
+      "exampleKo": "많은 노인들이 연금에 의존한다.",
+      "emoji": ""
+    },
+    {
+      "word": "policy",
+      "pos": "n",
+      "meanings": [
+        "정책"
+      ],
+      "example": "The government changed its policy on immigration.",
+      "exampleKo": "정부는 이민에 관한 정책을 바꾸었다.",
+      "emoji": ""
+    },
+    {
+      "word": "political",
+      "pos": "adj",
+      "meanings": [
+        "정치적인"
+      ],
+      "example": "The country is going through a period of political change.",
+      "exampleKo": "그 나라는 정치적 변화의 시기를 겪고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "politics",
+      "pos": "n",
+      "meanings": [
+        "정치"
+      ],
+      "example": "She became interested in politics during high school.",
+      "exampleKo": "그녀는 고등학교 때 정치에 관심을 갖게 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "poverty",
+      "pos": "n",
+      "meanings": [
+        "빈곤"
+      ],
+      "example": "The program aims to reduce poverty in rural areas.",
+      "exampleKo": "그 프로그램은 농촌 지역의 빈곤을 줄이는 것을 목표로 한다.",
+      "emoji": "🏚️"
+    },
+    {
+      "word": "president",
+      "pos": "n",
+      "meanings": [
+        "대통령",
+        "회장"
+      ],
+      "example": "The president signed the new law yesterday.",
+      "exampleKo": "대통령은 어제 그 새 법에 서명했다.",
+      "emoji": ""
+    },
+    {
+      "word": "press",
+      "pos": "n",
+      "meanings": [
+        "언론",
+        "신문"
+      ],
+      "example": "The press criticized the government's decision.",
+      "exampleKo": "언론은 정부의 결정을 비판했다.",
+      "emoji": ""
+    },
+    {
+      "word": "prison",
+      "pos": "n",
+      "meanings": [
+        "감옥",
+        "교도소"
+      ],
+      "example": "He spent ten years in prison for the crime.",
+      "exampleKo": "그는 그 범죄로 10년을 감옥에서 보냈다.",
+      "emoji": "🔒"
+    },
+    {
+      "word": "privacy",
+      "pos": "n",
+      "meanings": [
+        "사생활",
+        "프라이버시"
+      ],
+      "example": "New technology raises concerns about privacy.",
+      "exampleKo": "새로운 기술은 사생활에 대한 우려를 불러일으킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "private",
+      "pos": "adj",
+      "meanings": [
+        "사적인",
+        "사립의"
+      ],
+      "example": "She attends a private school in the city.",
+      "exampleKo": "그녀는 그 도시의 사립 학교에 다닌다.",
+      "emoji": ""
+    },
+    {
+      "word": "production",
+      "pos": "n",
+      "meanings": [
+        "생산"
+      ],
+      "example": "The factory increased its production of electric cars.",
+      "exampleKo": "그 공장은 전기차 생산을 늘렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "propaganda",
+      "pos": "n",
+      "meanings": [
+        "선전"
+      ],
+      "example": "The regime used propaganda to control public opinion.",
+      "exampleKo": "그 정권은 여론을 통제하기 위해 선전을 이용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "property",
+      "pos": "n",
+      "meanings": [
+        "재산",
+        "부동산"
+      ],
+      "example": "The couple bought a piece of property near the coast.",
+      "exampleKo": "그 부부는 해안 근처의 부동산을 매입했다.",
+      "emoji": ""
+    },
+    {
+      "word": "prosperity",
+      "pos": "n",
+      "meanings": [
+        "번영"
+      ],
+      "example": "The country enjoyed decades of peace and prosperity.",
+      "exampleKo": "그 나라는 수십 년간의 평화와 번영을 누렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "prosperous",
+      "pos": "adj",
+      "meanings": [
+        "번영한",
+        "부유한"
+      ],
+      "example": "The region became prosperous after the factory opened.",
+      "exampleKo": "그 지역은 공장이 들어선 후 번영했다.",
+      "emoji": ""
+    },
+    {
+      "word": "protest",
+      "pos": "n",
+      "meanings": [
+        "항의",
+        "시위"
+      ],
+      "example": "Students staged a protest against the new rule.",
+      "exampleKo": "학생들은 새 규칙에 반대하는 시위를 벌였다.",
+      "emoji": ""
+    },
+    {
+      "word": "public",
+      "pos": "adj",
+      "meanings": [
+        "공공의",
+        "대중의"
+      ],
+      "example": "The library is a public building open to everyone.",
+      "exampleKo": "그 도서관은 누구에게나 열려 있는 공공 건물이다.",
+      "emoji": ""
+    },
+    {
+      "word": "punishment",
+      "pos": "n",
+      "meanings": [
+        "처벌"
+      ],
+      "example": "The punishment for the crime was severe.",
+      "exampleKo": "그 범죄에 대한 처벌은 엄중했다.",
+      "emoji": ""
+    },
+    {
+      "word": "purchase",
+      "pos": "v",
+      "meanings": [
+        "구매하다"
+      ],
+      "example": "Customers can purchase tickets online.",
+      "exampleKo": "고객들은 온라인으로 표를 구매할 수 있다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "racial",
+      "pos": "adj",
+      "meanings": [
+        "인종의"
+      ],
+      "example": "The law prohibits racial discrimination in the workplace.",
+      "exampleKo": "그 법은 직장에서의 인종 차별을 금지한다.",
+      "emoji": ""
+    },
+    {
+      "word": "racism",
+      "pos": "n",
+      "meanings": [
+        "인종차별",
+        "인종차별주의"
+      ],
+      "example": "The movement fights against racism in society.",
+      "exampleKo": "그 운동은 사회의 인종차별에 맞서 싸운다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "rally",
+      "pos": "n",
+      "meanings": [
+        "집회"
+      ],
+      "example": "Supporters gathered for a rally in the city square.",
+      "exampleKo": "지지자들은 도시 광장에서 열린 집회에 모였다.",
+      "emoji": ""
+    },
+    {
+      "word": "recession",
+      "pos": "n",
+      "meanings": [
+        "경기 침체"
+      ],
+      "example": "Many people lost their jobs during the recession.",
+      "exampleKo": "많은 사람들이 경기 침체 동안 일자리를 잃었다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "reform",
+      "pos": "n",
+      "meanings": [
+        "개혁"
+      ],
+      "example": "The government promised education reform.",
+      "exampleKo": "정부는 교육 개혁을 약속했다.",
+      "emoji": ""
+    },
+    {
+      "word": "refugee",
+      "pos": "n",
+      "meanings": [
+        "난민"
+      ],
+      "example": "The organization provides food and shelter for refugees.",
+      "exampleKo": "그 단체는 난민들에게 음식과 거처를 제공한다.",
+      "emoji": "🧳"
+    },
+    {
+      "word": "regime",
+      "pos": "n",
+      "meanings": [
+        "정권",
+        "체제"
+      ],
+      "example": "The regime collapsed after years of protests.",
+      "exampleKo": "그 정권은 수년간의 시위 끝에 붕괴되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "regulate",
+      "pos": "v",
+      "meanings": [
+        "규제하다",
+        "조절하다"
+      ],
+      "example": "The agency regulates the sale of medicine.",
+      "exampleKo": "그 기관은 의약품 판매를 규제한다.",
+      "emoji": ""
+    },
+    {
+      "word": "regulation",
+      "pos": "n",
+      "meanings": [
+        "규제",
+        "규정"
+      ],
+      "example": "New regulations require safer factory conditions.",
+      "exampleKo": "새 규정은 더 안전한 공장 환경을 요구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "republic",
+      "pos": "n",
+      "meanings": [
+        "공화국"
+      ],
+      "example": "The country became a republic after the revolution.",
+      "exampleKo": "그 나라는 혁명 이후 공화국이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "retail",
+      "pos": "n",
+      "meanings": [
+        "소매",
+        "소매업"
+      ],
+      "example": "She works in retail at a clothing store.",
+      "exampleKo": "그녀는 옷 가게에서 소매업에 종사한다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "revenue",
+      "pos": "n",
+      "meanings": [
+        "세입",
+        "수익"
+      ],
+      "example": "The city's tax revenue increased this year.",
+      "exampleKo": "그 도시의 세수는 올해 증가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "revolution",
+      "pos": "n",
+      "meanings": [
+        "혁명"
+      ],
+      "example": "The revolution changed the country's government completely.",
+      "exampleKo": "그 혁명은 그 나라의 정부를 완전히 바꾸어 놓았다.",
+      "emoji": ""
+    },
+    {
+      "word": "rural",
+      "pos": "adj",
+      "meanings": [
+        "시골의",
+        "농촌의"
+      ],
+      "example": "Many young people leave rural areas for the city.",
+      "exampleKo": "많은 젊은이들이 도시로 가기 위해 농촌 지역을 떠난다.",
+      "emoji": "🌾"
+    },
+    {
+      "word": "salary",
+      "pos": "n",
+      "meanings": [
+        "급여",
+        "월급"
+      ],
+      "example": "He received a salary increase after his promotion.",
+      "exampleKo": "그는 승진 후 급여 인상을 받았다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "scarcity",
+      "pos": "n",
+      "meanings": [
+        "부족",
+        "희소성"
+      ],
+      "example": "Water scarcity is a serious problem in the region.",
+      "exampleKo": "물 부족은 그 지역의 심각한 문제이다.",
+      "emoji": ""
+    },
+    {
+      "word": "segregation",
+      "pos": "n",
+      "meanings": [
+        "분리",
+        "격리"
+      ],
+      "example": "The law ended racial segregation in schools.",
+      "exampleKo": "그 법은 학교에서의 인종 분리를 끝냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "senate",
+      "pos": "n",
+      "meanings": [
+        "상원"
+      ],
+      "example": "The senate approved the new budget.",
+      "exampleKo": "상원은 새 예산안을 승인했다.",
+      "emoji": ""
+    },
+    {
+      "word": "senator",
+      "pos": "n",
+      "meanings": [
+        "상원 의원"
+      ],
+      "example": "The senator gave a speech about tax reform.",
+      "exampleKo": "그 상원 의원은 세제 개혁에 관해 연설했다.",
+      "emoji": ""
+    },
+    {
+      "word": "social",
+      "pos": "adj",
+      "meanings": [
+        "사회의",
+        "사회적인"
+      ],
+      "example": "The internet has changed social relationships.",
+      "exampleKo": "인터넷은 사회적 관계를 변화시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "society",
+      "pos": "n",
+      "meanings": [
+        "사회"
+      ],
+      "example": "Technology has transformed modern society.",
+      "exampleKo": "기술은 현대 사회를 변화시켰다.",
+      "emoji": "🧑‍🤝‍🧑"
+    },
+    {
+      "word": "sovereignty",
+      "pos": "n",
+      "meanings": [
+        "주권"
+      ],
+      "example": "The nation fought to protect its sovereignty.",
+      "exampleKo": "그 나라는 주권을 지키기 위해 싸웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "stereotype",
+      "pos": "n",
+      "meanings": [
+        "고정관념"
+      ],
+      "example": "The movie challenges common stereotypes about immigrants.",
+      "exampleKo": "그 영화는 이민자에 대한 흔한 고정관념에 도전한다.",
+      "emoji": ""
+    },
+    {
+      "word": "stock",
+      "pos": "n",
+      "meanings": [
+        "주식"
+      ],
+      "example": "He invested his savings in stock.",
+      "exampleKo": "그는 저축한 돈을 주식에 투자했다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "strike",
+      "pos": "n",
+      "meanings": [
+        "파업"
+      ],
+      "example": "Workers went on strike to demand higher wages.",
+      "exampleKo": "노동자들은 임금 인상을 요구하며 파업에 들어갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "subsidy",
+      "pos": "n",
+      "meanings": [
+        "보조금"
+      ],
+      "example": "Farmers receive a government subsidy each year.",
+      "exampleKo": "농부들은 매년 정부 보조금을 받는다.",
+      "emoji": ""
+    },
+    {
+      "word": "suburb",
+      "pos": "n",
+      "meanings": [
+        "교외"
+      ],
+      "example": "Many families moved to the suburb for cheaper housing.",
+      "exampleKo": "많은 가족들이 더 저렴한 주택을 위해 교외로 이사했다.",
+      "emoji": "🏘️"
+    },
+    {
+      "word": "supply",
+      "pos": "n",
+      "meanings": [
+        "공급"
+      ],
+      "example": "The price depends on supply and demand.",
+      "exampleKo": "가격은 공급과 수요에 따라 결정된다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "surplus",
+      "pos": "n",
+      "meanings": [
+        "잉여",
+        "흑자"
+      ],
+      "example": "The country had a trade surplus last year.",
+      "exampleKo": "그 나라는 작년에 무역 흑자를 기록했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tariff",
+      "pos": "n",
+      "meanings": [
+        "관세"
+      ],
+      "example": "The government raised tariffs on imported steel.",
+      "exampleKo": "정부는 수입 철강에 대한 관세를 인상했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tax",
+      "pos": "n",
+      "meanings": [
+        "세금"
+      ],
+      "example": "The government plans to raise taxes on luxury goods.",
+      "exampleKo": "정부는 사치품에 대한 세금을 인상할 계획이다.",
+      "emoji": ""
+    },
+    {
+      "word": "taxation",
+      "pos": "n",
+      "meanings": [
+        "과세",
+        "조세"
+      ],
+      "example": "The new policy changed the rules of taxation.",
+      "exampleKo": "새 정책은 과세 규정을 바꾸었다.",
+      "emoji": ""
+    },
+    {
+      "word": "trade",
+      "pos": "n",
+      "meanings": [
+        "무역",
+        "거래"
+      ],
+      "example": "Trade between the two countries has grown steadily.",
+      "exampleKo": "두 나라 간의 무역이 꾸준히 성장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "traditional",
+      "pos": "adj",
+      "meanings": [
+        "전통적인"
+      ],
+      "example": "They still follow many traditional customs.",
+      "exampleKo": "그들은 여전히 많은 전통적인 관습을 따른다.",
+      "emoji": ""
+    },
+    {
+      "word": "transaction",
+      "pos": "n",
+      "meanings": [
+        "거래"
+      ],
+      "example": "The bank recorded every transaction carefully.",
+      "exampleKo": "은행은 모든 거래를 꼼꼼히 기록했다.",
+      "emoji": "💳"
+    },
+    {
+      "word": "treaty",
+      "pos": "n",
+      "meanings": [
+        "조약"
+      ],
+      "example": "The two nations signed a peace treaty.",
+      "exampleKo": "두 나라는 평화 조약을 체결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tyranny",
+      "pos": "n",
+      "meanings": [
+        "폭정",
+        "압제"
+      ],
+      "example": "The people rose up against years of tyranny.",
+      "exampleKo": "국민들은 수년간의 폭정에 맞서 봉기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "unemployment",
+      "pos": "n",
+      "meanings": [
+        "실업",
+        "실업률"
+      ],
+      "example": "Unemployment rose sharply during the recession.",
+      "exampleKo": "경기 침체 동안 실업률이 급격히 상승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "urban",
+      "pos": "adj",
+      "meanings": [
+        "도시의"
+      ],
+      "example": "Urban areas often face traffic and pollution problems.",
+      "exampleKo": "도시 지역은 종종 교통과 오염 문제를 겪는다.",
+      "emoji": "🏙️"
+    },
+    {
+      "word": "urbanization",
+      "pos": "n",
+      "meanings": [
+        "도시화"
+      ],
+      "example": "Rapid urbanization changed the landscape of the region.",
+      "exampleKo": "급속한 도시화는 그 지역의 경관을 바꾸었다.",
+      "emoji": ""
+    },
+    {
+      "word": "values",
+      "pos": "n",
+      "meanings": [
+        "가치관"
+      ],
+      "example": "Different generations often hold different values.",
+      "exampleKo": "다른 세대는 종종 다른 가치관을 지닌다.",
+      "emoji": ""
+    },
+    {
+      "word": "verdict",
+      "pos": "n",
+      "meanings": [
+        "평결",
+        "판결"
+      ],
+      "example": "The jury reached a verdict after three hours.",
+      "exampleKo": "배심원단은 세 시간 후 평결에 도달했다.",
+      "emoji": ""
+    },
+    {
+      "word": "vote",
+      "pos": "v",
+      "meanings": [
+        "투표하다"
+      ],
+      "example": "Citizens vote for their representatives every four years.",
+      "exampleKo": "시민들은 4년마다 대표자를 뽑기 위해 투표한다.",
+      "emoji": ""
+    },
+    {
+      "word": "voter",
+      "pos": "n",
+      "meanings": [
+        "유권자"
+      ],
+      "example": "Millions of voters lined up outside polling stations.",
+      "exampleKo": "수백만 명의 유권자들이 투표소 밖에 줄을 섰다.",
+      "emoji": ""
+    },
+    {
+      "word": "wage",
+      "pos": "n",
+      "meanings": [
+        "임금"
+      ],
+      "example": "The government raised the minimum wage this year.",
+      "exampleKo": "정부는 올해 최저임금을 인상했다.",
+      "emoji": ""
+    },
+    {
+      "word": "war",
+      "pos": "n",
+      "meanings": [
+        "전쟁"
+      ],
+      "example": "The war lasted for nearly a decade.",
+      "exampleKo": "그 전쟁은 거의 10년 동안 지속되었다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "wealth",
+      "pos": "n",
+      "meanings": [
+        "부",
+        "재산"
+      ],
+      "example": "The country's natural resources brought great wealth.",
+      "exampleKo": "그 나라의 천연자원은 막대한 부를 가져다주었다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "wealthy",
+      "pos": "adj",
+      "meanings": [
+        "부유한"
+      ],
+      "example": "A wealthy businessman donated to the new hospital.",
+      "exampleKo": "한 부유한 사업가가 새 병원에 기부했다.",
+      "emoji": ""
+    }
+  ]
+}

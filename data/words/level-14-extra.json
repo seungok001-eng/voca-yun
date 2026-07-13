@@ -1,0 +1,95 @@
+{
+  "level": 14,
+  "words": [
+    {
+      "word": "hierarchy",
+      "pos": "n",
+      "meanings": [
+        "계층",
+        "위계질서"
+      ],
+      "example": "There is a strict hierarchy within the organization.",
+      "exampleKo": "그 조직 내에는 엄격한 위계질서가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "implication",
+      "pos": "n",
+      "meanings": [
+        "함의",
+        "암시",
+        "영향"
+      ],
+      "example": "The discovery has important implications for medicine.",
+      "exampleKo": "그 발견은 의학에 중요한 함의를 지닌다.",
+      "emoji": ""
+    },
+    {
+      "word": "inflict",
+      "pos": "v",
+      "meanings": [
+        "가하다",
+        "입히다"
+      ],
+      "example": "The flood inflicted severe damage on the crops.",
+      "exampleKo": "홍수는 농작물에 심각한 피해를 입혔다.",
+      "emoji": ""
+    },
+    {
+      "word": "instill",
+      "pos": "v",
+      "meanings": [
+        "심어 주다",
+        "불어넣다"
+      ],
+      "example": "Her parents instilled a love of reading in her.",
+      "exampleKo": "그녀의 부모는 그녀에게 독서에 대한 사랑을 심어 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "invoke",
+      "pos": "v",
+      "meanings": [
+        "불러일으키다",
+        "적용하다",
+        "호소하다"
+      ],
+      "example": "The lawyer invoked an old law to defend his client.",
+      "exampleKo": "그 변호사는 의뢰인을 변호하기 위해 오래된 법을 적용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mediate",
+      "pos": "v",
+      "meanings": [
+        "중재하다",
+        "조정하다"
+      ],
+      "example": "The teacher mediated the dispute between the two students.",
+      "exampleKo": "선생님이 두 학생 사이의 다툼을 중재했다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "novice",
+      "pos": "n",
+      "meanings": [
+        "초보자",
+        "풋내기"
+      ],
+      "example": "This course is designed for novices in programming.",
+      "exampleKo": "이 강좌는 프로그래밍 초보자를 위해 설계되었다.",
+      "emoji": "🔰"
+    },
+    {
+      "word": "outweigh",
+      "pos": "v",
+      "meanings": [
+        "더 크다",
+        "능가하다"
+      ],
+      "example": "The benefits of the plan outweigh its costs.",
+      "exampleKo": "그 계획의 이점이 비용보다 더 크다.",
+      "emoji": "⚖️"
+    }
+  ]
+}

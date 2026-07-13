@@ -1,0 +1,1881 @@
+{
+  "level": 5,
+  "words": [
+    {
+      "word": "pollute",
+      "pos": "v",
+      "meanings": [
+        "오염시키다"
+      ],
+      "example": "Factories should not pollute the river.",
+      "exampleKo": "공장은 강을 오염시키면 안 된다.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "litter",
+      "pos": "n",
+      "meanings": [
+        "쓰레기"
+      ],
+      "example": "Please do not leave litter in the park.",
+      "exampleKo": "공원에 쓰레기를 버리지 마세요.",
+      "emoji": "🗑️"
+    },
+    {
+      "word": "garbage",
+      "pos": "n",
+      "meanings": [
+        "쓰레기"
+      ],
+      "example": "We take out the garbage every Monday.",
+      "exampleKo": "우리는 매주 월요일에 쓰레기를 내놓는다.",
+      "emoji": "🗑️"
+    },
+    {
+      "word": "landfill",
+      "pos": "n",
+      "meanings": [
+        "매립지"
+      ],
+      "example": "Too much trash ends up in the landfill.",
+      "exampleKo": "너무 많은 쓰레기가 매립지로 간다.",
+      "emoji": "🗑️"
+    },
+    {
+      "word": "compost",
+      "pos": "n",
+      "meanings": [
+        "퇴비"
+      ],
+      "example": "We turn food scraps into compost for the garden.",
+      "exampleKo": "우리는 음식물 찌꺼기를 정원용 퇴비로 만든다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "wildfire",
+      "pos": "n",
+      "meanings": [
+        "산불"
+      ],
+      "example": "The dry weather caused a huge wildfire.",
+      "exampleKo": "건조한 날씨가 큰 산불을 일으켰다.",
+      "emoji": "🔥"
+    },
+    {
+      "word": "avalanche",
+      "pos": "n",
+      "meanings": [
+        "눈사태"
+      ],
+      "example": "An avalanche can bury a whole village in snow.",
+      "exampleKo": "눈사태는 마을 전체를 눈 속에 파묻을 수 있다.",
+      "emoji": "🏔️"
+    },
+    {
+      "word": "tsunami",
+      "pos": "n",
+      "meanings": [
+        "쓰나미",
+        "해일"
+      ],
+      "example": "An earthquake under the sea can cause a tsunami.",
+      "exampleKo": "바다 밑 지진은 쓰나미를 일으킬 수 있다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "typhoon",
+      "pos": "n",
+      "meanings": [
+        "태풍"
+      ],
+      "example": "A strong typhoon is coming toward the coast.",
+      "exampleKo": "강한 태풍이 해안으로 다가오고 있다.",
+      "emoji": "🌀"
+    },
+    {
+      "word": "eruption",
+      "pos": "n",
+      "meanings": [
+        "화산 폭발",
+        "분출"
+      ],
+      "example": "The volcano's eruption covered the town in ash.",
+      "exampleKo": "화산 폭발이 마을을 재로 뒤덮었다.",
+      "emoji": "🌋"
+    },
+    {
+      "word": "erupt",
+      "pos": "v",
+      "meanings": [
+        "분출하다",
+        "폭발하다"
+      ],
+      "example": "Scientists warned that the volcano might erupt soon.",
+      "exampleKo": "과학자들은 화산이 곧 분출할 수도 있다고 경고했다.",
+      "emoji": "🌋"
+    },
+    {
+      "word": "iceberg",
+      "pos": "n",
+      "meanings": [
+        "빙산"
+      ],
+      "example": "The ship almost hit a huge iceberg.",
+      "exampleKo": "그 배는 거대한 빙산에 부딪힐 뻔했다.",
+      "emoji": "🧊"
+    },
+    {
+      "word": "polar",
+      "pos": "adj",
+      "meanings": [
+        "극지의"
+      ],
+      "example": "Polar bears live near the North Pole.",
+      "exampleKo": "북극곰은 북극 근처에 산다.",
+      "emoji": "🧊"
+    },
+    {
+      "word": "arctic",
+      "pos": "adj",
+      "meanings": [
+        "북극의"
+      ],
+      "example": "The arctic wind was freezing cold.",
+      "exampleKo": "북극 바람은 얼어붙을 듯이 추웠다.",
+      "emoji": "🧊"
+    },
+    {
+      "word": "tropical",
+      "pos": "adj",
+      "meanings": [
+        "열대의"
+      ],
+      "example": "Bananas grow well in a tropical climate.",
+      "exampleKo": "바나나는 열대 기후에서 잘 자란다.",
+      "emoji": "🌴"
+    },
+    {
+      "word": "reef",
+      "pos": "n",
+      "meanings": [
+        "암초"
+      ],
+      "example": "Many fish live around the colorful reef.",
+      "exampleKo": "알록달록한 암초 주변에는 많은 물고기가 산다.",
+      "emoji": "🪸"
+    },
+    {
+      "word": "coral",
+      "pos": "n",
+      "meanings": [
+        "산호"
+      ],
+      "example": "The coral turned white because the water got too warm.",
+      "exampleKo": "바닷물이 너무 따뜻해져서 산호가 하얗게 변했다.",
+      "emoji": "🪸"
+    },
+    {
+      "word": "tide",
+      "pos": "n",
+      "meanings": [
+        "조수",
+        "밀물과 썰물"
+      ],
+      "example": "We collected shells when the tide went out.",
+      "exampleKo": "우리는 썰물 때 조개껍데기를 주웠다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "marsh",
+      "pos": "n",
+      "meanings": [
+        "습지",
+        "늪"
+      ],
+      "example": "Many birds nest in the marsh near the river.",
+      "exampleKo": "강 근처의 습지에는 많은 새들이 둥지를 튼다.",
+      "emoji": ""
+    },
+    {
+      "word": "fertile",
+      "pos": "adj",
+      "meanings": [
+        "비옥한"
+      ],
+      "example": "The fertile soil helps crops grow quickly.",
+      "exampleKo": "비옥한 토양은 작물이 빨리 자라도록 돕는다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "sediment",
+      "pos": "n",
+      "meanings": [
+        "퇴적물",
+        "침전물"
+      ],
+      "example": "Sediment builds up at the bottom of the lake.",
+      "exampleKo": "호수 바닥에 퇴적물이 쌓인다.",
+      "emoji": ""
+    },
+    {
+      "word": "moisture",
+      "pos": "n",
+      "meanings": [
+        "수분",
+        "습기"
+      ],
+      "example": "Plants need moisture in the soil to grow.",
+      "exampleKo": "식물은 자라기 위해 흙 속의 수분이 필요하다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "humidity",
+      "pos": "n",
+      "meanings": [
+        "습도"
+      ],
+      "example": "The humidity is very high in summer.",
+      "exampleKo": "여름에는 습도가 매우 높다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "precipitation",
+      "pos": "n",
+      "meanings": [
+        "강수량"
+      ],
+      "example": "Rain and snow are both forms of precipitation.",
+      "exampleKo": "비와 눈은 모두 강수의 형태이다.",
+      "emoji": "🌧️"
+    },
+    {
+      "word": "condensation",
+      "pos": "n",
+      "meanings": [
+        "응결",
+        "물방울 맺힘"
+      ],
+      "example": "Condensation formed on the cold window.",
+      "exampleKo": "차가운 창문에 물방울이 맺혔다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "pesticide",
+      "pos": "n",
+      "meanings": [
+        "살충제",
+        "농약"
+      ],
+      "example": "Some farmers use less pesticide to protect bees.",
+      "exampleKo": "일부 농부들은 벌을 보호하기 위해 살충제를 덜 사용한다.",
+      "emoji": ""
+    },
+    {
+      "word": "fertilizer",
+      "pos": "n",
+      "meanings": [
+        "비료"
+      ],
+      "example": "Farmers add fertilizer to help the plants grow.",
+      "exampleKo": "농부들은 식물이 자라도록 비료를 준다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "packaging",
+      "pos": "n",
+      "meanings": [
+        "포장",
+        "포장재"
+      ],
+      "example": "The toy had too much plastic packaging.",
+      "exampleKo": "그 장난감은 플라스틱 포장이 너무 많았다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "wrapper",
+      "pos": "n",
+      "meanings": [
+        "포장지"
+      ],
+      "example": "He threw the candy wrapper into the trash can.",
+      "exampleKo": "그는 사탕 포장지를 쓰레기통에 버렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "reusable",
+      "pos": "adj",
+      "meanings": [
+        "재사용할 수 있는"
+      ],
+      "example": "I always bring a reusable bag to the store.",
+      "exampleKo": "나는 항상 가게에 재사용할 수 있는 가방을 가져간다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "disposable",
+      "pos": "adj",
+      "meanings": [
+        "일회용의"
+      ],
+      "example": "We try not to use disposable cups.",
+      "exampleKo": "우리는 일회용 컵을 사용하지 않으려 노력한다.",
+      "emoji": ""
+    },
+    {
+      "word": "biodegradable",
+      "pos": "adj",
+      "meanings": [
+        "생분해되는"
+      ],
+      "example": "This bag is biodegradable and breaks down easily.",
+      "exampleKo": "이 봉투는 생분해되어서 쉽게 분해된다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "decompose",
+      "pos": "v",
+      "meanings": [
+        "분해되다",
+        "썩다"
+      ],
+      "example": "Fruit peels decompose quickly in the compost bin.",
+      "exampleKo": "과일 껍질은 퇴비통에서 빨리 분해된다.",
+      "emoji": "🍂"
+    },
+    {
+      "word": "sewage",
+      "pos": "n",
+      "meanings": [
+        "하수",
+        "오수"
+      ],
+      "example": "The city built a plant to clean the sewage.",
+      "exampleKo": "그 도시는 하수를 정화하는 시설을 지었다.",
+      "emoji": ""
+    },
+    {
+      "word": "drainage",
+      "pos": "n",
+      "meanings": [
+        "배수"
+      ],
+      "example": "Good drainage keeps the field from flooding.",
+      "exampleKo": "좋은 배수 시설은 밭이 물에 잠기지 않게 해 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "purify",
+      "pos": "v",
+      "meanings": [
+        "정화하다"
+      ],
+      "example": "This machine can purify dirty water.",
+      "exampleKo": "이 기계는 더러운 물을 정화할 수 있다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "preserve",
+      "pos": "v",
+      "meanings": [
+        "보존하다",
+        "지키다"
+      ],
+      "example": "We must preserve the forest for future generations.",
+      "exampleKo": "우리는 미래 세대를 위해 숲을 보존해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "sanctuary",
+      "pos": "n",
+      "meanings": [
+        "보호구역"
+      ],
+      "example": "The bird sanctuary protects rare species.",
+      "exampleKo": "그 조류 보호구역은 희귀종을 보호한다.",
+      "emoji": ""
+    },
+    {
+      "word": "poacher",
+      "pos": "n",
+      "meanings": [
+        "밀렵꾼"
+      ],
+      "example": "Rangers work hard to catch poachers.",
+      "exampleKo": "관리인들은 밀렵꾼을 잡기 위해 열심히 일한다.",
+      "emoji": ""
+    },
+    {
+      "word": "hibernate",
+      "pos": "v",
+      "meanings": [
+        "겨울잠을 자다"
+      ],
+      "example": "Bears hibernate in caves during the winter.",
+      "exampleKo": "곰은 겨울 동안 동굴에서 겨울잠을 잔다.",
+      "emoji": "🐻"
+    },
+    {
+      "word": "nocturnal",
+      "pos": "adj",
+      "meanings": [
+        "야행성의"
+      ],
+      "example": "Owls are nocturnal animals that hunt at night.",
+      "exampleKo": "올빼미는 밤에 사냥하는 야행성 동물이다.",
+      "emoji": "🌙"
+    },
+    {
+      "word": "carnivore",
+      "pos": "n",
+      "meanings": [
+        "육식동물"
+      ],
+      "example": "A lion is a carnivore that eats meat.",
+      "exampleKo": "사자는 고기를 먹는 육식동물이다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "herbivore",
+      "pos": "n",
+      "meanings": [
+        "초식동물"
+      ],
+      "example": "A rabbit is a herbivore that eats plants.",
+      "exampleKo": "토끼는 식물을 먹는 초식동물이다.",
+      "emoji": "🐰"
+    },
+    {
+      "word": "omnivore",
+      "pos": "n",
+      "meanings": [
+        "잡식동물"
+      ],
+      "example": "Humans are omnivores who eat both plants and meat.",
+      "exampleKo": "인간은 식물과 고기를 모두 먹는 잡식동물이다.",
+      "emoji": "🐻"
+    },
+    {
+      "word": "insect",
+      "pos": "n",
+      "meanings": [
+        "곤충"
+      ],
+      "example": "An ant is a small but strong insect.",
+      "exampleKo": "개미는 작지만 힘이 센 곤충이다.",
+      "emoji": "🐛"
+    },
+    {
+      "word": "turbine",
+      "pos": "n",
+      "meanings": [
+        "터빈"
+      ],
+      "example": "The wind turns the turbine to make electricity.",
+      "exampleKo": "바람이 터빈을 돌려 전기를 만든다.",
+      "emoji": ""
+    },
+    {
+      "word": "hydropower",
+      "pos": "n",
+      "meanings": [
+        "수력 발전"
+      ],
+      "example": "The dam produces hydropower for the whole city.",
+      "exampleKo": "그 댐은 도시 전체를 위한 수력 발전을 생산한다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "timber",
+      "pos": "n",
+      "meanings": [
+        "목재"
+      ],
+      "example": "The old bridge was built with strong timber.",
+      "exampleKo": "그 오래된 다리는 튼튼한 목재로 지어졌다.",
+      "emoji": "🪵"
+    },
+    {
+      "word": "logging",
+      "pos": "n",
+      "meanings": [
+        "벌목"
+      ],
+      "example": "Logging in the forest has slowed down recently.",
+      "exampleKo": "최근 숲에서의 벌목이 줄어들었다.",
+      "emoji": "🪵"
+    },
+    {
+      "word": "plantation",
+      "pos": "n",
+      "meanings": [
+        "대농장",
+        "재배지"
+      ],
+      "example": "The plantation grows tea on a huge hillside.",
+      "exampleKo": "그 대농장은 넓은 산비탈에서 차를 재배한다.",
+      "emoji": "🌾"
+    },
+    {
+      "word": "grove",
+      "pos": "n",
+      "meanings": [
+        "작은 숲",
+        "나무숲"
+      ],
+      "example": "We had a picnic under the shade of an orange grove.",
+      "exampleKo": "우리는 오렌지 나무숲 그늘 아래에서 소풍을 즐겼다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "crater",
+      "pos": "n",
+      "meanings": [
+        "분화구"
+      ],
+      "example": "Steam rose from the crater of the volcano.",
+      "exampleKo": "화산 분화구에서 연기가 피어올랐다.",
+      "emoji": "🌋"
+    },
+    {
+      "word": "peak",
+      "pos": "n",
+      "meanings": [
+        "산꼭대기",
+        "정상"
+      ],
+      "example": "Snow covers the peak all year round.",
+      "exampleKo": "눈이 일 년 내내 산꼭대기를 덮고 있다.",
+      "emoji": "⛰️"
+    },
+    {
+      "word": "summit",
+      "pos": "n",
+      "meanings": [
+        "정상"
+      ],
+      "example": "They finally reached the summit after six hours.",
+      "exampleKo": "그들은 여섯 시간 만에 마침내 정상에 도착했다.",
+      "emoji": "⛰️"
+    },
+    {
+      "word": "slope",
+      "pos": "n",
+      "meanings": [
+        "경사면",
+        "비탈"
+      ],
+      "example": "The skiers went down the steep slope.",
+      "exampleKo": "스키 타는 사람들은 가파른 경사면을 내려갔다.",
+      "emoji": "⛰️"
+    },
+    {
+      "word": "ridge",
+      "pos": "n",
+      "meanings": [
+        "산등성이",
+        "능선"
+      ],
+      "example": "We walked along the mountain ridge to see the view.",
+      "exampleKo": "우리는 경치를 보려고 산등성이를 따라 걸었다.",
+      "emoji": "⛰️"
+    },
+    {
+      "word": "basin",
+      "pos": "n",
+      "meanings": [
+        "분지",
+        "유역"
+      ],
+      "example": "The river basin is home to many kinds of fish.",
+      "exampleKo": "그 강 유역에는 많은 종류의 물고기가 산다.",
+      "emoji": ""
+    },
+    {
+      "word": "delta",
+      "pos": "n",
+      "meanings": [
+        "삼각주"
+      ],
+      "example": "Rich soil covers the river delta.",
+      "exampleKo": "비옥한 흙이 강 삼각주를 덮고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "bay",
+      "pos": "n",
+      "meanings": [
+        "만"
+      ],
+      "example": "Fishing boats returned to the quiet bay.",
+      "exampleKo": "어선들이 조용한 만으로 돌아왔다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "dune",
+      "pos": "n",
+      "meanings": [
+        "모래언덕"
+      ],
+      "example": "We rolled down the sand dune at the beach.",
+      "exampleKo": "우리는 해변에서 모래언덕을 굴러 내려갔다.",
+      "emoji": "🏜️"
+    },
+    {
+      "word": "oasis",
+      "pos": "n",
+      "meanings": [
+        "오아시스"
+      ],
+      "example": "Travelers rested at the oasis in the desert.",
+      "exampleKo": "여행자들은 사막의 오아시스에서 쉬었다.",
+      "emoji": "🏝️"
+    },
+    {
+      "word": "ultraviolet",
+      "pos": "adj",
+      "meanings": [
+        "자외선의"
+      ],
+      "example": "Sunscreen protects your skin from ultraviolet rays.",
+      "exampleKo": "자외선 차단제는 자외선으로부터 피부를 보호한다.",
+      "emoji": "☀️"
+    },
+    {
+      "word": "acid rain",
+      "pos": "n",
+      "meanings": [
+        "산성비"
+      ],
+      "example": "Acid rain can damage trees and buildings.",
+      "exampleKo": "산성비는 나무와 건물을 손상시킬 수 있다.",
+      "emoji": "🌧️"
+    },
+    {
+      "word": "groundwater",
+      "pos": "n",
+      "meanings": [
+        "지하수"
+      ],
+      "example": "The village gets its drinking water from groundwater.",
+      "exampleKo": "그 마을은 지하수에서 식수를 얻는다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "freshwater",
+      "pos": "adj",
+      "meanings": [
+        "민물의",
+        "담수의"
+      ],
+      "example": "Trout is a common freshwater fish.",
+      "exampleKo": "송어는 흔한 민물고기이다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "saltwater",
+      "pos": "adj",
+      "meanings": [
+        "바닷물의",
+        "염수의"
+      ],
+      "example": "Sharks are saltwater animals.",
+      "exampleKo": "상어는 바닷물에 사는 동물이다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "endangered",
+      "pos": "adj",
+      "meanings": [
+        "멸종 위기에 처한"
+      ],
+      "example": "The panda is an endangered animal.",
+      "exampleKo": "판다는 멸종 위기에 처한 동물이다.",
+      "emoji": "🦏"
+    },
+    {
+      "word": "threatened",
+      "pos": "adj",
+      "meanings": [
+        "위협받는"
+      ],
+      "example": "Many sea turtles are a threatened species.",
+      "exampleKo": "많은 바다거북은 위협받는 종이다.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "migratory",
+      "pos": "adj",
+      "meanings": [
+        "이동하는",
+        "철새의"
+      ],
+      "example": "Migratory birds fly south every winter.",
+      "exampleKo": "철새들은 겨울마다 남쪽으로 날아간다.",
+      "emoji": ""
+    },
+    {
+      "word": "native",
+      "pos": "adj",
+      "meanings": [
+        "원산의",
+        "토종의"
+      ],
+      "example": "This flower is native to the mountains here.",
+      "exampleKo": "이 꽃은 이곳 산에 자생하는 토종 식물이다.",
+      "emoji": ""
+    },
+    {
+      "word": "invasive",
+      "pos": "adj",
+      "meanings": [
+        "침입성의",
+        "외래의"
+      ],
+      "example": "The invasive plant is spreading fast in the lake.",
+      "exampleKo": "그 외래 식물은 호수에서 빠르게 퍼지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "marine",
+      "pos": "adj",
+      "meanings": [
+        "바다의",
+        "해양의"
+      ],
+      "example": "Marine life includes fish, whales, and crabs.",
+      "exampleKo": "해양 생물에는 물고기, 고래, 게가 포함된다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "terrestrial",
+      "pos": "adj",
+      "meanings": [
+        "육지의"
+      ],
+      "example": "Elephants are large terrestrial animals.",
+      "exampleKo": "코끼리는 큰 육지 동물이다.",
+      "emoji": ""
+    },
+    {
+      "word": "aquatic",
+      "pos": "adj",
+      "meanings": [
+        "수생의"
+      ],
+      "example": "Frogs are aquatic animals when they are young.",
+      "exampleKo": "개구리는 어릴 때 수생 동물이다.",
+      "emoji": "🐟"
+    },
+    {
+      "word": "wildlife",
+      "pos": "n",
+      "meanings": [
+        "야생동물"
+      ],
+      "example": "The park protects wildlife from hunters.",
+      "exampleKo": "그 공원은 야생동물을 사냥꾼으로부터 보호한다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "vegetation",
+      "pos": "n",
+      "meanings": [
+        "초목",
+        "식물"
+      ],
+      "example": "Thick vegetation covers the hillside.",
+      "exampleKo": "무성한 초목이 산비탈을 덮고 있다.",
+      "emoji": "🌿"
+    },
+    {
+      "word": "foliage",
+      "pos": "n",
+      "meanings": [
+        "나뭇잎",
+        "잎"
+      ],
+      "example": "The autumn foliage turned red and orange.",
+      "exampleKo": "가을 나뭇잎이 빨갛고 주황색으로 물들었다.",
+      "emoji": "🍃"
+    },
+    {
+      "word": "shrub",
+      "pos": "n",
+      "meanings": [
+        "관목"
+      ],
+      "example": "We planted a small shrub next to the fence.",
+      "exampleKo": "우리는 울타리 옆에 작은 관목을 심었다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "thicket",
+      "pos": "n",
+      "meanings": [
+        "덤불"
+      ],
+      "example": "A rabbit hid inside the thicket.",
+      "exampleKo": "토끼가 덤불 속에 숨었다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "sapling",
+      "pos": "n",
+      "meanings": [
+        "묘목"
+      ],
+      "example": "We planted a sapling on Arbor Day.",
+      "exampleKo": "우리는 식목일에 묘목을 심었다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "seedling",
+      "pos": "n",
+      "meanings": [
+        "새싹",
+        "모종"
+      ],
+      "example": "The seedling grew into a tall tree.",
+      "exampleKo": "그 새싹은 키 큰 나무로 자랐다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "bark",
+      "pos": "n",
+      "meanings": [
+        "나무껍질"
+      ],
+      "example": "The bark of this tree feels very rough.",
+      "exampleKo": "이 나무의 껍질은 매우 거칠게 느껴진다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "moss",
+      "pos": "n",
+      "meanings": [
+        "이끼"
+      ],
+      "example": "Green moss covered the old stone wall.",
+      "exampleKo": "초록 이끼가 오래된 돌담을 덮었다.",
+      "emoji": "🌿"
+    },
+    {
+      "word": "seaweed",
+      "pos": "n",
+      "meanings": [
+        "해초",
+        "미역"
+      ],
+      "example": "We ate seaweed soup for breakfast.",
+      "exampleKo": "우리는 아침으로 미역국을 먹었다.",
+      "emoji": "🌿"
+    },
+    {
+      "word": "conservation",
+      "pos": "n",
+      "meanings": [
+        "보존",
+        "보호"
+      ],
+      "example": "Water conservation is important during a drought.",
+      "exampleKo": "가뭄 동안에는 물 보존이 중요하다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "environmentalist",
+      "pos": "n",
+      "meanings": [
+        "환경운동가"
+      ],
+      "example": "The environmentalist gave a speech about saving the ocean.",
+      "exampleKo": "그 환경운동가는 바다를 지키는 것에 대해 연설했다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "awareness",
+      "pos": "n",
+      "meanings": [
+        "인식",
+        "의식"
+      ],
+      "example": "The campaign raised awareness about plastic waste.",
+      "exampleKo": "그 캠페인은 플라스틱 쓰레기에 대한 인식을 높였다.",
+      "emoji": ""
+    },
+    {
+      "word": "nonrenewable",
+      "pos": "adj",
+      "meanings": [
+        "재생 불가능한"
+      ],
+      "example": "Coal is a nonrenewable source of energy.",
+      "exampleKo": "석탄은 재생 불가능한 에너지원이다.",
+      "emoji": ""
+    },
+    {
+      "word": "petroleum",
+      "pos": "n",
+      "meanings": [
+        "석유"
+      ],
+      "example": "Petroleum is used to make gasoline and plastic.",
+      "exampleKo": "석유는 휘발유와 플라스틱을 만드는 데 쓰인다.",
+      "emoji": "🛢️"
+    },
+    {
+      "word": "gasoline",
+      "pos": "n",
+      "meanings": [
+        "휘발유"
+      ],
+      "example": "The car ran out of gasoline on the highway.",
+      "exampleKo": "그 차는 고속도로에서 휘발유가 떨어졌다.",
+      "emoji": "⛽"
+    },
+    {
+      "word": "toxin",
+      "pos": "n",
+      "meanings": [
+        "독소"
+      ],
+      "example": "The factory released harmful toxins into the air.",
+      "exampleKo": "그 공장은 해로운 독소를 공기 중으로 배출했다.",
+      "emoji": "☠️"
+    },
+    {
+      "word": "contaminant",
+      "pos": "n",
+      "meanings": [
+        "오염 물질"
+      ],
+      "example": "Filters remove contaminants from tap water.",
+      "exampleKo": "필터는 수돗물에서 오염 물질을 제거한다.",
+      "emoji": "☣️"
+    },
+    {
+      "word": "hazardous",
+      "pos": "adj",
+      "meanings": [
+        "위험한",
+        "유해한"
+      ],
+      "example": "Do not touch hazardous chemicals without gloves.",
+      "exampleKo": "장갑 없이 유해한 화학 물질을 만지지 마라.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "recyclable",
+      "pos": "adj",
+      "meanings": [
+        "재활용 가능한"
+      ],
+      "example": "Glass bottles are recyclable materials.",
+      "exampleKo": "유리병은 재활용 가능한 재료이다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "famine",
+      "pos": "n",
+      "meanings": [
+        "기근"
+      ],
+      "example": "The long drought led to a terrible famine.",
+      "exampleKo": "긴 가뭄은 끔찍한 기근으로 이어졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "sandstorm",
+      "pos": "n",
+      "meanings": [
+        "모래폭풍"
+      ],
+      "example": "A sandstorm blocked the sun for hours.",
+      "exampleKo": "모래폭풍이 몇 시간 동안 해를 가렸다.",
+      "emoji": "🌪️"
+    },
+    {
+      "word": "monsoon",
+      "pos": "n",
+      "meanings": [
+        "장마",
+        "우기"
+      ],
+      "example": "The monsoon brings heavy rain every summer.",
+      "exampleKo": "장마는 매년 여름 많은 비를 가져온다.",
+      "emoji": "🌧️"
+    },
+    {
+      "word": "national park",
+      "pos": "n",
+      "meanings": [
+        "국립공원"
+      ],
+      "example": "Our family visited a national park last weekend.",
+      "exampleKo": "우리 가족은 지난 주말에 국립공원을 방문했다.",
+      "emoji": "🏞️"
+    },
+    {
+      "word": "food chain",
+      "pos": "n",
+      "meanings": [
+        "먹이 사슬"
+      ],
+      "example": "Small fish are an important part of the food chain.",
+      "exampleKo": "작은 물고기는 먹이 사슬의 중요한 부분이다.",
+      "emoji": "🔗"
+    },
+    {
+      "word": "fossil fuel",
+      "pos": "n",
+      "meanings": [
+        "화석 연료"
+      ],
+      "example": "Burning fossil fuel adds smoke to the air.",
+      "exampleKo": "화석 연료를 태우면 공기 중에 연기가 더해진다.",
+      "emoji": "⛽"
+    },
+    {
+      "word": "global warming",
+      "pos": "n",
+      "meanings": [
+        "지구 온난화"
+      ],
+      "example": "Global warming is causing the ice to melt faster.",
+      "exampleKo": "지구 온난화는 얼음이 더 빨리 녹게 만들고 있다.",
+      "emoji": "🌡️"
+    },
+    {
+      "word": "climate change",
+      "pos": "n",
+      "meanings": [
+        "기후 변화"
+      ],
+      "example": "Climate change affects weather all around the world.",
+      "exampleKo": "기후 변화는 전 세계의 날씨에 영향을 미친다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "wild animal",
+      "pos": "n",
+      "meanings": [
+        "야생 동물"
+      ],
+      "example": "You should never feed a wild animal.",
+      "exampleKo": "야생 동물에게 절대 먹이를 주면 안 된다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "natural habitat",
+      "pos": "n",
+      "meanings": [
+        "자연 서식지"
+      ],
+      "example": "Cutting down trees destroys the animals' natural habitat.",
+      "exampleKo": "나무를 베는 것은 동물들의 자연 서식지를 파괴한다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "carbon footprint",
+      "pos": "n",
+      "meanings": [
+        "탄소 발자국"
+      ],
+      "example": "Riding a bike helps reduce your carbon footprint.",
+      "exampleKo": "자전거를 타는 것은 탄소 발자국을 줄이는 데 도움이 된다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "greenhouse effect",
+      "pos": "n",
+      "meanings": [
+        "온실 효과"
+      ],
+      "example": "The greenhouse effect keeps the Earth warm enough to live on.",
+      "exampleKo": "온실 효과는 지구를 사람이 살 수 있을 만큼 따뜻하게 유지한다.",
+      "emoji": "🌡️"
+    },
+    {
+      "word": "recycling bin",
+      "pos": "n",
+      "meanings": [
+        "재활용 통"
+      ],
+      "example": "Put the empty cans in the recycling bin.",
+      "exampleKo": "빈 캔은 재활용 통에 넣어라.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "plastic bag",
+      "pos": "n",
+      "meanings": [
+        "비닐봉지"
+      ],
+      "example": "She brought her own bag instead of a plastic bag.",
+      "exampleKo": "그녀는 비닐봉지 대신 자신의 가방을 가져왔다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "clean energy",
+      "pos": "n",
+      "meanings": [
+        "청정 에너지"
+      ],
+      "example": "Solar power is a great source of clean energy.",
+      "exampleKo": "태양광은 훌륭한 청정 에너지원이다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "sea level",
+      "pos": "n",
+      "meanings": [
+        "해수면"
+      ],
+      "example": "Melting ice is making the sea level rise.",
+      "exampleKo": "녹는 얼음이 해수면을 상승시키고 있다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "polar bear",
+      "pos": "n",
+      "meanings": [
+        "북극곰"
+      ],
+      "example": "The polar bear swam across the icy water.",
+      "exampleKo": "북극곰이 얼음물을 헤엄쳐 건넜다.",
+      "emoji": "🐻‍❄️"
+    },
+    {
+      "word": "natural disaster",
+      "pos": "n",
+      "meanings": [
+        "자연재해"
+      ],
+      "example": "An earthquake is a sudden and dangerous natural disaster.",
+      "exampleKo": "지진은 갑작스럽고 위험한 자연재해이다.",
+      "emoji": "🌪️"
+    },
+    {
+      "word": "air pollution",
+      "pos": "n",
+      "meanings": [
+        "대기 오염"
+      ],
+      "example": "Air pollution makes it hard to breathe in the city.",
+      "exampleKo": "대기 오염은 도시에서 숨쉬기 힘들게 만든다.",
+      "emoji": "😷"
+    },
+    {
+      "word": "water pollution",
+      "pos": "n",
+      "meanings": [
+        "수질 오염"
+      ],
+      "example": "Water pollution can kill fish in the river.",
+      "exampleKo": "수질 오염은 강의 물고기를 죽일 수 있다.",
+      "emoji": "🌊"
+    },
+    {
+      "word": "waste management",
+      "pos": "n",
+      "meanings": [
+        "폐기물 관리"
+      ],
+      "example": "Good waste management keeps the city clean.",
+      "exampleKo": "좋은 폐기물 관리는 도시를 깨끗하게 유지한다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "seldom",
+      "pos": "adv",
+      "meanings": [
+        "좀처럼 ~않는",
+        "드물게"
+      ],
+      "example": "My grandfather seldom eats fast food.",
+      "exampleKo": "우리 할아버지는 패스트푸드를 좀처럼 드시지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "hardly",
+      "pos": "adv",
+      "meanings": [
+        "거의 ~않다"
+      ],
+      "example": "I hardly slept last night because of the storm.",
+      "exampleKo": "나는 폭풍 때문에 어젯밤 거의 잠을 못 잤다.",
+      "emoji": ""
+    },
+    {
+      "word": "regularly",
+      "pos": "adv",
+      "meanings": [
+        "규칙적으로",
+        "정기적으로"
+      ],
+      "example": "Doctors say we should exercise regularly.",
+      "exampleKo": "의사들은 우리가 규칙적으로 운동해야 한다고 말한다.",
+      "emoji": ""
+    },
+    {
+      "word": "normally",
+      "pos": "adv",
+      "meanings": [
+        "보통",
+        "평상시에는"
+      ],
+      "example": "Normally, I walk to school with my sister.",
+      "exampleKo": "보통 나는 여동생과 함께 걸어서 학교에 간다.",
+      "emoji": ""
+    },
+    {
+      "word": "generally",
+      "pos": "adv",
+      "meanings": [
+        "일반적으로",
+        "대체로"
+      ],
+      "example": "Generally, the weather here is warm in spring.",
+      "exampleKo": "일반적으로 이곳의 봄 날씨는 따뜻하다.",
+      "emoji": ""
+    },
+    {
+      "word": "typically",
+      "pos": "adv",
+      "meanings": [
+        "일반적으로",
+        "전형적으로"
+      ],
+      "example": "Students typically finish their homework before dinner.",
+      "exampleKo": "학생들은 보통 저녁 식사 전에 숙제를 마친다.",
+      "emoji": ""
+    },
+    {
+      "word": "commonly",
+      "pos": "adv",
+      "meanings": [
+        "흔히",
+        "보통"
+      ],
+      "example": "Plastic bottles are commonly found on the beach.",
+      "exampleKo": "플라스틱 병은 해변에서 흔히 발견된다.",
+      "emoji": ""
+    },
+    {
+      "word": "occasionally",
+      "pos": "adv",
+      "meanings": [
+        "가끔",
+        "때때로"
+      ],
+      "example": "We occasionally see deer near our house.",
+      "exampleKo": "우리는 가끔 집 근처에서 사슴을 본다.",
+      "emoji": ""
+    },
+    {
+      "word": "instantly",
+      "pos": "adv",
+      "meanings": [
+        "즉시",
+        "즉각"
+      ],
+      "example": "The puppy fell asleep instantly after the walk.",
+      "exampleKo": "그 강아지는 산책 후 즉시 잠들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "shortly",
+      "pos": "adv",
+      "meanings": [
+        "곧",
+        "얼마 안 되어"
+      ],
+      "example": "The bus will arrive shortly, so please wait.",
+      "exampleKo": "버스가 곧 도착할 테니 기다려 주세요.",
+      "emoji": ""
+    },
+    {
+      "word": "promptly",
+      "pos": "adv",
+      "meanings": [
+        "즉시",
+        "지체 없이"
+      ],
+      "example": "She promptly answered every question.",
+      "exampleKo": "그녀는 모든 질문에 즉시 대답했다.",
+      "emoji": ""
+    },
+    {
+      "word": "briefly",
+      "pos": "adv",
+      "meanings": [
+        "잠깐",
+        "간단히"
+      ],
+      "example": "The teacher briefly explained the new rule.",
+      "exampleKo": "선생님은 새로운 규칙을 간단히 설명했다.",
+      "emoji": ""
+    },
+    {
+      "word": "abruptly",
+      "pos": "adv",
+      "meanings": [
+        "갑자기",
+        "불쑥"
+      ],
+      "example": "The car stopped abruptly in front of us.",
+      "exampleKo": "그 차가 우리 앞에서 갑자기 멈췄다.",
+      "emoji": ""
+    },
+    {
+      "word": "annually",
+      "pos": "adv",
+      "meanings": [
+        "매년",
+        "해마다"
+      ],
+      "example": "The festival is held annually in October.",
+      "exampleKo": "그 축제는 매년 10월에 열린다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "monthly",
+      "pos": "adv",
+      "meanings": [
+        "매달",
+        "다달이"
+      ],
+      "example": "We pay for the magazine monthly.",
+      "exampleKo": "우리는 그 잡지 요금을 매달 낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "yearly",
+      "pos": "adv",
+      "meanings": [
+        "매년",
+        "해마다"
+      ],
+      "example": "The trees are measured yearly to check their growth.",
+      "exampleKo": "나무들은 성장을 확인하기 위해 매년 측정된다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "nightly",
+      "pos": "adv",
+      "meanings": [
+        "매일 밤"
+      ],
+      "example": "The owl hoots nightly outside my window.",
+      "exampleKo": "그 올빼미는 매일 밤 내 창밖에서 운다.",
+      "emoji": ""
+    },
+    {
+      "word": "hourly",
+      "pos": "adv",
+      "meanings": [
+        "매시간"
+      ],
+      "example": "The bus leaves the station hourly.",
+      "exampleKo": "그 버스는 매시간 정류장을 떠난다.",
+      "emoji": ""
+    },
+    {
+      "word": "forever",
+      "pos": "adv",
+      "meanings": [
+        "영원히"
+      ],
+      "example": "I will remember this trip forever.",
+      "exampleKo": "나는 이 여행을 영원히 기억할 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "nowadays",
+      "pos": "adv",
+      "meanings": [
+        "요즘에는"
+      ],
+      "example": "Nowadays, more people ride bikes to save energy.",
+      "exampleKo": "요즘에는 에너지를 절약하기 위해 더 많은 사람들이 자전거를 탄다.",
+      "emoji": ""
+    },
+    {
+      "word": "lately",
+      "pos": "adv",
+      "meanings": [
+        "최근에"
+      ],
+      "example": "It has rained a lot lately.",
+      "exampleKo": "최근에 비가 많이 왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "formerly",
+      "pos": "adv",
+      "meanings": [
+        "이전에",
+        "예전에"
+      ],
+      "example": "This park was formerly an old factory.",
+      "exampleKo": "이 공원은 예전에 오래된 공장이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "previously",
+      "pos": "adv",
+      "meanings": [
+        "이전에",
+        "미리"
+      ],
+      "example": "He had previously visited this town before.",
+      "exampleKo": "그는 이전에 이 마을을 방문한 적이 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "currently",
+      "pos": "adv",
+      "meanings": [
+        "현재",
+        "지금"
+      ],
+      "example": "The river is currently very low because of the drought.",
+      "exampleKo": "가뭄 때문에 그 강은 현재 수위가 매우 낮다.",
+      "emoji": ""
+    },
+    {
+      "word": "mostly",
+      "pos": "adv",
+      "meanings": [
+        "대부분",
+        "주로"
+      ],
+      "example": "The forest is mostly made up of pine trees.",
+      "exampleKo": "그 숲은 대부분 소나무로 이루어져 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "mainly",
+      "pos": "adv",
+      "meanings": [
+        "주로"
+      ],
+      "example": "This area is mainly known for its clean lakes.",
+      "exampleKo": "이 지역은 주로 깨끗한 호수로 유명하다.",
+      "emoji": ""
+    },
+    {
+      "word": "partly",
+      "pos": "adv",
+      "meanings": [
+        "부분적으로",
+        "어느 정도"
+      ],
+      "example": "The flood was partly caused by heavy rain.",
+      "exampleKo": "그 홍수는 부분적으로 폭우 때문에 일어났다.",
+      "emoji": ""
+    },
+    {
+      "word": "entirely",
+      "pos": "adv",
+      "meanings": [
+        "완전히",
+        "전적으로"
+      ],
+      "example": "The old bridge was entirely destroyed by the storm.",
+      "exampleKo": "그 오래된 다리는 폭풍으로 완전히 파괴되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "absolutely",
+      "pos": "adv",
+      "meanings": [
+        "전적으로",
+        "틀림없이"
+      ],
+      "example": "It is absolutely necessary to protect endangered animals.",
+      "exampleKo": "멸종 위기 동물을 보호하는 것은 전적으로 필요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "possibly",
+      "pos": "adv",
+      "meanings": [
+        "아마도",
+        "혹시"
+      ],
+      "example": "It could possibly rain later this afternoon.",
+      "exampleKo": "오늘 오후 늦게 아마도 비가 올 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "surely",
+      "pos": "adv",
+      "meanings": [
+        "확실히",
+        "틀림없이"
+      ],
+      "example": "Recycling will surely help our planet.",
+      "exampleKo": "재활용은 확실히 우리 지구에 도움이 될 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "scarcely",
+      "pos": "adv",
+      "meanings": [
+        "거의 ~않다"
+      ],
+      "example": "There was scarcely any water left in the well.",
+      "exampleKo": "우물에는 물이 거의 남아 있지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "purely",
+      "pos": "adv",
+      "meanings": [
+        "순전히",
+        "오로지"
+      ],
+      "example": "This energy comes purely from the sun.",
+      "exampleKo": "이 에너지는 순전히 태양에서 나온다.",
+      "emoji": ""
+    },
+    {
+      "word": "solely",
+      "pos": "adv",
+      "meanings": [
+        "오로지",
+        "단지"
+      ],
+      "example": "The sanctuary exists solely to protect wild animals.",
+      "exampleKo": "그 보호구역은 오로지 야생 동물을 보호하기 위해 존재한다.",
+      "emoji": ""
+    },
+    {
+      "word": "approximately",
+      "pos": "adv",
+      "meanings": [
+        "대략",
+        "약"
+      ],
+      "example": "The lake is approximately two kilometers wide.",
+      "exampleKo": "그 호수는 폭이 대략 2킬로미터이다.",
+      "emoji": ""
+    },
+    {
+      "word": "roughly",
+      "pos": "adv",
+      "meanings": [
+        "대략"
+      ],
+      "example": "Roughly half of the forest was lost in the fire.",
+      "exampleKo": "그 화재로 숲의 대략 절반이 사라졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "precisely",
+      "pos": "adv",
+      "meanings": [
+        "정확히"
+      ],
+      "example": "Scientists measured the temperature precisely.",
+      "exampleKo": "과학자들은 온도를 정확히 측정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "accurately",
+      "pos": "adv",
+      "meanings": [
+        "정확하게"
+      ],
+      "example": "The map shows the river accurately.",
+      "exampleKo": "그 지도는 강을 정확하게 보여 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "randomly",
+      "pos": "adv",
+      "meanings": [
+        "무작위로"
+      ],
+      "example": "The researchers randomly picked ten trees to study.",
+      "exampleKo": "연구자들은 연구를 위해 나무 열 그루를 무작위로 뽑았다.",
+      "emoji": ""
+    },
+    {
+      "word": "steadily",
+      "pos": "adv",
+      "meanings": [
+        "꾸준히"
+      ],
+      "example": "The sea level has been rising steadily for years.",
+      "exampleKo": "해수면은 수년 동안 꾸준히 상승해 왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "consistently",
+      "pos": "adv",
+      "meanings": [
+        "일관되게",
+        "꾸준히"
+      ],
+      "example": "He consistently recycles his cans and bottles.",
+      "exampleKo": "그는 캔과 병을 꾸준히 재활용한다.",
+      "emoji": ""
+    },
+    {
+      "word": "continually",
+      "pos": "adv",
+      "meanings": [
+        "끊임없이",
+        "계속해서"
+      ],
+      "example": "The river continually carries sediment to the sea.",
+      "exampleKo": "그 강은 끊임없이 퇴적물을 바다로 실어 나른다.",
+      "emoji": ""
+    },
+    {
+      "word": "permanently",
+      "pos": "adv",
+      "meanings": [
+        "영구적으로"
+      ],
+      "example": "Some species have permanently disappeared from Earth.",
+      "exampleKo": "일부 종은 지구에서 영구적으로 사라졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "temporarily",
+      "pos": "adv",
+      "meanings": [
+        "일시적으로"
+      ],
+      "example": "The park was temporarily closed after the storm.",
+      "exampleKo": "그 공원은 폭풍 이후 일시적으로 문을 닫았다.",
+      "emoji": ""
+    },
+    {
+      "word": "initially",
+      "pos": "adv",
+      "meanings": [
+        "처음에"
+      ],
+      "example": "Initially, the seedling grew very slowly.",
+      "exampleKo": "처음에는 그 새싹이 매우 천천히 자랐다.",
+      "emoji": ""
+    },
+    {
+      "word": "repeatedly",
+      "pos": "adv",
+      "meanings": [
+        "반복적으로",
+        "되풀이해서"
+      ],
+      "example": "The teacher repeatedly reminded us to save water.",
+      "exampleKo": "선생님은 물을 아끼라고 반복적으로 우리에게 알려 주셨다.",
+      "emoji": ""
+    },
+    {
+      "word": "continuously",
+      "pos": "adv",
+      "meanings": [
+        "계속해서",
+        "끊임없이"
+      ],
+      "example": "The waterfall flows continuously all year.",
+      "exampleKo": "그 폭포는 일 년 내내 끊임없이 흐른다.",
+      "emoji": ""
+    },
+    {
+      "word": "somewhere",
+      "pos": "adv",
+      "meanings": [
+        "어딘가에"
+      ],
+      "example": "The turtle laid its eggs somewhere on the beach.",
+      "exampleKo": "그 거북이는 해변 어딘가에 알을 낳았다.",
+      "emoji": ""
+    },
+    {
+      "word": "anywhere",
+      "pos": "adv",
+      "meanings": [
+        "어디든지",
+        "어디에나"
+      ],
+      "example": "You can find plastic waste almost anywhere these days.",
+      "exampleKo": "요즘은 거의 어디에서나 플라스틱 쓰레기를 찾을 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "everywhere",
+      "pos": "adv",
+      "meanings": [
+        "어디에나",
+        "도처에"
+      ],
+      "example": "Trash was scattered everywhere after the festival.",
+      "exampleKo": "축제가 끝난 후 쓰레기가 도처에 흩어져 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "nowhere",
+      "pos": "adv",
+      "meanings": [
+        "아무데도 ~없는"
+      ],
+      "example": "There was nowhere to hide from the sandstorm.",
+      "exampleKo": "모래폭풍을 피할 곳이 아무데도 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "sideways",
+      "pos": "adv",
+      "meanings": [
+        "옆으로"
+      ],
+      "example": "The strong wind pushed the boat sideways.",
+      "exampleKo": "강한 바람이 배를 옆으로 밀었다.",
+      "emoji": ""
+    },
+    {
+      "word": "slightly",
+      "pos": "adv",
+      "meanings": [
+        "약간",
+        "조금"
+      ],
+      "example": "The ocean temperature has risen slightly this year.",
+      "exampleKo": "올해 바다 온도가 약간 상승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "greatly",
+      "pos": "adv",
+      "meanings": [
+        "대단히",
+        "크게"
+      ],
+      "example": "Recycling has greatly reduced the amount of waste.",
+      "exampleKo": "재활용은 쓰레기의 양을 크게 줄였다.",
+      "emoji": ""
+    },
+    {
+      "word": "fairly",
+      "pos": "adv",
+      "meanings": [
+        "꽤",
+        "상당히"
+      ],
+      "example": "The valley was fairly quiet in the early morning.",
+      "exampleKo": "그 계곡은 이른 아침에 꽤 조용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "rather",
+      "pos": "adv",
+      "meanings": [
+        "꽤",
+        "다소",
+        "오히려"
+      ],
+      "example": "The hike up the ridge was rather difficult.",
+      "exampleKo": "능선을 오르는 하이킹은 다소 힘들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "somewhat",
+      "pos": "adv",
+      "meanings": [
+        "다소",
+        "어느 정도"
+      ],
+      "example": "The air felt somewhat cleaner after the rain.",
+      "exampleKo": "비가 온 후 공기가 어느 정도 더 깨끗하게 느껴졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "increasingly",
+      "pos": "adv",
+      "meanings": [
+        "점점 더"
+      ],
+      "example": "People are becoming increasingly worried about pollution.",
+      "exampleKo": "사람들은 오염에 대해 점점 더 걱정하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "hopefully",
+      "pos": "adv",
+      "meanings": [
+        "바라건대"
+      ],
+      "example": "Hopefully, the endangered species will recover soon.",
+      "exampleKo": "바라건대 그 멸종 위기종이 곧 회복되었으면 좋겠다.",
+      "emoji": ""
+    },
+    {
+      "word": "seriously",
+      "pos": "adv",
+      "meanings": [
+        "진지하게",
+        "심각하게"
+      ],
+      "example": "We should take climate change seriously.",
+      "exampleKo": "우리는 기후 변화를 진지하게 받아들여야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "closely",
+      "pos": "adv",
+      "meanings": [
+        "가깝게",
+        "자세히"
+      ],
+      "example": "Scientists closely study the coral reef every year.",
+      "exampleKo": "과학자들은 매년 산호초를 자세히 연구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "widely",
+      "pos": "adv",
+      "meanings": [
+        "널리"
+      ],
+      "example": "Solar panels are now used widely around the world.",
+      "exampleKo": "태양광 패널은 이제 전 세계에서 널리 사용된다.",
+      "emoji": ""
+    },
+    {
+      "word": "directly",
+      "pos": "adv",
+      "meanings": [
+        "직접적으로",
+        "곧장"
+      ],
+      "example": "The factory dumps waste directly into the stream.",
+      "exampleKo": "그 공장은 폐기물을 개울에 직접 버린다.",
+      "emoji": ""
+    },
+    {
+      "word": "indirectly",
+      "pos": "adv",
+      "meanings": [
+        "간접적으로"
+      ],
+      "example": "Air pollution indirectly affects the health of animals too.",
+      "exampleKo": "대기 오염은 동물의 건강에도 간접적으로 영향을 미친다.",
+      "emoji": ""
+    },
+    {
+      "word": "originally",
+      "pos": "adv",
+      "meanings": [
+        "원래",
+        "본래"
+      ],
+      "example": "This land was originally covered with thick forest.",
+      "exampleKo": "이 땅은 원래 울창한 숲으로 덮여 있었다.",
+      "emoji": ""
+    }
+  ]
+}

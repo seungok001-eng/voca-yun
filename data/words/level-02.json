@@ -1,0 +1,623 @@
+{
+  "level": 2,
+  "words": [
+    {
+      "word": "family",
+      "pos": "n",
+      "meanings": [
+        "가족"
+      ],
+      "example": "I love my family.",
+      "exampleKo": "나는 우리 가족을 사랑한다.",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "word": "brother",
+      "pos": "n",
+      "meanings": [
+        "형",
+        "오빠",
+        "남동생"
+      ],
+      "example": "My brother is ten years old.",
+      "exampleKo": "내 남동생은 열 살이다.",
+      "emoji": "👦"
+    },
+    {
+      "word": "sister",
+      "pos": "n",
+      "meanings": [
+        "누나",
+        "언니",
+        "여동생"
+      ],
+      "example": "My sister likes music.",
+      "exampleKo": "우리 언니는 음악을 좋아한다.",
+      "emoji": "👧"
+    },
+    {
+      "word": "baby",
+      "pos": "n",
+      "meanings": [
+        "아기"
+      ],
+      "example": "The baby is sleeping.",
+      "exampleKo": "아기가 자고 있다.",
+      "emoji": "👶"
+    },
+    {
+      "word": "grandma",
+      "pos": "n",
+      "meanings": [
+        "할머니"
+      ],
+      "example": "My grandma makes good food.",
+      "exampleKo": "우리 할머니는 맛있는 음식을 만드신다.",
+      "emoji": "👵"
+    },
+    {
+      "word": "grandpa",
+      "pos": "n",
+      "meanings": [
+        "할아버지"
+      ],
+      "example": "My grandpa lives in Busan.",
+      "exampleKo": "우리 할아버지는 부산에 사신다.",
+      "emoji": "👴"
+    },
+    {
+      "word": "house",
+      "pos": "n",
+      "meanings": [
+        "집"
+      ],
+      "example": "My house is near the school.",
+      "exampleKo": "우리 집은 학교 근처에 있다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "room",
+      "pos": "n",
+      "meanings": [
+        "방"
+      ],
+      "example": "Clean your room, please.",
+      "exampleKo": "네 방을 청소해 주렴.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "door",
+      "pos": "n",
+      "meanings": [
+        "문"
+      ],
+      "example": "Please close the door.",
+      "exampleKo": "문을 닫아 주세요.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "window",
+      "pos": "n",
+      "meanings": [
+        "창문"
+      ],
+      "example": "Open the window, please.",
+      "exampleKo": "창문을 열어 주세요.",
+      "emoji": "🪟"
+    },
+    {
+      "word": "chair",
+      "pos": "n",
+      "meanings": [
+        "의자"
+      ],
+      "example": "Sit on the chair.",
+      "exampleKo": "의자에 앉으세요.",
+      "emoji": "🪑"
+    },
+    {
+      "word": "desk",
+      "pos": "n",
+      "meanings": [
+        "책상"
+      ],
+      "example": "My book is on the desk.",
+      "exampleKo": "내 책이 책상 위에 있다.",
+      "emoji": "🪑"
+    },
+    {
+      "word": "table",
+      "pos": "n",
+      "meanings": [
+        "탁자",
+        "식탁"
+      ],
+      "example": "The cake is on the table.",
+      "exampleKo": "케이크가 식탁 위에 있다.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "school",
+      "pos": "n",
+      "meanings": [
+        "학교"
+      ],
+      "example": "I go to school at eight.",
+      "exampleKo": "나는 여덟 시에 학교에 간다.",
+      "emoji": "🏫"
+    },
+    {
+      "word": "teacher",
+      "pos": "n",
+      "meanings": [
+        "선생님",
+        "교사"
+      ],
+      "example": "Our teacher is very kind.",
+      "exampleKo": "우리 선생님은 매우 친절하시다.",
+      "emoji": "🧑‍🏫"
+    },
+    {
+      "word": "student",
+      "pos": "n",
+      "meanings": [
+        "학생"
+      ],
+      "example": "I am a student.",
+      "exampleKo": "나는 학생이다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "friend",
+      "pos": "n",
+      "meanings": [
+        "친구"
+      ],
+      "example": "Jinho is my best friend.",
+      "exampleKo": "진호는 나의 가장 친한 친구이다.",
+      "emoji": "👫"
+    },
+    {
+      "word": "pencil",
+      "pos": "n",
+      "meanings": [
+        "연필"
+      ],
+      "example": "I need a pencil.",
+      "exampleKo": "나는 연필이 하나 필요하다.",
+      "emoji": "✏️"
+    },
+    {
+      "word": "eraser",
+      "pos": "n",
+      "meanings": [
+        "지우개"
+      ],
+      "example": "Can I use your eraser?",
+      "exampleKo": "네 지우개 좀 써도 될까?",
+      "emoji": ""
+    },
+    {
+      "word": "bread",
+      "pos": "n",
+      "meanings": [
+        "빵"
+      ],
+      "example": "I eat bread for breakfast.",
+      "exampleKo": "나는 아침으로 빵을 먹는다.",
+      "emoji": "🍞"
+    },
+    {
+      "word": "rice",
+      "pos": "n",
+      "meanings": [
+        "밥",
+        "쌀"
+      ],
+      "example": "Koreans eat rice every day.",
+      "exampleKo": "한국 사람들은 매일 밥을 먹는다.",
+      "emoji": "🍚"
+    },
+    {
+      "word": "water",
+      "pos": "n",
+      "meanings": [
+        "물"
+      ],
+      "example": "Drink a lot of water.",
+      "exampleKo": "물을 많이 마셔라.",
+      "emoji": "💧"
+    },
+    {
+      "word": "juice",
+      "pos": "n",
+      "meanings": [
+        "주스"
+      ],
+      "example": "I like orange juice.",
+      "exampleKo": "나는 오렌지 주스를 좋아한다.",
+      "emoji": "🧃"
+    },
+    {
+      "word": "candy",
+      "pos": "n",
+      "meanings": [
+        "사탕"
+      ],
+      "example": "Candy is too sweet for me.",
+      "exampleKo": "사탕은 나에게 너무 달다.",
+      "emoji": "🍬"
+    },
+    {
+      "word": "cake",
+      "pos": "n",
+      "meanings": [
+        "케이크"
+      ],
+      "example": "We eat cake on my birthday.",
+      "exampleKo": "우리는 내 생일에 케이크를 먹는다.",
+      "emoji": "🍰"
+    },
+    {
+      "word": "banana",
+      "pos": "n",
+      "meanings": [
+        "바나나"
+      ],
+      "example": "The monkey eats a banana.",
+      "exampleKo": "원숭이가 바나나를 먹는다.",
+      "emoji": "🍌"
+    },
+    {
+      "word": "orange",
+      "pos": "n",
+      "meanings": [
+        "오렌지"
+      ],
+      "example": "This orange is very sweet.",
+      "exampleKo": "이 오렌지는 아주 달다.",
+      "emoji": "🍊"
+    },
+    {
+      "word": "grape",
+      "pos": "n",
+      "meanings": [
+        "포도"
+      ],
+      "example": "I like grapes very much.",
+      "exampleKo": "나는 포도를 아주 좋아한다.",
+      "emoji": "🍇"
+    },
+    {
+      "word": "lion",
+      "pos": "n",
+      "meanings": [
+        "사자"
+      ],
+      "example": "The lion is the king of animals.",
+      "exampleKo": "사자는 동물의 왕이다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "tiger",
+      "pos": "n",
+      "meanings": [
+        "호랑이"
+      ],
+      "example": "The tiger has stripes.",
+      "exampleKo": "호랑이는 줄무늬가 있다.",
+      "emoji": "🐯"
+    },
+    {
+      "word": "bear",
+      "pos": "n",
+      "meanings": [
+        "곰"
+      ],
+      "example": "The bear likes honey.",
+      "exampleKo": "곰은 꿀을 좋아한다.",
+      "emoji": "🐻"
+    },
+    {
+      "word": "rabbit",
+      "pos": "n",
+      "meanings": [
+        "토끼"
+      ],
+      "example": "The rabbit jumps very well.",
+      "exampleKo": "토끼는 아주 잘 뛴다.",
+      "emoji": "🐰"
+    },
+    {
+      "word": "monkey",
+      "pos": "n",
+      "meanings": [
+        "원숭이"
+      ],
+      "example": "The monkey is in the tree.",
+      "exampleKo": "원숭이가 나무 위에 있다.",
+      "emoji": "🐒"
+    },
+    {
+      "word": "elephant",
+      "pos": "n",
+      "meanings": [
+        "코끼리"
+      ],
+      "example": "The elephant has a long nose.",
+      "exampleKo": "코끼리는 코가 길다.",
+      "emoji": "🐘"
+    },
+    {
+      "word": "horse",
+      "pos": "n",
+      "meanings": [
+        "말"
+      ],
+      "example": "The horse runs very fast.",
+      "exampleKo": "말은 아주 빨리 달린다.",
+      "emoji": "🐴"
+    },
+    {
+      "word": "cow",
+      "pos": "n",
+      "meanings": [
+        "소",
+        "암소"
+      ],
+      "example": "The cow gives us milk.",
+      "exampleKo": "소는 우리에게 우유를 준다.",
+      "emoji": "🐄"
+    },
+    {
+      "word": "duck",
+      "pos": "n",
+      "meanings": [
+        "오리"
+      ],
+      "example": "The duck swims in the pond.",
+      "exampleKo": "오리가 연못에서 헤엄친다.",
+      "emoji": "🦆"
+    },
+    {
+      "word": "face",
+      "pos": "n",
+      "meanings": [
+        "얼굴"
+      ],
+      "example": "Wash your face in the morning.",
+      "exampleKo": "아침에 세수를 해라.",
+      "emoji": "😊"
+    },
+    {
+      "word": "head",
+      "pos": "n",
+      "meanings": [
+        "머리"
+      ],
+      "example": "Put your hands on your head.",
+      "exampleKo": "손을 머리 위에 올리세요.",
+      "emoji": ""
+    },
+    {
+      "word": "arm",
+      "pos": "n",
+      "meanings": [
+        "팔"
+      ],
+      "example": "Raise your right arm.",
+      "exampleKo": "오른팔을 들어 올리세요.",
+      "emoji": "💪"
+    },
+    {
+      "word": "foot",
+      "pos": "n",
+      "meanings": [
+        "발"
+      ],
+      "example": "My left foot hurts.",
+      "exampleKo": "내 왼발이 아프다.",
+      "emoji": "🦶"
+    },
+    {
+      "word": "mouth",
+      "pos": "n",
+      "meanings": [
+        "입"
+      ],
+      "example": "Open your mouth wide.",
+      "exampleKo": "입을 크게 벌리세요.",
+      "emoji": "👄"
+    },
+    {
+      "word": "hair",
+      "pos": "n",
+      "meanings": [
+        "머리카락",
+        "털"
+      ],
+      "example": "She has long hair.",
+      "exampleKo": "그녀는 머리카락이 길다.",
+      "emoji": "💇"
+    },
+    {
+      "word": "tooth",
+      "pos": "n",
+      "meanings": [
+        "이",
+        "치아"
+      ],
+      "example": "Brush your teeth after meals.",
+      "exampleKo": "식사 후에 이를 닦아라.",
+      "emoji": "🦷"
+    },
+    {
+      "word": "shirt",
+      "pos": "n",
+      "meanings": [
+        "셔츠"
+      ],
+      "example": "This shirt is too big for me.",
+      "exampleKo": "이 셔츠는 나에게 너무 크다.",
+      "emoji": "👕"
+    },
+    {
+      "word": "shoes",
+      "pos": "n",
+      "meanings": [
+        "신발",
+        "구두"
+      ],
+      "example": "I got new shoes yesterday.",
+      "exampleKo": "나는 어제 새 신발을 샀다.",
+      "emoji": "👟"
+    },
+    {
+      "word": "socks",
+      "pos": "n",
+      "meanings": [
+        "양말"
+      ],
+      "example": "My socks are white.",
+      "exampleKo": "내 양말은 흰색이다.",
+      "emoji": "🧦"
+    },
+    {
+      "word": "cap",
+      "pos": "n",
+      "meanings": [
+        "모자",
+        "야구 모자"
+      ],
+      "example": "He wears a baseball cap.",
+      "exampleKo": "그는 야구 모자를 쓴다.",
+      "emoji": "🧢"
+    },
+    {
+      "word": "doll",
+      "pos": "n",
+      "meanings": [
+        "인형"
+      ],
+      "example": "My sister plays with her doll.",
+      "exampleKo": "내 여동생은 인형을 가지고 논다.",
+      "emoji": "🪆"
+    },
+    {
+      "word": "toy",
+      "pos": "n",
+      "meanings": [
+        "장난감"
+      ],
+      "example": "The baby has many toys.",
+      "exampleKo": "그 아기는 장난감이 많다.",
+      "emoji": "🧸"
+    },
+    {
+      "word": "eat",
+      "pos": "v",
+      "meanings": [
+        "먹다"
+      ],
+      "example": "We eat lunch at twelve.",
+      "exampleKo": "우리는 열두 시에 점심을 먹는다.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "drink",
+      "pos": "v",
+      "meanings": [
+        "마시다"
+      ],
+      "example": "I drink water after running.",
+      "exampleKo": "나는 달리기 후에 물을 마신다.",
+      "emoji": "🥤"
+    },
+    {
+      "word": "sleep",
+      "pos": "v",
+      "meanings": [
+        "자다",
+        "잠자다"
+      ],
+      "example": "I sleep at ten every night.",
+      "exampleKo": "나는 매일 밤 열 시에 잔다.",
+      "emoji": "😴"
+    },
+    {
+      "word": "walk",
+      "pos": "v",
+      "meanings": [
+        "걷다",
+        "산책하다"
+      ],
+      "example": "I walk to school with my friend.",
+      "exampleKo": "나는 친구와 함께 걸어서 학교에 간다.",
+      "emoji": "🚶"
+    },
+    {
+      "word": "play",
+      "pos": "v",
+      "meanings": [
+        "놀다",
+        "(운동을) 하다",
+        "(악기를) 연주하다"
+      ],
+      "example": "Let's play soccer after school.",
+      "exampleKo": "방과 후에 축구 하자.",
+      "emoji": "🎮"
+    },
+    {
+      "word": "sing",
+      "pos": "v",
+      "meanings": [
+        "노래하다",
+        "노래 부르다"
+      ],
+      "example": "She can sing very well.",
+      "exampleKo": "그녀는 노래를 아주 잘 부른다.",
+      "emoji": "🎤"
+    },
+    {
+      "word": "dance",
+      "pos": "v",
+      "meanings": [
+        "춤추다"
+      ],
+      "example": "We dance to the music.",
+      "exampleKo": "우리는 음악에 맞춰 춤을 춘다.",
+      "emoji": "💃"
+    },
+    {
+      "word": "open",
+      "pos": "v",
+      "meanings": [
+        "열다"
+      ],
+      "example": "Open your books to page ten.",
+      "exampleKo": "책 10쪽을 펴세요.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "close",
+      "pos": "v",
+      "meanings": [
+        "닫다"
+      ],
+      "example": "Close the window, please.",
+      "exampleKo": "창문을 닫아 주세요.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "wash",
+      "pos": "v",
+      "meanings": [
+        "씻다",
+        "빨다"
+      ],
+      "example": "Wash your hands before dinner.",
+      "exampleKo": "저녁 먹기 전에 손을 씻어라.",
+      "emoji": "🧼"
+    }
+  ]
+}

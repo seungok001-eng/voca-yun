@@ -1,0 +1,1868 @@
+{
+  "level": 4,
+  "words": [
+    {
+      "word": "achievement",
+      "pos": "n",
+      "meanings": [
+        "성취",
+        "업적"
+      ],
+      "example": "Winning the race was a great achievement for him.",
+      "exampleKo": "경주에서 이긴 것은 그에게 큰 성취였다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "adventure",
+      "pos": "n",
+      "meanings": [
+        "모험"
+      ],
+      "example": "They went on an exciting adventure in the mountains.",
+      "exampleKo": "그들은 산에서 신나는 모험을 떠났다.",
+      "emoji": "🗺️"
+    },
+    {
+      "word": "aim",
+      "pos": "n",
+      "meanings": [
+        "목표",
+        "목적"
+      ],
+      "example": "Her aim is to become a great swimmer.",
+      "exampleKo": "그녀의 목표는 훌륭한 수영선수가 되는 것이다.",
+      "emoji": "🎯"
+    },
+    {
+      "word": "all right",
+      "pos": "phrase",
+      "meanings": [
+        "괜찮은",
+        "좋아"
+      ],
+      "example": "Don't worry, everything will be all right.",
+      "exampleKo": "걱정하지 마, 다 괜찮을 거야.",
+      "emoji": "👍"
+    },
+    {
+      "word": "almost",
+      "pos": "adv",
+      "meanings": [
+        "거의"
+      ],
+      "example": "We almost won the game.",
+      "exampleKo": "우리는 거의 경기를 이길 뻔했다.",
+      "emoji": ""
+    },
+    {
+      "word": "amount",
+      "pos": "n",
+      "meanings": [
+        "양",
+        "총액"
+      ],
+      "example": "A large amount of people came to watch the match.",
+      "exampleKo": "많은 양의 사람들이 경기를 보러 왔다.",
+      "emoji": "🔢"
+    },
+    {
+      "word": "as well",
+      "pos": "phrase",
+      "meanings": [
+        "또한",
+        "~도"
+      ],
+      "example": "She plays tennis and golf as well.",
+      "exampleKo": "그녀는 테니스도 치고 골프도 친다.",
+      "emoji": ""
+    },
+    {
+      "word": "at first",
+      "pos": "phrase",
+      "meanings": [
+        "처음에는"
+      ],
+      "example": "At first, the sport seemed difficult to learn.",
+      "exampleKo": "처음에는 그 스포츠가 배우기 어려워 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "at last",
+      "pos": "phrase",
+      "meanings": [
+        "마침내",
+        "드디어"
+      ],
+      "example": "At last, our team won the championship.",
+      "exampleKo": "마침내 우리 팀이 선수권 대회에서 우승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "at least",
+      "pos": "phrase",
+      "meanings": [
+        "적어도"
+      ],
+      "example": "You should practice at least three times a week.",
+      "exampleKo": "적어도 일주일에 세 번은 연습해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "at once",
+      "pos": "phrase",
+      "meanings": [
+        "즉시",
+        "당장"
+      ],
+      "example": "The coach told the players to start at once.",
+      "exampleKo": "코치는 선수들에게 즉시 시작하라고 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "awful",
+      "pos": "adj",
+      "meanings": [
+        "끔찍한"
+      ],
+      "example": "The weather was awful during the race.",
+      "exampleKo": "경주 동안 날씨가 끔찍했다.",
+      "emoji": "😖"
+    },
+    {
+      "word": "boredom",
+      "pos": "n",
+      "meanings": [
+        "지루함"
+      ],
+      "example": "He felt boredom during the long practice.",
+      "exampleKo": "그는 긴 연습 시간 동안 지루함을 느꼈다.",
+      "emoji": "😑"
+    },
+    {
+      "word": "boxing",
+      "pos": "n",
+      "meanings": [
+        "권투"
+      ],
+      "example": "My brother started learning boxing last year.",
+      "exampleKo": "내 형은 작년에 권투를 배우기 시작했다.",
+      "emoji": "🥊"
+    },
+    {
+      "word": "by the way",
+      "pos": "phrase",
+      "meanings": [
+        "그런데"
+      ],
+      "example": "By the way, what time does the match start?",
+      "exampleKo": "그런데, 경기가 몇 시에 시작하니?",
+      "emoji": ""
+    },
+    {
+      "word": "careless",
+      "pos": "adj",
+      "meanings": [
+        "부주의한"
+      ],
+      "example": "A careless mistake cost them the game.",
+      "exampleKo": "부주의한 실수가 그들에게 경기를 지게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "carelessly",
+      "pos": "adv",
+      "meanings": [
+        "부주의하게"
+      ],
+      "example": "He kicked the ball carelessly and missed the goal.",
+      "exampleKo": "그는 부주의하게 공을 차서 골을 놓쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "cause",
+      "pos": "n",
+      "meanings": [
+        "원인"
+      ],
+      "example": "Bad weather was the cause of the delay.",
+      "exampleKo": "나쁜 날씨가 지연의 원인이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "certain",
+      "pos": "adj",
+      "meanings": [
+        "확실한"
+      ],
+      "example": "I am certain our team will win.",
+      "exampleKo": "나는 우리 팀이 이길 것이라고 확신한다.",
+      "emoji": ""
+    },
+    {
+      "word": "certainly",
+      "pos": "adv",
+      "meanings": [
+        "확실히"
+      ],
+      "example": "She is certainly the best player on the team.",
+      "exampleKo": "그녀는 확실히 팀에서 최고의 선수이다.",
+      "emoji": ""
+    },
+    {
+      "word": "challenge",
+      "pos": "n",
+      "meanings": [
+        "도전"
+      ],
+      "example": "Running a marathon is a big challenge.",
+      "exampleKo": "마라톤을 뛰는 것은 큰 도전이다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "champion",
+      "pos": "n",
+      "meanings": [
+        "챔피언",
+        "우승자"
+      ],
+      "example": "He became the champion of the tournament.",
+      "exampleKo": "그는 대회의 챔피언이 되었다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "championship",
+      "pos": "n",
+      "meanings": [
+        "선수권 대회",
+        "챔피언십"
+      ],
+      "example": "Our school won the championship this year.",
+      "exampleKo": "우리 학교는 올해 선수권 대회에서 우승했다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "choice",
+      "pos": "n",
+      "meanings": [
+        "선택"
+      ],
+      "example": "You have to make a choice between two sports.",
+      "exampleKo": "너는 두 스포츠 중에서 선택을 해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "clear",
+      "pos": "adj",
+      "meanings": [
+        "분명한",
+        "명확한"
+      ],
+      "example": "The rules of the game are very clear.",
+      "exampleKo": "그 경기의 규칙은 매우 명확하다.",
+      "emoji": ""
+    },
+    {
+      "word": "clearly",
+      "pos": "adv",
+      "meanings": [
+        "분명히"
+      ],
+      "example": "She clearly explained the rules to us.",
+      "exampleKo": "그녀는 우리에게 규칙을 분명히 설명해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "competition",
+      "pos": "n",
+      "meanings": [
+        "경쟁",
+        "대회"
+      ],
+      "example": "There is a swimming competition next week.",
+      "exampleKo": "다음 주에 수영 대회가 있다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "competitor",
+      "pos": "n",
+      "meanings": [
+        "경쟁자"
+      ],
+      "example": "Every competitor trained hard for the race.",
+      "exampleKo": "모든 경쟁자들은 경주를 위해 열심히 훈련했다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "complicated",
+      "pos": "adj",
+      "meanings": [
+        "복잡한"
+      ],
+      "example": "The new game rules are quite complicated.",
+      "exampleKo": "새로운 경기 규칙은 꽤 복잡하다.",
+      "emoji": "😵"
+    },
+    {
+      "word": "confidence",
+      "pos": "n",
+      "meanings": [
+        "자신감"
+      ],
+      "example": "Winning the match gave her a lot of confidence.",
+      "exampleKo": "경기에서 이긴 것은 그녀에게 많은 자신감을 주었다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "constantly",
+      "pos": "adv",
+      "meanings": [
+        "끊임없이"
+      ],
+      "example": "The coach constantly encourages the team.",
+      "exampleKo": "코치는 끊임없이 팀을 격려한다.",
+      "emoji": ""
+    },
+    {
+      "word": "correct",
+      "pos": "adj",
+      "meanings": [
+        "맞는",
+        "정확한"
+      ],
+      "example": "He gave the correct answer to the question.",
+      "exampleKo": "그는 질문에 정확한 답을 했다.",
+      "emoji": "✅"
+    },
+    {
+      "word": "cycling",
+      "pos": "n",
+      "meanings": [
+        "자전거 타기"
+      ],
+      "example": "Cycling is good exercise for your legs.",
+      "exampleKo": "자전거 타기는 다리에 좋은 운동이다.",
+      "emoji": "🚴"
+    },
+    {
+      "word": "danger",
+      "pos": "n",
+      "meanings": [
+        "위험"
+      ],
+      "example": "Swimming alone in the sea can be a danger.",
+      "exampleKo": "바다에서 혼자 수영하는 것은 위험할 수 있다.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "defeat",
+      "pos": "v",
+      "meanings": [
+        "패배시키다",
+        "이기다"
+      ],
+      "example": "Our team defeated the other team in the final.",
+      "exampleKo": "우리 팀은 결승전에서 상대 팀을 이겼다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "definitely",
+      "pos": "adv",
+      "meanings": [
+        "분명히",
+        "틀림없이"
+      ],
+      "example": "She will definitely join the basketball club.",
+      "exampleKo": "그녀는 분명히 농구 동아리에 가입할 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "difference",
+      "pos": "n",
+      "meanings": [
+        "차이"
+      ],
+      "example": "There is a big difference between the two teams.",
+      "exampleKo": "두 팀 사이에는 큰 차이가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "difficulty",
+      "pos": "n",
+      "meanings": [
+        "어려움"
+      ],
+      "example": "He had difficulty learning to skate.",
+      "exampleKo": "그는 스케이트를 배우는 데 어려움을 겪었다.",
+      "emoji": ""
+    },
+    {
+      "word": "disadvantage",
+      "pos": "n",
+      "meanings": [
+        "단점"
+      ],
+      "example": "Being short can be a disadvantage in basketball.",
+      "exampleKo": "키가 작은 것은 농구에서 단점이 될 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "diving",
+      "pos": "n",
+      "meanings": [
+        "다이빙"
+      ],
+      "example": "She practices diving every summer.",
+      "exampleKo": "그녀는 매년 여름 다이빙을 연습한다.",
+      "emoji": "🤿"
+    },
+    {
+      "word": "dribble",
+      "pos": "v",
+      "meanings": [
+        "드리블하다"
+      ],
+      "example": "He can dribble the ball very well.",
+      "exampleKo": "그는 공을 아주 잘 드리블할 수 있다.",
+      "emoji": "🏀"
+    },
+    {
+      "word": "energetic",
+      "pos": "adj",
+      "meanings": [
+        "활기찬",
+        "에너지 넘치는"
+      ],
+      "example": "The players looked energetic before the game.",
+      "exampleKo": "선수들은 경기 전에 활기차 보였다.",
+      "emoji": "⚡"
+    },
+    {
+      "word": "energy",
+      "pos": "n",
+      "meanings": [
+        "에너지",
+        "힘"
+      ],
+      "example": "Running gives you a lot of energy.",
+      "exampleKo": "달리기는 너에게 많은 에너지를 준다.",
+      "emoji": "⚡"
+    },
+    {
+      "word": "exact",
+      "pos": "adj",
+      "meanings": [
+        "정확한"
+      ],
+      "example": "Nobody knows the exact score of the game.",
+      "exampleKo": "아무도 경기의 정확한 점수를 모른다.",
+      "emoji": ""
+    },
+    {
+      "word": "exactly",
+      "pos": "adv",
+      "meanings": [
+        "정확히"
+      ],
+      "example": "The race starts exactly at ten o'clock.",
+      "exampleKo": "경주는 정확히 10시에 시작한다.",
+      "emoji": ""
+    },
+    {
+      "word": "example",
+      "pos": "n",
+      "meanings": [
+        "예",
+        "예시"
+      ],
+      "example": "She is a good example of a hard worker.",
+      "exampleKo": "그녀는 열심히 하는 사람의 좋은 예이다.",
+      "emoji": ""
+    },
+    {
+      "word": "excellent",
+      "pos": "adj",
+      "meanings": [
+        "훌륭한"
+      ],
+      "example": "He did an excellent job in the match.",
+      "exampleKo": "그는 경기에서 훌륭한 활약을 했다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "excitement",
+      "pos": "n",
+      "meanings": [
+        "흥분",
+        "신남"
+      ],
+      "example": "There was a lot of excitement before the game.",
+      "exampleKo": "경기 전에 많은 흥분이 있었다.",
+      "emoji": "😃"
+    },
+    {
+      "word": "exciting",
+      "pos": "adj",
+      "meanings": [
+        "신나는",
+        "흥미진진한"
+      ],
+      "example": "The soccer match was really exciting.",
+      "exampleKo": "그 축구 경기는 정말 흥미진진했다.",
+      "emoji": "😃"
+    },
+    {
+      "word": "extra",
+      "pos": "adj",
+      "meanings": [
+        "추가의"
+      ],
+      "example": "We need extra time to finish the race.",
+      "exampleKo": "우리는 경주를 끝내기 위해 추가 시간이 필요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "extremely",
+      "pos": "adv",
+      "meanings": [
+        "매우",
+        "극도로"
+      ],
+      "example": "The final match was extremely close.",
+      "exampleKo": "결승전은 매우 접전이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "fact",
+      "pos": "n",
+      "meanings": [
+        "사실"
+      ],
+      "example": "It is a fact that she is the fastest runner.",
+      "exampleKo": "그녀가 가장 빠른 주자라는 것은 사실이다.",
+      "emoji": ""
+    },
+    {
+      "word": "fail",
+      "pos": "v",
+      "meanings": [
+        "실패하다"
+      ],
+      "example": "He tried hard but failed to win the race.",
+      "exampleKo": "그는 열심히 노력했지만 경주에서 이기지 못했다.",
+      "emoji": "❌"
+    },
+    {
+      "word": "failure",
+      "pos": "n",
+      "meanings": [
+        "실패"
+      ],
+      "example": "Losing the game was not a total failure.",
+      "exampleKo": "경기에서 진 것이 완전한 실패는 아니었다.",
+      "emoji": "❌"
+    },
+    {
+      "word": "fair",
+      "pos": "adj",
+      "meanings": [
+        "공정한"
+      ],
+      "example": "The referee made a fair decision.",
+      "exampleKo": "심판은 공정한 결정을 내렸다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "fan",
+      "pos": "n",
+      "meanings": [
+        "팬"
+      ],
+      "example": "Many fans came to cheer for the team.",
+      "exampleKo": "많은 팬들이 팀을 응원하러 왔다.",
+      "emoji": "🙌"
+    },
+    {
+      "word": "fantastic",
+      "pos": "adj",
+      "meanings": [
+        "환상적인"
+      ],
+      "example": "That was a fantastic game to watch.",
+      "exampleKo": "그것은 보기에 환상적인 경기였다.",
+      "emoji": "🤩"
+    },
+    {
+      "word": "fear",
+      "pos": "n",
+      "meanings": [
+        "두려움"
+      ],
+      "example": "She had no fear before the big race.",
+      "exampleKo": "그녀는 큰 경주 전에 두려움이 없었다.",
+      "emoji": "😨"
+    },
+    {
+      "word": "final",
+      "pos": "adj",
+      "meanings": [
+        "마지막의",
+        "최종의"
+      ],
+      "example": "They scored in the final minute of the game.",
+      "exampleKo": "그들은 경기 마지막 순간에 득점했다.",
+      "emoji": "🏁"
+    },
+    {
+      "word": "finalist",
+      "pos": "n",
+      "meanings": [
+        "결승 진출자"
+      ],
+      "example": "Both teams became finalists this year.",
+      "exampleKo": "두 팀 모두 올해 결승 진출자가 되었다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "fit",
+      "pos": "adj",
+      "meanings": [
+        "건강한",
+        "꼭 맞는"
+      ],
+      "example": "You need to stay fit to play sports.",
+      "exampleKo": "스포츠를 하려면 몸이 건강해야 한다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "for example",
+      "pos": "phrase",
+      "meanings": [
+        "예를 들어"
+      ],
+      "example": "You can play many sports, for example, soccer or tennis.",
+      "exampleKo": "너는 예를 들어 축구나 테니스 같은 많은 스포츠를 할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "for sure",
+      "pos": "phrase",
+      "meanings": [
+        "확실히"
+      ],
+      "example": "For sure, they will win the next game.",
+      "exampleKo": "확실히 그들은 다음 경기에서 이길 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "friendship",
+      "pos": "n",
+      "meanings": [
+        "우정"
+      ],
+      "example": "Playing on a team builds strong friendship.",
+      "exampleKo": "팀에서 함께 뛰는 것은 강한 우정을 만든다.",
+      "emoji": "👫"
+    },
+    {
+      "word": "goalkeeper",
+      "pos": "n",
+      "meanings": [
+        "골키퍼"
+      ],
+      "example": "The goalkeeper stopped the ball perfectly.",
+      "exampleKo": "골키퍼는 공을 완벽하게 막았다.",
+      "emoji": "🥅"
+    },
+    {
+      "word": "golf",
+      "pos": "n",
+      "meanings": [
+        "골프"
+      ],
+      "example": "My grandfather enjoys playing golf on weekends.",
+      "exampleKo": "우리 할아버지는 주말에 골프 치는 것을 즐기신다.",
+      "emoji": "⛳"
+    },
+    {
+      "word": "good luck",
+      "pos": "phrase",
+      "meanings": [
+        "행운을 빌어요"
+      ],
+      "example": "Good luck in tomorrow's competition!",
+      "exampleKo": "내일 대회에서 행운을 빌어!",
+      "emoji": "🍀"
+    },
+    {
+      "word": "gymnast",
+      "pos": "n",
+      "meanings": [
+        "체조 선수"
+      ],
+      "example": "The young gymnast performed a perfect routine.",
+      "exampleKo": "그 어린 체조 선수는 완벽한 연기를 펼쳤다.",
+      "emoji": "🤸"
+    },
+    {
+      "word": "halftime",
+      "pos": "n",
+      "meanings": [
+        "하프타임"
+      ],
+      "example": "The players rested during halftime.",
+      "exampleKo": "선수들은 하프타임 동안 휴식을 취했다.",
+      "emoji": "⏱️"
+    },
+    {
+      "word": "hit",
+      "pos": "v",
+      "meanings": [
+        "치다",
+        "때리다"
+      ],
+      "example": "She hit the ball over the fence.",
+      "exampleKo": "그녀는 공을 담장 너머로 쳤다.",
+      "emoji": "👊"
+    },
+    {
+      "word": "honestly",
+      "pos": "adv",
+      "meanings": [
+        "솔직히"
+      ],
+      "example": "Honestly, I think our team played well.",
+      "exampleKo": "솔직히, 나는 우리 팀이 잘했다고 생각한다.",
+      "emoji": ""
+    },
+    {
+      "word": "honesty",
+      "pos": "n",
+      "meanings": [
+        "정직"
+      ],
+      "example": "Honesty is important in every sport.",
+      "exampleKo": "정직은 모든 스포츠에서 중요하다.",
+      "emoji": "😇"
+    },
+    {
+      "word": "immediately",
+      "pos": "adv",
+      "meanings": [
+        "즉시",
+        "바로"
+      ],
+      "example": "The game started immediately after the whistle.",
+      "exampleKo": "경기는 신호 소리 직후 즉시 시작되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "importance",
+      "pos": "n",
+      "meanings": [
+        "중요성"
+      ],
+      "example": "Coaches always talk about the importance of teamwork.",
+      "exampleKo": "코치들은 항상 팀워크의 중요성에 대해 이야기한다.",
+      "emoji": ""
+    },
+    {
+      "word": "impossible",
+      "pos": "adj",
+      "meanings": [
+        "불가능한"
+      ],
+      "example": "It seemed impossible to beat the champion.",
+      "exampleKo": "챔피언을 이기는 것은 불가능해 보였다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "in a row",
+      "pos": "phrase",
+      "meanings": [
+        "연속으로"
+      ],
+      "example": "They won five games in a row.",
+      "exampleKo": "그들은 다섯 경기를 연속으로 이겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "in fact",
+      "pos": "phrase",
+      "meanings": [
+        "사실은"
+      ],
+      "example": "In fact, she is the youngest player on the team.",
+      "exampleKo": "사실은, 그녀가 팀에서 가장 어린 선수이다.",
+      "emoji": ""
+    },
+    {
+      "word": "in general",
+      "pos": "phrase",
+      "meanings": [
+        "일반적으로"
+      ],
+      "example": "In general, boys and girls enjoy the same sports.",
+      "exampleKo": "일반적으로, 남자아이와 여자아이는 같은 스포츠를 즐긴다.",
+      "emoji": ""
+    },
+    {
+      "word": "in time",
+      "pos": "phrase",
+      "meanings": [
+        "시간에 맞춰"
+      ],
+      "example": "We arrived at the stadium just in time.",
+      "exampleKo": "우리는 경기장에 딱 시간에 맞춰 도착했다.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "inconvenient",
+      "pos": "adj",
+      "meanings": [
+        "불편한"
+      ],
+      "example": "The rainy weather was inconvenient for the game.",
+      "exampleKo": "비 오는 날씨는 경기에 불편했다.",
+      "emoji": ""
+    },
+    {
+      "word": "interest",
+      "pos": "n",
+      "meanings": [
+        "관심",
+        "흥미"
+      ],
+      "example": "He showed a lot of interest in swimming.",
+      "exampleKo": "그는 수영에 많은 관심을 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "keep in mind",
+      "pos": "phrase",
+      "meanings": [
+        "명심하다"
+      ],
+      "example": "Please keep in mind the rules of the game.",
+      "exampleKo": "경기의 규칙을 명심해 주세요.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "kindness",
+      "pos": "n",
+      "meanings": [
+        "친절"
+      ],
+      "example": "The coach treated every player with kindness.",
+      "exampleKo": "코치는 모든 선수를 친절하게 대했다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "lane",
+      "pos": "n",
+      "meanings": [
+        "차선",
+        "레인"
+      ],
+      "example": "Each swimmer has their own lane in the pool.",
+      "exampleKo": "각 수영선수는 수영장에서 자신만의 레인을 가진다.",
+      "emoji": ""
+    },
+    {
+      "word": "level",
+      "pos": "n",
+      "meanings": [
+        "수준",
+        "단계"
+      ],
+      "example": "Her skill level improved a lot this year.",
+      "exampleKo": "그녀의 실력 수준은 올해 많이 향상되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "lie",
+      "pos": "n",
+      "meanings": [
+        "거짓말"
+      ],
+      "example": "He told a lie about winning the race.",
+      "exampleKo": "그는 경주에서 이겼다는 거짓말을 했다.",
+      "emoji": "🤥"
+    },
+    {
+      "word": "limit",
+      "pos": "n",
+      "meanings": [
+        "한계",
+        "제한"
+      ],
+      "example": "There is a time limit for each game.",
+      "exampleKo": "각 경기마다 시간 제한이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "luck",
+      "pos": "n",
+      "meanings": [
+        "행운"
+      ],
+      "example": "A little luck helped them win the match.",
+      "exampleKo": "약간의 행운이 그들이 경기를 이기도록 도왔다.",
+      "emoji": "🍀"
+    },
+    {
+      "word": "main",
+      "pos": "adj",
+      "meanings": [
+        "주요한"
+      ],
+      "example": "The main event today is the swimming race.",
+      "exampleKo": "오늘의 주요 행사는 수영 경주이다.",
+      "emoji": ""
+    },
+    {
+      "word": "major",
+      "pos": "adj",
+      "meanings": [
+        "주요한",
+        "중대한"
+      ],
+      "example": "He suffered a major injury during the game.",
+      "exampleKo": "그는 경기 중에 큰 부상을 입었다.",
+      "emoji": ""
+    },
+    {
+      "word": "marathon",
+      "pos": "n",
+      "meanings": [
+        "마라톤"
+      ],
+      "example": "She trained for months to run the marathon.",
+      "exampleKo": "그녀는 마라톤을 뛰기 위해 몇 달간 훈련했다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "minor",
+      "pos": "adj",
+      "meanings": [
+        "사소한",
+        "작은"
+      ],
+      "example": "It was only a minor problem in the plan.",
+      "exampleKo": "그것은 계획에서 작은 문제일 뿐이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "mystery",
+      "pos": "n",
+      "meanings": [
+        "미스터리",
+        "수수께끼"
+      ],
+      "example": "How he won the race is still a mystery.",
+      "exampleKo": "그가 어떻게 경주에서 이겼는지는 여전히 미스터리이다.",
+      "emoji": "🕵️"
+    },
+    {
+      "word": "nearly",
+      "pos": "adv",
+      "meanings": [
+        "거의"
+      ],
+      "example": "They nearly lost the last game.",
+      "exampleKo": "그들은 지난 경기에서 거의 질 뻔했다.",
+      "emoji": ""
+    },
+    {
+      "word": "necessary",
+      "pos": "adj",
+      "meanings": [
+        "필요한"
+      ],
+      "example": "It is necessary to warm up before you exercise.",
+      "exampleKo": "운동하기 전에 몸을 푸는 것이 필요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "news",
+      "pos": "n",
+      "meanings": [
+        "소식",
+        "뉴스"
+      ],
+      "example": "We heard good news about the tournament.",
+      "exampleKo": "우리는 토너먼트에 대한 좋은 소식을 들었다.",
+      "emoji": "📰"
+    },
+    {
+      "word": "no problem",
+      "pos": "phrase",
+      "meanings": [
+        "문제없어요",
+        "괜찮아요"
+      ],
+      "example": "No problem, I can help you practice.",
+      "exampleKo": "괜찮아, 내가 네 연습을 도와줄 수 있어.",
+      "emoji": "👍"
+    },
+    {
+      "word": "no way",
+      "pos": "phrase",
+      "meanings": [
+        "절대 안돼",
+        "말도 안돼"
+      ],
+      "example": "No way! Our team can't lose this game.",
+      "exampleKo": "말도 안 돼! 우리 팀이 이 경기를 질 리 없어.",
+      "emoji": "🙅"
+    },
+    {
+      "word": "of course",
+      "pos": "phrase",
+      "meanings": [
+        "물론"
+      ],
+      "example": "Of course, I will watch the final match.",
+      "exampleKo": "물론, 나는 결승전을 볼 거야.",
+      "emoji": "👍"
+    },
+    {
+      "word": "on time",
+      "pos": "phrase",
+      "meanings": [
+        "제시간에"
+      ],
+      "example": "Please arrive at the field on time.",
+      "exampleKo": "경기장에 제시간에 도착해 주세요.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "opponent",
+      "pos": "n",
+      "meanings": [
+        "상대",
+        "적수"
+      ],
+      "example": "Her opponent was much taller than her.",
+      "exampleKo": "그녀의 상대는 그녀보다 훨씬 키가 컸다.",
+      "emoji": ""
+    },
+    {
+      "word": "outstanding",
+      "pos": "adj",
+      "meanings": [
+        "뛰어난",
+        "두드러진"
+      ],
+      "example": "He showed outstanding skill in the competition.",
+      "exampleKo": "그는 대회에서 뛰어난 실력을 보였다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "overtime",
+      "pos": "n",
+      "meanings": [
+        "연장전"
+      ],
+      "example": "The game went into overtime.",
+      "exampleKo": "경기는 연장전에 돌입했다.",
+      "emoji": "⏱️"
+    },
+    {
+      "word": "part",
+      "pos": "n",
+      "meanings": [
+        "부분"
+      ],
+      "example": "Practice is an important part of every sport.",
+      "exampleKo": "연습은 모든 스포츠에서 중요한 부분이다.",
+      "emoji": ""
+    },
+    {
+      "word": "pass",
+      "pos": "v",
+      "meanings": [
+        "패스하다",
+        "건네다"
+      ],
+      "example": "He passed the ball to his teammate.",
+      "exampleKo": "그는 팀 동료에게 공을 패스했다.",
+      "emoji": ""
+    },
+    {
+      "word": "patience",
+      "pos": "n",
+      "meanings": [
+        "인내심"
+      ],
+      "example": "You need patience to learn a new sport.",
+      "exampleKo": "새로운 스포츠를 배우려면 인내심이 필요하다.",
+      "emoji": "⏳"
+    },
+    {
+      "word": "perhaps",
+      "pos": "adv",
+      "meanings": [
+        "아마도"
+      ],
+      "example": "Perhaps we will win the next competition.",
+      "exampleKo": "아마도 우리는 다음 대회에서 이길 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "piece",
+      "pos": "n",
+      "meanings": [
+        "조각",
+        "부분"
+      ],
+      "example": "Every piece of advice from the coach helped.",
+      "exampleKo": "코치의 모든 조언이 도움이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "ping pong",
+      "pos": "n",
+      "meanings": [
+        "탁구"
+      ],
+      "example": "We played ping pong after school.",
+      "exampleKo": "우리는 방과 후에 탁구를 쳤다.",
+      "emoji": "🏓"
+    },
+    {
+      "word": "possibility",
+      "pos": "n",
+      "meanings": [
+        "가능성"
+      ],
+      "example": "There is a possibility that the game will be cancelled.",
+      "exampleKo": "경기가 취소될 가능성이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "possible",
+      "pos": "adj",
+      "meanings": [
+        "가능한"
+      ],
+      "example": "It is possible to improve your skill with practice.",
+      "exampleKo": "연습을 통해 실력을 향상시키는 것은 가능하다.",
+      "emoji": ""
+    },
+    {
+      "word": "power",
+      "pos": "n",
+      "meanings": [
+        "힘",
+        "능력"
+      ],
+      "example": "She hit the ball with great power.",
+      "exampleKo": "그녀는 대단한 힘으로 공을 쳤다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "powerful",
+      "pos": "adj",
+      "meanings": [
+        "강력한"
+      ],
+      "example": "He has a powerful kick.",
+      "exampleKo": "그는 강력한 킥을 가지고 있다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "prepared",
+      "pos": "adj",
+      "meanings": [
+        "준비된"
+      ],
+      "example": "The team was well prepared for the match.",
+      "exampleKo": "그 팀은 경기를 위해 잘 준비되어 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "process",
+      "pos": "n",
+      "meanings": [
+        "과정"
+      ],
+      "example": "Learning a new sport is a slow process.",
+      "exampleKo": "새로운 스포츠를 배우는 것은 느린 과정이다.",
+      "emoji": ""
+    },
+    {
+      "word": "progress",
+      "pos": "n",
+      "meanings": [
+        "진전",
+        "발전"
+      ],
+      "example": "She made great progress in swimming this year.",
+      "exampleKo": "그녀는 올해 수영에서 큰 발전을 이루었다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "properly",
+      "pos": "adv",
+      "meanings": [
+        "제대로",
+        "적절히"
+      ],
+      "example": "Make sure you stretch properly before running.",
+      "exampleKo": "달리기 전에 제대로 스트레칭을 하도록 해.",
+      "emoji": ""
+    },
+    {
+      "word": "quality",
+      "pos": "n",
+      "meanings": [
+        "질",
+        "품질"
+      ],
+      "example": "The quality of his training improved his skill.",
+      "exampleKo": "그의 훈련의 질이 그의 실력을 향상시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "rank",
+      "pos": "n",
+      "meanings": [
+        "순위",
+        "등급"
+      ],
+      "example": "Our team's rank went up this season.",
+      "exampleKo": "우리 팀의 순위는 이번 시즌에 올라갔다.",
+      "emoji": "🏅"
+    },
+    {
+      "word": "really",
+      "pos": "adv",
+      "meanings": [
+        "정말로"
+      ],
+      "example": "She really wants to win the gold medal.",
+      "exampleKo": "그녀는 정말로 금메달을 따고 싶어 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "reason",
+      "pos": "n",
+      "meanings": [
+        "이유"
+      ],
+      "example": "The reason he practices so much is to improve.",
+      "exampleKo": "그가 그렇게 많이 연습하는 이유는 실력을 향상시키기 위해서이다.",
+      "emoji": ""
+    },
+    {
+      "word": "record",
+      "pos": "n",
+      "meanings": [
+        "기록"
+      ],
+      "example": "He broke the school record in running.",
+      "exampleKo": "그는 달리기에서 학교 기록을 깼다.",
+      "emoji": ""
+    },
+    {
+      "word": "relaxed",
+      "pos": "adj",
+      "meanings": [
+        "편안한",
+        "느긋한"
+      ],
+      "example": "The players felt relaxed before the game started.",
+      "exampleKo": "선수들은 경기가 시작되기 전에 편안함을 느꼈다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "relay",
+      "pos": "n",
+      "meanings": [
+        "계주",
+        "릴레이"
+      ],
+      "example": "Our class won the relay race.",
+      "exampleKo": "우리 반이 계주 경기에서 이겼다.",
+      "emoji": "🏃"
+    },
+    {
+      "word": "responsibility",
+      "pos": "n",
+      "meanings": [
+        "책임"
+      ],
+      "example": "Being captain is a big responsibility.",
+      "exampleKo": "주장이 되는 것은 큰 책임이다.",
+      "emoji": ""
+    },
+    {
+      "word": "result",
+      "pos": "n",
+      "meanings": [
+        "결과"
+      ],
+      "example": "The result of the match surprised everyone.",
+      "exampleKo": "경기 결과는 모두를 놀라게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "risk",
+      "pos": "n",
+      "meanings": [
+        "위험",
+        "위험 요소"
+      ],
+      "example": "There is always a risk of getting hurt in sports.",
+      "exampleKo": "스포츠에는 항상 다칠 위험이 있다.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "risky",
+      "pos": "adj",
+      "meanings": [
+        "위험한"
+      ],
+      "example": "Diving from that height is too risky.",
+      "exampleKo": "그 높이에서 다이빙하는 것은 너무 위험하다.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "rival",
+      "pos": "n",
+      "meanings": [
+        "라이벌",
+        "경쟁자"
+      ],
+      "example": "The two schools are strong rivals in basketball.",
+      "exampleKo": "두 학교는 농구에서 강력한 라이벌이다.",
+      "emoji": ""
+    },
+    {
+      "word": "routine",
+      "pos": "n",
+      "meanings": [
+        "일과",
+        "루틴"
+      ],
+      "example": "Stretching is part of his daily routine.",
+      "exampleKo": "스트레칭은 그의 매일 일과의 일부이다.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "rude",
+      "pos": "adj",
+      "meanings": [
+        "무례한"
+      ],
+      "example": "It is rude to shout at the referee.",
+      "exampleKo": "심판에게 소리치는 것은 무례한 일이다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "rugby",
+      "pos": "n",
+      "meanings": [
+        "럭비"
+      ],
+      "example": "Rugby is a rough but exciting sport.",
+      "exampleKo": "럭비는 거칠지만 흥미진진한 스포츠이다.",
+      "emoji": "🏉"
+    },
+    {
+      "word": "rule",
+      "pos": "n",
+      "meanings": [
+        "규칙"
+      ],
+      "example": "You must follow the rule during the game.",
+      "exampleKo": "경기 중에는 규칙을 따라야 한다.",
+      "emoji": "📏"
+    },
+    {
+      "word": "safety",
+      "pos": "n",
+      "meanings": [
+        "안전"
+      ],
+      "example": "Wearing a helmet is important for safety.",
+      "exampleKo": "헬멧을 쓰는 것은 안전을 위해 중요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "scoreboard",
+      "pos": "n",
+      "meanings": [
+        "전광판",
+        "점수판"
+      ],
+      "example": "Everyone looked at the scoreboard nervously.",
+      "exampleKo": "모두가 초조하게 전광판을 바라보았다.",
+      "emoji": ""
+    },
+    {
+      "word": "shoot",
+      "pos": "v",
+      "meanings": [
+        "슛을 하다",
+        "쏘다"
+      ],
+      "example": "She ran fast and shot the ball into the goal.",
+      "exampleKo": "그녀는 빠르게 달려서 골대에 공을 슛했다.",
+      "emoji": "⚽"
+    },
+    {
+      "word": "simply",
+      "pos": "adv",
+      "meanings": [
+        "간단히",
+        "단순히"
+      ],
+      "example": "He simply ran faster than everyone else.",
+      "exampleKo": "그는 단순히 다른 모두보다 더 빨리 달렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "skate",
+      "pos": "v",
+      "meanings": [
+        "스케이트를 타다"
+      ],
+      "example": "We like to skate on the frozen lake in winter.",
+      "exampleKo": "우리는 겨울에 얼어붙은 호수에서 스케이트 타는 것을 좋아한다.",
+      "emoji": "⛸️"
+    },
+    {
+      "word": "skating",
+      "pos": "n",
+      "meanings": [
+        "스케이트 타기"
+      ],
+      "example": "Skating is her favorite winter activity.",
+      "exampleKo": "스케이트 타기는 그녀가 가장 좋아하는 겨울 활동이다.",
+      "emoji": "⛸️"
+    },
+    {
+      "word": "skiing",
+      "pos": "n",
+      "meanings": [
+        "스키 타기"
+      ],
+      "example": "They go skiing in the mountains every winter.",
+      "exampleKo": "그들은 매년 겨울 산에서 스키를 탄다.",
+      "emoji": "⛷️"
+    },
+    {
+      "word": "skill",
+      "pos": "n",
+      "meanings": [
+        "기술",
+        "실력"
+      ],
+      "example": "His soccer skill has improved a lot.",
+      "exampleKo": "그의 축구 실력은 많이 향상되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "skilled",
+      "pos": "adj",
+      "meanings": [
+        "숙련된"
+      ],
+      "example": "She is a skilled tennis player.",
+      "exampleKo": "그녀는 숙련된 테니스 선수이다.",
+      "emoji": ""
+    },
+    {
+      "word": "solution",
+      "pos": "n",
+      "meanings": [
+        "해결책"
+      ],
+      "example": "The coach found a solution to the team's problem.",
+      "exampleKo": "코치는 팀의 문제에 대한 해결책을 찾았다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "sportsmanship",
+      "pos": "n",
+      "meanings": [
+        "스포츠맨십"
+      ],
+      "example": "Good sportsmanship means respecting your opponent.",
+      "exampleKo": "좋은 스포츠맨십은 상대를 존중하는 것을 의미한다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "strength",
+      "pos": "n",
+      "meanings": [
+        "힘",
+        "강점"
+      ],
+      "example": "Speed is his greatest strength as a runner.",
+      "exampleKo": "속도는 달리기 선수로서 그의 가장 큰 강점이다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "stressed",
+      "pos": "adj",
+      "meanings": [
+        "스트레스를 받는"
+      ],
+      "example": "He felt stressed before the big competition.",
+      "exampleKo": "그는 큰 대회 전에 스트레스를 받았다.",
+      "emoji": "😰"
+    },
+    {
+      "word": "strict",
+      "pos": "adj",
+      "meanings": [
+        "엄격한"
+      ],
+      "example": "Our coach is strict but very kind.",
+      "exampleKo": "우리 코치는 엄격하지만 매우 친절하다.",
+      "emoji": "😠"
+    },
+    {
+      "word": "success",
+      "pos": "n",
+      "meanings": [
+        "성공"
+      ],
+      "example": "Hard practice led to the team's success.",
+      "exampleKo": "열심히 한 연습이 팀의 성공으로 이어졌다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "successful",
+      "pos": "adj",
+      "meanings": [
+        "성공적인"
+      ],
+      "example": "The training program was very successful.",
+      "exampleKo": "그 훈련 프로그램은 매우 성공적이었다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "suggestion",
+      "pos": "n",
+      "meanings": [
+        "제안"
+      ],
+      "example": "The coach gave a helpful suggestion after the game.",
+      "exampleKo": "코치는 경기 후 도움이 되는 제안을 해주었다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "sure",
+      "pos": "adj",
+      "meanings": [
+        "확실한"
+      ],
+      "example": "I am sure she will win the race.",
+      "exampleKo": "나는 그녀가 경주에서 이길 것이라고 확신한다.",
+      "emoji": "👍"
+    },
+    {
+      "word": "surfing",
+      "pos": "n",
+      "meanings": [
+        "서핑"
+      ],
+      "example": "He learned surfing at the beach last summer.",
+      "exampleKo": "그는 지난 여름 해변에서 서핑을 배웠다.",
+      "emoji": "🏄"
+    },
+    {
+      "word": "take care",
+      "pos": "phrase",
+      "meanings": [
+        "몸조심해",
+        "조심해"
+      ],
+      "example": "Take care and don't get hurt during practice.",
+      "exampleKo": "연습 중에 다치지 않게 몸조심해.",
+      "emoji": "🤗"
+    },
+    {
+      "word": "talent",
+      "pos": "n",
+      "meanings": [
+        "재능"
+      ],
+      "example": "She has a natural talent for basketball.",
+      "exampleKo": "그녀는 농구에 타고난 재능이 있다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "talented",
+      "pos": "adj",
+      "meanings": [
+        "재능 있는"
+      ],
+      "example": "He is one of the most talented players on the team.",
+      "exampleKo": "그는 팀에서 가장 재능 있는 선수 중 한 명이다.",
+      "emoji": "🌟"
+    },
+    {
+      "word": "teammate",
+      "pos": "n",
+      "meanings": [
+        "팀 동료"
+      ],
+      "example": "He passed the ball to his teammate.",
+      "exampleKo": "그는 팀 동료에게 공을 패스했다.",
+      "emoji": "👥"
+    },
+    {
+      "word": "teamwork",
+      "pos": "n",
+      "meanings": [
+        "팀워크",
+        "협동"
+      ],
+      "example": "Good teamwork helped them win the game.",
+      "exampleKo": "좋은 팀워크가 그들이 경기를 이기도록 도왔다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "title",
+      "pos": "n",
+      "meanings": [
+        "제목",
+        "타이틀"
+      ],
+      "example": "They fought hard to win the title.",
+      "exampleKo": "그들은 타이틀을 따기 위해 열심히 싸웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "topic",
+      "pos": "n",
+      "meanings": [
+        "주제"
+      ],
+      "example": "The topic of the speech was fair play in sports.",
+      "exampleKo": "연설의 주제는 스포츠에서의 공정한 플레이였다.",
+      "emoji": ""
+    },
+    {
+      "word": "totally",
+      "pos": "adv",
+      "meanings": [
+        "완전히"
+      ],
+      "example": "He was totally exhausted after the marathon.",
+      "exampleKo": "그는 마라톤 후에 완전히 지쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "tournament",
+      "pos": "n",
+      "meanings": [
+        "토너먼트",
+        "대회"
+      ],
+      "example": "The school held a tournament for all students.",
+      "exampleKo": "학교는 모든 학생들을 위한 토너먼트를 열었다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "track",
+      "pos": "n",
+      "meanings": [
+        "트랙",
+        "육상 경기장"
+      ],
+      "example": "The runners lined up on the track.",
+      "exampleKo": "주자들이 트랙에 줄지어 섰다.",
+      "emoji": "🛤️"
+    },
+    {
+      "word": "training",
+      "pos": "n",
+      "meanings": [
+        "훈련"
+      ],
+      "example": "Daily training made her much stronger.",
+      "exampleKo": "매일의 훈련이 그녀를 훨씬 더 강하게 만들었다.",
+      "emoji": "🏋️"
+    },
+    {
+      "word": "truly",
+      "pos": "adv",
+      "meanings": [
+        "진심으로",
+        "정말로"
+      ],
+      "example": "She is truly a great athlete.",
+      "exampleKo": "그녀는 진정으로 훌륭한 운동선수이다.",
+      "emoji": ""
+    },
+    {
+      "word": "truth",
+      "pos": "n",
+      "meanings": [
+        "진실"
+      ],
+      "example": "He told the truth about the broken rule.",
+      "exampleKo": "그는 어겨진 규칙에 대해 진실을 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "type",
+      "pos": "n",
+      "meanings": [
+        "종류",
+        "유형"
+      ],
+      "example": "What type of sport do you like best?",
+      "exampleKo": "너는 어떤 종류의 스포츠를 가장 좋아하니?",
+      "emoji": ""
+    },
+    {
+      "word": "unfair",
+      "pos": "adj",
+      "meanings": [
+        "불공평한"
+      ],
+      "example": "The players thought the decision was unfair.",
+      "exampleKo": "선수들은 그 결정이 불공평하다고 생각했다.",
+      "emoji": ""
+    },
+    {
+      "word": "unpopular",
+      "pos": "adj",
+      "meanings": [
+        "인기 없는"
+      ],
+      "example": "That sport is unpopular in our school.",
+      "exampleKo": "그 스포츠는 우리 학교에서 인기가 없다.",
+      "emoji": ""
+    },
+    {
+      "word": "unsafe",
+      "pos": "adj",
+      "meanings": [
+        "안전하지 않은"
+      ],
+      "example": "Riding without a helmet is unsafe.",
+      "exampleKo": "헬멧 없이 타는 것은 안전하지 않다.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "unusual",
+      "pos": "adj",
+      "meanings": [
+        "특이한",
+        "흔치 않은"
+      ],
+      "example": "It was unusual for the strong team to lose.",
+      "exampleKo": "강한 팀이 지는 것은 흔치 않은 일이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "usual",
+      "pos": "adj",
+      "meanings": [
+        "보통의",
+        "평상시의"
+      ],
+      "example": "They met at the usual time for practice.",
+      "exampleKo": "그들은 평소 연습 시간에 만났다.",
+      "emoji": ""
+    },
+    {
+      "word": "value",
+      "pos": "n",
+      "meanings": [
+        "가치"
+      ],
+      "example": "Fair play has great value in sports.",
+      "exampleKo": "공정한 플레이는 스포츠에서 큰 가치를 지닌다.",
+      "emoji": ""
+    },
+    {
+      "word": "victory",
+      "pos": "n",
+      "meanings": [
+        "승리"
+      ],
+      "example": "The whole team celebrated their victory.",
+      "exampleKo": "팀 전체가 그들의 승리를 축하했다.",
+      "emoji": "🏆"
+    },
+    {
+      "word": "volleyball",
+      "pos": "n",
+      "meanings": [
+        "배구"
+      ],
+      "example": "We play volleyball at the beach every summer.",
+      "exampleKo": "우리는 매년 여름 해변에서 배구를 한다.",
+      "emoji": "🏐"
+    },
+    {
+      "word": "warm up",
+      "pos": "v",
+      "meanings": [
+        "몸을 풀다",
+        "준비운동을 하다"
+      ],
+      "example": "Athletes always warm up before a race.",
+      "exampleKo": "운동선수들은 항상 경주 전에 몸을 푼다.",
+      "emoji": "🏋️"
+    },
+    {
+      "word": "warning",
+      "pos": "n",
+      "meanings": [
+        "경고"
+      ],
+      "example": "The referee gave the player a warning.",
+      "exampleKo": "심판은 선수에게 경고를 주었다.",
+      "emoji": "⚠️"
+    },
+    {
+      "word": "weakness",
+      "pos": "n",
+      "meanings": [
+        "약점"
+      ],
+      "example": "Every player has a strength and a weakness.",
+      "exampleKo": "모든 선수는 강점과 약점을 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "well",
+      "pos": "adv",
+      "meanings": [
+        "잘"
+      ],
+      "example": "She played very well in today's match.",
+      "exampleKo": "그녀는 오늘 경기에서 아주 잘했다.",
+      "emoji": ""
+    },
+    {
+      "word": "willing",
+      "pos": "adj",
+      "meanings": [
+        "기꺼이 하는"
+      ],
+      "example": "He is always willing to help his teammates.",
+      "exampleKo": "그는 항상 기꺼이 팀 동료들을 돕는다.",
+      "emoji": "👍"
+    },
+    {
+      "word": "wrestling",
+      "pos": "n",
+      "meanings": [
+        "레슬링"
+      ],
+      "example": "Wrestling requires a lot of strength.",
+      "exampleKo": "레슬링은 많은 힘을 필요로 한다.",
+      "emoji": "🤼"
+    }
+  ]
+}

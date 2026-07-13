@@ -1,0 +1,12 @@
+{
+  "name": "정철 VOCA — 정철어학원 청당국제캠퍼스",
+  "short_name": "정철 VOCA",
+  "description": "파닉스부터 수능 만점까지, 정철어학원 청당국제캠퍼스 단어 학습 앱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f6fa",
+  "theme_color": "#16204a",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

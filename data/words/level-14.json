@@ -1,0 +1,699 @@
+{
+  "level": 14,
+  "words": [
+    {
+      "word": "contribute",
+      "pos": "v",
+      "meanings": [
+        "기여하다",
+        "공헌하다",
+        "기부하다"
+      ],
+      "example": "Regular exercise contributes to a healthy life.",
+      "exampleKo": "규칙적인 운동은 건강한 삶에 기여한다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "phenomenon",
+      "pos": "n",
+      "meanings": [
+        "현상",
+        "경이로운 것"
+      ],
+      "example": "Globalization is a complex social phenomenon.",
+      "exampleKo": "세계화는 복잡한 사회 현상이다.",
+      "emoji": ""
+    },
+    {
+      "word": "inevitable",
+      "pos": "adj",
+      "meanings": [
+        "피할 수 없는",
+        "불가피한",
+        "필연적인"
+      ],
+      "example": "Change is an inevitable part of life.",
+      "exampleKo": "변화는 삶에서 피할 수 없는 부분이다.",
+      "emoji": ""
+    },
+    {
+      "word": "abstract",
+      "pos": "adj",
+      "meanings": [
+        "추상적인",
+        "관념적인"
+      ],
+      "example": "Young children have difficulty understanding abstract concepts.",
+      "exampleKo": "어린아이들은 추상적인 개념을 이해하는 데 어려움을 겪는다.",
+      "emoji": ""
+    },
+    {
+      "word": "accumulate",
+      "pos": "v",
+      "meanings": [
+        "축적하다",
+        "모으다",
+        "쌓이다"
+      ],
+      "example": "Dust accumulated on the shelves over the years.",
+      "exampleKo": "여러 해에 걸쳐 선반에 먼지가 쌓였다.",
+      "emoji": ""
+    },
+    {
+      "word": "accustomed",
+      "pos": "adj",
+      "meanings": [
+        "익숙한",
+        "습관이 된"
+      ],
+      "example": "She soon became accustomed to the cold weather.",
+      "exampleKo": "그녀는 곧 추운 날씨에 익숙해졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "advocate",
+      "pos": "v",
+      "meanings": [
+        "옹호하다",
+        "지지하다",
+        "주장하다"
+      ],
+      "example": "The group advocates the protection of endangered species.",
+      "exampleKo": "그 단체는 멸종 위기종의 보호를 옹호한다.",
+      "emoji": "📢"
+    },
+    {
+      "word": "aesthetic",
+      "pos": "adj",
+      "meanings": [
+        "미적인",
+        "심미적인"
+      ],
+      "example": "The building was praised for its aesthetic value.",
+      "exampleKo": "그 건물은 미적 가치로 찬사를 받았다.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "allocate",
+      "pos": "v",
+      "meanings": [
+        "할당하다",
+        "배분하다"
+      ],
+      "example": "The government allocated more funds to education.",
+      "exampleKo": "정부는 교육에 더 많은 자금을 할당했다.",
+      "emoji": ""
+    },
+    {
+      "word": "ambiguous",
+      "pos": "adj",
+      "meanings": [
+        "모호한",
+        "애매한",
+        "여러 뜻으로 해석되는"
+      ],
+      "example": "His answer was so ambiguous that no one understood it.",
+      "exampleKo": "그의 대답은 너무 모호해서 아무도 이해하지 못했다.",
+      "emoji": "❓"
+    },
+    {
+      "word": "assert",
+      "pos": "v",
+      "meanings": [
+        "주장하다",
+        "단언하다"
+      ],
+      "example": "The scientist asserted that the data was reliable.",
+      "exampleKo": "그 과학자는 데이터가 신뢰할 만하다고 주장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "cognitive",
+      "pos": "adj",
+      "meanings": [
+        "인지의",
+        "인식의"
+      ],
+      "example": "Playing chess improves cognitive abilities.",
+      "exampleKo": "체스를 두는 것은 인지 능력을 향상시킨다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "collapse",
+      "pos": "v",
+      "meanings": [
+        "무너지다",
+        "붕괴하다",
+        "쓰러지다"
+      ],
+      "example": "The bridge collapsed under the weight of the trucks.",
+      "exampleKo": "그 다리는 트럭들의 무게를 이기지 못하고 무너졌다.",
+      "emoji": "💥"
+    },
+    {
+      "word": "compensate",
+      "pos": "v",
+      "meanings": [
+        "보상하다",
+        "보완하다",
+        "상쇄하다"
+      ],
+      "example": "Nothing can compensate for the loss of health.",
+      "exampleKo": "그 무엇도 건강의 상실을 보상할 수 없다.",
+      "emoji": ""
+    },
+    {
+      "word": "compel",
+      "pos": "v",
+      "meanings": [
+        "강요하다",
+        "~하게 만들다"
+      ],
+      "example": "The heavy rain compelled us to cancel the picnic.",
+      "exampleKo": "폭우로 인해 우리는 소풍을 취소할 수밖에 없었다.",
+      "emoji": ""
+    },
+    {
+      "word": "conceive",
+      "pos": "v",
+      "meanings": [
+        "생각해 내다",
+        "상상하다",
+        "품다"
+      ],
+      "example": "It is hard to conceive of life without the internet.",
+      "exampleKo": "인터넷이 없는 삶은 상상하기 어렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "constitute",
+      "pos": "v",
+      "meanings": [
+        "구성하다",
+        "~이 되다",
+        "설립하다"
+      ],
+      "example": "Women constitute more than half of the workforce.",
+      "exampleKo": "여성이 노동 인구의 절반 이상을 구성한다.",
+      "emoji": ""
+    },
+    {
+      "word": "contemporary",
+      "pos": "adj",
+      "meanings": [
+        "현대의",
+        "동시대의"
+      ],
+      "example": "The gallery exhibits works by contemporary artists.",
+      "exampleKo": "그 미술관은 현대 예술가들의 작품을 전시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "contradict",
+      "pos": "v",
+      "meanings": [
+        "모순되다",
+        "반박하다",
+        "부정하다"
+      ],
+      "example": "His actions contradict his words.",
+      "exampleKo": "그의 행동은 그의 말과 모순된다.",
+      "emoji": ""
+    },
+    {
+      "word": "controversy",
+      "pos": "n",
+      "meanings": [
+        "논란",
+        "논쟁"
+      ],
+      "example": "The new law caused a great deal of controversy.",
+      "exampleKo": "그 새 법은 엄청난 논란을 불러일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "conventional",
+      "pos": "adj",
+      "meanings": [
+        "전통적인",
+        "관습적인",
+        "재래식의"
+      ],
+      "example": "Online classes are replacing conventional lectures.",
+      "exampleKo": "온라인 수업이 전통적인 강의를 대체하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "correspond",
+      "pos": "v",
+      "meanings": [
+        "일치하다",
+        "해당하다",
+        "서신을 주고받다"
+      ],
+      "example": "His story does not correspond with the facts.",
+      "exampleKo": "그의 이야기는 사실과 일치하지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "deprive",
+      "pos": "v",
+      "meanings": [
+        "빼앗다",
+        "박탈하다"
+      ],
+      "example": "Noise pollution deprives residents of sleep.",
+      "exampleKo": "소음 공해는 주민들에게서 수면을 빼앗는다.",
+      "emoji": ""
+    },
+    {
+      "word": "devastate",
+      "pos": "v",
+      "meanings": [
+        "황폐화시키다",
+        "엄청난 충격을 주다",
+        "완전히 파괴하다"
+      ],
+      "example": "The earthquake devastated the entire region.",
+      "exampleKo": "지진이 그 지역 전체를 황폐화시켰다.",
+      "emoji": "🌪️"
+    },
+    {
+      "word": "discipline",
+      "pos": "n",
+      "meanings": [
+        "규율",
+        "훈련",
+        "학문 분야"
+      ],
+      "example": "Success in sports requires strict discipline.",
+      "exampleKo": "스포츠에서의 성공은 엄격한 규율을 필요로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "discriminate",
+      "pos": "v",
+      "meanings": [
+        "차별하다",
+        "구별하다"
+      ],
+      "example": "It is illegal to discriminate against people based on age.",
+      "exampleKo": "나이를 근거로 사람을 차별하는 것은 불법이다.",
+      "emoji": ""
+    },
+    {
+      "word": "dispute",
+      "pos": "n",
+      "meanings": [
+        "분쟁",
+        "논쟁",
+        "다툼"
+      ],
+      "example": "The two companies settled their dispute in court.",
+      "exampleKo": "두 회사는 법정에서 분쟁을 해결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "distort",
+      "pos": "v",
+      "meanings": [
+        "왜곡하다",
+        "일그러뜨리다"
+      ],
+      "example": "The media sometimes distorts the truth.",
+      "exampleKo": "언론은 때때로 진실을 왜곡한다.",
+      "emoji": ""
+    },
+    {
+      "word": "distract",
+      "pos": "v",
+      "meanings": [
+        "주의를 딴 데로 돌리다",
+        "산만하게 하다"
+      ],
+      "example": "Smartphones can distract students from studying.",
+      "exampleKo": "스마트폰은 학생들이 공부에 집중하지 못하게 산만하게 할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "endure",
+      "pos": "v",
+      "meanings": [
+        "견디다",
+        "참다",
+        "지속되다"
+      ],
+      "example": "The villagers endured years of drought.",
+      "exampleKo": "마을 사람들은 수년간의 가뭄을 견뎌 냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "entitle",
+      "pos": "v",
+      "meanings": [
+        "자격을 주다",
+        "제목을 붙이다"
+      ],
+      "example": "This ticket entitles you to a free drink.",
+      "exampleKo": "이 티켓은 당신에게 무료 음료를 받을 자격을 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "equivalent",
+      "pos": "adj",
+      "meanings": [
+        "동등한",
+        "맞먹는",
+        "상응하는"
+      ],
+      "example": "One mile is equivalent to about 1.6 kilometers.",
+      "exampleKo": "1마일은 약 1.6킬로미터에 해당한다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "ethical",
+      "pos": "adj",
+      "meanings": [
+        "윤리적인",
+        "도덕적인"
+      ],
+      "example": "The experiment raised serious ethical questions.",
+      "exampleKo": "그 실험은 심각한 윤리적 문제를 제기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "evoke",
+      "pos": "v",
+      "meanings": [
+        "불러일으키다",
+        "환기하다"
+      ],
+      "example": "The old song evoked memories of my childhood.",
+      "exampleKo": "그 옛 노래는 내 어린 시절의 기억을 불러일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "exaggerate",
+      "pos": "v",
+      "meanings": [
+        "과장하다",
+        "부풀리다"
+      ],
+      "example": "He tends to exaggerate his achievements.",
+      "exampleKo": "그는 자신의 업적을 과장하는 경향이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "exploit",
+      "pos": "v",
+      "meanings": [
+        "착취하다",
+        "이용하다",
+        "개발하다"
+      ],
+      "example": "The company was accused of exploiting its workers.",
+      "exampleKo": "그 회사는 노동자들을 착취한다는 비난을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "extract",
+      "pos": "v",
+      "meanings": [
+        "추출하다",
+        "뽑아내다",
+        "발췌하다"
+      ],
+      "example": "Oil is extracted from deep under the sea.",
+      "exampleKo": "석유는 바다 깊은 곳에서 추출된다.",
+      "emoji": "🧪"
+    },
+    {
+      "word": "facilitate",
+      "pos": "v",
+      "meanings": [
+        "촉진하다",
+        "용이하게 하다"
+      ],
+      "example": "Technology facilitates communication between countries.",
+      "exampleKo": "기술은 국가 간의 의사소통을 용이하게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "flourish",
+      "pos": "v",
+      "meanings": [
+        "번성하다",
+        "번창하다",
+        "잘 자라다"
+      ],
+      "example": "The arts flourished during the Renaissance.",
+      "exampleKo": "르네상스 시대에 예술이 번성했다.",
+      "emoji": "🌿"
+    },
+    {
+      "word": "fragile",
+      "pos": "adj",
+      "meanings": [
+        "깨지기 쉬운",
+        "연약한",
+        "취약한"
+      ],
+      "example": "Please handle the fragile package with care.",
+      "exampleKo": "깨지기 쉬운 소포이니 조심해서 다루어 주세요.",
+      "emoji": "🥚"
+    },
+    {
+      "word": "hypothesis",
+      "pos": "n",
+      "meanings": [
+        "가설",
+        "가정"
+      ],
+      "example": "The experiment was designed to test the hypothesis.",
+      "exampleKo": "그 실험은 가설을 검증하기 위해 설계되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "immune",
+      "pos": "adj",
+      "meanings": [
+        "면역의",
+        "면역이 된",
+        "영향을 받지 않는"
+      ],
+      "example": "Vaccines help the immune system fight diseases.",
+      "exampleKo": "백신은 면역 체계가 질병과 싸우는 것을 돕는다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "implement",
+      "pos": "v",
+      "meanings": [
+        "시행하다",
+        "실행하다",
+        "이행하다"
+      ],
+      "example": "The school implemented a new grading system.",
+      "exampleKo": "그 학교는 새로운 성적 평가 제도를 시행했다.",
+      "emoji": ""
+    },
+    {
+      "word": "impose",
+      "pos": "v",
+      "meanings": [
+        "부과하다",
+        "강요하다"
+      ],
+      "example": "The city imposed a fine on illegal parking.",
+      "exampleKo": "그 도시는 불법 주차에 벌금을 부과했다.",
+      "emoji": ""
+    },
+    {
+      "word": "incentive",
+      "pos": "n",
+      "meanings": [
+        "동기",
+        "유인책",
+        "장려금"
+      ],
+      "example": "Bonuses provide an incentive for employees to work harder.",
+      "exampleKo": "보너스는 직원들이 더 열심히 일할 동기를 제공한다.",
+      "emoji": "🎁"
+    },
+    {
+      "word": "induce",
+      "pos": "v",
+      "meanings": [
+        "유도하다",
+        "유발하다",
+        "설득하다"
+      ],
+      "example": "Stress can induce various health problems.",
+      "exampleKo": "스트레스는 다양한 건강 문제를 유발할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "infer",
+      "pos": "v",
+      "meanings": [
+        "추론하다",
+        "추측하다"
+      ],
+      "example": "We can infer the writer's attitude from the passage.",
+      "exampleKo": "우리는 그 글에서 글쓴이의 태도를 추론할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "inherent",
+      "pos": "adj",
+      "meanings": [
+        "내재된",
+        "고유의",
+        "타고난"
+      ],
+      "example": "Risk is inherent in every investment.",
+      "exampleKo": "위험은 모든 투자에 내재되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "innovation",
+      "pos": "n",
+      "meanings": [
+        "혁신",
+        "획기적인 것"
+      ],
+      "example": "Innovation is the key to a company's survival.",
+      "exampleKo": "혁신은 기업 생존의 핵심이다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "integrate",
+      "pos": "v",
+      "meanings": [
+        "통합하다",
+        "융합하다",
+        "합치다"
+      ],
+      "example": "The app integrates several services into one platform.",
+      "exampleKo": "그 앱은 여러 서비스를 하나의 플랫폼으로 통합한다.",
+      "emoji": ""
+    },
+    {
+      "word": "intense",
+      "pos": "adj",
+      "meanings": [
+        "강렬한",
+        "극심한",
+        "치열한"
+      ],
+      "example": "The competition for the scholarship was intense.",
+      "exampleKo": "그 장학금을 얻기 위한 경쟁은 치열했다.",
+      "emoji": "🔥"
+    },
+    {
+      "word": "intervene",
+      "pos": "v",
+      "meanings": [
+        "개입하다",
+        "중재하다",
+        "끼어들다"
+      ],
+      "example": "The teacher intervened to stop the argument.",
+      "exampleKo": "선생님이 말다툼을 멈추게 하려고 개입했다.",
+      "emoji": ""
+    },
+    {
+      "word": "manipulate",
+      "pos": "v",
+      "meanings": [
+        "조종하다",
+        "조작하다",
+        "다루다"
+      ],
+      "example": "Advertisers sometimes manipulate consumers' emotions.",
+      "exampleKo": "광고주들은 때때로 소비자의 감정을 조종한다.",
+      "emoji": ""
+    },
+    {
+      "word": "notion",
+      "pos": "n",
+      "meanings": [
+        "개념",
+        "생각",
+        "관념"
+      ],
+      "example": "The notion that money brings happiness is questionable.",
+      "exampleKo": "돈이 행복을 가져다준다는 생각은 의문의 여지가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "objective",
+      "pos": "adj",
+      "meanings": [
+        "객관적인",
+        "편견 없는"
+      ],
+      "example": "A judge must remain objective at all times.",
+      "exampleKo": "판사는 항상 객관적이어야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "obstacle",
+      "pos": "n",
+      "meanings": [
+        "장애물",
+        "방해물"
+      ],
+      "example": "Fear of failure is the biggest obstacle to success.",
+      "exampleKo": "실패에 대한 두려움은 성공의 가장 큰 장애물이다.",
+      "emoji": "🚧"
+    },
+    {
+      "word": "perceive",
+      "pos": "v",
+      "meanings": [
+        "인식하다",
+        "지각하다",
+        "여기다"
+      ],
+      "example": "People perceive colors differently.",
+      "exampleKo": "사람들은 색을 서로 다르게 인식한다.",
+      "emoji": ""
+    },
+    {
+      "word": "persist",
+      "pos": "v",
+      "meanings": [
+        "지속하다",
+        "계속하다",
+        "고집하다"
+      ],
+      "example": "If the pain persists, see a doctor.",
+      "exampleKo": "통증이 지속되면 의사의 진찰을 받으세요.",
+      "emoji": ""
+    },
+    {
+      "word": "profound",
+      "pos": "adj",
+      "meanings": [
+        "심오한",
+        "깊은",
+        "엄청난"
+      ],
+      "example": "The book had a profound effect on my thinking.",
+      "exampleKo": "그 책은 내 사고에 깊은 영향을 미쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "reinforce",
+      "pos": "v",
+      "meanings": [
+        "강화하다",
+        "보강하다"
+      ],
+      "example": "Praise reinforces good behavior in children.",
+      "exampleKo": "칭찬은 아이들의 좋은 행동을 강화한다.",
+      "emoji": ""
+    }
+  ]
+}

@@ -1,0 +1,1914 @@
+{
+  "level": 11,
+  "words": [
+    {
+      "word": "concurrent",
+      "pos": "adj",
+      "meanings": [
+        "동시에 일어나는",
+        "동시의"
+      ],
+      "example": "The two conferences were held on concurrent dates.",
+      "exampleKo": "그 두 학회는 동시에 열리는 날짜에 개최되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "contingent",
+      "pos": "adj",
+      "meanings": [
+        "~에 달린",
+        "조건부의"
+      ],
+      "example": "Funding is contingent on final approval from the board.",
+      "exampleKo": "자금 지원은 이사회의 최종 승인에 달려 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "corresponding",
+      "pos": "adj",
+      "meanings": [
+        "상응하는",
+        "해당하는"
+      ],
+      "example": "Each question has a corresponding answer key.",
+      "exampleKo": "각 문제에는 그에 상응하는 답안이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "discretionary",
+      "pos": "adj",
+      "meanings": [
+        "재량에 따른"
+      ],
+      "example": "Teachers have discretionary power over classroom rules.",
+      "exampleKo": "교사들은 교실 규칙에 대해 재량권을 갖는다.",
+      "emoji": ""
+    },
+    {
+      "word": "eligible",
+      "pos": "adj",
+      "meanings": [
+        "자격이 있는"
+      ],
+      "example": "Only full-time students are eligible for the grant.",
+      "exampleKo": "전일제 학생만 그 보조금을 받을 자격이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "hierarchical",
+      "pos": "adj",
+      "meanings": [
+        "계층적인",
+        "위계적인"
+      ],
+      "example": "The company has a strict hierarchical structure.",
+      "exampleKo": "그 회사는 엄격한 계층적 구조를 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "illegitimate",
+      "pos": "adj",
+      "meanings": [
+        "부당한",
+        "불법의"
+      ],
+      "example": "The court ruled the contract illegitimate.",
+      "exampleKo": "법원은 그 계약을 부당한 것으로 판결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "immutable",
+      "pos": "adj",
+      "meanings": [
+        "불변의"
+      ],
+      "example": "Some scientists once thought natural laws were immutable.",
+      "exampleKo": "일부 과학자들은 한때 자연법칙이 불변한다고 생각했다.",
+      "emoji": ""
+    },
+    {
+      "word": "incidental",
+      "pos": "adj",
+      "meanings": [
+        "부수적인",
+        "우연한"
+      ],
+      "example": "The main report included several incidental findings.",
+      "exampleKo": "주요 보고서에는 몇 가지 부수적인 발견이 포함되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "instrumental",
+      "pos": "adj",
+      "meanings": [
+        "중요한 역할을 하는",
+        "도구적인"
+      ],
+      "example": "She was instrumental in founding the organization.",
+      "exampleKo": "그녀는 그 단체를 설립하는 데 중요한 역할을 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "intuitive",
+      "pos": "adj",
+      "meanings": [
+        "직관적인"
+      ],
+      "example": "The new interface is far more intuitive to use.",
+      "exampleKo": "그 새로운 인터페이스는 사용하기가 훨씬 더 직관적이다.",
+      "emoji": ""
+    },
+    {
+      "word": "invariable",
+      "pos": "adj",
+      "meanings": [
+        "변함없는",
+        "일정한"
+      ],
+      "example": "Her invariable routine helped her stay focused.",
+      "exampleKo": "그녀의 변함없는 일과는 집중력을 유지하는 데 도움이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "nominal",
+      "pos": "adj",
+      "meanings": [
+        "명목상의",
+        "아주 적은"
+      ],
+      "example": "The fee is nominal compared to the value of the service.",
+      "exampleKo": "그 서비스의 가치에 비해 그 요금은 명목상에 불과하다.",
+      "emoji": ""
+    },
+    {
+      "word": "obligatory",
+      "pos": "adj",
+      "meanings": [
+        "의무적인",
+        "필수의"
+      ],
+      "example": "Attendance at the orientation is obligatory for all freshmen.",
+      "exampleKo": "오리엔테이션 참석은 모든 신입생에게 의무적이다.",
+      "emoji": ""
+    },
+    {
+      "word": "orthodox",
+      "pos": "adj",
+      "meanings": [
+        "정통의",
+        "전통적인"
+      ],
+      "example": "The teacher favored orthodox methods over experimental ones.",
+      "exampleKo": "그 교사는 실험적인 방법보다 전통적인 방법을 선호했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pristine",
+      "pos": "adj",
+      "meanings": [
+        "완전 그대로의",
+        "때묻지 않은"
+      ],
+      "example": "The forest remained pristine despite nearby development.",
+      "exampleKo": "그 숲은 인근 개발에도 불구하고 원래 상태 그대로 남아 있었다.",
+      "emoji": "✨"
+    },
+    {
+      "word": "proactive",
+      "pos": "adj",
+      "meanings": [
+        "사전 대책을 강구하는",
+        "주도적인"
+      ],
+      "example": "The school took a proactive approach to bullying prevention.",
+      "exampleKo": "그 학교는 괴롭힘 예방에 있어 사전 대책을 강구하는 접근을 취했다.",
+      "emoji": ""
+    },
+    {
+      "word": "problematic",
+      "pos": "adj",
+      "meanings": [
+        "문제가 있는"
+      ],
+      "example": "The current grading system is deeply problematic.",
+      "exampleKo": "현재의 채점 제도는 심각한 문제가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "progressive",
+      "pos": "adj",
+      "meanings": [
+        "점진적인",
+        "진보적인"
+      ],
+      "example": "The disease causes progressive muscle weakness.",
+      "exampleKo": "그 질병은 점진적인 근육 약화를 일으킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "radical",
+      "pos": "adj",
+      "meanings": [
+        "급진적인",
+        "근본적인"
+      ],
+      "example": "The proposal calls for radical changes to the curriculum.",
+      "exampleKo": "그 제안은 교육과정에 대한 급진적인 변화를 요구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "rudimentary",
+      "pos": "adj",
+      "meanings": [
+        "기초적인",
+        "초보적인"
+      ],
+      "example": "Students learn rudimentary programming in the first term.",
+      "exampleKo": "학생들은 첫 학기에 기초적인 프로그래밍을 배운다.",
+      "emoji": ""
+    },
+    {
+      "word": "secular",
+      "pos": "adj",
+      "meanings": [
+        "세속적인"
+      ],
+      "example": "The country operates under a secular constitution.",
+      "exampleKo": "그 나라는 세속적인 헌법 아래 운영된다.",
+      "emoji": ""
+    },
+    {
+      "word": "solitary",
+      "pos": "adj",
+      "meanings": [
+        "고독한",
+        "혼자 하는"
+      ],
+      "example": "He preferred solitary study over group projects.",
+      "exampleKo": "그는 단체 과제보다 혼자 하는 공부를 선호했다.",
+      "emoji": ""
+    },
+    {
+      "word": "strategic",
+      "pos": "adj",
+      "meanings": [
+        "전략적인"
+      ],
+      "example": "The company made a strategic decision to expand overseas.",
+      "exampleKo": "그 회사는 해외로 확장하는 전략적 결정을 내렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "superfluous",
+      "pos": "adj",
+      "meanings": [
+        "불필요한",
+        "남아도는"
+      ],
+      "example": "The editor removed several superfluous details.",
+      "exampleKo": "편집자는 몇 가지 불필요한 세부 사항을 제거했다.",
+      "emoji": ""
+    },
+    {
+      "word": "synonymous",
+      "pos": "adj",
+      "meanings": [
+        "동의어의",
+        "같은 의미인"
+      ],
+      "example": "In many minds, the brand became synonymous with quality.",
+      "exampleKo": "많은 사람들의 마음속에서 그 브랜드는 품질과 동의어가 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "transient",
+      "pos": "adj",
+      "meanings": [
+        "일시적인",
+        "순식간의"
+      ],
+      "example": "The improvement in mood proved to be transient.",
+      "exampleKo": "기분의 개선은 일시적인 것으로 판명되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "uncanny",
+      "pos": "adj",
+      "meanings": [
+        "묘한",
+        "섬뜩할 정도의"
+      ],
+      "example": "She has an uncanny ability to predict trends.",
+      "exampleKo": "그녀는 트렌드를 예측하는 묘한 능력을 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "underlying",
+      "pos": "adj",
+      "meanings": [
+        "근본적인",
+        "내재된"
+      ],
+      "example": "The report examines the underlying causes of poverty.",
+      "exampleKo": "그 보고서는 빈곤의 근본적인 원인을 조사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "unprecedented",
+      "pos": "adj",
+      "meanings": [
+        "전례 없는"
+      ],
+      "example": "The city faced unprecedented levels of rainfall.",
+      "exampleKo": "그 도시는 전례 없는 수준의 강우를 겪었다.",
+      "emoji": ""
+    },
+    {
+      "word": "self-evident",
+      "pos": "adj",
+      "meanings": [
+        "자명한"
+      ],
+      "example": "The benefits of the plan are largely self-evident.",
+      "exampleKo": "그 계획의 이점은 대체로 자명하다.",
+      "emoji": ""
+    },
+    {
+      "word": "self-sufficient",
+      "pos": "adj",
+      "meanings": [
+        "자급자족하는"
+      ],
+      "example": "The village became self-sufficient in food production.",
+      "exampleKo": "그 마을은 식량 생산에서 자급자족하게 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "well-founded",
+      "pos": "adj",
+      "meanings": [
+        "근거가 확실한"
+      ],
+      "example": "Their concerns about safety proved well-founded.",
+      "exampleKo": "안전에 대한 그들의 우려는 근거가 있는 것으로 판명되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "far-reaching",
+      "pos": "adj",
+      "meanings": [
+        "광범위한",
+        "지대한"
+      ],
+      "example": "The ruling had far-reaching consequences for the industry.",
+      "exampleKo": "그 판결은 업계에 광범위한 결과를 가져왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "long-standing",
+      "pos": "adj",
+      "meanings": [
+        "오래 지속된"
+      ],
+      "example": "The two nations resolved a long-standing dispute.",
+      "exampleKo": "두 나라는 오래 지속된 분쟁을 해결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "deep-rooted",
+      "pos": "adj",
+      "meanings": [
+        "뿌리 깊은"
+      ],
+      "example": "Deep-rooted habits are hard to change overnight.",
+      "exampleKo": "뿌리 깊은 습관은 하루아침에 바꾸기 어렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "acute",
+      "pos": "adj",
+      "meanings": [
+        "극심한",
+        "예리한"
+      ],
+      "example": "The region suffered an acute shortage of clean water.",
+      "exampleKo": "그 지역은 극심한 깨끗한 물 부족을 겪었다.",
+      "emoji": ""
+    },
+    {
+      "word": "adroit",
+      "pos": "adj",
+      "meanings": [
+        "능숙한",
+        "재치 있는"
+      ],
+      "example": "She gave an adroit response to the difficult question.",
+      "exampleKo": "그녀는 어려운 질문에 능숙하게 대답했다.",
+      "emoji": ""
+    },
+    {
+      "word": "belated",
+      "pos": "adj",
+      "meanings": [
+        "때늦은"
+      ],
+      "example": "He offered a belated apology for the mistake.",
+      "exampleKo": "그는 그 실수에 대해 때늦은 사과를 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "burgeoning",
+      "pos": "adj",
+      "meanings": [
+        "급성장하는"
+      ],
+      "example": "The city has a burgeoning tech industry.",
+      "exampleKo": "그 도시는 급성장하는 기술 산업을 갖고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "captive",
+      "pos": "adj",
+      "meanings": [
+        "사로잡힌",
+        "억류된"
+      ],
+      "example": "The speaker held the captive audience's attention for an hour.",
+      "exampleKo": "그 연사는 한 시간 동안 청중의 마음을 사로잡았다.",
+      "emoji": "⛓️"
+    },
+    {
+      "word": "cerebral",
+      "pos": "adj",
+      "meanings": [
+        "지적인",
+        "이지적인"
+      ],
+      "example": "The film has a cerebral, thought-provoking plot.",
+      "exampleKo": "그 영화는 지적이고 생각을 자극하는 줄거리를 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "contemptuous",
+      "pos": "adj",
+      "meanings": [
+        "경멸하는"
+      ],
+      "example": "His contemptuous tone offended the audience.",
+      "exampleKo": "그의 경멸하는 어조는 청중을 불쾌하게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "drab",
+      "pos": "adj",
+      "meanings": [
+        "칙칙한",
+        "재미없는"
+      ],
+      "example": "The old office looked drab compared to the new one.",
+      "exampleKo": "오래된 사무실은 새 사무실에 비해 칙칙해 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "emphatic",
+      "pos": "adj",
+      "meanings": [
+        "단호한",
+        "강조하는"
+      ],
+      "example": "She gave an emphatic denial of the accusation.",
+      "exampleKo": "그녀는 그 혐의에 대해 단호하게 부인했다.",
+      "emoji": ""
+    },
+    {
+      "word": "endemic",
+      "pos": "adj",
+      "meanings": [
+        "고유의",
+        "특정 지역에 국한된"
+      ],
+      "example": "The disease is endemic to certain tropical regions.",
+      "exampleKo": "그 질병은 특정 열대 지역에 고유하다.",
+      "emoji": ""
+    },
+    {
+      "word": "fraught",
+      "pos": "adj",
+      "meanings": [
+        "걱정스러운",
+        "~로 가득 찬"
+      ],
+      "example": "The negotiations were fraught with tension.",
+      "exampleKo": "그 협상은 긴장으로 가득 차 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "grievous",
+      "pos": "adj",
+      "meanings": [
+        "중대한",
+        "심각한"
+      ],
+      "example": "The company made a grievous error in its calculations.",
+      "exampleKo": "그 회사는 계산에서 중대한 오류를 범했다.",
+      "emoji": ""
+    },
+    {
+      "word": "hapless",
+      "pos": "adj",
+      "meanings": [
+        "불운한"
+      ],
+      "example": "The hapless team lost every match this season.",
+      "exampleKo": "그 불운한 팀은 이번 시즌 모든 경기에서 졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "hasty",
+      "pos": "adj",
+      "meanings": [
+        "성급한"
+      ],
+      "example": "A hasty decision often leads to regret.",
+      "exampleKo": "성급한 결정은 흔히 후회로 이어진다.",
+      "emoji": ""
+    },
+    {
+      "word": "heretical",
+      "pos": "adj",
+      "meanings": [
+        "이단적인"
+      ],
+      "example": "The idea seemed heretical to traditional scholars.",
+      "exampleKo": "그 생각은 전통적인 학자들에게 이단적으로 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "humdrum",
+      "pos": "adj",
+      "meanings": [
+        "단조로운",
+        "지루한"
+      ],
+      "example": "She grew tired of the humdrum daily routine.",
+      "exampleKo": "그녀는 단조로운 일상에 지쳐갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "idle",
+      "pos": "adj",
+      "meanings": [
+        "한가한",
+        "나태한"
+      ],
+      "example": "The machines stood idle during the strike.",
+      "exampleKo": "파업 동안 그 기계들은 가동을 멈춘 채였다.",
+      "emoji": ""
+    },
+    {
+      "word": "idyllic",
+      "pos": "adj",
+      "meanings": [
+        "목가적인",
+        "더없이 행복한"
+      ],
+      "example": "The town offers an idyllic setting for retirement.",
+      "exampleKo": "그 마을은 은퇴에 목가적인 환경을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "imperious",
+      "pos": "adj",
+      "meanings": [
+        "위압적인",
+        "오만한"
+      ],
+      "example": "The manager's imperious attitude discouraged feedback.",
+      "exampleKo": "관리자의 위압적인 태도는 피드백을 억제했다.",
+      "emoji": ""
+    },
+    {
+      "word": "impromptu",
+      "pos": "adj",
+      "meanings": [
+        "즉흥적인"
+      ],
+      "example": "The professor gave an impromptu lecture on the topic.",
+      "exampleKo": "교수는 그 주제에 대해 즉흥적인 강의를 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "lackluster",
+      "pos": "adj",
+      "meanings": [
+        "활기 없는",
+        "평범한"
+      ],
+      "example": "Sales were lackluster despite the marketing campaign.",
+      "exampleKo": "마케팅 캠페인에도 불구하고 매출은 부진했다.",
+      "emoji": ""
+    },
+    {
+      "word": "lax",
+      "pos": "adj",
+      "meanings": [
+        "느슨한",
+        "해이한"
+      ],
+      "example": "Critics say safety regulations are too lax.",
+      "exampleKo": "비평가들은 안전 규정이 너무 느슨하다고 말한다.",
+      "emoji": ""
+    },
+    {
+      "word": "malleable",
+      "pos": "adj",
+      "meanings": [
+        "쉽게 변형되는",
+        "유순한"
+      ],
+      "example": "Children's attitudes are highly malleable at a young age.",
+      "exampleKo": "아이들의 태도는 어릴 때 매우 쉽게 형성된다.",
+      "emoji": ""
+    },
+    {
+      "word": "mercurial",
+      "pos": "adj",
+      "meanings": [
+        "변덕스러운"
+      ],
+      "example": "The coach was known for his mercurial temper.",
+      "exampleKo": "그 코치는 변덕스러운 성격으로 알려져 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "nebulous",
+      "pos": "adj",
+      "meanings": [
+        "모호한",
+        "막연한"
+      ],
+      "example": "The plan remains nebulous without a clear timeline.",
+      "exampleKo": "그 계획은 명확한 일정 없이 여전히 모호하다.",
+      "emoji": ""
+    },
+    {
+      "word": "obtrusive",
+      "pos": "adj",
+      "meanings": [
+        "눈에 거슬리는",
+        "주제넘은"
+      ],
+      "example": "The advertisement was too obtrusive to ignore.",
+      "exampleKo": "그 광고는 무시하기에는 너무 눈에 거슬렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "onerous",
+      "pos": "adj",
+      "meanings": [
+        "부담스러운",
+        "힘든"
+      ],
+      "example": "The new regulations placed an onerous burden on small firms.",
+      "exampleKo": "새로운 규제는 소기업에 부담스러운 짐을 지웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "opulent",
+      "pos": "adj",
+      "meanings": [
+        "호화로운"
+      ],
+      "example": "The hotel lobby was decorated in an opulent style.",
+      "exampleKo": "호텔 로비는 호화로운 스타일로 장식되었다.",
+      "emoji": "💎"
+    },
+    {
+      "word": "ostentatious",
+      "pos": "adj",
+      "meanings": [
+        "과시적인"
+      ],
+      "example": "His ostentatious display of wealth drew criticism.",
+      "exampleKo": "그의 과시적인 부의 표출은 비판을 불러일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "pallid",
+      "pos": "adj",
+      "meanings": [
+        "창백한",
+        "생기 없는"
+      ],
+      "example": "The report gave a pallid account of the events.",
+      "exampleKo": "그 보고서는 사건에 대해 생기 없는 서술을 제공했다.",
+      "emoji": ""
+    },
+    {
+      "word": "parochial",
+      "pos": "adj",
+      "meanings": [
+        "편협한",
+        "지역적인"
+      ],
+      "example": "Critics called the policy narrow and parochial.",
+      "exampleKo": "비평가들은 그 정책이 편협하고 지역적이라고 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pedantic",
+      "pos": "adj",
+      "meanings": [
+        "현학적인",
+        "지나치게 세세한"
+      ],
+      "example": "The lecturer's pedantic style bored most students.",
+      "exampleKo": "그 강사의 현학적인 스타일은 대부분의 학생들을 지루하게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "petulant",
+      "pos": "adj",
+      "meanings": [
+        "심술 난",
+        "토라진"
+      ],
+      "example": "The player gave a petulant response to the referee's call.",
+      "exampleKo": "그 선수는 심판의 판정에 심술 난 반응을 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "pious",
+      "pos": "adj",
+      "meanings": [
+        "경건한",
+        "독실한"
+      ],
+      "example": "The temple attracts many pious visitors each year.",
+      "exampleKo": "그 사원은 매년 많은 경건한 방문객을 끌어들인다.",
+      "emoji": ""
+    },
+    {
+      "word": "placid",
+      "pos": "adj",
+      "meanings": [
+        "차분한",
+        "고요한"
+      ],
+      "example": "The lake remained placid throughout the summer.",
+      "exampleKo": "그 호수는 여름 내내 잔잔했다.",
+      "emoji": ""
+    },
+    {
+      "word": "precocious",
+      "pos": "adj",
+      "meanings": [
+        "조숙한"
+      ],
+      "example": "The precocious child could read fluently by age four.",
+      "exampleKo": "그 조숙한 아이는 네 살에 이미 유창하게 읽을 수 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "prodigious",
+      "pos": "adj",
+      "meanings": [
+        "엄청난",
+        "놀라운"
+      ],
+      "example": "The scientist showed prodigious talent from a young age.",
+      "exampleKo": "그 과학자는 어릴 때부터 엄청난 재능을 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "prosaic",
+      "pos": "adj",
+      "meanings": [
+        "평범한",
+        "따분한"
+      ],
+      "example": "The film's plot felt prosaic compared to the original novel.",
+      "exampleKo": "그 영화의 줄거리는 원작 소설에 비해 평범하게 느껴졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "quaint",
+      "pos": "adj",
+      "meanings": [
+        "예스러운",
+        "고풍스러운"
+      ],
+      "example": "Tourists loved the quaint charm of the old village.",
+      "exampleKo": "관광객들은 그 오래된 마을의 고풍스러운 매력을 좋아했다.",
+      "emoji": ""
+    },
+    {
+      "word": "rancorous",
+      "pos": "adj",
+      "meanings": [
+        "적대적인",
+        "원한 어린"
+      ],
+      "example": "The debate turned rancorous by the end.",
+      "exampleKo": "그 토론은 끝날 무렵 적대적으로 변했다.",
+      "emoji": ""
+    },
+    {
+      "word": "reclusive",
+      "pos": "adj",
+      "meanings": [
+        "은둔하는"
+      ],
+      "example": "The reclusive author rarely gave interviews.",
+      "exampleKo": "그 은둔하는 작가는 좀처럼 인터뷰에 응하지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "resolute",
+      "pos": "adj",
+      "meanings": [
+        "단호한",
+        "결연한"
+      ],
+      "example": "She remained resolute despite repeated setbacks.",
+      "exampleKo": "그녀는 거듭된 좌절에도 불구하고 단호함을 유지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "resonant",
+      "pos": "adj",
+      "meanings": [
+        "울려 퍼지는",
+        "깊은 인상을 주는"
+      ],
+      "example": "His speech had a resonant message about unity.",
+      "exampleKo": "그의 연설은 단결에 대한 깊은 인상을 주는 메시지를 담고 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "rife",
+      "pos": "adj",
+      "meanings": [
+        "만연한"
+      ],
+      "example": "Corruption was rife within the organization.",
+      "exampleKo": "그 조직 내에 부패가 만연했다.",
+      "emoji": ""
+    },
+    {
+      "word": "ruthless",
+      "pos": "adj",
+      "meanings": [
+        "무자비한"
+      ],
+      "example": "The company adopted a ruthless approach to cost cutting.",
+      "exampleKo": "그 회사는 비용 절감에 무자비한 접근을 채택했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sanguine",
+      "pos": "adj",
+      "meanings": [
+        "낙관적인"
+      ],
+      "example": "Analysts remained sanguine about the market's recovery.",
+      "exampleKo": "분석가들은 시장의 회복에 대해 낙관적인 태도를 유지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sardonic",
+      "pos": "adj",
+      "meanings": [
+        "냉소적인",
+        "비꼬는"
+      ],
+      "example": "He responded with a sardonic smile.",
+      "exampleKo": "그는 냉소적인 미소로 대답했다.",
+      "emoji": ""
+    },
+    {
+      "word": "scant",
+      "pos": "adj",
+      "meanings": [
+        "부족한",
+        "빈약한"
+      ],
+      "example": "The proposal received scant attention from the media.",
+      "exampleKo": "그 제안은 언론의 관심을 거의 받지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sedate",
+      "pos": "adj",
+      "meanings": [
+        "차분한",
+        "조용한"
+      ],
+      "example": "The town has a sedate atmosphere compared to the city.",
+      "exampleKo": "그 마을은 도시에 비해 차분한 분위기를 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "sinister",
+      "pos": "adj",
+      "meanings": [
+        "불길한",
+        "사악한"
+      ],
+      "example": "There was something sinister about the abandoned building.",
+      "exampleKo": "그 버려진 건물에는 어딘가 불길한 무언가가 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "slothful",
+      "pos": "adj",
+      "meanings": [
+        "게으른"
+      ],
+      "example": "The character was portrayed as slothful and careless.",
+      "exampleKo": "그 인물은 게으르고 부주의한 것으로 묘사되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "sordid",
+      "pos": "adj",
+      "meanings": [
+        "추잡한",
+        "더러운"
+      ],
+      "example": "The scandal revealed a sordid history of corruption.",
+      "exampleKo": "그 스캔들은 부패의 추잡한 역사를 드러냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "squalid",
+      "pos": "adj",
+      "meanings": [
+        "비참한",
+        "누추한"
+      ],
+      "example": "Refugees lived in squalid conditions during the crisis.",
+      "exampleKo": "난민들은 위기 동안 비참한 환경에서 살았다.",
+      "emoji": "🏚️"
+    },
+    {
+      "word": "staid",
+      "pos": "adj",
+      "meanings": [
+        "고루한",
+        "점잖은"
+      ],
+      "example": "The bank had a staid, conservative image.",
+      "exampleKo": "그 은행은 고루하고 보수적인 이미지를 가지고 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "strident",
+      "pos": "adj",
+      "meanings": [
+        "귀에 거슬리는",
+        "강경한"
+      ],
+      "example": "The commentator's strident tone alienated some viewers.",
+      "exampleKo": "그 논평자의 강경한 어조는 일부 시청자들을 멀어지게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "subdued",
+      "pos": "adj",
+      "meanings": [
+        "가라앉은",
+        "차분한"
+      ],
+      "example": "The mood in the room was subdued after the announcement.",
+      "exampleKo": "그 발표 이후 방 안의 분위기는 가라앉아 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "sullen",
+      "pos": "adj",
+      "meanings": [
+        "시무룩한"
+      ],
+      "example": "The student sat sullen in the back of the classroom.",
+      "exampleKo": "그 학생은 교실 뒤편에 시무룩하게 앉아 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "sumptuous",
+      "pos": "adj",
+      "meanings": [
+        "호화로운",
+        "사치스러운"
+      ],
+      "example": "The banquet featured a sumptuous spread of dishes.",
+      "exampleKo": "그 연회는 호화로운 요리들로 가득했다.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "tacit",
+      "pos": "adj",
+      "meanings": [
+        "암묵적인"
+      ],
+      "example": "There was a tacit agreement not to discuss the topic.",
+      "exampleKo": "그 주제에 대해 논의하지 않기로 하는 암묵적인 합의가 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "timorous",
+      "pos": "adj",
+      "meanings": [
+        "소심한",
+        "겁 많은"
+      ],
+      "example": "The timorous student rarely spoke up in class.",
+      "exampleKo": "그 소심한 학생은 수업 중에 좀처럼 나서서 말하지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "torpid",
+      "pos": "adj",
+      "meanings": [
+        "무기력한",
+        "둔한"
+      ],
+      "example": "The heat left the whole town feeling torpid.",
+      "exampleKo": "더위는 마을 전체를 무기력하게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "turbulent",
+      "pos": "adj",
+      "meanings": [
+        "격동의",
+        "소란스러운"
+      ],
+      "example": "The company survived a turbulent period of layoffs.",
+      "exampleKo": "그 회사는 정리해고의 격동적인 시기를 버텨냈다.",
+      "emoji": "🌪️"
+    },
+    {
+      "word": "unwitting",
+      "pos": "adj",
+      "meanings": [
+        "자신도 모르는",
+        "무심코 한"
+      ],
+      "example": "He became an unwitting participant in the scheme.",
+      "exampleKo": "그는 자신도 모르게 그 계략에 가담하게 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "vexing",
+      "pos": "adj",
+      "meanings": [
+        "골치 아픈",
+        "성가신"
+      ],
+      "example": "The committee faced a vexing dilemma over funding.",
+      "exampleKo": "위원회는 자금 문제로 골치 아픈 딜레마에 직면했다.",
+      "emoji": ""
+    },
+    {
+      "word": "acrimonious",
+      "pos": "adj",
+      "meanings": [
+        "격렬한",
+        "신랄한"
+      ],
+      "example": "The negotiations ended in an acrimonious dispute.",
+      "exampleKo": "그 협상은 격렬한 분쟁으로 끝났다.",
+      "emoji": ""
+    },
+    {
+      "word": "anachronistic",
+      "pos": "adj",
+      "meanings": [
+        "시대착오적인"
+      ],
+      "example": "Some viewers found the film's values anachronistic.",
+      "exampleKo": "일부 관객들은 그 영화의 가치관이 시대착오적이라고 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "antithetical",
+      "pos": "adj",
+      "meanings": [
+        "정반대되는"
+      ],
+      "example": "Her approach is antithetical to traditional teaching methods.",
+      "exampleKo": "그녀의 접근 방식은 전통적인 교수법과 정반대이다.",
+      "emoji": ""
+    },
+    {
+      "word": "boisterous",
+      "pos": "adj",
+      "meanings": [
+        "떠들썩한",
+        "활기 넘치는"
+      ],
+      "example": "The boisterous crowd cheered throughout the game.",
+      "exampleKo": "그 떠들썩한 관중은 경기 내내 환호했다.",
+      "emoji": ""
+    },
+    {
+      "word": "decadent",
+      "pos": "adj",
+      "meanings": [
+        "퇴폐적인",
+        "사치스러운"
+      ],
+      "example": "The novel depicts the decadent lifestyle of the elite.",
+      "exampleKo": "그 소설은 엘리트 계층의 퇴폐적인 생활 방식을 묘사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "disparate",
+      "pos": "adj",
+      "meanings": [
+        "이질적인",
+        "서로 다른"
+      ],
+      "example": "The team combined disparate skills to solve the problem.",
+      "exampleKo": "그 팀은 문제를 해결하기 위해 서로 다른 기술들을 결합했다.",
+      "emoji": ""
+    },
+    {
+      "word": "ignominious",
+      "pos": "adj",
+      "meanings": [
+        "불명예스러운"
+      ],
+      "example": "The team suffered an ignominious defeat in the final.",
+      "exampleKo": "그 팀은 결승전에서 불명예스러운 패배를 당했다.",
+      "emoji": ""
+    },
+    {
+      "word": "intractable",
+      "pos": "adj",
+      "meanings": [
+        "다루기 힘든",
+        "해결하기 어려운"
+      ],
+      "example": "Poverty remains an intractable problem in many regions.",
+      "exampleKo": "빈곤은 많은 지역에서 여전히 다루기 힘든 문제로 남아 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "irreverent",
+      "pos": "adj",
+      "meanings": [
+        "불경한",
+        "버릇없는"
+      ],
+      "example": "The comedian's irreverent humor offended some viewers.",
+      "exampleKo": "그 코미디언의 불경한 유머는 일부 시청자들을 불쾌하게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "morose",
+      "pos": "adj",
+      "meanings": [
+        "시무룩한",
+        "침울한"
+      ],
+      "example": "He grew morose after hearing the disappointing news.",
+      "exampleKo": "그는 실망스러운 소식을 들은 후 침울해졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "officious",
+      "pos": "adj",
+      "meanings": [
+        "참견하기 좋아하는"
+      ],
+      "example": "The officious clerk insisted on checking every form twice.",
+      "exampleKo": "그 참견하기 좋아하는 직원은 모든 서류를 두 번씩 확인하겠다고 고집했다.",
+      "emoji": ""
+    },
+    {
+      "word": "parsimonious",
+      "pos": "adj",
+      "meanings": [
+        "인색한"
+      ],
+      "example": "The parsimonious budget left little room for new projects.",
+      "exampleKo": "그 인색한 예산은 새로운 프로젝트를 위한 여지를 거의 남기지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "precipitous",
+      "pos": "adj",
+      "meanings": [
+        "가파른",
+        "급격한"
+      ],
+      "example": "The company saw a precipitous drop in sales last quarter.",
+      "exampleKo": "그 회사는 지난 분기에 급격한 매출 하락을 겪었다.",
+      "emoji": "⛰️"
+    },
+    {
+      "word": "prodigal",
+      "pos": "adj",
+      "meanings": [
+        "낭비하는",
+        "방탕한"
+      ],
+      "example": "The prodigal spending nearly bankrupted the estate.",
+      "exampleKo": "그 낭비적인 지출은 재산을 거의 파산시킬 뻔했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pugnacious",
+      "pos": "adj",
+      "meanings": [
+        "호전적인"
+      ],
+      "example": "His pugnacious style made negotiations difficult.",
+      "exampleKo": "그의 호전적인 태도는 협상을 어렵게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "querulous",
+      "pos": "adj",
+      "meanings": [
+        "불평이 많은"
+      ],
+      "example": "The querulous customer complained about every detail.",
+      "exampleKo": "그 불평이 많은 고객은 모든 세부 사항에 대해 불평했다.",
+      "emoji": ""
+    },
+    {
+      "word": "quixotic",
+      "pos": "adj",
+      "meanings": [
+        "비현실적인",
+        "공상적인"
+      ],
+      "example": "Critics dismissed the plan as quixotic and impractical.",
+      "exampleKo": "비평가들은 그 계획을 비현실적이고 실현 불가능한 것으로 일축했다.",
+      "emoji": ""
+    },
+    {
+      "word": "resplendent",
+      "pos": "adj",
+      "meanings": [
+        "눈부신",
+        "찬란한"
+      ],
+      "example": "The palace looked resplendent under the evening lights.",
+      "exampleKo": "그 궁전은 저녁 조명 아래 눈부시게 보였다.",
+      "emoji": "✨"
+    },
+    {
+      "word": "sanctimonious",
+      "pos": "adj",
+      "meanings": [
+        "위선적으로 경건한 척하는"
+      ],
+      "example": "His sanctimonious tone irritated the other panelists.",
+      "exampleKo": "그의 위선적으로 경건한 척하는 어조는 다른 패널들을 짜증나게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "self-effacing",
+      "pos": "adj",
+      "meanings": [
+        "자신을 내세우지 않는",
+        "겸손한"
+      ],
+      "example": "Despite her fame, she remained remarkably self-effacing.",
+      "exampleKo": "명성에도 불구하고 그녀는 놀랍도록 겸손함을 유지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sonorous",
+      "pos": "adj",
+      "meanings": [
+        "울림이 좋은",
+        "낭랑한"
+      ],
+      "example": "The narrator's sonorous voice suited the documentary well.",
+      "exampleKo": "그 내레이터의 낭랑한 목소리는 그 다큐멘터리에 잘 어울렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "supercilious",
+      "pos": "adj",
+      "meanings": [
+        "거만한"
+      ],
+      "example": "The critic's supercilious review offended the young author.",
+      "exampleKo": "그 평론가의 거만한 평론은 젊은 작가를 불쾌하게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "transitory",
+      "pos": "adj",
+      "meanings": [
+        "일시적인",
+        "덧없는"
+      ],
+      "example": "Fame can be a transitory experience for many performers.",
+      "exampleKo": "명성은 많은 공연자들에게 일시적인 경험일 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "unfathomable",
+      "pos": "adj",
+      "meanings": [
+        "이해할 수 없는",
+        "헤아릴 수 없는"
+      ],
+      "example": "The scale of the disaster seemed almost unfathomable.",
+      "exampleKo": "그 재난의 규모는 거의 헤아릴 수 없는 것처럼 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "unflinching",
+      "pos": "adj",
+      "meanings": [
+        "단호한",
+        "움츠러들지 않는"
+      ],
+      "example": "The journalist gave an unflinching account of the war.",
+      "exampleKo": "그 기자는 전쟁에 대해 단호한 기록을 남겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "unremitting",
+      "pos": "adj",
+      "meanings": [
+        "끊임없는"
+      ],
+      "example": "The team faced unremitting pressure to deliver results.",
+      "exampleKo": "그 팀은 결과를 내야 한다는 끊임없는 압박에 직면했다.",
+      "emoji": ""
+    },
+    {
+      "word": "urbane",
+      "pos": "adj",
+      "meanings": [
+        "세련된",
+        "도시적인"
+      ],
+      "example": "The host's urbane manner put guests at ease.",
+      "exampleKo": "그 진행자의 세련된 태도는 손님들을 편안하게 해주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "vacuous",
+      "pos": "adj",
+      "meanings": [
+        "공허한",
+        "멍청한"
+      ],
+      "example": "The speech was criticized as vacuous and repetitive.",
+      "exampleKo": "그 연설은 공허하고 반복적이라는 비판을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "veracious",
+      "pos": "adj",
+      "meanings": [
+        "진실한",
+        "정직한"
+      ],
+      "example": "The witness was known to be veracious under oath.",
+      "exampleKo": "그 증인은 선서 하에 정직하기로 알려져 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "vituperative",
+      "pos": "adj",
+      "meanings": [
+        "독설을 퍼붓는"
+      ],
+      "example": "The article's vituperative tone drew criticism.",
+      "exampleKo": "그 기사의 독설적인 어조는 비판을 불러일으켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "voracious",
+      "pos": "adj",
+      "meanings": [
+        "탐욕스러운",
+        "게걸스러운"
+      ],
+      "example": "She has always been a voracious reader.",
+      "exampleKo": "그녀는 항상 탐독하는 독서가였다.",
+      "emoji": "😋"
+    },
+    {
+      "word": "waspish",
+      "pos": "adj",
+      "meanings": [
+        "심술궂은",
+        "신랄한"
+      ],
+      "example": "His waspish remarks annoyed his colleagues.",
+      "exampleKo": "그의 심술궂은 발언은 동료들을 짜증나게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "wry",
+      "pos": "adj",
+      "meanings": [
+        "비꼬는",
+        "씁쓸한"
+      ],
+      "example": "She gave a wry smile at the ironic outcome.",
+      "exampleKo": "그녀는 그 아이러니한 결과에 씁쓸한 미소를 지었다.",
+      "emoji": ""
+    },
+    {
+      "word": "adversely",
+      "pos": "adv",
+      "meanings": [
+        "불리하게",
+        "나쁘게"
+      ],
+      "example": "Poor sleep can adversely affect academic performance.",
+      "exampleKo": "수면 부족은 학업 성취에 불리하게 영향을 미칠 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "correspondingly",
+      "pos": "adv",
+      "meanings": [
+        "그에 상응하여"
+      ],
+      "example": "Prices rose, and correspondingly, demand fell.",
+      "exampleKo": "가격이 올랐고, 그에 상응하여 수요가 줄었다.",
+      "emoji": ""
+    },
+    {
+      "word": "critically",
+      "pos": "adv",
+      "meanings": [
+        "비판적으로",
+        "결정적으로"
+      ],
+      "example": "Students should read the article critically.",
+      "exampleKo": "학생들은 그 기사를 비판적으로 읽어야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "cumulatively",
+      "pos": "adv",
+      "meanings": [
+        "누적적으로"
+      ],
+      "example": "The small errors cumulatively affected the final result.",
+      "exampleKo": "그 작은 오류들은 누적적으로 최종 결과에 영향을 미쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "exceedingly",
+      "pos": "adv",
+      "meanings": [
+        "대단히",
+        "매우"
+      ],
+      "example": "The exam turned out to be exceedingly difficult.",
+      "exampleKo": "그 시험은 대단히 어려운 것으로 판명되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "marginally",
+      "pos": "adv",
+      "meanings": [
+        "미미하게",
+        "소폭으로"
+      ],
+      "example": "Sales improved only marginally last month.",
+      "exampleKo": "지난달 매출은 미미하게만 개선되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "objectively",
+      "pos": "adv",
+      "meanings": [
+        "객관적으로"
+      ],
+      "example": "Judges must evaluate each entry objectively.",
+      "exampleKo": "심사위원들은 각 출품작을 객관적으로 평가해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "radically",
+      "pos": "adv",
+      "meanings": [
+        "급진적으로",
+        "근본적으로"
+      ],
+      "example": "The industry has changed radically over the past decade.",
+      "exampleKo": "그 산업은 지난 십 년 동안 급진적으로 변화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "rationally",
+      "pos": "adv",
+      "meanings": [
+        "합리적으로"
+      ],
+      "example": "It is hard to think rationally under extreme stress.",
+      "exampleKo": "극심한 스트레스 속에서 합리적으로 생각하기는 어렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "respectively",
+      "pos": "adv",
+      "meanings": [
+        "각각"
+      ],
+      "example": "The two groups scored 80 and 90 points, respectively.",
+      "exampleKo": "두 그룹은 각각 80점과 90점을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "statistically",
+      "pos": "adv",
+      "meanings": [
+        "통계적으로"
+      ],
+      "example": "The difference between the groups was statistically significant.",
+      "exampleKo": "두 집단 간의 차이는 통계적으로 유의미했다.",
+      "emoji": ""
+    },
+    {
+      "word": "strategically",
+      "pos": "adv",
+      "meanings": [
+        "전략적으로"
+      ],
+      "example": "The new store was placed strategically near the campus.",
+      "exampleKo": "그 새 매장은 캠퍼스 근처에 전략적으로 배치되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "subtly",
+      "pos": "adv",
+      "meanings": [
+        "미묘하게",
+        "교묘하게"
+      ],
+      "example": "The advertisement subtly implies a health benefit.",
+      "exampleKo": "그 광고는 건강상의 이점을 미묘하게 암시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "uniformly",
+      "pos": "adv",
+      "meanings": [
+        "일률적으로",
+        "균일하게"
+      ],
+      "example": "The rule was applied uniformly across all branches.",
+      "exampleKo": "그 규칙은 모든 지점에 일률적으로 적용되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "widely accepted",
+      "pos": "phrase",
+      "meanings": [
+        "널리 받아들여지는"
+      ],
+      "example": "The theory is now widely accepted among scientists.",
+      "exampleKo": "그 이론은 이제 과학자들 사이에서 널리 받아들여진다.",
+      "emoji": ""
+    },
+    {
+      "word": "statistically significant",
+      "pos": "phrase",
+      "meanings": [
+        "통계적으로 유의미한"
+      ],
+      "example": "The improvement was small but statistically significant.",
+      "exampleKo": "그 개선은 작았지만 통계적으로 유의미했다.",
+      "emoji": ""
+    },
+    {
+      "word": "mutually exclusive",
+      "pos": "phrase",
+      "meanings": [
+        "상호 배타적인"
+      ],
+      "example": "The two hypotheses are not necessarily mutually exclusive.",
+      "exampleKo": "그 두 가설은 반드시 상호 배타적인 것은 아니다.",
+      "emoji": ""
+    },
+    {
+      "word": "closely related",
+      "pos": "phrase",
+      "meanings": [
+        "밀접하게 관련된"
+      ],
+      "example": "The two disorders are closely related in their symptoms.",
+      "exampleKo": "그 두 장애는 증상 면에서 밀접하게 관련되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "highly controversial",
+      "pos": "phrase",
+      "meanings": [
+        "매우 논란이 많은"
+      ],
+      "example": "The policy remains highly controversial among voters.",
+      "exampleKo": "그 정책은 유권자들 사이에서 여전히 매우 논란이 많다.",
+      "emoji": ""
+    },
+    {
+      "word": "relatively rare",
+      "pos": "phrase",
+      "meanings": [
+        "비교적 드문"
+      ],
+      "example": "Such extreme weather events were once relatively rare.",
+      "exampleKo": "그러한 극단적인 기상 현상은 한때 비교적 드물었다.",
+      "emoji": ""
+    },
+    {
+      "word": "particularly evident",
+      "pos": "phrase",
+      "meanings": [
+        "특히 뚜렷한"
+      ],
+      "example": "The trend is particularly evident among younger consumers.",
+      "exampleKo": "그 경향은 젊은 소비자들 사이에서 특히 뚜렷하다.",
+      "emoji": ""
+    },
+    {
+      "word": "strikingly similar",
+      "pos": "phrase",
+      "meanings": [
+        "놀랍도록 유사한"
+      ],
+      "example": "The two proposals were strikingly similar in structure.",
+      "exampleKo": "그 두 제안은 구조 면에서 놀랍도록 유사했다.",
+      "emoji": ""
+    },
+    {
+      "word": "remarkably consistent",
+      "pos": "phrase",
+      "meanings": [
+        "놀랍도록 일관된"
+      ],
+      "example": "The results were remarkably consistent across trials.",
+      "exampleKo": "그 결과는 여러 시행에 걸쳐 놀랍도록 일관되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "socially acceptable",
+      "pos": "phrase",
+      "meanings": [
+        "사회적으로 용인되는"
+      ],
+      "example": "Norms about what is socially acceptable change over time.",
+      "exampleKo": "무엇이 사회적으로 용인되는지에 대한 규범은 시간이 지나면서 변한다.",
+      "emoji": ""
+    },
+    {
+      "word": "economically viable",
+      "pos": "phrase",
+      "meanings": [
+        "경제적으로 타당한"
+      ],
+      "example": "The plan must be economically viable to gain support.",
+      "exampleKo": "그 계획은 지지를 얻으려면 경제적으로 타당해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "environmentally friendly",
+      "pos": "phrase",
+      "meanings": [
+        "환경친화적인"
+      ],
+      "example": "The company switched to environmentally friendly packaging.",
+      "exampleKo": "그 회사는 환경친화적인 포장재로 전환했다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "ethically questionable",
+      "pos": "phrase",
+      "meanings": [
+        "윤리적으로 의문스러운"
+      ],
+      "example": "Some researchers called the experiment ethically questionable.",
+      "exampleKo": "일부 연구자들은 그 실험이 윤리적으로 의문스럽다고 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "logically consistent",
+      "pos": "phrase",
+      "meanings": [
+        "논리적으로 일관된"
+      ],
+      "example": "A good argument should be logically consistent throughout.",
+      "exampleKo": "좋은 논증은 전체적으로 논리적으로 일관되어야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "theoretically sound",
+      "pos": "phrase",
+      "meanings": [
+        "이론적으로 타당한"
+      ],
+      "example": "The model is theoretically sound but hard to apply in practice.",
+      "exampleKo": "그 모델은 이론적으로 타당하지만 실제로 적용하기는 어렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "historically significant",
+      "pos": "phrase",
+      "meanings": [
+        "역사적으로 중요한"
+      ],
+      "example": "The building was preserved because it is historically significant.",
+      "exampleKo": "그 건물은 역사적으로 중요하기 때문에 보존되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "culturally diverse",
+      "pos": "phrase",
+      "meanings": [
+        "문화적으로 다양한"
+      ],
+      "example": "The school welcomes students from a culturally diverse range of backgrounds.",
+      "exampleKo": "그 학교는 문화적으로 다양한 배경을 가진 학생들을 환영한다.",
+      "emoji": ""
+    },
+    {
+      "word": "politically sensitive",
+      "pos": "phrase",
+      "meanings": [
+        "정치적으로 민감한"
+      ],
+      "example": "The topic is politically sensitive and rarely discussed openly.",
+      "exampleKo": "그 주제는 정치적으로 민감하여 공개적으로 논의되는 경우가 드물다.",
+      "emoji": ""
+    },
+    {
+      "word": "financially stable",
+      "pos": "phrase",
+      "meanings": [
+        "재정적으로 안정된"
+      ],
+      "example": "The organization needs to become financially stable before expanding.",
+      "exampleKo": "그 단체는 확장하기 전에 재정적으로 안정되어야 한다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "physically demanding",
+      "pos": "phrase",
+      "meanings": [
+        "육체적으로 힘든"
+      ],
+      "example": "Firefighting is a physically demanding profession.",
+      "exampleKo": "소방 업무는 육체적으로 힘든 직업이다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "psychologically complex",
+      "pos": "phrase",
+      "meanings": [
+        "심리적으로 복잡한"
+      ],
+      "example": "The main character is psychologically complex and hard to predict.",
+      "exampleKo": "주인공은 심리적으로 복잡하여 예측하기 어렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "rambunctious",
+      "pos": "adj",
+      "meanings": [
+        "제멋대로인",
+        "소란스러운"
+      ],
+      "example": "The rambunctious puppy knocked over the vase.",
+      "exampleKo": "그 소란스러운 강아지는 꽃병을 넘어뜨렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "apocryphal",
+      "pos": "adj",
+      "meanings": [
+        "출처가 불분명한",
+        "진위가 의심스러운"
+      ],
+      "example": "The story about the founder is likely apocryphal.",
+      "exampleKo": "창립자에 관한 그 이야기는 아마도 출처가 불분명할 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "beguiling",
+      "pos": "adj",
+      "meanings": [
+        "마음을 사로잡는",
+        "현혹하는"
+      ],
+      "example": "The advertisement offered a beguiling but unrealistic promise.",
+      "exampleKo": "그 광고는 마음을 사로잡지만 비현실적인 약속을 내걸었다.",
+      "emoji": ""
+    },
+    {
+      "word": "mirthful",
+      "pos": "adj",
+      "meanings": [
+        "즐거운",
+        "유쾌한"
+      ],
+      "example": "The audience left the theater in a mirthful mood.",
+      "exampleKo": "관객들은 유쾌한 기분으로 극장을 떠났다.",
+      "emoji": ""
+    },
+    {
+      "word": "misanthropic",
+      "pos": "adj",
+      "meanings": [
+        "인간을 혐오하는"
+      ],
+      "example": "The character's misanthropic outlook isolated him from others.",
+      "exampleKo": "그 인물의 인간 혐오적인 시각은 그를 다른 사람들로부터 고립시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "paradigmatic",
+      "pos": "adj",
+      "meanings": [
+        "전형적인",
+        "패러다임을 보여주는"
+      ],
+      "example": "The case is often cited as paradigmatic of the broader trend.",
+      "exampleKo": "그 사례는 흔히 더 넓은 경향의 전형으로 인용된다.",
+      "emoji": ""
+    },
+    {
+      "word": "punctilious",
+      "pos": "adj",
+      "meanings": [
+        "꼼꼼한",
+        "세심한"
+      ],
+      "example": "The auditor was punctilious about every figure in the report.",
+      "exampleKo": "그 감사관은 보고서의 모든 수치에 대해 꼼꼼했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sequestered",
+      "pos": "adj",
+      "meanings": [
+        "격리된",
+        "고립된"
+      ],
+      "example": "The jury was sequestered during the trial.",
+      "exampleKo": "배심원단은 재판 동안 격리되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "servile",
+      "pos": "adj",
+      "meanings": [
+        "비굴한",
+        "굽실거리는"
+      ],
+      "example": "His servile attitude toward superiors annoyed his coworkers.",
+      "exampleKo": "상사에 대한 그의 비굴한 태도는 동료들을 짜증나게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "halcyon",
+      "pos": "adj",
+      "meanings": [
+        "평온한",
+        "더없이 행복한"
+      ],
+      "example": "She often recalled the halcyon days of her childhood.",
+      "exampleKo": "그녀는 종종 어린 시절의 평온한 나날들을 떠올렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "obdurate",
+      "pos": "adj",
+      "meanings": [
+        "완고한",
+        "고집 센"
+      ],
+      "example": "The committee remained obdurate despite repeated appeals.",
+      "exampleKo": "위원회는 거듭된 호소에도 완고한 태도를 유지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "invidious",
+      "pos": "adj",
+      "meanings": [
+        "불쾌감을 주는",
+        "불공평한"
+      ],
+      "example": "Making an invidious comparison between the two students seemed unfair.",
+      "exampleKo": "두 학생을 불공평하게 비교하는 것은 부당해 보였다.",
+      "emoji": ""
+    }
+  ]
+}

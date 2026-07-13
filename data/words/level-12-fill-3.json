@@ -1,0 +1,1871 @@
+{
+  "level": 12,
+  "words": [
+    {
+      "word": "organism",
+      "pos": "n",
+      "meanings": [
+        "유기체",
+        "생물체"
+      ],
+      "example": "A living organism needs energy to survive.",
+      "exampleKo": "살아있는 유기체는 생존을 위해 에너지가 필요하다.",
+      "emoji": "🦠"
+    },
+    {
+      "word": "cell",
+      "pos": "n",
+      "meanings": [
+        "세포"
+      ],
+      "example": "The human body is made up of trillions of cells.",
+      "exampleKo": "인체는 수조 개의 세포로 이루어져 있다.",
+      "emoji": "🔬"
+    },
+    {
+      "word": "gene",
+      "pos": "n",
+      "meanings": [
+        "유전자"
+      ],
+      "example": "This gene determines eye color.",
+      "exampleKo": "이 유전자는 눈동자 색을 결정한다.",
+      "emoji": "🧬"
+    },
+    {
+      "word": "genetic",
+      "pos": "adj",
+      "meanings": [
+        "유전적인",
+        "유전의"
+      ],
+      "example": "Genetic factors can influence a person's height.",
+      "exampleKo": "유전적 요인은 사람의 키에 영향을 줄 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "molecule",
+      "pos": "n",
+      "meanings": [
+        "분자"
+      ],
+      "example": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+      "exampleKo": "물 분자는 두 개의 수소 원자와 한 개의 산소 원자로 이루어져 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "species",
+      "pos": "n",
+      "meanings": [
+        "종(種)"
+      ],
+      "example": "Scientists have discovered a new species of frog in the rainforest.",
+      "exampleKo": "과학자들은 열대우림에서 새로운 개구리 종을 발견했다.",
+      "emoji": "🐾"
+    },
+    {
+      "word": "bacteria",
+      "pos": "n",
+      "meanings": [
+        "박테리아",
+        "세균"
+      ],
+      "example": "Bacteria can be both harmful and helpful to humans.",
+      "exampleKo": "박테리아는 인간에게 해로울 수도 있고 이로울 수도 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "virus",
+      "pos": "n",
+      "meanings": [
+        "바이러스"
+      ],
+      "example": "The virus spreads quickly through the air.",
+      "exampleKo": "그 바이러스는 공기를 통해 빠르게 퍼진다.",
+      "emoji": "🦠"
+    },
+    {
+      "word": "evolution",
+      "pos": "n",
+      "meanings": [
+        "진화"
+      ],
+      "example": "Darwin's theory of evolution changed how we understand life.",
+      "exampleKo": "다윈의 진화론은 우리가 생명을 이해하는 방식을 바꾸었다.",
+      "emoji": ""
+    },
+    {
+      "word": "evolutionary",
+      "pos": "adj",
+      "meanings": [
+        "진화의",
+        "진화적인"
+      ],
+      "example": "Wings are an evolutionary adaptation for flight.",
+      "exampleKo": "날개는 비행을 위한 진화적 적응이다.",
+      "emoji": ""
+    },
+    {
+      "word": "habitat",
+      "pos": "n",
+      "meanings": [
+        "서식지"
+      ],
+      "example": "Deforestation destroys the natural habitat of many animals.",
+      "exampleKo": "삼림 벌채는 많은 동물의 자연 서식지를 파괴한다.",
+      "emoji": "🌳"
+    },
+    {
+      "word": "ecosystem",
+      "pos": "n",
+      "meanings": [
+        "생태계"
+      ],
+      "example": "Coral reefs support a diverse ecosystem.",
+      "exampleKo": "산호초는 다양한 생태계를 지탱한다.",
+      "emoji": "🌿"
+    },
+    {
+      "word": "biodiversity",
+      "pos": "n",
+      "meanings": [
+        "생물 다양성"
+      ],
+      "example": "Protecting biodiversity is essential for a healthy planet.",
+      "exampleKo": "생물 다양성을 보호하는 것은 건강한 지구를 위해 필수적이다.",
+      "emoji": ""
+    },
+    {
+      "word": "photosynthesis",
+      "pos": "n",
+      "meanings": [
+        "광합성"
+      ],
+      "example": "Plants produce energy through photosynthesis.",
+      "exampleKo": "식물은 광합성을 통해 에너지를 생산한다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "nutrient",
+      "pos": "n",
+      "meanings": [
+        "영양소",
+        "영양분"
+      ],
+      "example": "Soil provides nutrients that plants need to grow.",
+      "exampleKo": "토양은 식물이 자라는 데 필요한 영양소를 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "nutrition",
+      "pos": "n",
+      "meanings": [
+        "영양",
+        "영양 섭취"
+      ],
+      "example": "Good nutrition is important for children's growth.",
+      "exampleKo": "좋은 영양 섭취는 어린이의 성장에 중요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "protein",
+      "pos": "n",
+      "meanings": [
+        "단백질"
+      ],
+      "example": "Meat and eggs are good sources of protein.",
+      "exampleKo": "고기와 달걀은 좋은 단백질 공급원이다.",
+      "emoji": "🍗"
+    },
+    {
+      "word": "enzyme",
+      "pos": "n",
+      "meanings": [
+        "효소"
+      ],
+      "example": "Enzymes speed up chemical reactions in the body.",
+      "exampleKo": "효소는 체내 화학 반응을 촉진한다.",
+      "emoji": ""
+    },
+    {
+      "word": "metabolism",
+      "pos": "n",
+      "meanings": [
+        "신진대사"
+      ],
+      "example": "Exercise can help increase your metabolism.",
+      "exampleKo": "운동은 신진대사를 높이는 데 도움이 될 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "reproduce",
+      "pos": "v",
+      "meanings": [
+        "번식하다",
+        "재현하다"
+      ],
+      "example": "Many insects reproduce quickly in warm weather.",
+      "exampleKo": "많은 곤충은 따뜻한 날씨에 빠르게 번식한다.",
+      "emoji": ""
+    },
+    {
+      "word": "reproduction",
+      "pos": "n",
+      "meanings": [
+        "번식",
+        "생식"
+      ],
+      "example": "Reproduction allows species to survive over generations.",
+      "exampleKo": "번식은 종이 여러 세대에 걸쳐 생존할 수 있게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "mutation",
+      "pos": "n",
+      "meanings": [
+        "돌연변이"
+      ],
+      "example": "A genetic mutation can sometimes lead to disease.",
+      "exampleKo": "유전적 돌연변이는 때때로 질병을 유발할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "adaptation",
+      "pos": "n",
+      "meanings": [
+        "적응"
+      ],
+      "example": "Camouflage is an adaptation that helps animals hide from predators.",
+      "exampleKo": "위장은 동물이 포식자로부터 숨는 데 도움을 주는 적응이다.",
+      "emoji": ""
+    },
+    {
+      "word": "predator",
+      "pos": "n",
+      "meanings": [
+        "포식자",
+        "포식 동물"
+      ],
+      "example": "Lions are powerful predators on the African savanna.",
+      "exampleKo": "사자는 아프리카 사바나의 강력한 포식자이다.",
+      "emoji": "🦁"
+    },
+    {
+      "word": "prey",
+      "pos": "n",
+      "meanings": [
+        "먹이"
+      ],
+      "example": "Rabbits are common prey for foxes.",
+      "exampleKo": "토끼는 여우의 흔한 먹이이다.",
+      "emoji": "🐇"
+    },
+    {
+      "word": "mammal",
+      "pos": "n",
+      "meanings": [
+        "포유류"
+      ],
+      "example": "Whales are mammals that live in the ocean.",
+      "exampleKo": "고래는 바다에 사는 포유류이다.",
+      "emoji": "🐘"
+    },
+    {
+      "word": "reptile",
+      "pos": "n",
+      "meanings": [
+        "파충류"
+      ],
+      "example": "Snakes and lizards are types of reptiles.",
+      "exampleKo": "뱀과 도마뱀은 파충류의 한 종류이다.",
+      "emoji": "🦎"
+    },
+    {
+      "word": "amphibian",
+      "pos": "n",
+      "meanings": [
+        "양서류"
+      ],
+      "example": "Frogs are amphibians that can live both in water and on land.",
+      "exampleKo": "개구리는 물과 육지 모두에서 살 수 있는 양서류이다.",
+      "emoji": "🐸"
+    },
+    {
+      "word": "vertebrate",
+      "pos": "n",
+      "meanings": [
+        "척추동물"
+      ],
+      "example": "Fish, birds, and mammals are all vertebrates.",
+      "exampleKo": "어류, 조류, 포유류는 모두 척추동물이다.",
+      "emoji": ""
+    },
+    {
+      "word": "fossil",
+      "pos": "n",
+      "meanings": [
+        "화석"
+      ],
+      "example": "Scientists found a dinosaur fossil in the desert.",
+      "exampleKo": "과학자들은 사막에서 공룡 화석을 발견했다.",
+      "emoji": "🦴"
+    },
+    {
+      "word": "extinct",
+      "pos": "adj",
+      "meanings": [
+        "멸종된"
+      ],
+      "example": "Dinosaurs became extinct millions of years ago.",
+      "exampleKo": "공룡은 수백만 년 전에 멸종되었다.",
+      "emoji": "🦖"
+    },
+    {
+      "word": "extinction",
+      "pos": "n",
+      "meanings": [
+        "멸종"
+      ],
+      "example": "Pollution can lead to the extinction of certain species.",
+      "exampleKo": "오염은 특정 종의 멸종으로 이어질 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "membrane",
+      "pos": "n",
+      "meanings": [
+        "막",
+        "세포막"
+      ],
+      "example": "The cell membrane controls what enters and leaves the cell.",
+      "exampleKo": "세포막은 무엇이 세포 안팎으로 드나드는지를 조절한다.",
+      "emoji": ""
+    },
+    {
+      "word": "chromosome",
+      "pos": "n",
+      "meanings": [
+        "염색체"
+      ],
+      "example": "Humans usually have 46 chromosomes in each cell.",
+      "exampleKo": "인간은 보통 각 세포에 46개의 염색체를 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "hormone",
+      "pos": "n",
+      "meanings": [
+        "호르몬"
+      ],
+      "example": "Hormones regulate many functions in the human body.",
+      "exampleKo": "호르몬은 인체의 여러 기능을 조절한다.",
+      "emoji": ""
+    },
+    {
+      "word": "immunity",
+      "pos": "n",
+      "meanings": [
+        "면역력"
+      ],
+      "example": "A healthy diet can boost your immunity.",
+      "exampleKo": "건강한 식단은 면역력을 높여줄 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "vaccine",
+      "pos": "n",
+      "meanings": [
+        "백신"
+      ],
+      "example": "The vaccine protects people from the disease.",
+      "exampleKo": "그 백신은 사람들을 그 질병으로부터 보호한다.",
+      "emoji": "💉"
+    },
+    {
+      "word": "microorganism",
+      "pos": "n",
+      "meanings": [
+        "미생물"
+      ],
+      "example": "Microorganisms are too small to be seen without a microscope.",
+      "exampleKo": "미생물은 현미경 없이는 보이지 않을 만큼 작다.",
+      "emoji": ""
+    },
+    {
+      "word": "pathogen",
+      "pos": "n",
+      "meanings": [
+        "병원체"
+      ],
+      "example": "Washing your hands helps remove harmful pathogens.",
+      "exampleKo": "손을 씻는 것은 해로운 병원체를 제거하는 데 도움을 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "infection",
+      "pos": "n",
+      "meanings": [
+        "감염"
+      ],
+      "example": "Doctors treated the infection with antibiotics.",
+      "exampleKo": "의사들은 항생제로 그 감염을 치료했다.",
+      "emoji": ""
+    },
+    {
+      "word": "symptom",
+      "pos": "n",
+      "meanings": [
+        "증상"
+      ],
+      "example": "A high fever is a common symptom of the flu.",
+      "exampleKo": "고열은 독감의 흔한 증상이다.",
+      "emoji": ""
+    },
+    {
+      "word": "diagnosis",
+      "pos": "n",
+      "meanings": [
+        "진단"
+      ],
+      "example": "Early diagnosis can improve the chances of recovery.",
+      "exampleKo": "조기 진단은 회복 가능성을 높일 수 있다.",
+      "emoji": "🩺"
+    },
+    {
+      "word": "therapy",
+      "pos": "n",
+      "meanings": [
+        "치료",
+        "요법"
+      ],
+      "example": "Physical therapy helped him walk again.",
+      "exampleKo": "물리 치료는 그가 다시 걸을 수 있도록 도왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "embryo",
+      "pos": "n",
+      "meanings": [
+        "배아"
+      ],
+      "example": "An embryo develops into a fetus over several weeks.",
+      "exampleKo": "배아는 몇 주에 걸쳐 태아로 발달한다.",
+      "emoji": ""
+    },
+    {
+      "word": "antibody",
+      "pos": "n",
+      "meanings": [
+        "항체"
+      ],
+      "example": "The body produces antibodies to fight infection.",
+      "exampleKo": "우리 몸은 감염과 싸우기 위해 항체를 생성한다.",
+      "emoji": ""
+    },
+    {
+      "word": "allergy",
+      "pos": "n",
+      "meanings": [
+        "알레르기"
+      ],
+      "example": "She has an allergy to peanuts.",
+      "exampleKo": "그녀는 땅콩 알레르기가 있다.",
+      "emoji": "🤧"
+    },
+    {
+      "word": "epidemic",
+      "pos": "n",
+      "meanings": [
+        "유행병",
+        "전염병"
+      ],
+      "example": "The disease spread quickly and became an epidemic.",
+      "exampleKo": "그 질병은 빠르게 퍼져 유행병이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "pandemic",
+      "pos": "n",
+      "meanings": [
+        "팬데믹",
+        "세계적 유행병"
+      ],
+      "example": "The pandemic affected countries all around the world.",
+      "exampleKo": "그 팬데믹은 전 세계 여러 나라에 영향을 미쳤다.",
+      "emoji": "😷"
+    },
+    {
+      "word": "antibiotic",
+      "pos": "n",
+      "meanings": [
+        "항생제"
+      ],
+      "example": "Antibiotics are used to treat bacterial infections.",
+      "exampleKo": "항생제는 세균 감염을 치료하는 데 사용된다.",
+      "emoji": ""
+    },
+    {
+      "word": "surgical",
+      "pos": "adj",
+      "meanings": [
+        "외과의",
+        "수술의"
+      ],
+      "example": "The patient underwent a surgical procedure to remove the tumor.",
+      "exampleKo": "그 환자는 종양을 제거하기 위한 외과 수술을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "energy",
+      "pos": "n",
+      "meanings": [
+        "에너지"
+      ],
+      "example": "Solar panels convert sunlight into energy.",
+      "exampleKo": "태양 전지판은 햇빛을 에너지로 전환한다.",
+      "emoji": "⚡"
+    },
+    {
+      "word": "force",
+      "pos": "n",
+      "meanings": [
+        "힘"
+      ],
+      "example": "Gravity is a force that pulls objects toward the earth.",
+      "exampleKo": "중력은 물체를 지구 쪽으로 끌어당기는 힘이다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "gravity",
+      "pos": "n",
+      "meanings": [
+        "중력"
+      ],
+      "example": "Gravity keeps the planets in orbit around the sun.",
+      "exampleKo": "중력은 행성들을 태양 주위 궤도에 머물게 한다.",
+      "emoji": "🍎"
+    },
+    {
+      "word": "mass",
+      "pos": "n",
+      "meanings": [
+        "질량"
+      ],
+      "example": "The mass of an object does not change with location.",
+      "exampleKo": "물체의 질량은 위치에 따라 변하지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "velocity",
+      "pos": "n",
+      "meanings": [
+        "속도"
+      ],
+      "example": "The car's velocity increased as it went downhill.",
+      "exampleKo": "그 차의 속도는 내리막길을 내려가면서 증가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "acceleration",
+      "pos": "n",
+      "meanings": [
+        "가속",
+        "가속도"
+      ],
+      "example": "The rocket's acceleration increased rapidly after launch.",
+      "exampleKo": "로켓의 가속도는 발사 후 빠르게 증가했다.",
+      "emoji": "🚀"
+    },
+    {
+      "word": "friction",
+      "pos": "n",
+      "meanings": [
+        "마찰",
+        "마찰력"
+      ],
+      "example": "Friction between the tires and the road slows the car down.",
+      "exampleKo": "타이어와 도로 사이의 마찰은 차의 속도를 늦춘다.",
+      "emoji": ""
+    },
+    {
+      "word": "magnetic",
+      "pos": "adj",
+      "meanings": [
+        "자성의",
+        "자석의"
+      ],
+      "example": "The earth has a magnetic field that protects it from solar wind.",
+      "exampleKo": "지구는 태양풍으로부터 지구를 보호하는 자기장을 가지고 있다.",
+      "emoji": "🧲"
+    },
+    {
+      "word": "magnetism",
+      "pos": "n",
+      "meanings": [
+        "자기",
+        "자기력"
+      ],
+      "example": "Magnetism is used in many modern technologies.",
+      "exampleKo": "자기력은 많은 현대 기술에 사용된다.",
+      "emoji": ""
+    },
+    {
+      "word": "electric",
+      "pos": "adj",
+      "meanings": [
+        "전기의"
+      ],
+      "example": "Electric cars produce less pollution than gasoline cars.",
+      "exampleKo": "전기차는 휘발유 차보다 오염을 덜 발생시킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "electricity",
+      "pos": "n",
+      "meanings": [
+        "전기"
+      ],
+      "example": "Wind turbines generate electricity from wind.",
+      "exampleKo": "풍력 발전기는 바람으로부터 전기를 생산한다.",
+      "emoji": "⚡"
+    },
+    {
+      "word": "voltage",
+      "pos": "n",
+      "meanings": [
+        "전압"
+      ],
+      "example": "High voltage can be dangerous if not handled properly.",
+      "exampleKo": "높은 전압은 제대로 다루지 않으면 위험할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "circuit",
+      "pos": "n",
+      "meanings": [
+        "회로"
+      ],
+      "example": "The electric circuit was broken, so the light didn't turn on.",
+      "exampleKo": "전기 회로가 끊어져서 불이 켜지지 않았다.",
+      "emoji": "🔌"
+    },
+    {
+      "word": "atom",
+      "pos": "n",
+      "meanings": [
+        "원자"
+      ],
+      "example": "Every atom contains protons, neutrons, and electrons.",
+      "exampleKo": "모든 원자는 양성자, 중성자, 전자를 포함한다.",
+      "emoji": "⚛️"
+    },
+    {
+      "word": "atomic",
+      "pos": "adj",
+      "meanings": [
+        "원자의"
+      ],
+      "example": "Atomic energy can be used to generate electricity.",
+      "exampleKo": "원자 에너지는 전기를 생산하는 데 사용될 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "particle",
+      "pos": "n",
+      "meanings": [
+        "입자"
+      ],
+      "example": "Dust particles float in the air.",
+      "exampleKo": "먼지 입자가 공기 중에 떠다닌다.",
+      "emoji": ""
+    },
+    {
+      "word": "element",
+      "pos": "n",
+      "meanings": [
+        "원소"
+      ],
+      "example": "Oxygen is an element that is essential for life.",
+      "exampleKo": "산소는 생명에 필수적인 원소이다.",
+      "emoji": ""
+    },
+    {
+      "word": "compound",
+      "pos": "n",
+      "meanings": [
+        "화합물"
+      ],
+      "example": "Water is a compound made of hydrogen and oxygen.",
+      "exampleKo": "물은 수소와 산소로 이루어진 화합물이다.",
+      "emoji": ""
+    },
+    {
+      "word": "chemical",
+      "pos": "adj",
+      "meanings": [
+        "화학의",
+        "화학적인"
+      ],
+      "example": "Chemical reactions can produce heat or light.",
+      "exampleKo": "화학 반응은 열이나 빛을 발생시킬 수 있다.",
+      "emoji": "🧪"
+    },
+    {
+      "word": "reaction",
+      "pos": "n",
+      "meanings": [
+        "반응"
+      ],
+      "example": "The chemical reaction produced a lot of heat.",
+      "exampleKo": "그 화학 반응은 많은 열을 발생시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "solid",
+      "pos": "n",
+      "meanings": [
+        "고체"
+      ],
+      "example": "Ice is water in its solid form.",
+      "exampleKo": "얼음은 물이 고체 형태로 있는 것이다.",
+      "emoji": "🧊"
+    },
+    {
+      "word": "liquid",
+      "pos": "n",
+      "meanings": [
+        "액체"
+      ],
+      "example": "Water turns into a liquid when ice melts.",
+      "exampleKo": "얼음이 녹으면 물은 액체가 된다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "gas",
+      "pos": "n",
+      "meanings": [
+        "기체"
+      ],
+      "example": "Steam is water in the form of a gas.",
+      "exampleKo": "수증기는 기체 형태의 물이다.",
+      "emoji": "💨"
+    },
+    {
+      "word": "substance",
+      "pos": "n",
+      "meanings": [
+        "물질"
+      ],
+      "example": "This substance is toxic if swallowed.",
+      "exampleKo": "이 물질은 삼키면 독성이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "pressure",
+      "pos": "n",
+      "meanings": [
+        "압력"
+      ],
+      "example": "Air pressure decreases as altitude increases.",
+      "exampleKo": "고도가 높아질수록 기압은 낮아진다.",
+      "emoji": ""
+    },
+    {
+      "word": "density",
+      "pos": "n",
+      "meanings": [
+        "밀도"
+      ],
+      "example": "Oil floats on water because it has a lower density.",
+      "exampleKo": "기름은 밀도가 더 낮기 때문에 물 위에 뜬다.",
+      "emoji": ""
+    },
+    {
+      "word": "wavelength",
+      "pos": "n",
+      "meanings": [
+        "파장"
+      ],
+      "example": "Different colors of light have different wavelengths.",
+      "exampleKo": "빛의 색깔마다 파장이 다르다.",
+      "emoji": ""
+    },
+    {
+      "word": "frequency",
+      "pos": "n",
+      "meanings": [
+        "진동수",
+        "빈도"
+      ],
+      "example": "The frequency of a sound wave determines its pitch.",
+      "exampleKo": "음파의 진동수는 음의 높낮이를 결정한다.",
+      "emoji": ""
+    },
+    {
+      "word": "radiation",
+      "pos": "n",
+      "meanings": [
+        "방사선",
+        "복사"
+      ],
+      "example": "Too much radiation can be harmful to human cells.",
+      "exampleKo": "과도한 방사선은 인체 세포에 해로울 수 있다.",
+      "emoji": "☢️"
+    },
+    {
+      "word": "nuclear",
+      "pos": "adj",
+      "meanings": [
+        "핵의",
+        "원자력의"
+      ],
+      "example": "Nuclear power plants generate a large amount of electricity.",
+      "exampleKo": "원자력 발전소는 많은 양의 전기를 생산한다.",
+      "emoji": ""
+    },
+    {
+      "word": "laser",
+      "pos": "n",
+      "meanings": [
+        "레이저"
+      ],
+      "example": "Doctors use lasers to perform precise surgery.",
+      "exampleKo": "의사들은 정밀한 수술을 하기 위해 레이저를 사용한다.",
+      "emoji": "🔦"
+    },
+    {
+      "word": "reflection",
+      "pos": "n",
+      "meanings": [
+        "반사"
+      ],
+      "example": "The reflection of light off the mirror lit up the room.",
+      "exampleKo": "거울에서 반사된 빛이 방을 밝혔다.",
+      "emoji": ""
+    },
+    {
+      "word": "refraction",
+      "pos": "n",
+      "meanings": [
+        "굴절"
+      ],
+      "example": "Refraction causes a straw to look bent in a glass of water.",
+      "exampleKo": "굴절 때문에 물이 든 컵 속의 빨대가 휘어 보인다.",
+      "emoji": ""
+    },
+    {
+      "word": "momentum",
+      "pos": "n",
+      "meanings": [
+        "운동량",
+        "추진력"
+      ],
+      "example": "The ball lost momentum as it rolled up the hill.",
+      "exampleKo": "그 공은 언덕을 오르면서 운동량을 잃었다.",
+      "emoji": ""
+    },
+    {
+      "word": "motion",
+      "pos": "n",
+      "meanings": [
+        "운동",
+        "움직임"
+      ],
+      "example": "Newton's laws describe the motion of objects.",
+      "exampleKo": "뉴턴의 법칙은 물체의 운동을 설명한다.",
+      "emoji": ""
+    },
+    {
+      "word": "kinetic",
+      "pos": "adj",
+      "meanings": [
+        "운동의",
+        "동적인"
+      ],
+      "example": "A moving car has kinetic energy.",
+      "exampleKo": "움직이는 자동차는 운동 에너지를 가진다.",
+      "emoji": ""
+    },
+    {
+      "word": "thermal",
+      "pos": "adj",
+      "meanings": [
+        "열의",
+        "열에 관한"
+      ],
+      "example": "Thermal energy from the sun warms the earth.",
+      "exampleKo": "태양으로부터 오는 열에너지는 지구를 따뜻하게 한다.",
+      "emoji": "🌡️"
+    },
+    {
+      "word": "conductor",
+      "pos": "n",
+      "meanings": [
+        "전도체"
+      ],
+      "example": "Copper is a good conductor of electricity.",
+      "exampleKo": "구리는 전기가 잘 통하는 전도체이다.",
+      "emoji": ""
+    },
+    {
+      "word": "insulate",
+      "pos": "v",
+      "meanings": [
+        "단열하다",
+        "절연하다"
+      ],
+      "example": "Thick walls insulate the house from the cold.",
+      "exampleKo": "두꺼운 벽은 집을 추위로부터 단열해 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "orbit",
+      "pos": "v",
+      "meanings": [
+        "궤도를 돌다",
+        "공전하다"
+      ],
+      "example": "The moon orbits the earth once a month.",
+      "exampleKo": "달은 한 달에 한 번 지구 주위를 돈다.",
+      "emoji": ""
+    },
+    {
+      "word": "axis",
+      "pos": "n",
+      "meanings": [
+        "축"
+      ],
+      "example": "The earth rotates on its axis once every 24 hours.",
+      "exampleKo": "지구는 24시간마다 한 번씩 자전축을 중심으로 회전한다.",
+      "emoji": ""
+    },
+    {
+      "word": "matter",
+      "pos": "n",
+      "meanings": [
+        "물질"
+      ],
+      "example": "Everything around us is made of matter.",
+      "exampleKo": "우리 주변의 모든 것은 물질로 이루어져 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "evaporate",
+      "pos": "v",
+      "meanings": [
+        "증발하다"
+      ],
+      "example": "The puddle evaporated quickly in the hot sun.",
+      "exampleKo": "그 물웅덩이는 뜨거운 햇볕 아래서 빠르게 증발했다.",
+      "emoji": ""
+    },
+    {
+      "word": "condense",
+      "pos": "v",
+      "meanings": [
+        "응결하다",
+        "응축하다"
+      ],
+      "example": "Water vapor condenses into clouds in the sky.",
+      "exampleKo": "수증기는 하늘에서 응결하여 구름이 된다.",
+      "emoji": ""
+    },
+    {
+      "word": "dissolve",
+      "pos": "v",
+      "meanings": [
+        "녹다",
+        "용해되다"
+      ],
+      "example": "Sugar dissolves quickly in hot water.",
+      "exampleKo": "설탕은 뜨거운 물에 빨리 녹는다.",
+      "emoji": ""
+    },
+    {
+      "word": "climate",
+      "pos": "n",
+      "meanings": [
+        "기후"
+      ],
+      "example": "Climate change is affecting weather patterns worldwide.",
+      "exampleKo": "기후 변화는 전 세계의 기상 패턴에 영향을 미치고 있다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "greenhouse",
+      "pos": "n",
+      "meanings": [
+        "온실"
+      ],
+      "example": "The greenhouse effect traps heat in the earth's atmosphere.",
+      "exampleKo": "온실 효과는 지구 대기에 열을 가둔다.",
+      "emoji": ""
+    },
+    {
+      "word": "emission",
+      "pos": "n",
+      "meanings": [
+        "배출",
+        "배출물"
+      ],
+      "example": "Cars are a major source of carbon emissions.",
+      "exampleKo": "자동차는 탄소 배출의 주요 원인이다.",
+      "emoji": "💨"
+    },
+    {
+      "word": "renewable",
+      "pos": "adj",
+      "meanings": [
+        "재생 가능한"
+      ],
+      "example": "Solar and wind are renewable sources of energy.",
+      "exampleKo": "태양광과 풍력은 재생 가능한 에너지원이다.",
+      "emoji": "♻️"
+    },
+    {
+      "word": "sustainable",
+      "pos": "adj",
+      "meanings": [
+        "지속 가능한"
+      ],
+      "example": "We need to find sustainable ways to use natural resources.",
+      "exampleKo": "우리는 천연자원을 사용하는 지속 가능한 방법을 찾아야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "sustainability",
+      "pos": "n",
+      "meanings": [
+        "지속 가능성"
+      ],
+      "example": "The company focuses on sustainability in its production process.",
+      "exampleKo": "그 회사는 생산 과정에서 지속 가능성에 중점을 둔다.",
+      "emoji": ""
+    },
+    {
+      "word": "erosion",
+      "pos": "n",
+      "meanings": [
+        "침식"
+      ],
+      "example": "Erosion has slowly worn away the coastline.",
+      "exampleKo": "침식은 서서히 해안선을 깎아냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "deforestation",
+      "pos": "n",
+      "meanings": [
+        "삼림 벌채"
+      ],
+      "example": "Deforestation destroys the homes of countless animals.",
+      "exampleKo": "삼림 벌채는 수많은 동물의 서식지를 파괴한다.",
+      "emoji": "🪓"
+    },
+    {
+      "word": "biosphere",
+      "pos": "n",
+      "meanings": [
+        "생물권"
+      ],
+      "example": "The biosphere includes all living things on earth.",
+      "exampleKo": "생물권은 지구상의 모든 생명체를 포함한다.",
+      "emoji": ""
+    },
+    {
+      "word": "ozone",
+      "pos": "n",
+      "meanings": [
+        "오존"
+      ],
+      "example": "The ozone layer protects the earth from harmful rays.",
+      "exampleKo": "오존층은 지구를 해로운 광선으로부터 보호한다.",
+      "emoji": ""
+    },
+    {
+      "word": "wetland",
+      "pos": "n",
+      "meanings": [
+        "습지"
+      ],
+      "example": "Wetlands provide habitats for many species of birds.",
+      "exampleKo": "습지는 많은 새 종의 서식지를 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "rainforest",
+      "pos": "n",
+      "meanings": [
+        "열대 우림"
+      ],
+      "example": "The Amazon rainforest is home to millions of species.",
+      "exampleKo": "아마존 열대 우림은 수백만 종의 서식지이다.",
+      "emoji": "🌴"
+    },
+    {
+      "word": "toxic",
+      "pos": "adj",
+      "meanings": [
+        "독성의",
+        "유독한"
+      ],
+      "example": "The factory dumped toxic waste into the river.",
+      "exampleKo": "그 공장은 독성 폐기물을 강에 버렸다.",
+      "emoji": "☠️"
+    },
+    {
+      "word": "emit",
+      "pos": "v",
+      "meanings": [
+        "배출하다",
+        "방출하다"
+      ],
+      "example": "Factories emit large amounts of smoke into the air.",
+      "exampleKo": "공장들은 많은 양의 연기를 공기 중으로 배출한다.",
+      "emoji": ""
+    },
+    {
+      "word": "depletion",
+      "pos": "n",
+      "meanings": [
+        "고갈",
+        "감소"
+      ],
+      "example": "The depletion of natural resources worries scientists.",
+      "exampleKo": "천연자원의 고갈은 과학자들을 걱정시킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "geothermal",
+      "pos": "adj",
+      "meanings": [
+        "지열의"
+      ],
+      "example": "Geothermal energy comes from heat inside the earth.",
+      "exampleKo": "지열 에너지는 지구 내부의 열에서 나온다.",
+      "emoji": "🌋"
+    },
+    {
+      "word": "organic",
+      "pos": "adj",
+      "meanings": [
+        "유기농의",
+        "유기체의"
+      ],
+      "example": "Many people prefer to buy organic vegetables.",
+      "exampleKo": "많은 사람들이 유기농 채소를 구매하는 것을 선호한다.",
+      "emoji": ""
+    },
+    {
+      "word": "inorganic",
+      "pos": "adj",
+      "meanings": [
+        "무기물의",
+        "무기의"
+      ],
+      "example": "Rocks and minerals are examples of inorganic matter.",
+      "exampleKo": "암석과 광물은 무기물의 예이다.",
+      "emoji": ""
+    },
+    {
+      "word": "pollutant",
+      "pos": "n",
+      "meanings": [
+        "오염 물질"
+      ],
+      "example": "Factories release pollutants that harm the air we breathe.",
+      "exampleKo": "공장은 우리가 숨 쉬는 공기를 해치는 오염 물질을 방출한다.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "smog",
+      "pos": "n",
+      "meanings": [
+        "스모그"
+      ],
+      "example": "Thick smog covered the city, making it hard to see.",
+      "exampleKo": "짙은 스모그가 도시를 뒤덮어 앞을 보기 힘들게 했다.",
+      "emoji": "🌫️"
+    },
+    {
+      "word": "technology",
+      "pos": "n",
+      "meanings": [
+        "기술"
+      ],
+      "example": "New technology has changed the way we communicate.",
+      "exampleKo": "새로운 기술은 우리가 소통하는 방식을 바꾸었다.",
+      "emoji": "💻"
+    },
+    {
+      "word": "digital",
+      "pos": "adj",
+      "meanings": [
+        "디지털의"
+      ],
+      "example": "Most photos today are stored in digital form.",
+      "exampleKo": "오늘날 대부분의 사진은 디지털 형태로 저장된다.",
+      "emoji": ""
+    },
+    {
+      "word": "automation",
+      "pos": "n",
+      "meanings": [
+        "자동화"
+      ],
+      "example": "Automation has replaced many factory jobs.",
+      "exampleKo": "자동화는 많은 공장 일자리를 대체했다.",
+      "emoji": "🤖"
+    },
+    {
+      "word": "automate",
+      "pos": "v",
+      "meanings": [
+        "자동화하다"
+      ],
+      "example": "The company automated its production line to save time.",
+      "exampleKo": "그 회사는 시간을 절약하기 위해 생산 라인을 자동화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "software",
+      "pos": "n",
+      "meanings": [
+        "소프트웨어"
+      ],
+      "example": "This software helps students learn new languages.",
+      "exampleKo": "이 소프트웨어는 학생들이 새로운 언어를 배우는 데 도움을 준다.",
+      "emoji": "💾"
+    },
+    {
+      "word": "hardware",
+      "pos": "n",
+      "meanings": [
+        "하드웨어"
+      ],
+      "example": "The computer's hardware needs to be upgraded.",
+      "exampleKo": "그 컴퓨터의 하드웨어는 업그레이드가 필요하다.",
+      "emoji": "🖥️"
+    },
+    {
+      "word": "database",
+      "pos": "n",
+      "meanings": [
+        "데이터베이스"
+      ],
+      "example": "The library uses a database to organize its books.",
+      "exampleKo": "도서관은 책을 정리하기 위해 데이터베이스를 사용한다.",
+      "emoji": "🗄️"
+    },
+    {
+      "word": "algorithm",
+      "pos": "n",
+      "meanings": [
+        "알고리즘"
+      ],
+      "example": "The app uses an algorithm to recommend videos.",
+      "exampleKo": "그 앱은 동영상을 추천하기 위해 알고리즘을 사용한다.",
+      "emoji": ""
+    },
+    {
+      "word": "network",
+      "pos": "n",
+      "meanings": [
+        "네트워크",
+        "망"
+      ],
+      "example": "The school has a wireless network for students to use.",
+      "exampleKo": "그 학교는 학생들이 사용할 수 있는 무선 네트워크를 갖추고 있다.",
+      "emoji": "🌐"
+    },
+    {
+      "word": "virtual",
+      "pos": "adj",
+      "meanings": [
+        "가상의"
+      ],
+      "example": "Students attended a virtual classroom during the pandemic.",
+      "exampleKo": "학생들은 팬데믹 기간 동안 가상 교실에 참여했다.",
+      "emoji": "🥽"
+    },
+    {
+      "word": "simulate",
+      "pos": "v",
+      "meanings": [
+        "모의실험하다",
+        "흉내 내다"
+      ],
+      "example": "The program simulates real flight conditions for pilots.",
+      "exampleKo": "그 프로그램은 조종사를 위해 실제 비행 조건을 모의실험한다.",
+      "emoji": ""
+    },
+    {
+      "word": "simulation",
+      "pos": "n",
+      "meanings": [
+        "모의실험",
+        "시뮬레이션"
+      ],
+      "example": "Scientists used a computer simulation to predict the storm's path.",
+      "exampleKo": "과학자들은 폭풍의 경로를 예측하기 위해 컴퓨터 시뮬레이션을 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sensor",
+      "pos": "n",
+      "meanings": [
+        "센서",
+        "감지기"
+      ],
+      "example": "The sensor detects motion and turns on the light.",
+      "exampleKo": "그 센서는 움직임을 감지해서 불을 켠다.",
+      "emoji": "📡"
+    },
+    {
+      "word": "satellite",
+      "pos": "n",
+      "meanings": [
+        "인공위성"
+      ],
+      "example": "The satellite sends weather data back to earth.",
+      "exampleKo": "그 인공위성은 기상 자료를 지구로 보낸다.",
+      "emoji": "🛰️"
+    },
+    {
+      "word": "microscope",
+      "pos": "n",
+      "meanings": [
+        "현미경"
+      ],
+      "example": "Students examined the cells under a microscope.",
+      "exampleKo": "학생들은 현미경으로 세포를 관찰했다.",
+      "emoji": "🔬"
+    },
+    {
+      "word": "laboratory",
+      "pos": "n",
+      "meanings": [
+        "실험실"
+      ],
+      "example": "The experiment was conducted in a science laboratory.",
+      "exampleKo": "그 실험은 과학 실험실에서 진행되었다.",
+      "emoji": "🧪"
+    },
+    {
+      "word": "apparatus",
+      "pos": "n",
+      "meanings": [
+        "기구",
+        "장치"
+      ],
+      "example": "The lab apparatus must be handled carefully.",
+      "exampleKo": "실험 기구는 조심스럽게 다뤄야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "mechanism",
+      "pos": "n",
+      "meanings": [
+        "메커니즘",
+        "장치"
+      ],
+      "example": "The clock's mechanism is made of tiny gears.",
+      "exampleKo": "그 시계의 메커니즘은 작은 톱니바퀴들로 이루어져 있다.",
+      "emoji": "⚙️"
+    },
+    {
+      "word": "mechanical",
+      "pos": "adj",
+      "meanings": [
+        "기계의",
+        "기계적인"
+      ],
+      "example": "A mechanical failure caused the machine to stop.",
+      "exampleKo": "기계적 결함으로 인해 그 기계가 멈췄다.",
+      "emoji": ""
+    },
+    {
+      "word": "technical",
+      "pos": "adj",
+      "meanings": [
+        "기술적인"
+      ],
+      "example": "The engineer solved a technical problem with the device.",
+      "exampleKo": "그 기술자는 장치의 기술적 문제를 해결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "innovative",
+      "pos": "adj",
+      "meanings": [
+        "혁신적인"
+      ],
+      "example": "The company is known for its innovative products.",
+      "exampleKo": "그 회사는 혁신적인 제품으로 유명하다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "robotics",
+      "pos": "n",
+      "meanings": [
+        "로봇 공학"
+      ],
+      "example": "She studies robotics at a technical university.",
+      "exampleKo": "그녀는 공과대학에서 로봇 공학을 공부한다.",
+      "emoji": ""
+    },
+    {
+      "word": "wireless",
+      "pos": "adj",
+      "meanings": [
+        "무선의"
+      ],
+      "example": "Most homes now have wireless internet access.",
+      "exampleKo": "요즘 대부분의 가정은 무선 인터넷을 사용할 수 있다.",
+      "emoji": "📶"
+    },
+    {
+      "word": "transmit",
+      "pos": "v",
+      "meanings": [
+        "전송하다",
+        "전달하다"
+      ],
+      "example": "The antenna transmits signals over long distances.",
+      "exampleKo": "그 안테나는 신호를 먼 거리까지 전송한다.",
+      "emoji": ""
+    },
+    {
+      "word": "interface",
+      "pos": "n",
+      "meanings": [
+        "인터페이스",
+        "접속 장치"
+      ],
+      "example": "The app has a simple and easy-to-use interface.",
+      "exampleKo": "그 앱은 간단하고 사용하기 쉬운 인터페이스를 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "processor",
+      "pos": "n",
+      "meanings": [
+        "처리 장치",
+        "프로세서"
+      ],
+      "example": "A faster processor makes the computer run smoothly.",
+      "exampleKo": "더 빠른 프로세서는 컴퓨터가 원활하게 작동하게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "semiconductor",
+      "pos": "n",
+      "meanings": [
+        "반도체"
+      ],
+      "example": "Semiconductors are essential parts of modern electronics.",
+      "exampleKo": "반도체는 현대 전자 기기의 필수 부품이다.",
+      "emoji": ""
+    },
+    {
+      "word": "gadget",
+      "pos": "n",
+      "meanings": [
+        "기기",
+        "장치"
+      ],
+      "example": "He loves buying the latest electronic gadgets.",
+      "exampleKo": "그는 최신 전자 기기를 구매하는 것을 좋아한다.",
+      "emoji": "📱"
+    },
+    {
+      "word": "prototype",
+      "pos": "n",
+      "meanings": [
+        "시제품",
+        "원형"
+      ],
+      "example": "Engineers built a prototype to test the new design.",
+      "exampleKo": "엔지니어들은 새로운 디자인을 테스트하기 위해 시제품을 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "engineering",
+      "pos": "n",
+      "meanings": [
+        "공학"
+      ],
+      "example": "She plans to study mechanical engineering in college.",
+      "exampleKo": "그녀는 대학에서 기계 공학을 전공할 계획이다.",
+      "emoji": ""
+    },
+    {
+      "word": "upload",
+      "pos": "v",
+      "meanings": [
+        "업로드하다"
+      ],
+      "example": "You can upload your files to the cloud.",
+      "exampleKo": "당신은 파일을 클라우드에 업로드할 수 있다.",
+      "emoji": "⬆️"
+    },
+    {
+      "word": "download",
+      "pos": "v",
+      "meanings": [
+        "다운로드하다"
+      ],
+      "example": "Students downloaded the file for their homework.",
+      "exampleKo": "학생들은 숙제를 위해 그 파일을 다운로드했다.",
+      "emoji": "⬇️"
+    },
+    {
+      "word": "encode",
+      "pos": "v",
+      "meanings": [
+        "부호화하다",
+        "암호화하다"
+      ],
+      "example": "The message was encoded so only the receiver could read it.",
+      "exampleKo": "그 메시지는 수신자만 읽을 수 있도록 부호화되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "decode",
+      "pos": "v",
+      "meanings": [
+        "해독하다"
+      ],
+      "example": "Scientists worked to decode the genetic information.",
+      "exampleKo": "과학자들은 유전 정보를 해독하기 위해 노력했다.",
+      "emoji": ""
+    },
+    {
+      "word": "encrypt",
+      "pos": "v",
+      "meanings": [
+        "암호화하다"
+      ],
+      "example": "The website encrypts your data to keep it safe.",
+      "exampleKo": "그 웹사이트는 데이터를 안전하게 보호하기 위해 암호화한다.",
+      "emoji": "🔒"
+    },
+    {
+      "word": "gradual",
+      "pos": "adj",
+      "meanings": [
+        "점진적인"
+      ],
+      "example": "There has been a gradual increase in the earth's temperature.",
+      "exampleKo": "지구의 온도는 점진적으로 상승해 왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "process",
+      "pos": "n",
+      "meanings": [
+        "과정"
+      ],
+      "example": "Photosynthesis is a complex process that produces oxygen.",
+      "exampleKo": "광합성은 산소를 생산하는 복잡한 과정이다.",
+      "emoji": ""
+    },
+    {
+      "word": "structure",
+      "pos": "n",
+      "meanings": [
+        "구조"
+      ],
+      "example": "The structure of a cell includes a nucleus and membrane.",
+      "exampleKo": "세포의 구조는 핵과 막을 포함한다.",
+      "emoji": "🏗️"
+    },
+    {
+      "word": "specific",
+      "pos": "adj",
+      "meanings": [
+        "구체적인",
+        "특정한"
+      ],
+      "example": "Each species has specific characteristics that set it apart.",
+      "exampleKo": "각 종은 그것을 구별 짓는 특정한 특징을 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "substantial",
+      "pos": "adj",
+      "meanings": [
+        "상당한",
+        "실질적인"
+      ],
+      "example": "There has been a substantial improvement in battery technology.",
+      "exampleKo": "배터리 기술에는 상당한 발전이 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "remarkable",
+      "pos": "adj",
+      "meanings": [
+        "놀라운",
+        "주목할 만한"
+      ],
+      "example": "The scientist made a remarkable discovery in her lab.",
+      "exampleKo": "그 과학자는 실험실에서 놀라운 발견을 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "drastic",
+      "pos": "adj",
+      "meanings": [
+        "급격한",
+        "과감한"
+      ],
+      "example": "The region experienced a drastic change in climate.",
+      "exampleKo": "그 지역은 급격한 기후 변화를 겪었다.",
+      "emoji": ""
+    },
+    {
+      "word": "dramatic",
+      "pos": "adj",
+      "meanings": [
+        "극적인"
+      ],
+      "example": "There was a dramatic rise in global temperatures last year.",
+      "exampleKo": "작년에 지구 기온이 극적으로 상승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "rapid",
+      "pos": "adj",
+      "meanings": [
+        "빠른",
+        "급속한"
+      ],
+      "example": "Technology has developed at a rapid pace in recent years.",
+      "exampleKo": "최근 몇 년간 기술은 빠른 속도로 발전했다.",
+      "emoji": ""
+    },
+    {
+      "word": "steady",
+      "pos": "adj",
+      "meanings": [
+        "꾸준한",
+        "안정적인"
+      ],
+      "example": "The engine ran at a steady speed throughout the test.",
+      "exampleKo": "엔진은 테스트 내내 안정적인 속도로 작동했다.",
+      "emoji": ""
+    },
+    {
+      "word": "consistent",
+      "pos": "adj",
+      "meanings": [
+        "일관된",
+        "지속적인"
+      ],
+      "example": "The results of the experiment were consistent across all trials.",
+      "exampleKo": "그 실험 결과는 모든 시행에서 일관되게 나타났다.",
+      "emoji": ""
+    },
+    {
+      "word": "ultimate",
+      "pos": "adj",
+      "meanings": [
+        "궁극적인",
+        "최종적인"
+      ],
+      "example": "The ultimate goal of the project is to reduce pollution.",
+      "exampleKo": "그 프로젝트의 궁극적인 목표는 오염을 줄이는 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "efficiency",
+      "pos": "n",
+      "meanings": [
+        "효율",
+        "효율성"
+      ],
+      "example": "The new engine improves fuel efficiency significantly.",
+      "exampleKo": "새 엔진은 연료 효율을 크게 향상시킨다.",
+      "emoji": ""
+    },
+    {
+      "word": "precise",
+      "pos": "adj",
+      "meanings": [
+        "정확한",
+        "정밀한"
+      ],
+      "example": "Scientists need precise measurements to conduct experiments.",
+      "exampleKo": "과학자들은 실험을 수행하기 위해 정확한 측정값이 필요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "precision",
+      "pos": "n",
+      "meanings": [
+        "정밀성",
+        "정확성"
+      ],
+      "example": "The instrument was designed with great precision.",
+      "exampleKo": "그 기구는 매우 정밀하게 설계되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "reliable",
+      "pos": "adj",
+      "meanings": [
+        "신뢰할 수 있는",
+        "믿을 만한"
+      ],
+      "example": "The new sensor provides reliable data about air quality.",
+      "exampleKo": "그 새 센서는 대기질에 대해 신뢰할 수 있는 자료를 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "reliability",
+      "pos": "n",
+      "meanings": [
+        "신뢰성"
+      ],
+      "example": "Engineers tested the reliability of the new device.",
+      "exampleKo": "엔지니어들은 새 장치의 신뢰성을 시험했다.",
+      "emoji": ""
+    },
+    {
+      "word": "valid",
+      "pos": "adj",
+      "meanings": [
+        "타당한",
+        "유효한"
+      ],
+      "example": "The experiment produced valid results that could be repeated.",
+      "exampleKo": "그 실험은 반복될 수 있는 타당한 결과를 만들어냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "practical",
+      "pos": "adj",
+      "meanings": [
+        "실용적인"
+      ],
+      "example": "Solar energy is a practical solution for many households.",
+      "exampleKo": "태양 에너지는 많은 가정에 실용적인 해결책이다.",
+      "emoji": ""
+    },
+    {
+      "word": "theoretical",
+      "pos": "adj",
+      "meanings": [
+        "이론적인"
+      ],
+      "example": "The theory remained theoretical until it was tested in a lab.",
+      "exampleKo": "그 이론은 실험실에서 검증되기 전까지는 이론적인 상태로 남아 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "systematic",
+      "pos": "adj",
+      "meanings": [
+        "체계적인"
+      ],
+      "example": "The researchers took a systematic approach to collecting data.",
+      "exampleKo": "연구자들은 자료를 수집하는 데 체계적인 접근 방식을 취했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sample",
+      "pos": "n",
+      "meanings": [
+        "표본",
+        "샘플"
+      ],
+      "example": "The scientist collected a soil sample for testing.",
+      "exampleKo": "그 과학자는 검사를 위해 토양 표본을 채취했다.",
+      "emoji": ""
+    },
+    {
+      "word": "variable",
+      "pos": "n",
+      "meanings": [
+        "변수"
+      ],
+      "example": "Temperature is an important variable in this experiment.",
+      "exampleKo": "온도는 이 실험에서 중요한 변수이다.",
+      "emoji": ""
+    },
+    {
+      "word": "measurement",
+      "pos": "n",
+      "meanings": [
+        "측정",
+        "측정치"
+      ],
+      "example": "Accurate measurement is crucial in scientific experiments.",
+      "exampleKo": "정확한 측정은 과학 실험에서 매우 중요하다.",
+      "emoji": "📏"
+    },
+    {
+      "word": "calculation",
+      "pos": "n",
+      "meanings": [
+        "계산"
+      ],
+      "example": "The engineer double-checked her calculations before building the bridge.",
+      "exampleKo": "그 엔지니어는 다리를 건설하기 전에 계산을 다시 확인했다.",
+      "emoji": "🧮"
+    },
+    {
+      "word": "formula",
+      "pos": "n",
+      "meanings": [
+        "공식"
+      ],
+      "example": "Students learned the formula for calculating speed.",
+      "exampleKo": "학생들은 속도를 계산하는 공식을 배웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "equation",
+      "pos": "n",
+      "meanings": [
+        "방정식"
+      ],
+      "example": "She solved the equation to find the value of x.",
+      "exampleKo": "그녀는 x값을 구하기 위해 방정식을 풀었다.",
+      "emoji": ""
+    },
+    {
+      "word": "ratio",
+      "pos": "n",
+      "meanings": [
+        "비율"
+      ],
+      "example": "The ratio of oxygen to nitrogen in the air is fairly constant.",
+      "exampleKo": "공기 중 산소와 질소의 비율은 상당히 일정하다.",
+      "emoji": ""
+    },
+    {
+      "word": "proportion",
+      "pos": "n",
+      "meanings": [
+        "비율",
+        "비중"
+      ],
+      "example": "A large proportion of the earth's surface is covered by water.",
+      "exampleKo": "지구 표면의 상당 부분은 물로 덮여 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "average",
+      "pos": "adj",
+      "meanings": [
+        "평균의",
+        "보통의"
+      ],
+      "example": "The average temperature has risen over the past decade.",
+      "exampleKo": "지난 10년 동안 평균 기온이 상승했다.",
+      "emoji": ""
+    }
+  ]
+}

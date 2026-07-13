@@ -1,0 +1,1856 @@
+{
+  "level": 4,
+  "words": [
+    {
+      "word": "pill",
+      "pos": "n",
+      "meanings": [
+        "알약"
+      ],
+      "example": "Take this pill after lunch.",
+      "exampleKo": "점심 식사 후에 이 알약을 드세요.",
+      "emoji": "💊"
+    },
+    {
+      "word": "injury",
+      "pos": "n",
+      "meanings": [
+        "부상",
+        "상처"
+      ],
+      "example": "He got an injury during the game.",
+      "exampleKo": "그는 경기 중에 부상을 입었다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "cast",
+      "pos": "n",
+      "meanings": [
+        "깁스"
+      ],
+      "example": "She has a cast on her broken arm.",
+      "exampleKo": "그녀는 부러진 팔에 깁스를 했다.",
+      "emoji": "🦴"
+    },
+    {
+      "word": "checkup",
+      "pos": "n",
+      "meanings": [
+        "건강 검진"
+      ],
+      "example": "I have a checkup at the hospital today.",
+      "exampleKo": "나는 오늘 병원에서 건강 검진을 받는다.",
+      "emoji": "🩺"
+    },
+    {
+      "word": "x-ray",
+      "pos": "n",
+      "meanings": [
+        "엑스레이"
+      ],
+      "example": "The doctor took an x-ray of my leg.",
+      "exampleKo": "의사 선생님은 내 다리를 엑스레이로 찍었다.",
+      "emoji": "🩻"
+    },
+    {
+      "word": "temperature",
+      "pos": "n",
+      "meanings": [
+        "체온",
+        "온도"
+      ],
+      "example": "The nurse checked my temperature.",
+      "exampleKo": "간호사가 내 체온을 확인했다.",
+      "emoji": "🌡️"
+    },
+    {
+      "word": "allergy",
+      "pos": "n",
+      "meanings": [
+        "알레르기"
+      ],
+      "example": "I have an allergy to peanuts.",
+      "exampleKo": "나는 땅콩 알레르기가 있다.",
+      "emoji": "🤧"
+    },
+    {
+      "word": "cure",
+      "pos": "v",
+      "meanings": [
+        "치료하다",
+        "고치다"
+      ],
+      "example": "This medicine can cure a cold.",
+      "exampleKo": "이 약은 감기를 치료할 수 있다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "sore",
+      "pos": "adj",
+      "meanings": [
+        "아픈",
+        "쓰라린"
+      ],
+      "example": "My legs are sore after running.",
+      "exampleKo": "달리기 후에 다리가 아프다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "broken bone",
+      "pos": "phrase",
+      "meanings": [
+        "부러진 뼈"
+      ],
+      "example": "He has a broken bone in his foot.",
+      "exampleKo": "그는 발에 부러진 뼈가 있다.",
+      "emoji": "🦴"
+    },
+    {
+      "word": "wound",
+      "pos": "n",
+      "meanings": [
+        "상처"
+      ],
+      "example": "The nurse cleaned the wound carefully.",
+      "exampleKo": "간호사는 상처를 조심스럽게 닦았다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "scar",
+      "pos": "n",
+      "meanings": [
+        "흉터"
+      ],
+      "example": "He has a small scar on his knee.",
+      "exampleKo": "그는 무릎에 작은 흉터가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "bleed",
+      "pos": "v",
+      "meanings": [
+        "피가 나다"
+      ],
+      "example": "My finger started to bleed.",
+      "exampleKo": "내 손가락에서 피가 나기 시작했다.",
+      "emoji": "🩸"
+    },
+    {
+      "word": "blood",
+      "pos": "n",
+      "meanings": [
+        "피",
+        "혈액"
+      ],
+      "example": "The doctor checked her blood.",
+      "exampleKo": "의사는 그녀의 피를 검사했다.",
+      "emoji": "🩸"
+    },
+    {
+      "word": "pulse",
+      "pos": "n",
+      "meanings": [
+        "맥박"
+      ],
+      "example": "The nurse felt his pulse.",
+      "exampleKo": "간호사가 그의 맥박을 짚었다.",
+      "emoji": "💓"
+    },
+    {
+      "word": "symptom",
+      "pos": "n",
+      "meanings": [
+        "증상"
+      ],
+      "example": "A fever is a symptom of the flu.",
+      "exampleKo": "열은 독감의 증상이다.",
+      "emoji": "🤒"
+    },
+    {
+      "word": "treat",
+      "pos": "v",
+      "meanings": [
+        "치료하다"
+      ],
+      "example": "The doctor will treat your injury.",
+      "exampleKo": "의사 선생님이 네 부상을 치료해 줄 것이다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "treatment",
+      "pos": "n",
+      "meanings": [
+        "치료"
+      ],
+      "example": "He needs special treatment for his arm.",
+      "exampleKo": "그는 팔에 특별한 치료가 필요하다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "recover",
+      "pos": "v",
+      "meanings": [
+        "회복하다"
+      ],
+      "example": "She will recover soon.",
+      "exampleKo": "그녀는 곧 회복할 것이다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "recovery",
+      "pos": "n",
+      "meanings": [
+        "회복"
+      ],
+      "example": "His recovery took two weeks.",
+      "exampleKo": "그의 회복은 이 주가 걸렸다.",
+      "emoji": "💪"
+    },
+    {
+      "word": "ill",
+      "pos": "adj",
+      "meanings": [
+        "아픈",
+        "병든"
+      ],
+      "example": "My grandmother is ill today.",
+      "exampleKo": "우리 할머니는 오늘 편찮으시다.",
+      "emoji": "🤒"
+    },
+    {
+      "word": "illness",
+      "pos": "n",
+      "meanings": [
+        "병"
+      ],
+      "example": "He was away because of an illness.",
+      "exampleKo": "그는 병 때문에 자리를 비웠다.",
+      "emoji": "🤒"
+    },
+    {
+      "word": "disease",
+      "pos": "n",
+      "meanings": [
+        "질병"
+      ],
+      "example": "Doctors are studying the new disease.",
+      "exampleKo": "의사들이 새로운 질병을 연구하고 있다.",
+      "emoji": "🦠"
+    },
+    {
+      "word": "virus",
+      "pos": "n",
+      "meanings": [
+        "바이러스"
+      ],
+      "example": "A virus caused his fever.",
+      "exampleKo": "바이러스가 그의 열을 일으켰다.",
+      "emoji": "🦠"
+    },
+    {
+      "word": "germ",
+      "pos": "n",
+      "meanings": [
+        "세균"
+      ],
+      "example": "Wash your hands to kill germs.",
+      "exampleKo": "세균을 없애기 위해 손을 씻어라.",
+      "emoji": "🦠"
+    },
+    {
+      "word": "infect",
+      "pos": "v",
+      "meanings": [
+        "감염시키다"
+      ],
+      "example": "The virus can infect many people.",
+      "exampleKo": "그 바이러스는 많은 사람들을 감염시킬 수 있다.",
+      "emoji": "🦠"
+    },
+    {
+      "word": "infection",
+      "pos": "n",
+      "meanings": [
+        "감염"
+      ],
+      "example": "He has an infection in his ear.",
+      "exampleKo": "그는 귀에 감염이 있다.",
+      "emoji": "🦠"
+    },
+    {
+      "word": "heal",
+      "pos": "v",
+      "meanings": [
+        "낫다",
+        "치유되다"
+      ],
+      "example": "The wound will heal in a few days.",
+      "exampleKo": "그 상처는 며칠 안에 나을 것이다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "pharmacy",
+      "pos": "n",
+      "meanings": [
+        "약국"
+      ],
+      "example": "My mom bought medicine at the pharmacy.",
+      "exampleKo": "엄마는 약국에서 약을 사셨다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "drugstore",
+      "pos": "n",
+      "meanings": [
+        "약국",
+        "드러그스토어"
+      ],
+      "example": "There is a drugstore near my house.",
+      "exampleKo": "우리 집 근처에 약국이 있다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "prescribe",
+      "pos": "v",
+      "meanings": [
+        "처방하다"
+      ],
+      "example": "The doctor will prescribe some medicine.",
+      "exampleKo": "의사 선생님이 약을 처방해 줄 것이다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "prescription",
+      "pos": "n",
+      "meanings": [
+        "처방전"
+      ],
+      "example": "Take this prescription to the pharmacy.",
+      "exampleKo": "이 처방전을 약국에 가져가세요.",
+      "emoji": "💊"
+    },
+    {
+      "word": "appointment",
+      "pos": "n",
+      "meanings": [
+        "예약",
+        "진료 예약"
+      ],
+      "example": "I have a dentist appointment tomorrow.",
+      "exampleKo": "나는 내일 치과 예약이 있다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "exam",
+      "pos": "n",
+      "meanings": [
+        "검사",
+        "진찰"
+      ],
+      "example": "The doctor gave me a quick exam.",
+      "exampleKo": "의사 선생님이 나를 빠르게 진찰했다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "weigh",
+      "pos": "v",
+      "meanings": [
+        "무게를 재다"
+      ],
+      "example": "The nurse will weigh you first.",
+      "exampleKo": "간호사가 먼저 네 몸무게를 잴 것이다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "blood pressure",
+      "pos": "phrase",
+      "meanings": [
+        "혈압"
+      ],
+      "example": "The nurse checked my blood pressure.",
+      "exampleKo": "간호사가 내 혈압을 확인했다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "heartbeat",
+      "pos": "n",
+      "meanings": [
+        "심장 박동"
+      ],
+      "example": "The doctor listened to my heartbeat.",
+      "exampleKo": "의사 선생님이 내 심장 박동을 들으셨다.",
+      "emoji": "💓"
+    },
+    {
+      "word": "mask",
+      "pos": "n",
+      "meanings": [
+        "마스크"
+      ],
+      "example": "Wear a mask when you have a cold.",
+      "exampleKo": "감기에 걸렸을 때는 마스크를 써라.",
+      "emoji": "😷"
+    },
+    {
+      "word": "glasses",
+      "pos": "n",
+      "meanings": [
+        "안경"
+      ],
+      "example": "He needs glasses to see well.",
+      "exampleKo": "그는 잘 보기 위해 안경이 필요하다.",
+      "emoji": "👓"
+    },
+    {
+      "word": "wheelchair",
+      "pos": "n",
+      "meanings": [
+        "휠체어"
+      ],
+      "example": "She uses a wheelchair to move around.",
+      "exampleKo": "그녀는 이동할 때 휠체어를 이용한다.",
+      "emoji": "♿"
+    },
+    {
+      "word": "limp",
+      "pos": "v",
+      "meanings": [
+        "절뚝거리다"
+      ],
+      "example": "He began to limp after the fall.",
+      "exampleKo": "그는 넘어진 후 절뚝거리기 시작했다.",
+      "emoji": ""
+    },
+    {
+      "word": "faint",
+      "pos": "v",
+      "meanings": [
+        "기절하다"
+      ],
+      "example": "She felt like she might faint.",
+      "exampleKo": "그녀는 기절할 것 같은 기분이 들었다.",
+      "emoji": "😵"
+    },
+    {
+      "word": "dizzy",
+      "pos": "adj",
+      "meanings": [
+        "어지러운"
+      ],
+      "example": "I feel dizzy today.",
+      "exampleKo": "나는 오늘 어지럽다.",
+      "emoji": "😵"
+    },
+    {
+      "word": "nausea",
+      "pos": "n",
+      "meanings": [
+        "메스꺼움"
+      ],
+      "example": "The medicine can cause nausea.",
+      "exampleKo": "그 약은 메스꺼움을 일으킬 수 있다.",
+      "emoji": "🤢"
+    },
+    {
+      "word": "vomit",
+      "pos": "v",
+      "meanings": [
+        "토하다"
+      ],
+      "example": "He had to vomit after eating too much.",
+      "exampleKo": "그는 너무 많이 먹어서 토해야 했다.",
+      "emoji": "🤮"
+    },
+    {
+      "word": "itch",
+      "pos": "v",
+      "meanings": [
+        "가렵다"
+      ],
+      "example": "My arm started to itch.",
+      "exampleKo": "내 팔이 가렵기 시작했다.",
+      "emoji": ""
+    },
+    {
+      "word": "itchy",
+      "pos": "adj",
+      "meanings": [
+        "가려운"
+      ],
+      "example": "The bug bite is itchy.",
+      "exampleKo": "그 벌레 물린 곳이 가렵다.",
+      "emoji": ""
+    },
+    {
+      "word": "rash",
+      "pos": "n",
+      "meanings": [
+        "발진"
+      ],
+      "example": "He has a rash on his skin.",
+      "exampleKo": "그는 피부에 발진이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "swelling",
+      "pos": "n",
+      "meanings": [
+        "부기",
+        "붓기"
+      ],
+      "example": "The swelling on his ankle went down.",
+      "exampleKo": "그의 발목의 부기가 가라앉았다.",
+      "emoji": ""
+    },
+    {
+      "word": "swollen",
+      "pos": "adj",
+      "meanings": [
+        "부은"
+      ],
+      "example": "Her finger looks swollen.",
+      "exampleKo": "그녀의 손가락이 부어 보인다.",
+      "emoji": ""
+    },
+    {
+      "word": "band-aid",
+      "pos": "n",
+      "meanings": [
+        "반창고"
+      ],
+      "example": "Put a band-aid on the cut.",
+      "exampleKo": "베인 곳에 반창고를 붙여라.",
+      "emoji": "🩹"
+    },
+    {
+      "word": "plaster",
+      "pos": "n",
+      "meanings": [
+        "반창고",
+        "석고 붕대"
+      ],
+      "example": "The nurse put a plaster on the cut.",
+      "exampleKo": "간호사가 베인 곳에 반창고를 붙였다.",
+      "emoji": "🩹"
+    },
+    {
+      "word": "sling",
+      "pos": "n",
+      "meanings": [
+        "팔걸이 붕대"
+      ],
+      "example": "His arm is in a sling.",
+      "exampleKo": "그의 팔은 팔걸이 붕대를 하고 있다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "brace",
+      "pos": "n",
+      "meanings": [
+        "보호대"
+      ],
+      "example": "She wears a brace on her knee.",
+      "exampleKo": "그녀는 무릎에 보호대를 착용한다.",
+      "emoji": "🦵"
+    },
+    {
+      "word": "crutch",
+      "pos": "n",
+      "meanings": [
+        "목발"
+      ],
+      "example": "He walks with a crutch.",
+      "exampleKo": "그는 목발을 짚고 걷는다.",
+      "emoji": "🩼"
+    },
+    {
+      "word": "crutches",
+      "pos": "n",
+      "meanings": [
+        "목발"
+      ],
+      "example": "She used crutches after her surgery.",
+      "exampleKo": "그녀는 수술 후에 목발을 사용했다.",
+      "emoji": "🩼"
+    },
+    {
+      "word": "ambulance",
+      "pos": "n",
+      "meanings": [
+        "구급차"
+      ],
+      "example": "The ambulance arrived quickly.",
+      "exampleKo": "구급차가 빠르게 도착했다.",
+      "emoji": "🚑"
+    },
+    {
+      "word": "stretcher",
+      "pos": "n",
+      "meanings": [
+        "들것"
+      ],
+      "example": "They carried him on a stretcher.",
+      "exampleKo": "그들은 그를 들것에 실어 옮겼다.",
+      "emoji": "🚑"
+    },
+    {
+      "word": "surgery",
+      "pos": "n",
+      "meanings": [
+        "수술"
+      ],
+      "example": "He had surgery on his leg.",
+      "exampleKo": "그는 다리 수술을 받았다.",
+      "emoji": "🏥"
+    },
+    {
+      "word": "operation",
+      "pos": "n",
+      "meanings": [
+        "수술"
+      ],
+      "example": "The operation went well.",
+      "exampleKo": "그 수술은 잘 되었다.",
+      "emoji": "🏥"
+    },
+    {
+      "word": "vaccine",
+      "pos": "n",
+      "meanings": [
+        "백신"
+      ],
+      "example": "The vaccine keeps you healthy.",
+      "exampleKo": "백신은 너를 건강하게 지켜준다.",
+      "emoji": "💉"
+    },
+    {
+      "word": "vaccination",
+      "pos": "n",
+      "meanings": [
+        "예방 접종"
+      ],
+      "example": "I got a vaccination at the clinic.",
+      "exampleKo": "나는 진료소에서 예방 접종을 받았다.",
+      "emoji": "💉"
+    },
+    {
+      "word": "injection",
+      "pos": "n",
+      "meanings": [
+        "주사"
+      ],
+      "example": "The nurse gave him an injection.",
+      "exampleKo": "간호사가 그에게 주사를 놓았다.",
+      "emoji": "💉"
+    },
+    {
+      "word": "shot",
+      "pos": "n",
+      "meanings": [
+        "주사"
+      ],
+      "example": "He cried when he got the shot.",
+      "exampleKo": "그는 주사를 맞을 때 울었다.",
+      "emoji": "💉"
+    },
+    {
+      "word": "dose",
+      "pos": "n",
+      "meanings": [
+        "복용량",
+        "1회분"
+      ],
+      "example": "Take one dose of medicine every morning.",
+      "exampleKo": "매일 아침 약 한 번 분량을 복용해라.",
+      "emoji": "💊"
+    },
+    {
+      "word": "tablet",
+      "pos": "n",
+      "meanings": [
+        "알약"
+      ],
+      "example": "She swallowed the tablet with water.",
+      "exampleKo": "그녀는 물과 함께 알약을 삼켰다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "capsule",
+      "pos": "n",
+      "meanings": [
+        "캡슐약"
+      ],
+      "example": "This capsule tastes strange.",
+      "exampleKo": "이 캡슐약은 맛이 이상하다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "thermometer",
+      "pos": "n",
+      "meanings": [
+        "체온계"
+      ],
+      "example": "Mom used a thermometer to check my temperature.",
+      "exampleKo": "엄마는 체온계로 내 체온을 확인하셨다.",
+      "emoji": "🌡️"
+    },
+    {
+      "word": "stitches",
+      "pos": "n",
+      "meanings": [
+        "봉합사",
+        "꿰맨 자국"
+      ],
+      "example": "He got five stitches on his chin.",
+      "exampleKo": "그는 턱에 다섯 바늘을 꿰맸다.",
+      "emoji": "🧵"
+    },
+    {
+      "word": "sore throat",
+      "pos": "phrase",
+      "meanings": [
+        "목이 아픈 것",
+        "인후통"
+      ],
+      "example": "I have a sore throat today.",
+      "exampleKo": "나는 오늘 목이 아프다.",
+      "emoji": "🤒"
+    },
+    {
+      "word": "throat",
+      "pos": "n",
+      "meanings": [
+        "목구멍"
+      ],
+      "example": "My throat hurts when I swallow.",
+      "exampleKo": "삼킬 때 목이 아프다.",
+      "emoji": ""
+    },
+    {
+      "word": "earache",
+      "pos": "n",
+      "meanings": [
+        "귀앓이",
+        "귀 통증"
+      ],
+      "example": "She has an earache after swimming.",
+      "exampleKo": "그녀는 수영 후 귀가 아프다.",
+      "emoji": "👂"
+    },
+    {
+      "word": "backache",
+      "pos": "n",
+      "meanings": [
+        "요통",
+        "등 통증"
+      ],
+      "example": "He has a backache from sitting too long.",
+      "exampleKo": "그는 너무 오래 앉아 있어서 허리가 아프다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "runny nose",
+      "pos": "phrase",
+      "meanings": [
+        "콧물"
+      ],
+      "example": "I have a runny nose today.",
+      "exampleKo": "나는 오늘 콧물이 난다.",
+      "emoji": "🤧"
+    },
+    {
+      "word": "clinic",
+      "pos": "n",
+      "meanings": [
+        "진료소",
+        "병원"
+      ],
+      "example": "We visited a small clinic near school.",
+      "exampleKo": "우리는 학교 근처의 작은 진료소를 방문했다.",
+      "emoji": "🏥"
+    },
+    {
+      "word": "first aid",
+      "pos": "n",
+      "meanings": [
+        "응급 처치"
+      ],
+      "example": "She learned first aid at school.",
+      "exampleKo": "그녀는 학교에서 응급 처치를 배웠다.",
+      "emoji": "🩹"
+    },
+    {
+      "word": "first-aid kit",
+      "pos": "n",
+      "meanings": [
+        "구급상자"
+      ],
+      "example": "We keep a first-aid kit at home.",
+      "exampleKo": "우리는 집에 구급상자를 둔다.",
+      "emoji": "🩹"
+    },
+    {
+      "word": "get well soon",
+      "pos": "phrase",
+      "meanings": [
+        "빨리 나으세요"
+      ],
+      "example": "I hope you get well soon.",
+      "exampleKo": "빨리 낫기를 바라.",
+      "emoji": "💐"
+    },
+    {
+      "word": "unwell",
+      "pos": "adj",
+      "meanings": [
+        "몸이 안 좋은"
+      ],
+      "example": "He looked unwell this morning.",
+      "exampleKo": "그는 오늘 아침에 몸이 안 좋아 보였다.",
+      "emoji": "🤒"
+    },
+    {
+      "word": "get better",
+      "pos": "phrase",
+      "meanings": [
+        "나아지다",
+        "호전되다"
+      ],
+      "example": "I hope you get better soon.",
+      "exampleKo": "네가 빨리 나아지길 바라.",
+      "emoji": "👍"
+    },
+    {
+      "word": "medical",
+      "pos": "adj",
+      "meanings": [
+        "의료의",
+        "의학의"
+      ],
+      "example": "He works at a medical center.",
+      "exampleKo": "그는 의료 센터에서 일한다.",
+      "emoji": "🏥"
+    },
+    {
+      "word": "eye drops",
+      "pos": "n",
+      "meanings": [
+        "안약"
+      ],
+      "example": "Use these eye drops twice a day.",
+      "exampleKo": "이 안약을 하루에 두 번 사용하세요.",
+      "emoji": "💧"
+    },
+    {
+      "word": "cold medicine",
+      "pos": "phrase",
+      "meanings": [
+        "감기약"
+      ],
+      "example": "He took some cold medicine before bed.",
+      "exampleKo": "그는 자기 전에 감기약을 먹었다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "pain reliever",
+      "pos": "phrase",
+      "meanings": [
+        "진통제"
+      ],
+      "example": "She took a pain reliever for her headache.",
+      "exampleKo": "그녀는 두통 때문에 진통제를 먹었다.",
+      "emoji": "💊"
+    },
+    {
+      "word": "price",
+      "pos": "n",
+      "meanings": [
+        "가격"
+      ],
+      "example": "What is the price of this shirt?",
+      "exampleKo": "이 셔츠의 가격은 얼마예요?",
+      "emoji": "💲"
+    },
+    {
+      "word": "cost",
+      "pos": "n",
+      "meanings": [
+        "비용",
+        "값"
+      ],
+      "example": "The cost of the toy is five dollars.",
+      "exampleKo": "그 장난감의 값은 5달러이다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "cash",
+      "pos": "n",
+      "meanings": [
+        "현금"
+      ],
+      "example": "I only have cash with me.",
+      "exampleKo": "나는 현금만 가지고 있다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "coin",
+      "pos": "n",
+      "meanings": [
+        "동전"
+      ],
+      "example": "He found a coin on the ground.",
+      "exampleKo": "그는 땅에서 동전을 발견했다.",
+      "emoji": "🪙"
+    },
+    {
+      "word": "bill",
+      "pos": "n",
+      "meanings": [
+        "지폐",
+        "계산서"
+      ],
+      "example": "She paid with a ten-dollar bill.",
+      "exampleKo": "그녀는 10달러 지폐로 지불했다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "wallet",
+      "pos": "n",
+      "meanings": [
+        "지갑"
+      ],
+      "example": "He keeps his money in a wallet.",
+      "exampleKo": "그는 지갑에 돈을 보관한다.",
+      "emoji": "👛"
+    },
+    {
+      "word": "purse",
+      "pos": "n",
+      "meanings": [
+        "손지갑",
+        "핸드백"
+      ],
+      "example": "Mom put her keys in her purse.",
+      "exampleKo": "엄마는 손지갑에 열쇠를 넣으셨다.",
+      "emoji": "👛"
+    },
+    {
+      "word": "receipt",
+      "pos": "n",
+      "meanings": [
+        "영수증"
+      ],
+      "example": "Keep the receipt in case you need to return it.",
+      "exampleKo": "반품할 경우를 대비해 영수증을 보관해라.",
+      "emoji": "🧾"
+    },
+    {
+      "word": "discount",
+      "pos": "n",
+      "meanings": [
+        "할인"
+      ],
+      "example": "We got a big discount on shoes.",
+      "exampleKo": "우리는 신발을 크게 할인받았다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "sale",
+      "pos": "n",
+      "meanings": [
+        "할인 판매",
+        "세일"
+      ],
+      "example": "The store is having a big sale.",
+      "exampleKo": "그 가게는 큰 할인 판매를 하고 있다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "expensive",
+      "pos": "adj",
+      "meanings": [
+        "비싼"
+      ],
+      "example": "This bag is too expensive for me.",
+      "exampleKo": "이 가방은 나에게 너무 비싸다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "cheap",
+      "pos": "adj",
+      "meanings": [
+        "싼",
+        "저렴한"
+      ],
+      "example": "These pencils are very cheap.",
+      "exampleKo": "이 연필들은 매우 싸다.",
+      "emoji": "💲"
+    },
+    {
+      "word": "coupon",
+      "pos": "n",
+      "meanings": [
+        "쿠폰",
+        "할인권"
+      ],
+      "example": "I have a coupon for this store.",
+      "exampleKo": "나는 이 가게에서 쓸 쿠폰이 있다.",
+      "emoji": "🎟️"
+    },
+    {
+      "word": "cart",
+      "pos": "n",
+      "meanings": [
+        "쇼핑 카트"
+      ],
+      "example": "He pushed the cart around the store.",
+      "exampleKo": "그는 가게 안에서 카트를 밀었다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "size",
+      "pos": "n",
+      "meanings": [
+        "크기",
+        "치수"
+      ],
+      "example": "What size do you wear?",
+      "exampleKo": "너는 어떤 사이즈를 입니?",
+      "emoji": "📏"
+    },
+    {
+      "word": "fitting room",
+      "pos": "n",
+      "meanings": [
+        "탈의실"
+      ],
+      "example": "She tried on the dress in the fitting room.",
+      "exampleKo": "그녀는 탈의실에서 드레스를 입어 보았다.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "cashier",
+      "pos": "n",
+      "meanings": [
+        "계산원"
+      ],
+      "example": "The cashier gave me my change.",
+      "exampleKo": "계산원이 나에게 거스름돈을 주었다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "customer",
+      "pos": "n",
+      "meanings": [
+        "손님",
+        "고객"
+      ],
+      "example": "The store was full of customers.",
+      "exampleKo": "가게는 손님들로 가득했다.",
+      "emoji": "🧑"
+    },
+    {
+      "word": "mall",
+      "pos": "n",
+      "meanings": [
+        "쇼핑몰"
+      ],
+      "example": "We went shopping at the mall.",
+      "exampleKo": "우리는 쇼핑몰에서 쇼핑을 했다.",
+      "emoji": "🏬"
+    },
+    {
+      "word": "change",
+      "pos": "n",
+      "meanings": [
+        "거스름돈"
+      ],
+      "example": "Here is your change.",
+      "exampleKo": "여기 거스름돈 있습니다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "money",
+      "pos": "n",
+      "meanings": [
+        "돈"
+      ],
+      "example": "He saved his money in a box.",
+      "exampleKo": "그는 상자에 돈을 모았다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "dollar",
+      "pos": "n",
+      "meanings": [
+        "달러"
+      ],
+      "example": "The apple costs one dollar.",
+      "exampleKo": "그 사과는 1달러이다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "cent",
+      "pos": "n",
+      "meanings": [
+        "센트"
+      ],
+      "example": "It costs fifty cents.",
+      "exampleKo": "그것은 50센트이다.",
+      "emoji": "🪙"
+    },
+    {
+      "word": "won",
+      "pos": "n",
+      "meanings": [
+        "원(한국 화폐)"
+      ],
+      "example": "The candy costs five hundred won.",
+      "exampleKo": "그 사탕은 500원이다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "price tag",
+      "pos": "n",
+      "meanings": [
+        "가격표"
+      ],
+      "example": "Check the price tag before you buy.",
+      "exampleKo": "사기 전에 가격표를 확인해라.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "tag",
+      "pos": "n",
+      "meanings": [
+        "표",
+        "꼬리표"
+      ],
+      "example": "The tag shows the size of the shirt.",
+      "exampleKo": "그 표는 셔츠의 사이즈를 보여준다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "label",
+      "pos": "n",
+      "meanings": [
+        "라벨",
+        "상표"
+      ],
+      "example": "Read the label before you eat it.",
+      "exampleKo": "먹기 전에 라벨을 읽어봐.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "brand",
+      "pos": "n",
+      "meanings": [
+        "상표",
+        "브랜드"
+      ],
+      "example": "This is a famous shoe brand.",
+      "exampleKo": "이것은 유명한 신발 브랜드이다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "bargain",
+      "pos": "n",
+      "meanings": [
+        "싸게 사는 물건",
+        "특가품"
+      ],
+      "example": "This jacket was a real bargain.",
+      "exampleKo": "이 재킷은 정말 싸게 잘 산 물건이었다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "deal",
+      "pos": "n",
+      "meanings": [
+        "거래",
+        "특가"
+      ],
+      "example": "We found a great deal on toys.",
+      "exampleKo": "우리는 장난감을 아주 싸게 살 수 있었다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "refund",
+      "pos": "n",
+      "meanings": [
+        "환불"
+      ],
+      "example": "She asked for a refund.",
+      "exampleKo": "그녀는 환불을 요청했다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "credit card",
+      "pos": "n",
+      "meanings": [
+        "신용카드"
+      ],
+      "example": "My father paid with his credit card.",
+      "exampleKo": "아버지는 신용카드로 계산하셨다.",
+      "emoji": "💳"
+    },
+    {
+      "word": "debit card",
+      "pos": "n",
+      "meanings": [
+        "체크카드"
+      ],
+      "example": "She used a debit card to pay.",
+      "exampleKo": "그녀는 체크카드로 계산했다.",
+      "emoji": "💳"
+    },
+    {
+      "word": "ATM",
+      "pos": "n",
+      "meanings": [
+        "현금 인출기"
+      ],
+      "example": "He took out cash from the ATM.",
+      "exampleKo": "그는 현금 인출기에서 돈을 뽑았다.",
+      "emoji": "🏧"
+    },
+    {
+      "word": "account",
+      "pos": "n",
+      "meanings": [
+        "계좌"
+      ],
+      "example": "She put her money in a bank account.",
+      "exampleKo": "그녀는 돈을 은행 계좌에 넣었다.",
+      "emoji": "🏦"
+    },
+    {
+      "word": "allowance",
+      "pos": "n",
+      "meanings": [
+        "용돈"
+      ],
+      "example": "I get an allowance every week.",
+      "exampleKo": "나는 매주 용돈을 받는다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "owe",
+      "pos": "v",
+      "meanings": [
+        "빚지다"
+      ],
+      "example": "I owe him two dollars.",
+      "exampleKo": "나는 그에게 2달러를 빚졌다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "gift",
+      "pos": "n",
+      "meanings": [
+        "선물"
+      ],
+      "example": "She bought a gift for her friend.",
+      "exampleKo": "그녀는 친구를 위해 선물을 샀다.",
+      "emoji": "🎁"
+    },
+    {
+      "word": "present",
+      "pos": "n",
+      "meanings": [
+        "선물"
+      ],
+      "example": "He gave his mom a present.",
+      "exampleKo": "그는 엄마에게 선물을 드렸다.",
+      "emoji": "🎁"
+    },
+    {
+      "word": "order",
+      "pos": "v",
+      "meanings": [
+        "주문하다"
+      ],
+      "example": "We ordered new shoes online.",
+      "exampleKo": "우리는 온라인으로 새 신발을 주문했다.",
+      "emoji": ""
+    },
+    {
+      "word": "delivery",
+      "pos": "n",
+      "meanings": [
+        "배달"
+      ],
+      "example": "The delivery arrived this morning.",
+      "exampleKo": "배달이 오늘 아침에 도착했다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "deliver",
+      "pos": "v",
+      "meanings": [
+        "배달하다"
+      ],
+      "example": "They deliver packages every day.",
+      "exampleKo": "그들은 매일 소포를 배달한다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "department store",
+      "pos": "n",
+      "meanings": [
+        "백화점"
+      ],
+      "example": "We shopped at a department store.",
+      "exampleKo": "우리는 백화점에서 쇼핑을 했다.",
+      "emoji": "🏬"
+    },
+    {
+      "word": "supermarket",
+      "pos": "n",
+      "meanings": [
+        "슈퍼마켓"
+      ],
+      "example": "Mom went to the supermarket.",
+      "exampleKo": "엄마는 슈퍼마켓에 가셨다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "groceries",
+      "pos": "n",
+      "meanings": [
+        "식료품"
+      ],
+      "example": "We bought groceries for dinner.",
+      "exampleKo": "우리는 저녁을 위해 식료품을 샀다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "grocery store",
+      "pos": "n",
+      "meanings": [
+        "식료품점"
+      ],
+      "example": "He walked to the grocery store.",
+      "exampleKo": "그는 식료품점까지 걸어갔다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "cash back",
+      "pos": "n",
+      "meanings": [
+        "캐시백",
+        "현금 환급"
+      ],
+      "example": "She got some cash back from her card.",
+      "exampleKo": "그녀는 카드로 캐시백을 좀 받았다.",
+      "emoji": "💵"
+    },
+    {
+      "word": "product",
+      "pos": "n",
+      "meanings": [
+        "제품",
+        "상품"
+      ],
+      "example": "This is a new product in the store.",
+      "exampleKo": "이것은 가게에 새로 나온 제품이다.",
+      "emoji": ""
+    },
+    {
+      "word": "item",
+      "pos": "n",
+      "meanings": [
+        "물품",
+        "항목"
+      ],
+      "example": "He bought three items at the store.",
+      "exampleKo": "그는 가게에서 물품 세 개를 샀다.",
+      "emoji": ""
+    },
+    {
+      "word": "goods",
+      "pos": "n",
+      "meanings": [
+        "상품"
+      ],
+      "example": "The truck delivered goods to the shop.",
+      "exampleKo": "트럭이 가게에 상품을 배달했다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "quality",
+      "pos": "n",
+      "meanings": [
+        "품질"
+      ],
+      "example": "This bag has good quality.",
+      "exampleKo": "이 가방은 품질이 좋다.",
+      "emoji": ""
+    },
+    {
+      "word": "quantity",
+      "pos": "n",
+      "meanings": [
+        "양",
+        "수량"
+      ],
+      "example": "We need a large quantity of paper.",
+      "exampleKo": "우리는 많은 양의 종이가 필요하다.",
+      "emoji": "🔢"
+    },
+    {
+      "word": "scale",
+      "pos": "n",
+      "meanings": [
+        "저울"
+      ],
+      "example": "The clerk weighed the fruit on a scale.",
+      "exampleKo": "점원은 저울로 과일의 무게를 쟀다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "shopping bag",
+      "pos": "n",
+      "meanings": [
+        "쇼핑백"
+      ],
+      "example": "She carried two shopping bags.",
+      "exampleKo": "그녀는 쇼핑백 두 개를 들었다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "shopping list",
+      "pos": "n",
+      "meanings": [
+        "쇼핑 목록"
+      ],
+      "example": "Dad made a shopping list before we left.",
+      "exampleKo": "아빠는 출발 전에 쇼핑 목록을 만드셨다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "aisle",
+      "pos": "n",
+      "meanings": [
+        "통로",
+        "진열대 사이 통로"
+      ],
+      "example": "The milk is in the third aisle.",
+      "exampleKo": "우유는 세 번째 통로에 있다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "counter",
+      "pos": "n",
+      "meanings": [
+        "계산대",
+        "카운터"
+      ],
+      "example": "Please pay at the counter.",
+      "exampleKo": "계산대에서 계산해 주세요.",
+      "emoji": "🧾"
+    },
+    {
+      "word": "cash register",
+      "pos": "n",
+      "meanings": [
+        "금전 등록기"
+      ],
+      "example": "The cashier opened the cash register.",
+      "exampleKo": "계산원이 금전 등록기를 열었다.",
+      "emoji": "🧾"
+    },
+    {
+      "word": "warranty",
+      "pos": "n",
+      "meanings": [
+        "품질 보증서"
+      ],
+      "example": "The phone has a one-year warranty.",
+      "exampleKo": "그 전화기는 1년 품질 보증서가 있다.",
+      "emoji": "📄"
+    },
+    {
+      "word": "try on",
+      "pos": "phrase",
+      "meanings": [
+        "입어 보다"
+      ],
+      "example": "Can I try on this jacket?",
+      "exampleKo": "이 재킷 입어 봐도 될까요?",
+      "emoji": "👗"
+    },
+    {
+      "word": "changing room",
+      "pos": "n",
+      "meanings": [
+        "탈의실"
+      ],
+      "example": "She went to the changing room.",
+      "exampleKo": "그녀는 탈의실로 갔다.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "mannequin",
+      "pos": "n",
+      "meanings": [
+        "마네킹"
+      ],
+      "example": "The dress looks nice on the mannequin.",
+      "exampleKo": "그 드레스는 마네킹에 잘 어울린다.",
+      "emoji": ""
+    },
+    {
+      "word": "window shopping",
+      "pos": "n",
+      "meanings": [
+        "아이쇼핑"
+      ],
+      "example": "We went window shopping at the mall.",
+      "exampleKo": "우리는 쇼핑몰에서 아이쇼핑을 했다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "flea market",
+      "pos": "n",
+      "meanings": [
+        "벼룩시장"
+      ],
+      "example": "We found a nice hat at the flea market.",
+      "exampleKo": "우리는 벼룩시장에서 멋진 모자를 찾았다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "garage sale",
+      "pos": "n",
+      "meanings": [
+        "중고 물품 판매"
+      ],
+      "example": "They held a garage sale last weekend.",
+      "exampleKo": "그들은 지난 주말에 중고 물품 판매를 했다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "secondhand",
+      "pos": "adj",
+      "meanings": [
+        "중고의"
+      ],
+      "example": "He bought a secondhand bike.",
+      "exampleKo": "그는 중고 자전거를 샀다.",
+      "emoji": ""
+    },
+    {
+      "word": "used",
+      "pos": "adj",
+      "meanings": [
+        "중고의",
+        "사용된"
+      ],
+      "example": "She sells used books.",
+      "exampleKo": "그녀는 중고 책을 판다.",
+      "emoji": ""
+    },
+    {
+      "word": "sample",
+      "pos": "n",
+      "meanings": [
+        "견본",
+        "샘플"
+      ],
+      "example": "They gave us a free sample of cheese.",
+      "exampleKo": "그들은 우리에게 치즈 샘플을 무료로 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "membership",
+      "pos": "n",
+      "meanings": [
+        "회원권",
+        "멤버십"
+      ],
+      "example": "He has a membership at the gym.",
+      "exampleKo": "그는 체육관 회원권을 가지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "member",
+      "pos": "n",
+      "meanings": [
+        "회원"
+      ],
+      "example": "She is a member of the shop's club.",
+      "exampleKo": "그녀는 그 가게 클럽의 회원이다.",
+      "emoji": ""
+    },
+    {
+      "word": "gift card",
+      "pos": "n",
+      "meanings": [
+        "기프트 카드",
+        "상품권"
+      ],
+      "example": "I got a gift card for my birthday.",
+      "exampleKo": "나는 생일에 기프트 카드를 받았다.",
+      "emoji": "🎁"
+    },
+    {
+      "word": "voucher",
+      "pos": "n",
+      "meanings": [
+        "상품권",
+        "할인권"
+      ],
+      "example": "He used a voucher to buy the shirt.",
+      "exampleKo": "그는 상품권을 사용해 셔츠를 샀다.",
+      "emoji": "🎟️"
+    },
+    {
+      "word": "piggy bank",
+      "pos": "n",
+      "meanings": [
+        "저금통"
+      ],
+      "example": "She keeps her coins in a piggy bank.",
+      "exampleKo": "그녀는 저금통에 동전을 모은다.",
+      "emoji": "🐷"
+    },
+    {
+      "word": "savings",
+      "pos": "n",
+      "meanings": [
+        "저축",
+        "저금"
+      ],
+      "example": "He used his savings to buy a bike.",
+      "exampleKo": "그는 저축한 돈으로 자전거를 샀다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "tip",
+      "pos": "n",
+      "meanings": [
+        "팁",
+        "봉사료"
+      ],
+      "example": "We left a tip for the waiter.",
+      "exampleKo": "우리는 웨이터에게 팁을 남겼다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "penny",
+      "pos": "n",
+      "meanings": [
+        "페니(동전)"
+      ],
+      "example": "He picked up a penny from the floor.",
+      "exampleKo": "그는 바닥에서 페니 동전을 주웠다.",
+      "emoji": "🪙"
+    },
+    {
+      "word": "nickel",
+      "pos": "n",
+      "meanings": [
+        "니켈(동전)"
+      ],
+      "example": "A nickel is worth five cents.",
+      "exampleKo": "니켈 동전은 5센트의 가치가 있다.",
+      "emoji": "🪙"
+    },
+    {
+      "word": "dime",
+      "pos": "n",
+      "meanings": [
+        "다임(동전)"
+      ],
+      "example": "She found a dime under the sofa.",
+      "exampleKo": "그녀는 소파 밑에서 다임 동전을 찾았다.",
+      "emoji": "🪙"
+    },
+    {
+      "word": "quarter",
+      "pos": "n",
+      "meanings": [
+        "쿼터(동전)"
+      ],
+      "example": "He put a quarter in the machine.",
+      "exampleKo": "그는 기계에 쿼터 동전을 넣었다.",
+      "emoji": "🪙"
+    },
+    {
+      "word": "currency",
+      "pos": "n",
+      "meanings": [
+        "화폐",
+        "통화"
+      ],
+      "example": "Won is the currency of Korea.",
+      "exampleKo": "원은 한국의 화폐이다.",
+      "emoji": "💱"
+    },
+    {
+      "word": "on sale",
+      "pos": "phrase",
+      "meanings": [
+        "할인 중인"
+      ],
+      "example": "These shoes are on sale today.",
+      "exampleKo": "이 신발은 오늘 할인 중이다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "half price",
+      "pos": "phrase",
+      "meanings": [
+        "반값"
+      ],
+      "example": "The toy is half price this week.",
+      "exampleKo": "그 장난감은 이번 주에 반값이다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "full price",
+      "pos": "phrase",
+      "meanings": [
+        "정가"
+      ],
+      "example": "I paid full price for the book.",
+      "exampleKo": "나는 그 책을 정가에 샀다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "overpriced",
+      "pos": "adj",
+      "meanings": [
+        "너무 비싼"
+      ],
+      "example": "This bag is overpriced.",
+      "exampleKo": "이 가방은 너무 비싸다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "affordable",
+      "pos": "adj",
+      "meanings": [
+        "감당할 수 있는",
+        "저렴한"
+      ],
+      "example": "The prices here are affordable.",
+      "exampleKo": "이곳의 가격은 감당할 만하다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "luxury",
+      "pos": "n",
+      "meanings": [
+        "사치품",
+        "고급"
+      ],
+      "example": "A big house is a luxury for us.",
+      "exampleKo": "큰 집은 우리에게 사치품이다.",
+      "emoji": "💎"
+    },
+    {
+      "word": "logo",
+      "pos": "n",
+      "meanings": [
+        "로고"
+      ],
+      "example": "The shirt has a small logo on it.",
+      "exampleKo": "그 셔츠에는 작은 로고가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "catalog",
+      "pos": "n",
+      "meanings": [
+        "카탈로그",
+        "상품 목록"
+      ],
+      "example": "She looked at the toy catalog.",
+      "exampleKo": "그녀는 장난감 카탈로그를 보았다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "advertisement",
+      "pos": "n",
+      "meanings": [
+        "광고"
+      ],
+      "example": "We saw an advertisement for a new phone.",
+      "exampleKo": "우리는 새 전화기 광고를 보았다.",
+      "emoji": "📢"
+    },
+    {
+      "word": "promotion",
+      "pos": "n",
+      "meanings": [
+        "판촉 행사",
+        "할인 행사"
+      ],
+      "example": "The store has a summer promotion.",
+      "exampleKo": "그 가게는 여름 할인 행사를 하고 있다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "clearance",
+      "pos": "n",
+      "meanings": [
+        "재고 정리 세일"
+      ],
+      "example": "There is a clearance sale this weekend.",
+      "exampleKo": "이번 주말에 재고 정리 세일이 있다.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "stock",
+      "pos": "n",
+      "meanings": [
+        "재고"
+      ],
+      "example": "The shirt is out of stock.",
+      "exampleKo": "그 셔츠는 재고가 없다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "sold out",
+      "pos": "phrase",
+      "meanings": [
+        "매진된"
+      ],
+      "example": "The concert tickets are sold out.",
+      "exampleKo": "그 콘서트 표는 매진되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "checkout",
+      "pos": "n",
+      "meanings": [
+        "계산대"
+      ],
+      "example": "There was a long line at the checkout.",
+      "exampleKo": "계산대에 긴 줄이 있었다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "shopping",
+      "pos": "n",
+      "meanings": [
+        "쇼핑"
+      ],
+      "example": "I love going shopping with my mom.",
+      "exampleKo": "나는 엄마와 쇼핑하러 가는 것을 좋아한다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "purchase",
+      "pos": "v",
+      "meanings": [
+        "구매하다"
+      ],
+      "example": "She wants to purchase a new bag.",
+      "exampleKo": "그녀는 새 가방을 구매하고 싶어 한다.",
+      "emoji": "🛒"
+    }
+  ]
+}

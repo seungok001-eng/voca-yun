@@ -1,0 +1,1822 @@
+{
+  "level": 2,
+  "words": [
+    {
+      "word": "actor",
+      "pos": "n",
+      "meanings": [
+        "배우"
+      ],
+      "example": "My friend is an actor.",
+      "exampleKo": "제 친구는 배우예요.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "airplane",
+      "pos": "n",
+      "meanings": [
+        "비행기"
+      ],
+      "example": "I have an airplane.",
+      "exampleKo": "저는 비행기를 가지고 있어요.",
+      "emoji": "✈️"
+    },
+    {
+      "word": "paperclip",
+      "pos": "n",
+      "meanings": [
+        "종이 클립"
+      ],
+      "example": "Look at the paperclip.",
+      "exampleKo": "그 종이 클립을 보세요.",
+      "emoji": "📎"
+    },
+    {
+      "word": "alien",
+      "pos": "n",
+      "meanings": [
+        "외계인"
+      ],
+      "example": "I need an alien.",
+      "exampleKo": "저는 외계인이 필요해요.",
+      "emoji": "👽"
+    },
+    {
+      "word": "alley",
+      "pos": "n",
+      "meanings": [
+        "골목"
+      ],
+      "example": "We go to the alley.",
+      "exampleKo": "우리는 골목에 가요.",
+      "emoji": "🏘️"
+    },
+    {
+      "word": "apartment",
+      "pos": "n",
+      "meanings": [
+        "아파트"
+      ],
+      "example": "We go to the apartment.",
+      "exampleKo": "우리는 아파트에 가요.",
+      "emoji": "🏢"
+    },
+    {
+      "word": "armchair",
+      "pos": "n",
+      "meanings": [
+        "안락의자"
+      ],
+      "example": "Look at the armchair.",
+      "exampleKo": "그 안락의자를 보세요.",
+      "emoji": "🛋️"
+    },
+    {
+      "word": "artist",
+      "pos": "n",
+      "meanings": [
+        "예술가",
+        "화가"
+      ],
+      "example": "My friend is an artist.",
+      "exampleKo": "제 친구는 예술가예요.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "astronaut",
+      "pos": "n",
+      "meanings": [
+        "우주비행사"
+      ],
+      "example": "My friend is an astronaut.",
+      "exampleKo": "제 친구는 우주비행사예요.",
+      "emoji": "👨‍🚀"
+    },
+    {
+      "word": "attic",
+      "pos": "n",
+      "meanings": [
+        "다락방"
+      ],
+      "example": "We go to the attic.",
+      "exampleKo": "우리는 다락방에 가요.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "autumn",
+      "pos": "n",
+      "meanings": [
+        "가을"
+      ],
+      "example": "I like autumn.",
+      "exampleKo": "저는 가을을 좋아해요.",
+      "emoji": "🍂"
+    },
+    {
+      "word": "tape",
+      "pos": "n",
+      "meanings": [
+        "테이프"
+      ],
+      "example": "I need a tape.",
+      "exampleKo": "저는 테이프가 필요해요.",
+      "emoji": ""
+    },
+    {
+      "word": "flip",
+      "pos": "v",
+      "meanings": [
+        "뒤집다"
+      ],
+      "example": "I want to flip.",
+      "exampleKo": "저는 뒤집고 싶어요.",
+      "emoji": ""
+    },
+    {
+      "word": "baker",
+      "pos": "n",
+      "meanings": [
+        "제빵사"
+      ],
+      "example": "My friend is a baker.",
+      "exampleKo": "제 친구는 제빵사예요.",
+      "emoji": "🧑‍🍳"
+    },
+    {
+      "word": "orchard",
+      "pos": "n",
+      "meanings": [
+        "과수원"
+      ],
+      "example": "We go to the orchard.",
+      "exampleKo": "우리는 과수원에 가요.",
+      "emoji": "🍎"
+    },
+    {
+      "word": "balcony",
+      "pos": "n",
+      "meanings": [
+        "발코니"
+      ],
+      "example": "I need a balcony.",
+      "exampleKo": "저는 발코니가 필요해요.",
+      "emoji": "🏢"
+    },
+    {
+      "word": "magnet",
+      "pos": "n",
+      "meanings": [
+        "자석"
+      ],
+      "example": "This is my magnet.",
+      "exampleKo": "이것은 제 자석이에요.",
+      "emoji": "🧲"
+    },
+    {
+      "word": "band",
+      "pos": "n",
+      "meanings": [
+        "악단",
+        "밴드"
+      ],
+      "example": "I have a band.",
+      "exampleKo": "저는 악단을 가지고 있어요.",
+      "emoji": "🎸"
+    },
+    {
+      "word": "vineyard",
+      "pos": "n",
+      "meanings": [
+        "포도밭"
+      ],
+      "example": "We go to the vineyard.",
+      "exampleKo": "우리는 포도밭에 가요.",
+      "emoji": "🍇"
+    },
+    {
+      "word": "basement",
+      "pos": "n",
+      "meanings": [
+        "지하실"
+      ],
+      "example": "We go to the basement.",
+      "exampleKo": "우리는 지하실에 가요.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "magnifier",
+      "pos": "n",
+      "meanings": [
+        "돋보기"
+      ],
+      "example": "This is my magnifier.",
+      "exampleKo": "이것은 제 돋보기예요.",
+      "emoji": "🔍"
+    },
+    {
+      "word": "overalls",
+      "pos": "n",
+      "meanings": [
+        "멜빵바지"
+      ],
+      "example": "I wear my overalls.",
+      "exampleKo": "저는 제 멜빵바지를 입어요.",
+      "emoji": "👖"
+    },
+    {
+      "word": "bathroom",
+      "pos": "n",
+      "meanings": [
+        "화장실",
+        "욕실"
+      ],
+      "example": "We go to the bathroom.",
+      "exampleKo": "우리는 화장실에 가요.",
+      "emoji": "🚽"
+    },
+    {
+      "word": "notepad",
+      "pos": "n",
+      "meanings": [
+        "메모장"
+      ],
+      "example": "I need a notepad.",
+      "exampleKo": "저는 메모장이 필요해요.",
+      "emoji": "🗒️"
+    },
+    {
+      "word": "battery",
+      "pos": "n",
+      "meanings": [
+        "건전지"
+      ],
+      "example": "This is my battery.",
+      "exampleKo": "이것은 제 건전지예요.",
+      "emoji": "🔋"
+    },
+    {
+      "word": "bedroom",
+      "pos": "n",
+      "meanings": [
+        "침실"
+      ],
+      "example": "We go to the bedroom.",
+      "exampleKo": "우리는 침실에 가요.",
+      "emoji": "🛏️"
+    },
+    {
+      "word": "bell",
+      "pos": "n",
+      "meanings": [
+        "종",
+        "벨"
+      ],
+      "example": "Look at the bell.",
+      "exampleKo": "그 종을 보세요.",
+      "emoji": "🔔"
+    },
+    {
+      "word": "cardigan",
+      "pos": "n",
+      "meanings": [
+        "카디건"
+      ],
+      "example": "I wear my cardigan.",
+      "exampleKo": "저는 제 카디건을 입어요.",
+      "emoji": "🧥"
+    },
+    {
+      "word": "bench",
+      "pos": "n",
+      "meanings": [
+        "벤치"
+      ],
+      "example": "This is my bench.",
+      "exampleKo": "이것은 제 벤치예요.",
+      "emoji": "🪑"
+    },
+    {
+      "word": "bookmark",
+      "pos": "n",
+      "meanings": [
+        "책갈피"
+      ],
+      "example": "I have a bookmark.",
+      "exampleKo": "저는 책갈피를 가지고 있어요.",
+      "emoji": "🔖"
+    },
+    {
+      "word": "nametag",
+      "pos": "n",
+      "meanings": [
+        "이름표"
+      ],
+      "example": "Look at the nametag.",
+      "exampleKo": "그 이름표를 보세요.",
+      "emoji": "🏷️"
+    },
+    {
+      "word": "school bag",
+      "pos": "n",
+      "meanings": [
+        "학교 가방"
+      ],
+      "example": "I need a school bag.",
+      "exampleKo": "저는 학교 가방이 필요해요.",
+      "emoji": "🎒"
+    },
+    {
+      "word": "blackboard",
+      "pos": "n",
+      "meanings": [
+        "칠판"
+      ],
+      "example": "This is my blackboard.",
+      "exampleKo": "이것은 제 칠판이에요.",
+      "emoji": "📋"
+    },
+    {
+      "word": "pencil case",
+      "pos": "n",
+      "meanings": [
+        "필통"
+      ],
+      "example": "I have a pencil case.",
+      "exampleKo": "저는 필통을 가지고 있어요.",
+      "emoji": "✏️"
+    },
+    {
+      "word": "boat",
+      "pos": "n",
+      "meanings": [
+        "보트",
+        "배"
+      ],
+      "example": "Look at the boat.",
+      "exampleKo": "그 보트를 보세요.",
+      "emoji": "🛥️"
+    },
+    {
+      "word": "dive",
+      "pos": "v",
+      "meanings": [
+        "잠수하다"
+      ],
+      "example": "Let's dive.",
+      "exampleKo": "우리 잠수하자.",
+      "emoji": "🤿"
+    },
+    {
+      "word": "poncho",
+      "pos": "n",
+      "meanings": [
+        "판초"
+      ],
+      "example": "I wear my poncho.",
+      "exampleKo": "저는 제 판초를 입어요.",
+      "emoji": ""
+    },
+    {
+      "word": "boring",
+      "pos": "adj",
+      "meanings": [
+        "지루한"
+      ],
+      "example": "This movie is boring.",
+      "exampleKo": "이 영화는 지루해요.",
+      "emoji": "😴"
+    },
+    {
+      "word": "bow",
+      "pos": "n",
+      "meanings": [
+        "리본"
+      ],
+      "example": "Look at the bow.",
+      "exampleKo": "그 리본을 보세요.",
+      "emoji": "🎀"
+    },
+    {
+      "word": "desk mat",
+      "pos": "n",
+      "meanings": [
+        "책상 매트"
+      ],
+      "example": "I need a desk mat.",
+      "exampleKo": "저는 책상 매트가 필요해요.",
+      "emoji": ""
+    },
+    {
+      "word": "wall clock",
+      "pos": "n",
+      "meanings": [
+        "벽시계"
+      ],
+      "example": "This is my wall clock.",
+      "exampleKo": "이것은 제 벽시계예요.",
+      "emoji": "🕐"
+    },
+    {
+      "word": "sleet",
+      "pos": "n",
+      "meanings": [
+        "진눈깨비"
+      ],
+      "example": "There is sleet today.",
+      "exampleKo": "오늘은 진눈깨비가 있어요.",
+      "emoji": "🌨️"
+    },
+    {
+      "word": "bright",
+      "pos": "adj",
+      "meanings": [
+        "밝은"
+      ],
+      "example": "The sun is bright.",
+      "exampleKo": "태양은 밝아요.",
+      "emoji": "☀️"
+    },
+    {
+      "word": "broom",
+      "pos": "n",
+      "meanings": [
+        "빗자루"
+      ],
+      "example": "I need a broom.",
+      "exampleKo": "저는 빗자루가 필요해요.",
+      "emoji": "🧹"
+    },
+    {
+      "word": "doormat",
+      "pos": "n",
+      "meanings": [
+        "현관 매트"
+      ],
+      "example": "This is my doormat.",
+      "exampleKo": "이것은 제 현관 매트예요.",
+      "emoji": ""
+    },
+    {
+      "word": "bubble",
+      "pos": "n",
+      "meanings": [
+        "거품",
+        "비눗방울"
+      ],
+      "example": "I have a bubble.",
+      "exampleKo": "저는 거품을 가지고 있어요.",
+      "emoji": "🫧"
+    },
+    {
+      "word": "hook rack",
+      "pos": "n",
+      "meanings": [
+        "옷걸이 고리"
+      ],
+      "example": "Look at the hook rack.",
+      "exampleKo": "그 옷걸이 고리를 보세요.",
+      "emoji": ""
+    },
+    {
+      "word": "buckle",
+      "pos": "n",
+      "meanings": [
+        "버클"
+      ],
+      "example": "I need a buckle.",
+      "exampleKo": "저는 버클이 필요해요.",
+      "emoji": ""
+    },
+    {
+      "word": "poke",
+      "pos": "v",
+      "meanings": [
+        "찌르다"
+      ],
+      "example": "I want to poke.",
+      "exampleKo": "저는 찌르고 싶어요.",
+      "emoji": ""
+    },
+    {
+      "word": "builder",
+      "pos": "n",
+      "meanings": [
+        "건축업자"
+      ],
+      "example": "My friend is a builder.",
+      "exampleKo": "제 친구는 건축업자예요.",
+      "emoji": "👷"
+    },
+    {
+      "word": "building",
+      "pos": "n",
+      "meanings": [
+        "건물"
+      ],
+      "example": "We go to the building.",
+      "exampleKo": "우리는 건물에 가요.",
+      "emoji": "🏢"
+    },
+    {
+      "word": "busy",
+      "pos": "adj",
+      "meanings": [
+        "바쁜"
+      ],
+      "example": "My mom is busy today.",
+      "exampleKo": "우리 엄마는 오늘 바빠요.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "grapefruit",
+      "pos": "n",
+      "meanings": [
+        "자몽"
+      ],
+      "example": "I eat grapefruit.",
+      "exampleKo": "저는 자몽을 먹어요.",
+      "emoji": "🍊"
+    },
+    {
+      "word": "guinea pig",
+      "pos": "n",
+      "meanings": [
+        "기니피그"
+      ],
+      "example": "I see a guinea pig.",
+      "exampleKo": "저는 기니피그를 봐요.",
+      "emoji": "🐹"
+    },
+    {
+      "word": "footstool",
+      "pos": "n",
+      "meanings": [
+        "발판"
+      ],
+      "example": "Look at the footstool.",
+      "exampleKo": "그 발판을 보세요.",
+      "emoji": ""
+    },
+    {
+      "word": "buyer",
+      "pos": "n",
+      "meanings": [
+        "구매자"
+      ],
+      "example": "My friend is a buyer.",
+      "exampleKo": "제 친구는 구매자예요.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "cabinet",
+      "pos": "n",
+      "meanings": [
+        "캐비닛",
+        "수납장"
+      ],
+      "example": "This is my cabinet.",
+      "exampleKo": "이것은 제 캐비닛이에요.",
+      "emoji": "🗄️"
+    },
+    {
+      "word": "shoe rack",
+      "pos": "n",
+      "meanings": [
+        "신발장"
+      ],
+      "example": "I have a shoe rack.",
+      "exampleKo": "저는 신발장을 가지고 있어요.",
+      "emoji": "👟"
+    },
+    {
+      "word": "camp",
+      "pos": "n",
+      "meanings": [
+        "캠프",
+        "야영지"
+      ],
+      "example": "We go to the camp.",
+      "exampleKo": "우리는 캠프에 가요.",
+      "emoji": "⛺"
+    },
+    {
+      "word": "camper",
+      "pos": "n",
+      "meanings": [
+        "캠핑객"
+      ],
+      "example": "My friend is a camper.",
+      "exampleKo": "제 친구는 캠핑객이에요.",
+      "emoji": "⛺"
+    },
+    {
+      "word": "nightlight",
+      "pos": "n",
+      "meanings": [
+        "취침등"
+      ],
+      "example": "This is my nightlight.",
+      "exampleKo": "이것은 제 취침등이에요.",
+      "emoji": "💡"
+    },
+    {
+      "word": "candle",
+      "pos": "n",
+      "meanings": [
+        "양초"
+      ],
+      "example": "I have a candle.",
+      "exampleKo": "저는 양초를 가지고 있어요.",
+      "emoji": "🕯️"
+    },
+    {
+      "word": "card",
+      "pos": "n",
+      "meanings": [
+        "카드"
+      ],
+      "example": "Look at the card.",
+      "exampleKo": "그 카드를 보세요.",
+      "emoji": "🃏"
+    },
+    {
+      "word": "carpenter",
+      "pos": "n",
+      "meanings": [
+        "목수"
+      ],
+      "example": "My friend is a carpenter.",
+      "exampleKo": "제 친구는 목수예요.",
+      "emoji": "🔨"
+    },
+    {
+      "word": "oatmeal",
+      "pos": "n",
+      "meanings": [
+        "오트밀"
+      ],
+      "example": "I eat oatmeal.",
+      "exampleKo": "저는 오트밀을 먹어요.",
+      "emoji": "🥣"
+    },
+    {
+      "word": "glue stick",
+      "pos": "n",
+      "meanings": [
+        "딱풀"
+      ],
+      "example": "I have a glue stick.",
+      "exampleKo": "저는 딱풀을 가지고 있어요.",
+      "emoji": ""
+    },
+    {
+      "word": "stepmom",
+      "pos": "n",
+      "meanings": [
+        "새엄마"
+      ],
+      "example": "My friend is a stepmom.",
+      "exampleKo": "제 친구는 새엄마예요.",
+      "emoji": "👩"
+    },
+    {
+      "word": "ceiling",
+      "pos": "n",
+      "meanings": [
+        "천장"
+      ],
+      "example": "I need a ceiling.",
+      "exampleKo": "저는 천장이 필요해요.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "abacus",
+      "pos": "n",
+      "meanings": [
+        "주판"
+      ],
+      "example": "This is my abacus.",
+      "exampleKo": "이것은 제 주판이에요.",
+      "emoji": "🧮"
+    },
+    {
+      "word": "cereal",
+      "pos": "n",
+      "meanings": [
+        "시리얼"
+      ],
+      "example": "I eat cereal.",
+      "exampleKo": "저는 시리얼을 먹어요.",
+      "emoji": "🥣"
+    },
+    {
+      "word": "ceiling fan",
+      "pos": "n",
+      "meanings": [
+        "천장 선풍기"
+      ],
+      "example": "Look at the ceiling fan.",
+      "exampleKo": "그 천장 선풍기를 보세요.",
+      "emoji": "🌀"
+    },
+    {
+      "word": "flashcards",
+      "pos": "n",
+      "meanings": [
+        "플래시카드"
+      ],
+      "example": "I need flashcards.",
+      "exampleKo": "저는 플래시카드가 필요해요.",
+      "emoji": "🗂️"
+    },
+    {
+      "word": "charger",
+      "pos": "n",
+      "meanings": [
+        "충전기"
+      ],
+      "example": "This is my charger.",
+      "exampleKo": "이것은 제 충전기예요.",
+      "emoji": "🔌"
+    },
+    {
+      "word": "croissant",
+      "pos": "n",
+      "meanings": [
+        "크루아상"
+      ],
+      "example": "I eat a croissant.",
+      "exampleKo": "저는 크루아상을 먹어요.",
+      "emoji": "🥐"
+    },
+    {
+      "word": "doughnut",
+      "pos": "n",
+      "meanings": [
+        "도넛"
+      ],
+      "example": "I eat a doughnut.",
+      "exampleKo": "저는 도넛을 먹어요.",
+      "emoji": "🍩"
+    },
+    {
+      "word": "chick",
+      "pos": "n",
+      "meanings": [
+        "병아리"
+      ],
+      "example": "I see a chick.",
+      "exampleKo": "저는 병아리를 봐요.",
+      "emoji": "🐤"
+    },
+    {
+      "word": "chimney",
+      "pos": "n",
+      "meanings": [
+        "굴뚝"
+      ],
+      "example": "This is my chimney.",
+      "exampleKo": "이것은 제 굴뚝이에요.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "chocolate",
+      "pos": "n",
+      "meanings": [
+        "초콜릿"
+      ],
+      "example": "I eat chocolate.",
+      "exampleKo": "저는 초콜릿을 먹어요.",
+      "emoji": "🍫"
+    },
+    {
+      "word": "choir",
+      "pos": "n",
+      "meanings": [
+        "합창단"
+      ],
+      "example": "Look at the choir.",
+      "exampleKo": "그 합창단을 보세요.",
+      "emoji": "🎤"
+    },
+    {
+      "word": "chore",
+      "pos": "n",
+      "meanings": [
+        "집안일"
+      ],
+      "example": "I need a chore.",
+      "exampleKo": "저는 집안일이 필요해요.",
+      "emoji": "🧹"
+    },
+    {
+      "word": "church",
+      "pos": "n",
+      "meanings": [
+        "교회"
+      ],
+      "example": "We go to the church.",
+      "exampleKo": "우리는 교회에 가요.",
+      "emoji": "⛪"
+    },
+    {
+      "word": "circus",
+      "pos": "n",
+      "meanings": [
+        "서커스"
+      ],
+      "example": "We go to the circus.",
+      "exampleKo": "우리는 서커스에 가요.",
+      "emoji": "🎪"
+    },
+    {
+      "word": "hum",
+      "pos": "v",
+      "meanings": [
+        "콧노래를 부르다"
+      ],
+      "example": "I do not want to hum.",
+      "exampleKo": "저는 콧노래를 부르고 싶지 않아요.",
+      "emoji": "🎵"
+    },
+    {
+      "word": "burrow",
+      "pos": "n",
+      "meanings": [
+        "굴"
+      ],
+      "example": "We go to the burrow.",
+      "exampleKo": "우리는 굴에 가요.",
+      "emoji": "🕳️"
+    },
+    {
+      "word": "clerk",
+      "pos": "n",
+      "meanings": [
+        "점원"
+      ],
+      "example": "My friend is a clerk.",
+      "exampleKo": "제 친구는 점원이에요.",
+      "emoji": "🧑‍💼"
+    },
+    {
+      "word": "den",
+      "pos": "n",
+      "meanings": [
+        "굴"
+      ],
+      "example": "We go to the den.",
+      "exampleKo": "우리는 굴에 가요.",
+      "emoji": ""
+    },
+    {
+      "word": "air conditioner",
+      "pos": "n",
+      "meanings": [
+        "에어컨"
+      ],
+      "example": "Look at the air conditioner.",
+      "exampleKo": "그 에어컨을 보세요.",
+      "emoji": "❄️"
+    },
+    {
+      "word": "clown",
+      "pos": "n",
+      "meanings": [
+        "광대"
+      ],
+      "example": "My friend is a clown.",
+      "exampleKo": "제 친구는 광대예요.",
+      "emoji": "🤡"
+    },
+    {
+      "word": "club",
+      "pos": "n",
+      "meanings": [
+        "동아리",
+        "클럽"
+      ],
+      "example": "This is my club.",
+      "exampleKo": "이것은 제 동아리예요.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "roommate",
+      "pos": "n",
+      "meanings": [
+        "룸메이트"
+      ],
+      "example": "My friend is a roommate.",
+      "exampleKo": "제 친구는 룸메이트예요.",
+      "emoji": "🛏️"
+    },
+    {
+      "word": "workbook",
+      "pos": "n",
+      "meanings": [
+        "문제집"
+      ],
+      "example": "Look at the workbook.",
+      "exampleKo": "그 문제집을 보세요.",
+      "emoji": "📓"
+    },
+    {
+      "word": "collar",
+      "pos": "n",
+      "meanings": [
+        "옷깃",
+        "칼라"
+      ],
+      "example": "I wear my collar.",
+      "exampleKo": "저는 제 옷깃을 입어요.",
+      "emoji": ""
+    },
+    {
+      "word": "color",
+      "pos": "n",
+      "meanings": [
+        "색깔"
+      ],
+      "example": "This is my color.",
+      "exampleKo": "이것은 제 색깔이에요.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "colorful",
+      "pos": "adj",
+      "meanings": [
+        "화려한",
+        "다채로운"
+      ],
+      "example": "The kite is colorful.",
+      "exampleKo": "그 연은 화려해요.",
+      "emoji": "🌈"
+    },
+    {
+      "word": "heater",
+      "pos": "n",
+      "meanings": [
+        "난로"
+      ],
+      "example": "Look at the heater.",
+      "exampleKo": "그 난로를 보세요.",
+      "emoji": "🔥"
+    },
+    {
+      "word": "storybook",
+      "pos": "n",
+      "meanings": [
+        "동화책"
+      ],
+      "example": "I need a storybook.",
+      "exampleKo": "저는 동화책이 필요해요.",
+      "emoji": "📖"
+    },
+    {
+      "word": "computer",
+      "pos": "n",
+      "meanings": [
+        "컴퓨터"
+      ],
+      "example": "This is my computer.",
+      "exampleKo": "이것은 제 컴퓨터예요.",
+      "emoji": "💻"
+    },
+    {
+      "word": "cookie",
+      "pos": "n",
+      "meanings": [
+        "쿠키"
+      ],
+      "example": "I eat a cookie.",
+      "exampleKo": "저는 쿠키를 먹어요.",
+      "emoji": "🍪"
+    },
+    {
+      "word": "sushi",
+      "pos": "n",
+      "meanings": [
+        "초밥"
+      ],
+      "example": "I eat sushi.",
+      "exampleKo": "저는 초밥을 먹어요.",
+      "emoji": "🍣"
+    },
+    {
+      "word": "comic book",
+      "pos": "n",
+      "meanings": [
+        "만화책"
+      ],
+      "example": "I need a comic book.",
+      "exampleKo": "저는 만화책이 필요해요.",
+      "emoji": "📖"
+    },
+    {
+      "word": "cape",
+      "pos": "n",
+      "meanings": [
+        "망토"
+      ],
+      "example": "I wear my cape.",
+      "exampleKo": "저는 제 망토를 입어요.",
+      "emoji": "🦸"
+    },
+    {
+      "word": "couch",
+      "pos": "n",
+      "meanings": [
+        "소파"
+      ],
+      "example": "I have a couch.",
+      "exampleKo": "저는 소파를 가지고 있어요.",
+      "emoji": "🛋️"
+    },
+    {
+      "word": "sniff",
+      "pos": "v",
+      "meanings": [
+        "킁킁거리다"
+      ],
+      "example": "I want to sniff.",
+      "exampleKo": "저는 킁킁거리고 싶어요.",
+      "emoji": "👃"
+    },
+    {
+      "word": "countryside",
+      "pos": "n",
+      "meanings": [
+        "시골"
+      ],
+      "example": "We go to the countryside.",
+      "exampleKo": "우리는 시골에 가요.",
+      "emoji": "🌾"
+    },
+    {
+      "word": "beaver",
+      "pos": "n",
+      "meanings": [
+        "비버"
+      ],
+      "example": "I see a beaver.",
+      "exampleKo": "저는 비버를 봐요.",
+      "emoji": "🦫"
+    },
+    {
+      "word": "gallop",
+      "pos": "v",
+      "meanings": [
+        "질주하다"
+      ],
+      "example": "I want to gallop.",
+      "exampleKo": "저는 질주하고 싶어요.",
+      "emoji": "🐎"
+    },
+    {
+      "word": "printer",
+      "pos": "n",
+      "meanings": [
+        "프린터"
+      ],
+      "example": "Look at the printer.",
+      "exampleKo": "그 프린터를 보세요.",
+      "emoji": "🖨️"
+    },
+    {
+      "word": "crossing",
+      "pos": "n",
+      "meanings": [
+        "건널목"
+      ],
+      "example": "We go to the crossing.",
+      "exampleKo": "우리는 건널목에 가요.",
+      "emoji": "🚸"
+    },
+    {
+      "word": "crown",
+      "pos": "n",
+      "meanings": [
+        "왕관"
+      ],
+      "example": "This is my crown.",
+      "exampleKo": "이것은 제 왕관이에요.",
+      "emoji": "👑"
+    },
+    {
+      "word": "meatball",
+      "pos": "n",
+      "meanings": [
+        "미트볼"
+      ],
+      "example": "I eat a meatball.",
+      "exampleKo": "저는 미트볼을 먹어요.",
+      "emoji": ""
+    },
+    {
+      "word": "curly",
+      "pos": "adj",
+      "meanings": [
+        "곱슬곱슬한"
+      ],
+      "example": "Her hair is curly.",
+      "exampleKo": "그녀의 머리카락은 곱슬곱슬해요.",
+      "emoji": ""
+    },
+    {
+      "word": "earphones",
+      "pos": "n",
+      "meanings": [
+        "이어폰"
+      ],
+      "example": "I need earphones.",
+      "exampleKo": "저는 이어폰이 필요해요.",
+      "emoji": "🎧"
+    },
+    {
+      "word": "cushion",
+      "pos": "n",
+      "meanings": [
+        "쿠션"
+      ],
+      "example": "This is my cushion.",
+      "exampleKo": "이것은 제 쿠션이에요.",
+      "emoji": ""
+    },
+    {
+      "word": "stepdad",
+      "pos": "n",
+      "meanings": [
+        "새아빠"
+      ],
+      "example": "My friend is a stepdad.",
+      "exampleKo": "제 친구는 새아빠예요.",
+      "emoji": "👨"
+    },
+    {
+      "word": "cute",
+      "pos": "adj",
+      "meanings": [
+        "귀여운"
+      ],
+      "example": "The puppy is cute.",
+      "exampleKo": "그 강아지는 귀여워요.",
+      "emoji": "🥰"
+    },
+    {
+      "word": "dancer",
+      "pos": "n",
+      "meanings": [
+        "무용수"
+      ],
+      "example": "My friend is a dancer.",
+      "exampleKo": "제 친구는 무용수예요.",
+      "emoji": "💃"
+    },
+    {
+      "word": "bedtime",
+      "pos": "n",
+      "meanings": [
+        "잠자리 시간"
+      ],
+      "example": "This is my bedtime.",
+      "exampleKo": "이것은 제 잠자리 시간이에요.",
+      "emoji": "🌙"
+    },
+    {
+      "word": "stormy",
+      "pos": "adj",
+      "meanings": [
+        "폭풍우가 치는"
+      ],
+      "example": "The sea is stormy.",
+      "exampleKo": "그 바다는 폭풍우가 쳐요.",
+      "emoji": "⛈️"
+    },
+    {
+      "word": "chameleon",
+      "pos": "n",
+      "meanings": [
+        "카멜레온"
+      ],
+      "example": "I see a chameleon.",
+      "exampleKo": "저는 카멜레온을 봐요.",
+      "emoji": "🦎"
+    },
+    {
+      "word": "degree",
+      "pos": "n",
+      "meanings": [
+        "도"
+      ],
+      "example": "It is ten degrees today.",
+      "exampleKo": "오늘은 10도예요.",
+      "emoji": "🌡️"
+    },
+    {
+      "word": "dining room",
+      "pos": "n",
+      "meanings": [
+        "다이닝룸"
+      ],
+      "example": "We go to the dining room.",
+      "exampleKo": "우리는 다이닝룸에 가요.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "dishes",
+      "pos": "n",
+      "meanings": [
+        "접시들",
+        "그릇"
+      ],
+      "example": "I have some dishes.",
+      "exampleKo": "저는 접시들을 가지고 있어요.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "notice board",
+      "pos": "n",
+      "meanings": [
+        "게시판"
+      ],
+      "example": "Look at the notice board.",
+      "exampleKo": "그 게시판을 보세요.",
+      "emoji": "📌"
+    },
+    {
+      "word": "stingray",
+      "pos": "n",
+      "meanings": [
+        "가오리"
+      ],
+      "example": "I see a stingray.",
+      "exampleKo": "저는 가오리를 봐요.",
+      "emoji": ""
+    },
+    {
+      "word": "doorbell",
+      "pos": "n",
+      "meanings": [
+        "초인종"
+      ],
+      "example": "This is my doorbell.",
+      "exampleKo": "이것은 제 초인종이에요.",
+      "emoji": "🔔"
+    },
+    {
+      "word": "downtown",
+      "pos": "n",
+      "meanings": [
+        "시내"
+      ],
+      "example": "We go to the downtown.",
+      "exampleKo": "우리는 시내에 가요.",
+      "emoji": "🏙️"
+    },
+    {
+      "word": "dragon",
+      "pos": "n",
+      "meanings": [
+        "용"
+      ],
+      "example": "Look at the dragon.",
+      "exampleKo": "그 용을 보세요.",
+      "emoji": "🐉"
+    },
+    {
+      "word": "drain",
+      "pos": "n",
+      "meanings": [
+        "배수구"
+      ],
+      "example": "I need a drain.",
+      "exampleKo": "저는 배수구가 필요해요.",
+      "emoji": ""
+    },
+    {
+      "word": "headphones",
+      "pos": "n",
+      "meanings": [
+        "헤드폰"
+      ],
+      "example": "These are my headphones.",
+      "exampleKo": "이것들은 제 헤드폰이에요.",
+      "emoji": "🎧"
+    },
+    {
+      "word": "drawing",
+      "pos": "n",
+      "meanings": [
+        "그림"
+      ],
+      "example": "I have a drawing.",
+      "exampleKo": "저는 그림을 가지고 있어요.",
+      "emoji": "🎨"
+    },
+    {
+      "word": "tuxedo",
+      "pos": "n",
+      "meanings": [
+        "턱시도"
+      ],
+      "example": "I wear my tuxedo.",
+      "exampleKo": "저는 제 턱시도를 입어요.",
+      "emoji": "🤵"
+    },
+    {
+      "word": "driver",
+      "pos": "n",
+      "meanings": [
+        "운전사"
+      ],
+      "example": "My friend is a driver.",
+      "exampleKo": "제 친구는 운전사예요.",
+      "emoji": "🚗"
+    },
+    {
+      "word": "walkie-talkie",
+      "pos": "n",
+      "meanings": [
+        "무전기"
+      ],
+      "example": "This is my walkie-talkie.",
+      "exampleKo": "이것은 제 무전기예요.",
+      "emoji": "📻"
+    },
+    {
+      "word": "breezy",
+      "pos": "adj",
+      "meanings": [
+        "산들바람이 부는"
+      ],
+      "example": "The morning is breezy.",
+      "exampleKo": "아침은 산들바람이 불어요.",
+      "emoji": "🍃"
+    },
+    {
+      "word": "dusk",
+      "pos": "n",
+      "meanings": [
+        "황혼"
+      ],
+      "example": "I like dusk.",
+      "exampleKo": "저는 황혼을 좋아해요.",
+      "emoji": "🌆"
+    },
+    {
+      "word": "lunch bag",
+      "pos": "n",
+      "meanings": [
+        "점심 가방"
+      ],
+      "example": "I need a lunch bag.",
+      "exampleKo": "저는 점심 가방이 필요해요.",
+      "emoji": "🍱"
+    },
+    {
+      "word": "electrician",
+      "pos": "n",
+      "meanings": [
+        "전기 기술자"
+      ],
+      "example": "My friend is an electrician.",
+      "exampleKo": "제 친구는 전기 기술자예요.",
+      "emoji": "💡"
+    },
+    {
+      "word": "elevator",
+      "pos": "n",
+      "meanings": [
+        "엘리베이터"
+      ],
+      "example": "I have an elevator.",
+      "exampleKo": "저는 엘리베이터를 가지고 있어요.",
+      "emoji": "🛗"
+    },
+    {
+      "word": "misty",
+      "pos": "adj",
+      "meanings": [
+        "안개 낀"
+      ],
+      "example": "The mountain is misty.",
+      "exampleKo": "그 산은 안개가 껴 있어요.",
+      "emoji": "🌫️"
+    },
+    {
+      "word": "engineer",
+      "pos": "n",
+      "meanings": [
+        "기술자",
+        "엔지니어"
+      ],
+      "example": "My friend is an engineer.",
+      "exampleKo": "제 친구는 기술자예요.",
+      "emoji": "👷"
+    },
+    {
+      "word": "entrance",
+      "pos": "n",
+      "meanings": [
+        "입구"
+      ],
+      "example": "We go to the entrance.",
+      "exampleKo": "우리는 입구에 가요.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "envelope",
+      "pos": "n",
+      "meanings": [
+        "봉투"
+      ],
+      "example": "I have an envelope.",
+      "exampleKo": "저는 봉투를 가지고 있어요.",
+      "emoji": "✉️"
+    },
+    {
+      "word": "mealtime",
+      "pos": "n",
+      "meanings": [
+        "식사 시간"
+      ],
+      "example": "Look at the mealtime.",
+      "exampleKo": "그 식사 시간을 보세요.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "lunchtray",
+      "pos": "n",
+      "meanings": [
+        "급식판"
+      ],
+      "example": "I need a lunchtray.",
+      "exampleKo": "저는 급식판이 필요해요.",
+      "emoji": "🍱"
+    },
+    {
+      "word": "exit",
+      "pos": "n",
+      "meanings": [
+        "출구"
+      ],
+      "example": "We go to the exit.",
+      "exampleKo": "우리는 출구에 가요.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "factory",
+      "pos": "n",
+      "meanings": [
+        "공장"
+      ],
+      "example": "We go to the factory.",
+      "exampleKo": "우리는 공장에 가요.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "fairy",
+      "pos": "n",
+      "meanings": [
+        "요정"
+      ],
+      "example": "Look at the fairy.",
+      "exampleKo": "그 요정을 보세요.",
+      "emoji": "🧚"
+    },
+    {
+      "word": "frosty",
+      "pos": "adj",
+      "meanings": [
+        "서리가 내린"
+      ],
+      "example": "The window is frosty.",
+      "exampleKo": "그 창문은 서리가 내렸어요.",
+      "emoji": "❄️"
+    },
+    {
+      "word": "water bottle",
+      "pos": "n",
+      "meanings": [
+        "물병"
+      ],
+      "example": "This is my water bottle.",
+      "exampleKo": "이것은 제 물병이에요.",
+      "emoji": "🚰"
+    },
+    {
+      "word": "feed",
+      "pos": "v",
+      "meanings": [
+        "먹이를 주다"
+      ],
+      "example": "Let's feed.",
+      "exampleKo": "우리 먹이를 주자.",
+      "emoji": "🍽️"
+    },
+    {
+      "word": "thermos",
+      "pos": "n",
+      "meanings": [
+        "보온병"
+      ],
+      "example": "Look at the thermos.",
+      "exampleKo": "그 보온병을 보세요.",
+      "emoji": ""
+    },
+    {
+      "word": "nursery",
+      "pos": "n",
+      "meanings": [
+        "보육원"
+      ],
+      "example": "We go to the nursery.",
+      "exampleKo": "우리는 보육원에 가요.",
+      "emoji": "👶"
+    },
+    {
+      "word": "fireplace",
+      "pos": "n",
+      "meanings": [
+        "벽난로"
+      ],
+      "example": "This is my fireplace.",
+      "exampleKo": "이것은 제 벽난로예요.",
+      "emoji": "🔥"
+    },
+    {
+      "word": "firework",
+      "pos": "n",
+      "meanings": [
+        "불꽃놀이"
+      ],
+      "example": "I have a firework.",
+      "exampleKo": "저는 불꽃놀이를 가지고 있어요.",
+      "emoji": "🎆"
+    },
+    {
+      "word": "waddle",
+      "pos": "v",
+      "meanings": [
+        "뒤뚱거리다"
+      ],
+      "example": "I do not want to waddle.",
+      "exampleKo": "저는 뒤뚱거리고 싶지 않아요.",
+      "emoji": "🐧"
+    },
+    {
+      "word": "straw cup",
+      "pos": "n",
+      "meanings": [
+        "빨대컵"
+      ],
+      "example": "I need a straw cup.",
+      "exampleKo": "저는 빨대컵이 필요해요.",
+      "emoji": "🥤"
+    },
+    {
+      "word": "chopsticks",
+      "pos": "n",
+      "meanings": [
+        "젓가락"
+      ],
+      "example": "These are my chopsticks.",
+      "exampleKo": "이것들은 제 젓가락이에요.",
+      "emoji": "🥢"
+    },
+    {
+      "word": "ladle",
+      "pos": "n",
+      "meanings": [
+        "국자"
+      ],
+      "example": "I have a ladle.",
+      "exampleKo": "저는 국자를 가지고 있어요.",
+      "emoji": "🥄"
+    },
+    {
+      "word": "grater",
+      "pos": "n",
+      "meanings": [
+        "강판"
+      ],
+      "example": "Look at the grater.",
+      "exampleKo": "그 강판을 보세요.",
+      "emoji": ""
+    },
+    {
+      "word": "blizzard",
+      "pos": "n",
+      "meanings": [
+        "눈보라"
+      ],
+      "example": "There is a blizzard today.",
+      "exampleKo": "오늘은 눈보라가 있어요.",
+      "emoji": "🌨️"
+    },
+    {
+      "word": "squat",
+      "pos": "v",
+      "meanings": [
+        "쭈그리다"
+      ],
+      "example": "I do not want to squat.",
+      "exampleKo": "저는 쭈그리고 싶지 않아요.",
+      "emoji": ""
+    },
+    {
+      "word": "colander",
+      "pos": "n",
+      "meanings": [
+        "소쿠리"
+      ],
+      "example": "I have a colander.",
+      "exampleKo": "저는 소쿠리를 가지고 있어요.",
+      "emoji": ""
+    },
+    {
+      "word": "cutting board",
+      "pos": "n",
+      "meanings": [
+        "도마"
+      ],
+      "example": "Look at the cutting board.",
+      "exampleKo": "그 도마를 보세요.",
+      "emoji": "🔪"
+    },
+    {
+      "word": "freezer",
+      "pos": "n",
+      "meanings": [
+        "냉동고"
+      ],
+      "example": "I need a freezer.",
+      "exampleKo": "저는 냉동고가 필요해요.",
+      "emoji": "🧊"
+    },
+    {
+      "word": "freezing",
+      "pos": "adj",
+      "meanings": [
+        "몹시 추운",
+        "얼어붙은"
+      ],
+      "example": "It is freezing outside.",
+      "exampleKo": "밖은 몹시 추워요.",
+      "emoji": "🥶"
+    },
+    {
+      "word": "rolling pin",
+      "pos": "n",
+      "meanings": [
+        "밀대"
+      ],
+      "example": "I have a rolling pin.",
+      "exampleKo": "저는 밀대를 가지고 있어요.",
+      "emoji": ""
+    },
+    {
+      "word": "earthworm",
+      "pos": "n",
+      "meanings": [
+        "지렁이"
+      ],
+      "example": "I see an earthworm.",
+      "exampleKo": "저는 지렁이를 봐요.",
+      "emoji": "🪱"
+    },
+    {
+      "word": "hailstorm",
+      "pos": "n",
+      "meanings": [
+        "우박"
+      ],
+      "example": "There is a hailstorm today.",
+      "exampleKo": "오늘은 우박이 있어요.",
+      "emoji": "🌨️"
+    },
+    {
+      "word": "chuckle",
+      "pos": "v",
+      "meanings": [
+        "빙그레 웃다"
+      ],
+      "example": "I want to chuckle.",
+      "exampleKo": "저는 빙그레 웃고 싶어요.",
+      "emoji": "😄"
+    },
+    {
+      "word": "sob",
+      "pos": "v",
+      "meanings": [
+        "흐느끼다"
+      ],
+      "example": "I do not want to sob.",
+      "exampleKo": "저는 흐느끼고 싶지 않아요.",
+      "emoji": "😭"
+    },
+    {
+      "word": "full",
+      "pos": "adj",
+      "meanings": [
+        "가득 찬"
+      ],
+      "example": "My cup is full.",
+      "exampleKo": "제 컵은 가득 차 있어요.",
+      "emoji": ""
+    },
+    {
+      "word": "funny",
+      "pos": "adj",
+      "meanings": [
+        "재미있는",
+        "웃긴"
+      ],
+      "example": "The clown is funny.",
+      "exampleKo": "그 광대는 재미있어요.",
+      "emoji": "😆"
+    },
+    {
+      "word": "garage",
+      "pos": "n",
+      "meanings": [
+        "차고"
+      ],
+      "example": "We go to the garage.",
+      "exampleKo": "우리는 차고에 가요.",
+      "emoji": "🚗"
+    },
+    {
+      "word": "gardener",
+      "pos": "n",
+      "meanings": [
+        "정원사"
+      ],
+      "example": "My friend is a gardener.",
+      "exampleKo": "제 친구는 정원사예요.",
+      "emoji": "👨‍🌾"
+    },
+    {
+      "word": "gate",
+      "pos": "n",
+      "meanings": [
+        "대문"
+      ],
+      "example": "Look at the gate.",
+      "exampleKo": "그 대문을 보세요.",
+      "emoji": "🚪"
+    },
+    {
+      "word": "gentle",
+      "pos": "adj",
+      "meanings": [
+        "부드러운",
+        "온화한"
+      ],
+      "example": "My grandma is gentle.",
+      "exampleKo": "우리 할머니는 온화해요.",
+      "emoji": ""
+    },
+    {
+      "word": "ghost",
+      "pos": "n",
+      "meanings": [
+        "유령"
+      ],
+      "example": "This is my ghost.",
+      "exampleKo": "이것은 제 유령이에요.",
+      "emoji": "👻"
+    },
+    {
+      "word": "oven mitt",
+      "pos": "n",
+      "meanings": [
+        "오븐 장갑"
+      ],
+      "example": "I have an oven mitt.",
+      "exampleKo": "저는 오븐 장갑을 가지고 있어요.",
+      "emoji": "🧤"
+    },
+    {
+      "word": "milk carton",
+      "pos": "n",
+      "meanings": [
+        "우유팩"
+      ],
+      "example": "Look at the milk carton.",
+      "exampleKo": "그 우유팩을 보세요.",
+      "emoji": "🥛"
+    },
+    {
+      "word": "glass",
+      "pos": "n",
+      "meanings": [
+        "유리컵",
+        "유리"
+      ],
+      "example": "I need a glass.",
+      "exampleKo": "저는 유리컵이 필요해요.",
+      "emoji": "🥛"
+    }
+  ]
+}

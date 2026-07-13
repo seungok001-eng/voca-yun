@@ -1,0 +1,7 @@
+{
+  "level": 15,
+  "words": [
+    {"word": "paramount", "pos": "adj", "meanings": ["가장 중요한", "최고의"], "example": "Safety is of paramount importance in this experiment.", "exampleKo": "이 실험에서는 안전이 가장 중요하다.","emoji": ""},
+    {"word": "plight", "pos": "n", "meanings": ["곤경", "역경"], "example": "The documentary showed the plight of refugees.", "exampleKo": "그 다큐멘터리는 난민들의 곤경을 보여 주었다.","emoji": ""}
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "level": 13,
+  "words": [
+    {
+      "word": "advent",
+      "pos": "n",
+      "meanings": [
+        "출현",
+        "도래"
+      ],
+      "example": "The advent of the Internet changed our daily lives.",
+      "exampleKo": "인터넷의 출현은 우리의 일상을 바꾸어 놓았다.",
+      "emoji": ""
+    },
+    {
+      "word": "affluent",
+      "pos": "adj",
+      "meanings": [
+        "부유한",
+        "풍족한"
+      ],
+      "example": "He grew up in an affluent neighborhood.",
+      "exampleKo": "그는 부유한 동네에서 자랐다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "allege",
+      "pos": "v",
+      "meanings": [
+        "주장하다",
+        "혐의를 제기하다"
+      ],
+      "example": "The report alleges that the company hid the truth.",
+      "exampleKo": "그 보도는 회사가 진실을 숨겼다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "aspire",
+      "pos": "v",
+      "meanings": [
+        "열망하다",
+        "염원하다"
+      ],
+      "example": "Many young athletes aspire to compete in the Olympics.",
+      "exampleKo": "많은 젊은 선수들이 올림픽 출전을 열망한다.",
+      "emoji": ""
+    },
+    {
+      "word": "autonomy",
+      "pos": "n",
+      "meanings": [
+        "자율성",
+        "자치"
+      ],
+      "example": "Teenagers gradually gain autonomy from their parents.",
+      "exampleKo": "십 대들은 점차 부모로부터 자율성을 얻는다.",
+      "emoji": ""
+    },
+    {
+      "word": "commence",
+      "pos": "v",
+      "meanings": [
+        "시작하다",
+        "개시하다"
+      ],
+      "example": "The graduation ceremony will commence at ten o'clock.",
+      "exampleKo": "졸업식은 10시에 시작될 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "compile",
+      "pos": "v",
+      "meanings": [
+        "편집하다",
+        "모아 엮다",
+        "수집하다"
+      ],
+      "example": "The researchers compiled data from twenty countries.",
+      "exampleKo": "연구자들은 20개국의 데이터를 수집하여 정리했다.",
+      "emoji": ""
+    },
+    {
+      "word": "confer",
+      "pos": "v",
+      "meanings": [
+        "수여하다",
+        "협의하다"
+      ],
+      "example": "The university conferred an honorary degree on the writer.",
+      "exampleKo": "그 대학은 그 작가에게 명예 학위를 수여했다.",
+      "emoji": "🎓"
+    },
+    {
+      "word": "deficit",
+      "pos": "n",
+      "meanings": [
+        "적자",
+        "부족"
+      ],
+      "example": "The government is trying to reduce the budget deficit.",
+      "exampleKo": "정부는 재정 적자를 줄이려고 노력하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "disregard",
+      "pos": "v",
+      "meanings": [
+        "무시하다",
+        "묵살하다"
+      ],
+      "example": "He disregarded the doctor's warning and kept smoking.",
+      "exampleKo": "그는 의사의 경고를 무시하고 계속 담배를 피웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "embark",
+      "pos": "v",
+      "meanings": [
+        "착수하다",
+        "승선하다"
+      ],
+      "example": "After college, she embarked on a career in journalism.",
+      "exampleKo": "대학 졸업 후 그녀는 언론계에서의 경력에 착수했다.",
+      "emoji": "🚢"
+    },
+    {
+      "word": "enact",
+      "pos": "v",
+      "meanings": [
+        "제정하다",
+        "법으로 만들다"
+      ],
+      "example": "The government enacted a law to protect wild animals.",
+      "exampleKo": "정부는 야생 동물을 보호하는 법을 제정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "foster",
+      "pos": "v",
+      "meanings": [
+        "기르다",
+        "촉진하다",
+        "조성하다"
+      ],
+      "example": "Group projects foster cooperation among students.",
+      "exampleKo": "조별 과제는 학생들 사이의 협동심을 길러 준다.",
+      "emoji": ""
+    }
+  ]
+}

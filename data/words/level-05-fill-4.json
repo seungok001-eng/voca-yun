@@ -1,0 +1,471 @@
+{
+  "level": 5,
+  "words": [
+    {
+      "word": "blink",
+      "pos": "v",
+      "meanings": [
+        "눈을 깜박이다"
+      ],
+      "example": "She blinked in surprise when she saw the party.",
+      "exampleKo": "그녀는 파티를 보고 놀라서 눈을 깜박였다.",
+      "emoji": "👁️"
+    },
+    {
+      "word": "wink",
+      "pos": "v",
+      "meanings": [
+        "윙크하다"
+      ],
+      "example": "He winked at me to show it was a joke.",
+      "exampleKo": "그는 그것이 농담이라는 것을 보여 주려고 나에게 윙크했다.",
+      "emoji": "😉"
+    },
+    {
+      "word": "tiptoe",
+      "pos": "v",
+      "meanings": [
+        "발끝으로 걷다",
+        "살금살금 걷다"
+      ],
+      "example": "She tiptoed into the room so she wouldn't wake the baby.",
+      "exampleKo": "그녀는 아기를 깨우지 않으려고 방 안으로 살금살금 걸어 들어갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "squint",
+      "pos": "v",
+      "meanings": [
+        "눈을 가늘게 뜨다"
+      ],
+      "example": "He squinted at the bright sunlight.",
+      "exampleKo": "그는 밝은 햇빛에 눈을 가늘게 떴다.",
+      "emoji": ""
+    },
+    {
+      "word": "smirk",
+      "pos": "v",
+      "meanings": [
+        "히죽거리다",
+        "능글맞게 웃다"
+      ],
+      "example": "She smirked when she heard the funny secret.",
+      "exampleKo": "그녀는 재미있는 비밀을 듣고 히죽거렸다.",
+      "emoji": "😏"
+    },
+    {
+      "word": "stutter",
+      "pos": "v",
+      "meanings": [
+        "말을 더듬다"
+      ],
+      "example": "He stuttered a little when he felt nervous.",
+      "exampleKo": "그는 긴장했을 때 말을 조금 더듬었다.",
+      "emoji": ""
+    },
+    {
+      "word": "babble",
+      "pos": "v",
+      "meanings": [
+        "옹알이하다",
+        "재잘거리다"
+      ],
+      "example": "The baby babbled happily in her crib.",
+      "exampleKo": "아기는 아기 침대에서 행복하게 옹알이했다.",
+      "emoji": "🗣️"
+    },
+    {
+      "word": "unsubscribe",
+      "pos": "v",
+      "meanings": [
+        "구독을 취소하다"
+      ],
+      "example": "I decided to unsubscribe from the channel.",
+      "exampleKo": "나는 그 채널 구독을 취소하기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "customize",
+      "pos": "v",
+      "meanings": [
+        "맞춤 설정하다"
+      ],
+      "example": "You can customize your phone's background picture.",
+      "exampleKo": "너는 휴대폰의 배경 사진을 맞춤 설정할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "personalize",
+      "pos": "v",
+      "meanings": [
+        "개인 맞춤화하다"
+      ],
+      "example": "She personalized her notebook with stickers.",
+      "exampleKo": "그녀는 스티커로 자신의 공책을 개인화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "troubleshoot",
+      "pos": "v",
+      "meanings": [
+        "문제를 해결하다"
+      ],
+      "example": "The technician helped us troubleshoot the printer.",
+      "exampleKo": "기술자가 우리가 프린터 문제를 해결하도록 도와주었다.",
+      "emoji": "🔧"
+    },
+    {
+      "word": "stagger",
+      "pos": "v",
+      "meanings": [
+        "비틀거리다"
+      ],
+      "example": "He staggered a bit after running the long race.",
+      "exampleKo": "그는 긴 경주를 뛴 후 조금 비틀거렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "bulletin",
+      "pos": "n",
+      "meanings": [
+        "게시",
+        "소식지"
+      ],
+      "example": "Check the school bulletin for today's events.",
+      "exampleKo": "오늘의 행사에 대해 학교 소식지를 확인해라.",
+      "emoji": "📰"
+    },
+    {
+      "word": "punctuality",
+      "pos": "n",
+      "meanings": [
+        "시간 엄수"
+      ],
+      "example": "Punctuality is important when you take a test.",
+      "exampleKo": "시험을 볼 때는 시간 엄수가 중요하다.",
+      "emoji": "⏰"
+    },
+    {
+      "word": "show and tell",
+      "pos": "n",
+      "meanings": [
+        "발표 시간"
+      ],
+      "example": "We had show and tell about our favorite toys.",
+      "exampleKo": "우리는 가장 좋아하는 장난감에 대해 발표 시간을 가졌다.",
+      "emoji": "🎤"
+    },
+    {
+      "word": "makeup exam",
+      "pos": "n",
+      "meanings": [
+        "보충 시험",
+        "추가 시험"
+      ],
+      "example": "She took a makeup exam because she was sick last week.",
+      "exampleKo": "그녀는 지난주에 아파서 보충 시험을 봤다.",
+      "emoji": "📝"
+    },
+    {
+      "word": "permafrost",
+      "pos": "n",
+      "meanings": [
+        "영구 동토층"
+      ],
+      "example": "Permafrost is ground that stays frozen all year.",
+      "exampleKo": "영구 동토층은 일 년 내내 얼어 있는 땅이다.",
+      "emoji": "🧊"
+    },
+    {
+      "word": "purification",
+      "pos": "n",
+      "meanings": [
+        "정화"
+      ],
+      "example": "The plant provides clean water through purification.",
+      "exampleKo": "그 시설은 정화를 통해 깨끗한 물을 공급한다.",
+      "emoji": "💧"
+    },
+    {
+      "word": "filtration",
+      "pos": "n",
+      "meanings": [
+        "여과"
+      ],
+      "example": "The water filtration system removes dirt and germs.",
+      "exampleKo": "그 정수 여과 시스템은 먼지와 세균을 제거한다.",
+      "emoji": ""
+    },
+    {
+      "word": "conservationist",
+      "pos": "n",
+      "meanings": [
+        "환경 보호 활동가"
+      ],
+      "example": "The conservationist works to protect endangered animals.",
+      "exampleKo": "그 환경 보호 활동가는 멸종 위기 동물을 보호하기 위해 일한다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "coldhearted",
+      "pos": "adj",
+      "meanings": [
+        "냉담한",
+        "무정한"
+      ],
+      "example": "It was coldhearted of him to ignore his crying friend.",
+      "exampleKo": "우는 친구를 무시하다니 그는 냉담했다.",
+      "emoji": "🥶"
+    },
+    {
+      "word": "quick-tempered",
+      "pos": "adj",
+      "meanings": [
+        "성급한",
+        "화를 잘 내는"
+      ],
+      "example": "My brother is quick-tempered, so he gets angry easily.",
+      "exampleKo": "내 동생은 성급해서 쉽게 화를 낸다.",
+      "emoji": "😤"
+    },
+    {
+      "word": "even-tempered",
+      "pos": "adj",
+      "meanings": [
+        "차분한",
+        "침착한"
+      ],
+      "example": "Our teacher is even-tempered and rarely gets upset.",
+      "exampleKo": "우리 선생님은 차분해서 좀처럼 화를 내지 않으신다.",
+      "emoji": "😌"
+    },
+    {
+      "word": "hot-headed",
+      "pos": "adj",
+      "meanings": [
+        "다혈질의",
+        "성급한"
+      ],
+      "example": "He is hot-headed and often shouts when he loses a game.",
+      "exampleKo": "그는 다혈질이라서 게임에 지면 자주 소리를 지른다.",
+      "emoji": "😡"
+    },
+    {
+      "word": "softhearted",
+      "pos": "adj",
+      "meanings": [
+        "마음이 여린",
+        "다정한"
+      ],
+      "example": "My grandmother is softhearted and always helps others.",
+      "exampleKo": "우리 할머니는 마음이 여려서 항상 남을 도와주신다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "big-hearted",
+      "pos": "adj",
+      "meanings": [
+        "마음이 넓은",
+        "관대한"
+      ],
+      "example": "He is big-hearted and shares his lunch with friends.",
+      "exampleKo": "그는 마음이 넓어서 친구들과 점심을 나눈다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "thick-skinned",
+      "pos": "adj",
+      "meanings": [
+        "둔감한",
+        "신경 쓰지 않는"
+      ],
+      "example": "She is thick-skinned and doesn't mind jokes about her.",
+      "exampleKo": "그녀는 둔감해서 자신에 대한 농담을 신경 쓰지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "thin-skinned",
+      "pos": "adj",
+      "meanings": [
+        "예민한",
+        "쉽게 상처받는"
+      ],
+      "example": "He is thin-skinned and gets upset over small comments.",
+      "exampleKo": "그는 예민해서 작은 말에도 속상해한다.",
+      "emoji": ""
+    },
+    {
+      "word": "tongue-tied",
+      "pos": "adj",
+      "meanings": [
+        "말문이 막힌"
+      ],
+      "example": "She felt tongue-tied when the teacher asked her a sudden question.",
+      "exampleKo": "그녀는 선생님이 갑자기 질문을 하자 말문이 막혔다.",
+      "emoji": "😶"
+    },
+    {
+      "word": "camera-shy",
+      "pos": "adj",
+      "meanings": [
+        "카메라를 부끄러워하는"
+      ],
+      "example": "My dog is camera-shy and always looks away from photos.",
+      "exampleKo": "내 강아지는 카메라를 부끄러워해서 항상 사진에서 눈을 돌린다.",
+      "emoji": "📷"
+    },
+    {
+      "word": "accident-prone",
+      "pos": "adj",
+      "meanings": [
+        "사고를 잘 내는"
+      ],
+      "example": "My little brother is accident-prone and often trips over things.",
+      "exampleKo": "내 남동생은 사고를 잘 내서 자주 물건에 걸려 넘어진다.",
+      "emoji": "🤕"
+    },
+    {
+      "word": "in favor of",
+      "pos": "phrase",
+      "meanings": [
+        "~에 찬성하여"
+      ],
+      "example": "Most students voted in favor of the new class rule.",
+      "exampleKo": "대부분의 학생들이 새로운 학급 규칙에 찬성했다.",
+      "emoji": ""
+    },
+    {
+      "word": "in terms of",
+      "pos": "phrase",
+      "meanings": [
+        "~의 측면에서"
+      ],
+      "example": "The two plans are similar in terms of cost.",
+      "exampleKo": "두 계획은 비용 측면에서 비슷하다.",
+      "emoji": ""
+    },
+    {
+      "word": "on behalf of",
+      "pos": "phrase",
+      "meanings": [
+        "~을 대표하여",
+        "~을 대신하여"
+      ],
+      "example": "She spoke on behalf of her whole class.",
+      "exampleKo": "그녀는 반 전체를 대표하여 말했다.",
+      "emoji": ""
+    },
+    {
+      "word": "in conclusion",
+      "pos": "phrase",
+      "meanings": [
+        "결론적으로"
+      ],
+      "example": "In conclusion, we should recycle more paper.",
+      "exampleKo": "결론적으로 우리는 종이를 더 많이 재활용해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "little by little",
+      "pos": "phrase",
+      "meanings": [
+        "조금씩"
+      ],
+      "example": "Little by little, his English got better.",
+      "exampleKo": "조금씩 그의 영어 실력이 나아졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "sooner or later",
+      "pos": "phrase",
+      "meanings": [
+        "조만간",
+        "언젠가는"
+      ],
+      "example": "Sooner or later, you will understand why I did this.",
+      "exampleKo": "조만간 너는 내가 왜 이렇게 했는지 이해하게 될 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "out of the blue",
+      "pos": "phrase",
+      "meanings": [
+        "갑자기",
+        "뜻밖에"
+      ],
+      "example": "He called me out of the blue after five years.",
+      "exampleKo": "그는 5년 만에 갑자기 나에게 전화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "on second thought",
+      "pos": "phrase",
+      "meanings": [
+        "다시 생각해 보니"
+      ],
+      "example": "On second thought, let's take the bus instead.",
+      "exampleKo": "다시 생각해 보니 대신 버스를 타자.",
+      "emoji": ""
+    },
+    {
+      "word": "in other words",
+      "pos": "phrase",
+      "meanings": [
+        "다시 말해서"
+      ],
+      "example": "In other words, she means we should try again.",
+      "exampleKo": "다시 말해서 그녀는 우리가 다시 시도해야 한다는 뜻이다.",
+      "emoji": ""
+    },
+    {
+      "word": "at first glance",
+      "pos": "phrase",
+      "meanings": [
+        "언뜻 보기에"
+      ],
+      "example": "At first glance, the puzzle looked easy.",
+      "exampleKo": "언뜻 보기에 그 퍼즐은 쉬워 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "once in a while",
+      "pos": "phrase",
+      "meanings": [
+        "가끔"
+      ],
+      "example": "Once in a while, we eat pizza for dinner.",
+      "exampleKo": "가끔 우리는 저녁으로 피자를 먹는다.",
+      "emoji": ""
+    },
+    {
+      "word": "for a while",
+      "pos": "phrase",
+      "meanings": [
+        "잠시 동안"
+      ],
+      "example": "Let's rest for a while before we continue.",
+      "exampleKo": "계속하기 전에 잠시 쉬자.",
+      "emoji": ""
+    },
+    {
+      "word": "in the meantime",
+      "pos": "phrase",
+      "meanings": [
+        "그동안에"
+      ],
+      "example": "In the meantime, please wait outside the classroom.",
+      "exampleKo": "그동안에 교실 밖에서 기다려 주세요.",
+      "emoji": ""
+    },
+    {
+      "word": "pull over",
+      "pos": "phrase",
+      "meanings": [
+        "차를 세우다"
+      ],
+      "example": "The driver pulled over to check the map.",
+      "exampleKo": "운전자는 지도를 확인하기 위해 차를 세웠다.",
+      "emoji": "🚗"
+    }
+  ]
+}

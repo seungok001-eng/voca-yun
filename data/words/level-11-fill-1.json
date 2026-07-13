@@ -1,0 +1,1942 @@
+{
+  "level": 11,
+  "words": [
+    {
+      "word": "compute",
+      "pos": "v",
+      "meanings": [
+        "계산하다",
+        "산출하다"
+      ],
+      "example": "The program computes the average score automatically.",
+      "exampleKo": "그 프로그램은 평균 점수를 자동으로 계산한다.",
+      "emoji": "🧮"
+    },
+    {
+      "word": "familiarize",
+      "pos": "v",
+      "meanings": [
+        "익숙하게 하다",
+        "숙지시키다"
+      ],
+      "example": "Students should familiarize themselves with the exam format.",
+      "exampleKo": "학생들은 시험 형식에 익숙해져야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "legislate",
+      "pos": "v",
+      "meanings": [
+        "법률을 제정하다",
+        "입법하다"
+      ],
+      "example": "The government plans to legislate against plastic waste.",
+      "exampleKo": "정부는 플라스틱 폐기물에 관한 법을 제정할 계획이다.",
+      "emoji": "📜"
+    },
+    {
+      "word": "pinpoint",
+      "pos": "v",
+      "meanings": [
+        "정확히 찾아내다",
+        "콕 집어내다"
+      ],
+      "example": "Researchers tried to pinpoint the cause of the disease.",
+      "exampleKo": "연구자들은 그 질병의 원인을 정확히 찾아내려 했다.",
+      "emoji": "📍"
+    },
+    {
+      "word": "rate",
+      "pos": "v",
+      "meanings": [
+        "평가하다",
+        "등급을 매기다"
+      ],
+      "example": "Critics rated the film highly for its originality.",
+      "exampleKo": "평론가들은 그 영화의 독창성을 높이 평가했다.",
+      "emoji": "⭐"
+    },
+    {
+      "word": "reclassify",
+      "pos": "v",
+      "meanings": [
+        "재분류하다"
+      ],
+      "example": "Scientists decided to reclassify the species based on new evidence.",
+      "exampleKo": "과학자들은 새로운 증거를 바탕으로 그 종을 재분류하기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "recount",
+      "pos": "v",
+      "meanings": [
+        "자세히 이야기하다",
+        "열거하다"
+      ],
+      "example": "She recounted the events leading up to the accident.",
+      "exampleKo": "그녀는 사고에 이르기까지의 사건들을 자세히 이야기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "regard",
+      "pos": "v",
+      "meanings": [
+        "여기다",
+        "간주하다"
+      ],
+      "example": "Many economists regard the policy as a failure.",
+      "exampleKo": "많은 경제학자들이 그 정책을 실패로 간주한다.",
+      "emoji": ""
+    },
+    {
+      "word": "signify",
+      "pos": "v",
+      "meanings": [
+        "의미하다",
+        "나타내다"
+      ],
+      "example": "A rising stock price often signifies investor confidence.",
+      "exampleKo": "주가 상승은 흔히 투자자들의 신뢰를 나타낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "surmise",
+      "pos": "v",
+      "meanings": [
+        "추측하다"
+      ],
+      "example": "From the evidence, detectives surmised that the fire was intentional.",
+      "exampleKo": "증거를 바탕으로 형사들은 화재가 고의적이었다고 추측했다.",
+      "emoji": ""
+    },
+    {
+      "word": "systematize",
+      "pos": "v",
+      "meanings": [
+        "체계화하다"
+      ],
+      "example": "The researcher tried to systematize the collected data.",
+      "exampleKo": "그 연구자는 수집된 자료를 체계화하려 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tabulate",
+      "pos": "v",
+      "meanings": [
+        "표로 만들다",
+        "도표화하다"
+      ],
+      "example": "The results were tabulated for easier comparison.",
+      "exampleKo": "결과는 비교하기 쉽도록 표로 정리되었다.",
+      "emoji": "📊"
+    },
+    {
+      "word": "contravene",
+      "pos": "v",
+      "meanings": [
+        "위반하다",
+        "어긋나다"
+      ],
+      "example": "The new policy appears to contravene international law.",
+      "exampleKo": "그 새 정책은 국제법에 위반되는 것으로 보인다.",
+      "emoji": ""
+    },
+    {
+      "word": "orient",
+      "pos": "v",
+      "meanings": [
+        "방향을 맞추다",
+        "적응시키다"
+      ],
+      "example": "The course is oriented toward practical problem solving.",
+      "exampleKo": "그 강좌는 실질적인 문제 해결에 초점을 맞추고 있다.",
+      "emoji": "🧭"
+    },
+    {
+      "word": "reframe",
+      "pos": "v",
+      "meanings": [
+        "다시 틀을 짜다",
+        "재구성하다"
+      ],
+      "example": "The teacher reframed the question to make it clearer.",
+      "exampleKo": "선생님은 질문을 더 명확하게 다시 구성했다.",
+      "emoji": ""
+    },
+    {
+      "word": "revamp",
+      "pos": "v",
+      "meanings": [
+        "전면 개편하다",
+        "쇄신하다"
+      ],
+      "example": "The school decided to revamp its outdated curriculum.",
+      "exampleKo": "학교는 낡은 교육과정을 전면 개편하기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "thwart",
+      "pos": "v",
+      "meanings": [
+        "좌절시키다",
+        "방해하다"
+      ],
+      "example": "Heavy rain thwarted their plans for the outdoor festival.",
+      "exampleKo": "폭우가 야외 축제에 대한 그들의 계획을 좌절시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "undercut",
+      "pos": "v",
+      "meanings": [
+        "약화시키다",
+        "저해하다"
+      ],
+      "example": "Rumors undercut public trust in the institution.",
+      "exampleKo": "소문들은 그 기관에 대한 대중의 신뢰를 약화시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "unravel",
+      "pos": "v",
+      "meanings": [
+        "풀다",
+        "해명하다"
+      ],
+      "example": "Scientists worked for years to unravel the mystery of the virus.",
+      "exampleKo": "과학자들은 그 바이러스의 수수께끼를 풀기 위해 수년간 연구했다.",
+      "emoji": "🧶"
+    },
+    {
+      "word": "abbreviate",
+      "pos": "v",
+      "meanings": [
+        "줄이다",
+        "축약하다"
+      ],
+      "example": "The term is often abbreviated in academic writing.",
+      "exampleKo": "그 용어는 학술적인 글에서 흔히 줄여서 쓰인다.",
+      "emoji": "✂️"
+    },
+    {
+      "word": "acclimate",
+      "pos": "v",
+      "meanings": [
+        "적응시키다",
+        "순응하다"
+      ],
+      "example": "It took the new students a week to acclimate to campus life.",
+      "exampleKo": "새 학생들이 캠퍼스 생활에 적응하는 데 일주일이 걸렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "bypass",
+      "pos": "v",
+      "meanings": [
+        "우회하다",
+        "건너뛰다"
+      ],
+      "example": "The new highway bypasses the crowded city center.",
+      "exampleKo": "새 고속도로는 붐비는 도심을 우회한다.",
+      "emoji": "🔀"
+    },
+    {
+      "word": "deduct",
+      "pos": "v",
+      "meanings": [
+        "공제하다",
+        "빼다"
+      ],
+      "example": "The tax office allows certain expenses to be deducted.",
+      "exampleKo": "세무서는 특정 비용의 공제를 허용한다.",
+      "emoji": "➖"
+    },
+    {
+      "word": "disband",
+      "pos": "v",
+      "meanings": [
+        "해산시키다"
+      ],
+      "example": "The committee was disbanded after completing its report.",
+      "exampleKo": "위원회는 보고서를 완성한 후 해산되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "dispel",
+      "pos": "v",
+      "meanings": [
+        "떨쳐 버리다",
+        "없애다"
+      ],
+      "example": "The teacher's explanation dispelled the students' confusion.",
+      "exampleKo": "선생님의 설명은 학생들의 혼란을 없애 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "endow",
+      "pos": "v",
+      "meanings": [
+        "부여하다",
+        "기증하다"
+      ],
+      "example": "Nature has endowed the region with abundant resources.",
+      "exampleKo": "자연은 그 지역에 풍부한 자원을 부여했다.",
+      "emoji": ""
+    },
+    {
+      "word": "hoard",
+      "pos": "v",
+      "meanings": [
+        "비축하다",
+        "축적하다"
+      ],
+      "example": "People began to hoard supplies before the storm.",
+      "exampleKo": "사람들은 폭풍이 오기 전에 물자를 비축하기 시작했다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "homogenize",
+      "pos": "v",
+      "meanings": [
+        "동질화하다",
+        "균질화하다"
+      ],
+      "example": "Critics argue that globalization homogenizes local cultures.",
+      "exampleKo": "비평가들은 세계화가 지역 문화를 동질화한다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "infiltrate",
+      "pos": "v",
+      "meanings": [
+        "잠입하다",
+        "침투하다"
+      ],
+      "example": "The invasive species infiltrated the local ecosystem.",
+      "exampleKo": "그 외래종은 지역 생태계에 침투했다.",
+      "emoji": "🕵️"
+    },
+    {
+      "word": "invigorate",
+      "pos": "v",
+      "meanings": [
+        "활기를 불어넣다"
+      ],
+      "example": "A short walk can invigorate the mind before studying.",
+      "exampleKo": "짧은 산책은 공부하기 전에 정신에 활기를 불어넣을 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "itemize",
+      "pos": "v",
+      "meanings": [
+        "항목별로 나열하다"
+      ],
+      "example": "Please itemize your expenses for the report.",
+      "exampleKo": "보고서를 위해 지출 내역을 항목별로 나열해 주세요.",
+      "emoji": "📝"
+    },
+    {
+      "word": "materialize",
+      "pos": "v",
+      "meanings": [
+        "실현되다",
+        "구체화되다"
+      ],
+      "example": "Their plan to open a new branch never materialized.",
+      "exampleKo": "새 지점을 여는 그들의 계획은 결국 실현되지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "mimic",
+      "pos": "v",
+      "meanings": [
+        "모방하다",
+        "흉내내다"
+      ],
+      "example": "The robot was designed to mimic human movement.",
+      "exampleKo": "그 로봇은 인간의 움직임을 모방하도록 설계되었다.",
+      "emoji": "🐒"
+    },
+    {
+      "word": "mold",
+      "pos": "v",
+      "meanings": [
+        "형성하다",
+        "틀을 만들다"
+      ],
+      "example": "Early experiences mold a child's personality.",
+      "exampleKo": "어린 시절의 경험은 아이의 성격을 형성한다.",
+      "emoji": ""
+    },
+    {
+      "word": "patronize",
+      "pos": "v",
+      "meanings": [
+        "후원하다",
+        "애용하다"
+      ],
+      "example": "Local residents are encouraged to patronize small businesses.",
+      "exampleKo": "지역 주민들은 소규모 사업체를 애용하도록 권장된다.",
+      "emoji": ""
+    },
+    {
+      "word": "penalize",
+      "pos": "v",
+      "meanings": [
+        "불이익을 주다",
+        "처벌하다"
+      ],
+      "example": "The rule penalizes students who submit work late.",
+      "exampleKo": "그 규칙은 과제를 늦게 제출하는 학생들에게 불이익을 준다.",
+      "emoji": "🚫"
+    },
+    {
+      "word": "ponder",
+      "pos": "v",
+      "meanings": [
+        "숙고하다",
+        "곰곰이 생각하다"
+      ],
+      "example": "She pondered the question before answering.",
+      "exampleKo": "그녀는 대답하기 전에 그 질문을 숙고했다.",
+      "emoji": "🤔"
+    },
+    {
+      "word": "populate",
+      "pos": "v",
+      "meanings": [
+        "거주하다",
+        "살다"
+      ],
+      "example": "The coastal region is densely populated.",
+      "exampleKo": "그 해안 지역은 인구밀도가 높다.",
+      "emoji": "👥"
+    },
+    {
+      "word": "predetermine",
+      "pos": "v",
+      "meanings": [
+        "미리 정하다"
+      ],
+      "example": "The outcome of the vote was largely predetermined.",
+      "exampleKo": "투표 결과는 대체로 미리 정해져 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "predominate",
+      "pos": "v",
+      "meanings": [
+        "지배적이다",
+        "우세하다"
+      ],
+      "example": "Manufacturing jobs once predominated in this town.",
+      "exampleKo": "제조업 일자리가 한때 이 마을에서 지배적이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "propel",
+      "pos": "v",
+      "meanings": [
+        "추진하다",
+        "나아가게 하다"
+      ],
+      "example": "New technology propelled the industry forward.",
+      "exampleKo": "새로운 기술이 그 산업을 앞으로 나아가게 했다.",
+      "emoji": "🚀"
+    },
+    {
+      "word": "relegate",
+      "pos": "v",
+      "meanings": [
+        "격하시키다",
+        "좌천시키다"
+      ],
+      "example": "The old method was relegated to a footnote in the textbook.",
+      "exampleKo": "그 오래된 방법은 교과서의 각주로 격하되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "remodel",
+      "pos": "v",
+      "meanings": [
+        "개조하다",
+        "개량하다"
+      ],
+      "example": "The library was remodeled to include more study spaces.",
+      "exampleKo": "도서관은 더 많은 학습 공간을 포함하도록 개조되었다.",
+      "emoji": "🔨"
+    },
+    {
+      "word": "replenish",
+      "pos": "v",
+      "meanings": [
+        "보충하다",
+        "다시 채우다"
+      ],
+      "example": "The reservoir is replenished by seasonal rainfall.",
+      "exampleKo": "그 저수지는 계절성 강우로 다시 채워진다.",
+      "emoji": ""
+    },
+    {
+      "word": "resurrect",
+      "pos": "v",
+      "meanings": [
+        "부활시키다",
+        "되살리다"
+      ],
+      "example": "The company decided to resurrect an old marketing slogan.",
+      "exampleKo": "그 회사는 오래된 광고 문구를 되살리기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "retaliate",
+      "pos": "v",
+      "meanings": [
+        "보복하다"
+      ],
+      "example": "The company retaliated against critics with a lawsuit.",
+      "exampleKo": "그 회사는 비판자들에게 소송으로 보복했다.",
+      "emoji": ""
+    },
+    {
+      "word": "retract",
+      "pos": "v",
+      "meanings": [
+        "철회하다",
+        "취소하다"
+      ],
+      "example": "The scientist retracted the claim after further testing.",
+      "exampleKo": "그 과학자는 추가 실험 후 그 주장을 철회했다.",
+      "emoji": ""
+    },
+    {
+      "word": "revere",
+      "pos": "v",
+      "meanings": [
+        "숭배하다",
+        "존경하다"
+      ],
+      "example": "The scholar is revered for his contributions to linguistics.",
+      "exampleKo": "그 학자는 언어학에 대한 공헌으로 존경받는다.",
+      "emoji": ""
+    },
+    {
+      "word": "sabotage",
+      "pos": "v",
+      "meanings": [
+        "방해하다",
+        "고의로 훼손하다"
+      ],
+      "example": "Poor communication can sabotage a team's efficiency.",
+      "exampleKo": "의사소통 부족은 팀의 효율성을 방해할 수 있다.",
+      "emoji": "💣"
+    },
+    {
+      "word": "seclude",
+      "pos": "v",
+      "meanings": [
+        "격리시키다",
+        "고립시키다"
+      ],
+      "example": "He secluded himself in the library to finish the thesis.",
+      "exampleKo": "그는 논문을 끝내기 위해 도서관에 틀어박혔다.",
+      "emoji": ""
+    },
+    {
+      "word": "shun",
+      "pos": "v",
+      "meanings": [
+        "피하다",
+        "멀리하다"
+      ],
+      "example": "The candidate shunned direct questions from reporters.",
+      "exampleKo": "그 후보자는 기자들의 직접적인 질문을 피했다.",
+      "emoji": ""
+    },
+    {
+      "word": "skew",
+      "pos": "v",
+      "meanings": [
+        "왜곡하다",
+        "치우치게 하다"
+      ],
+      "example": "A small sample size can skew the survey results.",
+      "exampleKo": "작은 표본 크기는 설문 결과를 왜곡할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "sow",
+      "pos": "v",
+      "meanings": [
+        "(씨를) 뿌리다",
+        "심다"
+      ],
+      "example": "The rumor sowed doubt among the members.",
+      "exampleKo": "그 소문은 회원들 사이에 의심을 심었다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "spearhead",
+      "pos": "v",
+      "meanings": [
+        "앞장서다",
+        "주도하다"
+      ],
+      "example": "She spearheaded the campaign for cleaner air.",
+      "exampleKo": "그녀는 더 깨끗한 공기를 위한 캠페인을 주도했다.",
+      "emoji": ""
+    },
+    {
+      "word": "squander",
+      "pos": "v",
+      "meanings": [
+        "낭비하다"
+      ],
+      "example": "They squandered the opportunity to reform the system.",
+      "exampleKo": "그들은 그 제도를 개혁할 기회를 낭비했다.",
+      "emoji": "💸"
+    },
+    {
+      "word": "stray",
+      "pos": "v",
+      "meanings": [
+        "벗어나다",
+        "빗나가다"
+      ],
+      "example": "The discussion strayed from the original topic.",
+      "exampleKo": "그 논의는 본래 주제에서 벗어났다.",
+      "emoji": ""
+    },
+    {
+      "word": "subdue",
+      "pos": "v",
+      "meanings": [
+        "진압하다",
+        "억제하다"
+      ],
+      "example": "Firefighters managed to subdue the blaze within an hour.",
+      "exampleKo": "소방관들은 한 시간 만에 화재를 진압했다.",
+      "emoji": ""
+    },
+    {
+      "word": "supersede",
+      "pos": "v",
+      "meanings": [
+        "대체하다",
+        "대신하다"
+      ],
+      "example": "The new edition supersedes all previous versions.",
+      "exampleKo": "새 판은 이전의 모든 판을 대체한다.",
+      "emoji": ""
+    },
+    {
+      "word": "tarnish",
+      "pos": "v",
+      "meanings": [
+        "훼손하다",
+        "더럽히다"
+      ],
+      "example": "The scandal tarnished the company's reputation.",
+      "exampleKo": "그 스캔들은 회사의 평판을 훼손했다.",
+      "emoji": ""
+    },
+    {
+      "word": "transpire",
+      "pos": "v",
+      "meanings": [
+        "밝혀지다",
+        "일어나다"
+      ],
+      "example": "It later transpired that the report was inaccurate.",
+      "exampleKo": "나중에 그 보고서가 부정확했음이 밝혀졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "traverse",
+      "pos": "v",
+      "meanings": [
+        "가로지르다",
+        "횡단하다"
+      ],
+      "example": "The hikers traversed the mountain range in three days.",
+      "exampleKo": "등산객들은 사흘 만에 그 산맥을 가로질렀다.",
+      "emoji": "🥾"
+    },
+    {
+      "word": "trivialize",
+      "pos": "v",
+      "meanings": [
+        "경시하다",
+        "하찮게 만들다"
+      ],
+      "example": "The article was criticized for trivializing a serious issue.",
+      "exampleKo": "그 기사는 심각한 사안을 경시했다는 비판을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "upend",
+      "pos": "v",
+      "meanings": [
+        "뒤집다",
+        "전복시키다"
+      ],
+      "example": "The discovery upended long-held assumptions in the field.",
+      "exampleKo": "그 발견은 그 분야에서 오래 지속된 가정을 뒤집었다.",
+      "emoji": ""
+    },
+    {
+      "word": "vandalize",
+      "pos": "v",
+      "meanings": [
+        "훼손하다",
+        "파손하다"
+      ],
+      "example": "Someone vandalized the statue in the park.",
+      "exampleKo": "누군가 공원에 있는 조각상을 훼손했다.",
+      "emoji": "💥"
+    },
+    {
+      "word": "wield",
+      "pos": "v",
+      "meanings": [
+        "행사하다",
+        "휘두르다"
+      ],
+      "example": "The committee wields considerable influence over policy.",
+      "exampleKo": "그 위원회는 정책에 상당한 영향력을 행사한다.",
+      "emoji": "🗡️"
+    },
+    {
+      "word": "waive",
+      "pos": "v",
+      "meanings": [
+        "포기하다",
+        "면제하다"
+      ],
+      "example": "The university waived the application fee for low-income students.",
+      "exampleKo": "그 대학은 저소득층 학생들에게 지원료를 면제해 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "allow for",
+      "pos": "phrase",
+      "meanings": [
+        "고려하다",
+        "감안하다"
+      ],
+      "example": "The schedule allows for unexpected delays.",
+      "exampleKo": "그 일정은 예상치 못한 지연을 고려한다.",
+      "emoji": ""
+    },
+    {
+      "word": "arise from",
+      "pos": "phrase",
+      "meanings": [
+        "~에서 비롯되다",
+        "생기다"
+      ],
+      "example": "Many conflicts arise from simple misunderstandings.",
+      "exampleKo": "많은 갈등은 단순한 오해에서 비롯된다.",
+      "emoji": ""
+    },
+    {
+      "word": "attribute to",
+      "pos": "phrase",
+      "meanings": [
+        "~의 탓으로 돌리다",
+        "~에 기인한다고 보다"
+      ],
+      "example": "Experts attribute the decline to changing consumer habits.",
+      "exampleKo": "전문가들은 그 감소를 변화하는 소비 습관 탓으로 돌린다.",
+      "emoji": ""
+    },
+    {
+      "word": "base on",
+      "pos": "phrase",
+      "meanings": [
+        "~에 근거하다"
+      ],
+      "example": "The decision was based on careful research.",
+      "exampleKo": "그 결정은 신중한 연구에 근거했다.",
+      "emoji": ""
+    },
+    {
+      "word": "build on",
+      "pos": "phrase",
+      "meanings": [
+        "~을 토대로 발전시키다"
+      ],
+      "example": "The new theory builds on earlier findings.",
+      "exampleKo": "그 새로운 이론은 이전의 연구 결과를 토대로 발전한다.",
+      "emoji": ""
+    },
+    {
+      "word": "call into question",
+      "pos": "phrase",
+      "meanings": [
+        "의문을 제기하다"
+      ],
+      "example": "The results call into question the original hypothesis.",
+      "exampleKo": "그 결과는 원래의 가설에 의문을 제기한다.",
+      "emoji": ""
+    },
+    {
+      "word": "capitalize on",
+      "pos": "phrase",
+      "meanings": [
+        "이용하다",
+        "활용하다"
+      ],
+      "example": "The company capitalized on the growing demand.",
+      "exampleKo": "그 회사는 늘어나는 수요를 활용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "center on",
+      "pos": "phrase",
+      "meanings": [
+        "~을 중심으로 하다"
+      ],
+      "example": "The debate centers on the definition of success.",
+      "exampleKo": "그 논쟁은 성공의 정의를 중심으로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "combine with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 결합하다"
+      ],
+      "example": "Data from surveys combined with interviews gave a fuller picture.",
+      "exampleKo": "설문 자료가 인터뷰와 결합되어 더 완전한 그림을 제공했다.",
+      "emoji": ""
+    },
+    {
+      "word": "correspond to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 해당하다",
+        "일치하다"
+      ],
+      "example": "Each symbol corresponds to a specific value.",
+      "exampleKo": "각 기호는 특정한 값에 해당한다.",
+      "emoji": ""
+    },
+    {
+      "word": "derive from",
+      "pos": "phrase",
+      "meanings": [
+        "~에서 유래하다",
+        "파생되다"
+      ],
+      "example": "The word derives from an ancient Latin term.",
+      "exampleKo": "그 단어는 고대 라틴어 용어에서 유래한다.",
+      "emoji": ""
+    },
+    {
+      "word": "embark on",
+      "pos": "phrase",
+      "meanings": [
+        "착수하다",
+        "시작하다"
+      ],
+      "example": "The team embarked on a two-year research project.",
+      "exampleKo": "그 팀은 2년간의 연구 프로젝트에 착수했다.",
+      "emoji": "⛵"
+    },
+    {
+      "word": "follow up on",
+      "pos": "phrase",
+      "meanings": [
+        "후속 조치를 취하다",
+        "추적 조사하다"
+      ],
+      "example": "Researchers plan to follow up on the initial results.",
+      "exampleKo": "연구자들은 초기 결과에 대해 후속 조사를 할 계획이다.",
+      "emoji": ""
+    },
+    {
+      "word": "give rise to",
+      "pos": "phrase",
+      "meanings": [
+        "~을 낳다",
+        "일으키다"
+      ],
+      "example": "The policy change gave rise to widespread debate.",
+      "exampleKo": "그 정책 변화는 광범위한 논쟁을 낳았다.",
+      "emoji": ""
+    },
+    {
+      "word": "relate to",
+      "pos": "phrase",
+      "meanings": [
+        "~와 관련되다"
+      ],
+      "example": "This chapter relates to the theme discussed earlier.",
+      "exampleKo": "이 장은 앞서 논의된 주제와 관련이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "result from",
+      "pos": "phrase",
+      "meanings": [
+        "~에서 비롯되다",
+        "기인하다"
+      ],
+      "example": "The error resulted from a miscalculation.",
+      "exampleKo": "그 오류는 계산 착오에서 비롯되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "screen out",
+      "pos": "phrase",
+      "meanings": [
+        "걸러내다",
+        "선별하여 제외하다"
+      ],
+      "example": "The filter screens out irrelevant search results.",
+      "exampleKo": "그 필터는 관련 없는 검색 결과를 걸러낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "set forth",
+      "pos": "phrase",
+      "meanings": [
+        "제시하다",
+        "진술하다"
+      ],
+      "example": "The report sets forth several policy recommendations.",
+      "exampleKo": "그 보고서는 여러 정책 제안을 제시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "set out",
+      "pos": "phrase",
+      "meanings": [
+        "착수하다",
+        "명시하다"
+      ],
+      "example": "The guidelines set out clear expectations for students.",
+      "exampleKo": "그 지침은 학생들에 대한 명확한 기대치를 명시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "shed light on",
+      "pos": "phrase",
+      "meanings": [
+        "밝혀주다",
+        "조명하다"
+      ],
+      "example": "The new study sheds light on the causes of the disorder.",
+      "exampleKo": "그 새로운 연구는 그 장애의 원인을 밝혀준다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "strive for",
+      "pos": "phrase",
+      "meanings": [
+        "~을 얻으려고 노력하다"
+      ],
+      "example": "Athletes strive for excellence in every competition.",
+      "exampleKo": "운동선수들은 모든 경기에서 최고를 얻으려고 노력한다.",
+      "emoji": ""
+    },
+    {
+      "word": "take account of",
+      "pos": "phrase",
+      "meanings": [
+        "고려하다",
+        "참작하다"
+      ],
+      "example": "The plan should take account of local conditions.",
+      "exampleKo": "그 계획은 지역 여건을 고려해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "tie in with",
+      "pos": "phrase",
+      "meanings": [
+        "~와 연관되다",
+        "맞아떨어지다"
+      ],
+      "example": "This finding ties in with earlier research.",
+      "exampleKo": "이 발견은 이전 연구와 연관이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "translate into",
+      "pos": "phrase",
+      "meanings": [
+        "~로 이어지다",
+        "전환되다"
+      ],
+      "example": "Increased effort does not always translate into better grades.",
+      "exampleKo": "노력의 증가가 항상 더 나은 성적으로 이어지는 것은 아니다.",
+      "emoji": ""
+    },
+    {
+      "word": "weigh up",
+      "pos": "phrase",
+      "meanings": [
+        "저울질하다",
+        "따져보다"
+      ],
+      "example": "Students should weigh up the pros and cons of each option.",
+      "exampleKo": "학생들은 각 선택지의 장단점을 저울질해야 한다.",
+      "emoji": "⚖️"
+    },
+    {
+      "word": "ascribe to",
+      "pos": "phrase",
+      "meanings": [
+        "~의 탓으로 돌리다",
+        "~에 기인한다고 여기다"
+      ],
+      "example": "Some ascribe the success to luck rather than skill.",
+      "exampleKo": "일부 사람들은 그 성공을 실력이 아니라 운 덕분이라고 여긴다.",
+      "emoji": ""
+    },
+    {
+      "word": "attest to",
+      "pos": "phrase",
+      "meanings": [
+        "입증하다",
+        "증명하다"
+      ],
+      "example": "The results attest to the effectiveness of the method.",
+      "exampleKo": "그 결과는 그 방법의 효과성을 입증한다.",
+      "emoji": ""
+    },
+    {
+      "word": "coincide with",
+      "pos": "phrase",
+      "meanings": [
+        "동시에 일어나다",
+        "일치하다"
+      ],
+      "example": "The festival coincides with the harvest season.",
+      "exampleKo": "그 축제는 수확철과 동시에 열린다.",
+      "emoji": ""
+    },
+    {
+      "word": "delve into",
+      "pos": "phrase",
+      "meanings": [
+        "깊이 파고들다",
+        "탐구하다"
+      ],
+      "example": "The documentary delves into the history of the region.",
+      "exampleKo": "그 다큐멘터리는 그 지역의 역사를 깊이 탐구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "adhere to",
+      "pos": "phrase",
+      "meanings": [
+        "고수하다",
+        "준수하다"
+      ],
+      "example": "Researchers must adhere to strict ethical standards.",
+      "exampleKo": "연구자들은 엄격한 윤리 기준을 준수해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "aim at",
+      "pos": "phrase",
+      "meanings": [
+        "~을 목표로 하다"
+      ],
+      "example": "The program aims at reducing youth unemployment.",
+      "exampleKo": "그 프로그램은 청년 실업을 줄이는 것을 목표로 한다.",
+      "emoji": "🎯"
+    },
+    {
+      "word": "allude to",
+      "pos": "phrase",
+      "meanings": [
+        "암시하다",
+        "넌지시 말하다"
+      ],
+      "example": "The author alludes to a famous historical event.",
+      "exampleKo": "그 작가는 유명한 역사적 사건을 암시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "appeal to",
+      "pos": "phrase",
+      "meanings": [
+        "호소하다",
+        "마음을 끌다"
+      ],
+      "example": "The advertisement appeals to a younger audience.",
+      "exampleKo": "그 광고는 더 젊은 층에게 호소한다.",
+      "emoji": ""
+    },
+    {
+      "word": "apply to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 적용되다"
+      ],
+      "example": "This rule applies to all participants equally.",
+      "exampleKo": "이 규칙은 모든 참가자에게 동일하게 적용된다.",
+      "emoji": ""
+    },
+    {
+      "word": "aspire to",
+      "pos": "phrase",
+      "meanings": [
+        "열망하다",
+        "포부를 갖다"
+      ],
+      "example": "Many young scientists aspire to make a lasting discovery.",
+      "exampleKo": "많은 젊은 과학자들이 지속적인 발견을 이루기를 열망한다.",
+      "emoji": ""
+    },
+    {
+      "word": "border on",
+      "pos": "phrase",
+      "meanings": [
+        "~에 가깝다",
+        "근접하다"
+      ],
+      "example": "Her enthusiasm sometimes borders on obsession.",
+      "exampleKo": "그녀의 열정은 때때로 집착에 가깝다.",
+      "emoji": ""
+    },
+    {
+      "word": "bring forth",
+      "pos": "phrase",
+      "meanings": [
+        "낳다",
+        "산출하다"
+      ],
+      "example": "The reforms brought forth unexpected results.",
+      "exampleKo": "그 개혁은 예상치 못한 결과를 낳았다.",
+      "emoji": ""
+    },
+    {
+      "word": "bring to bear",
+      "pos": "phrase",
+      "meanings": [
+        "작용시키다",
+        "동원하다"
+      ],
+      "example": "The team brought all its resources to bear on the problem.",
+      "exampleKo": "그 팀은 문제 해결을 위해 모든 자원을 동원했다.",
+      "emoji": ""
+    },
+    {
+      "word": "bring to light",
+      "pos": "phrase",
+      "meanings": [
+        "밝혀내다",
+        "드러내다"
+      ],
+      "example": "The investigation brought new facts to light.",
+      "exampleKo": "그 조사는 새로운 사실들을 밝혀냈다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "cancel out",
+      "pos": "phrase",
+      "meanings": [
+        "상쇄하다"
+      ],
+      "example": "The benefits of the plan may cancel out its costs.",
+      "exampleKo": "그 계획의 이점이 비용을 상쇄할 수도 있다.",
+      "emoji": "❌"
+    },
+    {
+      "word": "chip away at",
+      "pos": "phrase",
+      "meanings": [
+        "조금씩 무너뜨리다",
+        "깎아내다"
+      ],
+      "example": "New evidence chipped away at the old theory.",
+      "exampleKo": "새로운 증거가 오래된 이론을 조금씩 무너뜨렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "cut back on",
+      "pos": "phrase",
+      "meanings": [
+        "줄이다",
+        "삭감하다"
+      ],
+      "example": "The school decided to cut back on unnecessary spending.",
+      "exampleKo": "그 학교는 불필요한 지출을 줄이기로 했다.",
+      "emoji": "✂️"
+    },
+    {
+      "word": "dig into",
+      "pos": "phrase",
+      "meanings": [
+        "깊이 조사하다",
+        "파고들다"
+      ],
+      "example": "Journalists dug into the company's financial records.",
+      "exampleKo": "기자들은 그 회사의 재무 기록을 깊이 조사했다.",
+      "emoji": "⛏️"
+    },
+    {
+      "word": "dispose of",
+      "pos": "phrase",
+      "meanings": [
+        "처리하다",
+        "처분하다"
+      ],
+      "example": "The factory must safely dispose of chemical waste.",
+      "exampleKo": "그 공장은 화학 폐기물을 안전하게 처리해야 한다.",
+      "emoji": "🗑️"
+    },
+    {
+      "word": "draw upon",
+      "pos": "phrase",
+      "meanings": [
+        "이용하다",
+        "끌어오다"
+      ],
+      "example": "The essay draws upon several historical examples.",
+      "exampleKo": "그 에세이는 여러 역사적 사례를 끌어온다.",
+      "emoji": ""
+    },
+    {
+      "word": "engage with",
+      "pos": "phrase",
+      "meanings": [
+        "진지하게 다루다",
+        "관여하다"
+      ],
+      "example": "The book engages with complex ethical questions.",
+      "exampleKo": "그 책은 복잡한 윤리적 질문들을 진지하게 다룬다.",
+      "emoji": ""
+    },
+    {
+      "word": "factor in",
+      "pos": "phrase",
+      "meanings": [
+        "감안하다",
+        "고려에 넣다"
+      ],
+      "example": "You need to factor in travel time when planning the trip.",
+      "exampleKo": "여행을 계획할 때 이동 시간을 감안해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "fall short of",
+      "pos": "phrase",
+      "meanings": [
+        "~에 미치지 못하다"
+      ],
+      "example": "The results fell short of expectations.",
+      "exampleKo": "그 결과는 기대에 미치지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "filter out",
+      "pos": "phrase",
+      "meanings": [
+        "걸러내다"
+      ],
+      "example": "The software filters out spam messages automatically.",
+      "exampleKo": "그 소프트웨어는 스팸 메시지를 자동으로 걸러낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "fit into",
+      "pos": "phrase",
+      "meanings": [
+        "맞아떨어지다",
+        "부합하다"
+      ],
+      "example": "The new findings fit into the existing framework.",
+      "exampleKo": "새로운 발견은 기존의 틀에 맞아떨어진다.",
+      "emoji": "🧩"
+    },
+    {
+      "word": "follow through on",
+      "pos": "phrase",
+      "meanings": [
+        "끝까지 이행하다"
+      ],
+      "example": "The committee failed to follow through on its promises.",
+      "exampleKo": "위원회는 약속을 끝까지 이행하지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "gloss over",
+      "pos": "phrase",
+      "meanings": [
+        "대충 얼버무리다",
+        "간과하다"
+      ],
+      "example": "The report glossed over several important details.",
+      "exampleKo": "그 보고서는 몇 가지 중요한 세부 사항을 얼버무렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "grapple with",
+      "pos": "phrase",
+      "meanings": [
+        "씨름하다",
+        "해결하려 애쓰다"
+      ],
+      "example": "Scientists are still grappling with the puzzle.",
+      "exampleKo": "과학자들은 여전히 그 수수께끼와 씨름하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "grind to a halt",
+      "pos": "phrase",
+      "meanings": [
+        "멈추다",
+        "정체되다"
+      ],
+      "example": "Production ground to a halt after the equipment failed.",
+      "exampleKo": "장비가 고장난 후 생산이 멈췄다.",
+      "emoji": "🛑"
+    },
+    {
+      "word": "hark back to",
+      "pos": "phrase",
+      "meanings": [
+        "~을 상기시키다",
+        "회고하다"
+      ],
+      "example": "The design harks back to an earlier era.",
+      "exampleKo": "그 디자인은 이전 시대를 떠올리게 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "hold true",
+      "pos": "phrase",
+      "meanings": [
+        "여전히 유효하다",
+        "사실이다"
+      ],
+      "example": "The theory still holds true under new conditions.",
+      "exampleKo": "그 이론은 새로운 조건에서도 여전히 유효하다.",
+      "emoji": ""
+    },
+    {
+      "word": "impinge on",
+      "pos": "phrase",
+      "meanings": [
+        "침해하다",
+        "영향을 미치다"
+      ],
+      "example": "The new rule impinges on individual freedom.",
+      "exampleKo": "그 새로운 규칙은 개인의 자유를 침해한다.",
+      "emoji": ""
+    },
+    {
+      "word": "lay out",
+      "pos": "phrase",
+      "meanings": [
+        "제시하다",
+        "설명하다"
+      ],
+      "example": "The plan lays out clear steps for reform.",
+      "exampleKo": "그 계획은 개혁을 위한 명확한 단계를 제시한다.",
+      "emoji": ""
+    },
+    {
+      "word": "lean toward",
+      "pos": "phrase",
+      "meanings": [
+        "~쪽으로 기울다"
+      ],
+      "example": "The committee leans toward approving the proposal.",
+      "exampleKo": "위원회는 그 제안을 승인하는 쪽으로 기울어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "lump together",
+      "pos": "phrase",
+      "meanings": [
+        "한데 묶다"
+      ],
+      "example": "It is misleading to lump together such different cases.",
+      "exampleKo": "그렇게 다른 사례들을 한데 묶는 것은 오해의 소지가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "mesh with",
+      "pos": "phrase",
+      "meanings": [
+        "조화를 이루다",
+        "맞물리다"
+      ],
+      "example": "Her research interests mesh well with the lab's focus.",
+      "exampleKo": "그녀의 연구 관심사는 그 연구실의 초점과 잘 맞물린다.",
+      "emoji": "⚙️"
+    },
+    {
+      "word": "pare down",
+      "pos": "phrase",
+      "meanings": [
+        "줄이다",
+        "축소하다"
+      ],
+      "example": "The editor pared down the essay to its essential points.",
+      "exampleKo": "편집자는 그 에세이를 핵심 내용만으로 줄였다.",
+      "emoji": ""
+    },
+    {
+      "word": "pass off as",
+      "pos": "phrase",
+      "meanings": [
+        "~로 속여 통하게 하다"
+      ],
+      "example": "The forger tried to pass off the copy as an original.",
+      "exampleKo": "그 위조범은 모조품을 진품으로 속여 넘기려 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pick up on",
+      "pos": "phrase",
+      "meanings": [
+        "알아차리다",
+        "감지하다"
+      ],
+      "example": "She quickly picked up on the subtle change in tone.",
+      "exampleKo": "그녀는 어조의 미묘한 변화를 빠르게 알아차렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "piece together",
+      "pos": "phrase",
+      "meanings": [
+        "짜맞추다",
+        "종합하다"
+      ],
+      "example": "Detectives pieced together the sequence of events.",
+      "exampleKo": "형사들은 사건의 순서를 짜맞추었다.",
+      "emoji": "🧩"
+    },
+    {
+      "word": "pit against",
+      "pos": "phrase",
+      "meanings": [
+        "맞서게 하다",
+        "대립시키다"
+      ],
+      "example": "The debate pits economic growth against environmental protection.",
+      "exampleKo": "그 논쟁은 경제 성장과 환경 보호를 맞서게 한다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "play into",
+      "pos": "phrase",
+      "meanings": [
+        "~에 이용되다",
+        "유리하게 작용하다"
+      ],
+      "example": "The rumor played into existing public fears.",
+      "exampleKo": "그 소문은 기존의 대중의 두려움에 이용되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "play up",
+      "pos": "phrase",
+      "meanings": [
+        "과장하다",
+        "강조하다"
+      ],
+      "example": "The advertisement plays up the product's rare features.",
+      "exampleKo": "그 광고는 제품의 희귀한 특징을 과장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "plow through",
+      "pos": "phrase",
+      "meanings": [
+        "힘겹게 헤쳐 나가다"
+      ],
+      "example": "She plowed through hundreds of pages of data.",
+      "exampleKo": "그녀는 수백 페이지의 자료를 힘겹게 헤쳐 나갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "point to",
+      "pos": "phrase",
+      "meanings": [
+        "가리키다",
+        "시사하다"
+      ],
+      "example": "The evidence points to a single cause.",
+      "exampleKo": "그 증거는 단 하나의 원인을 가리킨다.",
+      "emoji": "👉"
+    },
+    {
+      "word": "pore over",
+      "pos": "phrase",
+      "meanings": [
+        "자세히 살피다",
+        "정독하다"
+      ],
+      "example": "Analysts pored over the financial statements.",
+      "exampleKo": "분석가들은 재무제표를 자세히 살펴보았다.",
+      "emoji": ""
+    },
+    {
+      "word": "press ahead with",
+      "pos": "phrase",
+      "meanings": [
+        "밀고 나가다",
+        "강행하다"
+      ],
+      "example": "The government pressed ahead with the reform despite criticism.",
+      "exampleKo": "정부는 비판에도 불구하고 개혁을 밀고 나갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "push back against",
+      "pos": "phrase",
+      "meanings": [
+        "반발하다",
+        "맞서다"
+      ],
+      "example": "Employees pushed back against the new policy.",
+      "exampleKo": "직원들은 새로운 정책에 반발했다.",
+      "emoji": ""
+    },
+    {
+      "word": "put down to",
+      "pos": "phrase",
+      "meanings": [
+        "~탓으로 돌리다"
+      ],
+      "example": "She put her success down to years of practice.",
+      "exampleKo": "그녀는 자신의 성공을 수년간의 연습 덕분이라고 여겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "rally around",
+      "pos": "phrase",
+      "meanings": [
+        "결집하다",
+        "지지하여 모이다"
+      ],
+      "example": "The community rallied around the proposal for a new park.",
+      "exampleKo": "지역 사회는 새 공원 제안을 중심으로 결집했다.",
+      "emoji": ""
+    },
+    {
+      "word": "read into",
+      "pos": "phrase",
+      "meanings": [
+        "확대 해석하다"
+      ],
+      "example": "Don't read too much into a single test result.",
+      "exampleKo": "단 한 번의 시험 결과를 지나치게 확대 해석하지 마라.",
+      "emoji": ""
+    },
+    {
+      "word": "rest on",
+      "pos": "phrase",
+      "meanings": [
+        "~에 근거하다",
+        "달려 있다"
+      ],
+      "example": "The argument rests on a questionable assumption.",
+      "exampleKo": "그 주장은 의심스러운 가정에 근거한다.",
+      "emoji": ""
+    },
+    {
+      "word": "revolve around",
+      "pos": "phrase",
+      "meanings": [
+        "~을 중심으로 돌아가다"
+      ],
+      "example": "The plot revolves around a mysterious disappearance.",
+      "exampleKo": "그 줄거리는 미스터리한 실종을 중심으로 전개된다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "rise above",
+      "pos": "phrase",
+      "meanings": [
+        "초월하다",
+        "극복하다"
+      ],
+      "example": "The team managed to rise above the setbacks.",
+      "exampleKo": "그 팀은 좌절을 극복해 냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "roll out",
+      "pos": "phrase",
+      "meanings": [
+        "도입하다",
+        "출시하다"
+      ],
+      "example": "The school will roll out a new grading system next year.",
+      "exampleKo": "학교는 내년에 새로운 성적 평가 시스템을 도입할 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "run counter to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 어긋나다",
+        "반대되다"
+      ],
+      "example": "The decision runs counter to established guidelines.",
+      "exampleKo": "그 결정은 기존 지침에 어긋난다.",
+      "emoji": ""
+    },
+    {
+      "word": "run through",
+      "pos": "phrase",
+      "meanings": [
+        "훑어보다",
+        "관통하다"
+      ],
+      "example": "A common theme runs through all three novels.",
+      "exampleKo": "공통된 주제가 세 소설 모두를 관통한다.",
+      "emoji": ""
+    },
+    {
+      "word": "seize on",
+      "pos": "phrase",
+      "meanings": [
+        "포착하다",
+        "놓치지 않고 이용하다"
+      ],
+      "example": "Critics seized on the minor error to discredit the report.",
+      "exampleKo": "비평가들은 그 사소한 오류를 포착하여 보고서를 깎아내렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "settle on",
+      "pos": "phrase",
+      "meanings": [
+        "결정하다",
+        "선택하다"
+      ],
+      "example": "The team finally settled on a new design.",
+      "exampleKo": "그 팀은 마침내 새로운 디자인을 결정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sift through",
+      "pos": "phrase",
+      "meanings": [
+        "꼼꼼히 살펴보다",
+        "체로 거르듯 살피다"
+      ],
+      "example": "Researchers sifted through thousands of records.",
+      "exampleKo": "연구자들은 수천 건의 기록을 꼼꼼히 살펴보았다.",
+      "emoji": ""
+    },
+    {
+      "word": "skew toward",
+      "pos": "phrase",
+      "meanings": [
+        "~쪽으로 치우치다"
+      ],
+      "example": "The survey sample skewed toward younger respondents.",
+      "exampleKo": "그 설문 표본은 젊은 응답자 쪽으로 치우쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "spark off",
+      "pos": "phrase",
+      "meanings": [
+        "촉발시키다",
+        "불붙이다"
+      ],
+      "example": "The article sparked off a heated debate online.",
+      "exampleKo": "그 기사는 온라인에서 열띤 논쟁을 촉발시켰다.",
+      "emoji": "🔥"
+    },
+    {
+      "word": "speak to",
+      "pos": "phrase",
+      "meanings": [
+        "시사하다",
+        "말해 주다"
+      ],
+      "example": "The data speaks to a broader social trend.",
+      "exampleKo": "그 자료는 더 폭넓은 사회적 흐름을 시사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "spin off",
+      "pos": "phrase",
+      "meanings": [
+        "파생시키다",
+        "분사하다"
+      ],
+      "example": "The original research spun off several new projects.",
+      "exampleKo": "그 원래 연구는 여러 새로운 프로젝트를 파생시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "square with",
+      "pos": "phrase",
+      "meanings": [
+        "일치하다",
+        "부합하다"
+      ],
+      "example": "His account does not square with the official report.",
+      "exampleKo": "그의 진술은 공식 보고서와 일치하지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "rehash",
+      "pos": "v",
+      "meanings": [
+        "재탕하다",
+        "고쳐 말하다"
+      ],
+      "example": "The editorial simply rehashed old arguments.",
+      "exampleKo": "그 사설은 그저 오래된 주장을 재탕했을 뿐이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "firm up",
+      "pos": "phrase",
+      "meanings": [
+        "확정하다",
+        "굳히다"
+      ],
+      "example": "The two sides met to firm up the details of the agreement.",
+      "exampleKo": "양측은 합의 세부 사항을 확정하기 위해 만났다.",
+      "emoji": ""
+    },
+    {
+      "word": "hinge upon",
+      "pos": "phrase",
+      "meanings": [
+        "~에 달려 있다"
+      ],
+      "example": "The project's success hinges upon careful planning.",
+      "exampleKo": "그 프로젝트의 성공은 신중한 계획에 달려 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "look ahead to",
+      "pos": "phrase",
+      "meanings": [
+        "~을 내다보다",
+        "고대하다"
+      ],
+      "example": "Analysts are looking ahead to next year's forecast.",
+      "exampleKo": "분석가들은 내년의 전망을 내다보고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "nudge toward",
+      "pos": "phrase",
+      "meanings": [
+        "~쪽으로 유도하다"
+      ],
+      "example": "Small incentives nudge consumers toward healthier choices.",
+      "exampleKo": "작은 인센티브는 소비자들을 더 건강한 선택 쪽으로 유도한다.",
+      "emoji": ""
+    },
+    {
+      "word": "poke holes in",
+      "pos": "phrase",
+      "meanings": [
+        "허점을 지적하다"
+      ],
+      "example": "Reviewers poked holes in the study's methodology.",
+      "exampleKo": "심사자들은 그 연구의 방법론에 허점을 지적했다.",
+      "emoji": ""
+    },
+    {
+      "word": "shake off",
+      "pos": "phrase",
+      "meanings": [
+        "떨쳐내다"
+      ],
+      "example": "The team struggled to shake off its early mistakes.",
+      "exampleKo": "그 팀은 초반의 실수를 떨쳐내는 데 어려움을 겪었다.",
+      "emoji": ""
+    },
+    {
+      "word": "stack up against",
+      "pos": "phrase",
+      "meanings": [
+        "~와 비교되다"
+      ],
+      "example": "It is worth asking how the new model stacks up against the old one.",
+      "exampleKo": "새 모델이 기존 모델과 비교해 어떤지 살펴볼 가치가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "stamp out",
+      "pos": "phrase",
+      "meanings": [
+        "근절하다"
+      ],
+      "example": "The campaign aims to stamp out misinformation online.",
+      "exampleKo": "그 캠페인은 온라인 허위 정보를 근절하는 것을 목표로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "stir up",
+      "pos": "phrase",
+      "meanings": [
+        "불러일으키다",
+        "선동하다"
+      ],
+      "example": "The comment stirred up controversy on social media.",
+      "exampleKo": "그 발언은 소셜 미디어에서 논란을 불러일으켰다.",
+      "emoji": "🌪️"
+    },
+    {
+      "word": "tack on",
+      "pos": "phrase",
+      "meanings": [
+        "덧붙이다",
+        "추가하다"
+      ],
+      "example": "The committee tacked on an additional clause at the last minute.",
+      "exampleKo": "위원회는 마지막 순간에 추가 조항을 덧붙였다.",
+      "emoji": ""
+    },
+    {
+      "word": "tailor to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 맞추다"
+      ],
+      "example": "Lessons should be tailored to each student's level.",
+      "exampleKo": "수업은 각 학생의 수준에 맞춰져야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "take stock of",
+      "pos": "phrase",
+      "meanings": [
+        "점검하다",
+        "재평가하다"
+      ],
+      "example": "It is a good time to take stock of the year's progress.",
+      "exampleKo": "한 해의 진행 상황을 점검하기에 좋은 때이다.",
+      "emoji": ""
+    },
+    {
+      "word": "tap into",
+      "pos": "phrase",
+      "meanings": [
+        "활용하다",
+        "끌어내다"
+      ],
+      "example": "The app taps into user data to personalize recommendations.",
+      "exampleKo": "그 앱은 사용자 데이터를 활용해 추천을 개인화한다.",
+      "emoji": ""
+    },
+    {
+      "word": "tease out",
+      "pos": "phrase",
+      "meanings": [
+        "가려내다",
+        "끌어내다"
+      ],
+      "example": "The interview aimed to tease out the participants' real opinions.",
+      "exampleKo": "그 인터뷰는 참가자들의 진짜 의견을 끌어내는 것을 목표로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tend toward",
+      "pos": "phrase",
+      "meanings": [
+        "~하는 경향이 있다"
+      ],
+      "example": "Older buildings tend toward higher maintenance costs.",
+      "exampleKo": "오래된 건물은 유지 비용이 더 높은 경향이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "throw light on",
+      "pos": "phrase",
+      "meanings": [
+        "밝혀 주다",
+        "조명하다"
+      ],
+      "example": "The diary entries throw light on the author's early life.",
+      "exampleKo": "그 일기 기록들은 작가의 초기 삶을 밝혀 준다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "trace back to",
+      "pos": "phrase",
+      "meanings": [
+        "~로 거슬러 올라가다"
+      ],
+      "example": "The tradition traces back to the early 19th century.",
+      "exampleKo": "그 전통은 19세기 초로 거슬러 올라간다.",
+      "emoji": ""
+    },
+    {
+      "word": "turn to",
+      "pos": "phrase",
+      "meanings": [
+        "~에 의지하다",
+        "눈을 돌리다"
+      ],
+      "example": "Many students turn to online resources for extra practice.",
+      "exampleKo": "많은 학생들이 추가 연습을 위해 온라인 자료에 의지한다.",
+      "emoji": ""
+    },
+    {
+      "word": "verge on",
+      "pos": "phrase",
+      "meanings": [
+        "~에 가깝다",
+        "근접하다"
+      ],
+      "example": "The claim verges on exaggeration.",
+      "exampleKo": "그 주장은 과장에 가깝다.",
+      "emoji": ""
+    },
+    {
+      "word": "wean off",
+      "pos": "phrase",
+      "meanings": [
+        "서서히 끊게 하다"
+      ],
+      "example": "The plan is designed to wean the economy off fossil fuels.",
+      "exampleKo": "그 계획은 경제를 화석 연료에서 서서히 벗어나게 하도록 설계되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "work toward",
+      "pos": "phrase",
+      "meanings": [
+        "~을 향해 노력하다"
+      ],
+      "example": "The team is working toward a common goal.",
+      "exampleKo": "그 팀은 공동의 목표를 향해 노력하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "wrap up",
+      "pos": "phrase",
+      "meanings": [
+        "마무리하다"
+      ],
+      "example": "The panel wrapped up the discussion with a summary.",
+      "exampleKo": "패널은 요약으로 토론을 마무리했다.",
+      "emoji": "✅"
+    },
+    {
+      "word": "spring from",
+      "pos": "phrase",
+      "meanings": [
+        "~에서 비롯되다"
+      ],
+      "example": "Her passion for teaching springs from her own school experience.",
+      "exampleKo": "가르침에 대한 그녀의 열정은 자신의 학창 시절 경험에서 비롯된다.",
+      "emoji": ""
+    }
+  ]
+}

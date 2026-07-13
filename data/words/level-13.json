@@ -1,0 +1,711 @@
+{
+  "level": 13,
+  "words": [
+    {
+      "word": "abandon",
+      "pos": "v",
+      "meanings": [
+        "버리다",
+        "포기하다",
+        "떠나다"
+      ],
+      "example": "The sailors had to abandon the sinking ship.",
+      "exampleKo": "선원들은 가라앉는 배를 버리고 떠나야 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "significant",
+      "pos": "adj",
+      "meanings": [
+        "중요한",
+        "상당한",
+        "의미 있는"
+      ],
+      "example": "There was a significant change in the results.",
+      "exampleKo": "결과에 상당한 변화가 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "assume",
+      "pos": "v",
+      "meanings": [
+        "가정하다",
+        "추정하다",
+        "떠맡다"
+      ],
+      "example": "We often assume that expensive products are better.",
+      "exampleKo": "우리는 흔히 비싼 제품이 더 좋다고 가정한다.",
+      "emoji": ""
+    },
+    {
+      "word": "acquire",
+      "pos": "v",
+      "meanings": [
+        "습득하다",
+        "얻다",
+        "획득하다"
+      ],
+      "example": "Children acquire language naturally through exposure.",
+      "exampleKo": "아이들은 노출을 통해 자연스럽게 언어를 습득한다.",
+      "emoji": ""
+    },
+    {
+      "word": "adequate",
+      "pos": "adj",
+      "meanings": [
+        "충분한",
+        "적절한"
+      ],
+      "example": "Adequate sleep is essential for memory.",
+      "exampleKo": "충분한 수면은 기억력에 필수적이다.",
+      "emoji": ""
+    },
+    {
+      "word": "anticipate",
+      "pos": "v",
+      "meanings": [
+        "예상하다",
+        "기대하다",
+        "예측하다"
+      ],
+      "example": "We did not anticipate such a large crowd.",
+      "exampleKo": "우리는 그렇게 많은 인파를 예상하지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "apparent",
+      "pos": "adj",
+      "meanings": [
+        "분명한",
+        "명백한",
+        "겉보기의"
+      ],
+      "example": "It was apparent that she was disappointed.",
+      "exampleKo": "그녀가 실망했다는 것이 분명했다.",
+      "emoji": ""
+    },
+    {
+      "word": "approve",
+      "pos": "v",
+      "meanings": [
+        "승인하다",
+        "찬성하다"
+      ],
+      "example": "The committee approved the new budget plan.",
+      "exampleKo": "위원회는 새 예산안을 승인했다.",
+      "emoji": "✅"
+    },
+    {
+      "word": "artificial",
+      "pos": "adj",
+      "meanings": [
+        "인공의",
+        "인위적인",
+        "가짜의"
+      ],
+      "example": "The drink contains no artificial flavors.",
+      "exampleKo": "그 음료에는 인공 향료가 들어 있지 않다.",
+      "emoji": "🤖"
+    },
+    {
+      "word": "assess",
+      "pos": "v",
+      "meanings": [
+        "평가하다",
+        "가늠하다",
+        "산정하다"
+      ],
+      "example": "The test is designed to assess reading ability.",
+      "exampleKo": "그 시험은 독해 능력을 평가하도록 설계되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "assign",
+      "pos": "v",
+      "meanings": [
+        "배정하다",
+        "할당하다",
+        "부여하다"
+      ],
+      "example": "Each student was assigned a different topic.",
+      "exampleKo": "각 학생에게 서로 다른 주제가 배정되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "attribute",
+      "pos": "v",
+      "meanings": [
+        "~의 탓으로 돌리다",
+        "~의 덕분으로 여기다"
+      ],
+      "example": "She attributed her success to her parents' support.",
+      "exampleKo": "그녀는 자신의 성공을 부모님의 지원 덕분으로 여겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "barrier",
+      "pos": "n",
+      "meanings": [
+        "장벽",
+        "장애물",
+        "한계"
+      ],
+      "example": "Language is often a barrier to communication.",
+      "exampleKo": "언어는 종종 의사소통의 장벽이 된다.",
+      "emoji": "🚧"
+    },
+    {
+      "word": "bias",
+      "pos": "n",
+      "meanings": [
+        "편견",
+        "편향",
+        "선입견"
+      ],
+      "example": "The article showed a clear bias against the policy.",
+      "exampleKo": "그 기사는 그 정책에 대한 명백한 편향을 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "capacity",
+      "pos": "n",
+      "meanings": [
+        "수용력",
+        "능력",
+        "용량"
+      ],
+      "example": "The stadium has a capacity of fifty thousand.",
+      "exampleKo": "그 경기장은 5만 명의 수용 능력을 갖추고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "circumstance",
+      "pos": "n",
+      "meanings": [
+        "상황",
+        "환경",
+        "사정"
+      ],
+      "example": "Under no circumstances should you give up.",
+      "exampleKo": "어떤 상황에서도 포기해서는 안 된다.",
+      "emoji": ""
+    },
+    {
+      "word": "classify",
+      "pos": "v",
+      "meanings": [
+        "분류하다",
+        "구분하다"
+      ],
+      "example": "Whales are classified as mammals, not fish.",
+      "exampleKo": "고래는 어류가 아니라 포유류로 분류된다.",
+      "emoji": "🗂️"
+    },
+    {
+      "word": "commit",
+      "pos": "v",
+      "meanings": [
+        "저지르다",
+        "전념하다",
+        "약속하다"
+      ],
+      "example": "He committed himself to finishing the project.",
+      "exampleKo": "그는 그 프로젝트를 끝내는 데 전념하기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "component",
+      "pos": "n",
+      "meanings": [
+        "구성 요소",
+        "부품",
+        "성분"
+      ],
+      "example": "Trust is a key component of friendship.",
+      "exampleKo": "신뢰는 우정의 핵심 구성 요소이다.",
+      "emoji": ""
+    },
+    {
+      "word": "conceal",
+      "pos": "v",
+      "meanings": [
+        "숨기다",
+        "감추다"
+      ],
+      "example": "He tried to conceal his disappointment with a smile.",
+      "exampleKo": "그는 미소로 실망감을 감추려고 애썼다.",
+      "emoji": ""
+    },
+    {
+      "word": "confront",
+      "pos": "v",
+      "meanings": [
+        "직면하다",
+        "맞서다",
+        "대면하다"
+      ],
+      "example": "We must confront the problem instead of avoiding it.",
+      "exampleKo": "우리는 문제를 피하지 말고 직면해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "considerable",
+      "pos": "adj",
+      "meanings": [
+        "상당한",
+        "많은"
+      ],
+      "example": "The project requires a considerable amount of money.",
+      "exampleKo": "그 프로젝트는 상당한 액수의 돈을 필요로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "contract",
+      "pos": "n",
+      "meanings": [
+        "계약",
+        "계약서"
+      ],
+      "example": "The player signed a three-year contract with the team.",
+      "exampleKo": "그 선수는 팀과 3년 계약을 맺었다.",
+      "emoji": "📄"
+    },
+    {
+      "word": "convert",
+      "pos": "v",
+      "meanings": [
+        "전환하다",
+        "바꾸다",
+        "개조하다"
+      ],
+      "example": "The old factory was converted into a museum.",
+      "exampleKo": "그 오래된 공장은 박물관으로 개조되었다.",
+      "emoji": "🔄"
+    },
+    {
+      "word": "convey",
+      "pos": "v",
+      "meanings": [
+        "전달하다",
+        "전하다",
+        "운반하다"
+      ],
+      "example": "The poem conveys a deep sense of loneliness.",
+      "exampleKo": "그 시는 깊은 외로움을 전달한다.",
+      "emoji": ""
+    },
+    {
+      "word": "crucial",
+      "pos": "adj",
+      "meanings": [
+        "결정적인",
+        "중대한",
+        "매우 중요한"
+      ],
+      "example": "The first few years of life are crucial for brain development.",
+      "exampleKo": "생후 첫 몇 년은 뇌 발달에 매우 중요하다.",
+      "emoji": ""
+    },
+    {
+      "word": "cultivate",
+      "pos": "v",
+      "meanings": [
+        "경작하다",
+        "기르다",
+        "함양하다"
+      ],
+      "example": "Reading helps cultivate critical thinking skills.",
+      "exampleKo": "독서는 비판적 사고력을 기르는 데 도움이 된다.",
+      "emoji": "🌱"
+    },
+    {
+      "word": "decade",
+      "pos": "n",
+      "meanings": [
+        "10년"
+      ],
+      "example": "Technology has changed greatly over the past decade.",
+      "exampleKo": "기술은 지난 10년 동안 크게 변화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "deceive",
+      "pos": "v",
+      "meanings": [
+        "속이다",
+        "기만하다"
+      ],
+      "example": "Advertisements sometimes deceive consumers.",
+      "exampleKo": "광고는 때때로 소비자를 속인다.",
+      "emoji": ""
+    },
+    {
+      "word": "declare",
+      "pos": "v",
+      "meanings": [
+        "선언하다",
+        "선포하다",
+        "신고하다"
+      ],
+      "example": "The government declared a state of emergency.",
+      "exampleKo": "정부는 비상사태를 선포했다.",
+      "emoji": ""
+    },
+    {
+      "word": "decline",
+      "pos": "v",
+      "meanings": [
+        "감소하다",
+        "거절하다",
+        "쇠퇴하다"
+      ],
+      "example": "The birth rate has declined sharply in recent years.",
+      "exampleKo": "최근 몇 년 사이에 출산율이 급격히 감소했다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "dedicate",
+      "pos": "v",
+      "meanings": [
+        "바치다",
+        "헌신하다",
+        "전념하다"
+      ],
+      "example": "He dedicated his life to protecting wildlife.",
+      "exampleKo": "그는 야생 동물을 보호하는 데 일생을 바쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "derive",
+      "pos": "v",
+      "meanings": [
+        "얻다",
+        "끌어내다",
+        "유래하다"
+      ],
+      "example": "Many English words derive from Latin.",
+      "exampleKo": "많은 영어 단어들이 라틴어에서 유래한다.",
+      "emoji": ""
+    },
+    {
+      "word": "detect",
+      "pos": "v",
+      "meanings": [
+        "감지하다",
+        "발견하다",
+        "알아내다"
+      ],
+      "example": "The device can detect small changes in temperature.",
+      "exampleKo": "그 장치는 온도의 작은 변화를 감지할 수 있다.",
+      "emoji": "🔍"
+    },
+    {
+      "word": "diminish",
+      "pos": "v",
+      "meanings": [
+        "줄어들다",
+        "감소시키다",
+        "약화시키다"
+      ],
+      "example": "His enthusiasm diminished as time passed.",
+      "exampleKo": "시간이 지나면서 그의 열정은 줄어들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "discard",
+      "pos": "v",
+      "meanings": [
+        "버리다",
+        "폐기하다"
+      ],
+      "example": "Do not discard batteries with regular trash.",
+      "exampleKo": "건전지를 일반 쓰레기와 함께 버리지 마세요.",
+      "emoji": "🗑️"
+    },
+    {
+      "word": "dispose",
+      "pos": "v",
+      "meanings": [
+        "처리하다",
+        "처분하다",
+        "배치하다"
+      ],
+      "example": "Factories must dispose of chemical waste safely.",
+      "exampleKo": "공장들은 화학 폐기물을 안전하게 처리해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "distinct",
+      "pos": "adj",
+      "meanings": [
+        "뚜렷한",
+        "별개의",
+        "분명한"
+      ],
+      "example": "The two languages are quite distinct from each other.",
+      "exampleKo": "그 두 언어는 서로 상당히 별개이다.",
+      "emoji": ""
+    },
+    {
+      "word": "distribute",
+      "pos": "v",
+      "meanings": [
+        "분배하다",
+        "나누어 주다",
+        "유통시키다"
+      ],
+      "example": "Volunteers distributed food to the flood victims.",
+      "exampleKo": "자원봉사자들이 수해 이재민들에게 음식을 나누어 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "diverse",
+      "pos": "adj",
+      "meanings": [
+        "다양한",
+        "여러 가지의"
+      ],
+      "example": "The city is home to people from diverse cultures.",
+      "exampleKo": "그 도시에는 다양한 문화권의 사람들이 살고 있다.",
+      "emoji": "🌈"
+    },
+    {
+      "word": "domestic",
+      "pos": "adj",
+      "meanings": [
+        "국내의",
+        "가정의",
+        "길들여진"
+      ],
+      "example": "Domestic flights are cheaper than international ones.",
+      "exampleKo": "국내선 항공편은 국제선보다 저렴하다.",
+      "emoji": ""
+    },
+    {
+      "word": "dominate",
+      "pos": "v",
+      "meanings": [
+        "지배하다",
+        "우세하다",
+        "장악하다"
+      ],
+      "example": "One company dominates the smartphone market.",
+      "exampleKo": "한 회사가 스마트폰 시장을 장악하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "eliminate",
+      "pos": "v",
+      "meanings": [
+        "제거하다",
+        "없애다",
+        "탈락시키다"
+      ],
+      "example": "The new policy aims to eliminate unnecessary paperwork.",
+      "exampleKo": "새 정책은 불필요한 서류 작업을 없애는 것을 목표로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "embrace",
+      "pos": "v",
+      "meanings": [
+        "받아들이다",
+        "포용하다",
+        "껴안다"
+      ],
+      "example": "We should embrace new ideas and technologies.",
+      "exampleKo": "우리는 새로운 아이디어와 기술을 받아들여야 한다.",
+      "emoji": "🤗"
+    },
+    {
+      "word": "emerge",
+      "pos": "v",
+      "meanings": [
+        "나타나다",
+        "드러나다",
+        "부상하다"
+      ],
+      "example": "New evidence emerged during the investigation.",
+      "exampleKo": "조사 과정에서 새로운 증거가 드러났다.",
+      "emoji": ""
+    },
+    {
+      "word": "enhance",
+      "pos": "v",
+      "meanings": [
+        "향상시키다",
+        "높이다",
+        "강화하다"
+      ],
+      "example": "Music can enhance the atmosphere of a film.",
+      "exampleKo": "음악은 영화의 분위기를 높여 줄 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "enormous",
+      "pos": "adj",
+      "meanings": [
+        "거대한",
+        "막대한",
+        "엄청난"
+      ],
+      "example": "The project required an enormous amount of effort.",
+      "exampleKo": "그 프로젝트는 엄청난 노력을 필요로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "ensure",
+      "pos": "v",
+      "meanings": [
+        "보장하다",
+        "확실하게 하다"
+      ],
+      "example": "Please ensure that all windows are locked.",
+      "exampleKo": "모든 창문이 잠겨 있는지 확실하게 해 주세요.",
+      "emoji": ""
+    },
+    {
+      "word": "evolve",
+      "pos": "v",
+      "meanings": [
+        "진화하다",
+        "발전하다",
+        "서서히 변하다"
+      ],
+      "example": "Language evolves constantly over time.",
+      "exampleKo": "언어는 시간이 지나면서 끊임없이 진화한다.",
+      "emoji": "🧬"
+    },
+    {
+      "word": "exceed",
+      "pos": "v",
+      "meanings": [
+        "초과하다",
+        "넘어서다",
+        "능가하다"
+      ],
+      "example": "The demand for the tickets exceeded expectations.",
+      "exampleKo": "그 티켓에 대한 수요는 예상을 초과했다.",
+      "emoji": ""
+    },
+    {
+      "word": "exclude",
+      "pos": "v",
+      "meanings": [
+        "제외하다",
+        "배제하다"
+      ],
+      "example": "The price excludes tax and delivery charges.",
+      "exampleKo": "그 가격에는 세금과 배송비가 제외되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "exhaust",
+      "pos": "v",
+      "meanings": [
+        "지치게 하다",
+        "고갈시키다",
+        "다 써 버리다"
+      ],
+      "example": "The long journey completely exhausted the travelers.",
+      "exampleKo": "긴 여정은 여행자들을 완전히 지치게 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "extend",
+      "pos": "v",
+      "meanings": [
+        "연장하다",
+        "확장하다",
+        "뻗다"
+      ],
+      "example": "The library extended its opening hours during exams.",
+      "exampleKo": "도서관은 시험 기간 동안 개방 시간을 연장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "flexible",
+      "pos": "adj",
+      "meanings": [
+        "유연한",
+        "융통성 있는",
+        "잘 구부러지는"
+      ],
+      "example": "The company offers flexible working hours.",
+      "exampleKo": "그 회사는 유연한 근무 시간을 제공한다.",
+      "emoji": ""
+    },
+    {
+      "word": "fulfill",
+      "pos": "v",
+      "meanings": [
+        "이행하다",
+        "성취하다",
+        "충족시키다"
+      ],
+      "example": "She finally fulfilled her dream of becoming a pilot.",
+      "exampleKo": "그녀는 마침내 조종사가 되겠다는 꿈을 성취했다.",
+      "emoji": ""
+    },
+    {
+      "word": "generate",
+      "pos": "v",
+      "meanings": [
+        "만들어 내다",
+        "발생시키다",
+        "일으키다"
+      ],
+      "example": "Wind turbines generate electricity without pollution.",
+      "exampleKo": "풍력 터빈은 오염 없이 전기를 만들어 낸다.",
+      "emoji": "⚡"
+    },
+    {
+      "word": "genuine",
+      "pos": "adj",
+      "meanings": [
+        "진짜의",
+        "진실한",
+        "진심 어린"
+      ],
+      "example": "She showed genuine interest in my project.",
+      "exampleKo": "그녀는 내 프로젝트에 진심 어린 관심을 보였다.",
+      "emoji": ""
+    },
+    {
+      "word": "grasp",
+      "pos": "v",
+      "meanings": [
+        "이해하다",
+        "파악하다",
+        "꽉 잡다"
+      ],
+      "example": "It took me a while to grasp the main idea of the text.",
+      "exampleKo": "그 글의 요지를 파악하는 데 시간이 좀 걸렸다.",
+      "emoji": "✊"
+    },
+    {
+      "word": "immense",
+      "pos": "adj",
+      "meanings": [
+        "엄청난",
+        "어마어마한",
+        "광대한"
+      ],
+      "example": "The discovery had an immense influence on medicine.",
+      "exampleKo": "그 발견은 의학에 엄청난 영향을 미쳤다.",
+      "emoji": ""
+    },
+    {
+      "word": "imply",
+      "pos": "v",
+      "meanings": [
+        "암시하다",
+        "내포하다",
+        "시사하다"
+      ],
+      "example": "His silence implied that he disagreed with the plan.",
+      "exampleKo": "그의 침묵은 그가 그 계획에 동의하지 않는다는 것을 암시했다.",
+      "emoji": ""
+    }
+  ]
+}

@@ -1,0 +1,1913 @@
+{
+  "level": 15,
+  "words": [
+    {
+      "word": "enterprise",
+      "pos": "n",
+      "meanings": [
+        "기업",
+        "사업"
+      ],
+      "example": "The government launched an initiative to support small and medium enterprises struggling with rising raw material costs.",
+      "exampleKo": "정부는 원자재 가격 상승으로 어려움을 겪는 중소기업을 지원하기 위한 계획을 시작했다.",
+      "emoji": "🏢"
+    },
+    {
+      "word": "commerce",
+      "pos": "n",
+      "meanings": [
+        "상업",
+        "통상"
+      ],
+      "example": "Advances in digital payment systems have transformed the way commerce is conducted across national borders.",
+      "exampleKo": "디지털 결제 시스템의 발전은 국경을 넘나드는 상업이 이루어지는 방식을 변화시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "gross margin",
+      "pos": "n",
+      "meanings": [
+        "매출총이익",
+        "매출총이익률"
+      ],
+      "example": "The retailer's gross margin improved after it renegotiated contracts with several suppliers.",
+      "exampleKo": "그 소매업체의 매출총이익은 여러 공급업체와 계약을 재협상한 후 개선되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "logistics",
+      "pos": "n",
+      "meanings": [
+        "물류",
+        "실행 계획"
+      ],
+      "example": "Efficient logistics allowed the retailer to deliver products to customers within twenty-four hours.",
+      "exampleKo": "효율적인 물류 덕분에 그 소매업체는 고객에게 24시간 이내에 상품을 배송할 수 있었다.",
+      "emoji": "🚚"
+    },
+    {
+      "word": "marketing",
+      "pos": "n",
+      "meanings": [
+        "마케팅",
+        "판촉 활동"
+      ],
+      "example": "The company redesigned its marketing strategy to appeal to younger consumers who shop primarily online.",
+      "exampleKo": "그 회사는 주로 온라인에서 쇼핑하는 젊은 소비자들의 관심을 끌기 위해 마케팅 전략을 새롭게 설계했다.",
+      "emoji": "📣"
+    },
+    {
+      "word": "premium",
+      "pos": "n",
+      "meanings": [
+        "보험료",
+        "할증금",
+        "프리미엄"
+      ],
+      "example": "Drivers with a clean record typically pay a lower insurance premium than those with multiple accidents.",
+      "exampleKo": "무사고 운전자는 대개 사고 이력이 많은 운전자보다 낮은 보험료를 낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "surcharge",
+      "pos": "n",
+      "meanings": [
+        "추가 요금",
+        "할증료"
+      ],
+      "example": "Airlines began adding a fuel surcharge to ticket prices after oil costs surged.",
+      "exampleKo": "항공사들은 유가가 급등한 후 항공권 가격에 유류 할증료를 추가하기 시작했다.",
+      "emoji": ""
+    },
+    {
+      "word": "publicity",
+      "pos": "n",
+      "meanings": [
+        "홍보",
+        "광고"
+      ],
+      "example": "Negative publicity surrounding the product recall caused the firm's stock price to plunge.",
+      "exampleKo": "제품 리콜을 둘러싼 부정적인 홍보 여파로 그 회사의 주가가 급락했다.",
+      "emoji": ""
+    },
+    {
+      "word": "quota",
+      "pos": "n",
+      "meanings": [
+        "할당량",
+        "쿼터"
+      ],
+      "example": "The government imposed an import quota to protect domestic manufacturers from foreign competition.",
+      "exampleKo": "정부는 국내 제조업체를 외국과의 경쟁으로부터 보호하기 위해 수입 할당량을 부과했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sector",
+      "pos": "n",
+      "meanings": [
+        "부문",
+        "분야"
+      ],
+      "example": "Employment in the manufacturing sector declined steadily as automation replaced routine tasks.",
+      "exampleKo": "자동화가 반복적인 작업을 대체하면서 제조업 부문의 고용이 꾸준히 감소했다.",
+      "emoji": ""
+    },
+    {
+      "word": "shortage",
+      "pos": "n",
+      "meanings": [
+        "부족",
+        "결핍"
+      ],
+      "example": "A global shortage of semiconductors forced automakers to slow down production lines.",
+      "exampleKo": "전 세계적인 반도체 부족은 자동차 제조업체들로 하여금 생산 라인의 속도를 늦추게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "stakeholder",
+      "pos": "n",
+      "meanings": [
+        "이해관계자"
+      ],
+      "example": "Before finalizing the merger, executives consulted every major stakeholder, including employees and shareholders.",
+      "exampleKo": "합병을 확정하기 전에 경영진은 직원과 주주를 포함한 모든 주요 이해관계자와 상의했다.",
+      "emoji": ""
+    },
+    {
+      "word": "subsidiary",
+      "pos": "n",
+      "meanings": [
+        "자회사"
+      ],
+      "example": "The multinational corporation established a subsidiary in Vietnam to reduce manufacturing costs.",
+      "exampleKo": "그 다국적 기업은 제조 비용을 줄이기 위해 베트남에 자회사를 설립했다.",
+      "emoji": ""
+    },
+    {
+      "word": "turnover",
+      "pos": "n",
+      "meanings": [
+        "이직률",
+        "총매출액",
+        "회전율"
+      ],
+      "example": "High employee turnover forced the company to spend heavily on recruiting and training new staff.",
+      "exampleKo": "높은 직원 이직률로 인해 그 회사는 신입 직원을 채용하고 교육하는 데 막대한 비용을 지출해야 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "utility",
+      "pos": "n",
+      "meanings": [
+        "공익사업",
+        "유용성"
+      ],
+      "example": "Regulators set price limits on utilities such as water and electricity to protect consumers.",
+      "exampleKo": "규제 기관은 소비자를 보호하기 위해 수도, 전기 같은 공익사업의 가격에 제한을 두었다.",
+      "emoji": ""
+    },
+    {
+      "word": "compound interest",
+      "pos": "n",
+      "meanings": [
+        "복리"
+      ],
+      "example": "Thanks to compound interest, even small monthly savings can grow substantially over several decades.",
+      "exampleKo": "복리 덕분에 매달 소액을 저축하더라도 수십 년에 걸쳐 상당히 불어날 수 있다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "insolvency",
+      "pos": "n",
+      "meanings": [
+        "지급 불능",
+        "파산 상태"
+      ],
+      "example": "Rising debt levels pushed several construction firms to the brink of insolvency.",
+      "exampleKo": "부채 수준의 상승으로 여러 건설회사들이 지급 불능 직전까지 몰렸다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "invoice",
+      "pos": "n",
+      "meanings": [
+        "청구서",
+        "송장"
+      ],
+      "example": "The supplier sent an invoice listing the quantity, price, and delivery date of each item.",
+      "exampleKo": "그 공급업체는 각 품목의 수량, 가격, 배송 날짜를 명시한 청구서를 보냈다.",
+      "emoji": "🧾"
+    },
+    {
+      "word": "initiative",
+      "pos": "n",
+      "meanings": [
+        "계획",
+        "새로운 시도",
+        "주도권"
+      ],
+      "example": "The firm launched a sustainability initiative aimed at cutting carbon emissions by half.",
+      "exampleKo": "그 회사는 탄소 배출량을 절반으로 줄이는 것을 목표로 한 지속가능성 계획을 시작했다.",
+      "emoji": ""
+    },
+    {
+      "word": "hedge",
+      "pos": "n",
+      "meanings": [
+        "대비책",
+        "헤지"
+      ],
+      "example": "Many investors buy gold as a hedge against inflation and currency devaluation.",
+      "exampleKo": "많은 투자자들은 물가상승과 통화 가치 하락에 대비한 방편으로 금을 매입한다.",
+      "emoji": ""
+    },
+    {
+      "word": "fraud",
+      "pos": "n",
+      "meanings": [
+        "사기",
+        "부정행위"
+      ],
+      "example": "The accounting firm uncovered evidence of fraud that had inflated the company's reported profits for years.",
+      "exampleKo": "그 회계법인은 수년간 회사가 보고한 이익을 부풀린 사기 행위의 증거를 발견했다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "fortune",
+      "pos": "n",
+      "meanings": [
+        "재산",
+        "큰돈",
+        "행운"
+      ],
+      "example": "She built her fortune by investing early in technology startups that later became household names.",
+      "exampleKo": "그녀는 훗날 유명해진 기술 스타트업에 일찍 투자하여 재산을 일구었다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "intermediary",
+      "pos": "n",
+      "meanings": [
+        "중개자",
+        "매개체"
+      ],
+      "example": "Banks act as intermediaries that channel savings from depositors to borrowers who need capital.",
+      "exampleKo": "은행은 예금자의 저축을 자본이 필요한 대출자에게 전달하는 중개자 역할을 한다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "rental",
+      "pos": "adj",
+      "meanings": [
+        "임대의"
+      ],
+      "example": "The company expanded its fleet of rental vehicles to meet growing demand from business travelers.",
+      "exampleKo": "그 회사는 출장객들의 증가하는 수요를 충족시키기 위해 임대 차량 보유 대수를 늘렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "lease",
+      "pos": "v",
+      "meanings": [
+        "임대하다"
+      ],
+      "example": "Rather than purchasing new machinery outright, the factory decided to lease the equipment for five years.",
+      "exampleKo": "공장은 새 기계를 완전히 구매하는 대신 5년 동안 장비를 임대하기로 결정했다.",
+      "emoji": "🔑"
+    },
+    {
+      "word": "tenant",
+      "pos": "n",
+      "meanings": [
+        "세입자",
+        "임차인"
+      ],
+      "example": "The landlord raised the rent, prompting several long-term tenants to search for cheaper apartments.",
+      "exampleKo": "집주인이 임대료를 인상하자 여러 장기 세입자들이 더 저렴한 아파트를 찾아 나섰다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "landlord",
+      "pos": "n",
+      "meanings": [
+        "집주인",
+        "임대인"
+      ],
+      "example": "The landlord agreed to lower the monthly rent in exchange for a longer lease term.",
+      "exampleKo": "집주인은 더 긴 임대 계약 기간을 조건으로 월세를 낮추는 데 동의했다.",
+      "emoji": "🏠"
+    },
+    {
+      "word": "creditor",
+      "pos": "n",
+      "meanings": [
+        "채권자"
+      ],
+      "example": "When the company went bankrupt, its creditors received only a fraction of the money they were owed.",
+      "exampleKo": "그 회사가 파산했을 때 채권자들은 받아야 할 돈의 일부만을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "debtor",
+      "pos": "n",
+      "meanings": [
+        "채무자"
+      ],
+      "example": "The new law gives debtors more time to repay outstanding loans before facing legal action.",
+      "exampleKo": "새 법은 채무자들에게 법적 조치를 받기 전에 미상환 대출을 갚을 시간을 더 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "default",
+      "pos": "v",
+      "meanings": [
+        "채무를 이행하지 않다"
+      ],
+      "example": "If the borrower defaults on the loan, the bank has the right to seize the collateral.",
+      "exampleKo": "만약 차입자가 대출금을 갚지 못하면 은행은 담보물을 압류할 권리를 갖는다.",
+      "emoji": ""
+    },
+    {
+      "word": "audit",
+      "pos": "n",
+      "meanings": [
+        "감사",
+        "회계 감사"
+      ],
+      "example": "An independent audit revealed several accounting errors that had gone unnoticed for years.",
+      "exampleKo": "독립적인 감사를 통해 수년간 눈에 띄지 않았던 여러 회계 오류가 드러났다.",
+      "emoji": "🔍"
+    },
+    {
+      "word": "auditor",
+      "pos": "n",
+      "meanings": [
+        "회계 감사관"
+      ],
+      "example": "The auditor examined the firm's financial statements to ensure they complied with regulations.",
+      "exampleKo": "회계 감사관은 그 회사의 재무제표가 규정을 준수하는지 확인하기 위해 검토했다.",
+      "emoji": ""
+    },
+    {
+      "word": "bailout",
+      "pos": "n",
+      "meanings": [
+        "구제 금융"
+      ],
+      "example": "The government approved a bailout to prevent the failing bank from collapsing and destabilizing the economy.",
+      "exampleKo": "정부는 부실 은행이 파산하여 경제를 불안정하게 만드는 것을 막기 위해 구제 금융을 승인했다.",
+      "emoji": ""
+    },
+    {
+      "word": "broker",
+      "pos": "n",
+      "meanings": [
+        "중개인"
+      ],
+      "example": "A real estate broker helped the couple negotiate a lower price for the house.",
+      "exampleKo": "한 부동산 중개인이 그 부부가 집값을 더 낮게 협상하도록 도와주었다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "brokerage",
+      "pos": "n",
+      "meanings": [
+        "중개업",
+        "중개 수수료"
+      ],
+      "example": "The brokerage charges a small fee for every stock transaction it processes on behalf of clients.",
+      "exampleKo": "그 중개업체는 고객을 대신해 처리하는 모든 주식 거래에 소액의 수수료를 부과한다.",
+      "emoji": ""
+    },
+    {
+      "word": "commission",
+      "pos": "n",
+      "meanings": [
+        "수수료",
+        "위원회"
+      ],
+      "example": "Salespeople earn a commission based on the total value of the products they sell each month.",
+      "exampleKo": "영업사원들은 매달 판매하는 상품의 총액에 따라 수수료를 받는다.",
+      "emoji": ""
+    },
+    {
+      "word": "conglomerate",
+      "pos": "n",
+      "meanings": [
+        "복합 기업",
+        "대기업 집단"
+      ],
+      "example": "The conglomerate owns dozens of companies ranging from electronics to insurance.",
+      "exampleKo": "그 복합 기업은 전자제품부터 보험까지 수십 개의 회사를 소유하고 있다.",
+      "emoji": "🏢"
+    },
+    {
+      "word": "counterfeit",
+      "pos": "adj",
+      "meanings": [
+        "위조의",
+        "가짜의"
+      ],
+      "example": "Customs officers seized thousands of counterfeit handbags being smuggled into the country.",
+      "exampleKo": "세관원들은 그 나라로 밀수되던 수천 개의 위조 핸드백을 압수했다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "depreciation",
+      "pos": "n",
+      "meanings": [
+        "가치 하락",
+        "감가상각"
+      ],
+      "example": "The car's rapid depreciation means it will be worth half its original price within three years.",
+      "exampleKo": "그 자동차의 빠른 가치 하락은 3년 안에 원래 가격의 절반 가치가 될 것을 의미한다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "earnings",
+      "pos": "n",
+      "meanings": [
+        "수익",
+        "소득"
+      ],
+      "example": "The company's quarterly earnings exceeded analysts' expectations, sending its stock price higher.",
+      "exampleKo": "그 회사의 분기 수익이 애널리스트들의 예상을 뛰어넘으면서 주가가 상승했다.",
+      "emoji": ""
+    },
+    {
+      "word": "embezzlement",
+      "pos": "n",
+      "meanings": [
+        "횡령"
+      ],
+      "example": "The former treasurer was charged with embezzlement after auditors discovered missing funds.",
+      "exampleKo": "전 회계 담당자는 감사관들이 사라진 자금을 발견한 후 횡령 혐의로 기소되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "endowment",
+      "pos": "n",
+      "meanings": [
+        "기금",
+        "기부 재산"
+      ],
+      "example": "The university relies on its endowment to fund scholarships for students from low-income families.",
+      "exampleKo": "그 대학은 저소득층 가정 학생들을 위한 장학금 지원을 위해 기금에 의존한다.",
+      "emoji": ""
+    },
+    {
+      "word": "exporter",
+      "pos": "n",
+      "meanings": [
+        "수출업자",
+        "수출국"
+      ],
+      "example": "The country became the world's leading exporter of semiconductors within a single decade.",
+      "exampleKo": "그 나라는 단 10년 만에 세계 최고의 반도체 수출국이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "fiduciary",
+      "pos": "adj",
+      "meanings": [
+        "신탁의",
+        "수탁자의"
+      ],
+      "example": "Financial advisors have a fiduciary duty to act in the best interests of their clients.",
+      "exampleKo": "재무 상담사는 고객의 최선의 이익을 위해 행동해야 할 신탁 의무가 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "importer",
+      "pos": "n",
+      "meanings": [
+        "수입업자",
+        "수입국"
+      ],
+      "example": "As a major oil importer, the nation is vulnerable to sudden spikes in global energy prices.",
+      "exampleKo": "주요 석유 수입국으로서 그 나라는 세계 에너지 가격의 급등에 취약하다.",
+      "emoji": ""
+    },
+    {
+      "word": "installment",
+      "pos": "n",
+      "meanings": [
+        "할부금",
+        "분할 납입금"
+      ],
+      "example": "Customers can pay for the appliance in monthly installments instead of one lump sum.",
+      "exampleKo": "고객들은 그 가전제품 값을 한 번에 지불하는 대신 매달 할부금으로 낼 수 있다.",
+      "emoji": "💳"
+    },
+    {
+      "word": "insurer",
+      "pos": "n",
+      "meanings": [
+        "보험 회사"
+      ],
+      "example": "The insurer refused to cover the damage, claiming it resulted from normal wear and tear.",
+      "exampleKo": "그 보험 회사는 손상이 통상적인 마모에서 비롯되었다고 주장하며 보상을 거부했다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "inventory",
+      "pos": "n",
+      "meanings": [
+        "재고",
+        "재고품"
+      ],
+      "example": "The store slashed prices to clear out excess inventory before the new collection arrived.",
+      "exampleKo": "그 매장은 새 상품이 도착하기 전에 남은 재고를 처분하기 위해 가격을 대폭 인하했다.",
+      "emoji": ""
+    },
+    {
+      "word": "investor",
+      "pos": "n",
+      "meanings": [
+        "투자자"
+      ],
+      "example": "Foreign investors withdrew billions of dollars from the emerging market amid political instability.",
+      "exampleKo": "정치적 불안정 속에서 외국인 투자자들은 그 신흥 시장에서 수십억 달러를 회수했다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "laissez-faire",
+      "pos": "n",
+      "meanings": [
+        "자유방임주의"
+      ],
+      "example": "Advocates of laissez-faire economics argue that markets function best with minimal government interference.",
+      "exampleKo": "자유방임주의 경제학 옹호자들은 정부의 개입이 최소화될 때 시장이 가장 잘 작동한다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "liquidation",
+      "pos": "n",
+      "meanings": [
+        "청산",
+        "정리"
+      ],
+      "example": "Facing mounting debts, the retailer entered liquidation and closed all of its remaining stores.",
+      "exampleKo": "늘어나는 부채에 직면한 그 소매업체는 청산 절차에 들어가 남은 매장을 모두 폐쇄했다.",
+      "emoji": ""
+    },
+    {
+      "word": "loophole",
+      "pos": "n",
+      "meanings": [
+        "허점",
+        "빠져나갈 구멍"
+      ],
+      "example": "Lawmakers moved to close a tax loophole that allowed corporations to shift profits overseas.",
+      "exampleKo": "의원들은 기업들이 해외로 이익을 이전할 수 있게 해주던 세법상의 허점을 없애기 위해 나섰다.",
+      "emoji": "🕳️"
+    },
+    {
+      "word": "manufacturer",
+      "pos": "n",
+      "meanings": [
+        "제조업체"
+      ],
+      "example": "The automobile manufacturer recalled thousands of vehicles due to a faulty brake system.",
+      "exampleKo": "그 자동차 제조업체는 결함이 있는 제동 장치 때문에 수천 대의 차량을 리콜했다.",
+      "emoji": "🏭"
+    },
+    {
+      "word": "markup",
+      "pos": "n",
+      "meanings": [
+        "가격 인상",
+        "이윤 폭"
+      ],
+      "example": "Retailers typically apply a markup of fifty percent or more to the wholesale price of clothing.",
+      "exampleKo": "소매업체들은 대개 의류 도매가격에 50퍼센트 이상의 가격 인상을 적용한다.",
+      "emoji": ""
+    },
+    {
+      "word": "markdown",
+      "pos": "n",
+      "meanings": [
+        "가격 인하"
+      ],
+      "example": "The store offered steep markdowns on winter coats at the end of the season.",
+      "exampleKo": "그 매장은 시즌이 끝날 무렵 겨울 코트에 대해 큰 폭의 가격 인하를 제공했다.",
+      "emoji": ""
+    },
+    {
+      "word": "merchandise",
+      "pos": "n",
+      "meanings": [
+        "상품"
+      ],
+      "example": "The concert venue sold branded merchandise, including t-shirts and posters, near the exit.",
+      "exampleKo": "그 공연장은 출구 근처에서 티셔츠와 포스터를 포함한 브랜드 상품을 판매했다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "moratorium",
+      "pos": "n",
+      "meanings": [
+        "일시적 중지",
+        "유예"
+      ],
+      "example": "The bank granted a temporary moratorium on loan payments for households affected by the flood.",
+      "exampleKo": "그 은행은 홍수 피해를 입은 가구들의 대출 상환에 대해 일시적인 유예를 승인했다.",
+      "emoji": "⏸️"
+    },
+    {
+      "word": "outlay",
+      "pos": "n",
+      "meanings": [
+        "지출",
+        "경비"
+      ],
+      "example": "Building the new factory required a substantial initial outlay that the company financed through bonds.",
+      "exampleKo": "새 공장을 건설하는 데는 상당한 초기 지출이 필요했고, 회사는 이를 채권 발행으로 조달했다.",
+      "emoji": ""
+    },
+    {
+      "word": "overdraft",
+      "pos": "n",
+      "meanings": [
+        "초과 인출",
+        "당좌대월"
+      ],
+      "example": "The bank charged a fee whenever the customer's account went into overdraft.",
+      "exampleKo": "그 은행은 고객의 계좌가 초과 인출 상태가 될 때마다 수수료를 부과했다.",
+      "emoji": ""
+    },
+    {
+      "word": "overhead",
+      "pos": "n",
+      "meanings": [
+        "간접비",
+        "운영비"
+      ],
+      "example": "Working from home allowed the small business to cut overhead costs like rent and utilities.",
+      "exampleKo": "재택근무 덕분에 그 소기업은 임대료와 공과금 같은 간접비를 줄일 수 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "oversupply",
+      "pos": "n",
+      "meanings": [
+        "공급 과잉"
+      ],
+      "example": "An oversupply of housing in the region caused property prices to fall sharply.",
+      "exampleKo": "그 지역의 주택 공급 과잉으로 부동산 가격이 급격히 하락했다.",
+      "emoji": ""
+    },
+    {
+      "word": "partnership",
+      "pos": "n",
+      "meanings": [
+        "동업",
+        "협력 관계"
+      ],
+      "example": "The two firms formed a partnership to develop new technology for renewable energy storage.",
+      "exampleKo": "두 회사는 신재생 에너지 저장을 위한 신기술을 개발하기 위해 동업 관계를 맺었다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "patronage",
+      "pos": "n",
+      "meanings": [
+        "후원",
+        "애용"
+      ],
+      "example": "The restaurant thanked loyal customers for their continued patronage during the difficult year.",
+      "exampleKo": "그 식당은 어려운 한 해 동안 지속적으로 애용해 준 단골 고객들에게 감사를 전했다.",
+      "emoji": ""
+    },
+    {
+      "word": "payout",
+      "pos": "n",
+      "meanings": [
+        "지급금",
+        "배당금"
+      ],
+      "example": "Shareholders welcomed the company's decision to increase its annual dividend payout.",
+      "exampleKo": "주주들은 회사가 연간 배당 지급금을 늘리기로 한 결정을 반겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "procurement",
+      "pos": "n",
+      "meanings": [
+        "조달",
+        "구매"
+      ],
+      "example": "The hospital streamlined its procurement process to obtain medical supplies more quickly.",
+      "exampleKo": "그 병원은 의료 물품을 더 신속히 확보하기 위해 조달 절차를 간소화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "profitability",
+      "pos": "n",
+      "meanings": [
+        "수익성"
+      ],
+      "example": "Cutting unnecessary expenses improved the company's profitability without reducing product quality.",
+      "exampleKo": "불필요한 비용을 줄이자 제품 품질을 낮추지 않고도 회사의 수익성이 개선되었다.",
+      "emoji": "📈"
+    },
+    {
+      "word": "protectionist",
+      "pos": "adj",
+      "meanings": [
+        "보호무역주의의"
+      ],
+      "example": "Protectionist tariffs were imposed to shield local farmers from cheaper imported crops.",
+      "exampleKo": "값싼 수입 농작물로부터 지역 농민들을 보호하기 위해 보호무역주의적 관세가 부과되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "receivable",
+      "pos": "n",
+      "meanings": [
+        "미수금"
+      ],
+      "example": "The firm's accounts receivable grew as more customers delayed payment on their invoices.",
+      "exampleKo": "더 많은 고객들이 청구서 대금 지불을 미루면서 회사의 미수금이 늘어났다.",
+      "emoji": ""
+    },
+    {
+      "word": "regulator",
+      "pos": "n",
+      "meanings": [
+        "규제 기관"
+      ],
+      "example": "The financial regulator fined the bank for failing to disclose risks to its customers.",
+      "exampleKo": "금융 규제 기관은 고객에게 위험을 고지하지 않은 은행에 벌금을 부과했다.",
+      "emoji": ""
+    },
+    {
+      "word": "reimbursement",
+      "pos": "n",
+      "meanings": [
+        "상환",
+        "환급"
+      ],
+      "example": "Employees can request reimbursement for travel expenses incurred during business trips.",
+      "exampleKo": "직원들은 출장 중 발생한 여행 경비에 대해 환급을 요청할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "remittance",
+      "pos": "n",
+      "meanings": [
+        "송금",
+        "송금액"
+      ],
+      "example": "Millions of families in developing countries depend on remittances sent by relatives working abroad.",
+      "exampleKo": "개발도상국의 수백만 가구는 해외에서 일하는 친척들이 보내는 송금액에 의존한다.",
+      "emoji": "💸"
+    },
+    {
+      "word": "retailer",
+      "pos": "n",
+      "meanings": [
+        "소매업체"
+      ],
+      "example": "The online retailer expanded into groceries after seeing steady growth in food delivery demand.",
+      "exampleKo": "그 온라인 소매업체는 식품 배달 수요의 꾸준한 성장을 확인한 후 식료품 사업으로 확장했다.",
+      "emoji": "🛍️"
+    },
+    {
+      "word": "royalty",
+      "pos": "n",
+      "meanings": [
+        "로열티",
+        "사용료"
+      ],
+      "example": "The author receives a royalty for every copy of the book sold worldwide.",
+      "exampleKo": "그 저자는 전 세계에서 판매되는 책 한 권마다 로열티를 받는다.",
+      "emoji": ""
+    },
+    {
+      "word": "shipment",
+      "pos": "n",
+      "meanings": [
+        "수송",
+        "선적물"
+      ],
+      "example": "The factory delayed the shipment of goods after a shortage of shipping containers.",
+      "exampleKo": "그 공장은 선박 컨테이너 부족으로 상품 수송을 지연했다.",
+      "emoji": ""
+    },
+    {
+      "word": "slump",
+      "pos": "n",
+      "meanings": [
+        "침체",
+        "급락"
+      ],
+      "example": "The housing market fell into a slump after interest rates rose sharply.",
+      "exampleKo": "금리가 급격히 오른 후 주택 시장은 침체에 빠졌다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "speculator",
+      "pos": "n",
+      "meanings": [
+        "투기꾼"
+      ],
+      "example": "Speculators bought large quantities of the currency, betting that its value would soon rise.",
+      "exampleKo": "투기꾼들은 그 통화의 가치가 곧 오를 것이라고 예상하며 대량으로 매입했다.",
+      "emoji": "🎲"
+    },
+    {
+      "word": "sponsorship",
+      "pos": "n",
+      "meanings": [
+        "후원",
+        "협찬"
+      ],
+      "example": "The team secured corporate sponsorship to cover the costs of traveling to international tournaments.",
+      "exampleKo": "그 팀은 국제 대회 원정 비용을 충당하기 위해 기업 후원을 확보했다.",
+      "emoji": ""
+    },
+    {
+      "word": "stagflation",
+      "pos": "n",
+      "meanings": [
+        "스태그플레이션"
+      ],
+      "example": "Economists warned that rising unemployment combined with soaring prices could lead to stagflation.",
+      "exampleKo": "경제학자들은 치솟는 실업률과 물가 상승이 결합되면 스태그플레이션으로 이어질 수 있다고 경고했다.",
+      "emoji": ""
+    },
+    {
+      "word": "stimulus",
+      "pos": "n",
+      "meanings": [
+        "경기 부양책",
+        "자극"
+      ],
+      "example": "The government introduced a stimulus package to help small businesses survive the recession.",
+      "exampleKo": "정부는 소기업들이 불황을 견디도록 돕기 위해 경기 부양책을 도입했다.",
+      "emoji": "💉"
+    },
+    {
+      "word": "stockpile",
+      "pos": "n",
+      "meanings": [
+        "비축량",
+        "재고"
+      ],
+      "example": "The country built a strategic stockpile of grain to guard against future food shortages.",
+      "exampleKo": "그 나라는 향후 식량 부족에 대비해 곡물의 전략적 비축량을 구축했다.",
+      "emoji": ""
+    },
+    {
+      "word": "supplier",
+      "pos": "n",
+      "meanings": [
+        "공급업체"
+      ],
+      "example": "The manufacturer switched suppliers after the original one repeatedly missed delivery deadlines.",
+      "exampleKo": "그 제조업체는 기존 공급업체가 배송 기한을 반복적으로 어기자 공급업체를 교체했다.",
+      "emoji": ""
+    },
+    {
+      "word": "syndicate",
+      "pos": "n",
+      "meanings": [
+        "신디케이트",
+        "연합체"
+      ],
+      "example": "A syndicate of banks agreed to jointly finance the construction of the new bridge.",
+      "exampleKo": "여러 은행으로 구성된 신디케이트는 새 다리 건설에 공동으로 자금을 지원하기로 합의했다.",
+      "emoji": ""
+    },
+    {
+      "word": "takeover",
+      "pos": "n",
+      "meanings": [
+        "인수",
+        "매수"
+      ],
+      "example": "The rival firm launched a hostile takeover attempt by buying up shares without the board's approval.",
+      "exampleKo": "경쟁 회사는 이사회의 승인 없이 주식을 매입하며 적대적 인수 시도를 감행했다.",
+      "emoji": ""
+    },
+    {
+      "word": "taxpayer",
+      "pos": "n",
+      "meanings": [
+        "납세자"
+      ],
+      "example": "Taxpayers were outraged to learn that the failed project had cost the government millions of dollars.",
+      "exampleKo": "납세자들은 그 실패한 프로젝트가 정부에 수백만 달러의 비용을 초래했다는 사실을 알고 격분했다.",
+      "emoji": ""
+    },
+    {
+      "word": "tradeoff",
+      "pos": "n",
+      "meanings": [
+        "절충",
+        "트레이드오프"
+      ],
+      "example": "Choosing a cheaper supplier involved a tradeoff between cost savings and product quality.",
+      "exampleKo": "더 저렴한 공급업체를 선택하는 것은 비용 절감과 제품 품질 사이의 절충을 수반했다.",
+      "emoji": ""
+    },
+    {
+      "word": "treasury",
+      "pos": "n",
+      "meanings": [
+        "국고",
+        "재무부"
+      ],
+      "example": "The treasury issued new bonds to raise funds for infrastructure projects.",
+      "exampleKo": "재무부는 사회기반시설 사업에 필요한 자금을 조달하기 위해 새 채권을 발행했다.",
+      "emoji": "🏛️"
+    },
+    {
+      "word": "underwriter",
+      "pos": "n",
+      "meanings": [
+        "보증인",
+        "인수업자"
+      ],
+      "example": "The underwriter assessed the risk before agreeing to insure the shipping company's fleet.",
+      "exampleKo": "그 보증인은 해운회사 선단에 대한 보험 가입을 승인하기 전에 위험을 평가했다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "valuation",
+      "pos": "n",
+      "meanings": [
+        "가치 평가",
+        "평가액"
+      ],
+      "example": "Investors questioned whether the startup's billion-dollar valuation was justified by its actual revenue.",
+      "exampleKo": "투자자들은 그 스타트업의 10억 달러 가치 평가가 실제 매출에 비추어 정당한지 의문을 제기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "venture",
+      "pos": "n",
+      "meanings": [
+        "모험 사업",
+        "벤처 사업"
+      ],
+      "example": "The two entrepreneurs launched a joint venture to develop affordable solar panels.",
+      "exampleKo": "두 기업가는 저렴한 태양광 패널을 개발하기 위해 공동 벤처 사업을 시작했다.",
+      "emoji": "🚀"
+    },
+    {
+      "word": "volatility",
+      "pos": "n",
+      "meanings": [
+        "변동성"
+      ],
+      "example": "Market volatility increased sharply after the surprise announcement of new trade tariffs.",
+      "exampleKo": "새로운 무역 관세의 깜짝 발표 이후 시장 변동성이 급격히 커졌다.",
+      "emoji": "🎢"
+    },
+    {
+      "word": "warehouse",
+      "pos": "n",
+      "meanings": [
+        "창고"
+      ],
+      "example": "The company built a massive warehouse near the port to store imported goods.",
+      "exampleKo": "그 회사는 수입품을 보관하기 위해 항구 근처에 대형 창고를 지었다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "windfall",
+      "pos": "n",
+      "meanings": [
+        "뜻밖의 횡재",
+        "예상 밖의 이익"
+      ],
+      "example": "The sudden rise in oil prices gave energy companies an unexpected windfall.",
+      "exampleKo": "갑작스러운 유가 상승은 에너지 기업들에게 예상치 못한 횡재를 안겨주었다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "financier",
+      "pos": "n",
+      "meanings": [
+        "자본가",
+        "금융업자"
+      ],
+      "example": "The financier provided the capital needed to expand the company's operations overseas.",
+      "exampleKo": "그 금융업자는 회사가 해외 사업을 확장하는 데 필요한 자본을 제공했다.",
+      "emoji": ""
+    },
+    {
+      "word": "incorporation",
+      "pos": "n",
+      "meanings": [
+        "법인 설립"
+      ],
+      "example": "The founders completed the incorporation of the company within a few weeks.",
+      "exampleKo": "창업자들은 몇 주 만에 회사의 법인 설립 절차를 완료했다.",
+      "emoji": ""
+    },
+    {
+      "word": "levy",
+      "pos": "v",
+      "meanings": [
+        "부과하다"
+      ],
+      "example": "The city council voted to levy a new tax on sugary beverages to fund public health programs.",
+      "exampleKo": "시의회는 공중 보건 프로그램의 재원을 마련하기 위해 설탕이 든 음료에 새로운 세금을 부과하기로 표결했다.",
+      "emoji": ""
+    },
+    {
+      "word": "maturity",
+      "pos": "n",
+      "meanings": [
+        "만기"
+      ],
+      "example": "The bond reaches maturity in ten years, at which point the principal will be repaid.",
+      "exampleKo": "그 채권은 10년 후 만기가 되며, 그때 원금이 상환될 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "rebate",
+      "pos": "n",
+      "meanings": [
+        "환급금",
+        "리베이트"
+      ],
+      "example": "Customers who purchase energy-efficient appliances are eligible for a government rebate.",
+      "exampleKo": "에너지 효율이 높은 가전제품을 구매하는 고객은 정부 환급금을 받을 자격이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "severance",
+      "pos": "n",
+      "meanings": [
+        "퇴직금",
+        "해고 수당"
+      ],
+      "example": "Employees who were laid off received severance equal to three months' salary.",
+      "exampleKo": "해고된 직원들은 세 달치 급여에 해당하는 퇴직금을 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "shortfall",
+      "pos": "n",
+      "meanings": [
+        "부족액",
+        "부족분"
+      ],
+      "example": "The company faced a budget shortfall after sales dropped unexpectedly during the summer.",
+      "exampleKo": "여름철 판매가 예상치 못하게 감소하면서 그 회사는 예산 부족을 겪었다.",
+      "emoji": ""
+    },
+    {
+      "word": "elasticity",
+      "pos": "n",
+      "meanings": [
+        "탄력성"
+      ],
+      "example": "The elasticity of demand for luxury goods means that even small price changes can significantly affect sales.",
+      "exampleKo": "사치품 수요의 탄력성은 작은 가격 변화조차 판매에 상당한 영향을 미칠 수 있음을 의미한다.",
+      "emoji": ""
+    },
+    {
+      "word": "subsidize",
+      "pos": "v",
+      "meanings": [
+        "보조금을 지급하다"
+      ],
+      "example": "The government subsidizes farmers to ensure a stable supply of essential crops.",
+      "exampleKo": "정부는 필수 작물의 안정적인 공급을 보장하기 위해 농민들에게 보조금을 지급한다.",
+      "emoji": ""
+    },
+    {
+      "word": "capitalize",
+      "pos": "v",
+      "meanings": [
+        "자본화하다",
+        "이용하다"
+      ],
+      "example": "The startup capitalized on growing demand for plant-based food to expand rapidly.",
+      "exampleKo": "그 스타트업은 식물성 식품에 대한 증가하는 수요를 이용하여 빠르게 성장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "depreciate",
+      "pos": "v",
+      "meanings": [
+        "가치가 하락하다",
+        "평가절하하다"
+      ],
+      "example": "New cars tend to depreciate significantly the moment they are driven off the lot.",
+      "exampleKo": "새 자동차는 판매점을 벗어나는 순간부터 상당히 가치가 하락하는 경향이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "disburse",
+      "pos": "v",
+      "meanings": [
+        "지급하다",
+        "지불하다"
+      ],
+      "example": "The relief organization disbursed emergency funds to families affected by the earthquake.",
+      "exampleKo": "그 구호 단체는 지진 피해를 입은 가정들에 긴급 자금을 지급했다.",
+      "emoji": ""
+    },
+    {
+      "word": "diversify",
+      "pos": "v",
+      "meanings": [
+        "다각화하다"
+      ],
+      "example": "The company diversified its product line to reduce reliance on a single market.",
+      "exampleKo": "그 회사는 단일 시장에 대한 의존도를 줄이기 위해 제품군을 다각화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "divest",
+      "pos": "v",
+      "meanings": [
+        "처분하다",
+        "매각하다"
+      ],
+      "example": "The corporation decided to divest its unprofitable division to focus on core operations.",
+      "exampleKo": "그 기업은 핵심 사업에 집중하기 위해 수익성이 낮은 사업부를 매각하기로 결정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "downsize",
+      "pos": "v",
+      "meanings": [
+        "규모를 축소하다"
+      ],
+      "example": "Facing declining revenue, the firm was forced to downsize its workforce by twenty percent.",
+      "exampleKo": "매출 감소에 직면한 그 회사는 어쩔 수 없이 인력을 20퍼센트 축소해야 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "indemnify",
+      "pos": "v",
+      "meanings": [
+        "보상하다",
+        "배상하다"
+      ],
+      "example": "The contract requires the contractor to indemnify the client for any damages caused during construction.",
+      "exampleKo": "그 계약은 시공업체가 공사 중 발생한 손해에 대해 고객에게 배상하도록 요구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "inflate",
+      "pos": "v",
+      "meanings": [
+        "부풀리다",
+        "폭등시키다"
+      ],
+      "example": "Executives were accused of inflating the company's earnings to attract new investors.",
+      "exampleKo": "경영진은 새로운 투자자를 유치하기 위해 회사의 수익을 부풀렸다는 혐의를 받았다.",
+      "emoji": "🎈"
+    },
+    {
+      "word": "insure",
+      "pos": "v",
+      "meanings": [
+        "보험에 들다"
+      ],
+      "example": "Homeowners are required to insure their property against fire and natural disasters.",
+      "exampleKo": "주택 소유자들은 화재와 자연재해에 대비해 자신의 재산에 보험을 들어야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "liquidate",
+      "pos": "v",
+      "meanings": [
+        "청산하다",
+        "현금화하다"
+      ],
+      "example": "The investor liquidated most of his stock holdings before the market downturn.",
+      "exampleKo": "그 투자자는 시장 침체가 오기 전에 보유 주식 대부분을 현금화했다.",
+      "emoji": ""
+    },
+    {
+      "word": "monetize",
+      "pos": "v",
+      "meanings": [
+        "수익화하다"
+      ],
+      "example": "The platform monetizes user data by selling targeted advertising to businesses.",
+      "exampleKo": "그 플랫폼은 기업에 맞춤형 광고를 판매함으로써 사용자 데이터를 수익화한다.",
+      "emoji": ""
+    },
+    {
+      "word": "outbid",
+      "pos": "v",
+      "meanings": [
+        "더 높은 값을 부르다"
+      ],
+      "example": "A foreign investor outbid local buyers to secure the property at auction.",
+      "exampleKo": "한 외국인 투자자가 경매에서 더 높은 값을 불러 지역 매수자들을 제치고 그 부동산을 확보했다.",
+      "emoji": ""
+    },
+    {
+      "word": "outperform",
+      "pos": "v",
+      "meanings": [
+        "능가하다",
+        "더 나은 성과를 내다"
+      ],
+      "example": "Technology stocks outperformed the broader market throughout the year.",
+      "exampleKo": "기술주는 한 해 내내 전체 시장보다 더 나은 성과를 냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "outsource",
+      "pos": "v",
+      "meanings": [
+        "외주를 주다",
+        "위탁하다"
+      ],
+      "example": "Many companies outsource customer service to reduce operating costs.",
+      "exampleKo": "많은 기업들이 운영 비용을 줄이기 위해 고객 서비스를 외주로 맡긴다.",
+      "emoji": ""
+    },
+    {
+      "word": "overspend",
+      "pos": "v",
+      "meanings": [
+        "과소비하다",
+        "예산을 초과하다"
+      ],
+      "example": "The department overspent its annual budget due to unexpected repair costs.",
+      "exampleKo": "그 부서는 예상치 못한 수리 비용 때문에 연간 예산을 초과하여 지출했다.",
+      "emoji": ""
+    },
+    {
+      "word": "overvalue",
+      "pos": "v",
+      "meanings": [
+        "과대평가하다"
+      ],
+      "example": "Analysts warned that investors were overvaluing the tech firm despite its shrinking profits.",
+      "exampleKo": "애널리스트들은 그 기술 기업의 이익이 줄어들고 있음에도 투자자들이 이를 과대평가하고 있다고 경고했다.",
+      "emoji": ""
+    },
+    {
+      "word": "recapitalize",
+      "pos": "v",
+      "meanings": [
+        "자본을 재구성하다",
+        "증자하다"
+      ],
+      "example": "The government recapitalized the struggling bank by injecting billions of dollars in exchange for shares.",
+      "exampleKo": "정부는 주식을 대가로 수십억 달러를 투입하여 어려움을 겪는 은행의 자본을 재구성했다.",
+      "emoji": ""
+    },
+    {
+      "word": "redeem",
+      "pos": "v",
+      "meanings": [
+        "상환하다",
+        "현금으로 바꾸다"
+      ],
+      "example": "Customers can redeem loyalty points for discounts on future purchases.",
+      "exampleKo": "고객들은 향후 구매 시 할인받기 위해 적립 포인트를 상환할 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "refinance",
+      "pos": "v",
+      "meanings": [
+        "재융자하다"
+      ],
+      "example": "Falling interest rates encouraged many homeowners to refinance their mortgages.",
+      "exampleKo": "금리 하락은 많은 주택 소유자들이 주택담보대출을 재융자하도록 이끌었다.",
+      "emoji": ""
+    },
+    {
+      "word": "reimburse",
+      "pos": "v",
+      "meanings": [
+        "상환하다",
+        "변제하다"
+      ],
+      "example": "The company reimburses employees for any equipment they purchase for remote work.",
+      "exampleKo": "그 회사는 직원들이 재택근무를 위해 구입한 장비 비용을 상환해 준다.",
+      "emoji": ""
+    },
+    {
+      "word": "relocate",
+      "pos": "v",
+      "meanings": [
+        "이전하다"
+      ],
+      "example": "The manufacturer relocated its factory to a country with lower labor costs.",
+      "exampleKo": "그 제조업체는 인건비가 더 낮은 나라로 공장을 이전했다.",
+      "emoji": "📦"
+    },
+    {
+      "word": "repossess",
+      "pos": "v",
+      "meanings": [
+        "회수하다",
+        "압류하다"
+      ],
+      "example": "The bank repossessed the car after the buyer failed to make payments for six months.",
+      "exampleKo": "구매자가 6개월간 대금을 지불하지 못하자 은행은 그 자동차를 압류했다.",
+      "emoji": "🔑"
+    },
+    {
+      "word": "sever",
+      "pos": "v",
+      "meanings": [
+        "단절하다",
+        "끊다"
+      ],
+      "example": "The company severed ties with the supplier after reports of unethical labor practices surfaced.",
+      "exampleKo": "비윤리적인 노동 관행에 대한 보도가 나오자 그 회사는 공급업체와의 관계를 단절했다.",
+      "emoji": "✂️"
+    },
+    {
+      "word": "underbid",
+      "pos": "v",
+      "meanings": [
+        "더 낮은 값을 부르다"
+      ],
+      "example": "The construction firm won the contract by underbidding all of its competitors.",
+      "exampleKo": "그 건설사는 모든 경쟁사보다 더 낮은 값을 불러 계약을 따냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "underwrite",
+      "pos": "v",
+      "meanings": [
+        "보증하다",
+        "인수하다"
+      ],
+      "example": "The investment bank agreed to underwrite the company's initial public offering.",
+      "exampleKo": "그 투자은행은 회사의 기업공개를 인수하기로 합의했다.",
+      "emoji": ""
+    },
+    {
+      "word": "undervalue",
+      "pos": "v",
+      "meanings": [
+        "과소평가하다"
+      ],
+      "example": "Critics argue that the currency has been deliberately undervalued to boost exports.",
+      "exampleKo": "비평가들은 수출을 늘리기 위해 그 통화 가치가 의도적으로 과소평가되어 왔다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "withhold",
+      "pos": "v",
+      "meanings": [
+        "보류하다",
+        "원천징수하다"
+      ],
+      "example": "Employers are required to withhold a portion of each paycheck for income tax.",
+      "exampleKo": "고용주는 소득세를 위해 급여에서 일정 부분을 원천징수해야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "accrue",
+      "pos": "v",
+      "meanings": [
+        "누적되다",
+        "발생하다"
+      ],
+      "example": "Interest accrues on the unpaid balance every month, increasing the total amount owed.",
+      "exampleKo": "매달 미상환 잔액에 이자가 누적되어 갚아야 할 총액이 늘어난다.",
+      "emoji": ""
+    },
+    {
+      "word": "commercialize",
+      "pos": "v",
+      "meanings": [
+        "상업화하다"
+      ],
+      "example": "The lab spent years trying to commercialize its breakthrough battery technology.",
+      "exampleKo": "그 연구소는 획기적인 배터리 기술을 상업화하기 위해 수년을 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "economize",
+      "pos": "v",
+      "meanings": [
+        "절약하다",
+        "아끼다"
+      ],
+      "example": "The household economized on nonessential spending after the father lost his job.",
+      "exampleKo": "아버지가 실직한 후 그 가정은 불필요한 지출을 절약했다.",
+      "emoji": ""
+    },
+    {
+      "word": "reinvest",
+      "pos": "v",
+      "meanings": [
+        "재투자하다"
+      ],
+      "example": "Instead of paying dividends, the company chose to reinvest its profits into research.",
+      "exampleKo": "그 회사는 배당금을 지급하는 대신 이익을 연구에 재투자하기로 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "repatriate",
+      "pos": "v",
+      "meanings": [
+        "본국으로 송환하다",
+        "이익을 본국으로 회수하다"
+      ],
+      "example": "The multinational firm repatriated its overseas earnings to invest in domestic factories.",
+      "exampleKo": "그 다국적 기업은 국내 공장에 투자하기 위해 해외 수익을 본국으로 회수했다.",
+      "emoji": ""
+    },
+    {
+      "word": "recoup",
+      "pos": "v",
+      "meanings": [
+        "만회하다",
+        "되찾다"
+      ],
+      "example": "It took the airline three years to recoup the losses it suffered during the crisis.",
+      "exampleKo": "그 항공사는 위기 동안 입은 손실을 만회하는 데 3년이 걸렸다.",
+      "emoji": ""
+    },
+    {
+      "word": "amortize",
+      "pos": "v",
+      "meanings": [
+        "분할 상환하다"
+      ],
+      "example": "The company amortizes the cost of its equipment over the useful life of each machine.",
+      "exampleKo": "그 회사는 각 기계의 내용연수에 걸쳐 장비 비용을 분할 상환한다.",
+      "emoji": ""
+    },
+    {
+      "word": "indebted",
+      "pos": "adj",
+      "meanings": [
+        "빚을 진",
+        "신세를 진"
+      ],
+      "example": "Many young graduates remain deeply indebted after years of paying off student loans.",
+      "exampleKo": "많은 젊은 졸업생들은 수년간 학자금 대출을 갚은 후에도 여전히 큰 빚을 지고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "entrepreneurial",
+      "pos": "adj",
+      "meanings": [
+        "기업가적인"
+      ],
+      "example": "Her entrepreneurial spirit led her to launch three successful startups before turning thirty.",
+      "exampleKo": "그녀의 기업가적인 정신은 서른 살이 되기 전에 세 개의 성공적인 스타트업을 창업하게 이끌었다.",
+      "emoji": ""
+    },
+    {
+      "word": "equitable",
+      "pos": "adj",
+      "meanings": [
+        "공평한",
+        "공정한"
+      ],
+      "example": "The new tax reform aims to create a more equitable distribution of wealth across society.",
+      "exampleKo": "새로운 세제 개혁은 사회 전반에 걸쳐 더 공평한 부의 분배를 만들어내는 것을 목표로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "exponential",
+      "pos": "adj",
+      "meanings": [
+        "기하급수적인"
+      ],
+      "example": "The company experienced exponential growth after its product went viral online.",
+      "exampleKo": "그 회사는 제품이 온라인에서 입소문을 탄 후 기하급수적인 성장을 경험했다.",
+      "emoji": ""
+    },
+    {
+      "word": "insolvent",
+      "pos": "adj",
+      "meanings": [
+        "지급 불능의",
+        "파산한"
+      ],
+      "example": "The firm was declared insolvent after failing to pay its creditors for several months.",
+      "exampleKo": "그 회사는 몇 달 동안 채권자들에게 대금을 지불하지 못하자 지급 불능 상태로 선언되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "corporate",
+      "pos": "adj",
+      "meanings": [
+        "기업의",
+        "법인의"
+      ],
+      "example": "Corporate profits soared even as ordinary workers' wages remained largely stagnant.",
+      "exampleKo": "일반 노동자들의 임금이 대체로 정체된 상태였음에도 기업 이익은 급등했다.",
+      "emoji": ""
+    },
+    {
+      "word": "preferential",
+      "pos": "adj",
+      "meanings": [
+        "특혜의",
+        "우선적인"
+      ],
+      "example": "Developing countries were given preferential access to the wealthier nation's markets.",
+      "exampleKo": "개발도상국들은 부유한 나라의 시장에 특혜적으로 접근할 수 있는 기회를 받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "solvent",
+      "pos": "adj",
+      "meanings": [
+        "지급 능력이 있는"
+      ],
+      "example": "The bank remained solvent throughout the crisis thanks to its large cash reserves.",
+      "exampleKo": "그 은행은 막대한 현금 보유고 덕분에 위기 내내 지급 능력을 유지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "transnational",
+      "pos": "adj",
+      "meanings": [
+        "다국적의",
+        "초국가적인"
+      ],
+      "example": "Transnational corporations often shift production to countries with the lowest labor costs.",
+      "exampleKo": "다국적 기업들은 종종 인건비가 가장 낮은 나라로 생산 시설을 옮긴다.",
+      "emoji": "🌍"
+    },
+    {
+      "word": "unregulated",
+      "pos": "adj",
+      "meanings": [
+        "규제되지 않은"
+      ],
+      "example": "Critics warn that unregulated financial markets can lead to reckless speculation and instability.",
+      "exampleKo": "비평가들은 규제되지 않은 금융 시장이 무모한 투기와 불안정을 초래할 수 있다고 경고한다.",
+      "emoji": ""
+    },
+    {
+      "word": "upfront",
+      "pos": "adj",
+      "meanings": [
+        "선불의",
+        "사전의"
+      ],
+      "example": "The contractor required an upfront payment before beginning any renovation work.",
+      "exampleKo": "그 시공업체는 개조 공사를 시작하기 전에 선불금을 요구했다.",
+      "emoji": ""
+    },
+    {
+      "word": "vested",
+      "pos": "adj",
+      "meanings": [
+        "기득의",
+        "이해관계가 있는"
+      ],
+      "example": "Executives with a vested interest in the merger downplayed concerns about job losses.",
+      "exampleKo": "합병에 이해관계가 있는 경영진은 일자리 손실에 대한 우려를 경시했다.",
+      "emoji": ""
+    },
+    {
+      "word": "cost-effective",
+      "pos": "adj",
+      "meanings": [
+        "비용 효율적인"
+      ],
+      "example": "Solar panels have become a cost-effective alternative to traditional energy sources in many regions.",
+      "exampleKo": "태양광 패널은 많은 지역에서 전통적인 에너지원에 대한 비용 효율적인 대안이 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "inflationary",
+      "pos": "adj",
+      "meanings": [
+        "물가 상승을 유발하는"
+      ],
+      "example": "Sharp increases in government spending can have an inflationary effect on the economy.",
+      "exampleKo": "정부 지출의 급격한 증가는 경제에 물가 상승을 유발하는 효과를 낼 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "monopolistic",
+      "pos": "adj",
+      "meanings": [
+        "독점적인"
+      ],
+      "example": "Regulators fined the tech giant for engaging in monopolistic practices that stifled competition.",
+      "exampleKo": "규제 당국은 경쟁을 억누르는 독점적 관행을 벌인 그 거대 기술 기업에 벌금을 부과했다.",
+      "emoji": ""
+    },
+    {
+      "word": "negotiable",
+      "pos": "adj",
+      "meanings": [
+        "협상 가능한",
+        "양도할 수 있는"
+      ],
+      "example": "The seller made it clear that the listed price was negotiable for serious buyers.",
+      "exampleKo": "판매자는 진지한 구매자에게는 제시된 가격이 협상 가능하다는 점을 분명히 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "payable",
+      "pos": "adj",
+      "meanings": [
+        "지불해야 할",
+        "지불할 수 있는"
+      ],
+      "example": "The invoice states that the total amount is payable within thirty days.",
+      "exampleKo": "그 청구서에는 총액이 30일 이내에 지불되어야 한다고 명시되어 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "perishable",
+      "pos": "adj",
+      "meanings": [
+        "부패하기 쉬운"
+      ],
+      "example": "Perishable goods such as fresh produce require careful handling and quick delivery.",
+      "exampleKo": "신선 농산물과 같은 부패하기 쉬운 상품은 세심한 취급과 신속한 배송을 필요로 한다.",
+      "emoji": "⏳"
+    },
+    {
+      "word": "proprietary",
+      "pos": "adj",
+      "meanings": [
+        "독점의",
+        "소유주의"
+      ],
+      "example": "The firm refused to share its proprietary software with competitors.",
+      "exampleKo": "그 회사는 경쟁사와 독점 소프트웨어를 공유하기를 거부했다.",
+      "emoji": ""
+    },
+    {
+      "word": "scalable",
+      "pos": "adj",
+      "meanings": [
+        "확장 가능한"
+      ],
+      "example": "Investors were attracted to the startup's scalable business model, which required little additional capital to grow.",
+      "exampleKo": "투자자들은 성장을 위해 추가 자본이 거의 필요하지 않은 그 스타트업의 확장 가능한 사업 모델에 매력을 느꼈다.",
+      "emoji": ""
+    },
+    {
+      "word": "subpar",
+      "pos": "adj",
+      "meanings": [
+        "평균 이하의",
+        "기준 이하의"
+      ],
+      "example": "The company's subpar earnings this quarter disappointed shareholders who expected steady growth.",
+      "exampleKo": "이번 분기 그 회사의 평균 이하 실적은 꾸준한 성장을 기대했던 주주들을 실망시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "transactional",
+      "pos": "adj",
+      "meanings": [
+        "거래의",
+        "거래적인"
+      ],
+      "example": "The bank invested heavily in software to process transactional data more efficiently.",
+      "exampleKo": "그 은행은 거래 데이터를 더 효율적으로 처리하기 위해 소프트웨어에 막대한 투자를 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "transferable",
+      "pos": "adj",
+      "meanings": [
+        "양도 가능한",
+        "이전 가능한"
+      ],
+      "example": "The airline ticket is nonrefundable but transferable to another passenger.",
+      "exampleKo": "그 항공권은 환불은 불가능하지만 다른 승객에게 양도는 가능하다.",
+      "emoji": ""
+    },
+    {
+      "word": "unsecured",
+      "pos": "adj",
+      "meanings": [
+        "무담보의"
+      ],
+      "example": "Unsecured loans typically carry higher interest rates because lenders take on greater risk.",
+      "exampleKo": "무담보 대출은 대출기관이 더 큰 위험을 부담하기 때문에 대개 더 높은 이자율이 적용된다.",
+      "emoji": ""
+    },
+    {
+      "word": "unsustainable",
+      "pos": "adj",
+      "meanings": [
+        "지속 불가능한"
+      ],
+      "example": "Economists warned that the country's growing debt was unsustainable in the long run.",
+      "exampleKo": "경제학자들은 그 나라의 늘어나는 부채가 장기적으로 지속 불가능하다고 경고했다.",
+      "emoji": ""
+    },
+    {
+      "word": "fungible",
+      "pos": "adj",
+      "meanings": [
+        "대체 가능한"
+      ],
+      "example": "Currency is fungible, meaning one unit can be exchanged for another of equal value without loss.",
+      "exampleKo": "화폐는 대체 가능하며, 이는 한 단위가 손실 없이 동일한 가치의 다른 단위와 교환될 수 있음을 의미한다.",
+      "emoji": ""
+    },
+    {
+      "word": "taxable",
+      "pos": "adj",
+      "meanings": [
+        "과세 대상의"
+      ],
+      "example": "Only income above a certain threshold is considered taxable under the new law.",
+      "exampleKo": "새 법에 따르면 특정 기준 이상의 소득만이 과세 대상으로 간주된다.",
+      "emoji": ""
+    },
+    {
+      "word": "lucratively",
+      "pos": "adv",
+      "meanings": [
+        "수익성 있게"
+      ],
+      "example": "The former athlete lucratively endorsed several sportswear brands after retiring.",
+      "exampleKo": "그 전직 운동선수는 은퇴 후 여러 스포츠웨어 브랜드를 수익성 있게 홍보했다.",
+      "emoji": ""
+    },
+    {
+      "word": "holding company",
+      "pos": "n",
+      "meanings": [
+        "지주회사"
+      ],
+      "example": "The holding company controls a portfolio of businesses ranging from airlines to insurance.",
+      "exampleKo": "그 지주회사는 항공사부터 보험사까지 다양한 사업체 포트폴리오를 지배하고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "mutual fund",
+      "pos": "n",
+      "meanings": [
+        "뮤추얼 펀드"
+      ],
+      "example": "A mutual fund pools money from many investors to purchase a diversified portfolio of stocks and bonds.",
+      "exampleKo": "뮤추얼 펀드는 여러 투자자로부터 자금을 모아 다각화된 주식과 채권 포트폴리오를 매입한다.",
+      "emoji": ""
+    },
+    {
+      "word": "net income",
+      "pos": "n",
+      "meanings": [
+        "순이익"
+      ],
+      "example": "The company's net income fell despite record sales, mainly due to rising production costs.",
+      "exampleKo": "그 회사의 순이익은 기록적인 매출에도 불구하고 주로 생산 비용 상승으로 인해 감소했다.",
+      "emoji": ""
+    },
+    {
+      "word": "bear market",
+      "pos": "n",
+      "meanings": [
+        "약세장"
+      ],
+      "example": "Investors grew cautious as the stock market entered a bear market for the first time in years.",
+      "exampleKo": "주식 시장이 몇 년 만에 처음으로 약세장에 진입하자 투자자들은 신중해졌다.",
+      "emoji": "🐻"
+    },
+    {
+      "word": "bull market",
+      "pos": "n",
+      "meanings": [
+        "강세장"
+      ],
+      "example": "The extended bull market encouraged even inexperienced investors to buy stocks.",
+      "exampleKo": "장기간 이어진 강세장은 경험이 부족한 투자자들조차 주식을 매수하도록 이끌었다.",
+      "emoji": "🐂"
+    },
+    {
+      "word": "capital gain",
+      "pos": "n",
+      "meanings": [
+        "자본 이득"
+      ],
+      "example": "Investors must pay tax on any capital gain they realize when selling shares at a profit.",
+      "exampleKo": "투자자들은 주식을 이익을 남기고 매도할 때 발생하는 자본 이득에 대해 세금을 내야 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "market share",
+      "pos": "n",
+      "meanings": [
+        "시장 점유율"
+      ],
+      "example": "The company lowered its prices in an attempt to regain market share from its rivals.",
+      "exampleKo": "그 회사는 경쟁사로부터 시장 점유율을 되찾기 위해 가격을 낮췄다.",
+      "emoji": ""
+    },
+    {
+      "word": "joint venture",
+      "pos": "n",
+      "meanings": [
+        "합작 투자"
+      ],
+      "example": "The two automakers formed a joint venture to jointly produce electric vehicle batteries.",
+      "exampleKo": "두 자동차 제조업체는 전기차 배터리를 공동으로 생산하기 위해 합작 투자 사업을 설립했다.",
+      "emoji": "🤝"
+    },
+    {
+      "word": "trade war",
+      "pos": "n",
+      "meanings": [
+        "무역 전쟁"
+      ],
+      "example": "The trade war between the two nations led to higher tariffs on imported steel and aluminum.",
+      "exampleKo": "두 나라 사이의 무역 전쟁은 수입 철강과 알루미늄에 대한 관세 인상으로 이어졌다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "gross domestic product",
+      "pos": "n",
+      "meanings": [
+        "국내총생산"
+      ],
+      "example": "The country's gross domestic product grew by three percent last year despite global uncertainty.",
+      "exampleKo": "세계적인 불확실성에도 불구하고 그 나라의 국내총생산은 작년에 3퍼센트 성장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "disposable income",
+      "pos": "n",
+      "meanings": [
+        "가처분 소득"
+      ],
+      "example": "As disposable income rises, households tend to spend more on entertainment and travel.",
+      "exampleKo": "가처분 소득이 증가함에 따라 가계는 오락과 여행에 더 많은 돈을 쓰는 경향이 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "per capita",
+      "pos": "adv",
+      "meanings": [
+        "1인당"
+      ],
+      "example": "Income per capita in the region has more than doubled over the past two decades.",
+      "exampleKo": "그 지역의 1인당 소득은 지난 20년 동안 두 배 넘게 증가했다.",
+      "emoji": ""
+    },
+    {
+      "word": "profit margin",
+      "pos": "n",
+      "meanings": [
+        "이윤 폭",
+        "이익률"
+      ],
+      "example": "Rising raw material costs squeezed the manufacturer's profit margin significantly.",
+      "exampleKo": "원자재 가격 상승은 그 제조업체의 이윤 폭을 상당히 압박했다.",
+      "emoji": ""
+    },
+    {
+      "word": "pension fund",
+      "pos": "n",
+      "meanings": [
+        "연금 기금"
+      ],
+      "example": "The pension fund invests in a mix of stocks, bonds, and real estate to secure retirees' income.",
+      "exampleKo": "그 연금 기금은 은퇴자들의 소득을 보장하기 위해 주식, 채권, 부동산에 혼합 투자한다.",
+      "emoji": ""
+    },
+    {
+      "word": "customs duty",
+      "pos": "n",
+      "meanings": [
+        "관세"
+      ],
+      "example": "Importers must pay a customs duty based on the declared value of the goods entering the country.",
+      "exampleKo": "수입업자들은 그 나라에 들어오는 상품의 신고 가치에 따라 관세를 지불해야 한다.",
+      "emoji": "🛃"
+    },
+    {
+      "word": "underperform",
+      "pos": "v",
+      "meanings": [
+        "저조한 성과를 내다",
+        "기대에 못 미치다"
+      ],
+      "example": "The fund underperformed the market index for the third consecutive year.",
+      "exampleKo": "그 펀드는 3년 연속으로 시장 지수보다 저조한 성과를 냈다.",
+      "emoji": "📉"
+    },
+    {
+      "word": "franchisee",
+      "pos": "n",
+      "meanings": [
+        "가맹점주",
+        "프랜차이즈 가입자"
+      ],
+      "example": "Each franchisee must follow strict guidelines set by the parent company regarding menu and pricing.",
+      "exampleKo": "각 가맹점주는 메뉴와 가격에 관해 본사가 정한 엄격한 지침을 따라야 한다.",
+      "emoji": ""
+    }
+  ]
+}

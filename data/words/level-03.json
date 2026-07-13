@@ -1,0 +1,634 @@
+{
+  "level": 3,
+  "words": [
+    {
+      "word": "Monday",
+      "pos": "n",
+      "meanings": [
+        "월요일"
+      ],
+      "example": "We have a math class on Monday.",
+      "exampleKo": "우리는 월요일에 수학 수업이 있다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "Tuesday",
+      "pos": "n",
+      "meanings": [
+        "화요일"
+      ],
+      "example": "I play soccer on Tuesday.",
+      "exampleKo": "나는 화요일에 축구를 한다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "Wednesday",
+      "pos": "n",
+      "meanings": [
+        "수요일"
+      ],
+      "example": "Today is Wednesday.",
+      "exampleKo": "오늘은 수요일이다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "Thursday",
+      "pos": "n",
+      "meanings": [
+        "목요일"
+      ],
+      "example": "We have an art class on Thursday.",
+      "exampleKo": "우리는 목요일에 미술 수업이 있다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "Friday",
+      "pos": "n",
+      "meanings": [
+        "금요일"
+      ],
+      "example": "I am happy because it is Friday.",
+      "exampleKo": "금요일이라서 나는 기분이 좋다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "Saturday",
+      "pos": "n",
+      "meanings": [
+        "토요일"
+      ],
+      "example": "We don't go to school on Saturday.",
+      "exampleKo": "우리는 토요일에 학교에 가지 않는다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "Sunday",
+      "pos": "n",
+      "meanings": [
+        "일요일"
+      ],
+      "example": "My family eats out on Sunday.",
+      "exampleKo": "우리 가족은 일요일에 외식을 한다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "January",
+      "pos": "n",
+      "meanings": [
+        "1월"
+      ],
+      "example": "The new year starts in January.",
+      "exampleKo": "새해는 1월에 시작된다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "March",
+      "pos": "n",
+      "meanings": [
+        "3월"
+      ],
+      "example": "School starts in March in Korea.",
+      "exampleKo": "한국에서는 3월에 학교가 시작된다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "July",
+      "pos": "n",
+      "meanings": [
+        "7월"
+      ],
+      "example": "It is very hot in July.",
+      "exampleKo": "7월에는 날씨가 매우 덥다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "December",
+      "pos": "n",
+      "meanings": [
+        "12월"
+      ],
+      "example": "Christmas is in December.",
+      "exampleKo": "크리스마스는 12월에 있다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "weather",
+      "pos": "n",
+      "meanings": [
+        "날씨"
+      ],
+      "example": "How is the weather today?",
+      "exampleKo": "오늘 날씨가 어때?",
+      "emoji": "⛅"
+    },
+    {
+      "word": "rain",
+      "pos": "n",
+      "meanings": [
+        "비"
+      ],
+      "example": "The rain stopped in the afternoon.",
+      "exampleKo": "오후에 비가 그쳤다.",
+      "emoji": "🌧️"
+    },
+    {
+      "word": "snow",
+      "pos": "n",
+      "meanings": [
+        "눈"
+      ],
+      "example": "We made a snowman in the snow.",
+      "exampleKo": "우리는 눈 속에서 눈사람을 만들었다.",
+      "emoji": "❄️"
+    },
+    {
+      "word": "wind",
+      "pos": "n",
+      "meanings": [
+        "바람"
+      ],
+      "example": "The wind is very strong today.",
+      "exampleKo": "오늘은 바람이 아주 세다.",
+      "emoji": "💨"
+    },
+    {
+      "word": "cloud",
+      "pos": "n",
+      "meanings": [
+        "구름"
+      ],
+      "example": "There are many clouds in the sky.",
+      "exampleKo": "하늘에 구름이 많다.",
+      "emoji": "☁️"
+    },
+    {
+      "word": "sunny",
+      "pos": "adj",
+      "meanings": [
+        "화창한",
+        "맑은"
+      ],
+      "example": "It is sunny today.",
+      "exampleKo": "오늘은 날씨가 화창하다.",
+      "emoji": "☀️"
+    },
+    {
+      "word": "cloudy",
+      "pos": "adj",
+      "meanings": [
+        "흐린",
+        "구름 낀"
+      ],
+      "example": "It is cloudy this morning.",
+      "exampleKo": "오늘 아침은 날씨가 흐리다.",
+      "emoji": "☁️"
+    },
+    {
+      "word": "windy",
+      "pos": "adj",
+      "meanings": [
+        "바람 부는",
+        "바람이 센"
+      ],
+      "example": "It is too windy to fly a kite.",
+      "exampleKo": "연을 날리기에는 바람이 너무 세다.",
+      "emoji": "💨"
+    },
+    {
+      "word": "warm",
+      "pos": "adj",
+      "meanings": [
+        "따뜻한"
+      ],
+      "example": "It is warm in spring.",
+      "exampleKo": "봄에는 날씨가 따뜻하다.",
+      "emoji": "🌤️"
+    },
+    {
+      "word": "cool",
+      "pos": "adj",
+      "meanings": [
+        "시원한",
+        "멋진"
+      ],
+      "example": "The wind is cool in fall.",
+      "exampleKo": "가을에는 바람이 시원하다.",
+      "emoji": "😎"
+    },
+    {
+      "word": "happy",
+      "pos": "adj",
+      "meanings": [
+        "행복한",
+        "기쁜"
+      ],
+      "example": "I am happy to see you.",
+      "exampleKo": "너를 만나서 기뻐.",
+      "emoji": "😊"
+    },
+    {
+      "word": "sad",
+      "pos": "adj",
+      "meanings": [
+        "슬픈"
+      ],
+      "example": "She is sad because her dog is sick.",
+      "exampleKo": "그녀는 개가 아파서 슬프다.",
+      "emoji": "😢"
+    },
+    {
+      "word": "angry",
+      "pos": "adj",
+      "meanings": [
+        "화난",
+        "성난"
+      ],
+      "example": "Dad is angry because I am late.",
+      "exampleKo": "내가 늦어서 아빠가 화가 나셨다.",
+      "emoji": "😠"
+    },
+    {
+      "word": "tired",
+      "pos": "adj",
+      "meanings": [
+        "피곤한",
+        "지친"
+      ],
+      "example": "I am tired after the game.",
+      "exampleKo": "나는 경기 후에 피곤하다.",
+      "emoji": "😫"
+    },
+    {
+      "word": "hungry",
+      "pos": "adj",
+      "meanings": [
+        "배고픈"
+      ],
+      "example": "I am hungry. Let's eat lunch.",
+      "exampleKo": "배고파. 점심 먹자.",
+      "emoji": "🤤"
+    },
+    {
+      "word": "thirsty",
+      "pos": "adj",
+      "meanings": [
+        "목마른"
+      ],
+      "example": "I am thirsty after running.",
+      "exampleKo": "나는 달리기를 한 후에 목이 마르다.",
+      "emoji": "🥤"
+    },
+    {
+      "word": "scared",
+      "pos": "adj",
+      "meanings": [
+        "무서워하는",
+        "겁먹은"
+      ],
+      "example": "I am scared of the dark.",
+      "exampleKo": "나는 어둠이 무섭다.",
+      "emoji": "😨"
+    },
+    {
+      "word": "sorry",
+      "pos": "adj",
+      "meanings": [
+        "미안한",
+        "유감스러운"
+      ],
+      "example": "I am sorry for being late.",
+      "exampleKo": "늦어서 미안해.",
+      "emoji": "😔"
+    },
+    {
+      "word": "like",
+      "pos": "v",
+      "meanings": [
+        "좋아하다"
+      ],
+      "example": "I like pizza and chicken.",
+      "exampleKo": "나는 피자와 치킨을 좋아한다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "love",
+      "pos": "v",
+      "meanings": [
+        "사랑하다",
+        "아주 좋아하다"
+      ],
+      "example": "I love my mom and dad.",
+      "exampleKo": "나는 엄마와 아빠를 사랑한다.",
+      "emoji": "❤️"
+    },
+    {
+      "word": "want",
+      "pos": "v",
+      "meanings": [
+        "원하다",
+        "~하고 싶다"
+      ],
+      "example": "I want a new bike.",
+      "exampleKo": "나는 새 자전거를 갖고 싶다.",
+      "emoji": ""
+    },
+    {
+      "word": "help",
+      "pos": "v",
+      "meanings": [
+        "돕다",
+        "도와주다"
+      ],
+      "example": "Can you help me with my homework?",
+      "exampleKo": "내 숙제 좀 도와줄래?",
+      "emoji": "🤝"
+    },
+    {
+      "word": "make",
+      "pos": "v",
+      "meanings": [
+        "만들다"
+      ],
+      "example": "Let's make a paper plane.",
+      "exampleKo": "종이비행기를 만들자.",
+      "emoji": ""
+    },
+    {
+      "word": "read",
+      "pos": "v",
+      "meanings": [
+        "읽다"
+      ],
+      "example": "I read a book before bed.",
+      "exampleKo": "나는 자기 전에 책을 읽는다.",
+      "emoji": "📖"
+    },
+    {
+      "word": "write",
+      "pos": "v",
+      "meanings": [
+        "쓰다",
+        "적다"
+      ],
+      "example": "Write your name here.",
+      "exampleKo": "여기에 네 이름을 써라.",
+      "emoji": "✍️"
+    },
+    {
+      "word": "study",
+      "pos": "v",
+      "meanings": [
+        "공부하다"
+      ],
+      "example": "I study English every day.",
+      "exampleKo": "나는 매일 영어를 공부한다.",
+      "emoji": "📚"
+    },
+    {
+      "word": "swim",
+      "pos": "v",
+      "meanings": [
+        "수영하다",
+        "헤엄치다"
+      ],
+      "example": "I can swim in the sea.",
+      "exampleKo": "나는 바다에서 수영할 수 있다.",
+      "emoji": "🏊"
+    },
+    {
+      "word": "ride",
+      "pos": "v",
+      "meanings": [
+        "타다"
+      ],
+      "example": "I ride my bike in the park.",
+      "exampleKo": "나는 공원에서 자전거를 탄다.",
+      "emoji": "🚲"
+    },
+    {
+      "word": "buy",
+      "pos": "v",
+      "meanings": [
+        "사다",
+        "구입하다"
+      ],
+      "example": "I want to buy a new bag.",
+      "exampleKo": "나는 새 가방을 사고 싶다.",
+      "emoji": "🛒"
+    },
+    {
+      "word": "give",
+      "pos": "v",
+      "meanings": [
+        "주다"
+      ],
+      "example": "Give me the ball, please.",
+      "exampleKo": "나에게 공을 줘.",
+      "emoji": "🤲"
+    },
+    {
+      "word": "come",
+      "pos": "v",
+      "meanings": [
+        "오다"
+      ],
+      "example": "Come to my house at three.",
+      "exampleKo": "세 시에 우리 집으로 와.",
+      "emoji": ""
+    },
+    {
+      "word": "listen",
+      "pos": "v",
+      "meanings": [
+        "듣다",
+        "귀 기울이다"
+      ],
+      "example": "Listen to the teacher carefully.",
+      "exampleKo": "선생님 말씀을 잘 들어라.",
+      "emoji": "👂"
+    },
+    {
+      "word": "look",
+      "pos": "v",
+      "meanings": [
+        "보다",
+        "바라보다"
+      ],
+      "example": "Look at the rainbow!",
+      "exampleKo": "무지개를 봐!",
+      "emoji": "👀"
+    },
+    {
+      "word": "new",
+      "pos": "adj",
+      "meanings": [
+        "새로운",
+        "새"
+      ],
+      "example": "I like my new shoes.",
+      "exampleKo": "나는 내 새 신발이 마음에 든다.",
+      "emoji": "✨"
+    },
+    {
+      "word": "old",
+      "pos": "adj",
+      "meanings": [
+        "오래된",
+        "낡은",
+        "나이 든"
+      ],
+      "example": "This is an old house.",
+      "exampleKo": "이것은 오래된 집이다.",
+      "emoji": "👴"
+    },
+    {
+      "word": "young",
+      "pos": "adj",
+      "meanings": [
+        "어린",
+        "젊은"
+      ],
+      "example": "My brother is too young to ride a bike.",
+      "exampleKo": "내 동생은 자전거를 타기에는 너무 어리다.",
+      "emoji": "👶"
+    },
+    {
+      "word": "tall",
+      "pos": "adj",
+      "meanings": [
+        "키가 큰",
+        "높은"
+      ],
+      "example": "The building is very tall.",
+      "exampleKo": "그 건물은 매우 높다.",
+      "emoji": ""
+    },
+    {
+      "word": "long",
+      "pos": "adj",
+      "meanings": [
+        "긴"
+      ],
+      "example": "The snake is very long.",
+      "exampleKo": "그 뱀은 아주 길다.",
+      "emoji": ""
+    },
+    {
+      "word": "fast",
+      "pos": "adj",
+      "meanings": [
+        "빠른"
+      ],
+      "example": "The KTX is a fast train.",
+      "exampleKo": "KTX는 빠른 기차이다.",
+      "emoji": "⚡"
+    },
+    {
+      "word": "slow",
+      "pos": "adj",
+      "meanings": [
+        "느린"
+      ],
+      "example": "The turtle is slow but strong.",
+      "exampleKo": "거북이는 느리지만 강하다.",
+      "emoji": "🐌"
+    },
+    {
+      "word": "good",
+      "pos": "adj",
+      "meanings": [
+        "좋은",
+        "잘하는",
+        "착한"
+      ],
+      "example": "She is a good singer.",
+      "exampleKo": "그녀는 노래를 잘한다.",
+      "emoji": "👍"
+    },
+    {
+      "word": "bad",
+      "pos": "adj",
+      "meanings": [
+        "나쁜",
+        "안 좋은"
+      ],
+      "example": "Eating too much candy is bad for your teeth.",
+      "exampleKo": "사탕을 너무 많이 먹는 것은 이에 나쁘다.",
+      "emoji": "👎"
+    },
+    {
+      "word": "pretty",
+      "pos": "adj",
+      "meanings": [
+        "예쁜",
+        "귀여운"
+      ],
+      "example": "The flowers are very pretty.",
+      "exampleKo": "그 꽃들은 매우 예쁘다.",
+      "emoji": "😍"
+    },
+    {
+      "word": "kind",
+      "pos": "adj",
+      "meanings": [
+        "친절한",
+        "다정한"
+      ],
+      "example": "The nurse is kind to everyone.",
+      "exampleKo": "그 간호사는 모두에게 친절하다.",
+      "emoji": "😊"
+    },
+    {
+      "word": "clean",
+      "pos": "adj",
+      "meanings": [
+        "깨끗한"
+      ],
+      "example": "Keep your room clean.",
+      "exampleKo": "네 방을 깨끗하게 유지해라.",
+      "emoji": "🧼"
+    },
+    {
+      "word": "dirty",
+      "pos": "adj",
+      "meanings": [
+        "더러운",
+        "지저분한"
+      ],
+      "example": "My shoes are dirty after the rain.",
+      "exampleKo": "비가 온 뒤라 내 신발이 더럽다.",
+      "emoji": ""
+    },
+    {
+      "word": "sweet",
+      "pos": "adj",
+      "meanings": [
+        "달콤한",
+        "단"
+      ],
+      "example": "This grape is very sweet.",
+      "exampleKo": "이 포도는 아주 달다.",
+      "emoji": "🍬"
+    },
+    {
+      "word": "today",
+      "pos": "n",
+      "meanings": [
+        "오늘"
+      ],
+      "example": "Today is my birthday.",
+      "exampleKo": "오늘은 내 생일이다.",
+      "emoji": "📅"
+    },
+    {
+      "word": "tomorrow",
+      "pos": "n",
+      "meanings": [
+        "내일"
+      ],
+      "example": "We have a test tomorrow.",
+      "exampleKo": "우리는 내일 시험이 있다.",
+      "emoji": "📅"
+    }
+  ]
+}

@@ -1,0 +1,1907 @@
+{
+  "level": 14,
+  "words": [
+    {
+      "word": "dynasty",
+      "pos": "n",
+      "meanings": [
+        "왕조",
+        "왕조 시대"
+      ],
+      "example": "The Tang Dynasty is remembered for its cultural achievements.",
+      "exampleKo": "당나라 왕조는 문화적 업적으로 기억된다.",
+      "emoji": "👑"
+    },
+    {
+      "word": "empire",
+      "pos": "n",
+      "meanings": [
+        "제국"
+      ],
+      "example": "The Roman Empire once controlled much of Europe.",
+      "exampleKo": "로마 제국은 한때 유럽의 많은 지역을 지배했다.",
+      "emoji": "🏛️"
+    },
+    {
+      "word": "colonization",
+      "pos": "n",
+      "meanings": [
+        "식민지화",
+        "식민지 개척"
+      ],
+      "example": "European colonization changed the political map of Africa.",
+      "exampleKo": "유럽의 식민지화는 아프리카의 정치 지도를 바꾸어 놓았다.",
+      "emoji": ""
+    },
+    {
+      "word": "colonial",
+      "pos": "adj",
+      "meanings": [
+        "식민지의",
+        "식민지 시대의"
+      ],
+      "example": "Many countries still bear the marks of their colonial past.",
+      "exampleKo": "많은 나라들이 여전히 식민지 시대의 흔적을 지니고 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "colonist",
+      "pos": "n",
+      "meanings": [
+        "식민지 이주민",
+        "개척자"
+      ],
+      "example": "The colonists built new settlements along the coast.",
+      "exampleKo": "그 식민지 이주민들은 해안을 따라 새로운 정착지를 건설했다.",
+      "emoji": ""
+    },
+    {
+      "word": "artifact",
+      "pos": "n",
+      "meanings": [
+        "유물",
+        "인공물"
+      ],
+      "example": "Archaeologists discovered ancient artifacts buried under the temple.",
+      "exampleKo": "고고학자들은 사원 아래 묻혀 있던 고대 유물을 발견했다.",
+      "emoji": "🏺"
+    },
+    {
+      "word": "feudal",
+      "pos": "adj",
+      "meanings": [
+        "봉건적인",
+        "봉건 제도의"
+      ],
+      "example": "Under the feudal system, peasants worked the land for their lords.",
+      "exampleKo": "봉건 제도 아래에서 농민들은 영주를 위해 땅을 경작했다.",
+      "emoji": "🏰"
+    },
+    {
+      "word": "monarchy",
+      "pos": "n",
+      "meanings": [
+        "군주제",
+        "왕정"
+      ],
+      "example": "Britain has kept its monarchy for over a thousand years.",
+      "exampleKo": "영국은 천 년 넘게 군주제를 유지해 왔다.",
+      "emoji": "👑"
+    },
+    {
+      "word": "monarch",
+      "pos": "n",
+      "meanings": [
+        "군주",
+        "국왕"
+      ],
+      "example": "The young monarch inherited the throne at the age of ten.",
+      "exampleKo": "그 젊은 군주는 열 살의 나이에 왕위를 물려받았다.",
+      "emoji": "👑"
+    },
+    {
+      "word": "ancestral",
+      "pos": "adj",
+      "meanings": [
+        "조상의",
+        "선조 대대의"
+      ],
+      "example": "The family returned to their ancestral village every summer.",
+      "exampleKo": "그 가족은 매년 여름 조상 대대로 살아온 마을로 돌아갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "archaeology",
+      "pos": "n",
+      "meanings": [
+        "고고학"
+      ],
+      "example": "She studied archaeology to understand ancient civilizations.",
+      "exampleKo": "그녀는 고대 문명을 이해하기 위해 고고학을 공부했다.",
+      "emoji": "⛏️"
+    },
+    {
+      "word": "archaeologist",
+      "pos": "n",
+      "meanings": [
+        "고고학자"
+      ],
+      "example": "The archaeologist spent years excavating the buried city.",
+      "exampleKo": "그 고고학자는 묻혀 있던 도시를 발굴하는 데 여러 해를 보냈다.",
+      "emoji": ""
+    },
+    {
+      "word": "indigenous",
+      "pos": "adj",
+      "meanings": [
+        "토착의",
+        "원주민의"
+      ],
+      "example": "The indigenous people have lived on this land for centuries.",
+      "exampleKo": "그 원주민들은 수 세기 동안 이 땅에서 살아왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "conquest",
+      "pos": "n",
+      "meanings": [
+        "정복"
+      ],
+      "example": "The empire expanded rapidly through military conquest.",
+      "exampleKo": "그 제국은 군사 정복을 통해 빠르게 팽창했다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "conquer",
+      "pos": "v",
+      "meanings": [
+        "정복하다"
+      ],
+      "example": "The army conquered several neighboring kingdoms.",
+      "exampleKo": "그 군대는 인접한 여러 왕국을 정복했다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "legacy",
+      "pos": "n",
+      "meanings": [
+        "유산"
+      ],
+      "example": "The ancient philosopher left behind a lasting legacy of ideas.",
+      "exampleKo": "그 고대 철학자는 오래 지속되는 사상적 유산을 남겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "civilization",
+      "pos": "n",
+      "meanings": [
+        "문명"
+      ],
+      "example": "Historians study how early civilizations developed writing systems.",
+      "exampleKo": "역사학자들은 초기 문명이 어떻게 문자 체계를 발전시켰는지 연구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "excavate",
+      "pos": "v",
+      "meanings": [
+        "발굴하다"
+      ],
+      "example": "Workers excavated the site and found remains of an old palace.",
+      "exampleKo": "인부들은 그 부지를 발굴하여 오래된 궁전의 잔해를 발견했다.",
+      "emoji": "⛏️"
+    },
+    {
+      "word": "excavation",
+      "pos": "n",
+      "meanings": [
+        "발굴",
+        "발굴 작업"
+      ],
+      "example": "The excavation revealed pottery from thousands of years ago.",
+      "exampleKo": "그 발굴 작업은 수천 년 전의 도자기를 드러냈다.",
+      "emoji": "⛏️"
+    },
+    {
+      "word": "relic",
+      "pos": "n",
+      "meanings": [
+        "유물",
+        "유적"
+      ],
+      "example": "The museum displays relics from the Bronze Age.",
+      "exampleKo": "그 박물관은 청동기 시대의 유물을 전시한다.",
+      "emoji": "🏺"
+    },
+    {
+      "word": "ruins",
+      "pos": "n",
+      "meanings": [
+        "폐허",
+        "유적"
+      ],
+      "example": "Tourists wandered through the ruins of the ancient fortress.",
+      "exampleKo": "관광객들은 고대 요새의 폐허를 돌아다녔다.",
+      "emoji": "🏚️"
+    },
+    {
+      "word": "tribe",
+      "pos": "n",
+      "meanings": [
+        "부족"
+      ],
+      "example": "Each tribe had its own customs and rituals.",
+      "exampleKo": "각 부족은 저마다의 관습과 의식을 가지고 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "tribal",
+      "pos": "adj",
+      "meanings": [
+        "부족의"
+      ],
+      "example": "Tribal leaders gathered to discuss the coming harvest.",
+      "exampleKo": "부족 지도자들이 다가오는 수확에 관해 논의하기 위해 모였다.",
+      "emoji": ""
+    },
+    {
+      "word": "imperial",
+      "pos": "adj",
+      "meanings": [
+        "제국의",
+        "황제의"
+      ],
+      "example": "The imperial palace was open to the public for the first time.",
+      "exampleKo": "그 황제의 궁전이 처음으로 대중에게 공개되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "imperialism",
+      "pos": "n",
+      "meanings": [
+        "제국주의"
+      ],
+      "example": "Imperialism drove European powers to expand overseas.",
+      "exampleKo": "제국주의는 유럽 열강들이 해외로 세력을 확장하도록 이끌었다.",
+      "emoji": ""
+    },
+    {
+      "word": "settler",
+      "pos": "n",
+      "meanings": [
+        "정착민",
+        "이주민"
+      ],
+      "example": "The settlers cleared the forest to build their homes.",
+      "exampleKo": "그 정착민들은 집을 짓기 위해 숲을 개간했다.",
+      "emoji": ""
+    },
+    {
+      "word": "settlement",
+      "pos": "n",
+      "meanings": [
+        "정착지",
+        "정착"
+      ],
+      "example": "The early settlement grew into a thriving town.",
+      "exampleKo": "그 초기 정착지는 번성하는 마을로 성장했다.",
+      "emoji": "🏘️"
+    },
+    {
+      "word": "nomad",
+      "pos": "n",
+      "meanings": [
+        "유목민"
+      ],
+      "example": "Nomads moved across the plains in search of fresh pasture.",
+      "exampleKo": "유목민들은 새로운 목초지를 찾아 평원을 가로질러 이동했다.",
+      "emoji": "⛺"
+    },
+    {
+      "word": "nomadic",
+      "pos": "adj",
+      "meanings": [
+        "유목의",
+        "유랑하는"
+      ],
+      "example": "Some nomadic tribes still follow their herds across the desert.",
+      "exampleKo": "일부 유목 부족은 여전히 가축 떼를 따라 사막을 이동한다.",
+      "emoji": ""
+    },
+    {
+      "word": "primitive",
+      "pos": "adj",
+      "meanings": [
+        "원시적인",
+        "초기의"
+      ],
+      "example": "The tools were primitive but effective for hunting.",
+      "exampleKo": "그 도구들은 원시적이었지만 사냥에는 효과적이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "prehistoric",
+      "pos": "adj",
+      "meanings": [
+        "선사 시대의"
+      ],
+      "example": "Prehistoric cave paintings were found deep inside the mountain.",
+      "exampleKo": "선사 시대의 동굴 벽화가 산속 깊은 곳에서 발견되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "epoch",
+      "pos": "n",
+      "meanings": [
+        "시대",
+        "시기"
+      ],
+      "example": "The invention of writing marked a new epoch in human history.",
+      "exampleKo": "문자의 발명은 인류 역사에서 새로운 시대를 열었다.",
+      "emoji": ""
+    },
+    {
+      "word": "antiquity",
+      "pos": "n",
+      "meanings": [
+        "고대",
+        "옛날"
+      ],
+      "example": "Many myths originated in classical antiquity.",
+      "exampleKo": "많은 신화가 고대 그리스 로마 시대에서 비롯되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "monument",
+      "pos": "n",
+      "meanings": [
+        "기념물",
+        "기념비"
+      ],
+      "example": "The stone monument honors soldiers who died in the war.",
+      "exampleKo": "그 석조 기념비는 전쟁에서 사망한 군인들을 기린다.",
+      "emoji": "🗿"
+    },
+    {
+      "word": "monumental",
+      "pos": "adj",
+      "meanings": [
+        "기념비적인",
+        "엄청난"
+      ],
+      "example": "Building the pyramids was a monumental achievement.",
+      "exampleKo": "피라미드를 건설한 것은 기념비적인 업적이었다.",
+      "emoji": ""
+    },
+    {
+      "word": "inscription",
+      "pos": "n",
+      "meanings": [
+        "비문",
+        "새겨진 글"
+      ],
+      "example": "The inscription on the stone tablet was written in an ancient script.",
+      "exampleKo": "그 석판의 비문은 고대 문자로 쓰여 있었다.",
+      "emoji": "📜"
+    },
+    {
+      "word": "artisan",
+      "pos": "n",
+      "meanings": [
+        "장인",
+        "기능공"
+      ],
+      "example": "Skilled artisans crafted intricate jewelry for the royal court.",
+      "exampleKo": "숙련된 장인들이 왕실을 위해 정교한 보석을 만들었다.",
+      "emoji": "🛠️"
+    },
+    {
+      "word": "dominion",
+      "pos": "n",
+      "meanings": [
+        "지배",
+        "통치",
+        "영토"
+      ],
+      "example": "The king extended his dominion over the surrounding valleys.",
+      "exampleKo": "그 왕은 주변 계곡들에 대한 지배를 확장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "sovereign",
+      "pos": "adj",
+      "meanings": [
+        "주권을 가진",
+        "최고 권력을 지닌"
+      ],
+      "example": "The nation finally became a sovereign state after the war.",
+      "exampleKo": "그 나라는 전쟁 후 마침내 주권 국가가 되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "reign",
+      "pos": "n",
+      "meanings": [
+        "통치",
+        "치세"
+      ],
+      "example": "The country prospered during the queen's long reign.",
+      "exampleKo": "그 나라는 여왕의 오랜 통치 기간 동안 번영했다.",
+      "emoji": ""
+    },
+    {
+      "word": "throne",
+      "pos": "n",
+      "meanings": [
+        "왕좌",
+        "왕위"
+      ],
+      "example": "He was next in line to the throne.",
+      "exampleKo": "그는 왕위 계승 서열에서 다음 순서였다.",
+      "emoji": "👑"
+    },
+    {
+      "word": "succession",
+      "pos": "n",
+      "meanings": [
+        "계승",
+        "승계"
+      ],
+      "example": "A war broke out over the succession to the throne.",
+      "exampleKo": "왕위 계승을 둘러싸고 전쟁이 발발했다.",
+      "emoji": ""
+    },
+    {
+      "word": "heir",
+      "pos": "n",
+      "meanings": [
+        "상속인",
+        "후계자"
+      ],
+      "example": "The prince was the sole heir to the vast kingdom.",
+      "exampleKo": "그 왕자는 광대한 왕국의 유일한 후계자였다.",
+      "emoji": ""
+    },
+    {
+      "word": "lineage",
+      "pos": "n",
+      "meanings": [
+        "혈통",
+        "가계"
+      ],
+      "example": "The family traced its lineage back to the founding king.",
+      "exampleKo": "그 가문은 자신들의 혈통을 건국 왕까지 거슬러 올라갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "descendant",
+      "pos": "n",
+      "meanings": [
+        "후손",
+        "자손"
+      ],
+      "example": "She is a direct descendant of the region's first settlers.",
+      "exampleKo": "그녀는 그 지역 최초 정착민들의 직계 후손이다.",
+      "emoji": ""
+    },
+    {
+      "word": "kinship",
+      "pos": "n",
+      "meanings": [
+        "친족 관계",
+        "혈연"
+      ],
+      "example": "Kinship ties determined how land was inherited in the clan.",
+      "exampleKo": "친족 관계는 그 씨족 내에서 땅이 어떻게 상속되는지를 결정했다.",
+      "emoji": ""
+    },
+    {
+      "word": "clan",
+      "pos": "n",
+      "meanings": [
+        "씨족",
+        "일족"
+      ],
+      "example": "Members of the clan gathered once a year for a shared feast.",
+      "exampleKo": "그 씨족의 구성원들은 함께 잔치를 벌이기 위해 일 년에 한 번 모였다.",
+      "emoji": ""
+    },
+    {
+      "word": "siege",
+      "pos": "n",
+      "meanings": [
+        "포위 공격",
+        "포위"
+      ],
+      "example": "The city survived a siege that lasted nearly a year.",
+      "exampleKo": "그 도시는 거의 일 년간 지속된 포위 공격에서 살아남았다.",
+      "emoji": "🏰"
+    },
+    {
+      "word": "invasion",
+      "pos": "n",
+      "meanings": [
+        "침략",
+        "침공"
+      ],
+      "example": "The invasion forced thousands of residents to flee their homes.",
+      "exampleKo": "그 침략은 수천 명의 주민들이 집을 떠나 피난하게 만들었다.",
+      "emoji": "⚔️"
+    },
+    {
+      "word": "invade",
+      "pos": "v",
+      "meanings": [
+        "침략하다",
+        "침입하다"
+      ],
+      "example": "Enemy forces invaded the kingdom from the north.",
+      "exampleKo": "적군은 북쪽에서 그 왕국을 침략했다.",
+      "emoji": ""
+    },
+    {
+      "word": "warrior",
+      "pos": "n",
+      "meanings": [
+        "전사"
+      ],
+      "example": "The ancient warrior was known for his courage in battle.",
+      "exampleKo": "그 고대 전사는 전투에서의 용맹함으로 알려져 있었다.",
+      "emoji": "🗡️"
+    },
+    {
+      "word": "mercenary",
+      "pos": "n",
+      "meanings": [
+        "용병"
+      ],
+      "example": "The king hired mercenaries to defend the border.",
+      "exampleKo": "그 왕은 국경을 방어하기 위해 용병을 고용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "truce",
+      "pos": "n",
+      "meanings": [
+        "휴전",
+        "정전"
+      ],
+      "example": "Both sides agreed to a temporary truce during the harvest season.",
+      "exampleKo": "양측은 수확철 동안 일시적인 휴전에 합의했다.",
+      "emoji": "🕊️"
+    },
+    {
+      "word": "rebellion",
+      "pos": "n",
+      "meanings": [
+        "반란",
+        "봉기"
+      ],
+      "example": "The heavy taxes eventually sparked a rebellion among the peasants.",
+      "exampleKo": "과중한 세금은 결국 농민들 사이에서 반란을 촉발했다.",
+      "emoji": "✊"
+    },
+    {
+      "word": "revolt",
+      "pos": "n",
+      "meanings": [
+        "반란",
+        "봉기"
+      ],
+      "example": "The colony's revolt against foreign rule shocked the empire.",
+      "exampleKo": "식민지의 외세 지배에 대한 반란은 그 제국에 충격을 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "uprising",
+      "pos": "n",
+      "meanings": [
+        "봉기",
+        "반란"
+      ],
+      "example": "The uprising was crushed within a few weeks.",
+      "exampleKo": "그 봉기는 몇 주 만에 진압되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "coup",
+      "pos": "n",
+      "meanings": [
+        "쿠데타",
+        "정변"
+      ],
+      "example": "A sudden coup overthrew the ruling government.",
+      "exampleKo": "갑작스러운 쿠데타가 집권 정부를 전복시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "overthrow",
+      "pos": "v",
+      "meanings": [
+        "전복시키다",
+        "타도하다"
+      ],
+      "example": "Rebels attempted to overthrow the corrupt monarchy.",
+      "exampleKo": "반군은 부패한 왕정을 전복시키려 시도했다.",
+      "emoji": ""
+    },
+    {
+      "word": "subjugate",
+      "pos": "v",
+      "meanings": [
+        "복속시키다",
+        "정복하다"
+      ],
+      "example": "The empire subjugated smaller kingdoms one after another.",
+      "exampleKo": "그 제국은 작은 왕국들을 차례로 복속시켰다.",
+      "emoji": ""
+    },
+    {
+      "word": "enslave",
+      "pos": "v",
+      "meanings": [
+        "노예로 만들다",
+        "예속시키다"
+      ],
+      "example": "Millions of people were enslaved during that dark period of history.",
+      "exampleKo": "역사의 그 암울한 시기 동안 수백만 명의 사람들이 노예가 되었다.",
+      "emoji": "⛓️"
+    },
+    {
+      "word": "slavery",
+      "pos": "n",
+      "meanings": [
+        "노예 제도"
+      ],
+      "example": "The abolition of slavery was a turning point in the nation's history.",
+      "exampleKo": "노예 제도의 폐지는 그 나라 역사의 전환점이었다.",
+      "emoji": "⛓️"
+    },
+    {
+      "word": "emancipation",
+      "pos": "n",
+      "meanings": [
+        "해방"
+      ],
+      "example": "The emancipation of the slaves came after years of struggle.",
+      "exampleKo": "노예들의 해방은 수년간의 투쟁 끝에 이루어졌다.",
+      "emoji": "🕊️"
+    },
+    {
+      "word": "abolish",
+      "pos": "v",
+      "meanings": [
+        "폐지하다"
+      ],
+      "example": "The new government abolished the old feudal laws.",
+      "exampleKo": "새 정부는 낡은 봉건법을 폐지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "abolition",
+      "pos": "n",
+      "meanings": [
+        "폐지"
+      ],
+      "example": "The abolition of the monarchy led to years of political change.",
+      "exampleKo": "군주제의 폐지는 수년간의 정치적 변화로 이어졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "exile",
+      "pos": "n",
+      "meanings": [
+        "추방",
+        "망명"
+      ],
+      "example": "The former king lived in exile for the rest of his life.",
+      "exampleKo": "그 전 왕은 남은 생애 동안 망명 생활을 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "persecution",
+      "pos": "n",
+      "meanings": [
+        "박해"
+      ],
+      "example": "Many groups fled the country to escape religious persecution.",
+      "exampleKo": "많은 집단이 종교적 박해를 피해 그 나라를 떠났다.",
+      "emoji": ""
+    },
+    {
+      "word": "persecute",
+      "pos": "v",
+      "meanings": [
+        "박해하다"
+      ],
+      "example": "The regime persecuted anyone who opposed its rule.",
+      "exampleKo": "그 정권은 자신의 통치에 반대하는 누구든 박해했다.",
+      "emoji": ""
+    },
+    {
+      "word": "massacre",
+      "pos": "n",
+      "meanings": [
+        "대학살"
+      ],
+      "example": "The village never recovered from the massacre.",
+      "exampleKo": "그 마을은 그 대학살에서 결코 회복되지 못했다.",
+      "emoji": ""
+    },
+    {
+      "word": "diaspora",
+      "pos": "n",
+      "meanings": [
+        "이산",
+        "디아스포라"
+      ],
+      "example": "The diaspora kept the community's traditions alive far from home.",
+      "exampleKo": "그 디아스포라는 고향에서 멀리 떨어져서도 공동체의 전통을 이어 나갔다.",
+      "emoji": ""
+    },
+    {
+      "word": "emigrate",
+      "pos": "v",
+      "meanings": [
+        "이민 가다",
+        "이주하다"
+      ],
+      "example": "Thousands of families emigrated in search of a better life.",
+      "exampleKo": "수천 가구가 더 나은 삶을 찾아 이민을 떠났다.",
+      "emoji": "🧳"
+    },
+    {
+      "word": "assimilation",
+      "pos": "n",
+      "meanings": [
+        "동화",
+        "융화"
+      ],
+      "example": "The policy encouraged the assimilation of immigrants into local culture.",
+      "exampleKo": "그 정책은 이민자들이 지역 문화에 동화되도록 장려했다.",
+      "emoji": ""
+    },
+    {
+      "word": "folklore",
+      "pos": "n",
+      "meanings": [
+        "민속",
+        "전설"
+      ],
+      "example": "The story has been passed down through generations of local folklore.",
+      "exampleKo": "그 이야기는 지역 민속을 통해 여러 세대에 걸쳐 전해져 왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "mythology",
+      "pos": "n",
+      "meanings": [
+        "신화"
+      ],
+      "example": "Greek mythology has influenced Western literature for centuries.",
+      "exampleKo": "그리스 신화는 수 세기 동안 서양 문학에 영향을 끼쳐 왔다.",
+      "emoji": "🐉"
+    },
+    {
+      "word": "legendary",
+      "pos": "adj",
+      "meanings": [
+        "전설적인"
+      ],
+      "example": "The legendary hero was said to have superhuman strength.",
+      "exampleKo": "그 전설적인 영웅은 초인적인 힘을 가졌다고 전해진다.",
+      "emoji": ""
+    },
+    {
+      "word": "epic",
+      "pos": "n",
+      "meanings": [
+        "서사시"
+      ],
+      "example": "The ancient epic recounts the journey of a wandering king.",
+      "exampleKo": "그 고대 서사시는 떠도는 왕의 여정을 이야기한다.",
+      "emoji": ""
+    },
+    {
+      "word": "saga",
+      "pos": "n",
+      "meanings": [
+        "영웅담",
+        "대서사"
+      ],
+      "example": "The novel tells the saga of a family across three generations.",
+      "exampleKo": "그 소설은 삼 대에 걸친 한 가문의 대서사를 그린다.",
+      "emoji": ""
+    },
+    {
+      "word": "ritual",
+      "pos": "n",
+      "meanings": [
+        "의식",
+        "의례"
+      ],
+      "example": "The tribe performed a ritual before every hunting season.",
+      "exampleKo": "그 부족은 매 사냥철 전에 의식을 거행했다.",
+      "emoji": "🕯️"
+    },
+    {
+      "word": "sacred",
+      "pos": "adj",
+      "meanings": [
+        "신성한"
+      ],
+      "example": "The mountain is considered sacred by the local people.",
+      "exampleKo": "그 산은 그 지역 사람들에게 신성한 것으로 여겨진다.",
+      "emoji": ""
+    },
+    {
+      "word": "shrine",
+      "pos": "n",
+      "meanings": [
+        "사당",
+        "성지"
+      ],
+      "example": "Pilgrims traveled for weeks to visit the ancient shrine.",
+      "exampleKo": "순례자들은 그 고대 사당을 방문하기 위해 몇 주 동안 여행했다.",
+      "emoji": "⛩️"
+    },
+    {
+      "word": "pilgrimage",
+      "pos": "n",
+      "meanings": [
+        "순례"
+      ],
+      "example": "Every year, believers make a pilgrimage to the holy city.",
+      "exampleKo": "매년 신자들은 그 성스러운 도시로 순례를 떠난다.",
+      "emoji": "🚶"
+    },
+    {
+      "word": "renaissance",
+      "pos": "n",
+      "meanings": [
+        "부흥",
+        "르네상스"
+      ],
+      "example": "The city experienced a cultural renaissance after decades of decline.",
+      "exampleKo": "그 도시는 수십 년간의 쇠퇴 후 문화적 부흥을 경험했다.",
+      "emoji": ""
+    },
+    {
+      "word": "emperor",
+      "pos": "n",
+      "meanings": [
+        "황제"
+      ],
+      "example": "The emperor ordered the construction of a grand palace.",
+      "exampleKo": "그 황제는 웅장한 궁전 건설을 명령했다.",
+      "emoji": "👑"
+    },
+    {
+      "word": "empress",
+      "pos": "n",
+      "meanings": [
+        "황후",
+        "여황제"
+      ],
+      "example": "The empress ruled wisely for nearly forty years.",
+      "exampleKo": "그 황후는 거의 40년 동안 현명하게 통치했다.",
+      "emoji": "👑"
+    },
+    {
+      "word": "aristocracy",
+      "pos": "n",
+      "meanings": [
+        "귀족 계급",
+        "귀족 정치"
+      ],
+      "example": "The aristocracy held most of the land and political power.",
+      "exampleKo": "그 귀족 계급이 대부분의 토지와 정치 권력을 쥐고 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "nobility",
+      "pos": "n",
+      "meanings": [
+        "귀족",
+        "귀족 신분"
+      ],
+      "example": "Members of the nobility rarely mixed with common people.",
+      "exampleKo": "귀족 신분의 사람들은 평민들과 거의 어울리지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "peasant",
+      "pos": "n",
+      "meanings": [
+        "농민",
+        "소작농"
+      ],
+      "example": "Peasants paid a large share of their harvest to the landlord.",
+      "exampleKo": "농민들은 수확량의 큰 몫을 지주에게 바쳤다.",
+      "emoji": "🌾"
+    },
+    {
+      "word": "chivalry",
+      "pos": "n",
+      "meanings": [
+        "기사도"
+      ],
+      "example": "Medieval knights were expected to follow a strict code of chivalry.",
+      "exampleKo": "중세 기사들은 엄격한 기사도 규범을 따라야 했다.",
+      "emoji": "🛡️"
+    },
+    {
+      "word": "cavalry",
+      "pos": "n",
+      "meanings": [
+        "기병대"
+      ],
+      "example": "The cavalry charged across the open field at dawn.",
+      "exampleKo": "기병대는 새벽에 탁 트인 들판을 가로질러 돌격했다.",
+      "emoji": "🐎"
+    },
+    {
+      "word": "infantry",
+      "pos": "n",
+      "meanings": [
+        "보병"
+      ],
+      "example": "The infantry marched for days before reaching the battlefield.",
+      "exampleKo": "보병은 전장에 도착하기까지 며칠 동안 행군했다.",
+      "emoji": "🪖"
+    },
+    {
+      "word": "fortress",
+      "pos": "n",
+      "meanings": [
+        "요새"
+      ],
+      "example": "The ancient fortress still stands atop the hill.",
+      "exampleKo": "그 고대 요새는 여전히 언덕 위에 서 있다.",
+      "emoji": "🏰"
+    },
+    {
+      "word": "tyrant",
+      "pos": "n",
+      "meanings": [
+        "폭군"
+      ],
+      "example": "The people finally rose up against the tyrant.",
+      "exampleKo": "백성들은 마침내 그 폭군에 맞서 봉기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "despot",
+      "pos": "n",
+      "meanings": [
+        "독재자",
+        "폭군"
+      ],
+      "example": "The despot ruled the country with an iron fist for decades.",
+      "exampleKo": "그 독재자는 수십 년 동안 철권으로 그 나라를 통치했다.",
+      "emoji": ""
+    },
+    {
+      "word": "virtue",
+      "pos": "n",
+      "meanings": [
+        "미덕",
+        "덕목"
+      ],
+      "example": "Honesty is considered a fundamental virtue in most cultures.",
+      "exampleKo": "정직은 대부분의 문화에서 근본적인 미덕으로 여겨진다.",
+      "emoji": ""
+    },
+    {
+      "word": "rationalism",
+      "pos": "n",
+      "meanings": [
+        "합리주의"
+      ],
+      "example": "Rationalism holds that reason is the main source of knowledge.",
+      "exampleKo": "합리주의는 이성이 지식의 주된 원천이라고 본다.",
+      "emoji": ""
+    },
+    {
+      "word": "conscience",
+      "pos": "n",
+      "meanings": [
+        "양심"
+      ],
+      "example": "His conscience would not let him ignore the suffering around him.",
+      "exampleKo": "그의 양심은 주변의 고통을 외면하도록 내버려 두지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "morality",
+      "pos": "n",
+      "meanings": [
+        "도덕",
+        "도덕성"
+      ],
+      "example": "Philosophers have long debated the origins of human morality.",
+      "exampleKo": "철학자들은 오랫동안 인간 도덕성의 기원을 논쟁해 왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "immoral",
+      "pos": "adj",
+      "meanings": [
+        "부도덕한"
+      ],
+      "example": "Many viewed the experiment as scientifically useful but immoral.",
+      "exampleKo": "많은 사람들은 그 실험이 과학적으로는 유용하지만 부도덕하다고 여겼다.",
+      "emoji": ""
+    },
+    {
+      "word": "amoral",
+      "pos": "adj",
+      "meanings": [
+        "도덕과 무관한",
+        "선악의 관념이 없는"
+      ],
+      "example": "Nature itself is often described as amoral rather than cruel.",
+      "exampleKo": "자연 그 자체는 흔히 잔인하다기보다 도덕과 무관한 것으로 묘사된다.",
+      "emoji": ""
+    },
+    {
+      "word": "philosophical",
+      "pos": "adj",
+      "meanings": [
+        "철학적인"
+      ],
+      "example": "The novel raises profound philosophical questions about identity.",
+      "exampleKo": "그 소설은 정체성에 관한 심오한 철학적 질문을 제기한다.",
+      "emoji": ""
+    },
+    {
+      "word": "skepticism",
+      "pos": "n",
+      "meanings": [
+        "회의론",
+        "의심"
+      ],
+      "example": "Scientific skepticism requires evidence before accepting any claim.",
+      "exampleKo": "과학적 회의론은 어떤 주장을 받아들이기 전에 증거를 요구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "existence",
+      "pos": "n",
+      "meanings": [
+        "존재",
+        "실존"
+      ],
+      "example": "The philosopher questioned the very meaning of human existence.",
+      "exampleKo": "그 철학자는 인간 존재의 의미 자체에 의문을 제기했다.",
+      "emoji": ""
+    },
+    {
+      "word": "existential",
+      "pos": "adj",
+      "meanings": [
+        "실존의",
+        "존재에 관한"
+      ],
+      "example": "The character faces an existential crisis after losing everything.",
+      "exampleKo": "그 등장인물은 모든 것을 잃은 후 실존적 위기에 직면한다.",
+      "emoji": ""
+    },
+    {
+      "word": "metaphysics",
+      "pos": "n",
+      "meanings": [
+        "형이상학"
+      ],
+      "example": "Metaphysics deals with questions about the nature of reality.",
+      "exampleKo": "형이상학은 실재의 본질에 관한 질문을 다룬다.",
+      "emoji": ""
+    },
+    {
+      "word": "metaphysical",
+      "pos": "adj",
+      "meanings": [
+        "형이상학적인"
+      ],
+      "example": "The poem explores metaphysical themes such as time and eternity.",
+      "exampleKo": "그 시는 시간과 영원 같은 형이상학적 주제를 탐구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "epistemology",
+      "pos": "n",
+      "meanings": [
+        "인식론"
+      ],
+      "example": "Epistemology examines how we come to know what we know.",
+      "exampleKo": "인식론은 우리가 어떻게 아는 것을 알게 되는지를 탐구한다.",
+      "emoji": ""
+    },
+    {
+      "word": "utilitarian",
+      "pos": "adj",
+      "meanings": [
+        "공리주의의",
+        "실용적인"
+      ],
+      "example": "A utilitarian approach judges actions by their overall consequences.",
+      "exampleKo": "공리주의적 접근은 행위를 그 전체적 결과로 판단한다.",
+      "emoji": ""
+    },
+    {
+      "word": "utilitarianism",
+      "pos": "n",
+      "meanings": [
+        "공리주의"
+      ],
+      "example": "Utilitarianism argues that the best action produces the greatest happiness.",
+      "exampleKo": "공리주의는 최선의 행위가 최대의 행복을 만들어 낸다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "hedonism",
+      "pos": "n",
+      "meanings": [
+        "쾌락주의"
+      ],
+      "example": "His philosophy of hedonism placed pleasure above all else.",
+      "exampleKo": "그의 쾌락주의 철학은 다른 무엇보다 쾌락을 우선시했다.",
+      "emoji": "🍷"
+    },
+    {
+      "word": "stoic",
+      "pos": "adj",
+      "meanings": [
+        "금욕적인",
+        "의연한"
+      ],
+      "example": "She remained stoic even in the face of great loss.",
+      "exampleKo": "그녀는 큰 상실 앞에서도 의연한 태도를 유지했다.",
+      "emoji": ""
+    },
+    {
+      "word": "stoicism",
+      "pos": "n",
+      "meanings": [
+        "금욕주의",
+        "극기"
+      ],
+      "example": "Stoicism teaches people to accept what they cannot control.",
+      "exampleKo": "금욕주의는 사람들에게 통제할 수 없는 것을 받아들이라고 가르친다.",
+      "emoji": ""
+    },
+    {
+      "word": "cynicism",
+      "pos": "n",
+      "meanings": [
+        "냉소주의"
+      ],
+      "example": "Years of disappointment filled him with cynicism about politics.",
+      "exampleKo": "수년간의 실망은 그를 정치에 대한 냉소주의로 가득 채웠다.",
+      "emoji": ""
+    },
+    {
+      "word": "idealism",
+      "pos": "n",
+      "meanings": [
+        "이상주의"
+      ],
+      "example": "Youthful idealism drove her to fight for social change.",
+      "exampleKo": "젊은 시절의 이상주의는 그녀가 사회 변화를 위해 싸우도록 이끌었다.",
+      "emoji": ""
+    },
+    {
+      "word": "idealist",
+      "pos": "n",
+      "meanings": [
+        "이상주의자"
+      ],
+      "example": "As an idealist, he believed the world could always be improved.",
+      "exampleKo": "이상주의자로서 그는 세상이 언제나 개선될 수 있다고 믿었다.",
+      "emoji": ""
+    },
+    {
+      "word": "materialism",
+      "pos": "n",
+      "meanings": [
+        "물질주의"
+      ],
+      "example": "Critics argue that materialism has weakened community bonds.",
+      "exampleKo": "비평가들은 물질주의가 공동체의 유대를 약화시켰다고 주장한다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "materialist",
+      "pos": "adj",
+      "meanings": [
+        "물질주의적인"
+      ],
+      "example": "He rejected a materialist view of happiness based on wealth.",
+      "exampleKo": "그는 부에 기반한 물질주의적 행복관을 거부했다.",
+      "emoji": "💰"
+    },
+    {
+      "word": "empiricism",
+      "pos": "n",
+      "meanings": [
+        "경험주의"
+      ],
+      "example": "Empiricism holds that knowledge comes mainly from sensory experience.",
+      "exampleKo": "경험주의는 지식이 주로 감각 경험에서 비롯된다고 본다.",
+      "emoji": ""
+    },
+    {
+      "word": "relativism",
+      "pos": "n",
+      "meanings": [
+        "상대주의"
+      ],
+      "example": "Moral relativism claims that ethical standards vary across cultures.",
+      "exampleKo": "도덕적 상대주의는 윤리 기준이 문화에 따라 다르다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "absolutism",
+      "pos": "n",
+      "meanings": [
+        "절대주의"
+      ],
+      "example": "Moral absolutism insists that certain acts are always wrong.",
+      "exampleKo": "도덕적 절대주의는 특정 행위가 언제나 옳지 않다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "nihilism",
+      "pos": "n",
+      "meanings": [
+        "허무주의"
+      ],
+      "example": "Nihilism denies that life has any inherent meaning or value.",
+      "exampleKo": "허무주의는 삶에 본질적인 의미나 가치가 있음을 부정한다.",
+      "emoji": ""
+    },
+    {
+      "word": "pragmatism",
+      "pos": "n",
+      "meanings": [
+        "실용주의"
+      ],
+      "example": "Political pragmatism often requires compromise between opposing sides.",
+      "exampleKo": "정치적 실용주의는 흔히 대립하는 양측 간의 타협을 필요로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "pragmatic",
+      "pos": "adj",
+      "meanings": [
+        "실용적인"
+      ],
+      "example": "She took a pragmatic approach to solving the budget crisis.",
+      "exampleKo": "그녀는 예산 위기를 해결하는 데 실용적인 접근을 취했다.",
+      "emoji": ""
+    },
+    {
+      "word": "determinism",
+      "pos": "n",
+      "meanings": [
+        "결정론"
+      ],
+      "example": "Determinism suggests that every event is caused by prior events.",
+      "exampleKo": "결정론은 모든 사건이 이전 사건에 의해 야기된다고 시사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "sentient",
+      "pos": "adj",
+      "meanings": [
+        "지각이 있는",
+        "의식이 있는"
+      ],
+      "example": "The debate concerns whether animals are truly sentient beings.",
+      "exampleKo": "그 논쟁은 동물이 진정으로 지각이 있는 존재인지에 관한 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "sentience",
+      "pos": "n",
+      "meanings": [
+        "지각력",
+        "감각 능력"
+      ],
+      "example": "Philosophers still disagree about the origins of sentience.",
+      "exampleKo": "철학자들은 지각력의 기원에 대해 여전히 의견이 엇갈린다.",
+      "emoji": ""
+    },
+    {
+      "word": "consciousness",
+      "pos": "n",
+      "meanings": [
+        "의식"
+      ],
+      "example": "Scientists still cannot fully explain human consciousness.",
+      "exampleKo": "과학자들은 여전히 인간의 의식을 완전히 설명하지 못한다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "subconscious",
+      "pos": "adj",
+      "meanings": [
+        "잠재의식의"
+      ],
+      "example": "Our subconscious mind influences many of our daily decisions.",
+      "exampleKo": "우리의 잠재의식은 일상적인 결정의 많은 부분에 영향을 미친다.",
+      "emoji": "🧠"
+    },
+    {
+      "word": "introspection",
+      "pos": "n",
+      "meanings": [
+        "자기 성찰",
+        "내성"
+      ],
+      "example": "A period of quiet introspection helped her understand her true goals.",
+      "exampleKo": "조용한 자기 성찰의 시간은 그녀가 자신의 진정한 목표를 이해하는 데 도움을 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "introspective",
+      "pos": "adj",
+      "meanings": [
+        "자기 성찰적인",
+        "내성적인"
+      ],
+      "example": "The long journey made him more introspective about his life choices.",
+      "exampleKo": "그 긴 여행은 그가 자신의 인생 선택에 대해 더 자기 성찰적이 되게 만들었다.",
+      "emoji": ""
+    },
+    {
+      "word": "transcendent",
+      "pos": "adj",
+      "meanings": [
+        "초월적인"
+      ],
+      "example": "The music gave the audience a transcendent sense of peace.",
+      "exampleKo": "그 음악은 청중에게 초월적인 평온함을 안겨 주었다.",
+      "emoji": ""
+    },
+    {
+      "word": "contemplation",
+      "pos": "n",
+      "meanings": [
+        "숙고",
+        "사색"
+      ],
+      "example": "He spent the afternoon in quiet contemplation by the lake.",
+      "exampleKo": "그는 호숫가에서 조용히 사색하며 오후를 보냈다.",
+      "emoji": "🤔"
+    },
+    {
+      "word": "meditate",
+      "pos": "v",
+      "meanings": [
+        "명상하다",
+        "숙고하다"
+      ],
+      "example": "She meditates every morning to clear her mind before work.",
+      "exampleKo": "그녀는 일하기 전에 마음을 비우기 위해 매일 아침 명상한다.",
+      "emoji": "🧘"
+    },
+    {
+      "word": "meditation",
+      "pos": "n",
+      "meanings": [
+        "명상"
+      ],
+      "example": "Meditation has been shown to reduce stress and anxiety.",
+      "exampleKo": "명상은 스트레스와 불안을 줄이는 것으로 밝혀졌다.",
+      "emoji": "🧘"
+    },
+    {
+      "word": "wisdom",
+      "pos": "n",
+      "meanings": [
+        "지혜"
+      ],
+      "example": "The elder shared his wisdom with the younger generation.",
+      "exampleKo": "그 원로는 자신의 지혜를 젊은 세대와 나누었다.",
+      "emoji": "🦉"
+    },
+    {
+      "word": "prudence",
+      "pos": "n",
+      "meanings": [
+        "신중함",
+        "분별력"
+      ],
+      "example": "Prudence in financial decisions can prevent future hardship.",
+      "exampleKo": "재정적 결정에서의 신중함은 미래의 어려움을 막을 수 있다.",
+      "emoji": ""
+    },
+    {
+      "word": "prudent",
+      "pos": "adj",
+      "meanings": [
+        "신중한",
+        "분별 있는"
+      ],
+      "example": "It would be prudent to save some money for emergencies.",
+      "exampleKo": "비상시를 위해 돈을 좀 저축해 두는 것이 신중한 태도일 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "temperance",
+      "pos": "n",
+      "meanings": [
+        "절제",
+        "금욕"
+      ],
+      "example": "The ancient philosophers praised temperance as a key virtue.",
+      "exampleKo": "고대 철학자들은 절제를 핵심 덕목으로 칭송했다.",
+      "emoji": ""
+    },
+    {
+      "word": "temperate",
+      "pos": "adj",
+      "meanings": [
+        "절제된",
+        "온화한"
+      ],
+      "example": "He led a temperate life, avoiding excess in all things.",
+      "exampleKo": "그는 모든 면에서 과도함을 피하며 절제된 삶을 살았다.",
+      "emoji": ""
+    },
+    {
+      "word": "benevolence",
+      "pos": "n",
+      "meanings": [
+        "자비",
+        "선의"
+      ],
+      "example": "The ruler was remembered for his benevolence toward the poor.",
+      "exampleKo": "그 통치자는 가난한 이들에 대한 자비로 기억되었다.",
+      "emoji": ""
+    },
+    {
+      "word": "malevolent",
+      "pos": "adj",
+      "meanings": [
+        "악의적인"
+      ],
+      "example": "The villain in the story is portrayed as a purely malevolent force.",
+      "exampleKo": "그 이야기 속 악당은 순전히 악의적인 존재로 그려진다.",
+      "emoji": ""
+    },
+    {
+      "word": "malice",
+      "pos": "n",
+      "meanings": [
+        "악의"
+      ],
+      "example": "He insisted that he had acted without any malice.",
+      "exampleKo": "그는 자신이 어떠한 악의도 없이 행동했다고 주장했다.",
+      "emoji": ""
+    },
+    {
+      "word": "altruism",
+      "pos": "n",
+      "meanings": [
+        "이타주의"
+      ],
+      "example": "Pure altruism means helping others without expecting anything in return.",
+      "exampleKo": "순수한 이타주의는 대가를 바라지 않고 남을 돕는 것을 의미한다.",
+      "emoji": ""
+    },
+    {
+      "word": "egoism",
+      "pos": "n",
+      "meanings": [
+        "이기주의"
+      ],
+      "example": "Ethical egoism claims that each person should pursue their own interest.",
+      "exampleKo": "윤리적 이기주의는 각자가 자신의 이익을 추구해야 한다고 주장한다.",
+      "emoji": ""
+    },
+    {
+      "word": "righteous",
+      "pos": "adj",
+      "meanings": [
+        "정의로운",
+        "의로운"
+      ],
+      "example": "The people admired him for his righteous stand against corruption.",
+      "exampleKo": "사람들은 부패에 맞선 그의 의로운 태도를 존경했다.",
+      "emoji": ""
+    },
+    {
+      "word": "righteousness",
+      "pos": "n",
+      "meanings": [
+        "정의로움",
+        "의로움"
+      ],
+      "example": "The story praises righteousness over personal gain.",
+      "exampleKo": "그 이야기는 개인적 이익보다 의로움을 칭송한다.",
+      "emoji": ""
+    },
+    {
+      "word": "sinful",
+      "pos": "adj",
+      "meanings": [
+        "죄가 되는",
+        "죄스러운"
+      ],
+      "example": "The old text describes greed as a sinful desire.",
+      "exampleKo": "그 고문서는 탐욕을 죄스러운 욕망으로 묘사한다.",
+      "emoji": ""
+    },
+    {
+      "word": "vice",
+      "pos": "n",
+      "meanings": [
+        "악덕",
+        "악습"
+      ],
+      "example": "Gambling was considered a common vice in that era.",
+      "exampleKo": "도박은 그 시대에 흔한 악습으로 여겨졌다.",
+      "emoji": ""
+    },
+    {
+      "word": "hypocrisy",
+      "pos": "n",
+      "meanings": [
+        "위선"
+      ],
+      "example": "The public criticized the politician's hypocrisy for saying one thing and doing another.",
+      "exampleKo": "대중은 말과 행동이 다른 그 정치인의 위선을 비판했다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "hypocrite",
+      "pos": "n",
+      "meanings": [
+        "위선자"
+      ],
+      "example": "He was called a hypocrite for preaching honesty while lying to others.",
+      "exampleKo": "그는 남들에게 거짓말을 하면서 정직을 설파했다는 이유로 위선자라 불렸다.",
+      "emoji": "🎭"
+    },
+    {
+      "word": "tenet",
+      "pos": "n",
+      "meanings": [
+        "신조",
+        "교리"
+      ],
+      "example": "Equality is a central tenet of the movement's philosophy.",
+      "exampleKo": "평등은 그 운동의 철학에서 핵심 신조이다.",
+      "emoji": ""
+    },
+    {
+      "word": "axiom",
+      "pos": "n",
+      "meanings": [
+        "공리",
+        "자명한 이치"
+      ],
+      "example": "He treated the statement as an axiom that needed no proof.",
+      "exampleKo": "그는 그 진술을 증명이 필요 없는 공리로 취급했다.",
+      "emoji": ""
+    },
+    {
+      "word": "postulate",
+      "pos": "v",
+      "meanings": [
+        "가정하다",
+        "상정하다"
+      ],
+      "example": "The theory postulates that all matter is made of tiny particles.",
+      "exampleKo": "그 이론은 모든 물질이 작은 입자로 이루어져 있다고 가정한다.",
+      "emoji": ""
+    },
+    {
+      "word": "conviction",
+      "pos": "n",
+      "meanings": [
+        "확신",
+        "신념"
+      ],
+      "example": "She spoke with such conviction that no one doubted her sincerity.",
+      "exampleKo": "그녀는 매우 확신에 차서 말해서 아무도 그녀의 진심을 의심하지 않았다.",
+      "emoji": ""
+    },
+    {
+      "word": "disbelief",
+      "pos": "n",
+      "meanings": [
+        "불신",
+        "믿지 않음"
+      ],
+      "example": "The crowd stared in disbelief at the unexpected outcome.",
+      "exampleKo": "군중은 예상치 못한 결과에 믿기지 않는 표정으로 바라보았다.",
+      "emoji": ""
+    },
+    {
+      "word": "agnostic",
+      "pos": "adj",
+      "meanings": [
+        "불가지론의"
+      ],
+      "example": "He remains agnostic about questions science cannot yet answer.",
+      "exampleKo": "그는 과학이 아직 답할 수 없는 질문들에 대해 불가지론적 입장을 유지한다.",
+      "emoji": ""
+    },
+    {
+      "word": "atheist",
+      "pos": "n",
+      "meanings": [
+        "무신론자"
+      ],
+      "example": "As an atheist, she does not believe in any deity.",
+      "exampleKo": "무신론자로서 그녀는 어떤 신도 믿지 않는다.",
+      "emoji": ""
+    },
+    {
+      "word": "theism",
+      "pos": "n",
+      "meanings": [
+        "유신론"
+      ],
+      "example": "Theism holds that a divine being created and governs the universe.",
+      "exampleKo": "유신론은 신적 존재가 우주를 창조하고 다스린다고 본다.",
+      "emoji": ""
+    },
+    {
+      "word": "monotheism",
+      "pos": "n",
+      "meanings": [
+        "일신교"
+      ],
+      "example": "Monotheism centers on the belief in a single god.",
+      "exampleKo": "일신교는 유일신에 대한 믿음을 중심으로 한다.",
+      "emoji": ""
+    },
+    {
+      "word": "polytheism",
+      "pos": "n",
+      "meanings": [
+        "다신교"
+      ],
+      "example": "Ancient Greek religion was a form of polytheism.",
+      "exampleKo": "고대 그리스 종교는 다신교의 한 형태였다.",
+      "emoji": ""
+    },
+    {
+      "word": "cosmology",
+      "pos": "n",
+      "meanings": [
+        "우주론"
+      ],
+      "example": "Ancient cosmology tried to explain the origin of the universe.",
+      "exampleKo": "고대 우주론은 우주의 기원을 설명하려 했다.",
+      "emoji": ""
+    },
+    {
+      "word": "cosmos",
+      "pos": "n",
+      "meanings": [
+        "우주",
+        "질서 있는 세계"
+      ],
+      "example": "Early philosophers saw the cosmos as an ordered, harmonious whole.",
+      "exampleKo": "초기 철학자들은 우주를 질서 있고 조화로운 전체로 보았다.",
+      "emoji": "🌌"
+    },
+    {
+      "word": "essence",
+      "pos": "n",
+      "meanings": [
+        "본질"
+      ],
+      "example": "Philosophers have long debated the essence of human nature.",
+      "exampleKo": "철학자들은 오랫동안 인간 본성의 본질을 논쟁해 왔다.",
+      "emoji": ""
+    },
+    {
+      "word": "entity",
+      "pos": "n",
+      "meanings": [
+        "실체",
+        "존재"
+      ],
+      "example": "The theory treats the mind as a distinct entity from the body.",
+      "exampleKo": "그 이론은 정신을 신체와 구별되는 실체로 취급한다.",
+      "emoji": ""
+    },
+    {
+      "word": "nothingness",
+      "pos": "n",
+      "meanings": [
+        "무",
+        "허무"
+      ],
+      "example": "The philosopher wrote extensively about being and nothingness.",
+      "exampleKo": "그 철학자는 존재와 무에 관해 방대하게 저술했다.",
+      "emoji": ""
+    },
+    {
+      "word": "void",
+      "pos": "n",
+      "meanings": [
+        "공허",
+        "공백"
+      ],
+      "example": "His death left a void that no one could fill.",
+      "exampleKo": "그의 죽음은 누구도 채울 수 없는 공허함을 남겼다.",
+      "emoji": "🕳️"
+    },
+    {
+      "word": "absurdity",
+      "pos": "n",
+      "meanings": [
+        "부조리",
+        "불합리"
+      ],
+      "example": "The novel captures the absurdity of life through dark humor.",
+      "exampleKo": "그 소설은 어두운 유머를 통해 삶의 부조리를 담아낸다.",
+      "emoji": ""
+    },
+    {
+      "word": "existentialism",
+      "pos": "n",
+      "meanings": [
+        "실존주의"
+      ],
+      "example": "Existentialism emphasizes individual freedom and personal responsibility.",
+      "exampleKo": "실존주의는 개인의 자유와 개인적 책임을 강조한다.",
+      "emoji": ""
+    },
+    {
+      "word": "dialectic",
+      "pos": "n",
+      "meanings": [
+        "변증법"
+      ],
+      "example": "The philosopher used dialectic to reach a deeper truth through debate.",
+      "exampleKo": "그 철학자는 토론을 통해 더 깊은 진리에 이르기 위해 변증법을 사용했다.",
+      "emoji": ""
+    },
+    {
+      "word": "normative",
+      "pos": "adj",
+      "meanings": [
+        "규범적인"
+      ],
+      "example": "Ethics is often described as a normative rather than descriptive field.",
+      "exampleKo": "윤리학은 흔히 기술적이라기보다 규범적인 학문으로 묘사된다.",
+      "emoji": ""
+    },
+    {
+      "word": "prescriptive",
+      "pos": "adj",
+      "meanings": [
+        "규범을 정하는",
+        "지시적인"
+      ],
+      "example": "The guidelines are prescriptive rather than merely suggestive.",
+      "exampleKo": "그 지침은 단순히 제안적인 것이 아니라 규범을 정하는 것이다.",
+      "emoji": ""
+    },
+    {
+      "word": "teleology",
+      "pos": "n",
+      "meanings": [
+        "목적론"
+      ],
+      "example": "Teleology explains natural processes in terms of their purpose or goal.",
+      "exampleKo": "목적론은 자연 현상을 그 목적이나 목표의 관점에서 설명한다.",
+      "emoji": ""
+    },
+    {
+      "word": "causality",
+      "pos": "n",
+      "meanings": [
+        "인과 관계",
+        "인과성"
+      ],
+      "example": "Philosophers question whether causality is something we truly observe.",
+      "exampleKo": "철학자들은 우리가 인과 관계를 실제로 관찰하는 것인지 의문을 제기한다.",
+      "emoji": ""
+    },
+    {
+      "word": "virtuous",
+      "pos": "adj",
+      "meanings": [
+        "덕이 있는",
+        "도덕적인"
+      ],
+      "example": "He was admired as a virtuous man who always kept his word.",
+      "exampleKo": "그는 항상 약속을 지키는 덕이 있는 사람으로 존경받았다.",
+      "emoji": ""
+    },
+    {
+      "word": "unethical",
+      "pos": "adj",
+      "meanings": [
+        "비윤리적인"
+      ],
+      "example": "The scientist refused to conduct an unethical experiment on animals.",
+      "exampleKo": "그 과학자는 동물에게 비윤리적인 실험을 하는 것을 거부했다.",
+      "emoji": ""
+    },
+    {
+      "word": "conscientious",
+      "pos": "adj",
+      "meanings": [
+        "양심적인",
+        "성실한"
+      ],
+      "example": "She was known as a conscientious worker who never cut corners.",
+      "exampleKo": "그녀는 결코 대충 일하지 않는 양심적인 근로자로 알려져 있었다.",
+      "emoji": ""
+    },
+    {
+      "word": "enlightened",
+      "pos": "adj",
+      "meanings": [
+        "깨우친",
+        "계몽된"
+      ],
+      "example": "The reforms reflected the ruler's enlightened view of justice.",
+      "exampleKo": "그 개혁은 정의에 대한 통치자의 계몽된 관점을 반영했다.",
+      "emoji": "💡"
+    },
+    {
+      "word": "asceticism",
+      "pos": "n",
+      "meanings": [
+        "금욕주의"
+      ],
+      "example": "The monk practiced asceticism, giving up all worldly comforts.",
+      "exampleKo": "그 수도승은 모든 세속적 안락을 포기하며 금욕주의를 실천했다.",
+      "emoji": ""
+    },
+    {
+      "word": "fatalism",
+      "pos": "n",
+      "meanings": [
+        "운명론",
+        "숙명론"
+      ],
+      "example": "Fatalism holds that the future is fixed regardless of human choice.",
+      "exampleKo": "운명론은 인간의 선택과 무관하게 미래가 정해져 있다고 본다.",
+      "emoji": ""
+    },
+    {
+      "word": "providence",
+      "pos": "n",
+      "meanings": [
+        "섭리",
+        "신의 뜻"
+      ],
+      "example": "They believed their survival was the result of divine providence.",
+      "exampleKo": "그들은 자신들의 생존이 신의 섭리의 결과라고 믿었다.",
+      "emoji": ""
+    },
+    {
+      "word": "reincarnation",
+      "pos": "n",
+      "meanings": [
+        "환생"
+      ],
+      "example": "Many Eastern traditions include a belief in reincarnation.",
+      "exampleKo": "많은 동양 전통은 환생에 대한 믿음을 포함한다.",
+      "emoji": "🦋"
+    },
+    {
+      "word": "karma",
+      "pos": "n",
+      "meanings": [
+        "업",
+        "인과응보"
+      ],
+      "example": "According to the belief in karma, one's actions shape future outcomes.",
+      "exampleKo": "업에 대한 믿음에 따르면 한 사람의 행동이 미래의 결과를 형성한다.",
+      "emoji": ""
+    }
+  ]
+}
