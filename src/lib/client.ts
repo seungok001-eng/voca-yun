@@ -96,6 +96,44 @@ function stopCurrent() {
   if (currentSource) { try { currentSource.stop(); } catch { /* noop */ } currentSource = null; }
 }
 
+// 하드웨어 웨이크업 패딩: 블루투스 이어폰·스피커는 신호 "레벨"로 절전을 풀기 때문에
+// 무음 오실레이터로는 안 깨어난다. 본 소리 앞에 (거의 안 들리는 미세 톤 → 짧은 무음)을
+// 붙여서, 장치가 깨어나는 동안 첫음 대신 패딩이 먹히게 한다.
+const WAKE_SEC = 0.08; // 게이트를 여는 미세 톤
+const LEAD_SEC = 0.22; // 장치 기동을 기다리는 무음
+
+function writeWakeTone(dst: Float32Array, sampleRate: number) {
+  const wake = Math.round(sampleRate * WAKE_SEC);
+  for (let i = 0; i < wake; i++) {
+    dst[i] = Math.sin((2 * Math.PI * 160 * i) / sampleRate) * 0.004 * (1 - i / wake);
+  }
+}
+
+function padBuffer(ctx: AudioContext, buf: AudioBuffer): AudioBuffer {
+  const sr = ctx.sampleRate;
+  const lead = Math.round(sr * (WAKE_SEC + LEAD_SEC));
+  const out = ctx.createBuffer(buf.numberOfChannels, lead + buf.length, sr);
+  for (let ch = 0; ch < buf.numberOfChannels; ch++) {
+    const dst = out.getChannelData(ch);
+    writeWakeTone(dst, sr);
+    dst.set(buf.getChannelData(ch), lead);
+  }
+  return out;
+}
+
+// 천천히 재생(HTMLAudio) 직전에 호출 — 웨이크 톤+무음만 먼저 흘려 장치를 깨운다.
+function playWakePad() {
+  keepAudioAwake();
+  if (!audioCtx) return;
+  const sr = audioCtx.sampleRate;
+  const buf = audioCtx.createBuffer(1, Math.round(sr * (WAKE_SEC + LEAD_SEC)), sr);
+  writeWakeTone(buf.getChannelData(0), sr);
+  const src = audioCtx.createBufferSource();
+  src.buffer = buf;
+  src.connect(audioCtx.destination);
+  src.start();
+}
+
 // 보통 속도: Web Audio로 재생 (샘플 단위 정확 시작 → 첫음 잘림 없음, 캐시로 반복 재생 즉시)
 async function playViaWebAudio(url: string, token: number, fallback: () => void) {
   try {
@@ -105,7 +143,8 @@ async function playViaWebAudio(url: string, token: number, fallback: () => void)
     if (!buf) {
       const resp = await fetch(url);
       if (!resp.ok) throw new Error("fetch failed");
-      buf = await audioCtx.decodeAudioData(await resp.arrayBuffer());
+      const decoded = await audioCtx.decodeAudioData(await resp.arrayBuffer());
+      buf = padBuffer(audioCtx, decoded);
       bufferCache.set(url, buf);
     }
     if (token !== playToken) return; // 그 사이 다른 재생 요청됨
@@ -131,14 +170,21 @@ export function playClip(url: string | null | undefined, text: string, slow = fa
   if (slow) {
     // 천천히 = HTMLAudio (0.6배속, 음정 유지)
     stopCurrent();
+    playWakePad(); // 재생 전에 장치를 깨워 첫음 잘림 방지
     const a = new Audio();
     setPreservePitch(a);
-    a.playbackRate = 0.6;
+    a.defaultPlaybackRate = 0.6;
     a.preload = "auto";
     a.onerror = fallback;
     currentAudio = a;
     let started = false;
-    const start = () => { if (started || currentAudio !== a) return; started = true; a.play().catch(fallback); };
+    const start = () => {
+      if (started || currentAudio !== a) return;
+      started = true;
+      // load()가 playbackRate를 초기화하므로 재생 직전에 다시 지정
+      a.playbackRate = 0.6;
+      a.play().catch(fallback);
+    };
     a.addEventListener("canplaythrough", start, { once: true });
     window.setTimeout(start, 400);
     a.src = url;
