@@ -6,14 +6,31 @@ import { api } from "@/lib/client";
 type Holiday = { id: number; name: string; startDate: string; endDate: string; classId: number | null; className: string | null };
 type ClassRow = { id: number; name: string };
 type Data = { academyName: string; skipKoreanHolidays: boolean; classes: ClassRow[]; holidays: Holiday[] };
+type Academy = { id: number; name: string };
 
 export default function HolidaysPage() {
   const [data, setData] = useState<Data | null>(null);
   const [form, setForm] = useState({ name: "", startDate: "", endDate: "", classId: "" });
+  const [academies, setAcademies] = useState<Academy[]>([]);
+  const [academyId, setAcademyId] = useState("");
+  const [error, setError] = useState("");
+
+  // 총관리자면 학원 목록 (아니면 403 → 무시)
+  useEffect(() => {
+    api<{ organizations: Academy[] }>("/api/admin/organizations")
+      .then((r) => {
+        setAcademies(r.organizations);
+        if (r.organizations.length > 0) setAcademyId((cur) => cur || String(r.organizations[0].id));
+      })
+      .catch(() => setAcademies([]));
+  }, []);
 
   const load = useCallback(() => {
-    api<Data>("/api/admin/holidays").then(setData);
-  }, []);
+    if (academies.length > 0 && !academyId) return; // 총관리자는 학원 선택 후 조회
+    setError("");
+    const qs = academyId ? `?academyId=${academyId}` : "";
+    api<Data>(`/api/admin/holidays${qs}`).then(setData).catch((e) => { setData(null); setError(e instanceof Error ? e.message : "불러오기 실패"); });
+  }, [academyId, academies.length]);
   useEffect(load, [load]);
 
   async function add() {
@@ -21,7 +38,7 @@ export default function HolidaysPage() {
     try {
       await api("/api/admin/holidays", {
         method: "POST",
-        body: JSON.stringify({ ...form, endDate: form.endDate || form.startDate, classId: form.classId || null }),
+        body: JSON.stringify({ ...form, endDate: form.endDate || form.startDate, classId: form.classId || null, academyId: academyId || undefined }),
       });
       setForm({ name: "", startDate: "", endDate: "", classId: "" });
       load();
@@ -38,21 +55,37 @@ export default function HolidaysPage() {
 
   async function toggleKr() {
     if (!data) return;
-    await api("/api/admin/holidays", { method: "PATCH", body: JSON.stringify({ skipKoreanHolidays: !data.skipKoreanHolidays }) });
+    await api("/api/admin/holidays", { method: "PATCH", body: JSON.stringify({ skipKoreanHolidays: !data.skipKoreanHolidays, academyId: academyId || undefined }) });
     load();
   }
 
-  if (!data) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
+  const selector = academies.length > 0 && (
+    <select className="input !w-auto" value={academyId} onChange={(e) => setAcademyId(e.target.value)}>
+      {academies.map((a) => <option key={a.id} value={a.id}>{a.name}</option>)}
+    </select>
+  );
+
+  if (!data) return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between flex-wrap gap-2">
+        <h1 className="text-xl font-black text-[#16204a]">🏖️ 휴무 관리</h1>{selector}
+      </div>
+      <p className="text-slate-400 text-center py-16">{error || "불러오는 중..."}</p>
+    </div>
+  );
 
   const today = new Date().toISOString().slice(0, 10);
 
   return (
     <div className="space-y-4">
-      <div>
-        <h1 className="text-xl font-black text-[#16204a]">🏖️ 휴무 관리 <span className="text-sm text-slate-400 font-semibold">— {data.academyName}</span></h1>
-        <p className="text-xs text-slate-400 mt-1">
-          방학·시험기간·행사 등 숙제를 내지 않을 기간을 등록합니다. 휴무 기간은 &ldquo;밀린 학습&rdquo; 계산에서도 제외되고, 학생 스트릭도 끊기지 않습니다.
-        </p>
+      <div className="flex items-start justify-between flex-wrap gap-2">
+        <div>
+          <h1 className="text-xl font-black text-[#16204a]">🏖️ 휴무 관리 <span className="text-sm text-slate-400 font-semibold">— {data.academyName}</span></h1>
+          <p className="text-xs text-slate-400 mt-1">
+            방학·시험기간·행사 등 숙제를 내지 않을 기간을 등록합니다. 휴무 기간은 &ldquo;밀린 학습&rdquo; 계산에서도 제외되고, 학생 스트릭도 끊기지 않습니다.
+          </p>
+        </div>
+        {selector}
       </div>
 
       {/* 공휴일 자동 휴무 */}

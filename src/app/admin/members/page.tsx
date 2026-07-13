@@ -119,7 +119,7 @@ export default function MembersPage() {
         </select>
         {academies.length > 0 && (
           <select className="input" value={academyId} onChange={(e) => { setAcademyId(e.target.value); setClassId(""); }}>
-            <option value="">내 학원</option>
+            <option value="">전체 학원</option>
             {academies.map((a) => <option key={a.id} value={a.id}>{a.name}</option>)}
           </select>
         )}

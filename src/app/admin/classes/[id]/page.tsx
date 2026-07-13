@@ -25,7 +25,7 @@ export default function ClassDetailPage() {
   const [d, setD] = useState<Detail | null>(null);
   const [levels, setLevels] = useState<LevelRow[]>([]);
   const [wordbooks, setWordbooks] = useState<WordbookRow[]>([]);
-  const [tab, setTab] = useState<"students" | "settings" | "assign">("students");
+  const [tab, setTab] = useState<"students" | "settings" | "assign" | "holidays">("students");
   const [newStudent, setNewStudent] = useState({ username: "", password: "", name: "", parentPhone: "", school: "", grade: "" });
   const [showNew, setShowNew] = useState(false);
 
@@ -79,10 +79,10 @@ export default function ClassDetailPage() {
           <p className="text-xs text-slate-400">담당 {d.teacher?.name ?? "미지정"} · 현재 학습: <b className="text-[#c9a227]">{d.assignment?.name ?? "미배정"}</b></p>
         </div>
         <div className="flex gap-1.5">
-          {(["students", "settings", "assign"] as const).map((t) => (
+          {(["students", "settings", "assign", "holidays"] as const).map((t) => (
             <button key={t} onClick={() => setTab(t)}
               className={"chip !py-2 !px-4 " + (tab === t ? "bg-[#16204a] text-white" : "bg-white border border-slate-200 text-slate-500")}>
-              {{ students: "👨‍🎓 학생", settings: "⚙️ 시험 설정", assign: "📚 학습 배정" }[t]}
+              {{ students: "👨‍🎓 학생", settings: "⚙️ 시험 설정", assign: "📚 학습 배정", holidays: "🏖️ 반 휴무" }[t]}
             </button>
           ))}
         </div>
@@ -187,6 +187,78 @@ export default function ClassDetailPage() {
           </div>
         </div>
       )}
+
+      {tab === "holidays" && <ClassHolidays classId={d.id} />}
+    </div>
+  );
+}
+
+type Holiday = { id: number; name: string; startDate: string; endDate: string };
+
+function ClassHolidays({ classId }: { classId: number }) {
+  const [holidays, setHolidays] = useState<Holiday[] | null>(null);
+  const [form, setForm] = useState({ name: "", startDate: "", endDate: "" });
+
+  const load = useCallback(() => {
+    api<{ holidays: Holiday[] }>(`/api/admin/classes/${classId}/holidays`).then((r) => setHolidays(r.holidays));
+  }, [classId]);
+  useEffect(load, [load]);
+
+  async function add() {
+    if (!form.name.trim() || !form.startDate) { alert("이름과 시작일을 입력하세요."); return; }
+    try {
+      await api(`/api/admin/classes/${classId}/holidays`, {
+        method: "POST",
+        body: JSON.stringify({ ...form, endDate: form.endDate || form.startDate }),
+      });
+      setForm({ name: "", startDate: "", endDate: "" });
+      load();
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "추가 실패");
+    }
+  }
+  async function remove(h: Holiday) {
+    if (!confirm(`"${h.name}" 휴무를 삭제할까요?`)) return;
+    await api(`/api/admin/classes/${classId}/holidays/${h.id}`, { method: "DELETE" });
+    load();
+  }
+
+  return (
+    <div className="space-y-3">
+      <div className="card p-4">
+        <h2 className="font-black text-[#16204a] mb-1">🏖️ 이 반 전용 휴무</h2>
+        <p className="text-xs text-slate-400 mb-3">
+          이 반에만 적용되는 휴무입니다. 학원 전체 휴무(원장·총관리자가 설정)와 <b>별개로</b>, 여기서 정한 휴무도 이 반 학생들에게 그대로 적용됩니다.
+          휴무 기간에는 숙제를 내지 않고, &ldquo;밀린 학습&rdquo; 계산·스트릭에서도 제외됩니다.
+        </p>
+        <div className="grid gap-2 sm:grid-cols-4">
+          <input className="input" placeholder="휴무 이름 (예: 중간고사)" value={form.name} onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))} />
+          <input className="input" type="date" value={form.startDate} onChange={(e) => setForm((f) => ({ ...f, startDate: e.target.value }))} />
+          <input className="input" type="date" value={form.endDate} onChange={(e) => setForm((f) => ({ ...f, endDate: e.target.value }))} />
+          <button className="btn-primary" onClick={add}>추가</button>
+        </div>
+        <p className="text-[11px] text-slate-400 mt-1.5">※ 하루만 쉬면 종료일을 비워두세요 (시작일과 동일 처리).</p>
+      </div>
+
+      <div className="card overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="text-left text-[11px] text-slate-400 border-b border-slate-100">
+              <th className="p-3">휴무 이름</th><th className="p-3">기간</th><th className="p-3"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {holidays?.map((h) => (
+              <tr key={h.id} className="border-b border-slate-50">
+                <td className="p-3 font-bold text-[#16204a]">{h.name}</td>
+                <td className="p-3 text-slate-500">{h.startDate}{h.endDate !== h.startDate && ` ~ ${h.endDate}`}</td>
+                <td className="p-3"><button className="text-xs text-slate-400 hover:text-rose-500" onClick={() => remove(h)}>🗑️ 삭제</button></td>
+              </tr>
+            ))}
+            {holidays?.length === 0 && <tr><td colSpan={3} className="p-8 text-center text-slate-400">이 반 전용 휴무가 없습니다.</td></tr>}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

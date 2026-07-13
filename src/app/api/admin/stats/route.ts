@@ -1,5 +1,6 @@
 import { db } from "@/lib/db";
-import { requireStaff, accessibleClassIds, errorResponse } from "@/lib/auth";
+import { requireStaff, accessibleClassIds, accessibleOrgId, errorResponse } from "@/lib/auth";
+import type { Prisma } from "@prisma/client";
 
 // 통계: 통과율, 자주 틀리는 단어 Top 10, 학생별 정답률
 export async function GET(req: Request) {
@@ -7,6 +8,7 @@ export async function GET(req: Request) {
     const s = await requireStaff();
     const url = new URL(req.url);
     const classIdParam = url.searchParams.get("classId");
+    const academyIdParam = url.searchParams.get("academyId");
     const ids = await accessibleClassIds(s);
     let classFilter: number[] | null = ids;
     if (classIdParam) {
@@ -14,7 +16,13 @@ export async function GET(req: Request) {
       if (ids !== null && !ids.includes(cid)) return Response.json({ error: "권한 없음" }, { status: 403 });
       classFilter = [cid];
     }
-    const studentWhere = { role: "STUDENT", ...(classFilter === null ? {} : { classId: { in: classFilter } }) };
+    // 총관리자는 학원(academyId)으로 범위 지정 가능
+    const orgId = s.role === "SUPER_ADMIN" && academyIdParam ? Number(academyIdParam) : accessibleOrgId(s);
+    const studentWhere: Prisma.UserWhereInput = {
+      role: "STUDENT",
+      ...(classFilter === null ? {} : { classId: { in: classFilter } }),
+      ...(orgId === null ? {} : { organizationId: orgId }),
+    };
     const students = await db.user.findMany({ where: studentWhere, select: { id: true, name: true } });
     const studentIds = students.map((u) => u.id);
 

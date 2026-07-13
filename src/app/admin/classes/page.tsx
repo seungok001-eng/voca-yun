@@ -9,20 +9,35 @@ type C = {
   assignment: { name: string } | null;
   setting: { testMode: string; dailyWordCount: number; failThreshold: number; pronEnabled: boolean } | null;
 };
+type Academy = { id: number; name: string };
 
 export default function ClassesPage() {
   const [classes, setClasses] = useState<C[] | null>(null);
   const [showNew, setShowNew] = useState(false);
   const [name, setName] = useState("");
+  const [academies, setAcademies] = useState<Academy[]>([]);
+  const [academyId, setAcademyId] = useState("");
+
+  // 총관리자면 학원 목록 (아니면 403 → 무시)
+  useEffect(() => {
+    api<{ organizations: Academy[] }>("/api/admin/organizations")
+      .then((r) => {
+        setAcademies(r.organizations);
+        if (r.organizations.length > 0) setAcademyId((cur) => cur || String(r.organizations[0].id));
+      })
+      .catch(() => setAcademies([]));
+  }, []);
 
   const load = useCallback(() => {
-    api<{ classes: C[] }>("/api/admin/classes").then((d) => setClasses(d.classes));
-  }, []);
+    if (academies.length > 0 && !academyId) return; // 총관리자는 학원 선택 후 조회
+    const qs = academyId ? `?academyId=${academyId}` : "";
+    api<{ classes: C[] }>(`/api/admin/classes${qs}`).then((d) => setClasses(d.classes));
+  }, [academyId, academies.length]);
   useEffect(load, [load]);
 
   async function create() {
     if (!name.trim()) return;
-    await api("/api/admin/classes", { method: "POST", body: JSON.stringify({ name }) });
+    await api("/api/admin/classes", { method: "POST", body: JSON.stringify({ name, academyId: academyId || undefined }) });
     setName("");
     setShowNew(false);
     load();
@@ -47,9 +62,18 @@ export default function ClassesPage() {
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h1 className="text-xl font-black text-[#16204a]">🏫 반 관리</h1>
-        <button className="btn-primary text-sm" onClick={() => setShowNew(!showNew)}>+ 새 반 만들기</button>
+      <div className="flex items-center justify-between flex-wrap gap-2">
+        <h1 className="text-xl font-black text-[#16204a]">🏫 반 관리
+          {academies.length > 0 && <span className="text-sm text-slate-400 font-semibold"> — {academies.find((a) => String(a.id) === academyId)?.name ?? ""}</span>}
+        </h1>
+        <div className="flex items-center gap-2">
+          {academies.length > 0 && (
+            <select className="input !w-auto" value={academyId} onChange={(e) => setAcademyId(e.target.value)}>
+              {academies.map((a) => <option key={a.id} value={a.id}>{a.name}</option>)}
+            </select>
+          )}
+          <button className="btn-primary text-sm whitespace-nowrap" onClick={() => setShowNew(!showNew)}>+ 새 반 만들기</button>
+        </div>
       </div>
 
       {showNew && (

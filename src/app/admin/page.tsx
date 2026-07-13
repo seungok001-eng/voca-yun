@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { api } from "@/lib/client";
 
@@ -9,21 +9,61 @@ type Stats = {
   topWrongWords: { word: string; meanings: string[]; count: number }[];
   students: { id: number; name: string; accuracy: number | null; passed: number; failed: number }[];
 };
+type Academy = { id: number; name: string };
 
 export default function AdminDashboard() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [error, setError] = useState("");
+  const [academies, setAcademies] = useState<Academy[]>([]);
+  const [academyId, setAcademyId] = useState("");
 
+  // 총관리자면 학원 목록 (아니면 403 → 무시)
   useEffect(() => {
-    api<Stats>("/api/admin/stats").then(setStats).catch((e) => setError(e.message));
+    api<{ organizations: Academy[] }>("/api/admin/organizations")
+      .then((r) => setAcademies(r.organizations)).catch(() => setAcademies([]));
   }, []);
 
-  if (error) return <p className="text-rose-600 font-semibold">{error}</p>;
-  if (!stats) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
+  const load = useCallback(() => {
+    setStats(null);
+    setError("");
+    const qs = academyId ? `?academyId=${academyId}` : "";
+    api<Stats>(`/api/admin/stats${qs}`).then(setStats).catch((e) => setError(e.message));
+  }, [academyId]);
+  useEffect(load, [load]);
+
+  const academyName = academies.find((a) => String(a.id) === academyId)?.name;
+  const selector = academies.length > 0 && (
+    <select className="input !w-auto" value={academyId} onChange={(e) => setAcademyId(e.target.value)}>
+      <option value="">전체 학원</option>
+      {academies.map((a) => <option key={a.id} value={a.id}>{a.name}</option>)}
+    </select>
+  );
+
+  if (error) return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between flex-wrap gap-2">
+        <h1 className="text-xl font-black text-[#16204a]">📊 학원 현황</h1>{selector}
+      </div>
+      <p className="text-rose-600 font-semibold">{error}</p>
+    </div>
+  );
+  if (!stats) return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between flex-wrap gap-2">
+        <h1 className="text-xl font-black text-[#16204a]">📊 학원 현황</h1>{selector}
+      </div>
+      <p className="text-slate-400 text-center py-20">불러오는 중...</p>
+    </div>
+  );
 
   return (
     <div className="space-y-5">
-      <h1 className="text-xl font-black text-[#16204a]">📊 학원 현황</h1>
+      <div className="flex items-center justify-between flex-wrap gap-2">
+        <h1 className="text-xl font-black text-[#16204a]">📊 학원 현황
+          {academies.length > 0 && <span className="text-sm text-slate-400 font-semibold"> — {academyName ?? "전체 학원"}</span>}
+        </h1>
+        {selector}
+      </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <Stat label="시험 통과" value={`${stats.passed}회`} tone="emerald" />
