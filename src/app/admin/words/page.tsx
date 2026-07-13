@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { api, speak, POS_KO } from "@/lib/client";
+import { api, playClip, audioUrlFor, POS_KO } from "@/lib/client";
 
 type Alias = { id: number; text: string };
 type W = {
@@ -78,7 +78,8 @@ export default function AdminWordsPage() {
                 <td className="p-3 font-black text-[#16204a] whitespace-nowrap">
                   {w.emoji && <span className="text-lg mr-1">{w.emoji}</span>}
                   {w.text}
-                  <button className="ml-1.5 text-xs" onClick={() => speak(w.text)}>🔊</button>
+                  <button className="ml-1.5 text-xs" title="단어 듣기"
+                    onClick={() => playClip(audioUrlFor(w.levelOrder, w.no, "word"), w.text)}>🔊</button>
                   <div className="text-[10px] text-slate-400 font-normal">
                     {w.levelOrder && <>Lv.{w.levelOrder}</>}
                     {w.no && <span className="text-[#c9a227] font-bold"> · {w.no}번</span>}
@@ -86,7 +87,13 @@ export default function AdminWordsPage() {
                 </td>
                 <td className="p-3 text-slate-500">{POS_KO[w.pos] ?? w.pos}</td>
                 <td className="p-3 text-[color:var(--brand-gold)] font-semibold">{w.meanings.join(", ")}</td>
-                <td className="p-3 text-xs text-slate-500 max-w-xs">{w.example}<br /><span className="text-slate-400">{w.exampleKo}</span></td>
+                <td className="p-3 text-xs text-slate-500 max-w-xs">
+                  {w.example && (
+                    <button className="mr-1 text-xs align-middle" title="예문 듣기"
+                      onClick={() => playClip(audioUrlFor(w.levelOrder, w.no, "ex"), w.example!)}>🔊</button>
+                  )}
+                  {w.example}<br /><span className="text-slate-400">{w.exampleKo}</span>
+                </td>
                 <td className="p-3 text-xs">
                   {w.aliases.length > 0
                     ? w.aliases.map((a) => <span key={a.id} className="chip bg-emerald-50 text-emerald-600 mr-1 mb-1">{a.text}</span>)

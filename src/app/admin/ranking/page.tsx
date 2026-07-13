@@ -5,6 +5,7 @@ import { api } from "@/lib/client";
 
 type Row = { rank: number; id: number; name: string; className: string; points: number; badges: number };
 type Data = { academyName: string; rankingTopN: number; month: string; rows: Row[] };
+type Academy = { id: number; name: string };
 
 function kstMonth(): string {
   const kst = new Date(Date.now() + 9 * 3600 * 1000);
@@ -21,26 +22,63 @@ export default function AdminRankingPage() {
   const [data, setData] = useState<Data | null>(null);
   const [topN, setTopN] = useState(10);
   const [saved, setSaved] = useState(false);
+  const [academies, setAcademies] = useState<Academy[]>([]);
+  const [academyId, setAcademyId] = useState("");
+  const [error, setError] = useState("");
+
+  // 총관리자면 학원 목록 (아니면 403 → 무시)
+  useEffect(() => {
+    api<{ organizations: Academy[] }>("/api/admin/organizations")
+      .then((r) => {
+        setAcademies(r.organizations);
+        if (r.organizations.length > 0) setAcademyId((cur) => cur || String(r.organizations[0].id));
+      })
+      .catch(() => setAcademies([]));
+  }, []);
 
   const load = useCallback(() => {
-    api<Data>(`/api/admin/ranking?month=${month}`).then((d) => { setData(d); setTopN(d.rankingTopN); });
-  }, [month]);
+    // 총관리자는 학원을 골라야 조회 가능. 원장/선생님은 자기 학원 자동.
+    if (academies.length > 0 && !academyId) return;
+    setError("");
+    const p = new URLSearchParams({ month });
+    if (academyId) p.set("academyId", academyId);
+    api<Data>(`/api/admin/ranking?${p}`)
+      .then((d) => { setData(d); setTopN(d.rankingTopN); })
+      .catch((e) => { setData(null); setError(e instanceof Error ? e.message : "불러오기 실패"); });
+  }, [month, academyId, academies.length]);
   useEffect(load, [load]);
 
   async function save() {
-    await api("/api/admin/ranking", { method: "PATCH", body: JSON.stringify({ rankingTopN: topN }) });
+    await api("/api/admin/ranking", { method: "PATCH", body: JSON.stringify({ rankingTopN: topN, academyId: academyId || undefined }) });
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
     load();
   }
 
-  if (!data) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
   const thisMonth = kstMonth();
+  const academySelector = academies.length > 0 && (
+    <select className="input !w-auto" value={academyId} onChange={(e) => setAcademyId(e.target.value)}>
+      {academies.map((a) => <option key={a.id} value={a.id}>{a.name}</option>)}
+    </select>
+  );
+
+  if (!data) {
+    return (
+      <div className="space-y-4">
+        <h1 className="text-xl font-black text-[#16204a]">🏆 랭킹 관리</h1>
+        {academySelector}
+        <p className="text-slate-400 text-center py-16">{error || "불러오는 중..."}</p>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-4">
       <div>
-        <h1 className="text-xl font-black text-[#16204a]">🏆 랭킹 관리 <span className="text-sm text-slate-400 font-semibold">— {data.academyName}</span></h1>
+        <div className="flex items-center justify-between flex-wrap gap-2">
+          <h1 className="text-xl font-black text-[#16204a]">🏆 랭킹 관리 <span className="text-sm text-slate-400 font-semibold">— {data.academyName}</span></h1>
+          {academySelector}
+        </div>
         <p className="text-xs text-slate-400 mt-1">학생들이 보는 &ldquo;학원 전체 랭킹&rdquo;에 몇 위까지 보여줄지 정합니다. (매달 자동 집계)</p>
       </div>
 
