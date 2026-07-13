@@ -66,21 +66,32 @@ function setPreservePitch(a: HTMLAudioElement) {
 }
 
 // url이 있으면 음성 파일을, 실패하면 text를 Web Speech로 읽는다.
+// 첫음 잘림 방지: 재생 전 오디오를 충분히 버퍼링(canplaythrough)한 뒤 재생 →
+// 데이터가 준비된 상태에서 0초부터 재생돼 브라우저가 앞부분을 건너뛰지 않는다.
 export function playClip(url: string | null | undefined, text: string, slow = false) {
   if (typeof window === "undefined") return;
   window.speechSynthesis?.cancel();
   if (currentAudio) { try { currentAudio.pause(); } catch { /* noop */ } currentAudio = null; }
   const fallback = () => speak(text, slow ? 0.6 : 0.95);
-  if (url) {
-    const a = new Audio(url);
-    setPreservePitch(a);
-    a.playbackRate = slow ? 0.6 : 1;
-    a.onerror = fallback;
-    currentAudio = a;
+  if (!url) { fallback(); return; }
+  const a = new Audio();
+  setPreservePitch(a);
+  a.playbackRate = slow ? 0.6 : 1;
+  a.preload = "auto";
+  a.onerror = fallback;
+  currentAudio = a;
+  let started = false;
+  const start = () => {
+    if (started || currentAudio !== a) return;
+    started = true;
     a.play().catch(fallback);
-  } else {
-    fallback();
-  }
+  };
+  // 완전 버퍼링되면 재생 (캐시된 경우 즉시 발생)
+  a.addEventListener("canplaythrough", start, { once: true });
+  // 안전장치: 이벤트가 안 뜨거나 지연되면 최대 400ms 후 강제 재생
+  window.setTimeout(start, 400);
+  a.src = url;
+  a.load();
 }
 
 // 엔진 예열: 첫 발화 지연을 없애기 위해 앱 로드 직후 무음을 한 번 흘려보낸다.
