@@ -28,6 +28,21 @@ export default function ClassesPage() {
     load();
   }
 
+  async function remove(e: React.MouseEvent, c: C) {
+    e.preventDefault();
+    e.stopPropagation();
+    const msg = c.studentCount > 0
+      ? `"${c.name}" 반을 삭제할까요?\n\n소속 학생 ${c.studentCount}명은 '미배정' 상태가 되고, 반 설정·학습 배정이 함께 삭제됩니다. 학생 계정과 학습 기록은 지워지지 않습니다.\n\n이 작업은 되돌릴 수 없습니다.`
+      : `"${c.name}" 반을 삭제할까요?\n\n이 작업은 되돌릴 수 없습니다.`;
+    if (!confirm(msg)) return;
+    try {
+      await api(`/api/admin/classes/${c.id}`, { method: "DELETE" });
+      load();
+    } catch (err) {
+      alert(err instanceof Error ? err.message : "삭제 실패");
+    }
+  }
+
   if (!classes) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
 
   return (
@@ -51,9 +66,13 @@ export default function ClassesPage() {
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {classes.map((c) => (
             <Link key={c.id} href={`/admin/classes/${c.id}`} className="card p-5 block hover:shadow-lg transition-shadow">
-              <div className="flex items-start justify-between">
+              <div className="flex items-start justify-between gap-2">
                 <h2 className="font-black text-[#16204a] text-lg">{c.name}</h2>
-                <span className="chip bg-indigo-50 text-indigo-700">{c.studentCount}명</span>
+                <div className="flex items-center gap-1.5 shrink-0">
+                  <span className="chip bg-indigo-50 text-indigo-700">{c.studentCount}명</span>
+                  <button className="text-slate-300 hover:text-rose-500 text-sm" title="반 삭제"
+                    onClick={(e) => remove(e, c)}>🗑️</button>
+                </div>
               </div>
               <p className="text-xs text-slate-400 mt-1">담당: {c.teacherName ?? "미지정"}</p>
               <div className="mt-3 flex flex-wrap gap-1.5 text-[10px]">

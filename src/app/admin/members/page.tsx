@@ -27,6 +27,8 @@ export default function MembersPage() {
   const [q, setQ] = useState("");
   const [classId, setClassId] = useState("");
   const [detail, setDetail] = useState<{ member: Member } | null>(null);
+  const [selected, setSelected] = useState<Set<number>>(new Set());
+  const [moveTo, setMoveTo] = useState("");
 
   // 총관리자면 학원 목록 (아니면 403 → 무시)
   useEffect(() => {
@@ -39,13 +41,33 @@ export default function MembersPage() {
     if (q) p.set("q", q);
     if (classId) p.set("classId", classId);
     if (academyId) p.set("academyId", academyId);
-    api<Data>(`/api/admin/members?${p}`).then(setData);
+    api<Data>(`/api/admin/members?${p}`).then((d) => { setData(d); setSelected(new Set()); });
   }, [q, classId, academyId]);
   useEffect(load, [load]);
 
   async function assignClass(m: Member, newClassId: string) {
     await api(`/api/admin/students/${m.id}`, { method: "PATCH", body: JSON.stringify({ classId: newClassId || null }) });
     load();
+  }
+
+  function toggle(id: number) {
+    setSelected((cur) => {
+      const next = new Set(cur);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  }
+  async function moveSelected() {
+    if (selected.size === 0) return;
+    const clsName = moveTo ? data?.classes.find((c) => String(c.id) === moveTo)?.name ?? "선택한 반" : "미배정";
+    if (!confirm(`선택한 학생 ${selected.size}명을 "${clsName}"(으)로 이동할까요?`)) return;
+    try {
+      await api("/api/admin/students/batch", { method: "PATCH", body: JSON.stringify({ ids: [...selected], classId: moveTo || null }) });
+      setMoveTo("");
+      load();
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "이동 실패");
+    }
   }
   async function resetPw(m: Member) {
     const np = prompt(`${m.name} 학생의 새 비밀번호를 입력하세요`, "1234");
@@ -69,6 +91,12 @@ export default function MembersPage() {
   }
 
   if (!data) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
+
+  const studentRows = data.members.filter((m) => m.role === "STUDENT");
+  const allSelected = studentRows.length > 0 && studentRows.every((m) => selected.has(m.id));
+  function toggleAll() {
+    setSelected(allSelected ? new Set() : new Set(studentRows.map((m) => m.id)));
+  }
 
   return (
     <div className="space-y-4">
@@ -97,11 +125,29 @@ export default function MembersPage() {
         )}
       </div>
 
+      {/* 선택 이동 바 */}
+      {selected.size > 0 && (
+        <div className="card p-3 flex items-center gap-3 flex-wrap bg-indigo-50/60 border-indigo-100 pop-in">
+          <span className="font-bold text-[#16204a] text-sm">✔ {selected.size}명 선택됨</span>
+          <span className="text-slate-400 text-sm">→</span>
+          <select className="input !w-auto !py-1.5" value={moveTo} onChange={(e) => setMoveTo(e.target.value)}>
+            <option value="">미배정으로</option>
+            {data.classes.map((c) => <option key={c.id} value={c.id}>{c.name}(으)로</option>)}
+          </select>
+          <button className="btn-primary !py-1.5 text-sm" onClick={moveSelected}>반 이동</button>
+          <button className="btn-ghost !py-1.5 text-sm" onClick={() => setSelected(new Set())}>선택 해제</button>
+        </div>
+      )}
+
       {/* 명단 */}
       <div className="card overflow-x-auto">
         <table className="w-full text-sm whitespace-nowrap">
           <thead>
             <tr className="text-left text-[11px] text-slate-400 border-b border-slate-100">
+              <th className="p-2.5">
+                <input type="checkbox" checked={allSelected} onChange={toggleAll}
+                  disabled={studentRows.length === 0} title="학생 전체 선택" />
+              </th>
               <th className="p-2.5">이름</th><th className="p-2.5">역할</th><th className="p-2.5">아이디</th>
               <th className="p-2.5">비번</th><th className="p-2.5">현재 반</th><th className="p-2.5">레벨</th>
               <th className="p-2.5">진도</th>
@@ -111,7 +157,12 @@ export default function MembersPage() {
           </thead>
           <tbody>
             {data.members.map((m) => (
-              <tr key={m.id} className="border-b border-slate-50 hover:bg-slate-50/50">
+              <tr key={m.id} className={"border-b border-slate-50 hover:bg-slate-50/50 " + (selected.has(m.id) ? "bg-indigo-50/40" : "")}>
+                <td className="p-2.5">
+                  {m.role === "STUDENT"
+                    ? <input type="checkbox" checked={selected.has(m.id)} onChange={() => toggle(m.id)} />
+                    : null}
+                </td>
                 <td className="p-2.5 font-bold text-[#16204a]">
                   {m.name}
                   {m.status === "PENDING" && <span className="chip bg-amber-50 text-amber-600 ml-1">대기</span>}
@@ -157,7 +208,7 @@ export default function MembersPage() {
                 </td>
               </tr>
             ))}
-            {data.members.length === 0 && <tr><td colSpan={12} className="p-8 text-center text-slate-400">해당하는 사람이 없습니다.</td></tr>}
+            {data.members.length === 0 && <tr><td colSpan={13} className="p-8 text-center text-slate-400">해당하는 사람이 없습니다.</td></tr>}
           </tbody>
         </table>
       </div>
