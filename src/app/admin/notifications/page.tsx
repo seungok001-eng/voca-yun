@@ -17,26 +17,43 @@ const TYPE_CHIP: Record<string, { label: string; cls: string }> = {
 export default function NotificationsPage() {
   const [logs, setLogs] = useState<Log[] | null>(null);
 
-  useEffect(() => {
+  function load() {
     api<{ logs: Log[] }>("/api/admin/notifications").then((d) => setLogs(d.logs));
-  }, []);
+  }
+  useEffect(load, []);
+
+  async function removeOne(l: Log) {
+    if (!confirm(`${l.studentName} 학생의 이 알림을 삭제할까요?`)) return;
+    await api(`/api/admin/notifications/${l.id}`, { method: "DELETE" });
+    setLogs((cur) => cur?.filter((x) => x.id !== l.id) ?? null);
+  }
+  async function clearAll() {
+    if (!confirm("표시된 학부모 알림을 모두 삭제할까요? 되돌릴 수 없습니다.")) return;
+    await api("/api/admin/notifications", { method: "DELETE" });
+    load();
+  }
 
   if (!logs) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
 
   return (
     <div className="space-y-4">
-      <div>
-        <h1 className="text-xl font-black text-[#16204a]">💬 학부모 알림</h1>
-        <p className="text-xs text-slate-400 mt-1">
-          시험 통과/탈락 시 자동 생성되는 알림 메시지입니다. 카카오 알림톡·SMS 발송 서비스와 연동하면 학부모 휴대폰으로 자동 발송됩니다.
-        </p>
+      <div className="flex items-start justify-between gap-3 flex-wrap">
+        <div>
+          <h1 className="text-xl font-black text-[#16204a]">💬 학부모 알림</h1>
+          <p className="text-xs text-slate-400 mt-1">
+            시험 통과/탈락 시 자동 생성되는 알림 메시지입니다. 카카오 알림톡·SMS 발송 서비스와 연동하면 학부모 휴대폰으로 자동 발송됩니다.
+          </p>
+        </div>
+        {logs.length > 0 && (
+          <button className="btn-ghost !border-rose-200 !text-rose-500 whitespace-nowrap" onClick={clearAll}>🗑️ 전체 삭제</button>
+        )}
       </div>
       <div className="card overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left text-[11px] text-slate-400 border-b border-slate-100">
               <th className="p-3">시각</th><th className="p-3">학생</th><th className="p-3">유형</th>
-              <th className="p-3">메시지</th><th className="p-3">수신번호</th>
+              <th className="p-3">메시지</th><th className="p-3">수신번호</th><th className="p-3"></th>
             </tr>
           </thead>
           <tbody>
@@ -49,10 +66,13 @@ export default function NotificationsPage() {
                   <td className="p-3"><span className={"chip " + t.cls}>{t.label}</span></td>
                   <td className="p-3 text-xs text-slate-600">{l.message}</td>
                   <td className="p-3 text-xs text-slate-400 whitespace-nowrap">{l.parentPhone}</td>
+                  <td className="p-3 whitespace-nowrap">
+                    <button className="text-xs text-slate-400 hover:text-rose-500" title="삭제" onClick={() => removeOne(l)}>🗑️</button>
+                  </td>
                 </tr>
               );
             })}
-            {logs.length === 0 && <tr><td colSpan={5} className="p-8 text-center text-slate-400">알림이 없습니다.</td></tr>}
+            {logs.length === 0 && <tr><td colSpan={6} className="p-8 text-center text-slate-400">알림이 없습니다.</td></tr>}
           </tbody>
         </table>
       </div>

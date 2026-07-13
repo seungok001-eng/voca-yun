@@ -23,3 +23,17 @@ export async function GET() {
     return errorResponse(e);
   }
 }
+
+// 접근 가능한 반 학생의 학부모 알림 전체 삭제
+export async function DELETE() {
+  try {
+    const s = await requireStaff();
+    const ids = await accessibleClassIds(s);
+    const r = await db.notificationLog.deleteMany({
+      where: ids === null ? {} : { student: { classId: { in: ids } } },
+    });
+    return Response.json({ ok: true, count: r.count });
+  } catch (e) {
+    return errorResponse(e);
+  }
+}
