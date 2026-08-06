@@ -128,6 +128,30 @@ async function main() {
     update: {},
     create: { username: "individual1", passwordHash: pw, plainPassword: "1234", name: "김개인", role: "INDIVIDUAL", status: "APPROVED" },
   });
+  // 4) 정철 교재 12권 (KEM=SKY 6권 / FEM=PLANET 6권) — idempotent
+  const TEXTBOOKS: [string, string[]][] = [
+    ["KEM", ["SKY 1-1", "SKY 1-2", "SKY 1-3", "SKY 2-1", "SKY 2-2", "SKY 2-3"]],
+    ["FEM", ["PLANET 1-1", "PLANET 1-2", "PLANET 1-3", "PLANET 2-1", "PLANET 2-2", "PLANET 2-3"]],
+  ];
+  for (const [course, names] of TEXTBOOKS) {
+    for (let i = 0; i < names.length; i++) {
+      const book = await db.textbook.upsert({
+        where: { course_name: { course, name: names[i] } },
+        update: {},
+        create: { course, name: names[i], order: i + 1 },
+      });
+      // 각 권은 PART 1·2로 구성
+      for (const order of [1, 2]) {
+        await db.textbookPart.upsert({
+          where: { textbookId_order: { textbookId: book.id, order } },
+          update: {},
+          create: { textbookId: book.id, order },
+        });
+      }
+    }
+  }
+  console.log(`✅ 교재 ${await db.textbook.count()}권 준비 완료`);
+
   console.log(`✅ 계정 준비 완료 (총관리자 ${director.name}, 반 ${cls.name})`);
 }
 

@@ -25,7 +25,7 @@ export default function ClassDetailPage() {
   const [d, setD] = useState<Detail | null>(null);
   const [levels, setLevels] = useState<LevelRow[]>([]);
   const [wordbooks, setWordbooks] = useState<WordbookRow[]>([]);
-  const [tab, setTab] = useState<"students" | "settings" | "assign" | "holidays">("students");
+  const [tab, setTab] = useState<"students" | "settings" | "assign" | "course" | "holidays">("students");
   const [newStudent, setNewStudent] = useState({ username: "", password: "", name: "", parentPhone: "", school: "", grade: "" });
   const [showNew, setShowNew] = useState(false);
 
@@ -79,10 +79,10 @@ export default function ClassDetailPage() {
           <p className="text-xs text-slate-400">담당 {d.teacher?.name ?? "미지정"} · 현재 학습: <b className="text-[#c9a227]">{d.assignment?.name ?? "미배정"}</b></p>
         </div>
         <div className="flex gap-1.5">
-          {(["students", "settings", "assign", "holidays"] as const).map((t) => (
+          {(["students", "settings", "assign", "course", "holidays"] as const).map((t) => (
             <button key={t} onClick={() => setTab(t)}
               className={"chip !py-2 !px-4 " + (tab === t ? "bg-[#16204a] text-white" : "bg-white border border-slate-200 text-slate-500")}>
-              {{ students: "👨‍🎓 학생", settings: "⚙️ 시험 설정", assign: "📚 학습 배정", holidays: "🏖️ 반 휴무" }[t]}
+              {{ students: "👨‍🎓 학생", settings: "⚙️ 시험 설정", assign: "📚 VOCA 배정", course: "📕 교재 배정", holidays: "🏖️ 반 휴무" }[t]}
             </button>
           ))}
         </div>
@@ -188,7 +188,133 @@ export default function ClassDetailPage() {
         </div>
       )}
 
+      {tab === "course" && <ClassCourseTab classId={d.id} />}
+
       {tab === "holidays" && <ClassHolidays classId={d.id} />}
+    </div>
+  );
+}
+
+// ── 교재 과정 배정: 교재 선택 + 오늘의 진도(자동/선생님 지정) ──
+type CourseLesson = { id: number; partOrder: number; area: string; order: number; name: string; isReview: boolean; a: number; b: number; n: number };
+type CourseData = {
+  textbooks: { id: number; course: string; name: string }[];
+  course: { textbookId: number; textbookName: string; mode: string; todayLessonId: number | null } | null;
+  lessons: CourseLesson[];
+};
+
+function ClassCourseTab({ classId }: { classId: number }) {
+  const [data, setData] = useState<CourseData | null>(null);
+  const [textbookId, setTextbookId] = useState("");
+  const [mode, setMode] = useState("AUTO");
+  const [todayLessonId, setTodayLessonId] = useState("");
+  const [saved, setSaved] = useState(false);
+
+  const load = useCallback(() => {
+    api<CourseData>(`/api/admin/classes/${classId}/course`).then((r) => {
+      setData(r);
+      setTextbookId(r.course ? String(r.course.textbookId) : "");
+      setMode(r.course?.mode ?? "AUTO");
+      setTodayLessonId(r.course?.todayLessonId ? String(r.course.todayLessonId) : "");
+    });
+  }, [classId]);
+  useEffect(load, [load]);
+
+  async function save() {
+    try {
+      await api(`/api/admin/classes/${classId}/course`, {
+        method: "PUT",
+        body: JSON.stringify({
+          textbookId: textbookId ? Number(textbookId) : null,
+          mode,
+          todayLessonId: mode === "MANUAL" && todayLessonId ? Number(todayLessonId) : null,
+        }),
+      });
+      setSaved(true);
+      setTimeout(() => setSaved(false), 2000);
+      load();
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "저장 실패");
+    }
+  }
+
+  if (!data) return <p className="text-slate-400 text-center py-16">불러오는 중...</p>;
+  const areaKo: Record<string, string> = { TOON: "Toon World", READING: "Book Club" };
+
+  return (
+    <div className="space-y-3">
+      <div className="card p-5 space-y-3">
+        <h2 className="font-black text-[#16204a]">📕 교재 배정</h2>
+        <p className="text-xs text-slate-400">
+          이 반에서 <b>교재 과정</b>으로 학습하는 학생들이 볼 교재입니다.
+          (학생별 과정 선택은 전체 명단에서 지정합니다.)
+        </p>
+        <div className="grid gap-2 sm:grid-cols-3">
+          <div>
+            <label className="text-xs font-bold text-slate-600 block mb-1">교재</label>
+            <select className="input" value={textbookId} onChange={(e) => setTextbookId(e.target.value)}>
+              <option value="">배정 안 함</option>
+              {data.textbooks.map((t) => (
+                <option key={t.id} value={t.id}>{t.course === "KEM" ? "SKY" : "PLANET"} · {t.name}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className="text-xs font-bold text-slate-600 block mb-1">진도 방식</label>
+            <select className="input" value={mode} onChange={(e) => setMode(e.target.value)} disabled={!textbookId}>
+              <option value="AUTO">자동 — 통과 안 한 첫 레슨</option>
+              <option value="MANUAL">선생님 지정 — 오늘의 레슨 고정</option>
+            </select>
+          </div>
+          <div>
+            <label className="text-xs font-bold text-slate-600 block mb-1">오늘의 레슨</label>
+            <select className="input" value={todayLessonId} onChange={(e) => setTodayLessonId(e.target.value)}
+              disabled={mode !== "MANUAL" || !textbookId}>
+              <option value="">선택 안 함</option>
+              {data.lessons.map((l) => (
+                <option key={l.id} value={l.id}>
+                  P{l.partOrder} · {areaKo[l.area]} L{l.order} — {l.name}{l.isReview ? " (복습)" : ""}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+        <div className="flex items-center gap-3">
+          <button className="btn-primary" onClick={save}>저장</button>
+          {saved && <span className="text-sm font-bold text-emerald-600 pop-in">✓ 저장됨</span>}
+        </div>
+        <p className="text-[11px] text-slate-400">
+          💡 오늘의 진도가 아니어도 학생은 다른 레슨을 자유롭게 공부하고 시험 볼 수 있습니다. 선생님이 지정하면 그 레슨이 최우선으로 표시됩니다.
+        </p>
+      </div>
+
+      {data.lessons.length > 0 && (
+        <div className="card overflow-x-auto">
+          <p className="px-3 pt-3 font-bold text-sm text-[#16204a]">레슨별 문장 수 (통과 기준 정할 때 참고)</p>
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="text-left text-[11px] text-slate-400 border-b border-slate-100">
+                <th className="p-2.5">레슨</th><th className="p-2.5">이름</th>
+                <th className="p-2.5">A 역</th><th className="p-2.5">B 역</th><th className="p-2.5">본문 읽기</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.lessons.map((l) => (
+                <tr key={l.id} className="border-b border-slate-50">
+                  <td className="p-2.5 whitespace-nowrap font-bold text-[#16204a]">
+                    P{l.partOrder} {areaKo[l.area]} L{l.order}
+                    {l.isReview && <span className="chip bg-amber-50 text-amber-600 ml-1">복습</span>}
+                  </td>
+                  <td className="p-2.5 text-slate-600">{l.name}</td>
+                  <td className="p-2.5 font-bold">{l.a || "-"}</td>
+                  <td className="p-2.5 font-bold">{l.b || "-"}</td>
+                  <td className="p-2.5 font-bold">{l.n || "-"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
     </div>
   );
 }

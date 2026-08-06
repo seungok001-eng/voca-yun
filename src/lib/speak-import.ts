@@ -8,7 +8,7 @@ import { db } from "./db";
 //   레슨 : 파트 | 영역 | 레슨 | 레슨명 | 복습 | 책            (선택 — 이름·복습·BookA/B 지정)
 //   단어 : 파트 | 영역 | 레슨 | 단어 | 품사 | 뜻 | 심화       (심화 칸에 O/1이면 심화반 전용)
 //   문장 : 파트 | 영역 | 레슨 | A1 | A1뜻 | B1 | B1뜻 | A2 | A2뜻 | B2 | B2뜻
-//   본문 : 파트 | 영역 | 레슨 | 본문 | 해석                   (Book Club 리딩)
+//   본문 : 파트 | 영역 | 레슨 | 본문문장 | 해석            (한 행 = 한 문장, 순서대로)
 // 영역: T/Toon/말하기 → TOON,  B/Book/리딩 → READING
 
 export type ImportLine = { speaker: "A" | "B"; text: string; ko?: string };
@@ -23,8 +23,9 @@ export type ImportLesson = {
   name?: string;
   isReview?: boolean;
   bookLabel?: string; // Book A | Book B
-  passage?: string;
+  passage?: string; // 전체 본문 (없으면 passageLines로 합성)
   passageKo?: string;
+  passageLines?: { text: string; ko?: string }[]; // 문장 단위 본문
   words?: ImportWord[];
   dialogues?: { lines: ImportLine[] }[];
 };
@@ -67,7 +68,7 @@ export function parseWorkbook(buf: Buffer): ImportLesson[] {
     const order = Number(row[2]);
     if (!Number.isInteger(part) || part <= 0 || !area || !Number.isInteger(order) || order <= 0) return null;
     const k = key(part, area, order);
-    if (!map.has(k)) map.set(k, { part, area, order, words: [], dialogues: [] });
+    if (!map.has(k)) map.set(k, { part, area, order, words: [], dialogues: [], passageLines: [] });
     return map.get(k)!;
   };
 
@@ -107,8 +108,7 @@ export function parseWorkbook(buf: Buffer): ImportLesson[] {
   for (const row of sheetRows(wb, [/본문/, /passage/i, /reading/i])) {
     const L = locate(row);
     if (!L) continue;
-    if (row[3]) L.passage = row[3];
-    if (row[4]) L.passageKo = row[4];
+    if (row[3]) L.passageLines!.push({ text: row[3], ko: row[4] || undefined });
   }
 
   return [...map.values()].sort((a, b) => a.part - b.part || a.area.localeCompare(b.area) || a.order - b.order);
@@ -138,17 +138,20 @@ export async function importTextbookContent(
       where: { partId_area_order: { partId: part.id, area: L.area, order: L.order } },
     });
     const lessonName = L.name || existing?.name || `${AREA_KO[L.area]} Lesson ${L.order}`;
+    const pLines = L.passageLines ?? [];
+    const passageText = L.passage ?? (pLines.length ? pLines.map((x) => x.text).join(" ") : undefined);
+    const passageKoText = L.passageKo ?? (pLines.some((x) => x.ko) ? pLines.map((x) => x.ko ?? "").join(" ").trim() : undefined);
     const patch = {
       name: lessonName,
       ...(L.isReview !== undefined ? { isReview: L.isReview } : {}),
       ...(L.bookLabel !== undefined ? { bookLabel: L.bookLabel } : {}),
-      ...(L.passage !== undefined ? { passage: L.passage } : {}),
-      ...(L.passageKo !== undefined ? { passageKo: L.passageKo } : {}),
+      ...(passageText !== undefined ? { passage: passageText } : {}),
+      ...(passageKoText !== undefined ? { passageKo: passageKoText } : {}),
     };
     const lesson = existing
       ? await db.lesson.update({ where: { id: existing.id }, data: patch })
       : await db.lesson.create({ data: { partId: part.id, area: L.area, order: L.order, ...patch } });
-    if (L.passage) passageTotal++;
+    if (passageText) passageTotal++;
 
     // 단어 — 레슨 전용 단어장에 담아 기존 단어 학습 엔진을 그대로 재사용
     if (L.words?.length) {
@@ -182,7 +185,7 @@ export async function importTextbookContent(
 
     // 문장(대화) — 레슨의 기존 대화를 지우고 새로 넣는다
     if (L.dialogues?.length) {
-      await db.dialogue.deleteMany({ where: { lessonId: lesson.id } });
+      await db.dialogue.deleteMany({ where: { lessonId: lesson.id, kind: "DIALOGUE" } });
       let order = 1;
       for (const d of L.dialogues) {
         const created = await db.dialogue.create({ data: { lessonId: lesson.id, order: order++ } });
@@ -202,6 +205,26 @@ export async function importTextbookContent(
         lineTotal += d.lines.length;
       }
       dlgTotal += L.dialogues.length;
+    }
+
+    // 리딩 본문 — 문장 하나가 한 줄(화자 N). 문장별 음성·따라읽기 판정에 쓰인다.
+    if (pLines.length) {
+      await db.dialogue.deleteMany({ where: { lessonId: lesson.id, kind: "PASSAGE" } });
+      const created = await db.dialogue.create({ data: { lessonId: lesson.id, kind: "PASSAGE", order: 1 } });
+      await db.dialogueLine.createMany({
+        data: pLines.map((ln, i) => {
+          const { text, alts } = splitAlts(ln.text);
+          return {
+            dialogueId: created.id,
+            order: i + 1,
+            speaker: "N",
+            text,
+            textKo: ln.ko ?? null,
+            altsJson: alts.length ? JSON.stringify(alts) : null,
+          };
+        }),
+      });
+      lineTotal += pLines.length;
     }
   }
 
