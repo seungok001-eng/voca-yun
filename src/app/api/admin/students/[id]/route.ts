@@ -109,6 +109,10 @@ export async function PATCH(req: Request, ctx: { params: Promise<{ id: string }>
           pronThreshold: o.pronThreshold ?? null,
           reviewMixCount: o.reviewMixCount ?? null,
           studyDays: o.studyDays ?? null,
+          speakMatchRate: o.speakMatchRate ?? null,
+          speakPassCount: o.speakPassCount ?? null,
+          courseTrack: o.courseTrack ?? null,
+          program: o.program ?? null,
         };
         await db.studentSetting.upsert({
           where: { userId: studentId },

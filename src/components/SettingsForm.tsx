@@ -12,7 +12,14 @@ export type SettingsValues = {
   pronThreshold: number | null;
   reviewMixCount: number | null;
   studyDays: string | null; // "MON,TUE,..." (null=반 설정 따름)
+  speakMatchRate: number | null; // 말하기 문장 일치율 커트라인 (%)
+  speakPassCount: number | null; // 통과에 필요한 문장 수 (0/빈칸 = 전체)
+  courseTrack: string | null; // BASIC | ADVANCED
+  program: string | null; // VOCA | TEXTBOOK
 };
+
+// 교재 과정 설정 옆에 보여줄 레슨별 문장 수 (선생님이 통과 기준을 정할 때 참고)
+export type LessonStat = { name: string; a: number; b: number; n: number };
 
 const DAY_OPTS = [
   ["MON", "월"], ["TUE", "화"], ["WED", "수"], ["THU", "목"],
@@ -24,11 +31,13 @@ export default function SettingsForm({
   initial,
   inherit = false,
   inheritedFrom,
+  lessonStats,
   onSave,
 }: {
   initial: Partial<SettingsValues> | null;
   inherit?: boolean;
   inheritedFrom?: Partial<SettingsValues> | null;
+  lessonStats?: LessonStat[];
   onSave: (v: SettingsValues) => Promise<void>;
 }) {
   const [v, setV] = useState<SettingsValues>({
@@ -41,6 +50,10 @@ export default function SettingsForm({
     pronThreshold: initial?.pronThreshold ?? (inherit ? null : 60),
     reviewMixCount: initial?.reviewMixCount ?? (inherit ? null : 5),
     studyDays: initial?.studyDays ?? (inherit ? null : "MON,TUE,WED,THU,FRI,SAT,SUN"),
+    speakMatchRate: initial?.speakMatchRate ?? (inherit ? null : 70),
+    speakPassCount: initial?.speakPassCount ?? (inherit ? null : 0),
+    courseTrack: initial?.courseTrack ?? (inherit ? null : "BASIC"),
+    program: initial?.program ?? (inherit ? null : "VOCA"),
   });
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
@@ -61,6 +74,9 @@ export default function SettingsForm({
     if (val === null || val === undefined) return "-";
     if (k === "testMode") return { KO_TO_EN: "한→영", EN_TO_KO: "영→한", MIXED: "혼합" }[val as string] ?? val;
     if (k === "retestScope") return { ALL: "전체", WRONG_ONLY: "틀린 것만" }[val as string] ?? val;
+    if (k === "program") return { VOCA: "VOCA 과정", TEXTBOOK: "교재 과정" }[val as string] ?? val;
+    if (k === "courseTrack") return { BASIC: "기본반", ADVANCED: "심화반" }[val as string] ?? val;
+    if (k === "speakPassCount") return Number(val) === 0 ? "전체 문장" : `${val}문장`;
     if (k === "studyDays") {
       const koMap: Record<string, string> = { MON: "월", TUE: "화", WED: "수", THU: "목", FRI: "금", SAT: "토", SUN: "일" };
       const days = String(val).split(",").filter(Boolean);
@@ -70,8 +86,27 @@ export default function SettingsForm({
     return val;
   }
 
+  // 교재 과정 설정은 VOCA 과정만 쓰는 반/학생에게는 접어둔다
+  const usesTextbook = v.program === "TEXTBOOK" || (v.program === null && inheritedFrom?.program === "TEXTBOOK");
+
   return (
     <div className="grid gap-4 sm:grid-cols-2">
+      {/* 학습 프로그램(가닥) — 가장 먼저 정한다 */}
+      <div className="sm:col-span-2 rounded-2xl border-2 border-[#c9a227]/40 bg-[#fdfaf0] p-4">
+        <label className="text-xs font-bold text-slate-600 block mb-1.5">
+          📚 학습 프로그램{inheritNote("program")}
+        </label>
+        <select className="input" value={v.program ?? "__inherit"}
+          onChange={(e) => set("program", e.target.value === "__inherit" ? null : e.target.value)}>
+          {inherit && <option value="__inherit">반 설정 따름</option>}
+          <option value="VOCA">VOCA 과정 — 초등~수능 단어장 (20단계)</option>
+          <option value="TEXTBOOK">교재 과정 — 정철 교재 (SKY / PLANET)</option>
+        </select>
+        <p className="text-[11px] text-slate-400 mt-1.5">
+          어떤 과정으로 학습할지 먼저 정합니다. 과정 안의 단계·진도는 반 관리에서 배정합니다.
+        </p>
+      </div>
+
       {/* 시험 방식 */}
       <Field label="시험 방식" note={inheritNote("testMode")}>
         <select className="input" value={v.testMode ?? "__inherit"} onChange={(e) => set("testMode", e.target.value === "__inherit" ? null : e.target.value)}>
@@ -166,6 +201,64 @@ export default function SettingsForm({
           </div>
         )}
       </div>
+
+      {/* 교재 과정 전용 설정 */}
+      {usesTextbook && (
+        <div className="sm:col-span-2 rounded-2xl border border-slate-200 p-4 grid gap-4 sm:grid-cols-2">
+          <p className="sm:col-span-2 font-black text-[#16204a] text-sm">🗣️ 교재 과정 (말하기·리딩) 설정</p>
+
+          <Field label="반 과정" note={inheritNote("courseTrack")}>
+            <select className="input" value={v.courseTrack ?? "__inherit"}
+              onChange={(e) => set("courseTrack", e.target.value === "__inherit" ? null : e.target.value)}>
+              {inherit && <option value="__inherit">반 설정 따름</option>}
+              <option value="BASIC">기본반 — 레슨당 단어 6~10개</option>
+              <option value="ADVANCED">심화반 — 레슨당 단어 16개 (기본 + 추가)</option>
+            </select>
+          </Field>
+
+          <Field label="문장 통과 기준 (일치율 %)" note={inheritNote("speakMatchRate")}>
+            <NumInput value={v.speakMatchRate} inherit={inherit} min={30} max={100}
+              onChange={(n) => set("speakMatchRate", n)} placeholder="예: 70" />
+          </Field>
+
+          <div className="sm:col-span-2">
+            <label className="text-xs font-bold text-slate-600 block mb-1.5">
+              통과에 필요한 문장 수 (0 = 전체 문장){inheritNote("speakPassCount")}
+            </label>
+            <NumInput value={v.speakPassCount} inherit={inherit} min={0} max={100}
+              onChange={(n) => set("speakPassCount", n)} placeholder="예: 12 (0이면 전체)" />
+            {lessonStats && lessonStats.length > 0 && (
+              <div className="mt-2 rounded-xl bg-slate-50 p-3">
+                <p className="text-[11px] font-bold text-slate-500 mb-1.5">레슨별 문장 수 (역할마다 이만큼 말합니다)</p>
+                <div className="overflow-x-auto">
+                  <table className="text-[11px] w-full">
+                    <thead>
+                      <tr className="text-slate-400 text-left">
+                        <th className="pr-3 pb-1">레슨</th><th className="pr-3 pb-1">A 역</th>
+                        <th className="pr-3 pb-1">B 역</th><th className="pb-1">본문 읽기</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {lessonStats.map((s, i) => (
+                        <tr key={i} className="text-slate-600">
+                          <td className="pr-3 py-0.5">{s.name}</td>
+                          <td className="pr-3 py-0.5 font-bold">{s.a || "-"}</td>
+                          <td className="pr-3 py-0.5 font-bold">{s.b || "-"}</td>
+                          <td className="py-0.5 font-bold">{s.n || "-"}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-[10px] text-slate-400 mt-1.5">
+                  예) A 역이 8문장인 레슨에서 &ldquo;6&rdquo;으로 두면 8문장 중 6문장을 통과해야 합니다.
+                  레슨 문장 수보다 크게 넣으면 전체를 통과해야 합니다.
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       <div className="sm:col-span-2 flex items-center gap-3">
         <button

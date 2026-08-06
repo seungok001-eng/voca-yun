@@ -13,6 +13,7 @@ export type ResolvedSettings = {
   speakMatchRate: number; // 말하기: 문장 일치율 커트라인 (%)
   speakPassCount: number; // 말하기: 통과에 필요한 문장 수 (0 = 전체)
   courseTrack: "BASIC" | "ADVANCED"; // 반 과정: 기본반 | 심화반(단어 추가)
+  program: "VOCA" | "TEXTBOOK"; // 학습 프로그램(가닥): 초등~수능 단어장 | 정철 교재
 };
 
 export const DEFAULT_SETTINGS: ResolvedSettings = {
@@ -28,6 +29,7 @@ export const DEFAULT_SETTINGS: ResolvedSettings = {
   speakMatchRate: 70,
   speakPassCount: 0,
   courseTrack: "BASIC",
+  program: "VOCA",
 };
 
 // 학생별 설정 > 반 설정 > 기본값 순으로 상속
@@ -53,5 +55,6 @@ export async function resolveSettings(studentId: number): Promise<ResolvedSettin
     speakMatchRate: pick(own?.speakMatchRate, cls?.speakMatchRate, DEFAULT_SETTINGS.speakMatchRate),
     speakPassCount: pick(own?.speakPassCount, cls?.speakPassCount, DEFAULT_SETTINGS.speakPassCount),
     courseTrack: pick(own?.courseTrack, cls?.courseTrack, DEFAULT_SETTINGS.courseTrack) as ResolvedSettings["courseTrack"],
+    program: pick(own?.program, cls?.program, DEFAULT_SETTINGS.program) as ResolvedSettings["program"],
   };
 }

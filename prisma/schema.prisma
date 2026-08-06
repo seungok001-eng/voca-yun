@@ -80,6 +80,7 @@ model User {
   pointLogs     PointLog[]
   badges        BadgeLog[]
   speakSessions SpeakSession[]
+  course        CourseAssignment?
 
   @@index([organizationId, status])
   @@schema("voca")
@@ -134,7 +135,7 @@ model Class {
   setting   ClassSetting?
   createdAt DateTime      @default(now())
   assignments Assignment[]
-  course    ClassCourse?
+  course    CourseAssignment?
 
   @@index([organizationId])
   @@schema("voca")
@@ -157,6 +158,7 @@ model ClassSetting {
   speakMatchRate Int     @default(70) // 말하기: 문장 일치율 커트라인 (%)
   speakPassCount Int     @default(0) // 말하기: 통과에 필요한 문장 수 (0 = 전체)
   courseTrack    String  @default("BASIC") // 반 과정: BASIC(기본반) | ADVANCED(심화반)
+  program        String  @default("VOCA") // 학습 프로그램: VOCA(초등~수능 단어장) | TEXTBOOK(정철 교재)
 
   @@schema("voca")
 }
@@ -178,6 +180,7 @@ model StudentSetting {
   speakMatchRate Int?
   speakPassCount Int?
   courseTrack    String?
+  program        String?
 
   @@schema("voca")
 }
@@ -393,7 +396,7 @@ model Textbook {
   order     Int
   createdAt DateTime       @default(now())
   parts     TextbookPart[]
-  classes   ClassCourse[]
+  courses   CourseAssignment[]
 
   @@unique([course, name])
   @@schema("voca")
@@ -425,7 +428,7 @@ model Lesson {
   wordbook   Wordbook?      @relation(fields: [wordbookId], references: [id])
   dialogues  Dialogue[]
   sessions   SpeakSession[]
-  todayFor   ClassCourse[]  @relation("TodayLesson")
+  todayFor   CourseAssignment[] @relation("TodayLesson")
 
   @@unique([partId, area, order])
   @@schema("voca")
@@ -484,14 +487,16 @@ model SpeakSession {
   @@schema("voca")
 }
 
-// 반에 배정된 교재와 오늘의 진도
+// 정철 교재 배정 — 반 단위(classId) 또는 학생 단위(studentId, 반 배정보다 우선)
 // mode=AUTO  : 통과하지 않은 첫 레슨이 오늘의 진도
-// mode=MANUAL: 선생님이 지정한 레슨이 최우선
+// mode=MANUAL: 선생님이 지정한 레슨(todayLesson)이 최우선
 // 어느 경우든 학생은 다른 레슨도 자유롭게 학습·시험할 수 있다.
-model ClassCourse {
+model CourseAssignment {
   id            Int      @id @default(autoincrement())
-  classId       Int      @unique
-  class         Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
+  classId       Int?     @unique
+  class         Class?   @relation(fields: [classId], references: [id], onDelete: Cascade)
+  studentId     Int?     @unique
+  student       User?    @relation(fields: [studentId], references: [id], onDelete: Cascade)
   textbookId    Int
   textbook      Textbook @relation(fields: [textbookId], references: [id], onDelete: Cascade)
   mode          String   @default("AUTO") // AUTO | MANUAL
