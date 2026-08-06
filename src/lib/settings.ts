@@ -10,6 +10,9 @@ export type ResolvedSettings = {
   pronThreshold: number;
   reviewMixCount: number;
   studyDays: string; // 학습 요일 CSV (MON,...,SUN)
+  speakMatchRate: number; // 말하기: 문장 일치율 커트라인 (%)
+  speakPassCount: number; // 말하기: 통과에 필요한 문장 수 (0 = 전체)
+  courseTrack: "BASIC" | "ADVANCED"; // 반 과정: 기본반 | 심화반(단어 추가)
 };
 
 export const DEFAULT_SETTINGS: ResolvedSettings = {
@@ -22,6 +25,9 @@ export const DEFAULT_SETTINGS: ResolvedSettings = {
   pronThreshold: 60,
   reviewMixCount: 5,
   studyDays: "MON,TUE,WED,THU,FRI,SAT,SUN",
+  speakMatchRate: 70,
+  speakPassCount: 0,
+  courseTrack: "BASIC",
 };
 
 // 학생별 설정 > 반 설정 > 기본값 순으로 상속
@@ -44,5 +50,8 @@ export async function resolveSettings(studentId: number): Promise<ResolvedSettin
     pronThreshold: pick(own?.pronThreshold, cls?.pronThreshold, DEFAULT_SETTINGS.pronThreshold),
     reviewMixCount: pick(own?.reviewMixCount, cls?.reviewMixCount, DEFAULT_SETTINGS.reviewMixCount),
     studyDays: pick(own?.studyDays, cls?.studyDays, DEFAULT_SETTINGS.studyDays),
+    speakMatchRate: pick(own?.speakMatchRate, cls?.speakMatchRate, DEFAULT_SETTINGS.speakMatchRate),
+    speakPassCount: pick(own?.speakPassCount, cls?.speakPassCount, DEFAULT_SETTINGS.speakPassCount),
+    courseTrack: pick(own?.courseTrack, cls?.courseTrack, DEFAULT_SETTINGS.courseTrack) as ResolvedSettings["courseTrack"],
   };
 }

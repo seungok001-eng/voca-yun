@@ -79,6 +79,7 @@ model User {
   wordbooks     Wordbook[]
   pointLogs     PointLog[]
   badges        BadgeLog[]
+  speakSessions SpeakSession[]
 
   @@index([organizationId, status])
   @@schema("voca")
@@ -152,6 +153,9 @@ model ClassSetting {
   pronThreshold  Int     @default(60) // 발음 정확도 커트라인 (0-100)
   reviewMixCount Int     @default(5) // 일일시험에 섞을 누적복습 단어 수
   studyDays      String  @default("MON,TUE,WED,THU,FRI,SAT,SUN") // 학습 요일
+  speakMatchRate Int     @default(70) // 말하기: 문장 일치율 커트라인 (%)
+  speakPassCount Int     @default(0) // 말하기: 통과에 필요한 문장 수 (0 = 전체)
+  courseTrack    String  @default("BASIC") // 반 과정: BASIC(기본반) | ADVANCED(심화반)
 
   @@schema("voca")
 }
@@ -170,6 +174,9 @@ model StudentSetting {
   pronThreshold  Int?
   reviewMixCount Int?
   studyDays      String?
+  speakMatchRate Int?
+  speakPassCount Int?
+  courseTrack    String?
 
   @@schema("voca")
 }
@@ -198,6 +205,7 @@ model Wordbook {
   createdAt   DateTime @default(now())
   words       Word[]
   assignments Assignment[]
+  lessons     Lesson[]
 
   @@schema("voca")
 }
@@ -217,6 +225,7 @@ model Word {
   exampleKo    String?
   audioUrl     String?
   emoji        String? // 뜻을 나타내는 그림(이모지) — 저학년 이해 보조
+  advancedOnly Boolean       @default(false) // 심화반 전용 추가 단어
   aliases      AnswerAlias[]
   answers      TestAnswer[]
   wrongNotes   WrongNote[]
@@ -365,6 +374,123 @@ model CheatEvent {
   session   TestSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
   type      String // BLUR | HIDDEN
   at        DateTime    @default(now())
+
+  @@schema("voca")
+}
+
+// ─────────────────────────────────────────────
+// 교재 커리큘럼: 교재(권) → PART → 레슨
+//   레벨    : KEM(SKY) / FEM(PLANET), 각 6권
+//   1권     : PART 1 + PART 2
+//   1 PART  : Toon World(말하기) 8레슨 + Book Club(리딩) 8레슨 = 16레슨
+//   반 과정 : 기본반 / 심화반 — 심화반은 같은 레슨에 단어만 더 붙는다
+// ─────────────────────────────────────────────
+model Textbook {
+  id        Int            @id @default(autoincrement())
+  course    String // KEM(SKY) | FEM(PLANET)
+  name      String // SKY 1-1, PLANET 2-3 ...
+  order     Int
+  createdAt DateTime       @default(now())
+  parts     TextbookPart[]
+
+  @@unique([course, name])
+  @@schema("voca")
+}
+
+model TextbookPart {
+  id         Int      @id @default(autoincrement())
+  textbookId Int
+  textbook   Textbook @relation(fields: [textbookId], references: [id], onDelete: Cascade)
+  order      Int // 1 | 2
+  lessons    Lesson[]
+
+  @@unique([textbookId, order])
+  @@schema("voca")
+}
+
+model Lesson {
+  id         Int            @id @default(autoincrement())
+  partId     Int
+  part       TextbookPart   @relation(fields: [partId], references: [id], onDelete: Cascade)
+  area       String // TOON(Toon World 말하기) | READING(Book Club 리딩)
+  order      Int // 1..8
+  name       String
+  isReview   Boolean        @default(false) // 복습 단원 (Toon L8, PLANET 리딩 L4·L8)
+  bookLabel  String? // SKY 북클럽 전용: Book A | Book B
+  passage    String? // 리딩 본문
+  passageKo  String? // 본문 해석
+  wordbookId Int? // 레슨 단어 (기본+심화 함께, 심화 단어는 Word.advancedOnly)
+  wordbook   Wordbook?      @relation(fields: [wordbookId], references: [id])
+  dialogues  Dialogue[]
+  sessions   SpeakSession[]
+
+  @@unique([partId, area, order])
+  @@schema("voca")
+}
+
+// 대화 세트 — 줄 수로 형식 구분 (2줄: 질문·대답 / 4줄: A-B-A-B)
+model Dialogue {
+  id       Int            @id @default(autoincrement())
+  lessonId Int
+  lesson   Lesson         @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  order    Int
+  lines    DialogueLine[]
+
+  @@index([lessonId, order])
+  @@schema("voca")
+}
+
+model DialogueLine {
+  id         Int           @id @default(autoincrement())
+  dialogueId Int
+  dialogue   Dialogue      @relation(fields: [dialogueId], references: [id], onDelete: Cascade)
+  order      Int // 1..4
+  speaker    String // A | B
+  text       String // 영어 원문
+  textKo     String? // 한국어 뜻 — 학생 차례에 힌트로 표시
+  altsJson   String? // 허용 답안 배열 JSON (여러 표현 인정)
+  audioUrl   String? // A=Kore(여) / B=Achird(남)
+  answers    SpeakAnswer[]
+
+  @@index([dialogueId, order])
+  @@schema("voca")
+}
+
+// 말하기 세션 — 역할 하나가 세션 하나. 시험은 A역·B역 모두 통과해야 레슨 통과.
+model SpeakSession {
+  id            Int           @id @default(autoincrement())
+  studentId     Int
+  student       User          @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  lessonId      Int
+  lesson        Lesson        @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  kind          String // STUDY | TEST
+  role          String // A | B
+  itemsJson     String // 학생이 말해야 할 lineId 순서
+  currentIndex  Int           @default(0)
+  status        String        @default("IN_PROGRESS") // IN_PROGRESS | PASSED | FAILED
+  totalCount    Int
+  passedCount   Int           @default(0)
+  matchRate     Int // 적용된 일치율 커트라인 (%)
+  requiredCount Int // 통과에 필요한 문장 수
+  startedAt     DateTime      @default(now())
+  finishedAt    DateTime?
+  answers       SpeakAnswer[]
+
+  @@index([studentId, lessonId, status])
+  @@schema("voca")
+}
+
+model SpeakAnswer {
+  id         Int          @id @default(autoincrement())
+  sessionId  Int
+  session    SpeakSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  lineId     Int
+  line       DialogueLine @relation(fields: [lineId], references: [id], onDelete: Cascade)
+  recognized String // 인식된 문장
+  score      Int // 일치율 %
+  passed     Boolean
+  missedJson String? // 부정확했던 단어 목록 JSON
+  createdAt  DateTime     @default(now())
 
   @@schema("voca")
 }
