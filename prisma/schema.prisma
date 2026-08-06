@@ -134,6 +134,7 @@ model Class {
   setting   ClassSetting?
   createdAt DateTime      @default(now())
   assignments Assignment[]
+  course    ClassCourse?
 
   @@index([organizationId])
   @@schema("voca")
@@ -392,6 +393,7 @@ model Textbook {
   order     Int
   createdAt DateTime       @default(now())
   parts     TextbookPart[]
+  classes   ClassCourse[]
 
   @@unique([course, name])
   @@schema("voca")
@@ -423,6 +425,7 @@ model Lesson {
   wordbook   Wordbook?      @relation(fields: [wordbookId], references: [id])
   dialogues  Dialogue[]
   sessions   SpeakSession[]
+  todayFor   ClassCourse[]  @relation("TodayLesson")
 
   @@unique([partId, area, order])
   @@schema("voca")
@@ -433,6 +436,7 @@ model Dialogue {
   id       Int            @id @default(autoincrement())
   lessonId Int
   lesson   Lesson         @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  kind     String         @default("DIALOGUE") // DIALOGUE(A·B 대화) | PASSAGE(리딩 본문)
   order    Int
   lines    DialogueLine[]
 
@@ -445,7 +449,7 @@ model DialogueLine {
   dialogueId Int
   dialogue   Dialogue      @relation(fields: [dialogueId], references: [id], onDelete: Cascade)
   order      Int // 1..4
-  speaker    String // A | B
+  speaker    String // A | B | N(본문 낭독)
   text       String // 영어 원문
   textKo     String? // 한국어 뜻 — 학생 차례에 힌트로 표시
   altsJson   String? // 허용 답안 배열 JSON (여러 표현 인정)
@@ -477,6 +481,24 @@ model SpeakSession {
   answers       SpeakAnswer[]
 
   @@index([studentId, lessonId, status])
+  @@schema("voca")
+}
+
+// 반에 배정된 교재와 오늘의 진도
+// mode=AUTO  : 통과하지 않은 첫 레슨이 오늘의 진도
+// mode=MANUAL: 선생님이 지정한 레슨이 최우선
+// 어느 경우든 학생은 다른 레슨도 자유롭게 학습·시험할 수 있다.
+model ClassCourse {
+  id            Int      @id @default(autoincrement())
+  classId       Int      @unique
+  class         Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
+  textbookId    Int
+  textbook      Textbook @relation(fields: [textbookId], references: [id], onDelete: Cascade)
+  mode          String   @default("AUTO") // AUTO | MANUAL
+  todayLessonId Int?
+  todayLesson   Lesson?  @relation("TodayLesson", fields: [todayLessonId], references: [id])
+  updatedAt     DateTime @updatedAt
+
   @@schema("voca")
 }
 
