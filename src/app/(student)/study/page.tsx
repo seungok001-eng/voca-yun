@@ -4,10 +4,10 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { api, playClip, audioUrlFor, POS_KO } from "@/lib/client";
 
-type W = { id: number; no?: number; levelOrder?: number | null; text: string; pos: string; meanings: string[]; example?: string; exampleKo?: string; emoji?: string | null; defEn?: string | null };
+type W = { id: number; no?: number; levelOrder?: number | null; audioUrl?: string | null; text: string; pos: string; meanings: string[]; example?: string; exampleKo?: string; emoji?: string | null; defEn?: string | null };
 
 // 단어/예문 음성 재생 헬퍼 (파일 우선, 폴백 TTS)
-const sayWord = (w: W, slow = false) => playClip(audioUrlFor(w.levelOrder, w.no, "word"), w.text, slow);
+const sayWord = (w: W, slow = false) => playClip(w.audioUrl ?? audioUrlFor(w.levelOrder, w.no, "word"), w.text, slow);
 const sayEx = (w: W, slow = false) => playClip(audioUrlFor(w.levelOrder, w.no, "ex"), w.example!, slow);
 
 function shuffle<T>(arr: T[]): T[] {

@@ -42,7 +42,7 @@ export async function GET(req: Request) {
       hasPrev: start > 0,
       hasNext: start + daily < total,
       words: words.map((w, i) => ({
-        id: w.id, no: start + i + 1, levelOrder, text: w.text, pos: w.pos, meanings: JSON.parse(w.meaningsJson),
+        id: w.id, no: start + i + 1, levelOrder, audioUrl: w.audioUrl, text: w.text, pos: w.pos, meanings: JSON.parse(w.meaningsJson),
         example: w.example, exampleKo: w.exampleKo, emoji: w.emoji, defEn: w.defEn,
       })),
     });

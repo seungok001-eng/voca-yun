@@ -5,7 +5,7 @@ import { api, playClip, audioUrlFor, POS_KO } from "@/lib/client";
 
 type Alias = { id: number; text: string };
 type W = {
-  id: number; no: number | null; text: string; pos: string; meanings: string[]; example: string | null;
+  id: number; no: number | null; audioUrl: string | null; text: string; pos: string; meanings: string[]; example: string | null;
   exampleKo: string | null; emoji: string | null; day: number; levelOrder: number | null; levelName: string | null; aliases: Alias[];
 };
 type LevelRow = { id: number; order: number; nameKo: string; wordCount: number };
@@ -79,7 +79,7 @@ export default function AdminWordsPage() {
                   {w.emoji && <span className="text-lg mr-1">{w.emoji}</span>}
                   {w.text}
                   <button className="ml-1.5 text-xs" title="단어 듣기"
-                    onClick={() => playClip(audioUrlFor(w.levelOrder, w.no, "word"), w.text)}>🔊</button>
+                    onClick={() => playClip(w.audioUrl ?? audioUrlFor(w.levelOrder, w.no, "word"), w.text)}>🔊</button>
                   <div className="text-[10px] text-slate-400 font-normal">
                     {w.levelOrder && <>Lv.{w.levelOrder}</>}
                     {w.no && <span className="text-[#c9a227] font-bold"> · {w.no}번</span>}

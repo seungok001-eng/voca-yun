@@ -52,6 +52,7 @@ export async function GET(req: Request) {
       words: words.map((w) => ({
         id: w.id,
         no: numberByWordId.get(w.id) ?? null, // 레벨(단어장) 내 번호
+        audioUrl: w.audioUrl, // 재사용된 기존 음성 (있으면 우선 재생)
         text: w.text,
         pos: w.pos,
         meanings: JSON.parse(w.meaningsJson),

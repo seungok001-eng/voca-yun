@@ -1,5 +1,20 @@
 import * as XLSX from "xlsx";
+import fs from "fs";
+import path from "path";
 import { db } from "./db";
+
+// 기존 단어장(초등~수능 12,041단어)에서 만들어 둔 음성을 교재 단어에도 재사용한다.
+// 같은 철자면 발음이 같으므로 새로 생성할 필요가 없다.
+let audioIndex: Record<string, string> | null = null;
+function wordAudioFor(text: string): string | null {
+  if (audioIndex === null) {
+    try {
+      const f = path.join(process.cwd(), "data", "word-audio-index.json");
+      audioIndex = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf-8")) : {};
+    } catch { audioIndex = {}; }
+  }
+  return audioIndex![text.trim().toLowerCase()] ?? null;
+}
 
 // 교재 콘텐츠 가져오기 — 엑셀 업로드와 JSON 직접 입력이 같은 경로를 쓴다.
 //
@@ -121,11 +136,11 @@ export async function importTextbookContent(
   textbookId: number,
   lessons: ImportLesson[],
   createdById?: number
-): Promise<{ lessons: number; words: number; advancedWords: number; dialogues: number; lines: number; passages: number }> {
+): Promise<{ lessons: number; words: number; advancedWords: number; reusedAudio: number; dialogues: number; lines: number; passages: number }> {
   const textbook = await db.textbook.findUnique({ where: { id: textbookId } });
   if (!textbook) throw new Error("교재를 찾을 수 없습니다.");
 
-  let wordTotal = 0, advTotal = 0, dlgTotal = 0, lineTotal = 0, passageTotal = 0;
+  let wordTotal = 0, advTotal = 0, reusedAudio = 0, dlgTotal = 0, lineTotal = 0, passageTotal = 0;
 
   for (const L of lessons) {
     const part = await db.textbookPart.upsert({
@@ -177,10 +192,12 @@ export async function importTextbookContent(
           example: w.example ?? null,
           exampleKo: w.exampleKo ?? null,
           advancedOnly: !!w.advancedOnly,
+          audioUrl: wordAudioFor(w.text), // 기존 음성 재사용 (없으면 나중에 생성)
         })),
       });
       wordTotal += ordered.length;
       advTotal += ordered.filter((w) => w.advancedOnly).length;
+      reusedAudio += ordered.filter((w) => wordAudioFor(w.text)).length;
     }
 
     // 문장(대화) — 레슨의 기존 대화를 지우고 새로 넣는다
@@ -228,5 +245,5 @@ export async function importTextbookContent(
     }
   }
 
-  return { lessons: lessons.length, words: wordTotal, advancedWords: advTotal, dialogues: dlgTotal, lines: lineTotal, passages: passageTotal };
+  return { lessons: lessons.length, words: wordTotal, advancedWords: advTotal, reusedAudio, dialogues: dlgTotal, lines: lineTotal, passages: passageTotal };
 }

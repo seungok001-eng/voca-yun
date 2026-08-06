@@ -5,7 +5,7 @@ import { gradeSpeech, parseAlts, type SpeakResult } from "./speak-grading";
 
 // 말하기 학습 서비스
 // - 공부 모드: 세션 없이 문장 단위로 즉시 채점 (gradeLine)
-// - 시험 모드: 역할(A/B)별 세션. A역·B역 모두 통과해야 레슨 통과.
+// - 시험 모드: 역할(A/B, 본문은 N)별 세션. 레슨에 있는 역할을 모두 통과해야 레슨 통과.
 
 export const SPEAK_BADGE_MIN_STREAK = 3;
 export const SPEAK_BADGE_POINTS = 10;
@@ -51,7 +51,7 @@ function linesForRole(
 }
 
 // 시험 시작 — 이미 진행 중인 세션이 있으면 그것을 이어서 쓴다.
-export async function startSpeakTest(studentId: number, lessonId: number, role: "A" | "B") {
+export async function startSpeakTest(studentId: number, lessonId: number, role: "A" | "B" | "N") {
   const lesson = await db.lesson.findUnique({
     where: { id: lessonId },
     include: { dialogues: { orderBy: { order: "asc" }, include: { lines: { orderBy: { order: "asc" } } } } },
@@ -64,7 +64,7 @@ export async function startSpeakTest(studentId: number, lessonId: number, role: 
   if (existing) return existing;
 
   const ids = linesForRole(lesson.dialogues, role);
-  if (ids.length === 0) throw new Error(`${role} 역할로 말할 문장이 없습니다.`);
+  if (ids.length === 0) throw new Error(role === "N" ? "읽을 본문이 없습니다." : `${role} 역할로 말할 문장이 없습니다.`);
 
   const settings = await resolveSettings(studentId);
   // 통과 문장 수: 설정값(0이면 전체). 레슨 문장 수보다 크면 전체로 맞춘다.
