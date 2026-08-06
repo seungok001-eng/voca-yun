@@ -9,6 +9,7 @@ type Member = {
   role: string; status: string; classId: number | null; className: string | null;
   school: string | null; grade: string | null; parentPhone: string | null; birthdate: string | null;
   level: string | null; behindDays: number | null; cursor: number | null; total: number | null;
+  program: string | null; programEffective: string;
 };
 type ClassRow = { id: number; name: string };
 type Academy = { id: number; name: string };
@@ -29,6 +30,7 @@ export default function MembersPage() {
   const [detail, setDetail] = useState<{ member: Member } | null>(null);
   const [selected, setSelected] = useState<Set<number>>(new Set());
   const [moveTo, setMoveTo] = useState("");
+  const [bulkProgram, setBulkProgram] = useState("");
 
   // 총관리자면 학원 목록 (아니면 403 → 무시)
   useEffect(() => {
@@ -48,6 +50,29 @@ export default function MembersPage() {
   async function assignClass(m: Member, newClassId: string) {
     await api(`/api/admin/students/${m.id}`, { method: "PATCH", body: JSON.stringify({ classId: newClassId || null }) });
     load();
+  }
+
+  async function setProgram(m: Member, program: string) {
+    await api(`/api/admin/students/${m.id}`, {
+      method: "PATCH",
+      body: JSON.stringify({ program: program === "__inherit" ? null : program }),
+    });
+    load();
+  }
+  async function applyBulkProgram() {
+    if (selected.size === 0 || !bulkProgram) return;
+    const label = bulkProgram === "__inherit" ? "반 설정 따름" : bulkProgram === "VOCA" ? "VOCA 과정" : "교재 과정";
+    if (!confirm(`선택한 학생 ${selected.size}명의 학습 프로그램을 "${label}"(으)로 바꿀까요?`)) return;
+    try {
+      await api("/api/admin/students/batch", {
+        method: "PATCH",
+        body: JSON.stringify({ action: "program", ids: [...selected], program: bulkProgram === "__inherit" ? null : bulkProgram }),
+      });
+      setBulkProgram("");
+      load();
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "변경 실패");
+    }
   }
 
   function toggle(id: number) {
@@ -135,6 +160,14 @@ export default function MembersPage() {
             {data.classes.map((c) => <option key={c.id} value={c.id}>{c.name}(으)로</option>)}
           </select>
           <button className="btn-primary !py-1.5 text-sm" onClick={moveSelected}>반 이동</button>
+          <span className="text-slate-300">|</span>
+          <select className="input !w-auto !py-1.5" value={bulkProgram} onChange={(e) => setBulkProgram(e.target.value)}>
+            <option value="">학습 프로그램…</option>
+            <option value="VOCA">VOCA 과정으로</option>
+            <option value="TEXTBOOK">교재 과정으로</option>
+            <option value="__inherit">반 설정 따름으로</option>
+          </select>
+          <button className="btn-ghost !py-1.5 text-sm" disabled={!bulkProgram} onClick={applyBulkProgram}>과정 변경</button>
           <button className="btn-ghost !py-1.5 text-sm" onClick={() => setSelected(new Set())}>선택 해제</button>
         </div>
       )}
@@ -149,7 +182,7 @@ export default function MembersPage() {
                   disabled={studentRows.length === 0} title="학생 전체 선택" />
               </th>
               <th className="p-2.5">이름</th><th className="p-2.5">역할</th><th className="p-2.5">아이디</th>
-              <th className="p-2.5">비번</th><th className="p-2.5">현재 반</th><th className="p-2.5">레벨</th>
+              <th className="p-2.5">비번</th><th className="p-2.5">현재 반</th><th className="p-2.5">학습 과정</th><th className="p-2.5">레벨</th>
               <th className="p-2.5">진도</th>
               <th className="p-2.5">학교</th><th className="p-2.5">학년</th><th className="p-2.5">학부모</th>
               <th className="p-2.5">전날까지</th><th className="p-2.5"></th>
@@ -182,6 +215,22 @@ export default function MembersPage() {
                       </select>
                     : <span className="text-slate-300">-</span>}
                 </td>
+                <td className="p-2.5">
+                  {m.role === "STUDENT" ? (
+                    <select
+                      className={"input !py-1 !text-xs !w-auto " + (m.programEffective === "TEXTBOOK" ? "!border-[#c9a227] !text-[#8a6d10] font-bold" : "")}
+                      value={m.program ?? "__inherit"}
+                      onChange={(e) => setProgram(m, e.target.value)}
+                      title={m.program === null ? "반 설정을 따르고 있습니다" : "이 학생만 개별 지정"}
+                    >
+                      <option value="__inherit">
+                        반 설정 따름 ({m.programEffective === "TEXTBOOK" ? "교재" : "VOCA"})
+                      </option>
+                      <option value="VOCA">VOCA 과정</option>
+                      <option value="TEXTBOOK">교재 과정</option>
+                    </select>
+                  ) : <span className="text-slate-300">-</span>}
+                </td>
                 <td className="p-2.5 text-xs text-slate-500">{m.level ?? "-"}</td>
                 <td className="p-2.5">
                   {m.role === "STUDENT" && m.total !== null ? (
@@ -208,7 +257,7 @@ export default function MembersPage() {
                 </td>
               </tr>
             ))}
-            {data.members.length === 0 && <tr><td colSpan={13} className="p-8 text-center text-slate-400">해당하는 사람이 없습니다.</td></tr>}
+            {data.members.length === 0 && <tr><td colSpan={14} className="p-8 text-center text-slate-400">해당하는 사람이 없습니다.</td></tr>}
           </tbody>
         </table>
       </div>

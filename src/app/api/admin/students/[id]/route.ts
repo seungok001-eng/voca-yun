@@ -94,6 +94,16 @@ export async function PATCH(req: Request, ctx: { params: Promise<{ id: string }>
       await db.user.update({ where: { id: studentId }, data });
     }
 
+    // 학습 프로그램(가닥)만 단독 변경 — 다른 개별 설정은 그대로 둔다
+    if (body.program !== undefined) {
+      const program = body.program === null || body.program === "" ? null : String(body.program);
+      await db.studentSetting.upsert({
+        where: { userId: studentId },
+        update: { program },
+        create: { userId: studentId, program },
+      });
+    }
+
     if (body.overrides !== undefined) {
       const o = body.overrides;
       if (o === null) {

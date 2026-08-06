@@ -9,9 +9,28 @@ export async function PATCH(req: Request) {
     const ids = Array.isArray(b.ids) ? b.ids.map(Number).filter(Boolean) : [];
     if (ids.length === 0) return Response.json({ error: "선택된 학생이 없습니다." }, { status: 400 });
     const targetClassId = b.classId ? Number(b.classId) : null;
+    // action: "class"(반 이동, 기본) | "program"(학습 프로그램 일괄 변경)
+    const action = String(b.action ?? "class");
 
     const orgId = accessibleOrgId(s); // null = 총관리자(전체)
     const classIds = await accessibleClassIds(s); // null = 전체
+
+    // 학습 프로그램 일괄 변경
+    if (action === "program") {
+      const program = b.program === null || b.program === "" ? null : String(b.program);
+      const targets = await db.user.findMany({
+        where: { id: { in: ids }, role: "STUDENT", ...(orgId === null ? {} : { organizationId: orgId }) },
+        select: { id: true },
+      });
+      for (const t of targets) {
+        await db.studentSetting.upsert({
+          where: { userId: t.id },
+          update: { program },
+          create: { userId: t.id, program },
+        });
+      }
+      return Response.json({ ok: true, count: targets.length });
+    }
 
     // 이동 대상 반이 지정됐다면 내 권한 범위 안의 반인지 확인
     if (targetClassId !== null) {

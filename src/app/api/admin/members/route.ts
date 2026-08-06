@@ -24,7 +24,7 @@ export async function GET(req: Request) {
     if (classId) where.classId = Number(classId);
 
     const [users, classes, org] = await Promise.all([
-      db.user.findMany({ where, include: { class: { select: { id: true, name: true } } } }),
+      db.user.findMany({ where, include: { class: { select: { id: true, name: true, setting: { select: { program: true } } } }, setting: { select: { program: true } } } }),
       db.class.findMany({ where: orgId !== null ? { organizationId: orgId } : {}, select: { id: true, name: true }, orderBy: { name: "asc" } }),
       orgId !== null ? db.organization.findUnique({ where: { id: orgId }, select: { name: true } }) : Promise.resolve(null),
     ]);
@@ -55,6 +55,8 @@ export async function GET(req: Request) {
           role: u.role, status: u.status,
           classId: u.classId, className: u.class?.name ?? null,
           school: u.school, grade: u.grade, parentPhone: u.parentPhone, birthdate: u.birthdate,
+          program: u.setting?.program ?? null, // null = 반 설정 따름
+          programEffective: u.setting?.program ?? u.class?.setting?.program ?? "VOCA",
           level: b?.levelName ?? null,
           behindDays: b ? b.behindDays : null,
           cursor: b?.cursor ?? null, total: b?.total ?? null,
