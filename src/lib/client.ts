@@ -33,14 +33,15 @@ function pickUsVoice(): SpeechSynthesisVoice | null {
   return cachedVoice;
 }
 
-export function speak(text: string, rate = 0.95) {
-  if (typeof window === "undefined" || !window.speechSynthesis) return;
+export function speak(text: string, rate = 0.95, onEnded?: () => void) {
+  if (typeof window === "undefined" || !window.speechSynthesis) { onEnded?.(); return; }
   window.speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
   u.lang = "en-US";
   u.rate = rate;
   const v = pickUsVoice();
   if (v) u.voice = v;
+  if (onEnded) { u.onend = () => onEnded(); u.onerror = () => onEnded(); }
   window.speechSynthesis.speak(u);
   markActive(3, 0); // 폴백 TTS도 장치를 깨운 것으로 간주
 }
@@ -139,7 +140,7 @@ function playWakePad(leadSec: number) {
 }
 
 // 보통 속도: Web Audio로 재생 (샘플 단위 정확 시작 → 첫음 잘림 없음, 캐시로 반복 재생 즉시)
-async function playViaWebAudio(url: string, token: number, fallback: () => void) {
+async function playViaWebAudio(url: string, token: number, fallback: () => void, onEnded?: () => void) {
   try {
     keepAudioAwake();
     if (!audioCtx) { fallback(); return; }
@@ -158,6 +159,7 @@ async function playViaWebAudio(url: string, token: number, fallback: () => void)
     currentSource = src;
     const lead = leadSeconds();
     playWakePad(lead);
+    if (onEnded) src.onended = () => { if (token === playToken) onEnded(); };
     src.start(audioCtx.currentTime + lead); // 장치가 깨는 동안 기다렸다가 정확히 시작
     markActive(buf.duration, lead);
   } catch {
@@ -167,11 +169,11 @@ async function playViaWebAudio(url: string, token: number, fallback: () => void)
 
 // url이 있으면 음성 파일을, 실패하면 text를 Web Speech로 읽는다.
 // 보통 속도 = Web Audio(첫음 잘림 없음), 천천히 = HTMLAudio(음정 유지).
-export function playClip(url: string | null | undefined, text: string, slow = false) {
+export function playClip(url: string | null | undefined, text: string, slow = false, onEnded?: () => void) {
   if (typeof window === "undefined") return;
   const token = ++playToken;
   keepAudioAwake();
-  const fallback = () => { if (token === playToken) speak(text, slow ? 0.6 : 0.95); };
+  const fallback = () => { if (token === playToken) speak(text, slow ? 0.6 : 0.95, onEnded); };
   if (!url) { stopCurrent(); fallback(); return; }
   if (slow) {
     // 천천히 = HTMLAudio (0.6배속, 음정 유지)
@@ -184,6 +186,7 @@ export function playClip(url: string | null | undefined, text: string, slow = fa
     a.defaultPlaybackRate = 0.6;
     a.preload = "auto";
     a.onerror = fallback;
+    if (onEnded) a.onended = () => { if (token === playToken) onEnded(); };
     currentAudio = a;
     let started = false;
     const start = () => {
@@ -202,8 +205,19 @@ export function playClip(url: string | null | undefined, text: string, slow = fa
     a.load();
   } else {
     // 보통 = Web Audio
-    void playViaWebAudio(url, token, fallback);
+    void playViaWebAudio(url, token, fallback, onEnded);
   }
+}
+
+// 재생이 끝날 때까지 기다리는 버전 — 대화를 순서대로 들려줄 때 쓴다.
+export function playClipAsync(url: string | null | undefined, text: string, slow = false): Promise<void> {
+  return new Promise((resolve) => {
+    let done = false;
+    const finish = () => { if (!done) { done = true; resolve(); } };
+    playClip(url, text, slow, finish);
+    // 안전장치: 음성이 끝났다는 신호가 오지 않아도 멈추지 않도록
+    window.setTimeout(finish, 15000);
+  });
 }
 
 // 엔진 예열: 첫 발화 지연을 없애기 위해 앱 로드 직후 무음을 한 번 흘려보낸다.

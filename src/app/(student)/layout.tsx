@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { getSession } from "@/lib/auth";
+import { resolveSettings } from "@/lib/settings";
 import Footer from "@/components/Footer";
 import Logo from "@/components/Logo";
 import LogoutButton from "@/components/LogoutButton";
@@ -11,6 +12,7 @@ export default async function StudentLayout({ children }: { children: React.Reac
   if (!s) redirect("/login");
   if (s.role !== "STUDENT" && s.role !== "INDIVIDUAL") redirect("/admin");
   const individual = s.role === "INDIVIDUAL";
+  const { program } = await resolveSettings(s.uid);
 
   return (
     <div className="flex-1 flex flex-col">
@@ -22,7 +24,7 @@ export default async function StudentLayout({ children }: { children: React.Reac
       </header>
       <main className="flex-1 mx-auto w-full max-w-2xl px-4 py-5 pb-24">{children}</main>
       <Footer />
-      <StudentNav individual={individual} />
+      <StudentNav individual={individual} program={program} />
     </div>
   );
 }
