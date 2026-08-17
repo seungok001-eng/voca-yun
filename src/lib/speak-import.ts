@@ -22,7 +22,8 @@ function wordAudioFor(text: string): string | null {
 // 엑셀 시트 (이름으로 찾음):
 //   레슨 : 파트 | 영역 | 레슨 | 레슨명 | 복습 | 책            (선택 — 이름·복습·BookA/B 지정)
 //   단어 : 파트 | 영역 | 레슨 | 단어 | 품사 | 뜻 | 심화       (심화 칸에 O/1이면 심화반 전용)
-//   문장 : 파트 | 영역 | 레슨 | A1 | A1뜻 | B1 | B1뜻 | A2 | A2뜻 | B2 | B2뜻
+//   문장 : 파트 | 영역 | 레슨 | A1 | A1뜻 | B1 | B1뜻 | A2 | A2뜻 | B2 | B2뜻 | ...
+//          (한 행 = 대화 한 세트. 열을 더 붙이면 6줄·8줄 대화도 그대로 들어간다)
 //   본문 : 파트 | 영역 | 레슨 | 본문문장 | 해석            (한 행 = 한 문장, 순서대로)
 // 영역: T/Toon/말하기 → TOON,  B/Book/리딩 → READING
 
@@ -111,12 +112,15 @@ export function parseWorkbook(buf: Buffer): ImportLesson[] {
   for (const row of sheetRows(wb, [/문장/, /대화/, /sentence/i, /dialog/i])) {
     const L = locate(row);
     if (!L) continue;
-    const [, , , a1, a1ko, b1, b1ko, a2, a2ko, b2, b2ko] = row;
+    // 4번째 칸부터 (영어, 뜻) 쌍이 이어진다: A1·A1뜻 → B1·B1뜻 → A2·A2뜻 → B2·B2뜻 → ...
+    // 열 개수에 제한을 두지 않으므로 2줄이든 4줄이든 6줄이든 그대로 들어간다.
     const lines: ImportLine[] = [];
-    const push = (speaker: "A" | "B", text: string, ko: string) => {
-      if (text) lines.push({ speaker, text, ko: ko || undefined });
-    };
-    push("A", a1, a1ko); push("B", b1, b1ko); push("A", a2, a2ko); push("B", b2, b2ko);
+    for (let c = 3; c < row.length; c += 2) {
+      const text = row[c];
+      if (!text) continue;
+      const pairIndex = (c - 3) / 2; // 0=A, 1=B, 2=A, 3=B ...
+      lines.push({ speaker: pairIndex % 2 === 0 ? "A" : "B", text, ko: row[c + 1] || undefined });
+    }
     if (lines.length >= 2) L.dialogues!.push({ lines });
   }
 
