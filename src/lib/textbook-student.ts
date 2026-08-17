@@ -160,8 +160,9 @@ export async function lessonForStudent(studentId: number, lessonId: number) {
   };
 }
 
-// 레슨 단어 학습 시작 — 레슨 단어장을 학생 개별 배정으로 걸어 기존 단어 엔진에 태운다
-export async function startLessonWords(studentId: number, lessonId: number) {
+// 레슨 단어 학습 시작 — 레슨 단어장을 학생 개별 배정으로 걸어 기존 단어 엔진에 태운다.
+// resetProgress=true (시험) 이면 커서를 0으로 되돌려 레슨 단어 전체를 다시 출제한다.
+export async function startLessonWords(studentId: number, lessonId: number, resetProgress = false) {
   const lesson = await db.lesson.findUnique({ where: { id: lessonId }, select: { wordbookId: true } });
   if (!lesson?.wordbookId) throw new Error("이 레슨에는 단어가 없습니다.");
 
@@ -172,6 +173,12 @@ export async function startLessonWords(studentId: number, lessonId: number) {
   });
   if (existing) {
     await db.assignment.update({ where: { id: existing.id }, data: { active: true } });
+    if (resetProgress) {
+      await db.studentProgress.updateMany({
+        where: { studentId, assignmentId: existing.id },
+        data: { wordCursor: 0, baseCursor: 0, startedAt: new Date() },
+      });
+    }
     return existing.id;
   }
   const created = await db.assignment.create({

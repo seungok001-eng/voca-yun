@@ -30,8 +30,18 @@ export default function LessonHubPage() {
   async function goWords(to: "study" | "test") {
     setBusy(true);
     try {
-      await api(`/api/textbook/lessons/${id}/words`, { method: "POST" });
-      router.push(to === "study" ? "/study" : "/test");
+      // 이 레슨의 단어장을 학습 대상으로 걸고 기존 단어 학습·시험 화면으로 보낸다
+      await api(`/api/textbook/lessons/${id}/words`, { method: "POST", body: JSON.stringify({ mode: to }) });
+      if (to === "study") {
+        router.push("/study");
+        return;
+      }
+      // 시험은 세션을 먼저 만들어야 한다 (/test/<세션id>)
+      const res = await api<{ sessionId: number }>("/api/test/start", {
+        method: "POST",
+        body: JSON.stringify({ kind: "DAILY" }),
+      });
+      router.push(`/test/${res.sessionId}`);
     } catch (e) {
       alert(e instanceof Error ? e.message : "단어 학습을 시작할 수 없습니다.");
       setBusy(false);
