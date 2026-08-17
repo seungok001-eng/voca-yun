@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { api, playClipAsync, recognizeOnce, speechRecognitionSupported } from "@/lib/client";
+import { api, playClip, playClipAsync, recognizeOnce, speechRecognitionSupported } from "@/lib/client";
 import type { LessonData } from "../page";
 
 type Line = { id: number; order: number; speaker: string; text: string; textKo: string | null; audioUrl: string | null };
@@ -30,6 +30,7 @@ export default function ExamPage() {
   const [preparing, setPreparing] = useState(false);
   const [error, setError] = useState("");
   const [finished, setFinished] = useState<AnswerResult | null>(null);
+  const [showKo, setShowKo] = useState(false);
   const started = useRef(false);
 
   // 레슨 + 시험 세션 시작
@@ -98,6 +99,7 @@ export default function ExamPage() {
         body: JSON.stringify({ recognized: transcript }),
       });
       setResult(res);
+      setShowKo(false);
       setSession((s) => s ? { ...s, index: res.index, passedCount: res.passedCount, status: res.status } : s);
       if (res.status !== "IN_PROGRESS") setFinished(res);
     } catch (e) {
@@ -163,17 +165,43 @@ export default function ExamPage() {
         <div className="card p-6 space-y-4">
           {preparing && <p className="text-center text-sm text-amber-600 font-bold">🔊 상대 대사를 듣는 중...</p>}
 
-          {/* 시험 중에는 학생이 말할 문장의 한국어 뜻을 항상 보여준다 */}
-          <div className="text-center space-y-1">
-            <p className="text-[11px] font-bold text-slate-400">이 뜻을 영어로 말하세요</p>
-            <p className="text-xl font-black text-[#16204a]">{currentLine.textKo ?? "(뜻 없음)"}</p>
-          </div>
+          {role === "N" ? (
+            /* 본문 읽기: 영어 문장을 보여주고, 들려준 뒤 따라 말하게 한다 */
+            <div className="space-y-3">
+              <div className="text-center space-y-2">
+                <p className="text-[11px] font-bold text-slate-400">듣고 따라 읽으세요</p>
+                <p className="text-lg font-black text-[#16204a] leading-relaxed">{currentLine.text}</p>
+                {showKo
+                  ? <p className="text-sm text-slate-500">{currentLine.textKo ?? "(해석 없음)"}</p>
+                  : <button className="chip bg-slate-100 text-slate-500 !py-1.5"
+                      onClick={() => setShowKo(true)}>해석 보기</button>}
+              </div>
+              <button className="btn-ghost w-full"
+                onClick={() => playClip(currentLine.audioUrl, currentLine.text)}>
+                🔊 문장 듣기 (몇 번이든 다시 들을 수 있어요)
+              </button>
+            </div>
+          ) : (
+            /* 대화: 한국어 뜻을 보고 영어로 말한다 */
+            <div className="text-center space-y-1">
+              <p className="text-[11px] font-bold text-slate-400">이 뜻을 영어로 말하세요</p>
+              <p className="text-xl font-black text-[#16204a]">{currentLine.textKo ?? "(뜻 없음)"}</p>
+            </div>
+          )}
 
           <button className="btn-primary w-full !py-4 text-lg"
             disabled={listening || preparing}
             onClick={answer}>
-            {listening ? "🎙️ 듣고 있어요..." : preparing ? "잠시만요..." : "🎤 말하기"}
+            {listening ? "🎙️ 듣고 있어요..." : preparing ? "잠시만요..." : role === "N" ? "🎤 따라 말하기" : "🎤 말하기"}
           </button>
+
+          {role !== "N" && (
+            <button className="btn-ghost w-full !py-2 text-sm"
+              disabled={listening || preparing}
+              onClick={() => playLeadIn(currentLine)}>
+              🔊 상대 대사 다시 듣기
+            </button>
+          )}
 
           {result && (
             <div className={"rounded-xl p-3 text-sm " + (result.passed ? "bg-emerald-50" : "bg-rose-50")}>

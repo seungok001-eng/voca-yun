@@ -1,0 +1,6594 @@
+{
+ "lessons": [
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 1,
+   "name": "The Lost Assignment (1-3)",
+   "words": [
+    {
+     "text": "grade",
+     "meanings": [
+      "학년",
+      "성적"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/25.mp3"
+    },
+    {
+     "text": "a lot of",
+     "meanings": [
+      "많은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/132.mp3"
+    },
+    {
+     "text": "last",
+     "meanings": [
+      "마지막의",
+      "지난"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/226.mp3"
+    },
+    {
+     "text": "finish",
+     "meanings": [
+      "끝내다",
+      "마치다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/54.mp3"
+    },
+    {
+     "text": "essay",
+     "meanings": [
+      "에세이",
+      "글"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/235.mp3"
+    },
+    {
+     "text": "coach",
+     "meanings": [
+      "코치",
+      "감독"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/319.mp3"
+    },
+    {
+     "text": "bald",
+     "meanings": [
+      "대머리의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ddfcafb35238ad0a.mp3"
+    },
+    {
+     "text": "mean",
+     "meanings": [
+      "못된",
+      "심술궂은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/314.mp3"
+    },
+    {
+     "text": "often",
+     "meanings": [
+      "자주",
+      "흔히"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/56.mp3"
+    },
+    {
+     "text": "cafeteria",
+     "meanings": [
+      "구내식당",
+      "학생식당"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/68.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Jonathan goes to Lincoln Junior High School.",
+     "ko": "조나단은 링컨 중학교에 다닌다.",
+     "audio": "/audio/speak/3c8f91272fd7078e.mp3"
+    },
+    {
+     "text": "He is in the sixth grade.",
+     "ko": "그는 6학년이다.",
+     "audio": "/audio/speak/e2fe18638601183d.mp3"
+    },
+    {
+     "text": "He is tall and his hair is short and black.",
+     "ko": "그는 키가 크고 머리카락은 짧고 검은색이다.",
+     "audio": "/audio/speak/403d0ee4339e3567.mp3"
+    },
+    {
+     "text": "He is on the basketball team.",
+     "ko": "그는 농구팀에 속해 있다.",
+     "audio": "/audio/speak/0b4f4a93e356c31d.mp3"
+    },
+    {
+     "text": "He has a lot of friends.",
+     "ko": "그는 친구가 많다.",
+     "audio": "/audio/speak/91d00cd391d8cd27.mp3"
+    },
+    {
+     "text": "Today is the last day of school.",
+     "ko": "오늘은 학년의 마지막 날이다.",
+     "audio": "/audio/speak/131d5ff59af56cf4.mp3"
+    },
+    {
+     "text": "Jonathan is happy.",
+     "ko": "조나단은 행복하다.",
+     "audio": "/audio/speak/8f978ee60cf9a0e1.mp3"
+    },
+    {
+     "text": "His family is going to New York City this summer.",
+     "ko": "그의 가족은 이번 여름에 뉴욕시에 갈 예정이다.",
+     "audio": "/audio/speak/e2bf186646457452.mp3"
+    },
+    {
+     "text": "He is excited to see the Statue of Liberty.",
+     "ko": "그는 자유의 여신상을 보게 되어 신이 난다.",
+     "audio": "/audio/speak/c39202ad7fd762e0.mp3"
+    },
+    {
+     "text": "Stephen goes to Lincoln Junior High School, too.",
+     "ko": "스티븐도 링컨 중학교에 다닌다.",
+     "audio": "/audio/speak/20a426b768cbc8f8.mp3"
+    },
+    {
+     "text": "He is also in the sixth grade.",
+     "ko": "그도 6학년이다.",
+     "audio": "/audio/speak/3680e03934f3c280.mp3"
+    },
+    {
+     "text": "He is short and fat.",
+     "ko": "그는 키가 작고 뚱뚱하다.",
+     "audio": "/audio/speak/75de43b0e5df4e7b.mp3"
+    },
+    {
+     "text": "He is sick a lot and can't play sports.",
+     "ko": "그는 자주 아파서 운동을 할 수 없다.",
+     "audio": "/audio/speak/15521785c564fbac.mp3"
+    },
+    {
+     "text": "He is in the chess club.",
+     "ko": "그는 체스 동아리에 속해 있다.",
+     "audio": "/audio/speak/73ce462231583dba.mp3"
+    },
+    {
+     "text": "He doesn't have many friends, but he is very nice.",
+     "ko": "그는 친구가 많지 않지만, 매우 착하다.",
+     "audio": "/audio/speak/2d49c2a394fd67a3.mp3"
+    },
+    {
+     "text": "His family is going to Washington, D.C.",
+     "ko": "그의 가족은 워싱턴 D.C.에 갈 예정이다.",
+     "audio": "/audio/speak/987561f2264cf237.mp3"
+    },
+    {
+     "text": "this summer.",
+     "ko": "이번 여름에.",
+     "audio": "/audio/speak/e9568a91710f0b5a.mp3"
+    },
+    {
+     "text": "He is excited to see the White House.",
+     "ko": "그는 백악관을 보게 되어 신이 난다.",
+     "audio": "/audio/speak/60eb760c4cad03da.mp3"
+    },
+    {
+     "text": "Jonathan is in the cafeteria.",
+     "ko": "조나단은 식당에 있다.",
+     "audio": "/audio/speak/7c51c72c11d4cec7.mp3"
+    },
+    {
+     "text": "He finishes his essay.",
+     "ko": "그는 그의 에세이를 마친다.",
+     "audio": "/audio/speak/8c68458729a16dd4.mp3"
+    },
+    {
+     "text": "It is about Mr. Andrew.",
+     "ko": "이것은 앤드루 선생님에 대한 이야기입니다.",
+     "audio": "/audio/speak/76f923a1a2a1a313.mp3"
+    },
+    {
+     "text": "Mr. Andrew is the basketball coach.",
+     "ko": "앤드루 선생님은 농구 코치입니다.",
+     "audio": "/audio/speak/3751dd51260263c5.mp3"
+    },
+    {
+     "text": "\"Mr. Andrew is bald,\" Jonathan writes.",
+     "ko": "“앤드루 선생님은 대머리야.”라고 조나단이 쓴다.",
+     "audio": "/audio/speak/7105c490af4a278e.mp3"
+    },
+    {
+     "text": "\"And he always looks angry.",
+     "ko": "“그리고 그는 항상 화가 나 보여.",
+     "audio": "/audio/speak/e63d63fecbc5c587.mp3"
+    },
+    {
+     "text": "He is very mean.",
+     "ko": "그는 아주 못됐어.",
+     "audio": "/audio/speak/64d0d86f3fca2476.mp3"
+    },
+    {
+     "text": "He makes us run a lot.",
+     "ko": "그는 우리를 많이 달리게 해.",
+     "audio": "/audio/speak/c69fa8b2580ce266.mp3"
+    },
+    {
+     "text": "I don't like him very much at all.",
+     "ko": "나는 그를 전혀 좋아하지 않아.”",
+     "audio": "/audio/speak/3f69b7a8fd95094c.mp3"
+    },
+    {
+     "text": "Jonathan puts the assignment in his black bag.",
+     "ko": "조나단은 그 과제를 그의 검은 가방에 넣는다.",
+     "audio": "/audio/speak/13527385726c840a.mp3"
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 2,
+   "name": "The Lost Assignment (4-6)",
+   "words": [
+    {
+     "text": "stain",
+     "meanings": [
+      "얼룩",
+      "더럽히다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/232.mp3"
+    },
+    {
+     "text": "spill",
+     "meanings": [
+      "흘리다",
+      "엎지르다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/139.mp3"
+    },
+    {
+     "text": "slice",
+     "meanings": [
+      "얇게 잘라내다",
+      "조각"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/79.mp3"
+    },
+    {
+     "text": "slip",
+     "meanings": [
+      "미끄러지다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/141.mp3"
+    },
+    {
+     "text": "grab",
+     "meanings": [
+      "움켜잡다",
+      "붙잡다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/113.mp3"
+    },
+    {
+     "text": "apron",
+     "meanings": [
+      "앞치마"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/215.mp3"
+    },
+    {
+     "text": "wipe",
+     "meanings": [
+      "닦다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/587.mp3"
+    },
+    {
+     "text": "clean up",
+     "meanings": [
+      "치우다",
+      "청소하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/122.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"Hi, Jonathan,\" Stephen says.",
+     "ko": "\"안녕, 조나단.\" 스티븐이 말한다.",
+     "audio": "/audio/speak/280314851067e991.mp3"
+    },
+    {
+     "text": "Stephen likes Jonathan.",
+     "ko": "스티븐은 조나단을 좋아한다.",
+     "audio": "/audio/speak/a8938e9e177d28b4.mp3"
+    },
+    {
+     "text": "But Jonathan doesn't like Stephen.",
+     "ko": "하지만 조나단은 스티븐을 좋아하지 않는다.",
+     "audio": "/audio/speak/4fb25872ff52c6c1.mp3"
+    },
+    {
+     "text": "He thinks that Stephen is annoying.",
+     "ko": "그는 스티븐이 귀찮다고 생각한다.",
+     "audio": "/audio/speak/4ab0ce3d335bae50.mp3"
+    },
+    {
+     "text": "\"Hi, Stephen,\" Jonathan says.",
+     "ko": "\"안녕, 스티븐.\" 조나단이 말한다.",
+     "audio": "/audio/speak/3f16299dca380752.mp3"
+    },
+    {
+     "text": "Stephen has a slice of pizza and a brownie.",
+     "ko": "스티븐은 피자 한 조각과 브라우니를 가지고 있다.",
+     "audio": "/audio/speak/a07769749f5c1861.mp3"
+    },
+    {
+     "text": "He also has some chocolate milk.",
+     "ko": "그는 또한 초콜릿 우유도 가지고 있다.",
+     "audio": "/audio/speak/0357b4ba016061d2.mp3"
+    },
+    {
+     "text": "\"Are you going to class?",
+     "ko": "\"수업에 가는 중이니?",
+     "audio": "/audio/speak/87924505b7aee9e1.mp3"
+    },
+    {
+     "text": "Stephen asks.",
+     "ko": "스티븐이 묻는다.",
+     "audio": "/audio/speak/7dbf564d5a0d7cfb.mp3"
+    },
+    {
+     "text": "Stephen slips and spills his chocolate milk all over Jonathan's pants and shirt.",
+     "ko": "스티븐은 미끄러져서 초콜릿 우유를 조나단의 바지와 셔츠에 온통 쏟는다.",
+     "audio": "/audio/speak/cdbcc2bab786656a.mp3"
+    },
+    {
+     "text": "Jonathan gives Stephen a dirty look.",
+     "ko": "조나단은 스티븐을 째려본다.",
+     "audio": "/audio/speak/a141adbf4720e594.mp3"
+    },
+    {
+     "text": "\"Thanks a lot,\" Jonathan says.",
+     "ko": "\"정말 고맙다.\" 조나단이 말한다.",
+     "audio": "/audio/speak/05c5d38440206719.mp3"
+    },
+    {
+     "text": "\"I have to go to the bathroom and clean this up.",
+     "ko": "\"화장실에 가서 이걸 닦아야 해.",
+     "audio": "/audio/speak/1173b4d646b63cac.mp3"
+    },
+    {
+     "text": "\"I'm sorry,\" Stephen says.",
+     "ko": "\"미안해.\" 스티븐이 말한다.",
+     "audio": "/audio/speak/5a884177f95004c3.mp3"
+    },
+    {
+     "text": "He puts his black bag down on the floor.",
+     "ko": "그는 자신의 검은 가방을 바닥에 내려놓는다.",
+     "audio": "/audio/speak/142bf77ae476bcb5.mp3"
+    },
+    {
+     "text": "\"Can I help you?",
+     "ko": "\"내가 도와줄까?",
+     "audio": "/audio/speak/2606813c987b557f.mp3"
+    },
+    {
+     "text": "\"No!",
+     "ko": "\"아니!",
+     "audio": "/audio/speak/94a900a44b3b90c7.mp3"
+    },
+    {
+     "text": "Just leave me alone,\" Jonathan says.",
+     "ko": "그냥 나를 내버려 둬.\" 조나단이 말한다.",
+     "audio": "/audio/speak/4d465c512c6c4c55.mp3"
+    },
+    {
+     "text": "He grabs his bag and runs out of the cafeteria.",
+     "ko": "그는 가방을 잡고 식당 밖으로 뛰쳐나간다.",
+     "audio": "/audio/speak/911f74bdaabcdf45.mp3"
+    },
+    {
+     "text": "Stephen feels sad.",
+     "ko": "스티븐은 슬픔을 느낀다.",
+     "audio": "/audio/speak/c7cf56a6c55d9f12.mp3"
+    },
+    {
+     "text": "He sits alone at his table.",
+     "ko": "그는 자기 자리에 혼자 앉아 있다.",
+     "audio": "/audio/speak/d190fa362672910d.mp3"
+    },
+    {
+     "text": "The lunchlady comes over.",
+     "ko": "급식 아주머니가 다가온다.",
+     "audio": "/audio/speak/73a3e8940277840e.mp3"
+    },
+    {
+     "text": "She is mean and fat.",
+     "ko": "그녀는 심술궂고 뚱뚱하다.",
+     "audio": "/audio/speak/f2cabf5dfcf340f3.mp3"
+    },
+    {
+     "text": "There are brown stains on her white apron.",
+     "ko": "그녀의 하얀 앞치마에는 갈색 얼룩들이 묻어 있다.",
+     "audio": "/audio/speak/a4395c50b93e3f8f.mp3"
+    },
+    {
+     "text": "She looks angry.",
+     "ko": "그녀는 화나 보인다.",
+     "audio": "/audio/speak/1b1fc448d29fc1e3.mp3"
+    },
+    {
+     "text": "\"Clean up this mess, Stephen,\" she says.",
+     "ko": "“스티븐, 이 지저분한 것 좀 치워,” 그녀가 말한다.",
+     "audio": "/audio/speak/627032563d23435c.mp3"
+    },
+    {
+     "text": "\"And hurry up!",
+     "ko": "“그리고 서둘러!",
+     "audio": "/audio/speak/89ff998224a6173e.mp3"
+    },
+    {
+     "text": "Lunch is over in fifteen minutes!",
+     "ko": "15분 후면 점심시간이 끝난다고!”",
+     "audio": "/audio/speak/a5aa7647df2f547f.mp3"
+    },
+    {
+     "text": "Stephen starts to wipe the table with a paper towel and water.",
+     "ko": "스티븐은 종이 타월과 물로 테이블을 닦기 시작한다.",
+     "audio": "/audio/speak/3834b5ec8ef2af54.mp3"
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 3,
+   "name": "The Lost Assignment (7-9)",
+   "words": [
+    {
+     "text": "wet",
+     "meanings": [
+      "젖은",
+      "적시다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/50.mp3"
+    },
+    {
+     "text": "scrub",
+     "meanings": [
+      "문질러 닦다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/435.mp3"
+    },
+    {
+     "text": "cleaning fluid",
+     "meanings": [
+      "세척액",
+      "세제"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/6e81c5a54068a947.mp3"
+    },
+    {
+     "text": "dizzy",
+     "meanings": [
+      "어지러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/278.mp3"
+    },
+    {
+     "text": "clumsy",
+     "meanings": [
+      "서툰",
+      "어설픈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/330.mp3"
+    },
+    {
+     "text": "fall down",
+     "meanings": [
+      "넘어지다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/84b5fb739b2e4470.mp3"
+    },
+    {
+     "text": "turn in",
+     "meanings": [
+      "제출하다",
+      "돌아서다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/304.mp3"
+    },
+    {
+     "text": "curly",
+     "meanings": [
+      "곱슬거리는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/171.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"Water won't work,\" the lunchlady says.",
+     "ko": "\"물로는 안 될 거야,\" 점심 아주머니가 말한다.",
+     "audio": "/audio/speak/fa1955a559ec3d6f.mp3"
+    },
+    {
+     "text": "\"Use this.",
+     "ko": "이걸 써.",
+     "audio": "/audio/speak/0cd2372785bd1c89.mp3"
+    },
+    {
+     "text": "She gives Stephen some cleaning fluid.",
+     "ko": "그녀는 스티븐에게 세척액을 준다.",
+     "audio": "/audio/speak/a8c569fa746a8cfb.mp3"
+    },
+    {
+     "text": "\"But, the bottle says children shouldn't use it,\" Stephen says.",
+     "ko": "\"하지만, 병에는 아이들이 사용하면 안 된다고 쓰여 있어요,\" 스티븐이 말한다.",
+     "audio": "/audio/speak/91d0bab3a0b2838f.mp3"
+    },
+    {
+     "text": "\"Just clean it up!",
+     "ko": "\"그냥 치워!",
+     "audio": "/audio/speak/07bcbc15dd436c3c.mp3"
+    },
+    {
+     "text": "the lunchlady says.",
+     "ko": "점심 아주머니가 말한다.",
+     "audio": "/audio/speak/39e5687792337c03.mp3"
+    },
+    {
+     "text": "Stephen pours the cleaning fluid on a sponge and scrubs the table.",
+     "ko": "스티븐은 스펀지에 세척액을 붓고 테이블을 문지른다.",
+     "audio": "/audio/speak/619f85c092aa3c52.mp3"
+    },
+    {
+     "text": "\"What's the matter, Stephen?",
+     "ko": "\"무슨 일이야, 스티븐?",
+     "audio": "/audio/speak/44f7f2b788e0f43b.mp3"
+    },
+    {
+     "text": "the lunchlady asks.",
+     "ko": "점심 아주머니가 묻는다.",
+     "audio": "/audio/speak/a14a457010cdc580.mp3"
+    },
+    {
+     "text": "\"I feel dizzy,\" Stephen says.",
+     "ko": "\"어지러워요,\" 스티븐이 말한다.",
+     "audio": "/audio/speak/bf2702f7e8639d4a.mp3"
+    },
+    {
+     "text": "He falls down.",
+     "ko": "그는 쓰러진다.",
+     "audio": "/audio/speak/b01a622ebd3eafac.mp3"
+    },
+    {
+     "text": "Jonathan goes to the bathroom.",
+     "ko": "조나단은 화장실로 간다.",
+     "audio": "/audio/speak/040dfe6ca62fa7f2.mp3"
+    },
+    {
+     "text": "He is washing his pants and shirt with water and soap.",
+     "ko": "그는 물과 비누로 바지와 셔츠를 빨고 있다.",
+     "audio": "/audio/speak/f24168849353d190.mp3"
+    },
+    {
+     "text": "Now his clothes are all wet.",
+     "ko": "이제 그의 옷은 모두 젖었다.",
+     "audio": "/audio/speak/90e3f20361bef3f6.mp3"
+    },
+    {
+     "text": "\"Stephen is so stupid and clumsy,\" Jonathan says.",
+     "ko": "\"스티븐은 정말 멍청하고 칠칠맞아,\" 조나단이 말한다.",
+     "audio": "/audio/speak/2502a0d478b8d041.mp3"
+    },
+    {
+     "text": "\"He should be more careful.",
+     "ko": "그는 더 조심해야 해.",
+     "audio": "/audio/speak/b6954389462a05e7.mp3"
+    },
+    {
+     "text": "I want to go to New York City right now.",
+     "ko": "나는 지금 당장 뉴욕시에 가고 싶어.",
+     "audio": "/audio/speak/9386774d6db3a309.mp3"
+    },
+    {
+     "text": "But, no!",
+     "ko": "하지만, 안 돼!",
+     "audio": "/audio/speak/b45528d2dbf776a7.mp3"
+    },
+    {
+     "text": "I have to turn in this stupid assignment.",
+     "ko": "이 바보 같은 과제를 제출해야만 해.",
+     "audio": "/audio/speak/4619e11841446ca6.mp3"
+    },
+    {
+     "text": "The toilet flushes.",
+     "ko": "변기 물이 내려간다.",
+     "audio": "/audio/speak/153685f7adaf80e5.mp3"
+    },
+    {
+     "text": "It's Mr. Williams!",
+     "ko": "윌리엄스 선생님이세요!",
+     "audio": "/audio/speak/e435ec7fd6d899a6.mp3"
+    },
+    {
+     "text": "He has curly black hair and wears big, thick glasses.",
+     "ko": "그는 곱슬거리는 검은 머리카락을 가지고 있고 크고 두꺼운 안경을 썼어요.",
+     "audio": "/audio/speak/9a6ab2158fe62e4b.mp3"
+    },
+    {
+     "text": "\"Are you talking about the assignment for my class?",
+     "ko": "“내 수업 과제에 대해 이야기하고 있는 거니?",
+     "audio": "/audio/speak/1357c8c8bb3ea586.mp3"
+    },
+    {
+     "text": "he asks.",
+     "ko": "그가 물어요.",
+     "audio": "/audio/speak/5a8753bdd727f211.mp3"
+    },
+    {
+     "text": "\"Oh, no, Mr. Williams,\" Jonathan says.",
+     "ko": "“아, 아니요, 윌리엄스 선생님,” 조나단이 말해요.",
+     "audio": "/audio/speak/39ee6450e2c2f8d2.mp3"
+    },
+    {
+     "text": "\"I'm talking about an assignment for Mrs. Martin's class.",
+     "ko": "“저는 마틴 선생님 수업 과제에 대해 이야기하고 있어요.",
+     "audio": "/audio/speak/732f327f756a1139.mp3"
+    },
+    {
+     "text": "\"Make sure your assignment is in my hands by 1:30,\" Mr. Williams says.",
+     "ko": "“너의 과제를 1시 30분까지 나에게 제출하도록 해,” 윌리엄스 선생님이 말해요.",
+     "audio": "/audio/speak/c5f32fd630460d1e.mp3"
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 5,
+   "name": "The Lost Assignment (10-13)",
+   "words": [
+    {
+     "text": "watch",
+     "meanings": [
+      "시계",
+      "지켜보다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/37.mp3"
+    },
+    {
+     "text": "stuff",
+     "meanings": [
+      "물건",
+      "소지품"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/dfb0cda3812ccfef.mp3"
+    },
+    {
+     "text": "chubby",
+     "meanings": [
+      "통통한",
+      "토실토실한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/9ca2226a3e9216b6.mp3"
+    },
+    {
+     "text": "hold",
+     "meanings": [
+      "잡다",
+      "쥐다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/112.mp3"
+    },
+    {
+     "text": "basketball court",
+     "meanings": [
+      "농구장"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/5658f9f0094c34eb.mp3"
+    },
+    {
+     "text": "blonde",
+     "meanings": [
+      "금발의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/fcc8c74dae97b894.mp3"
+    },
+    {
+     "text": "playground",
+     "meanings": [
+      "놀이터",
+      "운동장"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/387.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Jonathan looks at his watch.",
+     "ko": "조나단은 그의 시계를 본다.",
+     "audio": "/audio/speak/586b1d9f80a1f167.mp3"
+    },
+    {
+     "text": "It is almost time for class.",
+     "ko": "거의 수업 시간이다.",
+     "audio": "/audio/speak/6c58c36bfb97ca5d.mp3"
+    },
+    {
+     "text": "\"Oh, no,\" Jonathan says.",
+     "ko": "“오, 이런,” 조나단이 말한다.",
+     "audio": "/audio/speak/6c42cb5520d18ec6.mp3"
+    },
+    {
+     "text": "\"My pants and shirt are still wet.",
+     "ko": "“내 바지와 셔츠가 아직 젖어 있어.",
+     "audio": "/audio/speak/fe6c5f9e13bbbcfc.mp3"
+    },
+    {
+     "text": "I don't have time to eat my lunch.",
+     "ko": "점심을 먹을 시간이 없어.",
+     "audio": "/audio/speak/7de7b282304c46b3.mp3"
+    },
+    {
+     "text": "I have to eat it here.",
+     "ko": "여기서 먹어야 해.",
+     "audio": "/audio/speak/ee2a9d3388ffbadc.mp3"
+    },
+    {
+     "text": "Jonathan opens his bag.",
+     "ko": "조나단은 그의 가방을 연다.",
+     "audio": "/audio/speak/22e869088b3bb111.mp3"
+    },
+    {
+     "text": "He cannot find his sandwich.",
+     "ko": "그는 그의 샌드위치를 찾을 수 없다.",
+     "audio": "/audio/speak/9faf2e4b099e5952.mp3"
+    },
+    {
+     "text": "\"What's this?",
+     "ko": "“이게 뭐지?",
+     "audio": "/audio/speak/31445a3b588d1516.mp3"
+    },
+    {
+     "text": "he asks.",
+     "ko": "그가 묻는다.",
+     "audio": "/audio/speak/5a8753bdd727f211.mp3"
+    },
+    {
+     "text": "\"Where are my books?",
+     "ko": "“내 책들은 어디 있지?",
+     "audio": "/audio/speak/30ff47dfa127b106.mp3"
+    },
+    {
+     "text": "Where is my ASSIGNMENT?",
+     "ko": "내 숙제는 어디 있지?",
+     "audio": "/audio/speak/f2ffea00e3c4fe9a.mp3"
+    },
+    {
+     "text": "He looks in his bag.",
+     "ko": "그는 그의 가방 안을 들여다본다.",
+     "audio": "/audio/speak/6627b820c89241e4.mp3"
+    },
+    {
+     "text": "He sees a book about playing chess.",
+     "ko": "그는 체스 두는 것에 대한 책을 본다.",
+     "audio": "/audio/speak/0fb836f2feba5e2a.mp3"
+    },
+    {
+     "text": "\"These aren't my things,\" Jonathan says.",
+     "ko": "“이것들은 내 물건이 아니야,” 조나단이 말한다.",
+     "audio": "/audio/speak/69c7379499753deb.mp3"
+    },
+    {
+     "text": "\"Where's my stuff?",
+     "ko": "“내 물건은 어디 있지?",
+     "audio": "/audio/speak/c03ce47c8bc0b204.mp3"
+    },
+    {
+     "text": "Wait a minute...",
+     "ko": "잠깐만...",
+     "audio": "/audio/speak/5d64d8d39c8b3b40.mp3"
+    },
+    {
+     "text": "I think Stephen is in the chess club.",
+     "ko": "스티븐이 체스 동아리에 있는 것 같아.",
+     "audio": "/audio/speak/d18dd84cf33498e0.mp3"
+    },
+    {
+     "text": "I think this is his bag!",
+     "ko": "내 생각에 이건 그의 가방이야!",
+     "audio": "/audio/speak/6f57b5070cfef975.mp3"
+    },
+    {
+     "text": "Stephen must have my stuff!",
+     "ko": "스티븐이 내 물건을 가지고 있는 게 분명해!",
+     "audio": "/audio/speak/bbb6217db201bde2.mp3"
+    },
+    {
+     "text": "I have his bag and he has mine!",
+     "ko": "내가 그의 가방을 가지고 있고, 그는 내 가방을 가지고 있어!",
+     "audio": "/audio/speak/07c0c58fd8c3cbeb.mp3"
+    },
+    {
+     "text": "Jonathan runs to the playground.",
+     "ko": "조나단은 운동장으로 달려간다.",
+     "audio": "/audio/speak/b03c6c5a5666e65b.mp3"
+    },
+    {
+     "text": "It is 1:15!",
+     "ko": "지금은 1시 15분이야!",
+     "audio": "/audio/speak/b614618b18186441.mp3"
+    },
+    {
+     "text": "He has to get to class.",
+     "ko": "그는 수업에 가야 해.",
+     "audio": "/audio/speak/924ef2b6d0738b55.mp3"
+    },
+    {
+     "text": "But he has to find his assignment first.",
+     "ko": "하지만 그는 먼저 자신의 숙제를 찾아야 해.",
+     "audio": "/audio/speak/ec2e4bcd6d988b6d.mp3"
+    },
+    {
+     "text": "The weather is nice and warm, so his legs aren't cold anymore.",
+     "ko": "날씨가 좋고 따뜻해서 그의 다리는 더 이상 춥지 않다.",
+     "audio": "/audio/speak/bfc7ccdb4430bfbd.mp3"
+    },
+    {
+     "text": "He is still holding Stephen's bag.",
+     "ko": "그는 여전히 스티븐의 가방을 들고 있다.",
+     "audio": "/audio/speak/a8aea6b329315579.mp3"
+    },
+    {
+     "text": "\"Stephen must be around here somewhere,\" Jonathan says.",
+     "ko": "스티븐이 여기 어딘가에 있을 거야, 조나단이 말한다.",
+     "audio": "/audio/speak/742325e6c83041ba.mp3"
+    },
+    {
+     "text": "\"Where is he?",
+     "ko": "그는 어디 있지?",
+     "audio": "/audio/speak/ec372dbaca12889c.mp3"
+    },
+    {
+     "text": "\"Is Stephen here?",
+     "ko": "스티븐 여기 있어?",
+     "audio": "/audio/speak/42caa99c13d3e65f.mp3"
+    },
+    {
+     "text": "he asks some of his friends on the basketball court.",
+     "ko": "그는 농구 코트에 있는 친구 몇 명에게 묻는다.",
+     "audio": "/audio/speak/4a9bd3bc018b6094.mp3"
+    },
+    {
+     "text": "\"Stephen who?",
+     "ko": "누구 스티븐?",
+     "audio": "/audio/speak/7d2405ee046945ff.mp3"
+    },
+    {
+     "text": "one of the boys asks.",
+     "ko": "소년들 중 한 명이 묻는다.",
+     "audio": "/audio/speak/19d3e2d26f4f8a94.mp3"
+    },
+    {
+     "text": "\"I don't know his last name,\" Jonathan says.",
+     "ko": "나는 그의 성을 몰라, 조나단이 말한다.",
+     "audio": "/audio/speak/443d33d9882337e7.mp3"
+    },
+    {
+     "text": "\"He's short.",
+     "ko": "그는 키가 작아.",
+     "audio": "/audio/speak/b1aab96cfd910569.mp3"
+    },
+    {
+     "text": "He has blonde hair, and he's chubby.",
+     "ko": "그는 금발 머리이고, 통통해.",
+     "audio": "/audio/speak/1baebf424d766594.mp3"
+    },
+    {
+     "text": "He is in the chess club.",
+     "ko": "그는 체스 동아리에 있어.",
+     "audio": "/audio/speak/73ce462231583dba.mp3"
+    },
+    {
+     "text": "\"Oh, you mean that fat kid?",
+     "ko": "아, 그 뚱뚱한 애 말이야?",
+     "audio": "/audio/speak/d522803ccc6f9487.mp3"
+    },
+    {
+     "text": "the boy asks.",
+     "ko": "그 소년이 묻는다.",
+     "audio": "/audio/speak/0ada69e240503c18.mp3"
+    },
+    {
+     "text": "\"Who cares?",
+     "ko": "누가 신경 써?",
+     "audio": "/audio/speak/bd977fa975cbdd50.mp3"
+    },
+    {
+     "text": "That kid is a loser.\"",
+     "ko": "저 아이는 패배자야.",
+     "audio": "/audio/speak/78484bcd68af5fc3.mp3"
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 6,
+   "name": "The Lost Assignment (14-17)",
+   "words": [
+    {
+     "text": "swing",
+     "meanings": [
+      "흔들리다",
+      "그네"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e43f319a52423c0b.mp3"
+    },
+    {
+     "text": "ride",
+     "meanings": [
+      "(탈것을) 타다",
+      "놀이기구"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/39.mp3"
+    },
+    {
+     "text": "approach",
+     "meanings": [
+      "접근하다",
+      "다가가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l9/6.mp3"
+    },
+    {
+     "text": "hide",
+     "meanings": [
+      "숨다",
+      "숨기다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/132.mp3"
+    },
+    {
+     "text": "scared",
+     "meanings": [
+      "무서워하는",
+      "겁먹은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/28.mp3"
+    },
+    {
+     "text": "grade",
+     "meanings": [
+      "성적",
+      "학년",
+      "등급"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/25.mp3"
+    },
+    {
+     "text": "feel sorry",
+     "meanings": [
+      "안타깝게 생각하다",
+      "미안해하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e09c06cafaff1d06.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"Do you know Stephen?",
+     "ko": "스티븐을 아세요?",
+     "audio": "/audio/speak/2d6e658238dcb952.mp3"
+    },
+    {
+     "text": "Jonathan asks some girls by the swings.",
+     "ko": "조나단이 그네 옆에 있는 몇몇 소녀들에게 묻습니다.",
+     "audio": "/audio/speak/ddf53194fcc9ae9f.mp3"
+    },
+    {
+     "text": "\"Oh, he is so gross!",
+     "ko": "오, 걔 정말 역겨워!",
+     "audio": "/audio/speak/b014660d9c085d42.mp3"
+    },
+    {
+     "text": "one of the girls screams.",
+     "ko": "소녀들 중 한 명이 소리칩니다.",
+     "audio": "/audio/speak/c2b9aae922551a23.mp3"
+    },
+    {
+     "text": "\"He eats nine candy bars every single day!",
+     "ko": "걔는 매일 아홉 개의 초콜릿 바를 먹어!",
+     "audio": "/audio/speak/27d7438680e35e30.mp3"
+    },
+    {
+     "text": "He's a pig!",
+     "ko": "걔는 돼지야!",
+     "audio": "/audio/speak/63825d8ee0accbfb.mp3"
+    },
+    {
+     "text": "\"That's not true,\" Jonathan says.",
+     "ko": "그건 사실이 아니야,",
+     "audio": "/audio/speak/94ed15a03ddb1faf.mp3"
+    },
+    {
+     "text": "\"He rides my bus every day.",
+     "ko": "조나단이 말합니다.",
+     "audio": "/audio/speak/77f0451d1aad0998.mp3"
+    },
+    {
+     "text": "He does not eat nine candy bars every day.",
+     "ko": "걔는 매일 내 버스를 타. 걔는 매일 아홉 개의 초콜릿 바를 먹지 않아.",
+     "audio": "/audio/speak/70eabfdde947947b.mp3"
+    },
+    {
+     "text": "\"Gosh,\" Jonathan says.",
+     "ko": "세상에,",
+     "audio": "/audio/speak/fbf1bcc5f9bd9fc9.mp3"
+    },
+    {
+     "text": "\"Now I feel very sorry for Stephen.",
+     "ko": "조나단이 말합니다.",
+     "audio": "/audio/speak/55690406ff2f4023.mp3"
+    },
+    {
+     "text": "Jonathan looks around the playground.",
+     "ko": "이제 스티븐이 정말 안쓰러워.",
+     "audio": "/audio/speak/621ba140ffdc26e3.mp3"
+    },
+    {
+     "text": "Stephen isn't by the swings.",
+     "ko": "조나단은 운동장을 둘러봅니다. 스티븐은 그네 옆에 없습니다.",
+     "audio": "/audio/speak/663b74ff7840d40c.mp3"
+    },
+    {
+     "text": "He isn't on the basketball courts.",
+     "ko": "그는 농구 코트에도 없습니다.",
+     "audio": "/audio/speak/5ca5498783e20422.mp3"
+    },
+    {
+     "text": "\"Where is he?",
+     "ko": "걔 어디 있지?",
+     "audio": "/audio/speak/ec372dbaca12889c.mp3"
+    },
+    {
+     "text": "Jonathan asks.",
+     "ko": "조나단이 묻습니다.",
+     "audio": "/audio/speak/6739a773cb358248.mp3"
+    },
+    {
+     "text": "\"I need to give my assignment to Mr. Williams, or I'll get a bad grade.",
+     "ko": "윌리엄스 선생님께 숙제를 드려야 해, 안 그러면 나쁜 점수를 받을 거야.",
+     "audio": "/audio/speak/ecb7d5f3c1023281.mp3"
+    },
+    {
+     "text": "I need to find Stephen right now.",
+     "ko": "지금 당장 스티븐을 찾아야 해.",
+     "audio": "/audio/speak/b20318340344d0ff.mp3"
+    },
+    {
+     "text": "Jonathan sees a small boy with glasses.",
+     "ko": "조나단은 안경을 쓴 작은 소년을 봅니다.",
+     "audio": "/audio/speak/ed006b0ae1229a3c.mp3"
+    },
+    {
+     "text": "The boy is reading a book.",
+     "ko": "그 소년은 책을 읽고 있습니다.",
+     "audio": "/audio/speak/3400309e23733029.mp3"
+    },
+    {
+     "text": "\"That boy is in the chess club,\" Jonathan says.",
+     "ko": "“저 아이는 체스 동아리에 있어,” 조나단이 말한다.",
+     "audio": "/audio/speak/1804580ebcf263ba.mp3"
+    },
+    {
+     "text": "\"Maybe he is Stephen's friend.",
+     "ko": "아마 스티븐의 친구일 거야.",
+     "audio": "/audio/speak/02042001ebc4ab9c.mp3"
+    },
+    {
+     "text": "Jonathan approaches the boy.",
+     "ko": "조나단이 그 소년에게 다가간다.",
+     "audio": "/audio/speak/a37d4fb578889fc1.mp3"
+    },
+    {
+     "text": "The boy is scared of Jonathan.",
+     "ko": "그 소년은 조나단을 무서워한다.",
+     "audio": "/audio/speak/cb458611328dea70.mp3"
+    },
+    {
+     "text": "\"Excuse me,\" Jonathan says.",
+     "ko": "“실례합니다,” 조나단이 말한다.",
+     "audio": "/audio/speak/e7ab8e56b0d85bcd.mp3"
+    },
+    {
+     "text": "\"Do you know Stephen?",
+     "ko": "스티븐을 아나요?",
+     "audio": "/audio/speak/2d6e658238dcb952.mp3"
+    },
+    {
+     "text": "He has my assignment.",
+     "ko": "그가 내 과제를 가지고 있어요.",
+     "audio": "/audio/speak/debc588b6f1bce23.mp3"
+    },
+    {
+     "text": "Where is he?",
+     "ko": "그가 어디에 있나요?",
+     "audio": "/audio/speak/0db06cb4a94156e6.mp3"
+    },
+    {
+     "text": "The boy jumps up, drops his book and hides behind a tree.",
+     "ko": "그 소년은 벌떡 일어나 책을 떨어뜨리고 나무 뒤에 숨는다.",
+     "audio": "/audio/speak/9c51faa5f1c5376d.mp3"
+    },
+    {
+     "text": "\"Don't hurt me,\" he screams.",
+     "ko": "“나를 해치지 마세요,” 그가 소리친다.",
+     "audio": "/audio/speak/bee35a70f22f3ec6.mp3"
+    },
+    {
+     "text": "\"I don't have any money!",
+     "ko": "저는 돈이 없어요!",
+     "audio": "/audio/speak/18838be4aa8fd0fd.mp3"
+    },
+    {
+     "text": "\"What?",
+     "ko": "“뭐라고요?",
+     "audio": "/audio/speak/539d568c4f909644.mp3"
+    },
+    {
+     "text": "Jonathan asks.",
+     "ko": "조나단이 묻는다.",
+     "audio": "/audio/speak/6739a773cb358248.mp3"
+    },
+    {
+     "text": "\"I don't want your money.",
+     "ko": "저는 당신의 돈을 원하지 않아요.",
+     "audio": "/audio/speak/0701e9caf51bb6ca.mp3"
+    },
+    {
+     "text": "I want to find Stephen.",
+     "ko": "저는 스티븐을 찾고 싶어요.",
+     "audio": "/audio/speak/8c1ca7b01f6e6ccb.mp3"
+    },
+    {
+     "text": "\"Stephen Gadwich?",
+     "ko": "“스티븐 가드위치요?",
+     "audio": "/audio/speak/1cf5152b58fa3a9a.mp3"
+    },
+    {
+     "text": "the boy asks.",
+     "ko": "소년이 묻는다.",
+     "audio": "/audio/speak/0ada69e240503c18.mp3"
+    },
+    {
+     "text": "\"Yes,\" Jonathan says.",
+     "ko": "“네,” 조나단이 말한다.",
+     "audio": "/audio/speak/ea619aa36f4def18.mp3"
+    },
+    {
+     "text": "\"Where is he?",
+     "ko": "그가 어디에 있나요?",
+     "audio": "/audio/speak/ec372dbaca12889c.mp3"
+    },
+    {
+     "text": "He has my assignment.\"",
+     "ko": "그가 내 과제를 가지고 있어요.”",
+     "audio": "/audio/speak/d3f6298c4e238e5a.mp3"
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 7,
+   "name": "The Lost Assignment (18-21)",
+   "words": [
+    {
+     "text": "pale",
+     "meanings": [
+      "창백한",
+      "옅은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/148.mp3"
+    },
+    {
+     "text": "skinny",
+     "meanings": [
+      "깡마른",
+      "비쩍 마른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/57ee4196431b3235.mp3"
+    },
+    {
+     "text": "rush",
+     "meanings": [
+      "서두르다",
+      "돌진하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/5f3928a9f3b3e6ab.mp3"
+    },
+    {
+     "text": "in front of",
+     "meanings": [
+      "~의 앞에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a5c75212c4ca39a4.mp3"
+    },
+    {
+     "text": "worry",
+     "meanings": [
+      "걱정하다",
+      "걱정"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/13.mp3"
+    },
+    {
+     "text": "reply",
+     "meanings": [
+      "대답하다",
+      "답장하다",
+      "답장"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/62.mp3"
+    },
+    {
+     "text": "nurse's office",
+     "meanings": [
+      "보건실"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/276.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"I think he is in the nurse's office,\" the boy says.",
+     "ko": "“그는 보건실에 있는 것 같아요.” 소년이 말합니다.",
+     "audio": "/audio/speak/de26815e92af92f8.mp3"
+    },
+    {
+     "text": "\"The nurse's office?",
+     "ko": "“보건실이라고요?",
+     "audio": "/audio/speak/271c30c6e5655030.mp3"
+    },
+    {
+     "text": "Jonathan screams.",
+     "ko": "조나단이 소리칩니다.",
+     "audio": "/audio/speak/01f983f6ced54490.mp3"
+    },
+    {
+     "text": "\"Why?",
+     "ko": "왜요?”",
+     "audio": "/audio/speak/4f91e6a84feacd54.mp3"
+    },
+    {
+     "text": "\"I'm not sure,\" the skinny boy says.",
+     "ko": "“잘 모르겠어요.” 마른 소년이 말합니다.",
+     "audio": "/audio/speak/43ebf310df8a99e9.mp3"
+    },
+    {
+     "text": "\"He might be sick.",
+     "ko": "“그는 아플 수도 있어요.",
+     "audio": "/audio/speak/4f675eec53c6f671.mp3"
+    },
+    {
+     "text": "His mom might come to take him home.",
+     "ko": "그의 엄마가 그를 집으로 데려가러 올 수도 있어요.”",
+     "audio": "/audio/speak/4f7ee7957120f9e4.mp3"
+    },
+    {
+     "text": "\"He can't go home!",
+     "ko": "“그는 집에 가면 안 돼요!”",
+     "audio": "/audio/speak/4a6138af821fb5b7.mp3"
+    },
+    {
+     "text": "Jonathan says.",
+     "ko": "조나단이 말합니다.",
+     "audio": "/audio/speak/c0ad058ea017a3b6.mp3"
+    },
+    {
+     "text": "\"He has my assignment!",
+     "ko": "“그가 내 숙제를 가지고 있어요!",
+     "audio": "/audio/speak/d4b9c4613918c823.mp3"
+    },
+    {
+     "text": "I have to find him.",
+     "ko": "나는 그를 찾아야 해요.”",
+     "audio": "/audio/speak/891f4784d1fdca59.mp3"
+    },
+    {
+     "text": "Jonathan rushes to the nurse's office.",
+     "ko": "조나단은 보건실로 달려갑니다.",
+     "audio": "/audio/speak/bbb982c42d91b8c6.mp3"
+    },
+    {
+     "text": "\"Is Stephen Gadwich here?",
+     "ko": "“스티븐 개드위치 여기 있나요?”",
+     "audio": "/audio/speak/eb81de5a33355f90.mp3"
+    },
+    {
+     "text": "he asks.",
+     "ko": "그가 묻습니다.",
+     "audio": "/audio/speak/5a8753bdd727f211.mp3"
+    },
+    {
+     "text": "\"Not anymore,\" the nurse says.",
+     "ko": "“더 이상 여기 없어요.” 간호사가 말합니다.",
+     "audio": "/audio/speak/bd8e52227525b5c1.mp3"
+    },
+    {
+     "text": "\"He's going home with his mother.",
+     "ko": "“그는 엄마와 함께 집으로 가고 있어요.”",
+     "audio": "/audio/speak/e4070799d70a0480.mp3"
+    },
+    {
+     "text": "\"But, he has my assignment,\" Jonathan says.",
+     "ko": "“하지만, 그가 제 숙제를 가지고 있어요.” 조나단이 말합니다.",
+     "audio": "/audio/speak/8547239b6bb7aca9.mp3"
+    },
+    {
+     "text": "\"Don't worry,\" the nurse says.",
+     "ko": "“걱정 마세요.” 간호사가 말합니다.",
+     "audio": "/audio/speak/ad574bd43ebc7afb.mp3"
+    },
+    {
+     "text": "\"You can get it from him later.",
+     "ko": "“나중에 그에게서 받을 수 있을 거예요.”",
+     "audio": "/audio/speak/2d17072403023795.mp3"
+    },
+    {
+     "text": "\"But I need it right now,\" Jonathan replies.",
+     "ko": "“하지만 저는 지금 당장 필요해요.” 조나단이 대답합니다.",
+     "audio": "/audio/speak/6d18839e515f0fdd.mp3"
+    },
+    {
+     "text": "It is 1:30.",
+     "ko": "1시 30분입니다.",
+     "audio": "/audio/speak/59a0ab04f01e2a66.mp3"
+    },
+    {
+     "text": "Jonathan walks into Mr. Williams' class.",
+     "ko": "조나단이 윌리엄스 선생님의 수업에 들어갑니다.",
+     "audio": "/audio/speak/9a7fe53308d03959.mp3"
+    },
+    {
+     "text": "\"Do you have something for me?",
+     "ko": "\"나에게 줄 것이 있니?",
+     "audio": "/audio/speak/383316f20594299f.mp3"
+    },
+    {
+     "text": "Mr. Williams asks.",
+     "ko": "윌리엄스 선생님이 묻습니다.",
+     "audio": "/audio/speak/63185f9ac881fc26.mp3"
+    },
+    {
+     "text": "\"I wrote an essay,\" Jonathan says.",
+     "ko": "\"제가 에세이를 썼어요,\" 조나단이 말합니다.",
+     "audio": "/audio/speak/4cda784d599e394b.mp3"
+    },
+    {
+     "text": "\"But I don't have it right now.",
+     "ko": "\"하지만 지금 가지고 있지 않아요.",
+     "audio": "/audio/speak/951a2deedc908e12.mp3"
+    },
+    {
+     "text": "\"That's too bad,\" Mr. Williams says.",
+     "ko": "\"안됐구나,\" 윌리엄스 선생님이 말합니다.",
+     "audio": "/audio/speak/57a48ef9658d8235.mp3"
+    },
+    {
+     "text": "\"I guess I have to give you an F.",
+     "ko": "\"F 학점을 줘야겠구나.",
+     "audio": "/audio/speak/9e03d79a6b3f9441.mp3"
+    },
+    {
+     "text": "Suddenly, somebody asks a question.",
+     "ko": "갑자기, 누군가 질문을 합니다.",
+     "audio": "/audio/speak/14b0a8bdeb3e1fa3.mp3"
+    },
+    {
+     "text": "\"Can he still turn it in?",
+     "ko": "\"그가 아직 제출할 수 있나요?",
+     "audio": "/audio/speak/19fd0ce5782e202c.mp3"
+    },
+    {
+     "text": "It's Stephen!",
+     "ko": "스티븐입니다!",
+     "audio": "/audio/speak/93fbf85bc82172d9.mp3"
+    },
+    {
+     "text": "He looks pale.",
+     "ko": "그는 창백해 보입니다.",
+     "audio": "/audio/speak/0ede5dd6dfc38a5e.mp3"
+    },
+    {
+     "text": "Jonathan hugs him in front of the whole class.",
+     "ko": "조나단은 온 학급 앞에서 그를 안아줍니다.",
+     "audio": "/audio/speak/34ff30e172b3838a.mp3"
+    },
+    {
+     "text": "\"Thank you,\" Jonathan says.",
+     "ko": "\"고마워,\" 조나단이 말합니다.",
+     "audio": "/audio/speak/d1e8f8c1757cff8f.mp3"
+    },
+    {
+     "text": "\"Are you doing okay?",
+     "ko": "\"괜찮니?",
+     "audio": "/audio/speak/a72dde2bf52fda32.mp3"
+    },
+    {
+     "text": "\"Yeah, I'm just dizzy,\" Stephen says.",
+     "ko": "\"응, 그냥 어지러워,\" 스티븐이 말합니다.",
+     "audio": "/audio/speak/261ee3422702c434.mp3"
+    },
+    {
+     "text": "\"So, can you turn it in?",
+     "ko": "\"그럼, 제출할 수 있니?",
+     "audio": "/audio/speak/596aa694cd03b54b.mp3"
+    },
+    {
+     "text": "\"Of course,\" Mr. Williams says.",
+     "ko": "\"물론이지,\" 윌리엄스 선생님이 말합니다.",
+     "audio": "/audio/speak/2f132f8ca17b4f50.mp3"
+    },
+    {
+     "text": "\"Stephen, would you like to come to my house tomorrow?",
+     "ko": "\"스티븐, 내일 우리 집에 올래?",
+     "audio": "/audio/speak/7c935147bec284a8.mp3"
+    },
+    {
+     "text": "Jonathan asks.",
+     "ko": "조나단이 묻습니다.",
+     "audio": "/audio/speak/6739a773cb358248.mp3"
+    },
+    {
+     "text": "\"I'd love to,\" Stephen replies.",
+     "ko": "“정말 그러고 싶어요,” 스티븐이 대답한다.",
+     "audio": "/audio/speak/cbbf41ff6e256938.mp3"
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 1,
+   "name": "Let's go to the circus now!",
+   "words": [
+    {
+     "text": "circus",
+     "meanings": [
+      "서커스"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/142.mp3"
+    },
+    {
+     "text": "zoo",
+     "meanings": [
+      "동물원"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/386.mp3"
+    },
+    {
+     "text": "park",
+     "meanings": [
+      "공원"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/13.mp3"
+    },
+    {
+     "text": "library",
+     "meanings": [
+      "도서관"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/14.mp3"
+    },
+    {
+     "text": "playground",
+     "meanings": [
+      "놀이터"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/387.mp3"
+    },
+    {
+     "text": "museum",
+     "meanings": [
+      "박물관"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/16.mp3"
+    },
+    {
+     "text": "kid's café",
+     "meanings": [
+      "키즈카페"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/7d4654558ab1bc72.mp3"
+    },
+    {
+     "text": "pet hotel",
+     "meanings": [
+      "애견호텔"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/3726688c3b399b31.mp3"
+    },
+    {
+     "text": "ago",
+     "meanings": [
+      "~전에",
+      "이전에"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/214a6c47ba1b446d.mp3"
+    },
+    {
+     "text": "beside",
+     "meanings": [
+      "~옆에"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/342.mp3"
+    },
+    {
+     "text": "away",
+     "meanings": [
+      "떨어져",
+      "멀리"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/349.mp3"
+    },
+    {
+     "text": "quickly",
+     "meanings": [
+      "빠르게"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/322.mp3"
+    },
+    {
+     "text": "giraffe",
+     "meanings": [
+      "기린"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/465.mp3"
+    },
+    {
+     "text": "happen",
+     "meanings": [
+      "(일이) 일어나다",
+      "생기다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/52.mp3"
+    },
+    {
+     "text": "information",
+     "meanings": [
+      "정보"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l7/42.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Let's go to the circus now!",
+       "ko": "우리 지금 서커스에 가자!",
+       "audio": "/audio/speak/f14742e646187a9f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Great idea! I want to see animals and clowns!",
+       "ko": "좋은 생각이야! 나는 동물들과 광대들을 보고 싶어!",
+       "audio": "/audio/speak/f583ac959409cf6a.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "I like animals and clowns.",
+       "ko": "나는 동물들과 광대들을 좋아해.",
+       "audio": "/audio/speak/247c02ca1cf196eb.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Then let's go to the circus!",
+       "ko": "그러면 우리 서커스에 가자!",
+       "audio": "/audio/speak/97d8196d8304e915.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Let's go to the zoo now!",
+       "ko": "우리 지금 동물원에 가자!",
+       "audio": "/audio/speak/00128144bcfa2707.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Great idea! I want to see lions and tigers.",
+       "ko": "좋은 생각이야! 나는 사자와 호랑이를 보고 싶어.",
+       "audio": "/audio/speak/d92e7ff7420a3c11.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "I like lions and tigers.",
+       "ko": "나는 사자와 호랑이를 좋아해.",
+       "audio": "/audio/speak/02a45ef6e657f5bb.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Then let's go to the circus!",
+       "ko": "그러면 우리 동물원에 가자!",
+       "audio": "/audio/speak/97d8196d8304e915.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Let's go to the park now!",
+       "ko": "우리 지금 공원에 가자!",
+       "audio": "/audio/speak/23c6416cecd4ac3a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Great idea! I want to take a walk.",
+       "ko": "좋은 생각이야! 나는 산책을 하고 싶어.",
+       "audio": "/audio/speak/570c7f0c5419746b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "I like walking.",
+       "ko": "나는 걷는 것을 좋아해.",
+       "audio": "/audio/speak/678644dc0a4c1851.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Then let's go to the park!",
+       "ko": "그러면 우리 공원에 가자!",
+       "audio": "/audio/speak/90b82005cfc8a3cf.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Let's go to the library now!",
+       "ko": "우리 지금 도서관에 가자!",
+       "audio": "/audio/speak/d9d8d155727f78c9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Great idea! I want to read books.",
+       "ko": "좋은 생각이야! 나는 책을 읽고 싶어.",
+       "audio": "/audio/speak/8ae4a25615b54c5a.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "I like reading books.",
+       "ko": "나는 책 읽는 것을 좋아해.",
+       "audio": "/audio/speak/334a524cbfe9de0d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Then let's go to the library!",
+       "ko": "그러면 우리 도서관에 가자!",
+       "audio": "/audio/speak/fe158e32ac1867e5.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 2,
+   "name": "How do we get to the circus?",
+   "words": [
+    {
+     "text": "airplane",
+     "meanings": [
+      "비행기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/62.mp3"
+    },
+    {
+     "text": "bicycle",
+     "meanings": [
+      "자전거"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/315.mp3"
+    },
+    {
+     "text": "helicopter",
+     "meanings": [
+      "헬리콥터"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/359.mp3"
+    },
+    {
+     "text": "car",
+     "meanings": [
+      "자동차"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/25.mp3"
+    },
+    {
+     "text": "ship",
+     "meanings": [
+      "배"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/452.mp3"
+    },
+    {
+     "text": "taxi",
+     "meanings": [
+      "택시"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/527.mp3"
+    },
+    {
+     "text": "boat",
+     "meanings": [
+      "보트"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/95.mp3"
+    },
+    {
+     "text": "bus",
+     "meanings": [
+      "버스"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/26.mp3"
+    },
+    {
+     "text": "motorcycle",
+     "meanings": [
+      "오토바이"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/172.mp3"
+    },
+    {
+     "text": "subway",
+     "meanings": [
+      "지하철"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/32.mp3"
+    },
+    {
+     "text": "country",
+     "meanings": [
+      "시골",
+      "국가",
+      "나라"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/5e82b222a6c3b256.mp3"
+    },
+    {
+     "text": "fix",
+     "meanings": [
+      "고정시키다",
+      "고치다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/141.mp3"
+    },
+    {
+     "text": "fresh",
+     "meanings": [
+      "신선한"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/516.mp3"
+    },
+    {
+     "text": "group",
+     "meanings": [
+      "그룹",
+      "집단"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/246.mp3"
+    },
+    {
+     "text": "death",
+     "meanings": [
+      "사망",
+      "죽음"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/1426c307264496c1.mp3"
+    },
+    {
+     "text": "human",
+     "meanings": [
+      "인간",
+      "사람",
+      "인간의",
+      "사람의"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/3fc2ec14bc54e072.mp3"
+    },
+    {
+     "text": "empty",
+     "meanings": [
+      "비어 있는"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/138.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do we get to the circus?",
+       "ko": "서커스장에 어떻게 가?",
+       "audio": "/audio/speak/b9f7abdd896f5282.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We get there by bus. It only takes ten minutes.",
+       "ko": "버스로 가. 10분밖에 안 걸려.",
+       "audio": "/audio/speak/8ea575cee27a705c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How long does it take?",
+       "ko": "얼마나 걸려?",
+       "audio": "/audio/speak/4e1437cd3e08ed88.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It takes ten minutes by bus.",
+       "ko": "버스로 10분 걸려.",
+       "audio": "/audio/speak/6e1f13166cb3476b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do we get to the zoo?",
+       "ko": "동물원에 어떻게 가?",
+       "audio": "/audio/speak/5cd0377ba40736bd.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We get there by taxi. It only takes twenty minutes.",
+       "ko": "택시 타고 가. 20분밖에 안 걸려.",
+       "audio": "/audio/speak/54d8fe06e0e52fac.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How long does it take?",
+       "ko": "얼마나 걸려?",
+       "audio": "/audio/speak/4e1437cd3e08ed88.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It takes twenty minutes by taxi.",
+       "ko": "택시로 20분 걸려.",
+       "audio": "/audio/speak/0d94a2dfcfb94302.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do we get to the park?",
+       "ko": "공원에 어떻게 가?",
+       "audio": "/audio/speak/67d90cd39b4e0d5d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We get there by subway. It only takes twelve minutes.",
+       "ko": "지하철 타고 가. 12분밖에 안 걸려.",
+       "audio": "/audio/speak/77a920bc1e6f081a.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How long does it take?",
+       "ko": "얼마나 걸려?",
+       "audio": "/audio/speak/4e1437cd3e08ed88.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It takes twelve minutes by subway.",
+       "ko": "지하철로 12분 걸려.",
+       "audio": "/audio/speak/d1954801945a8747.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do we get to the museum?",
+       "ko": "박물관에 어떻게 가?",
+       "audio": "/audio/speak/f0737c0ec76832a0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We get there by car. It only takes fifteen minutes.",
+       "ko": "차 타고 가. 15분밖에 안 걸려.",
+       "audio": "/audio/speak/d64063c637e28c8a.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How long does it take?",
+       "ko": "얼마나 걸려?",
+       "audio": "/audio/speak/4e1437cd3e08ed88.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It takes fifteen minutes by car.",
+       "ko": "차로 15분 걸려.",
+       "audio": "/audio/speak/5743cb558f9c6687.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 3,
+   "name": "Is it ice cream?",
+   "words": [
+    {
+     "text": "cotton candy",
+     "meanings": [
+      "솜사탕"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/99af80190898ce16.mp3"
+    },
+    {
+     "text": "mirror",
+     "meanings": [
+      "거울"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/396.mp3"
+    },
+    {
+     "text": "ice cream",
+     "meanings": [
+      "아이스크림"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/270.mp3"
+    },
+    {
+     "text": "window",
+     "meanings": [
+      "창문"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/10.mp3"
+    },
+    {
+     "text": "robot",
+     "meanings": [
+      "로봇"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/270.mp3"
+    },
+    {
+     "text": "computer",
+     "meanings": [
+      "컴퓨터"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/157.mp3"
+    },
+    {
+     "text": "doll",
+     "meanings": [
+      "인형"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/49.mp3"
+    },
+    {
+     "text": "television",
+     "meanings": [
+      "텔레비전"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/257.mp3"
+    },
+    {
+     "text": "tonight",
+     "meanings": [
+      "오늘 밤에",
+      "오늘 밤"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/547.mp3"
+    },
+    {
+     "text": "couple",
+     "meanings": [
+      "커플",
+      "부부",
+      "두 사람"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l7/396.mp3"
+    },
+    {
+     "text": "same",
+     "meanings": [
+      "(똑)같은"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/268.mp3"
+    },
+    {
+     "text": "magic",
+     "meanings": [
+      "마술",
+      "마법"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/81018012b2bfeb60.mp3"
+    },
+    {
+     "text": "village",
+     "meanings": [
+      "마을"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/11.mp3"
+    },
+    {
+     "text": "throw",
+     "meanings": [
+      "던지다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/a0150e5f34b49851.mp3"
+    },
+    {
+     "text": "trash",
+     "meanings": [
+      "쓰레기"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/557.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Is it ice cream?",
+       "ko": "이거 아이스크림이야?",
+       "audio": "/audio/speak/7788a4a472229b33.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, it's not. It's cotton candy. It looks yummy.",
+       "ko": "아니, 아니야. 솜사탕이야. 맛있어 보여.",
+       "audio": "/audio/speak/abe1be909418f44d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is this cotton candy yummy?",
+       "ko": "이 솜사탕 맛있어?",
+       "audio": "/audio/speak/f8d2a96831bc3b27.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Is it a robot?",
+       "ko": "이거 로봇이야?",
+       "audio": "/audio/speak/e07c2ea362402aba.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, it's not. It's a doll. It looks pretty and cute.",
+       "ko": "아니, 아니야. 인형이야. 예쁘고 귀여워 보여.",
+       "audio": "/audio/speak/74f83603378481fc.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is this doll pretty and cute?",
+       "ko": "이 인형 예쁘고 귀여워?",
+       "audio": "/audio/speak/c886f7e96dda0663.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Is it a window?",
+       "ko": "이거 창문이야?",
+       "audio": "/audio/speak/56b5467ed2c3da83.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, It's not. It's a mirror. It looks shiny.",
+       "ko": "아니, 아니야. 거울이야. 반짝여 보여.",
+       "audio": "/audio/speak/8d67cf71e06d2e38.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is this window shiny?",
+       "ko": "이 창문 반짝여?",
+       "audio": "/audio/speak/458dc7b04c148ed9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Is it a computer?",
+       "ko": "이거 컴퓨터야?",
+       "audio": "/audio/speak/256eb8240c35c0b6.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, it's not. It's a television. It looks small.",
+       "ko": "아니, 아니야. 텔레비전이야. 작아 보여.",
+       "audio": "/audio/speak/0f69fdf81db78e8d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is this computer small?",
+       "ko": "이 컴퓨터 작아?",
+       "audio": "/audio/speak/5b550d2bfefca505.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 4,
+   "name": "I feel hungry.",
+   "words": [
+    {
+     "text": "excited",
+     "meanings": [
+      "신이 난"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/154.mp3"
+    },
+    {
+     "text": "angry",
+     "meanings": [
+      "화난"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/24.mp3"
+    },
+    {
+     "text": "happy",
+     "meanings": [
+      "기쁜",
+      "행복한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/22.mp3"
+    },
+    {
+     "text": "sad",
+     "meanings": [
+      "슬픈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/23.mp3"
+    },
+    {
+     "text": "sleepy",
+     "meanings": [
+      "졸린"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/188.mp3"
+    },
+    {
+     "text": "hungry",
+     "meanings": [
+      "배고픈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/26.mp3"
+    },
+    {
+     "text": "scared",
+     "meanings": [
+      "무서워하는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/28.mp3"
+    },
+    {
+     "text": "thirsty",
+     "meanings": [
+      "목 마른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/27.mp3"
+    },
+    {
+     "text": "healthy",
+     "meanings": [
+      "건강한"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/48.mp3"
+    },
+    {
+     "text": "lie",
+     "meanings": [
+      "거짓말하다",
+      "눕다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/497.mp3"
+    },
+    {
+     "text": "believe",
+     "meanings": [
+      "믿다",
+      "~하고 생각하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/11.mp3"
+    },
+    {
+     "text": "base",
+     "meanings": [
+      "(사물의) 맨 아랫부분",
+      "기초"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/663f9a5b8e663d9a.mp3"
+    },
+    {
+     "text": "file",
+     "meanings": [
+      "서류철",
+      "파일"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/277.mp3"
+    },
+    {
+     "text": "fact",
+     "meanings": [
+      "사실"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/463.mp3"
+    },
+    {
+     "text": "heat",
+     "meanings": [
+      "열기",
+      "가열하다",
+      "데우다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l8/245.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do you feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/667dd10e3ec3da51.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I feel hungry. I will get some popcorn.",
+       "ko": "배고파. 팝콘 좀 먹을래.",
+       "audio": "/audio/speak/3d7f65e2b3e8541e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Are you hungry?",
+       "ko": "너 배고파?",
+       "audio": "/audio/speak/793744f4233553d7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, I am.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/471891cdec984a30.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do you feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/667dd10e3ec3da51.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I feel scared. I will turn on the light.",
+       "ko": "무서워. 불을 켤래.",
+       "audio": "/audio/speak/d06b37599c40784d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Are you scared?",
+       "ko": "너 무서워?",
+       "audio": "/audio/speak/a5709fffce629d76.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, I am.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/471891cdec984a30.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does she feel?",
+       "ko": "그녀는 기분이 어때?",
+       "audio": "/audio/speak/e470edb396f0bf57.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She feels happy. She will get her birthday gift.",
+       "ko": "그녀는 기뻐해. 생일 선물을 받을 거야.",
+       "audio": "/audio/speak/8aba6f28a7716dd6.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is she happy?",
+       "ko": "그녀는 기뻐해?",
+       "audio": "/audio/speak/81769a56ff36e207.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, she is.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/9a14d8c335dc0c70.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does he feel?",
+       "ko": "그는 기분이 어때?",
+       "audio": "/audio/speak/45009cc144f6e915.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He feels thirsty. He will drink some water.",
+       "ko": "그는 목이 말라. 물을 좀 마실 거야.",
+       "audio": "/audio/speak/600b37ce96116e4c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is he thirsty?",
+       "ko": "그는 목이 말라?",
+       "audio": "/audio/speak/69bd454920c5844c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, he is.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/f262502a955a3fb4.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 5,
+   "name": "Which balloon do you want?",
+   "words": [
+    {
+     "text": "balloon",
+     "meanings": [
+      "풍선"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/451.mp3"
+    },
+    {
+     "text": "vase",
+     "meanings": [
+      "꽃병"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/575.mp3"
+    },
+    {
+     "text": "comb",
+     "meanings": [
+      "빗"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/64.mp3"
+    },
+    {
+     "text": "candle",
+     "meanings": [
+      "양초"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/122.mp3"
+    },
+    {
+     "text": "sweater",
+     "meanings": [
+      "스웨터"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/363.mp3"
+    },
+    {
+     "text": "fish",
+     "meanings": [
+      "물고기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/8.mp3"
+    },
+    {
+     "text": "hat",
+     "meanings": [
+      "모자"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/17.mp3"
+    },
+    {
+     "text": "guitar",
+     "meanings": [
+      "기타"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/249.mp3"
+    },
+    {
+     "text": "ride",
+     "meanings": [
+      "(탈 것을) 타다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/39.mp3"
+    },
+    {
+     "text": "both",
+     "meanings": [
+      "둘 다의",
+      "양쪽의"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/356.mp3"
+    },
+    {
+     "text": "stair",
+     "meanings": [
+      "계단"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/e273aca986543e6a.mp3"
+    },
+    {
+     "text": "near",
+     "meanings": [
+      "~근처에",
+      "가까이"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/4757a72a265ee087.mp3"
+    },
+    {
+     "text": "campaign",
+     "meanings": [
+      "(사회",
+      "정치적) 캠페인"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l12/247.mp3"
+    },
+    {
+     "text": "rule",
+     "meanings": [
+      "규칙"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/543.mp3"
+    },
+    {
+     "text": "finally",
+     "meanings": [
+      "마침내",
+      "마지막으로"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/22.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which balloon do you want?",
+       "ko": "어떤 풍선을 원해?",
+       "audio": "/audio/speak/553488d44870ccbb.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I want the green one. It's my favorite color.",
+       "ko": "초록색 풍선을 원해. 내가 가장 좋아하는 색이야.",
+       "audio": "/audio/speak/1ac4175acdf0846d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is green your favorite color?",
+       "ko": "초록색이 네가 가장 좋아하는 색이야?",
+       "audio": "/audio/speak/6f76c2be6c02b34c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 맞아.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which sweater do you want?",
+       "ko": "어떤 스웨터를 원해?",
+       "audio": "/audio/speak/caadbb262e3a8a0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I want the yellow one. It's my favorite color.",
+       "ko": "노란색 스웨터를 원해. 내가 가장 좋아하는 색이야.",
+       "audio": "/audio/speak/f637803371dbe76c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is yellow your favorite color?",
+       "ko": "노란색이 네가 가장 좋아하는 색이야?",
+       "audio": "/audio/speak/e32dc7325fb5d828.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 맞아.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which fish does she want?",
+       "ko": "그녀는 어떤 물고기를 원해?",
+       "audio": "/audio/speak/b27780619d6f785b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She wants the black one. It's her favorite color.",
+       "ko": "그녀는 검은색 물고기를 원해. 그녀가 가장 좋아하는 색이야.",
+       "audio": "/audio/speak/04863eab99aab363.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is black her favorite color?",
+       "ko": "검은색이 그녀가 가장 좋아하는 색이야?",
+       "audio": "/audio/speak/c2b5a9f79ff96b2c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 맞아.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which hat does Peter want?",
+       "ko": "피터는 어떤 모자를 원해?",
+       "audio": "/audio/speak/78677c178925cecb.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Peter wants the brown one. It's his favorite color.",
+       "ko": "피터는 갈색 모자를 원해. 그가 가장 좋아하는 색이야.",
+       "audio": "/audio/speak/f488d50cada8dbde.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is brown his favorite color?",
+       "ko": "갈색이 그가 가장 좋아하는 색이야?",
+       "audio": "/audio/speak/a136d2cfd5194573.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, it is.",
+       "ko": "응, 맞아.",
+       "audio": "/audio/speak/9e6d017d2307a251.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 6,
+   "name": "I like juggling.",
+   "words": [
+    {
+     "text": "juggling",
+     "meanings": [
+      "저글링하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/534a49f70ed9e07c.mp3"
+    },
+    {
+     "text": "dancing",
+     "meanings": [
+      "춤 추기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/1919faa06d3c04c5.mp3"
+    },
+    {
+     "text": "skating",
+     "meanings": [
+      "스케이트 타기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/549.mp3"
+    },
+    {
+     "text": "singing",
+     "meanings": [
+      "노래 부르기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/89ffd357d06788d3.mp3"
+    },
+    {
+     "text": "painting",
+     "meanings": [
+      "그림 그리기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/884e8db81eb802e8.mp3"
+    },
+    {
+     "text": "running",
+     "meanings": [
+      "달리기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/34082154eb0b9f17.mp3"
+    },
+    {
+     "text": "cooking",
+     "meanings": [
+      "요리하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/5cfcaa5bd65d8477.mp3"
+    },
+    {
+     "text": "swimming",
+     "meanings": [
+      "수영하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/318.mp3"
+    },
+    {
+     "text": "fall",
+     "meanings": [
+      "가을",
+      "떨어지다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/86.mp3"
+    },
+    {
+     "text": "hand",
+     "meanings": [
+      "건네주다",
+      "손"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/31.mp3"
+    },
+    {
+     "text": "form",
+     "meanings": [
+      "형태",
+      "형성하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/d99421b206ae18a5.mp3"
+    },
+    {
+     "text": "blood",
+     "meanings": [
+      "피",
+      "혈액"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/252.mp3"
+    },
+    {
+     "text": "already",
+     "meanings": [
+      "이미",
+      "벌써"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/228.mp3"
+    },
+    {
+     "text": "oil",
+     "meanings": [
+      "기름"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/121.mp3"
+    },
+    {
+     "text": "coffee",
+     "meanings": [
+      "커피"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/91d300cef2ce2425.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you like?",
+       "ko": "너는 무엇을 좋아해?",
+       "audio": "/audio/speak/a6a877348f3a9cb0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I like juggling because it's cool.",
+       "ko": "멋져서 저글링하는 것을 좋아해.",
+       "audio": "/audio/speak/e724e2001fa50db1.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you like juggling?",
+       "ko": "왜 저글링을 좋아해?",
+       "audio": "/audio/speak/0a58526ee9d8fe51.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because juggling is cool.",
+       "ko": "저글링이 멋지기 때문이야.",
+       "audio": "/audio/speak/85282a3fc4e14862.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you like?",
+       "ko": "너는 무엇을 좋아해?",
+       "audio": "/audio/speak/a6a877348f3a9cb0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I like painting because I'm good at art.",
+       "ko": "미술을 잘해서 그림 그리는 것을 좋아해.",
+       "audio": "/audio/speak/08f3f3eb81c69a99.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you like painting?",
+       "ko": "왜 그림 그리는 것을 좋아해?",
+       "audio": "/audio/speak/bd97b49bc5d8d713.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because I'm good at art.",
+       "ko": "미술을 잘하기 때문이야.",
+       "audio": "/audio/speak/eaeb5e2d684888b0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What does he like?",
+       "ko": "그는 무엇을 좋아해?",
+       "audio": "/audio/speak/1fb20a29b69259d9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He likes running because it makes him lose weight.",
+       "ko": "살을 빼게 해주어서 그는 달리는 것을 좋아해.",
+       "audio": "/audio/speak/09d0e03f94f68be2.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why does he like running?",
+       "ko": "왜 그는 달리는 것을 좋아해?",
+       "audio": "/audio/speak/8cafc02dab30c4b2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because it makes him lose weight.",
+       "ko": "살을 빼게 해주기 때문이야.",
+       "audio": "/audio/speak/057a958023c666e4.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What does she like?",
+       "ko": "그녀는 무엇을 좋아해?",
+       "audio": "/audio/speak/a86d1d8db6afc116.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She likes singing because it's exciting.",
+       "ko": "신나서 그녀는 노래 부르는 것을 좋아해.",
+       "audio": "/audio/speak/3512065c9794ecbb.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why does she like singing?",
+       "ko": "왜 그녀는 노래 부르는 것을 좋아해?",
+       "audio": "/audio/speak/86988fd0158c43cf.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because it's exciting.",
+       "ko": "신나기 때문이야.",
+       "audio": "/audio/speak/f853064d48233929.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 7,
+   "name": "He has a red and round nose.",
+   "words": [
+    {
+     "text": "straight",
+     "meanings": [
+      "곧은",
+      "생머리의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/06079ebd75d28c6c.mp3"
+    },
+    {
+     "text": "sharp",
+     "meanings": [
+      "날카로운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/439.mp3"
+    },
+    {
+     "text": "curly",
+     "meanings": [
+      "곱슬곱슬한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/171.mp3"
+    },
+    {
+     "text": "round",
+     "meanings": [
+      "둥근"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/78142c3a3892c922.mp3"
+    },
+    {
+     "text": "huge",
+     "meanings": [
+      "거대한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/118.mp3"
+    },
+    {
+     "text": "long",
+     "meanings": [
+      "긴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/49.mp3"
+    },
+    {
+     "text": "tiny",
+     "meanings": [
+      "아주 작은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/117.mp3"
+    },
+    {
+     "text": "short",
+     "meanings": [
+      "짧은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/86.mp3"
+    },
+    {
+     "text": "crown",
+     "meanings": [
+      "왕관"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/169.mp3"
+    },
+    {
+     "text": "alone",
+     "meanings": [
+      "혼자",
+      "외로운"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/330.mp3"
+    },
+    {
+     "text": "rest",
+     "meanings": [
+      "휴식",
+      "쉬다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/88.mp3"
+    },
+    {
+     "text": "safe",
+     "meanings": [
+      "안전한"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/419.mp3"
+    },
+    {
+     "text": "reason",
+     "meanings": [
+      "이유",
+      "원인"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/531.mp3"
+    },
+    {
+     "text": "feed",
+     "meanings": [
+      "먹이를 주다",
+      "먹이다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/210.mp3"
+    },
+    {
+     "text": "popular",
+     "meanings": [
+      "인기 있는"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/47.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does he look?",
+       "ko": "그는 어떻게 생겼어?",
+       "audio": "/audio/speak/39dc38a6a4d8e24b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He has a red and round nose.",
+       "ko": "그는 빨갛고 동그란 코를 가지고 있어.",
+       "audio": "/audio/speak/7e1eb431ce0e755f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Does he have a red and round nose?",
+       "ko": "그는 빨갛고 동그란 코를 가지고 있어?",
+       "audio": "/audio/speak/a214cb7406947763.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, he does.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/cc29896f4a3a294b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does she look?",
+       "ko": "그녀는 어떻게 생겼어?",
+       "audio": "/audio/speak/42bcdf98e489070a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She has long arms.",
+       "ko": "그녀는 긴 팔을 가지고 있어.",
+       "audio": "/audio/speak/307d84e9d90882e7.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Does she have long arms?",
+       "ko": "그녀는 긴 팔을 가지고 있어?",
+       "audio": "/audio/speak/ec8ebc7a7e3c1988.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, she does.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/3bcf6b23e47e2d07.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does he look?",
+       "ko": "그는 어떻게 생겼어?",
+       "audio": "/audio/speak/39dc38a6a4d8e24b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He has curly hair.",
+       "ko": "그는 곱슬머리를 가지고 있어.",
+       "audio": "/audio/speak/1910347b81411fba.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Does he have curly hair?",
+       "ko": "그는 곱슬머리를 가지고 있어?",
+       "audio": "/audio/speak/a364644350379ef2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, he does.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/cc29896f4a3a294b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does she look?",
+       "ko": "그녀는 어떻게 생겼어?",
+       "audio": "/audio/speak/42bcdf98e489070a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She has straight hair.",
+       "ko": "그녀는 생머리를 가지고 있어.",
+       "audio": "/audio/speak/00b576111b783d40.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Does she have straight hair?",
+       "ko": "그녀는 생머리를 가지고 있어?",
+       "audio": "/audio/speak/b7462e478a60ae56.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, she does.",
+       "ko": "응, 그래.",
+       "audio": "/audio/speak/3bcf6b23e47e2d07.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 1,
+   "name": "Harry the Hair (1-3)",
+   "words": [
+    {
+     "text": "windy",
+     "meanings": [
+      "바람이 부는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/19.mp3"
+    },
+    {
+     "text": "apartment building",
+     "meanings": [
+      "아파트 건물"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/0ce6c3da5c56fc0c.mp3"
+    },
+    {
+     "text": "businessman",
+     "meanings": [
+      "사업가",
+      "회사원"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/67.mp3"
+    },
+    {
+     "text": "ride the subway",
+     "meanings": [
+      "지하철을 타다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/8beb5eeace5026f0.mp3"
+    },
+    {
+     "text": "the longest",
+     "meanings": [
+      "가장 긴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/98bbf86f34e9600f.mp3"
+    },
+    {
+     "text": "medium-sized",
+     "meanings": [
+      "중간 크기의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ce97c74af279bea6.mp3"
+    },
+    {
+     "text": "blow off",
+     "meanings": [
+      "날려 보내다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/82e3b35482341819.mp3"
+    },
+    {
+     "text": "running late",
+     "meanings": [
+      "늦어지고 있는",
+      "지연되는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/c52a1dd4dbd7931c.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "This is Mr. Round.",
+     "ko": "이분은 라운드 씨입니다.",
+     "audio": "/audio/speak/910ce7c98052f5f9.mp3"
+    },
+    {
+     "text": "He is a businessman.",
+     "ko": "그는 사업가입니다.",
+     "audio": "/audio/speak/5a6569b7e0e7ab29.mp3"
+    },
+    {
+     "text": "He is very bald.",
+     "ko": "그는 머리가 매우 벗겨졌습니다.",
+     "audio": "/audio/speak/9657159b30d98c33.mp3"
+    },
+    {
+     "text": "He lives in an apartment building in Chicago.",
+     "ko": "그는 시카고의 한 아파트 건물에 삽니다.",
+     "audio": "/audio/speak/620141589060701d.mp3"
+    },
+    {
+     "text": "He rides the subway to work every morning.",
+     "ko": "그는 매일 아침 출근하기 위해 지하철을 탑니다.",
+     "audio": "/audio/speak/9188e7f7baca2517.mp3"
+    },
+    {
+     "text": "He usually wears a hat.",
+     "ko": "그는 보통 모자를 씁니다.",
+     "audio": "/audio/speak/bf20714a69d65f85.mp3"
+    },
+    {
+     "text": "The hat keeps his head warm.",
+     "ko": "그 모자는 그의 머리를 따뜻하게 해줍니다.",
+     "audio": "/audio/speak/5b8ed805d1a8750c.mp3"
+    },
+    {
+     "text": "Chicago is a very windy city.",
+     "ko": "시카고는 바람이 매우 많이 부는 도시입니다.",
+     "audio": "/audio/speak/d76d218606552da8.mp3"
+    },
+    {
+     "text": "Mr. Round does not like the cold wind very much.",
+     "ko": "라운드 씨는 차가운 바람을 별로 좋아하지 않습니다.",
+     "audio": "/audio/speak/c2799b36af396ee0.mp3"
+    },
+    {
+     "text": "Mr. Round only has three hairs on his head: a short hair, a medium-sized hair and a long hair.",
+     "ko": "라운드 씨는 머리에 짧은 머리카락, 중간 길이의 머리카락, 그리고 긴 머리카락, 이렇게 세 가닥의 머리카락만 가지고 있습니다.",
+     "audio": "/audio/speak/cb123e3c5eff585a.mp3"
+    },
+    {
+     "text": "The short hair is named Harry.",
+     "ko": "짧은 머리카락의 이름은 해리입니다.",
+     "audio": "/audio/speak/b92aa393da8f49be.mp3"
+    },
+    {
+     "text": "He is very young and adventurous.",
+     "ko": "그는 매우 어리고 모험심이 강합니다.",
+     "audio": "/audio/speak/33724060c72ef8e6.mp3"
+    },
+    {
+     "text": "The medium-sized hair is named Curly.",
+     "ko": "중간 길이의 머리카락의 이름은 컬리입니다.",
+     "audio": "/audio/speak/345af4072377b3e7.mp3"
+    },
+    {
+     "text": "She is Harry's mother.",
+     "ko": "그녀는 해리의 엄마입니다.",
+     "audio": "/audio/speak/2ca5544be4a1e247.mp3"
+    },
+    {
+     "text": "The longest hair is named Harold.",
+     "ko": "가장 긴 머리카락의 이름은 해롤드입니다.",
+     "audio": "/audio/speak/4892e822fe957598.mp3"
+    },
+    {
+     "text": "He is Harry's father.",
+     "ko": "그는 해리의 아빠입니다.",
+     "audio": "/audio/speak/065fc77196b70f11.mp3"
+    },
+    {
+     "text": "Mr. Round is running late today.",
+     "ko": "라운드 씨는 오늘 늦었습니다.",
+     "audio": "/audio/speak/1f271e26cec41c9d.mp3"
+    },
+    {
+     "text": "He puts his coat on.",
+     "ko": "그는 코트를 입습니다.",
+     "audio": "/audio/speak/25945affb8483104.mp3"
+    },
+    {
+     "text": "He runs out the door.",
+     "ko": "그는 문 밖으로 달려나갑니다.",
+     "audio": "/audio/speak/b5d1903117f07475.mp3"
+    },
+    {
+     "text": "It is a very windy day.",
+     "ko": "오늘은 바람이 매우 많이 부는 날입니다.",
+     "audio": "/audio/speak/2f3b21c121b17e23.mp3"
+    },
+    {
+     "text": "The wind blows his hat off.",
+     "ko": "바람이 그의 모자를 날려 버립니다.",
+     "audio": "/audio/speak/306d1f3fdee74889.mp3"
+    },
+    {
+     "text": "\"Oh no, my favorite hat is gone!",
+     "ko": "“이런, 내가 가장 좋아하는 모자가 없어졌잖아!",
+     "audio": "/audio/speak/b7e2eb2f22786c14.mp3"
+    },
+    {
+     "text": "Mr. Round says.",
+     "ko": "라운드 씨가 말합니다.",
+     "audio": "/audio/speak/3a11cf56883eb87d.mp3"
+    },
+    {
+     "text": "\"My poor bald head might freeze without it!",
+     "ko": "그것 없이는 내 불쌍한 대머리가 얼어 버릴지도 몰라!",
+     "audio": "/audio/speak/04cff81f8208e224.mp3"
+    },
+    {
+     "text": "What can I do?\"",
+     "ko": "내가 어떻게 해야 하지?”",
+     "audio": "/audio/speak/c9c1d22d9a31cc66.mp3"
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 2,
+   "name": "Harry the Hair (4-6)",
+   "words": [
+    {
+     "text": "be careful",
+     "meanings": [
+      "조심하다",
+      "주의하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d64bbc8d2000ba9f.mp3"
+    },
+    {
+     "text": "shout",
+     "meanings": [
+      "소리치다",
+      "외치다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/93.mp3"
+    },
+    {
+     "text": "scream",
+     "meanings": [
+      "비명을 지르다",
+      "비명"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/130.mp3"
+    },
+    {
+     "text": "in danger",
+     "meanings": [
+      "위험에 처한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a80c30864ce67c6e.mp3"
+    },
+    {
+     "text": "run after",
+     "meanings": [
+      "~를 쫓아가다",
+      "뒤쫓다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/10dfd07be2ef6802.mp3"
+    },
+    {
+     "text": "Ferris wheel",
+     "meanings": [
+      "대관람차"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/df48c1ba50eedc66.mp3"
+    },
+    {
+     "text": "pier",
+     "meanings": [
+      "부두",
+      "선착장"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/521.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Harry is happy because Mr. Round isn't wearing a hat.",
+     "ko": "해리는 라운드 씨가 모자를 쓰고 있지 않아서 행복하다.",
+     "audio": "/audio/speak/a11131b0b0613652.mp3"
+    },
+    {
+     "text": "He likes being in the wind.",
+     "ko": "그는 바람 속에 있는 것을 좋아한다.",
+     "audio": "/audio/speak/a2511010c150400f.mp3"
+    },
+    {
+     "text": "\"Whee!",
+     "ko": "야호!",
+     "audio": "/audio/speak/f0c16a33506dc105.mp3"
+    },
+    {
+     "text": "he screams.",
+     "ko": "그가 소리친다.",
+     "audio": "/audio/speak/c6db1106ba4ba861.mp3"
+    },
+    {
+     "text": "\"This is fun!",
+     "ko": "이거 정말 재미있어요!",
+     "audio": "/audio/speak/fbdadcb1ddd83666.mp3"
+    },
+    {
+     "text": "\"Harry,\" his mother shouts.",
+     "ko": "“해리!” 그의 엄마가 소리친다.",
+     "audio": "/audio/speak/5aaedf906cb3b1e9.mp3"
+    },
+    {
+     "text": "\"Sit down right now!",
+     "ko": "“당장 앉아!",
+     "audio": "/audio/speak/c45ae21df97bcfa8.mp3"
+    },
+    {
+     "text": "You are in danger!",
+     "ko": "너 위험해!”",
+     "audio": "/audio/speak/69ea8418d90a5436.mp3"
+    },
+    {
+     "text": "\"But, it's so much fun, Mom,\" Harry says.",
+     "ko": "“하지만, 정말 재미있어요, 엄마,” 해리가 말한다.",
+     "audio": "/audio/speak/495c8b57b71ea766.mp3"
+    },
+    {
+     "text": "\"And I can see so many wonderful things.",
+     "ko": "“그리고 정말 많은 멋진 것들을 볼 수 있어요.”",
+     "audio": "/audio/speak/f66c0ef856593e09.mp3"
+    },
+    {
+     "text": "Harry sees a long pier and a great big Ferris wheel.",
+     "ko": "해리는 긴 부두와 아주 큰 관람차를 본다.",
+     "audio": "/audio/speak/32d47ce74fae13be.mp3"
+    },
+    {
+     "text": "\"Look at that!",
+     "ko": "“저것 좀 봐!”",
+     "audio": "/audio/speak/7d337b9fc7740cfc.mp3"
+    },
+    {
+     "text": "Harry says.",
+     "ko": "해리가 말한다.",
+     "audio": "/audio/speak/f271724ed0e960ab.mp3"
+    },
+    {
+     "text": "\"It must be Navy Pier.",
+     "ko": "“네이비 피어임이 틀림없어.",
+     "audio": "/audio/speak/c5ca03dd27348700.mp3"
+    },
+    {
+     "text": "This is so exciting!",
+     "ko": "이거 정말 신난다!",
+     "audio": "/audio/speak/96140dc7cbeeabc6.mp3"
+    },
+    {
+     "text": "And the wind feels so fresh and cool!",
+     "ko": "그리고 바람이 정말 상쾌하고 시원해!”",
+     "audio": "/audio/speak/3fa20e8bd4b1307f.mp3"
+    },
+    {
+     "text": "\"Harry,\" his father says.",
+     "ko": "“해리,” 그의 아빠가 말한다.",
+     "audio": "/audio/speak/a335825cbae7a6e1.mp3"
+    },
+    {
+     "text": "\"Sit down right now!",
+     "ko": "“당장 앉아!",
+     "audio": "/audio/speak/c45ae21df97bcfa8.mp3"
+    },
+    {
+     "text": "You have to be careful.",
+     "ko": "조심해야 해.",
+     "audio": "/audio/speak/d0a2e13c8c11daed.mp3"
+    },
+    {
+     "text": "You are in danger.",
+     "ko": "너 위험해.”",
+     "audio": "/audio/speak/c2998e6e6f668c63.mp3"
+    },
+    {
+     "text": "Mr. Round wants to run after his hat.",
+     "ko": "라운드 씨는 자신의 모자를 쫓아가고 싶어 한다.",
+     "audio": "/audio/speak/8290021e826bbff9.mp3"
+    },
+    {
+     "text": "\"Maybe I have enough time,\" he says.",
+     "ko": "“아마 시간이 충분할 거야.” 그가 말한다.",
+     "audio": "/audio/speak/af6c0ac6c86d8e2f.mp3"
+    },
+    {
+     "text": "He looks at his watch.",
+     "ko": "그는 자신의 시계를 본다.",
+     "audio": "/audio/speak/68c053d80c63b885.mp3"
+    },
+    {
+     "text": "It is 8 a.m.",
+     "ko": "오전 8시이다.",
+     "audio": "/audio/speak/70db216d9bfd3cbd.mp3"
+    },
+    {
+     "text": "\"Shoot,\" he says.",
+     "ko": "“이런,” 그가 말한다.",
+     "audio": "/audio/speak/ea5b5696722fa42f.mp3"
+    },
+    {
+     "text": "\"I'm late.",
+     "ko": "“늦었잖아.",
+     "audio": "/audio/speak/745c6cbac15474ac.mp3"
+    },
+    {
+     "text": "I don't have time.",
+     "ko": "시간이 없어.",
+     "audio": "/audio/speak/b69c41addcc90079.mp3"
+    },
+    {
+     "text": "It's gone forever.",
+     "ko": "영원히 사라졌어.",
+     "audio": "/audio/speak/a940585de05fa5cf.mp3"
+    },
+    {
+     "text": "Maybe I can buy a new hat later.",
+     "ko": "나중에 새 모자를 살 수 있을지도 몰라.”",
+     "audio": "/audio/speak/874d435e1b08701e.mp3"
+    },
+    {
+     "text": "He walks into the subway station.",
+     "ko": "그는 지하철역 안으로 걸어 들어간다.",
+     "audio": "/audio/speak/f7b54b90f92b5494.mp3"
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 3,
+   "name": "Harry the Hair (7-9)",
+   "words": [
+    {
+     "text": "subway station",
+     "meanings": [
+      "지하철역"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l7/214.mp3"
+    },
+    {
+     "text": "wait for",
+     "meanings": [
+      "~를 기다리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/c5639088e1a699ab.mp3"
+    },
+    {
+     "text": "scarf",
+     "meanings": [
+      "스카프",
+      "목도리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/366.mp3"
+    },
+    {
+     "text": "platform",
+     "meanings": [
+      "승강장",
+      "플랫폼"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/183.mp3"
+    },
+    {
+     "text": "ad",
+     "meanings": [
+      "광고 (advertisement의 줄임말)"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e362c575c0e53a05.mp3"
+    },
+    {
+     "text": "get on",
+     "meanings": [
+      "(차",
+      "열차 등에) 타다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/30a0d193d4534eb9.mp3"
+    },
+    {
+     "text": "arrive",
+     "meanings": [
+      "도착하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/2.mp3"
+    },
+    {
+     "text": "get off",
+     "meanings": [
+      "(차",
+      "열차 등에서) 내리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/05014600923823a1.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "The subway station is very warm.",
+     "ko": "지하철역은 매우 따뜻하다.",
+     "audio": "/audio/speak/a2865024ed57348d.mp3"
+    },
+    {
+     "text": "Mr. Round waits for the subway.",
+     "ko": "라운드 씨는 지하철을 기다린다.",
+     "audio": "/audio/speak/b739deb5f2cdea51.mp3"
+    },
+    {
+     "text": "\"Where are we?",
+     "ko": "우리가 어디에 있는 거죠?",
+     "audio": "/audio/speak/a98889a855ca471e.mp3"
+    },
+    {
+     "text": "Harry asks.",
+     "ko": "해리가 묻는다.",
+     "audio": "/audio/speak/4bebba4daf9364b5.mp3"
+    },
+    {
+     "text": "\"This is the subway platform,\" Harry's father says.",
+     "ko": "여기는 지하철 승강장이란다.",
+     "audio": "/audio/speak/a55909e9c3b45f55.mp3"
+    },
+    {
+     "text": "\"People wait for the subway here.",
+     "ko": "사람들은 여기서 지하철을 기다려.",
+     "audio": "/audio/speak/844f14037b24876b.mp3"
+    },
+    {
+     "text": "\"Why is everyone wearing scarves and hats?",
+     "ko": "왜 모두 스카프와 모자를 쓰고 있어요?",
+     "audio": "/audio/speak/6a67915ae7772182.mp3"
+    },
+    {
+     "text": "Harry asks.",
+     "ko": "해리가 묻는다.",
+     "audio": "/audio/speak/4bebba4daf9364b5.mp3"
+    },
+    {
+     "text": "\"It's winter, Harry,\" his father says.",
+     "ko": "겨울이잖니, 해리.",
+     "audio": "/audio/speak/1eb2c9b635e927b6.mp3"
+    },
+    {
+     "text": "\"They want to stay warm.",
+     "ko": "그들은 따뜻하게 지내고 싶은 거지.",
+     "audio": "/audio/speak/13cb7bb089cfe6d7.mp3"
+    },
+    {
+     "text": "The subway arrives.",
+     "ko": "지하철이 도착한다.",
+     "audio": "/audio/speak/33fdf3867b1a2b92.mp3"
+    },
+    {
+     "text": "Mr. Round gets on.",
+     "ko": "라운드 씨가 탄다.",
+     "audio": "/audio/speak/4a9cfc7042d420bd.mp3"
+    },
+    {
+     "text": "There are many people on the subway.",
+     "ko": "지하철에는 많은 사람이 있다.",
+     "audio": "/audio/speak/55a44f09c4956b5c.mp3"
+    },
+    {
+     "text": "Mr. Round is reading a newspaper.",
+     "ko": "라운드 씨는 신문을 읽고 있다.",
+     "audio": "/audio/speak/3fc619c28ebb89f1.mp3"
+    },
+    {
+     "text": "Harry tries to look out the window, but Mr. Round is too tall.",
+     "ko": "해리는 창밖을 내다보려 하지만, 라운드 씨가 너무 키가 크다.",
+     "audio": "/audio/speak/cfd9b17ad9b16fb0.mp3"
+    },
+    {
+     "text": "Harry can only see the ads above the seats.",
+     "ko": "해리는 좌석 위 광고판만 볼 수 있다.",
+     "audio": "/audio/speak/683ac8dff518a91d.mp3"
+    },
+    {
+     "text": "\"The subway is boring,\" Harry says.",
+     "ko": "지하철은 지루해요.",
+     "audio": "/audio/speak/7dfb55a1f73b96df.mp3"
+    },
+    {
+     "text": "\"I want to go outside again.",
+     "ko": "다시 밖에 나가고 싶어요.",
+     "audio": "/audio/speak/5d38d77314519fd7.mp3"
+    },
+    {
+     "text": "Mr. Round gets off the subway.",
+     "ko": "라운드 씨가 지하철에서 내린다.",
+     "audio": "/audio/speak/8a1510cfe7e23a5e.mp3"
+    },
+    {
+     "text": "He walks to his office building.",
+     "ko": "그는 자신의 사무실 건물로 걸어간다.",
+     "audio": "/audio/speak/9c67802ed4282186.mp3"
+    },
+    {
+     "text": "The wind is very strong and very cold.",
+     "ko": "바람이 아주 강하고 매우 차갑다.",
+     "audio": "/audio/speak/f1f0af863ba8c7e3.mp3"
+    },
+    {
+     "text": "Harry sees a big black building.",
+     "ko": "해리가 크고 검은 건물을 본다.",
+     "audio": "/audio/speak/0853412807959cca.mp3"
+    },
+    {
+     "text": "\"That must be the Sears Tower,\" Harry says.",
+     "ko": "“저건 시어스 타워임이 틀림없어,” 해리가 말한다.",
+     "audio": "/audio/speak/35169ecb874386af.mp3"
+    },
+    {
+     "text": "It is the biggest building in the country.",
+     "ko": "그것은 그 나라에서 가장 큰 건물이다.",
+     "audio": "/audio/speak/b75be129079f83e0.mp3"
+    },
+    {
+     "text": "\"Harry, I'm not going to tell you again,\" his father says.",
+     "ko": "“해리, 다시는 말 안 할 거야,” 그의 아버지가 말한다.",
+     "audio": "/audio/speak/b42bc375d4fb920a.mp3"
+    },
+    {
+     "text": "\"Sit down!\"",
+     "ko": "“앉아!”",
+     "audio": "/audio/speak/7ef84244a773ea5b.mp3"
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 5,
+   "name": "Harry the Hair (10-13)",
+   "words": [
+    {
+     "text": "gust of wind",
+     "meanings": [
+      "돌풍"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l7/583.mp3"
+    },
+    {
+     "text": "blown away",
+     "meanings": [
+      "날아간",
+      "감명받은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/81c4a121ad065504.mp3"
+    },
+    {
+     "text": "lost",
+     "meanings": [
+      "길을 잃은",
+      "잃어버린"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e8e7031eade10522.mp3"
+    },
+    {
+     "text": "far away",
+     "meanings": [
+      "멀리 떨어진"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/6a5efb279905c613.mp3"
+    },
+    {
+     "text": "land",
+     "meanings": [
+      "착륙하다",
+      "땅",
+      "육지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/210.mp3"
+    },
+    {
+     "text": "surprised",
+     "meanings": [
+      "놀란"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/156.mp3"
+    },
+    {
+     "text": "fluffy",
+     "meanings": [
+      "솜털 같은",
+      "푹신푹신한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/73319d8a3d3666a2.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Suddenly, there is a very strong gust of wind.",
+     "ko": "갑자기, 아주 강한 돌풍이 불어옵니다.",
+     "audio": "/audio/speak/0a21f5c88e0ecdde.mp3"
+    },
+    {
+     "text": "Harry is blown away!",
+     "ko": "해리가 날아가 버립니다!",
+     "audio": "/audio/speak/c5d7744ee1041549.mp3"
+    },
+    {
+     "text": "\"Help me!",
+     "ko": "살려줘요!",
+     "audio": "/audio/speak/70e14e3ab6d31ec4.mp3"
+    },
+    {
+     "text": "Harry screams.",
+     "ko": "해리가 소리칩니다.",
+     "audio": "/audio/speak/b8255bcb9a56c215.mp3"
+    },
+    {
+     "text": "\"Grab onto me,\" his father says.",
+     "ko": "나를 붙잡아!",
+     "audio": "/audio/speak/aa27d3ac03189003.mp3"
+    },
+    {
+     "text": "\"Try hard!",
+     "ko": "힘껏 노력해!",
+     "audio": "/audio/speak/3c202675f7ff8179.mp3"
+    },
+    {
+     "text": "Harry tries, but he cannot reach his father.",
+     "ko": "해리가 노력하지만, 아빠에게 닿을 수 없습니다.",
+     "audio": "/audio/speak/e07bf82469607839.mp3"
+    },
+    {
+     "text": "Mr. Round walks away.",
+     "ko": "미스터 라운드가 걸어갑니다.",
+     "audio": "/audio/speak/68e09ac5a651d13b.mp3"
+    },
+    {
+     "text": "Harry is lost.",
+     "ko": "해리는 길을 잃습니다.",
+     "audio": "/audio/speak/545c384373b245ac.mp3"
+    },
+    {
+     "text": "\"Oh no!",
+     "ko": "오 이런!",
+     "audio": "/audio/speak/c780fae5b8d0df64.mp3"
+    },
+    {
+     "text": "Harry yells.",
+     "ko": "해리가 소리칩니다.",
+     "audio": "/audio/speak/67dd4b15353de12f.mp3"
+    },
+    {
+     "text": "\"I'm lost!",
+     "ko": "길을 잃었어요!",
+     "audio": "/audio/speak/bae2e699918da24b.mp3"
+    },
+    {
+     "text": "What can I do?",
+     "ko": "어떻게 해야 하죠?",
+     "audio": "/audio/speak/1d9eba524e07e463.mp3"
+    },
+    {
+     "text": "The wind carries Harry far, far away.",
+     "ko": "바람이 해리를 멀리, 아주 멀리 날려 보냅니다.",
+     "audio": "/audio/speak/14c9b3c9107cada4.mp3"
+    },
+    {
+     "text": "\"Help!",
+     "ko": "도와줘요!",
+     "audio": "/audio/speak/671965f96860367b.mp3"
+    },
+    {
+     "text": "he screams.",
+     "ko": "그가 소리칩니다.",
+     "audio": "/audio/speak/c6db1106ba4ba861.mp3"
+    },
+    {
+     "text": "He passes many buildings.",
+     "ko": "그는 많은 건물들을 지나칩니다.",
+     "audio": "/audio/speak/5bbfcd7e7b791f20.mp3"
+    },
+    {
+     "text": "He flies over many streets.",
+     "ko": "그는 많은 거리 위를 날아갑니다.",
+     "audio": "/audio/speak/0e73dbede7834e00.mp3"
+    },
+    {
+     "text": "He sees many people.",
+     "ko": "그는 많은 사람들을 봅니다.",
+     "audio": "/audio/speak/33135f3a4ab6720f.mp3"
+    },
+    {
+     "text": "The wind continues to blow.",
+     "ko": "바람은 계속해서 붑니다.",
+     "audio": "/audio/speak/630f9c2618156724.mp3"
+    },
+    {
+     "text": "\"This is not fun anymore!",
+     "ko": "이건 더 이상 재미없어!",
+     "audio": "/audio/speak/369d75f9e4da7e62.mp3"
+    },
+    {
+     "text": "Harry screams.",
+     "ko": "해리가 소리쳐요.",
+     "audio": "/audio/speak/b8255bcb9a56c215.mp3"
+    },
+    {
+     "text": "\"I don't like the wind anymore.",
+     "ko": "나는 더 이상 바람이 싫어.",
+     "audio": "/audio/speak/0e7ca449aa62f6cf.mp3"
+    },
+    {
+     "text": "I want to go home.",
+     "ko": "집에 가고 싶어.",
+     "audio": "/audio/speak/a0570788cc838c00.mp3"
+    },
+    {
+     "text": "Please, somebody help me!",
+     "ko": "제발, 누가 나 좀 도와줘!",
+     "audio": "/audio/speak/d34d767906a6d544.mp3"
+    },
+    {
+     "text": "Harry lands on a white, fluffy dog.",
+     "ko": "해리가 하얗고 푹신한 개 위로 떨어져요.",
+     "audio": "/audio/speak/6b4f5a8b6eba31cc.mp3"
+    },
+    {
+     "text": "He starts crying.",
+     "ko": "그는 울기 시작해요.",
+     "audio": "/audio/speak/4fd314821a265165.mp3"
+    },
+    {
+     "text": "Suddenly, he hears a voice.",
+     "ko": "갑자기, 그는 목소리를 들어요.",
+     "audio": "/audio/speak/d9ed9d0dfe1e19e7.mp3"
+    },
+    {
+     "text": "It's the dog.",
+     "ko": "그건 개였어요.",
+     "audio": "/audio/speak/e306621b69ae43e1.mp3"
+    },
+    {
+     "text": "\"What's your name, little hair?",
+     "ko": "꼬마 털뭉치야, 네 이름이 뭐니?",
+     "audio": "/audio/speak/1dabe0a6acc1b327.mp3"
+    },
+    {
+     "text": "the dog asks.",
+     "ko": "개가 물어요.",
+     "audio": "/audio/speak/2ac972efaca338ab.mp3"
+    },
+    {
+     "text": "Harry is surprised.",
+     "ko": "해리는 놀라요.",
+     "audio": "/audio/speak/466d6c0f30893ee6.mp3"
+    },
+    {
+     "text": "\"I'm Harry,\" he replies.",
+     "ko": "나는 해리야,",
+     "audio": "/audio/speak/cf630514f9f3cd8c.mp3"
+    },
+    {
+     "text": "\"Who are you?",
+     "ko": "그가 대답해요.",
+     "audio": "/audio/speak/d8a31f46cde9fe66.mp3"
+    },
+    {
+     "text": "\"I'm Shaggy,\" the dog says.",
+     "ko": "너는 누구니? 나는 섀기야,",
+     "audio": "/audio/speak/a01bb1d0f4300c46.mp3"
+    },
+    {
+     "text": "\"Why are you crying?",
+     "ko": "개가 말해요.",
+     "audio": "/audio/speak/31398a63b115864c.mp3"
+    },
+    {
+     "text": "\"I miss my home on Mr. Round's head,\" Harry says.",
+     "ko": "왜 울고 있니? 미스터 라운드 아저씨 머리 위에 있는 내 집이 그리워,",
+     "audio": "/audio/speak/7e2d011589c082d3.mp3"
+    },
+    {
+     "text": "\"Where does Mr. Round live?",
+     "ko": "해리가 말해요.",
+     "audio": "/audio/speak/8d8822e46337a9b2.mp3"
+    },
+    {
+     "text": "Shaggy asks.",
+     "ko": "미스터 라운드 아저씨는 어디 사시니? 섀기가 물어요.",
+     "audio": "/audio/speak/a7e4bc5d20c07638.mp3"
+    },
+    {
+     "text": "\"He lives on the north side of town,\" Harry says.",
+     "ko": "그는 마을의 북쪽에 사셔,",
+     "audio": "/audio/speak/a02a15010a96866b.mp3"
+    },
+    {
+     "text": "\"Don't worry,\" Shaggy says.",
+     "ko": "“걱정 마,” 섀기가 말한다.",
+     "audio": "/audio/speak/88790dbf71b37b40.mp3"
+    },
+    {
+     "text": "\"You can stay with me for now.",
+     "ko": "너는 지금은 나와 함께 지낼 수 있어.",
+     "audio": "/audio/speak/646703a47e237e6c.mp3"
+    },
+    {
+     "text": "You can fly to the north side of town and find Mr. Round tonight.",
+     "ko": "너는 오늘 밤 마을 북쪽으로 날아가서 미스터 라운드를 찾을 수 있어.",
+     "audio": "/audio/speak/35eded3f8c2a608a.mp3"
+    },
+    {
+     "text": "\"But how?",
+     "ko": "“하지만 어떻게?",
+     "audio": "/audio/speak/ea4f045732ae9962.mp3"
+    },
+    {
+     "text": "Harry asks.",
+     "ko": "해리가 묻는다.",
+     "audio": "/audio/speak/4bebba4daf9364b5.mp3"
+    },
+    {
+     "text": "\"I don't know the city very well.\"",
+     "ko": "나는 이 도시를 아주 잘 몰라.”",
+     "audio": "/audio/speak/c0f5e087a7f0fed3.mp3"
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 6,
+   "name": "Harry the Hair (14-17)",
+   "words": [
+    {
+     "text": "tourist sight",
+     "meanings": [
+      "관광지",
+      "명소"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/69bfa251ed4e6361.mp3"
+    },
+    {
+     "text": "stadium",
+     "meanings": [
+      "경기장"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/567.mp3"
+    },
+    {
+     "text": "airport",
+     "meanings": [
+      "공항"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/20.mp3"
+    },
+    {
+     "text": "aquarium",
+     "meanings": [
+      "수족관"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l7/237.mp3"
+    },
+    {
+     "text": "brave",
+     "meanings": [
+      "용감한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/49.mp3"
+    },
+    {
+     "text": "direction",
+     "meanings": [
+      "방향",
+      "지시"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/33.mp3"
+    },
+    {
+     "text": "workplace",
+     "meanings": [
+      "직장",
+      "작업장"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/596.mp3"
+    },
+    {
+     "text": "take a deep breath",
+     "meanings": [
+      "심호흡을 하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/371324f4a7784e9b.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"There are many tourist sights on your way home,\" Shaggy says.",
+     "ko": "집으로 가는 길에 많은 관광 명소가 있어,",
+     "audio": "/audio/speak/91f98e3d00a20a45.mp3"
+    },
+    {
+     "text": "\"Right now, we are at New Comiskey Park.",
+     "ko": "지금 우리는 뉴 코미스키 파크에 있어.",
+     "audio": "/audio/speak/07acd218387aabdd.mp3"
+    },
+    {
+     "text": "Harry looks to his left.",
+     "ko": "해리가 왼쪽을 본다.",
+     "audio": "/audio/speak/872ce6545dc32d51.mp3"
+    },
+    {
+     "text": "He sees a big stadium.",
+     "ko": "그는 큰 경기장을 본다.",
+     "audio": "/audio/speak/edb9056573f19235.mp3"
+    },
+    {
+     "text": "\"The White Sox play baseball here,\" he says.",
+     "ko": "화이트삭스 팀이 여기서 야구를 해,",
+     "audio": "/audio/speak/3be7c24bae3a2786.mp3"
+    },
+    {
+     "text": "\"That's right!",
+     "ko": "맞아!",
+     "audio": "/audio/speak/b87ea6d7db492670.mp3"
+    },
+    {
+     "text": "Shaggy replies.",
+     "ko": "섀기가 대답한다.",
+     "audio": "/audio/speak/68b0d6b0cfec5a68.mp3"
+    },
+    {
+     "text": "\"Just ride on the wind.",
+     "ko": "그냥 바람을 타고 가.",
+     "audio": "/audio/speak/e33674b9e1102fe0.mp3"
+    },
+    {
+     "text": "Go north.",
+     "ko": "북쪽으로 가.",
+     "audio": "/audio/speak/19fb2e1b629fd191.mp3"
+    },
+    {
+     "text": "You can easily find your way home.",
+     "ko": "집으로 가는 길을 쉽게 찾을 수 있을 거야.",
+     "audio": "/audio/speak/85a62f2d2bdc2e3d.mp3"
+    },
+    {
+     "text": "\"The airport is not far from here,\" Shaggy says.",
+     "ko": "공항은 여기서 멀지 않아,",
+     "audio": "/audio/speak/ba8c98f5c6b9b116.mp3"
+    },
+    {
+     "text": "\"There are lots of planes there.",
+     "ko": "그곳에는 비행기가 많아.",
+     "audio": "/audio/speak/8fba6f46a94ead0a.mp3"
+    },
+    {
+     "text": "You can't miss it.",
+     "ko": "놓칠 리 없을 거야.",
+     "audio": "/audio/speak/e8baf056a297f2ae.mp3"
+    },
+    {
+     "text": "\"Okay,\" Harry says.",
+     "ko": "알겠어,",
+     "audio": "/audio/speak/4accac1794956b4c.mp3"
+    },
+    {
+     "text": "\"But where do I go from there?",
+     "ko": "하지만 거기서부터는 어디로 가야 해?",
+     "audio": "/audio/speak/625858a3679eb4cf.mp3"
+    },
+    {
+     "text": "\"Continue traveling north,\" Shaggy says.",
+     "ko": "계속 북쪽으로 이동해,",
+     "audio": "/audio/speak/838f71ab7e3fe797.mp3"
+    },
+    {
+     "text": "\"The next sight is the Shedd Aquarium.",
+     "ko": "다음 명소는 셰드 아쿠아리움이야.",
+     "audio": "/audio/speak/31fa2a1e67e797b2.mp3"
+    },
+    {
+     "text": "It is a big gray building.",
+     "ko": "그곳은 크고 회색 건물이야.",
+     "audio": "/audio/speak/bc3c151cc26856ea.mp3"
+    },
+    {
+     "text": "\"But where do I go from there?",
+     "ko": "하지만 거기서부터는 어디로 가야 해?",
+     "audio": "/audio/speak/625858a3679eb4cf.mp3"
+    },
+    {
+     "text": "Harry asks.",
+     "ko": "해리가 묻는다.",
+     "audio": "/audio/speak/4bebba4daf9364b5.mp3"
+    },
+    {
+     "text": "\"The next sight is the Sears Tower,\" Shaggy says.",
+     "ko": "다음 볼거리는 시어스 타워야, 섀기(Shaggy)가 말한다.",
+     "audio": "/audio/speak/3486a6cf3acc945d.mp3"
+    },
+    {
+     "text": "\"It is the biggest building in the country!",
+     "ko": "그건 이 나라에서 가장 큰 건물이야!",
+     "audio": "/audio/speak/49519bd0c71b2057.mp3"
+    },
+    {
+     "text": "\"I know it well!",
+     "ko": "나 거기 잘 알아!",
+     "audio": "/audio/speak/8f72968ab1f21f12.mp3"
+    },
+    {
+     "text": "Harry says.",
+     "ko": "해리(Harry)가 말한다.",
+     "audio": "/audio/speak/f271724ed0e960ab.mp3"
+    },
+    {
+     "text": "\"It is very close to Mr. Round's workplace.",
+     "ko": "라운드 씨(Mr. Round)의 직장과 아주 가깝거든.",
+     "audio": "/audio/speak/c4c990ccb418aab2.mp3"
+    },
+    {
+     "text": "\"Continue traveling north after you see the Sears Tower,\" Shaggy says.",
+     "ko": "시어스 타워를 본 후에는 계속 북쪽으로 이동해, 섀기가 말한다.",
+     "audio": "/audio/speak/2692bfbf952faafb.mp3"
+    },
+    {
+     "text": "\"The next sight is Navy Pier.",
+     "ko": "다음 볼거리는 네이비 피어야.",
+     "audio": "/audio/speak/18056bc826eacb50.mp3"
+    },
+    {
+     "text": "\"I can go home from there!",
+     "ko": "거기서 집으로 갈 수 있어!",
+     "audio": "/audio/speak/b6e4c3a8e7576a01.mp3"
+    },
+    {
+     "text": "Harry says.",
+     "ko": "해리가 말한다.",
+     "audio": "/audio/speak/f271724ed0e960ab.mp3"
+    },
+    {
+     "text": "\"Hooray!",
+     "ko": "만세!",
+     "audio": "/audio/speak/8bbc22dac7ec5470.mp3"
+    },
+    {
+     "text": "\"The wind is changing directions,\" Shaggy says.",
+     "ko": "바람의 방향이 바뀌고 있어, 섀기가 말한다.",
+     "audio": "/audio/speak/8089b00ebb08201f.mp3"
+    },
+    {
+     "text": "\"You should go now!",
+     "ko": "지금 가야 해!",
+     "audio": "/audio/speak/5d337f43042f3d91.mp3"
+    },
+    {
+     "text": "Harry takes a deep breath.",
+     "ko": "해리는 심호흡을 한다.",
+     "audio": "/audio/speak/b8218260a49453fb.mp3"
+    },
+    {
+     "text": "He jumps into the wind.",
+     "ko": "그는 바람 속으로 뛰어든다.",
+     "audio": "/audio/speak/50720896a667bee9.mp3"
+    },
+    {
+     "text": "\"Thank-you very much, Shaggy,\" he yells.",
+     "ko": "정말 고마워, 섀기! 그가 소리친다.",
+     "audio": "/audio/speak/95533605ec6da25d.mp3"
+    },
+    {
+     "text": "The wind blows him away.",
+     "ko": "바람이 그를 멀리 날려 보낸다.",
+     "audio": "/audio/speak/7856c649d5d71ee6.mp3"
+    },
+    {
+     "text": "\"Good luck, Harry,\" Shaggy yells.",
+     "ko": "행운을 빌어, 해리! 섀기가 소리친다.",
+     "audio": "/audio/speak/4f1eb23eda6e1470.mp3"
+    },
+    {
+     "text": "\"You can do it.",
+     "ko": "넌 할 수 있어.",
+     "audio": "/audio/speak/8262e5d082d1b703.mp3"
+    },
+    {
+     "text": "Just keep traveling north.",
+     "ko": "계속 북쪽으로 이동하기만 해.",
+     "audio": "/audio/speak/b06fc5b5b1be6d88.mp3"
+    },
+    {
+     "text": "Keep your eyes open.",
+     "ko": "눈을 크게 뜨고 있어.",
+     "audio": "/audio/speak/739d60cf34e08a74.mp3"
+    },
+    {
+     "text": "Be brave.\"",
+     "ko": "용기를 내.",
+     "audio": "/audio/speak/64babbd208d76461.mp3"
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 7,
+   "name": "Harry the Hair (18-21)",
+   "words": [
+    {
+     "text": "fantastic",
+     "meanings": [
+      "환상적인",
+      "멋진"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/468.mp3"
+    },
+    {
+     "text": "impressed",
+     "meanings": [
+      "감명받은",
+      "깊은 인상을 받은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d27033ce36cc3b0f.mp3"
+    },
+    {
+     "text": "get closer",
+     "meanings": [
+      "더 가까워지다",
+      "다가가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f6c69152329e4dfc.mp3"
+    },
+    {
+     "text": "airplane",
+     "meanings": [
+      "비행기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/62.mp3"
+    },
+    {
+     "text": "wig",
+     "meanings": [
+      "가발"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/25439e00e80d9c3e.mp3"
+    },
+    {
+     "text": "take off",
+     "meanings": [
+      "이륙하다",
+      "(옷 등을) 벗다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/211.mp3"
+    },
+    {
+     "text": "curly",
+     "meanings": [
+      "곱슬거리는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/171.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Harry flies north.",
+     "ko": "해리가 북쪽으로 날아간다.",
+     "audio": "/audio/speak/b3804756e813f01e.mp3"
+    },
+    {
+     "text": "He sees the airport.",
+     "ko": "그는 공항을 본다.",
+     "audio": "/audio/speak/b4ed15332a4832aa.mp3"
+    },
+    {
+     "text": "He sees a big airplane.",
+     "ko": "그는 큰 비행기를 본다.",
+     "audio": "/audio/speak/1adfd60b3525d475.mp3"
+    },
+    {
+     "text": "\"Oh, wow!",
+     "ko": "오, 와우!",
+     "audio": "/audio/speak/5b42ab6b6cb8789f.mp3"
+    },
+    {
+     "text": "Harry says.",
+     "ko": "해리가 말한다.",
+     "audio": "/audio/speak/f271724ed0e960ab.mp3"
+    },
+    {
+     "text": "\"That plane is so cool.",
+     "ko": "저 비행기 정말 멋지다.",
+     "audio": "/audio/speak/54bddc99f4031c46.mp3"
+    },
+    {
+     "text": "I want to go for a ride.",
+     "ko": "나도 한번 타보고 싶다.",
+     "audio": "/audio/speak/e3b7171ae2d87ad7.mp3"
+    },
+    {
+     "text": "Next, Harry sees a big gray building.",
+     "ko": "다음으로, 해리는 크고 회색인 건물을 본다.",
+     "audio": "/audio/speak/738accab03f23ac9.mp3"
+    },
+    {
+     "text": "\"That is the Shedd Aquarium,\" Harry says.",
+     "ko": "저것은 셰드 아쿠아리움이야, 해리가 말한다.",
+     "audio": "/audio/speak/ff35b5f7e71af3cd.mp3"
+    },
+    {
+     "text": "\"I am traveling north.",
+     "ko": "나는 북쪽으로 여행하고 있어.",
+     "audio": "/audio/speak/53fe61d04ed66956.mp3"
+    },
+    {
+     "text": "I am getting closer to Mr. Round's apartment building.",
+     "ko": "나는 라운드 씨의 아파트 건물에 점점 가까워지고 있어.",
+     "audio": "/audio/speak/96cacd1a29c46afb.mp3"
+    },
+    {
+     "text": "The wind continues to blow Harry north.",
+     "ko": "바람은 계속해서 해리를 북쪽으로 불어 보낸다.",
+     "audio": "/audio/speak/83b4424941bf5aa1.mp3"
+    },
+    {
+     "text": "He lands on the top of the Sears Tower.",
+     "ko": "그는 시어스 타워 꼭대기에 착륙한다.",
+     "audio": "/audio/speak/3293d06403a5de22.mp3"
+    },
+    {
+     "text": "He can see the whole city.",
+     "ko": "그는 도시 전체를 볼 수 있다.",
+     "audio": "/audio/speak/cf940be7d5954736.mp3"
+    },
+    {
+     "text": "\"Chicago is such a big city,\" Harry thinks.",
+     "ko": "시카고는 정말 큰 도시야, 해리가 생각한다.",
+     "audio": "/audio/speak/cb95d64abdd65132.mp3"
+    },
+    {
+     "text": "Harry can see the lights of many buildings.",
+     "ko": "해리는 많은 건물의 불빛을 볼 수 있다.",
+     "audio": "/audio/speak/e305d9ed811df1b4.mp3"
+    },
+    {
+     "text": "He is very impressed.",
+     "ko": "그는 매우 감명받는다.",
+     "audio": "/audio/speak/8424350a303a325c.mp3"
+    },
+    {
+     "text": "\"It's so beautiful,\" Harry says.",
+     "ko": "정말 아름다워, 해리가 말한다.",
+     "audio": "/audio/speak/15f9c83846f95207.mp3"
+    },
+    {
+     "text": "\"What a fantastic adventure!",
+     "ko": "정말 환상적인 모험이야!",
+     "audio": "/audio/speak/fd76a60257018fa1.mp3"
+    },
+    {
+     "text": "Harry jumps back into the wind.",
+     "ko": "해리는 다시 바람 속으로 뛰어든다.",
+     "audio": "/audio/speak/b2b330030d48c3a3.mp3"
+    },
+    {
+     "text": "He travels further north.",
+     "ko": "그는 더 북쪽으로 이동합니다.",
+     "audio": "/audio/speak/13d478810adee5e9.mp3"
+    },
+    {
+     "text": "After several minutes, he sees Navy Pier.",
+     "ko": "몇 분 뒤, 그는 네이비 피어를 봅니다.",
+     "audio": "/audio/speak/7b8b8c168a5b3423.mp3"
+    },
+    {
+     "text": "\"Yahoo!",
+     "ko": "야호!",
+     "audio": "/audio/speak/b48ee5b6e7fc0946.mp3"
+    },
+    {
+     "text": "Harry says.",
+     "ko": "해리가 말합니다.",
+     "audio": "/audio/speak/f271724ed0e960ab.mp3"
+    },
+    {
+     "text": "\"I'm almost home!",
+     "ko": "거의 집에 다 왔어!",
+     "audio": "/audio/speak/4c792863d1e63d2d.mp3"
+    },
+    {
+     "text": "I can't wait to see my parents.",
+     "ko": "부모님을 어서 보고 싶어.",
+     "audio": "/audio/speak/d57cf09d10f46b3e.mp3"
+    },
+    {
+     "text": "Harry sees Mr. Round's apartment building.",
+     "ko": "해리는 미스터 라운드의 아파트 건물을 봅니다.",
+     "audio": "/audio/speak/dc671101818c7512.mp3"
+    },
+    {
+     "text": "\"That's it,\" he screams.",
+     "ko": "저거야,",
+     "audio": "/audio/speak/f54e37e9c04e5c46.mp3"
+    },
+    {
+     "text": "\"I'm home!",
+     "ko": "그가 소리칩니다.",
+     "audio": "/audio/speak/c5bec34885467f07.mp3"
+    },
+    {
+     "text": "Harry is very excited.",
+     "ko": "해리는 매우 신이 납니다.",
+     "audio": "/audio/speak/26db6d58f5c4a97a.mp3"
+    },
+    {
+     "text": "He can't wait to see his family.",
+     "ko": "그는 가족을 어서 보고 싶어 합니다.",
+     "audio": "/audio/speak/4af2fe5bc646e366.mp3"
+    },
+    {
+     "text": "Harry sees Mr. Round.",
+     "ko": "해리는 미스터 라운드를 봅니다.",
+     "audio": "/audio/speak/ca4f64e49a4c02cb.mp3"
+    },
+    {
+     "text": "He is surprised.",
+     "ko": "그는 놀랍니다.",
+     "audio": "/audio/speak/b892c012ffcfaa7e.mp3"
+    },
+    {
+     "text": "Mr. Round has a lot of curly black hair!",
+     "ko": "미스터 라운드는 곱슬거리는 검은 머리카락이 아주 많습니다!",
+     "audio": "/audio/speak/75087356b6a86386.mp3"
+    },
+    {
+     "text": "Mr. Round takes his hair off.",
+     "ko": "미스터 라운드는 그의 머리카락을 벗습니다.",
+     "audio": "/audio/speak/a196ff8cce48a874.mp3"
+    },
+    {
+     "text": "The curly black hair is a wig!",
+     "ko": "그 곱슬거리는 검은 머리카락은 가발입니다!",
+     "audio": "/audio/speak/b2006662b64e2388.mp3"
+    },
+    {
+     "text": "Harry sees his mother and father!",
+     "ko": "해리는 그의 엄마와 아빠를 봅니다!",
+     "audio": "/audio/speak/3934d2deb238dae1.mp3"
+    },
+    {
+     "text": "\"Oh Harry!",
+     "ko": "오, 해리!",
+     "audio": "/audio/speak/29c6010ee26ed758.mp3"
+    },
+    {
+     "text": "Harry's mother cries.",
+     "ko": "해리의 엄마가 웁니다.",
+     "audio": "/audio/speak/d84fcde915486a4c.mp3"
+    },
+    {
+     "text": "\"I am so happy!",
+     "ko": "정말 행복해!",
+     "audio": "/audio/speak/b994454268390df1.mp3"
+    },
+    {
+     "text": "\"I'm happy, too, Mom.",
+     "ko": "엄마, 저도 행복해요.",
+     "audio": "/audio/speak/e685b8de4304d537.mp3"
+    },
+    {
+     "text": "Harry says.",
+     "ko": "해리가 말해요.",
+     "audio": "/audio/speak/f271724ed0e960ab.mp3"
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 1,
+   "name": "I feel excited.",
+   "words": [
+    {
+     "text": "jealous",
+     "meanings": [
+      "질투하는",
+      "시샘하는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/160.mp3"
+    },
+    {
+     "text": "lonely",
+     "meanings": [
+      "외로운",
+      "쓸쓸한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/21.mp3"
+    },
+    {
+     "text": "excited",
+     "meanings": [
+      "신이 난",
+      "들뜬"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/154.mp3"
+    },
+    {
+     "text": "scared",
+     "meanings": [
+      "무서워하는",
+      "겁먹은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/28.mp3"
+    },
+    {
+     "text": "nervous",
+     "meanings": [
+      "긴장되는",
+      "떨리는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/53.mp3"
+    },
+    {
+     "text": "proud",
+     "meanings": [
+      "자랑스러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/52.mp3"
+    },
+    {
+     "text": "dizzy",
+     "meanings": [
+      "어지러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/278.mp3"
+    },
+    {
+     "text": "healthy",
+     "meanings": [
+      "건강한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/48.mp3"
+    },
+    {
+     "text": "can",
+     "meanings": [
+      "~해도 된다",
+      "할 수 있다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/351.mp3"
+    },
+    {
+     "text": "like",
+     "meanings": [
+      "~처럼",
+      "좋아하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/30.mp3"
+    },
+    {
+     "text": "dream",
+     "meanings": [
+      "꿈",
+      "꿈을 꾸다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/37.mp3"
+    },
+    {
+     "text": "paint",
+     "meanings": [
+      "물감",
+      "칠하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/11.mp3"
+    },
+    {
+     "text": "ear",
+     "meanings": [
+      "귀"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/33.mp3"
+    },
+    {
+     "text": "baby",
+     "meanings": [
+      "아기"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/4.mp3"
+    },
+    {
+     "text": "cloth",
+     "meanings": [
+      "천",
+      "옷감"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/dea464264ab06e66.mp3"
+    },
+    {
+     "text": "sport",
+     "meanings": [
+      "운동",
+      "스포츠"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/5ab1d8d8c3be00cb.mp3"
+    },
+    {
+     "text": "cry",
+     "meanings": [
+      "울다",
+      "외치다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/46.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do you feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/667dd10e3ec3da51.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I feel excited because this is the best show.",
+       "ko": "이게 최고의 쇼라서 신나.",
+       "audio": "/audio/speak/f697147edef9180c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you feel excited?",
+       "ko": "왜 신나?",
+       "audio": "/audio/speak/9eb3cbd2c931a70d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because this is the best show.",
+       "ko": "이게 최고의 쇼이기 때문이야.",
+       "audio": "/audio/speak/27b6fe9392db9a1b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do you feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/667dd10e3ec3da51.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I feel healthy because I just worked out.",
+       "ko": "방금 운동을 해서 건강하다고 느껴.",
+       "audio": "/audio/speak/b55a452c8c2b1015.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you feel healthy?",
+       "ko": "왜 건강하다고 느껴?",
+       "audio": "/audio/speak/75ecd52e1c19adf1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because I just worked out.",
+       "ko": "방금 운동을 했기 때문이야.",
+       "audio": "/audio/speak/db2ce78c76ab49b7.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does she feel?",
+       "ko": "그녀는 기분이 어때?",
+       "audio": "/audio/speak/e470edb396f0bf57.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She feels sorry because she can't help friends.",
+       "ko": "친구들을 도울 수 없어서 미안해해.",
+       "audio": "/audio/speak/5e4c65bfae03bc52.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why does she feel sorry?",
+       "ko": "왜 미안해해?",
+       "audio": "/audio/speak/283d2d76a1b0a109.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because she can't help friends.",
+       "ko": "친구들을 도울 수 없기 때문이야.",
+       "audio": "/audio/speak/1118de2de37a8e07.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does he feel?",
+       "ko": "그는 기분이 어때?",
+       "audio": "/audio/speak/45009cc144f6e915.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He feels proud because he passed the test.",
+       "ko": "시험에 통과해서 자랑스러워해.",
+       "audio": "/audio/speak/ab141122117c6c70.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why does he feel proud?",
+       "ko": "왜 자랑스러워해?",
+       "audio": "/audio/speak/39d12947a1d9cd4d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because he passed the test.",
+       "ko": "시험에 통과했기 때문이야.",
+       "audio": "/audio/speak/574df889ace62f33.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 2,
+   "name": "The elephant is good at drawing.",
+   "words": [
+    {
+     "text": "singing",
+     "meanings": [
+      "노래하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/89ffd357d06788d3.mp3"
+    },
+    {
+     "text": "drawing",
+     "meanings": [
+      "그리기",
+      "그림"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/190.mp3"
+    },
+    {
+     "text": "standing upside down",
+     "meanings": [
+      "거꾸로 서기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/c1e3bbcb20b3d61b.mp3"
+    },
+    {
+     "text": "kicking",
+     "meanings": [
+      "발로 차기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d9b29a809bf7f0ce.mp3"
+    },
+    {
+     "text": "cycling",
+     "meanings": [
+      "자전거 타기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/444.mp3"
+    },
+    {
+     "text": "paper folding",
+     "meanings": [
+      "종이접기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/5f9e06321aeb3b93.mp3"
+    },
+    {
+     "text": "driving",
+     "meanings": [
+      "운전"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/533a4e82e48ee125.mp3"
+    },
+    {
+     "text": "try",
+     "meanings": [
+      "시도하다",
+      "노력하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/84.mp3"
+    },
+    {
+     "text": "cool",
+     "meanings": [
+      "멋진",
+      "시원한"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/21.mp3"
+    },
+    {
+     "text": "by",
+     "meanings": [
+      "~옆에",
+      "~에 의해서"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/f07ad86876881c13.mp3"
+    },
+    {
+     "text": "here",
+     "meanings": [
+      "여기",
+      "이곳에"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/275.mp3"
+    },
+    {
+     "text": "nurse",
+     "meanings": [
+      "간호사"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/29.mp3"
+    },
+    {
+     "text": "event",
+     "meanings": [
+      "행사",
+      "사건"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/d644a9db4fbd05ed.mp3"
+    },
+    {
+     "text": "practice",
+     "meanings": [
+      "연습",
+      "연습하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/49.mp3"
+    },
+    {
+     "text": "look",
+     "meanings": [
+      "보다",
+      "~처럼 보이다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/44.mp3"
+    },
+    {
+     "text": "have",
+     "meanings": [
+      "가지다",
+      "먹다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/174.mp3"
+    },
+    {
+     "text": "than",
+     "meanings": [
+      "~보다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/e9b7a600173c06c0.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the elephant good at?",
+       "ko": "코끼리는 무엇을 잘해?",
+       "audio": "/audio/speak/820b7010aea8940c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The elephant is good at drawing because it is talented.",
+       "ko": "재능이 있어서 코끼리는 그림을 잘 그려.",
+       "audio": "/audio/speak/c640d3638b472c10.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why is the elephant good at drawing?",
+       "ko": "왜 코끼리는 그림을 잘 그려?",
+       "audio": "/audio/speak/cfc5e379d39999a1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's because it is talented.",
+       "ko": "재능이 있기 때문이야.",
+       "audio": "/audio/speak/ff76f832c6506330.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you good at?",
+       "ko": "너는 무엇을 잘해?",
+       "audio": "/audio/speak/f2d7d0c76d991642.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I am good at singing because I take singing lessons.",
+       "ko": "보컬 레슨을 받아서 나는 노래를 잘 불러.",
+       "audio": "/audio/speak/20f487557ede69b4.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why are you good at singing?",
+       "ko": "왜 노래를 잘 불러?",
+       "audio": "/audio/speak/1ba352d3886902a3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's because I take singing lessons.",
+       "ko": "보컬 레슨을 받기 때문이야.",
+       "audio": "/audio/speak/4095bf53a05f359b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is she good at?",
+       "ko": "그녀는 무엇을 잘해?",
+       "audio": "/audio/speak/627fe9cc3c964561.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She is good at playing the piano because she practices hard.",
+       "ko": "열심히 연습해서 그녀는 피아노를 잘쳐.",
+       "audio": "/audio/speak/fd6f1ae637d3893e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why is she good at playing the piano?",
+       "ko": "왜 그녀는 피아노를 잘쳐?",
+       "audio": "/audio/speak/48bcc720633fada8.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's because she practices hard.",
+       "ko": "열심히 연습하기 때문이야.",
+       "audio": "/audio/speak/f6f28ac041a063b5.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is he good at?",
+       "ko": "그는 무엇을 잘해?",
+       "audio": "/audio/speak/40529bcb5bd6eec4.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He is good at speaking English because he lived in America.",
+       "ko": "미국에 살아서 그는 영어를 잘해.",
+       "audio": "/audio/speak/660546584ee2ec93.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why is he good at speaking English?",
+       "ko": "왜 그는 영어를 잘해?",
+       "audio": "/audio/speak/24b271842b4e1a34.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's because he lived in America.",
+       "ko": "미국에 살았기 때문이야.",
+       "audio": "/audio/speak/26201fa7646d50d9.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 3,
+   "name": "I have thirty-six balls altogether.",
+   "words": [
+    {
+     "text": "pencil case",
+     "meanings": [
+      "필통"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/94.mp3"
+    },
+    {
+     "text": "ruler",
+     "meanings": [
+      "자"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/372.mp3"
+    },
+    {
+     "text": "ballpoint pen",
+     "meanings": [
+      "볼펜"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d139a263479276e7.mp3"
+    },
+    {
+     "text": "eraser",
+     "meanings": [
+      "지우개"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/19.mp3"
+    },
+    {
+     "text": "glue stick",
+     "meanings": [
+      "딱풀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/126.mp3"
+    },
+    {
+     "text": "backpack",
+     "meanings": [
+      "배낭",
+      "책가방"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/371.mp3"
+    },
+    {
+     "text": "stapler",
+     "meanings": [
+      "스테이플러"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/503.mp3"
+    },
+    {
+     "text": "binder",
+     "meanings": [
+      "바인더",
+      "서류철"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l7/63.mp3"
+    },
+    {
+     "text": "crayon",
+     "meanings": [
+      "크레용"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/374.mp3"
+    },
+    {
+     "text": "beach",
+     "meanings": [
+      "해변"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/21.mp3"
+    },
+    {
+     "text": "light",
+     "meanings": [
+      "빛",
+      "전등",
+      "가벼운"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/428.mp3"
+    },
+    {
+     "text": "to",
+     "meanings": [
+      "~로",
+      "~에게"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/e5d58a2feecb75d8.mp3"
+    },
+    {
+     "text": "favorite",
+     "meanings": [
+      "가장 좋아하는"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/43.mp3"
+    },
+    {
+     "text": "wall",
+     "meanings": [
+      "벽"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/401.mp3"
+    },
+    {
+     "text": "phone",
+     "meanings": [
+      "전화기"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/78.mp3"
+    },
+    {
+     "text": "arm",
+     "meanings": [
+      "팔"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/40.mp3"
+    },
+    {
+     "text": "cheese",
+     "meanings": [
+      "치즈"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/280.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many eggs do you have altogether?",
+       "ko": "너 모두 합쳐서 계란 몇 개 가지고 있어?",
+       "audio": "/audio/speak/f053bac3596c65c3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have thirty-six eggs altogether.",
+       "ko": "나 모두 합쳐서 계란 36개 가지고 있어.",
+       "audio": "/audio/speak/914bd723972f2939.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you have many eggs?",
+       "ko": "너 계란 많이 가지고 있어?",
+       "audio": "/audio/speak/29ea198acbdae4ae.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, I have many eggs.",
+       "ko": "응, 나 계란 많이 가지고 있어.",
+       "audio": "/audio/speak/d8e2d7e9f9515b57.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many pencil cases do you have altogether?",
+       "ko": "너 모두 합쳐서 필통 몇 개 가지고 있어?",
+       "audio": "/audio/speak/4b02c9e37225e6cf.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have four pencil cases altogether.",
+       "ko": "나 모두 합쳐서 필통 4개 가지고 있어.",
+       "audio": "/audio/speak/4765a6d6d9145da1.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you have many pencil cases?",
+       "ko": "나 필통 많이 가지고 있어?",
+       "audio": "/audio/speak/42170a89f9f51c9c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, I have only a few pencil cases.",
+       "ko": "아니, 나 필통 몇 개만 가지고 있어.",
+       "audio": "/audio/speak/b78f5dcefffda90c.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many backpacks does she have altogether?",
+       "ko": "그녀는 모두 합쳐서 책가방이 몇 개 있어?",
+       "audio": "/audio/speak/f98422e1215f36d0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She has two backpacks altogether.",
+       "ko": "그녀는 모두 합쳐서 책가방 2개 가지고 있어.",
+       "audio": "/audio/speak/f393d50913a8c86f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Does she have many backpacks?",
+       "ko": "그녀는 책가방이 많이 가지고 있어?",
+       "audio": "/audio/speak/01bf090231ee7b1a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, she has only a few backpacks.",
+       "ko": "아니, 그녀는 책가방 몇 개만 가지고 있어.",
+       "audio": "/audio/speak/ababe41f4bfcc11c.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many balls does he have altogether?",
+       "ko": "그는 모두 합쳐서 공 몇 개 가지고 있어?",
+       "audio": "/audio/speak/321d4580e4d48739.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He has twenty balls altogether.",
+       "ko": "그는 모두 합쳐서 공 20개 가지고 있어.",
+       "audio": "/audio/speak/48c6f61379e31cd6.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Does he have many balls?",
+       "ko": "그는 공 많이 가지고 있어?",
+       "audio": "/audio/speak/e04d72601081e81a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, he has many balls.",
+       "ko": "응, 그는 공 많이 가지고 있어.",
+       "audio": "/audio/speak/2a5ba9d47547a42e.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 4,
+   "name": "It's growling.",
+   "words": [
+    {
+     "text": "soaring",
+     "meanings": [
+      "높이 날기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/77eedb5de4ff2c45.mp3"
+    },
+    {
+     "text": "growling",
+     "meanings": [
+      "으르렁거리기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/0191c83197fe4b62.mp3"
+    },
+    {
+     "text": "howling",
+     "meanings": [
+      "울부짖기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/7d9ad9d129e66f4b.mp3"
+    },
+    {
+     "text": "yawning",
+     "meanings": [
+      "하품하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/8d6793cb16e7e6c9.mp3"
+    },
+    {
+     "text": "swinging",
+     "meanings": [
+      "흔들거리기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/82b26582b11751a5.mp3"
+    },
+    {
+     "text": "hopping",
+     "meanings": [
+      "깡충깡충 뛰기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/4e22db3f4ab91e6e.mp3"
+    },
+    {
+     "text": "crouching",
+     "meanings": [
+      "몸을 웅크리기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/86457eb93a369f98.mp3"
+    },
+    {
+     "text": "pecking",
+     "meanings": [
+      "부리로 쪼기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/56178e12003ec572.mp3"
+    },
+    {
+     "text": "waddling",
+     "meanings": [
+      "뒤뚱뒤뚱 걷기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/17ee4324b4a5cb6e.mp3"
+    },
+    {
+     "text": "air",
+     "meanings": [
+      "공기",
+      "하늘"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/99b9ed897ca5255a.mp3"
+    },
+    {
+     "text": "because",
+     "meanings": [
+      "~때문에"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/350.mp3"
+    },
+    {
+     "text": "subject",
+     "meanings": [
+      "과목",
+      "주제"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/24.mp3"
+    },
+    {
+     "text": "special",
+     "meanings": [
+      "특별한"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/44.mp3"
+    },
+    {
+     "text": "fun",
+     "meanings": [
+      "재미",
+      "재미있는"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/d08527e8a02be964.mp3"
+    },
+    {
+     "text": "want",
+     "meanings": [
+      "원하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/32.mp3"
+    },
+    {
+     "text": "of",
+     "meanings": [
+      "~의"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/45dfbec0ffe644af.mp3"
+    },
+    {
+     "text": "corner",
+     "meanings": [
+      "모퉁이",
+      "구석"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/131.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the lion doing in the forest?",
+       "ko": "사자는 숲에서 무엇을 하고 있니?",
+       "audio": "/audio/speak/abdb8ba1c1d20215.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's growling.",
+       "ko": "으르렁거리고 있어.",
+       "audio": "/audio/speak/b67d86a60ce6d6e1.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why is the lion growling?",
+       "ko": "왜 사자가 으르렁거리고 있니?",
+       "audio": "/audio/speak/16ae70cf64c35599.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because it's hungry.",
+       "ko": "배가 고프기 때문이야.",
+       "audio": "/audio/speak/f6febffc18dc5ce2.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the eagle doing in the sky?",
+       "ko": "독수리는 하늘에서 무엇을 하고 있니?",
+       "audio": "/audio/speak/436f93c22d60a748.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's soaring.",
+       "ko": "높이 비상하고 있어.",
+       "audio": "/audio/speak/616d4a05486e9f34.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why is the eagle soaring?",
+       "ko": "왜 독수리가 높이 비상하고 있니?",
+       "audio": "/audio/speak/03834bf1bffcfc1d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because it's looking for food.",
+       "ko": "먹이를 찾고 있기 때문이야.",
+       "audio": "/audio/speak/eaf83120e37d2fdf.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the monkey doing in the field?",
+       "ko": "원숭이는 들판에서 무엇을 하고 있니?",
+       "audio": "/audio/speak/a558bdd4adf3a54f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's swinging.",
+       "ko": "매달려 흔들거리고 있어.",
+       "audio": "/audio/speak/e63b4f2312eef16d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why is the monkey swinging?",
+       "ko": "왜 원숭이가 매달려 있니?",
+       "audio": "/audio/speak/1fa86e89cbfd7a73.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because it's playing.",
+       "ko": "놀고 있기 때문이야.",
+       "audio": "/audio/speak/52e7c3f5f9f8e452.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are the ducks doing in the pond?",
+       "ko": "오리들은 연못에서 무엇을 하고 있니?",
+       "audio": "/audio/speak/5e67ada5a857bcaa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They're swimming.",
+       "ko": "헤엄치고 있어.",
+       "audio": "/audio/speak/70df0da5a862046f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why are the ducks swimming?",
+       "ko": "왜 오리들이 헤엄치고 있니?",
+       "audio": "/audio/speak/afc208bd1d301dde.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because they like water.",
+       "ko": "물을 좋아하기 때문이야.",
+       "audio": "/audio/speak/e0e2783a2c258ffa.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 5,
+   "name": "He can breathe fire.",
+   "words": [
+    {
+     "text": "walk on a tight rope",
+     "meanings": [
+      "줄타기를 하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f8bcb66c7a48ca8b.mp3"
+    },
+    {
+     "text": "hang upside down",
+     "meanings": [
+      "거꾸로 매달리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/df1487a9abe4a8c1.mp3"
+    },
+    {
+     "text": "climb walls",
+     "meanings": [
+      "벽을 타다",
+      "기어오르다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/638991ae326fbdc8.mp3"
+    },
+    {
+     "text": "do magic tricks",
+     "meanings": [
+      "마술을 부리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/06db0d42396fe76d.mp3"
+    },
+    {
+     "text": "do cartwheels",
+     "meanings": [
+      "옆으로 재주넘기를 하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/929088874e5f66ad.mp3"
+    },
+    {
+     "text": "breathe fire",
+     "meanings": [
+      "불을 뿜다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d5dafc85c9703695.mp3"
+    },
+    {
+     "text": "juggle balls",
+     "meanings": [
+      "공으로 저글링을 하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/c101637ea3635595.mp3"
+    },
+    {
+     "text": "run backwards",
+     "meanings": [
+      "뒤로 달리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/9af8b4974f2f8ede.mp3"
+    },
+    {
+     "text": "spin plates",
+     "meanings": [
+      "접시를 돌리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/2618cc2fdf62a5f0.mp3"
+    },
+    {
+     "text": "touch toes",
+     "meanings": [
+      "발가락을 만지다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/2bf34b9a2674536d.mp3"
+    },
+    {
+     "text": "may",
+     "meanings": [
+      "~해도 좋다",
+      "~일지도 모른다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/352.mp3"
+    },
+    {
+     "text": "river",
+     "meanings": [
+      "강"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/23.mp3"
+    },
+    {
+     "text": "beef",
+     "meanings": [
+      "소고기"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/278.mp3"
+    },
+    {
+     "text": "earth",
+     "meanings": [
+      "지구",
+      "땅"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/438.mp3"
+    },
+    {
+     "text": "at",
+     "meanings": [
+      "(장소",
+      "시간)~에"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/283.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can he do?",
+       "ko": "그는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/78a173e0e78466c1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He can breathe fire.",
+       "ko": "그는 불을 뿜을 수 있어.",
+       "audio": "/audio/speak/c967840ce67b349e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is it easy?",
+       "ko": "그거 쉬워?",
+       "audio": "/audio/speak/6c30a6630cd634c3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No. I think it's hard.",
+       "ko": "아니. 내 생각엔 어려운 것 같아.",
+       "audio": "/audio/speak/bb2c7af689e7a9da.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can run backwards.",
+       "ko": "나는 뒤로 달릴 수 있어.",
+       "audio": "/audio/speak/6d3f3299bd66b5d3.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is it easy?",
+       "ko": "그거 쉬워?",
+       "audio": "/audio/speak/6c30a6630cd634c3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. I think it's easy.",
+       "ko": "응. 내 생각엔 쉬운 것 같아.",
+       "audio": "/audio/speak/530f68dd390e22c0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can she do?",
+       "ko": "그녀는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/1bfab05c56eb7ee0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She can walk on a tight rope.",
+       "ko": "그녀는 외줄타기를 할 수 있어.",
+       "audio": "/audio/speak/9dde7e1866064e61.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is it hard?",
+       "ko": "그거 어려워?",
+       "audio": "/audio/speak/8e815aa4a6247390.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. I think it's hard.",
+       "ko": "응. 내 생각엔 어려운 것 같아.",
+       "audio": "/audio/speak/baaec4970d570930.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can do cartwheels.",
+       "ko": "나는 옆구르기를 할 수 있어.",
+       "audio": "/audio/speak/f958c6c270e1f196.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Is it doable?",
+       "ko": "그거 할 만해?",
+       "audio": "/audio/speak/6f96855660cc8e77.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. I think it's doable.",
+       "ko": "응. 내 생각엔 할 만한 것 같아.",
+       "audio": "/audio/speak/f30a47dafcc07b2d.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 6,
+   "name": "He's flying high.",
+   "words": [
+    {
+     "text": "loudly",
+     "meanings": [
+      "크게",
+      "시끄럽게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/324.mp3"
+    },
+    {
+     "text": "high",
+     "meanings": [
+      "높은",
+      "높게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/259.mp3"
+    },
+    {
+     "text": "low",
+     "meanings": [
+      "낮은",
+      "낮게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/304.mp3"
+    },
+    {
+     "text": "deeply",
+     "meanings": [
+      "깊게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/aa8316757484e138.mp3"
+    },
+    {
+     "text": "slowly",
+     "meanings": [
+      "느리게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/323.mp3"
+    },
+    {
+     "text": "far away",
+     "meanings": [
+      "멀리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/6a5efb279905c613.mp3"
+    },
+    {
+     "text": "nearby",
+     "meanings": [
+      "가까운",
+      "근처에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/229.mp3"
+    },
+    {
+     "text": "forget",
+     "meanings": [
+      "잊다",
+      "잊어버리다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/21.mp3"
+    },
+    {
+     "text": "hate",
+     "meanings": [
+      "미워하다",
+      "싫어하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/6f300972f834cf9f.mp3"
+    },
+    {
+     "text": "pretty",
+     "meanings": [
+      "예쁜",
+      "꽤"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/54.mp3"
+    },
+    {
+     "text": "glue",
+     "meanings": [
+      "풀",
+      "풀로 붙이다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/148.mp3"
+    },
+    {
+     "text": "museum",
+     "meanings": [
+      "박물관"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/16.mp3"
+    },
+    {
+     "text": "share",
+     "meanings": [
+      "나누다",
+      "공유하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l7/60.mp3"
+    },
+    {
+     "text": "turn",
+     "meanings": [
+      "돌다",
+      "차례"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/121.mp3"
+    },
+    {
+     "text": "about",
+     "meanings": [
+      "~에 대하여"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/103.mp3"
+    },
+    {
+     "text": "subway",
+     "meanings": [
+      "지하철"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/32.mp3"
+    },
+    {
+     "text": "head",
+     "meanings": [
+      "머리"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/39.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is he doing?",
+       "ko": "그는 무엇을 하고 있니?",
+       "audio": "/audio/speak/64145627d31ed8d8.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He's flying high.",
+       "ko": "그는 높이 날고 있어.",
+       "audio": "/audio/speak/440bcc330cc4831b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How high is he flying?",
+       "ko": "그는 얼마나 높이 날고 있니?",
+       "audio": "/audio/speak/ac9a369a1ba27b27.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He's flying very high.",
+       "ko": "그는 아주 높이 날고 있어.",
+       "audio": "/audio/speak/7f9f1608e5ef17a3.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is he doing?",
+       "ko": "그는 무엇을 하고 있니?",
+       "audio": "/audio/speak/64145627d31ed8d8.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He's running fast.",
+       "ko": "그는 빠르게 달리고 있어.",
+       "audio": "/audio/speak/bc1ddc78e3c40b3c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How fast is he running?",
+       "ko": "그는 얼마나 빠르게 달리고 있니?",
+       "audio": "/audio/speak/54a85803d04db7e2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He's running really fast.",
+       "ko": "그는 정말 빠르게 달리고 있어.",
+       "audio": "/audio/speak/2fe8695520f9fcc8.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is she doing?",
+       "ko": "그녀는 무엇을 하고 있니?",
+       "audio": "/audio/speak/b75c8f99706d8867.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She's digging deeply.",
+       "ko": "그녀는 깊게 땅을 파고 있어.",
+       "audio": "/audio/speak/93dcd03b9a577b31.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How deeply is she digging?",
+       "ko": "그녀는 얼마나 깊게 파고 있니?",
+       "audio": "/audio/speak/f0b2dc6c12d684f9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She's digging quite deeply.",
+       "ko": "그녀는 꽤 깊게 파고 있어.",
+       "audio": "/audio/speak/e00a88e9c11ff5f8.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너는 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm walking slowly.",
+       "ko": "나는 천천히 걷고 있어.",
+       "audio": "/audio/speak/85a880c2995b1c15.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How slowly are you walking?",
+       "ko": "너는 얼마나 천천히 걷고 있니?",
+       "audio": "/audio/speak/172fe578d41fef04.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm walking a little bit slowly.",
+       "ko": "나는 조금 천천히 걷고 있어.",
+       "audio": "/audio/speak/ae40d71d5a7663a2.mp3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 7,
+   "name": "We're flying in the air.",
+   "words": [
+    {
+     "text": "on the hill",
+     "meanings": [
+      "언덕 위에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/5b107587a111dbfa.mp3"
+    },
+    {
+     "text": "on the farm",
+     "meanings": [
+      "농장에서"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/bac68cd8af0cff34.mp3"
+    },
+    {
+     "text": "on the street",
+     "meanings": [
+      "거리에서"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/72161c292bb0e0ba.mp3"
+    },
+    {
+     "text": "on the bridge",
+     "meanings": [
+      "다리 위에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/74d236b2ddad5e56.mp3"
+    },
+    {
+     "text": "in the mountains",
+     "meanings": [
+      "산속에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/74ebc7b83f6ce11a.mp3"
+    },
+    {
+     "text": "in the air",
+     "meanings": [
+      "공중에",
+      "하늘에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/27e8c483e2f8d118.mp3"
+    },
+    {
+     "text": "in the sea",
+     "meanings": [
+      "바닷속에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/bd47fe4140067e18.mp3"
+    },
+    {
+     "text": "in the attic",
+     "meanings": [
+      "다락방에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b1219d182ed5ff6e.mp3"
+    },
+    {
+     "text": "in the cave",
+     "meanings": [
+      "동굴 속에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/efdae4ea180957a7.mp3"
+    },
+    {
+     "text": "in the desert",
+     "meanings": [
+      "사막에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/394d2c02811f66d4.mp3"
+    },
+    {
+     "text": "why",
+     "meanings": [
+      "왜"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/273.mp3"
+    },
+    {
+     "text": "key",
+     "meanings": [
+      "열쇠"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/77.mp3"
+    },
+    {
+     "text": "paper",
+     "meanings": [
+      "종이"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/fdefeeef916b8eb6.mp3"
+    },
+    {
+     "text": "tail",
+     "meanings": [
+      "꼬리"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/251.mp3"
+    },
+    {
+     "text": "hang",
+     "meanings": [
+      "걸다",
+      "매달다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/105.mp3"
+    },
+    {
+     "text": "cover",
+     "meanings": [
+      "덮다",
+      "덮개"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/322.mp3"
+    },
+    {
+     "text": "busy",
+     "meanings": [
+      "바쁜"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/112.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너희들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're flying in the air.",
+       "ko": "우리는 하늘을 날고 있어.",
+       "audio": "/audio/speak/a5cf2894f7e82648.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/837b5a083161ab0a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It feels amazing!",
+       "ko": "정말 놀라운 기분이야!",
+       "audio": "/audio/speak/bb1bfef369d28a10.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너희들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're skiing in the mountains.",
+       "ko": "우리는 산에서 스키를 타고 있어.",
+       "audio": "/audio/speak/4cb7d2c11d95d90f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/837b5a083161ab0a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It feels cool!",
+       "ko": "시원하고 정말 멋진 기분이야!",
+       "audio": "/audio/speak/c206c8f2245a8764.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너는 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm watching the movie in the attic.",
+       "ko": "나는 다락방에서 영화를 보고 있어.",
+       "audio": "/audio/speak/c4c75d1b5599e34f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/837b5a083161ab0a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It feels awesome!",
+       "ko": "끝내주게 멋진 기분이야!",
+       "audio": "/audio/speak/5404bd7769fefbab.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너는 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm feeding the pig on the farm.",
+       "ko": "나는 농장에서 돼지에게 먹이를 주고 있어.",
+       "audio": "/audio/speak/cf59900d95a59836.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it feel?",
+       "ko": "기분이 어때?",
+       "audio": "/audio/speak/837b5a083161ab0a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It feels wonderful.",
+       "ko": "아주 좋은 기분이야.",
+       "audio": "/audio/speak/2366f3369e8ee981.mp3"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

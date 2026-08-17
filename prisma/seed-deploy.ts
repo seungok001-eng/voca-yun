@@ -152,7 +152,123 @@ async function main() {
   }
   console.log(`✅ 교재 ${await db.textbook.count()}권 준비 완료`);
 
+  // 5) 정철 교재 콘텐츠 (data/textbook-*.json) — 내용이 바뀐 교재만 다시 넣는다
+  await importTextbooks();
+
   console.log(`✅ 계정 준비 완료 (총관리자 ${director.name}, 반 ${cls.name})`);
+}
+
+// 파일명 textbook-planet-1-1.json → "PLANET 1-1"
+function textbookNameFromFile(file: string): string | null {
+  const m = /^textbook-(sky|planet)-(\d)-(\d)\.json$/i.exec(file);
+  return m ? `${m[1].toUpperCase()} ${m[2]}-${m[3]}` : null;
+}
+
+type TbWord = { text: string; meanings: string[]; advancedOnly?: boolean; audio?: string };
+type TbLine = { speaker?: string; text: string; ko?: string; audio?: string };
+type TbLesson = {
+  part: number; area: "TOON" | "READING"; order: number; name?: string;
+  isReview?: boolean; bookLabel?: string;
+  words?: TbWord[]; dialogues?: { lines: TbLine[] }[]; passageLines?: TbLine[];
+};
+
+async function importTextbooks() {
+  const dir = path.join(process.cwd(), "data");
+  if (!fs.existsSync(dir)) return;
+  const files = fs.readdirSync(dir).filter((f) => textbookNameFromFile(f));
+
+  for (const file of files) {
+    const name = textbookNameFromFile(file)!;
+    const book = await db.textbook.findFirst({ where: { name } });
+    if (!book) { console.log(`⚠️ 교재 ${name} 없음 — 스킵`); continue; }
+
+    const lessons = (JSON.parse(fs.readFileSync(path.join(dir, file), "utf-8")).lessons ?? []) as TbLesson[];
+    const expected = lessons.reduce(
+      (n, L) => n + (L.dialogues ?? []).reduce((m, d) => m + d.lines.length, 0) + (L.passageLines ?? []).length, 0);
+    const current = await db.dialogueLine.count({ where: { dialogue: { lesson: { part: { textbookId: book.id } } } } });
+    if (current === expected && expected > 0) {
+      console.log(`✅ ${name} 이미 등록됨 (문장 ${current}개) — 스킵`);
+      continue;
+    }
+
+    let words = 0, lines = 0;
+    for (const L of lessons) {
+      const part = await db.textbookPart.upsert({
+        where: { textbookId_order: { textbookId: book.id, order: L.part } },
+        update: {},
+        create: { textbookId: book.id, order: L.part },
+      });
+      const areaKo = L.area === "TOON" ? "Toon World" : "Book Club";
+      const passage = (L.passageLines ?? []).map((x) => x.text).join(" ") || null;
+      const passageKo = (L.passageLines ?? []).some((x) => x.ko)
+        ? (L.passageLines ?? []).map((x) => x.ko ?? "").join(" ").trim() : null;
+
+      const existing = await db.lesson.findUnique({
+        where: { partId_area_order: { partId: part.id, area: L.area, order: L.order } },
+      });
+      const patch = {
+        name: L.name || existing?.name || `${areaKo} Lesson ${L.order}`,
+        isReview: !!L.isReview,
+        bookLabel: L.bookLabel ?? null,
+        passage, passageKo,
+      };
+      const lesson = existing
+        ? await db.lesson.update({ where: { id: existing.id }, data: patch })
+        : await db.lesson.create({ data: { partId: part.id, area: L.area, order: L.order, ...patch } });
+
+      // 단어 — 레슨 전용 단어장 (기본 단어 먼저, 심화 단어를 뒤에)
+      if (L.words?.length) {
+        const wbName = `${book.name} P${L.part} ${areaKo} L${L.order}`;
+        let wordbookId = lesson.wordbookId;
+        if (wordbookId) {
+          await db.wordbook.update({ where: { id: wordbookId }, data: { name: wbName } });
+          await db.word.deleteMany({ where: { wordbookId } });
+        } else {
+          const created = await db.wordbook.create({ data: { name: wbName } });
+          wordbookId = created.id;
+          await db.lesson.update({ where: { id: lesson.id }, data: { wordbookId } });
+        }
+        const ordered = [...L.words].sort((a, b) => Number(!!a.advancedOnly) - Number(!!b.advancedOnly));
+        await db.word.createMany({
+          data: ordered.map((w, i) => ({
+            wordbookId: wordbookId!,
+            day: Math.floor(i / 30) + 1,
+            text: w.text,
+            pos: "n",
+            meaningsJson: JSON.stringify(w.meanings),
+            advancedOnly: !!w.advancedOnly,
+            audioUrl: w.audio ?? null,
+          })),
+        });
+        words += ordered.length;
+      }
+
+      // 대화 + 본문 (본문은 화자 N인 PASSAGE 대화로 저장)
+      await db.dialogue.deleteMany({ where: { lessonId: lesson.id } });
+      let order = 1;
+      for (const d of L.dialogues ?? []) {
+        const created = await db.dialogue.create({ data: { lessonId: lesson.id, kind: "DIALOGUE", order: order++ } });
+        await db.dialogueLine.createMany({
+          data: d.lines.map((ln, i) => ({
+            dialogueId: created.id, order: i + 1, speaker: ln.speaker ?? "A",
+            text: ln.text, textKo: ln.ko ?? null, audioUrl: ln.audio ?? null,
+          })),
+        });
+        lines += d.lines.length;
+      }
+      if (L.passageLines?.length) {
+        const created = await db.dialogue.create({ data: { lessonId: lesson.id, kind: "PASSAGE", order: 1 } });
+        await db.dialogueLine.createMany({
+          data: L.passageLines.map((ln, i) => ({
+            dialogueId: created.id, order: i + 1, speaker: "N",
+            text: ln.text, textKo: ln.ko ?? null, audioUrl: ln.audio ?? null,
+          })),
+        });
+        lines += L.passageLines.length;
+      }
+    }
+    console.log(`✅ ${name} 등록: 레슨 ${lessons.length}개 · 단어 ${words}개 · 문장 ${lines}개`);
+  }
 }
 
 main()

@@ -50,7 +50,7 @@ export default function PracticePage() {
         {(isPassage ? (["listen", "repeat"] as const) : (["listen", "repeat", "role"] as const)).map((m) => (
           <button key={m} onClick={() => setMode(m)}
             className={"chip !py-2 !px-4 " + (mode === m ? "bg-[#16204a] text-white" : "bg-white border border-slate-200 text-slate-500")}>
-            {{ listen: "🎧 전체 듣기", repeat: "🔁 따라 말하기", role: "🎭 역할 연습" }[m]}
+            {{ listen: "🎧 전체 듣기", repeat: isPassage ? "🔁 따라 읽기" : "🔁 따라 말하기", role: "🎭 역할 연습" }[m]}
           </button>
         ))}
       </div>
