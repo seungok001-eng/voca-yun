@@ -31,6 +31,7 @@ export default function ExamPage() {
   const [error, setError] = useState("");
   const [finished, setFinished] = useState<AnswerResult | null>(null);
   const [showKo, setShowKo] = useState(false);
+  const [quitting, setQuitting] = useState(false);
   const started = useRef(false);
 
   // 레슨 + 시험 세션 시작
@@ -104,6 +105,22 @@ export default function ExamPage() {
       if (res.status !== "IN_PROGRESS") setFinished(res);
     } catch (e) {
       setError(e instanceof Error ? e.message : "채점에 실패했습니다.");
+    }
+  }
+
+  // 시험을 그만두고 세션을 지운다 → 다음에 처음부터 다시 볼 수 있다
+  async function quitExam() {
+    if (!confirm("시험을 그만둘까요?\n지금까지 말한 내용은 사라지고, 처음부터 다시 볼 수 있어요.")) return;
+    setQuitting(true);
+    try {
+      await api("/api/student/abandon", {
+        method: "POST",
+        body: JSON.stringify({ kind: "SPEAK", sessionId: session?.id }),
+      });
+      router.push(`/textbook/${id}`);
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "중단하지 못했습니다.");
+      setQuitting(false);
     }
   }
 
@@ -220,6 +237,14 @@ export default function ExamPage() {
       <p className="text-[11px] text-slate-400 text-center">
         {session.matchRate}% 이상 정확하게 말하면 통과예요. 조용한 곳에서 또박또박 말해주세요.
       </p>
+
+      <button
+        className="w-full text-xs font-bold text-slate-400 hover:text-rose-500 py-2"
+        disabled={listening || preparing || quitting}
+        onClick={quitExam}
+      >
+        {quitting ? "정리하는 중..." : "시험 그만두기 (처음부터 다시 볼 수 있어요)"}
+      </button>
     </div>
   );
 }

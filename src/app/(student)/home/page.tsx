@@ -34,6 +34,22 @@ export default function HomePage() {
   const [d, setD] = useState<Dashboard | null>(null);
   const [error, setError] = useState("");
   const [starting, setStarting] = useState(false);
+  const [abandoning, setAbandoning] = useState(false);
+
+  // 진행 중인 시험을 지우고 처음부터 다시 볼 수 있게 한다 (점수·진도에는 영향 없음)
+  async function abandonTest() {
+    if (!confirm("진행 중인 시험을 그만둘까요?\n지금까지 푼 내용은 사라지고, 처음부터 다시 볼 수 있어요.")) return;
+    setAbandoning(true);
+    try {
+      await api("/api/student/abandon", { method: "POST", body: JSON.stringify({ kind: "WORD" }) });
+      const fresh = await api<Dashboard>("/api/student/dashboard");
+      setD(fresh);
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "중단하지 못했습니다.");
+    } finally {
+      setAbandoning(false);
+    }
+  }
   const router = useRouter();
 
   useEffect(() => {
@@ -97,15 +113,24 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* 진행 중 시험 이어하기 */}
+      {/* 진행 중 시험 이어하기 (그만두고 처음부터 다시 볼 수도 있다) */}
       {d.activeSessionId && (
-        <Link href={`/test/${d.activeSessionId}`} className="card p-4 flex items-center justify-between border-2 !border-amber-400 block">
-          <div>
-            <p className="font-black text-amber-700">⏸ 진행 중인 시험이 있어요</p>
-            <p className="text-xs text-slate-500 mt-0.5">이어서 응시하기</p>
+        <div className="card p-4 border-2 !border-amber-400">
+          <div className="flex items-center justify-between gap-2">
+            <div>
+              <p className="font-black text-amber-700">⏸ 진행 중인 시험이 있어요</p>
+              <p className="text-xs text-slate-500 mt-0.5">이어서 응시하기</p>
+            </div>
+            <Link href={`/test/${d.activeSessionId}`} className="btn-gold text-sm py-2 whitespace-nowrap">계속하기 →</Link>
           </div>
-          <span className="btn-gold text-sm py-2">계속하기 →</span>
-        </Link>
+          <button
+            className="mt-3 w-full text-xs font-bold text-slate-400 hover:text-rose-500 py-1.5"
+            disabled={abandoning}
+            onClick={abandonTest}
+          >
+            {abandoning ? "정리하는 중..." : "그만두고 처음부터 다시 보기"}
+          </button>
+        </div>
       )}
 
       {/* 탈락 → 재시험 */}
