@@ -133,6 +133,21 @@ export default function TestPage() {
     await load();
   }
 
+  // 정답/오답 화면에서 엔터(또는 스페이스)로 바로 다음 문제
+  useEffect(() => {
+    if (!feedback) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      if (e.isComposing) return;
+      e.preventDefault();
+      void next();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+    // next는 feedback만 참조하므로 feedback이 바뀔 때만 다시 건다
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [feedback]);
+
   if (!state) return <p className="text-slate-400 text-center py-20">시험 준비 중...</p>;
 
   const progress = Math.round((state.currentIndex / state.total) * 100);
@@ -181,9 +196,10 @@ export default function TestPage() {
             )}
           </div>
           <button className="btn-gold px-4 text-sm" onClick={() => speak(feedback.reveal.word)}>🔊 발음 듣기</button>
-          <button className="btn-primary w-full" onClick={next}>
+          <button className="btn-primary w-full" onClick={next} autoFocus>
             {feedback.finished ? "결과 보기 →" : "다음 문제 →"}
           </button>
+          <p className="text-[11px] text-slate-400">Enter 키로도 넘어갈 수 있어요</p>
         </div>
       ) : pronMode ? (
         /* 발음 평가 화면 */
