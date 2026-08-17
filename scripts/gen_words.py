@@ -1,4 +1,4 @@
-"""단어 음성 생성 — Gemini TTS(Kore).
+"""단어·문장 음성 생성 — Gemini TTS.
 
 기존 12,041단어 음성이 모두 Gemini TTS의 Kore 목소리로 만들어져 있어서,
 교재에 새로 등장하는 단어도 같은 방식·같은 목소리로 만들어 이질감을 없앤다.
@@ -6,8 +6,8 @@
 
 준비: export GEMINI_KEYS="키1,키2"      (쉼표로 여러 개 — 하루 한도 소진 시 다음 키로)
 사용: python3 gen_words.py jobs.json [워커수]
-  jobs.json = [{"text": "apple", "out": "/abs/path.mp3", "word": true}, ...]
-  word=false 이면 예문으로 간주해 문장용 프롬프트를 쓴다.
+  jobs.json = [{"text": "apple", "out": "/abs/path.mp3", "word": true, "voice": "Kore"}, ...]
+  word=false 이면 문장용 프롬프트를 쓴다. voice 는 Kore(여, 기본) 또는 Achird(남).
 """
 import base64
 import json
@@ -22,7 +22,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import imageio_ffmpeg
 
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
-VOICE = "Kore"
+DEFAULT_VOICE = "Kore"
 MODELS = ["gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"]
 KEYS = [k.strip() for k in os.environ.get("GEMINI_KEYS", "").split(",") if k.strip()]
 
@@ -40,14 +40,14 @@ def advance(from_ptr):
             print(f"  → 다음 (키,모델)로 전환: {CHAIN[_ptr][1]}")
 
 
-def synth(text):
+def synth(text, voice=DEFAULT_VOICE):
     ptr = _ptr
     key, model = CHAIN[ptr]
     body = json.dumps({
         "contents": [{"parts": [{"text": text}]}],
         "generationConfig": {
             "responseModalities": ["AUDIO"],
-            "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOICE}}},
+            "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}},
         },
     })
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
@@ -97,7 +97,7 @@ def gen_one(job):
     last, daily_streak, last_ptr = "", 0, 0
     for a in range(20):
         try:
-            pcm, rate = synth(prompts[a % len(prompts)].format(t=job["text"]))
+            pcm, rate = synth(prompts[a % len(prompts)].format(t=job["text"]), job.get("voice", DEFAULT_VOICE))
             if len(pcm) < 2000:
                 raise RuntimeError("empty-audio", 0, 0, False)
             to_mp3(pcm, rate, out)
