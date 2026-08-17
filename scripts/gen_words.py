@@ -23,7 +23,9 @@ import imageio_ffmpeg
 
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 DEFAULT_VOICE = "Kore"
-MODELS = ["gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"]
+# 기본은 2.5 Flash만 사용 (Pro는 단가가 두 배라 쓰지 않는다).
+# 정말 필요하면 GEMINI_TTS_MODELS 로 바꿀 수 있다.
+MODELS = [m.strip() for m in os.environ.get("GEMINI_TTS_MODELS", "gemini-2.5-flash-preview-tts").split(",") if m.strip()]
 KEYS = [k.strip() for k in os.environ.get("GEMINI_KEYS", "").split(",") if k.strip()]
 
 # (키, 모델) 폴백 체인 — 하루 한도가 진짜로 소진됐을 때만 다음으로 넘어간다
