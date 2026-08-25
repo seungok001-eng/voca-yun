@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { api } from "@/lib/client";
+import { useLiveRefresh } from "@/lib/use-live";
 
 type LessonCard = {
   id: number; partOrder: number; area: string; order: number; name: string;
@@ -23,9 +24,12 @@ const AREA_KO: Record<string, string> = { TOON: "🗣️ Toon World", READING: "
 export default function TextbookHomePage() {
   const [d, setD] = useState<Home | null>(null);
 
-  useEffect(() => {
-    api<Home>("/api/textbook/home").then(setD).catch(() => setD(null));
+  const load = useCallback(() => {
+    api<Home>("/api/textbook/home").then(setD).catch(() => { /* 일시적 실패는 화면 유지 */ });
   }, []);
+  useEffect(load, [load]);
+  // 선생님이 진도를 바꾸면 학생 화면도 따라 갱신된다
+  useLiveRefresh(load, 20000);
 
   if (!d) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
 

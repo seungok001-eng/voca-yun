@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { api } from "@/lib/client";
+import { useLiveRefresh } from "@/lib/use-live";
 
 type Line = { id: number; order: number; speaker: string; text: string; textKo: string | null; audioUrl: string | null };
 type Dialogue = { id: number; order: number; lines: Line[] };
@@ -23,9 +24,10 @@ export default function LessonHubPage() {
   const [busy, setBusy] = useState(false);
 
   const load = useCallback(() => {
-    api<LessonData>(`/api/textbook/lessons/${id}`).then(setD).catch(() => setD(null));
+    api<LessonData>(`/api/textbook/lessons/${id}`).then(setD).catch(() => { /* 일시적 실패는 화면 유지 */ });
   }, [id]);
   useEffect(load, [load]);
+  useLiveRefresh(load, 30000);
 
   async function goWords(to: "study" | "test") {
     setBusy(true);

@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { api } from "@/lib/client";
+import { useLiveRefresh } from "@/lib/use-live";
 
 type Dashboard = {
   name: string;
@@ -51,6 +52,11 @@ export default function HomePage() {
     }
   }
   const router = useRouter();
+
+  const load = useCallback(() => {
+    api<Dashboard>("/api/student/dashboard").then(setD).catch(() => { /* 일시적 실패는 화면 유지 */ });
+  }, []);
+  useLiveRefresh(load, 30000);
 
   useEffect(() => {
     api<Dashboard>("/api/student/dashboard").then(setD).catch((e) => setError(e.message));
