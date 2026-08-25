@@ -112,7 +112,7 @@ export default function SettingsForm({
         <select className="input" value={v.testMode ?? "__inherit"} onChange={(e) => set("testMode", e.target.value === "__inherit" ? null : e.target.value)}>
           {inherit && <option value="__inherit">반 설정 따름</option>}
           <option value="KO_TO_EN">한글 → 영어 타이핑</option>
-          <option value="EN_TO_KO">영어 → 한글 타이핑</option>
+          <option value="EN_TO_KO">영어 → 한글 4지선다</option>
           <option value="MIXED">혼합 (랜덤)</option>
         </select>
       </Field>

@@ -1,6 +1,6 @@
 import { db } from "@/lib/db";
 import { requireStudent, errorResponse } from "@/lib/auth";
-import type { TestItem } from "@/lib/test-service";
+import { buildChoices, type TestItem } from "@/lib/test-service";
 
 // 현재 문항 조회 (정답은 절대 내려보내지 않음)
 export async function GET(_req: Request, ctx: { params: Promise<{ id: string }> }) {
@@ -40,10 +40,14 @@ export async function GET(_req: Request, ctx: { params: Promise<{ id: string }> 
       (a) => a.wordId === item.wordId && a.textCorrect && a.pronPassed === null && session.pronEnabled
     );
 
+    // 영어 → 한글은 4지선다 (보기는 세션·단어마다 고정)
     const question =
       item.dir === "KO_TO_EN"
         ? { dir: item.dir, prompt: (JSON.parse(word.meaningsJson) as string[]).join(", "), pos: word.pos, wordId: word.id }
-        : { dir: item.dir, prompt: word.text, pos: word.pos, wordId: word.id };
+        : {
+            dir: item.dir, prompt: word.text, pos: word.pos, wordId: word.id,
+            choices: await buildChoices(session.id * 1000003 + word.id, word),
+          };
 
     return Response.json({
       ...base,

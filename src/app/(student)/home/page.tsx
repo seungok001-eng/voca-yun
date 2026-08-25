@@ -27,7 +27,7 @@ type Dashboard = {
 
 const MODE_KO: Record<string, string> = {
   KO_TO_EN: "한글 → 영어",
-  EN_TO_KO: "영어 → 한글",
+  EN_TO_KO: "영어 → 한글 4지선다",
   MIXED: "혼합",
 };
 

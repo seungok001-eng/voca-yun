@@ -4,7 +4,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { api, speak, recognizeOnce, speechRecognitionSupported, POS_KO } from "@/lib/client";
 
-type Question = { dir: "KO_TO_EN" | "EN_TO_KO"; prompt: string; pos: string; wordId: number };
+type Question = {
+  dir: "KO_TO_EN" | "EN_TO_KO"; prompt: string; pos: string; wordId: number;
+  choices?: string[]; // 영어 → 한글은 4지선다
+};
 type TestState = {
   sessionId: number;
   kind: string;
@@ -46,6 +49,7 @@ export default function TestPage() {
   const [pronMode, setPronMode] = useState<{ target: string; tries: number; listening: boolean; lastMsg?: string } | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const busyRef = useRef(false);
 
   const load = useCallback(async () => {
     const s = await api<TestState>(`/api/test/${id}`);
@@ -77,20 +81,25 @@ export default function TestPage() {
     return () => document.removeEventListener("visibilitychange", onHide);
   }, [id]);
 
-  async function submitAnswer() {
-    if (!state?.question || submitting) return;
+  // picked를 주면 그 값으로 제출한다 (4지선다에서 보기를 눌렀을 때)
+  async function submitAnswer(picked?: string) {
+    // 키보드 단축키는 submitting 상태를 늦게 보므로 ref로 이중 제출을 막는다
+    if (!state?.question || submitting || busyRef.current) return;
+    const value = picked ?? given;
+    if (!value.trim()) return;
+    busyRef.current = true;
     setSubmitting(true);
     try {
       const res = await api<AnswerRes>(`/api/test/${id}/answer`, {
         method: "POST",
-        body: JSON.stringify({ given }),
+        body: JSON.stringify({ given: value }),
       });
       if (res.needPron) {
         setPronMode({ target: res.pronTarget!, tries: 0, listening: false });
         speak(res.pronTarget!);
       } else {
         setFeedback({
-          correct: !!res.correct, reveal: res.reveal, given,
+          correct: !!res.correct, reveal: res.reveal, given: value,
           finished: res.finished, status: res.status,
         });
         if (res.correct) speak(res.reveal.word);
@@ -99,8 +108,21 @@ export default function TestPage() {
     } catch (e) {
       alert(e instanceof Error ? e.message : "제출 실패");
     } finally {
+      busyRef.current = false;
       setSubmitting(false);
     }
+  }
+
+  // 시험 중단 — 세션을 지워 처음부터 다시 볼 수 있게 한다 (점수·진도에는 영향 없음)
+  async function quitTest() {
+    if (!confirm("시험을 중단할까요?\n지금까지 푼 내용은 사라지고, 나중에 처음부터 다시 볼 수 있어요.")) return;
+    try {
+      await api("/api/student/abandon", {
+        method: "POST",
+        body: JSON.stringify({ kind: "WORD", sessionId: Number(id) }),
+      });
+    } catch { /* 이미 지워졌어도 홈으로 보낸다 */ }
+    router.replace("/home");
   }
 
   async function doPron() {
@@ -147,6 +169,22 @@ export default function TestPage() {
     // next는 feedback만 참조하므로 feedback이 바뀔 때만 다시 건다
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [feedback]);
+
+  // 4지선다는 숫자 키 1~4로도 고를 수 있다
+  const choices = !feedback && !pronMode ? state?.question?.choices : undefined;
+  useEffect(() => {
+    if (!choices) return;
+    const onKey = (e: KeyboardEvent) => {
+      const n = Number(e.key);
+      if (!Number.isInteger(n) || n < 1 || n > choices.length) return;
+      if (e.isComposing) return;
+      e.preventDefault();
+      void submitAnswer(choices[n - 1]);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [choices?.join("|")]);
 
   if (!state) return <p className="text-slate-400 text-center py-20">시험 준비 중...</p>;
 
@@ -244,22 +282,49 @@ export default function TestPage() {
               </button>
             )}
           </div>
-          <input
-            ref={inputRef}
-            className="input text-center text-xl font-bold"
-            placeholder={state.question.dir === "KO_TO_EN" ? "영어로 입력" : "한글 뜻 입력"}
-            value={given}
-            onChange={(e) => setGiven(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && !e.nativeEvent.isComposing && submitAnswer()}
-            autoCapitalize="none"
-            autoCorrect="off"
-            spellCheck={false}
-          />
-          <button className="btn-primary w-full py-3.5 text-lg" onClick={submitAnswer} disabled={submitting || !given.trim()}>
-            {submitting ? "채점 중..." : "제출"}
-          </button>
+
+          {state.question.choices ? (
+            /* 영어 → 한글: 4지선다 */
+            <div className="space-y-2">
+              {state.question.choices.map((c, i) => (
+                <button
+                  key={c}
+                  onClick={() => submitAnswer(c)}
+                  disabled={submitting}
+                  className="w-full flex items-center gap-3 rounded-2xl border-2 border-slate-200 bg-white px-4 py-3.5 text-left font-bold text-[#16204a] transition-colors hover:border-[#2a3c7d] hover:bg-slate-50 disabled:opacity-50"
+                >
+                  <span className="shrink-0 grid place-items-center w-7 h-7 rounded-full bg-[#16204a] text-white text-xs">
+                    {i + 1}
+                  </span>
+                  <span className="min-w-0">{c}</span>
+                </button>
+              ))}
+              <p className="text-[11px] text-slate-400 text-center">숫자 키 1~4로도 고를 수 있어요</p>
+            </div>
+          ) : (
+            <>
+              <input
+                ref={inputRef}
+                className="input text-center text-xl font-bold"
+                placeholder="영어로 입력"
+                value={given}
+                onChange={(e) => setGiven(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && !e.nativeEvent.isComposing && submitAnswer()}
+                autoCapitalize="none"
+                autoCorrect="off"
+                spellCheck={false}
+              />
+              <button className="btn-primary w-full py-3.5 text-lg" onClick={() => submitAnswer()} disabled={submitting || !given.trim()}>
+                {submitting ? "채점 중..." : "제출"}
+              </button>
+            </>
+          )}
         </div>
       ) : null}
+
+      <button onClick={quitTest} className="w-full text-xs font-bold text-slate-400 py-2 hover:text-rose-500">
+        시험 중단하기
+      </button>
     </div>
   );
 }

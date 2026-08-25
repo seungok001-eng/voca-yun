@@ -1,7 +1,7 @@
 import { db } from "@/lib/db";
 import { requireStudent, errorResponse } from "@/lib/auth";
 import { gradeKoToEn, gradeEnToKo } from "@/lib/grading";
-import { finalizeItem, type TestItem } from "@/lib/test-service";
+import { choiceTextOf, finalizeItem, type TestItem } from "@/lib/test-service";
 
 // 답안 제출
 export async function POST(req: Request, ctx: { params: Promise<{ id: string }> }) {
@@ -27,7 +27,13 @@ export async function POST(req: Request, ctx: { params: Promise<{ id: string }> 
     const textCorrect =
       item.dir === "KO_TO_EN"
         ? gradeKoToEn(String(given ?? ""), word.text)
-        : gradeEnToKo(String(given ?? ""), meanings, word.aliases.map((a) => a.text), session.posStrict);
+        : gradeEnToKo(
+            String(given ?? ""),
+            // 4지선다 보기는 뜻을 모두 이어 붙인 문구라 그것도 정답으로 인정한다
+            [...meanings, choiceTextOf(word.meaningsJson)],
+            word.aliases.map((a) => a.text),
+            session.posStrict
+          );
 
     const reveal = { word: word.text, meanings, pos: word.pos, emoji: word.emoji };
 

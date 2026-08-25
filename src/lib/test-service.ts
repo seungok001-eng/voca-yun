@@ -6,6 +6,78 @@ import { loadScheduleContext, countStudyDays } from "./schedule";
 
 export type TestItem = { wordId: number; dir: "KO_TO_EN" | "EN_TO_KO" };
 
+// ── 영어 → 한글 문항의 4지선다 보기 ──────────────────────────────
+// 같은 시험의 같은 단어면 새로고침해도 늘 같은 보기가 나오도록 난수를 고정한다.
+export const CHOICE_COUNT = 4;
+
+function seededRandom(seed: number) {
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function seededShuffle<T>(arr: T[], rnd: () => number): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/** 보기에 쓰는 뜻 문구 — 등록된 뜻을 모두 이어 붙인다. */
+export function choiceTextOf(meaningsJson: string): string {
+  return (JSON.parse(meaningsJson) as string[]).join(", ");
+}
+
+type ChoiceWord = { id: number; pos: string; wordbookId: number | null; levelId: number | null; meaningsJson: string };
+
+/**
+ * 정답 1개 + 오답 3개를 섞어서 돌려준다.
+ * 오답은 같은 교재·단계의 같은 품사에서 먼저 고르고, 모자라면 범위를 넓힌다.
+ */
+export async function buildChoices(seed: number, word: ChoiceWord): Promise<string[]> {
+  const rnd = seededRandom(seed);
+  const answer = choiceTextOf(word.meaningsJson);
+  const { normalizeKo } = await import("./grading");
+  const taken = new Set([normalizeKo(answer), ...(JSON.parse(word.meaningsJson) as string[]).map(normalizeKo)]);
+
+  const scope = word.wordbookId
+    ? { wordbookId: word.wordbookId }
+    : word.levelId
+      ? { levelId: word.levelId }
+      : {};
+  // 좁은 범위부터 차례로 넓혀 가며 오답 후보를 모은다
+  const scopes = [{ ...scope, pos: word.pos }, scope, { pos: word.pos }, {}];
+
+  const wrong: string[] = [];
+  const WINDOW = 60;
+  for (const where of scopes) {
+    if (wrong.length >= CHOICE_COUNT - 1) break;
+    const full = { ...where, id: { not: word.id } };
+    const total = await db.word.count({ where: full });
+    if (total === 0) continue;
+    const skip = total > WINDOW ? Math.floor(rnd() * (total - WINDOW)) : 0;
+    const rows = await db.word.findMany({
+      where: full, select: { meaningsJson: true }, orderBy: { id: "asc" }, skip, take: WINDOW,
+    });
+    for (const r of seededShuffle(rows, rnd)) {
+      if (wrong.length >= CHOICE_COUNT - 1) break;
+      const text = choiceTextOf(r.meaningsJson);
+      const key = normalizeKo(text);
+      if (!key || taken.has(key)) continue; // 정답과 겹치는 뜻은 오답으로 쓰지 않는다
+      taken.add(key);
+      wrong.push(text);
+    }
+  }
+
+  return seededShuffle([answer, ...wrong], rnd);
+}
+
 // 연속통과 뱃지: 3일 연속 통과부터 매 통과일 1개, 뱃지당 10P
 export const BADGE_MIN_STREAK = 3;
 export const BADGE_POINTS = 10;
