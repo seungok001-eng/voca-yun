@@ -1,0 +1,5407 @@
+{
+ "lessons": [
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 1,
+   "name": "I Bring Home a Robot (2-7)",
+   "words": [
+    {
+     "text": "jump",
+     "meanings": [
+      "점프하다",
+      "뛰다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/37.mp3"
+    },
+    {
+     "text": "floor",
+     "meanings": [
+      "바닥"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/402.mp3"
+    },
+    {
+     "text": "pick up",
+     "meanings": [
+      "~을 줍다",
+      "집다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l10/475.mp3"
+    },
+    {
+     "text": "open",
+     "meanings": [
+      "열다",
+      "열린"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/58.mp3"
+    },
+    {
+     "text": "roam",
+     "meanings": [
+      "돌아다니다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/588.mp3"
+    },
+    {
+     "text": "street",
+     "meanings": [
+      "거리",
+      "도로"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/31.mp3"
+    },
+    {
+     "text": "wink",
+     "meanings": [
+      "윙크하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/568.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "On my way home from school, I see a box on the street.",
+     "ko": "학교에서 집으로 돌아오는 길에, 나는 길에서 상자 하나를 본다.",
+     "audio": "/audio/speak/2f9762f4e9efc8c9.mp3"
+    },
+    {
+     "text": "I want to see what's in the box.",
+     "ko": "나는 상자 안에 무엇이 있는지 보고 싶다.",
+     "audio": "/audio/speak/c2f2b0a5b8f7d771.mp3"
+    },
+    {
+     "text": "I pick it up and open it.",
+     "ko": "나는 그것을 집어 들고 연다.",
+     "audio": "/audio/speak/6e82d51f433580e3.mp3"
+    },
+    {
+     "text": "Guess what?",
+     "ko": "있잖아, 그거 알아?",
+     "audio": "/audio/speak/fe55bcfc01f7f7f1.mp3"
+    },
+    {
+     "text": "A robot is in the box.",
+     "ko": "상자 안에는 로봇이 있다.",
+     "audio": "/audio/speak/c57b1ce319503b53.mp3"
+    },
+    {
+     "text": "I jump up and down with excitement.",
+     "ko": "나는 신이 나서 펄쩍펄쩍 뛴다.",
+     "audio": "/audio/speak/a5066ec4ff9b332d.mp3"
+    },
+    {
+     "text": "Nobody is home.",
+     "ko": "아무도 집에 없다.",
+     "audio": "/audio/speak/25e887f22b8c3df6.mp3"
+    },
+    {
+     "text": "My parents are at work.",
+     "ko": "부모님은 직장에 계신다.",
+     "audio": "/audio/speak/c34f0065d4bb5916.mp3"
+    },
+    {
+     "text": "Only the robot and I are in the house.",
+     "ko": "로봇과 나만이 집에 있다.",
+     "audio": "/audio/speak/ada2fa33121cfbff.mp3"
+    },
+    {
+     "text": "I place it on the floor.",
+     "ko": "나는 그것을 바닥에 놓는다.",
+     "audio": "/audio/speak/51a64b19d0a2ab58.mp3"
+    },
+    {
+     "text": "Suddenly, the robot winks at me.",
+     "ko": "갑자기, 로봇이 나에게 윙크한다.",
+     "audio": "/audio/speak/3b700a13725a3ef0.mp3"
+    },
+    {
+     "text": "Soon, it starts to busily roam about the house.",
+     "ko": "곧, 그것은 집안을 바쁘게 돌아다니기 시작한다.",
+     "audio": "/audio/speak/60733544ea27e7cb.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 2,
+   "name": "I Bring Home a Robot (8-11)",
+   "words": [
+    {
+     "text": "bathtub",
+     "meanings": [
+      "욕조"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l7/186.mp3"
+    },
+    {
+     "text": "flush",
+     "meanings": [
+      "물을 내리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/c5ee76ccab2286bc.mp3"
+    },
+    {
+     "text": "refrigerator",
+     "meanings": [
+      "냉장고"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/393.mp3"
+    },
+    {
+     "text": "make a mess",
+     "meanings": [
+      "엉망으로 만들다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/181d20290fa941df.mp3"
+    },
+    {
+     "text": "bowl",
+     "meanings": [
+      "그릇"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/290.mp3"
+    },
+    {
+     "text": "water tap",
+     "meanings": [
+      "수도꼭지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/62ed9e2c86413e0b.mp3"
+    },
+    {
+     "text": "microwave",
+     "meanings": [
+      "전자레인지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/321.mp3"
+    },
+    {
+     "text": "fill",
+     "meanings": [
+      "채우다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/137.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "The robot makes a mess in the bathroom.",
+     "ko": "로봇이 욕실을 엉망으로 만든다.",
+     "audio": "/audio/speak/30a8890ee58176a0.mp3"
+    },
+    {
+     "text": "It turns the water tap.",
+     "ko": "그것은 수도꼭지를 튼다.",
+     "audio": "/audio/speak/d2fd168616b4c837.mp3"
+    },
+    {
+     "text": "It flushes the toilet.",
+     "ko": "그것은 변기 물을 내린다.",
+     "audio": "/audio/speak/0787a4b86077a1ee.mp3"
+    },
+    {
+     "text": "It fills the bathtub with bubble bath.",
+     "ko": "그것은 욕조를 거품 목욕제로 채운다.",
+     "audio": "/audio/speak/d47a3b37fd8deaf8.mp3"
+    },
+    {
+     "text": "The robot makes a mess in the kitchen.",
+     "ko": "로봇이 주방을 엉망으로 만든다.",
+     "audio": "/audio/speak/c0548df7831bffd0.mp3"
+    },
+    {
+     "text": "It takes out all the food from the refrigerator.",
+     "ko": "그것은 냉장고에서 모든 음식을 꺼낸다.",
+     "audio": "/audio/speak/f3d47144cc6dae72.mp3"
+    },
+    {
+     "text": "It cooks.",
+     "ko": "그것은 요리한다.",
+     "audio": "/audio/speak/e693ccd1f9aea96a.mp3"
+    },
+    {
+     "text": "It turns on the microwave.",
+     "ko": "그것은 전자레인지를 켠다.",
+     "audio": "/audio/speak/1979a1c0b5a47c5a.mp3"
+    },
+    {
+     "text": "It breaks all the cups, plates, and bowls.",
+     "ko": "그것은 모든 컵, 접시, 그리고 그릇을 깬다.",
+     "audio": "/audio/speak/4ee7b8074bfcf0fd.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 3,
+   "name": "I Bring Home a Robot (12-15)",
+   "words": [
+    {
+     "text": "try on",
+     "meanings": [
+      "~을 입어 보다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/376.mp3"
+    },
+    {
+     "text": "draw",
+     "meanings": [
+      "그리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/10.mp3"
+    },
+    {
+     "text": "mirror",
+     "meanings": [
+      "거울"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/396.mp3"
+    },
+    {
+     "text": "lipstick",
+     "meanings": [
+      "립스틱"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/98e6b46f0b1efe91.mp3"
+    },
+    {
+     "text": "closet",
+     "meanings": [
+      "옷장"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/397.mp3"
+    },
+    {
+     "text": "garage",
+     "meanings": [
+      "차고"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/233.mp3"
+    },
+    {
+     "text": "toolbox",
+     "meanings": [
+      "공구 상자",
+      "공구함"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/316.mp3"
+    },
+    {
+     "text": "paint",
+     "meanings": [
+      "페인트",
+      "그리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/11.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "The robot makes a mess in the bedroom.",
+     "ko": "로봇이 침실을 엉망으로 만들어요.",
+     "audio": "/audio/speak/1bd77cfb36399a5f.mp3"
+    },
+    {
+     "text": "It jumps on the bed.",
+     "ko": "로봇이 침대 위에서 뛰어요.",
+     "audio": "/audio/speak/5971d274044cf2b7.mp3"
+    },
+    {
+     "text": "It draws on the mirror with my mom's lipstick.",
+     "ko": "로봇이 엄마 립스틱으로 거울에 그림을 그려요.",
+     "audio": "/audio/speak/bb1c91165be26893.mp3"
+    },
+    {
+     "text": "It tries on all the shirts, pants, and sweaters in the closet.",
+     "ko": "로봇이 옷장 안에 있는 모든 셔츠, 바지, 스웨터를 입어 봐요.",
+     "audio": "/audio/speak/aef4f6ef4c177917.mp3"
+    },
+    {
+     "text": "The robot makes a mess in the garage.",
+     "ko": "로봇이 차고를 엉망으로 만들어요.",
+     "audio": "/audio/speak/63e774625814583a.mp3"
+    },
+    {
+     "text": "It takes everything out of the toolbox.",
+     "ko": "로봇이 연장통에서 모든 것을 꺼내요.",
+     "audio": "/audio/speak/6fa2aaabacb162a8.mp3"
+    },
+    {
+     "text": "It starts our family's car.",
+     "ko": "로봇이 우리 가족 차의 시동을 걸어요.",
+     "audio": "/audio/speak/0193647d718c5802.mp3"
+    },
+    {
+     "text": "It draws on the walls with paint.",
+     "ko": "로봇이 페인트로 벽에 그림을 그려요.",
+     "audio": "/audio/speak/af4eba6e995df742.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 4,
+   "name": "I Bring Home a Robot (16-23)",
+   "words": [
+    {
+     "text": "moonwalk",
+     "meanings": [
+      "문워크하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/7b3e5bf48f43df23.mp3"
+    },
+    {
+     "text": "stereo",
+     "meanings": [
+      "스테레오",
+      "오디오"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/479305c52e9b4be0.mp3"
+    },
+    {
+     "text": "enter",
+     "meanings": [
+      "들어가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/49.mp3"
+    },
+    {
+     "text": "drop open",
+     "meanings": [
+      "딱 벌어지다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/15678e4fbf7c0f0f.mp3"
+    },
+    {
+     "text": "pop out",
+     "meanings": [
+      "튀어나오다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a4eae62992e0f7ae.mp3"
+    },
+    {
+     "text": "angry",
+     "meanings": [
+      "화난"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/24.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "The robot makes a mess in the living room.",
+     "ko": "로봇이 거실을 엉망으로 만들어요.",
+     "audio": "/audio/speak/b0e8d95133df9399.mp3"
+    },
+    {
+     "text": "It opens the windows.",
+     "ko": "로봇이 창문들을 열어요.",
+     "audio": "/audio/speak/fc92954079e138ee.mp3"
+    },
+    {
+     "text": "It turns on the stereo.",
+     "ko": "로봇이 스테레오를 켜요.",
+     "audio": "/audio/speak/ee9231a2aaab439b.mp3"
+    },
+    {
+     "text": "It moonwalks back and forth to music.",
+     "ko": "로봇이 음악에 맞춰 문워크를 하며 왔다 갔다 해요.",
+     "audio": "/audio/speak/96ad41df06a86831.mp3"
+    },
+    {
+     "text": "Then, I hear my dad come home.",
+     "ko": "그때, 아빠가 집에 오시는 소리가 들려요.",
+     "audio": "/audio/speak/b649b32c1e639748.mp3"
+    },
+    {
+     "text": "My dad enters.",
+     "ko": "아빠가 들어오세요.",
+     "audio": "/audio/speak/20b7ed05cb678c49.mp3"
+    },
+    {
+     "text": "His eyes pop out and his mouth drops open.",
+     "ko": "아빠는 눈이 휘둥그레지고 입이 떡 벌어지세요.",
+     "audio": "/audio/speak/f5be5c36dec0a2d1.mp3"
+    },
+    {
+     "text": "I tell him where I found the robot.",
+     "ko": "저는 아빠에게 로봇을 어디서 찾았는지 말해요.",
+     "audio": "/audio/speak/c71b95a77515bded.mp3"
+    },
+    {
+     "text": "I also tell him that he is the troublemaker, but he doesn't buy it.",
+     "ko": "저는 또한 아빠에게 로봇이 문제아라고 말하지만, 아빠는 믿지 않으세요.",
+     "audio": "/audio/speak/b5420b4424774866.mp3"
+    },
+    {
+     "text": "He tells me a toy cannot do such things.",
+     "ko": "아빠는 저에게 장난감이 그런 일들을 할 수 없다고 말씀하세요.",
+     "audio": "/audio/speak/19534364aaa7f46b.mp3"
+    },
+    {
+     "text": "He gets very angry and grounds me for one week.",
+     "ko": "아빠는 매우 화가 나셔서 저에게 일주일 동안 외출 금지 명령을 내리세요.",
+     "audio": "/audio/speak/e65aaf83f11671b8.mp3"
+    },
+    {
+     "text": "It's not fair.",
+     "ko": "이건 불공평해요.",
+     "audio": "/audio/speak/b7f9d44e9ca7c8b0.mp3"
+    },
+    {
+     "text": "I'm telling the truth!",
+     "ko": "저는 진실을 말하고 있어요!",
+     "audio": "/audio/speak/fd1e5a4e1c34c98b.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 5,
+   "name": "How We Have the Four Seasons (2-7)",
+   "words": [
+    {
+     "text": "crops",
+     "meanings": [
+      "농작물",
+      "작물"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a5986d1ea3524190.mp3"
+    },
+    {
+     "text": "hungry",
+     "meanings": [
+      "배고픈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/26.mp3"
+    },
+    {
+     "text": "humans",
+     "meanings": [
+      "인간"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/770c9098f25604f4.mp3"
+    },
+    {
+     "text": "goddess",
+     "meanings": [
+      "여신"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a4236881cb2b0588.mp3"
+    },
+    {
+     "text": "die",
+     "meanings": [
+      "죽다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d5ad82c591f5a2a8.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Demeter is a goddess.",
+     "ko": "데메테르는 여신이다.",
+     "audio": "/audio/speak/22ba15d37a3539e9.mp3"
+    },
+    {
+     "text": "She takes care of crops for humans.",
+     "ko": "그녀는 인간을 위해 농작물을 돌본다.",
+     "audio": "/audio/speak/89c3b14e99cab8de.mp3"
+    },
+    {
+     "text": "Whenever she is happy, crops grow well.",
+     "ko": "그녀가 행복할 때마다, 농작물은 잘 자란다.",
+     "audio": "/audio/speak/dbe9d4db7a9ef074.mp3"
+    },
+    {
+     "text": "Whenever she is sad, crops die.",
+     "ko": "그녀가 슬플 때마다, 농작물은 죽는다.",
+     "audio": "/audio/speak/be51b17d1fce7e93.mp3"
+    },
+    {
+     "text": "When crops die, humans get hungry.",
+     "ko": "농작물이 죽으면, 인간은 배고파진다.",
+     "audio": "/audio/speak/9827d9bc00295514.mp3"
+    },
+    {
+     "text": "Demeter has a beautiful daughter.",
+     "ko": "데메테르에게는 아름다운 딸이 있다.",
+     "audio": "/audio/speak/4a663f12ff30c127.mp3"
+    },
+    {
+     "text": "Her name is Persephone.",
+     "ko": "그녀의 이름은 페르세포네이다.",
+     "audio": "/audio/speak/c6fee118294a6820.mp3"
+    },
+    {
+     "text": "Persephone loves flowers very much.",
+     "ko": "페르세포네는 꽃을 매우 좋아한다.",
+     "audio": "/audio/speak/fe61ec0e5205e356.mp3"
+    },
+    {
+     "text": "Flowers make her very happy.",
+     "ko": "꽃은 그녀를 매우 행복하게 만든다.",
+     "audio": "/audio/speak/5b70bdf3765baf16.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 6,
+   "name": "How We Have the Four Seasons (8-13)",
+   "words": [
+    {
+     "text": "underworld",
+     "meanings": [
+      "지하세계"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/2b2b55742c5f0b8c.mp3"
+    },
+    {
+     "text": "pick",
+     "meanings": [
+      "꺾다",
+      "따다",
+      "뽑다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/150.mp3"
+    },
+    {
+     "text": "fall in love",
+     "meanings": [
+      "사랑에 빠지다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l9/326.mp3"
+    },
+    {
+     "text": "miss",
+     "meanings": [
+      "그리워하다",
+      "놓치다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/79.mp3"
+    },
+    {
+     "text": "worried",
+     "meanings": [
+      "걱정하는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/153.mp3"
+    },
+    {
+     "text": "look for",
+     "meanings": [
+      "~을 찾다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/78ecfff1c4131165.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "One day, Persephone picks flowers in the fields.",
+     "ko": "어느 날, 페르세포네는 들판에서 꽃을 꺾고 있습니다.",
+     "audio": "/audio/speak/e7f057b1029c4373.mp3"
+    },
+    {
+     "text": "Hades, the god of the underworld, sees her.",
+     "ko": "지하 세계의 신 하데스가 그녀를 봅니다.",
+     "audio": "/audio/speak/e31e9fd7f3df98b5.mp3"
+    },
+    {
+     "text": "He falls in love with her at first sight.",
+     "ko": "그는 그녀에게 첫눈에 반합니다.",
+     "audio": "/audio/speak/dc8b253a23d6a9fa.mp3"
+    },
+    {
+     "text": "He takes her to the underworld right away.",
+     "ko": "그는 그녀를 곧바로 지하 세계로 데려갑니다.",
+     "audio": "/audio/speak/5420b6d89e5e1898.mp3"
+    },
+    {
+     "text": "Persephone cries every day.",
+     "ko": "페르세포네는 매일 웁니다.",
+     "audio": "/audio/speak/f2dfcb486e4c7d67.mp3"
+    },
+    {
+     "text": "She misses her mother, Demeter.",
+     "ko": "그녀는 어머니 데메테르를 그리워합니다.",
+     "audio": "/audio/speak/c75d973eefb44a3a.mp3"
+    },
+    {
+     "text": "She also misses the flowers in the fields.",
+     "ko": "그녀는 또한 들판의 꽃들도 그리워합니다.",
+     "audio": "/audio/speak/6e32ac9d9cfc81fc.mp3"
+    },
+    {
+     "text": "Meanwhile, Demeter looks for her daughter, Persephone.",
+     "ko": "한편, 데메테르는 자신의 딸 페르세포네를 찾습니다.",
+     "audio": "/audio/speak/44b1a9e19c273494.mp3"
+    },
+    {
+     "text": "She is very sad and worried.",
+     "ko": "그녀는 매우 슬프고 걱정스러워합니다.",
+     "audio": "/audio/speak/4eb22a1ab2cf99d5.mp3"
+    },
+    {
+     "text": "She does not look after the crops.",
+     "ko": "그녀는 농작물들을 돌보지 않습니다.",
+     "audio": "/audio/speak/23b8efa45ec91314.mp3"
+    },
+    {
+     "text": "As a result, all the crops die.",
+     "ko": "그 결과, 모든 농작물들이 시들어 죽습니다.",
+     "audio": "/audio/speak/5ce629b82750d7a7.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 7,
+   "name": "How We Have the Four Seasons (14-17)",
+   "words": [
+    {
+     "text": "god",
+     "meanings": [
+      "신"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/3ba139e75dfaab33.mp3"
+    },
+    {
+     "text": "king",
+     "meanings": [
+      "왕"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/279.mp3"
+    },
+    {
+     "text": "fruit",
+     "meanings": [
+      "과일",
+      "열매"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/260.mp3"
+    },
+    {
+     "text": "messenger",
+     "meanings": [
+      "전령",
+      "심부름꾼"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/116.mp3"
+    },
+    {
+     "text": "send",
+     "meanings": [
+      "보내다",
+      "전하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/100.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Zeus is the king of the gods.",
+     "ko": "제우스는 신들의 왕이다.",
+     "audio": "/audio/speak/8b09bc987c8e627b.mp3"
+    },
+    {
+     "text": "He loves humans.",
+     "ko": "그는 인간들을 사랑한다.",
+     "audio": "/audio/speak/2d96c10357e8a3cc.mp3"
+    },
+    {
+     "text": "He is very sad because the humans are hungry.",
+     "ko": "그는 인간들이 굶주리고 있어서 매우 슬프다.",
+     "audio": "/audio/speak/a6a10301a837c6a2.mp3"
+    },
+    {
+     "text": "He learns what's going on.",
+     "ko": "그는 무슨 일이 벌어지고 있는지 알게 된다.",
+     "audio": "/audio/speak/9f1703b8148a66ed.mp3"
+    },
+    {
+     "text": "He sends Hermes, the messenger of the gods, to the underworld.",
+     "ko": "그는 신들의 전령인 헤르메스를 저승으로 보낸다.",
+     "audio": "/audio/speak/b2130f8f65c4ce0b.mp3"
+    },
+    {
+     "text": "Hermes goes to see Hades.",
+     "ko": "헤르메스는 하데스를 만나러 간다.",
+     "audio": "/audio/speak/2c07371051ca7cda.mp3"
+    },
+    {
+     "text": "Hermes learns that there is a rule in the underworld.",
+     "ko": "헤르메스는 저승에 규칙이 있다는 것을 알게 된다.",
+     "audio": "/audio/speak/14d9e2e6015f1119.mp3"
+    },
+    {
+     "text": "If one eats anything in the underworld, he or she has to live there forever.",
+     "ko": "만약 저승에서 무엇이든 먹으면, 그 사람은 그곳에서 영원히 살아야 한다.",
+     "audio": "/audio/speak/073317b07ccd3bc8.mp3"
+    },
+    {
+     "text": "Unfortunately, Persephone had already eaten some fruit.",
+     "ko": "불행하게도, 페르세포네는 이미 과일을 좀 먹은 상태였다.",
+     "audio": "/audio/speak/088309c419d02011.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 8,
+   "name": "How We Have the Four Seasons (18-23)",
+   "words": [
+    {
+     "text": "months",
+     "meanings": [
+      "달",
+      "월"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/08378b094e910086.mp3"
+    },
+    {
+     "text": "seasons",
+     "meanings": [
+      "계절"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b7e705dd42fceb0d.mp3"
+    },
+    {
+     "text": "year",
+     "meanings": [
+      "해",
+      "년",
+      "연도"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/594.mp3"
+    },
+    {
+     "text": "on earth",
+     "meanings": [
+      "지상에서",
+      "땅 위에서"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/279edb2544216e04.mp3"
+    },
+    {
+     "text": "in the underworld",
+     "meanings": [
+      "지하세계에서"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/8df3de862cfd2611.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Hermes and Hades make a deal.",
+     "ko": "헤르메스와 하데스는 거래를 한다.",
+     "audio": "/audio/speak/ad4005f2f77b1fcc.mp3"
+    },
+    {
+     "text": "Persephone has to spend six months of the year on earth, and the other six months in the underworld.",
+     "ko": "페르세포네는 1년 중 6개월은 지상에서, 나머지 6개월은 지하 세계에서 보내야 한다.",
+     "audio": "/audio/speak/3e47c2cb1ee8e08a.mp3"
+    },
+    {
+     "text": "When Persephone is on earth, Demeter is very happy.",
+     "ko": "페르세포네가 지상에 있을 때, 데메테르는 매우 행복하다.",
+     "audio": "/audio/speak/ed2f4371686ff412.mp3"
+    },
+    {
+     "text": "Crops grow well.",
+     "ko": "작물들이 잘 자란다.",
+     "audio": "/audio/speak/839bc6303b3680d6.mp3"
+    },
+    {
+     "text": "When Persephone is in the underworld, Demeter is very sad.",
+     "ko": "페르세포네가 지하 세계에 있을 때, 데메테르는 매우 슬프다.",
+     "audio": "/audio/speak/fe1129d05992a1b3.mp3"
+    },
+    {
+     "text": "Crops die.",
+     "ko": "작물들이 죽는다.",
+     "audio": "/audio/speak/c759debc9376d2cb.mp3"
+    },
+    {
+     "text": "This is how we have the four seasons.",
+     "ko": "이렇게 해서 우리는 사계절을 갖게 된다.",
+     "audio": "/audio/speak/1d7aac045f9357b0.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 1,
+   "name": "That rat looks cute!",
+   "words": [
+    {
+     "text": "dirty",
+     "meanings": [
+      "더러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/57.mp3"
+    },
+    {
+     "text": "clean",
+     "meanings": [
+      "깨끗한",
+      "청소하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/56.mp3"
+    },
+    {
+     "text": "ugly",
+     "meanings": [
+      "못생긴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/565.mp3"
+    },
+    {
+     "text": "funny",
+     "meanings": [
+      "웃긴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/232.mp3"
+    },
+    {
+     "text": "rotten",
+     "meanings": [
+      "썩은",
+      "상한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/40574a07e3d166e2.mp3"
+    },
+    {
+     "text": "fresh",
+     "meanings": [
+      "신선한",
+      "상쾌한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/516.mp3"
+    },
+    {
+     "text": "flowery",
+     "meanings": [
+      "꽃 향기가 나는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/8a4d02734111bb57.mp3"
+    },
+    {
+     "text": "fishy",
+     "meanings": [
+      "비린내 나는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/73b489df17ebe119.mp3"
+    },
+    {
+     "text": "delicious",
+     "meanings": [
+      "맛있는"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/58.mp3"
+    },
+    {
+     "text": "baseball",
+     "meanings": [
+      "야구"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/7.mp3"
+    },
+    {
+     "text": "car",
+     "meanings": [
+      "자동차"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/25.mp3"
+    },
+    {
+     "text": "milk",
+     "meanings": [
+      "우유"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/16.mp3"
+    },
+    {
+     "text": "out",
+     "meanings": [
+      "밖으로",
+      "밖에"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/54.mp3"
+    },
+    {
+     "text": "pants",
+     "meanings": [
+      "바지"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/360.mp3"
+    },
+    {
+     "text": "sound",
+     "meanings": [
+      "소리",
+      "~하게 들리다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l12/188.mp3"
+    },
+    {
+     "text": "what",
+     "meanings": [
+      "무엇"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/272.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does the rat look?",
+       "ko": "그 쥐는 어떻게 보이니?",
+       "audio": "/audio/speak/45968f1faa31290b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "That rat looks dirty.",
+       "ko": "저 쥐는 더러워 보여.",
+       "audio": "/audio/speak/5366eab3cba1c536.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it smell?",
+       "ko": "그것은 어떤 냄새가 나니?",
+       "audio": "/audio/speak/ac827be027bef627.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It smells rotten.",
+       "ko": "그것은 썩은 냄새가 나.",
+       "audio": "/audio/speak/cadc5a019951d33b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do the rats look?",
+       "ko": "그 쥐들은 어떻게 보이니?",
+       "audio": "/audio/speak/d17186ecb8818546.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Those rats look clean.",
+       "ko": "저 쥐들은 깨끗해 보여.",
+       "audio": "/audio/speak/4792cf451a4758cb.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How do they smell?",
+       "ko": "그것들은 어떤 냄새가 나니?",
+       "audio": "/audio/speak/a7be33ac4c9a0066.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They smell flowery.",
+       "ko": "그것들은 꽃 향기가 나.",
+       "audio": "/audio/speak/4201bafc7fe49e41.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do the rats look?",
+       "ko": "그 쥐들은 어떻게 보이니?",
+       "audio": "/audio/speak/d17186ecb8818546.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Those rats look funny.",
+       "ko": "저 쥐들은 웃겨 보여.",
+       "audio": "/audio/speak/4a528e5786cb2d1c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How do they smell?",
+       "ko": "그것들은 어떤 냄새가 나니?",
+       "audio": "/audio/speak/a7be33ac4c9a0066.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They smell fresh.",
+       "ko": "그것들은 상쾌한 냄새가 나.",
+       "audio": "/audio/speak/2d7d348b159aaa69.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How does the rat look?",
+       "ko": "그 쥐는 어떻게 보이니?",
+       "audio": "/audio/speak/45968f1faa31290b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "That rat looks ugly.",
+       "ko": "저 쥐는 못생겨 보여.",
+       "audio": "/audio/speak/b769ecf28be00c50.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it smell?",
+       "ko": "그것은 어떤 냄새가 나니?",
+       "audio": "/audio/speak/ac827be027bef627.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It smells fishy.",
+       "ko": "그것은 비린내가 나.",
+       "audio": "/audio/speak/a31c124f1c34bc6a.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 2,
+   "name": "I think I can help.",
+   "words": [
+    {
+     "text": "carry the box",
+     "meanings": [
+      "상자를 옮기다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f40e79ab1dbe6b39.mp3"
+    },
+    {
+     "text": "teach you math",
+     "meanings": [
+      "수학을 가르쳐 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/feca5e036eb32627.mp3"
+    },
+    {
+     "text": "make you food",
+     "meanings": [
+      "음식을 만들어 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/38c4f915fbffd3aa.mp3"
+    },
+    {
+     "text": "fix it for you",
+     "meanings": [
+      "그것을 고쳐 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ea808c94067ca0b4.mp3"
+    },
+    {
+     "text": "clean the house",
+     "meanings": [
+      "집을 청소하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/246767b848eda95f.mp3"
+    },
+    {
+     "text": "take you home",
+     "meanings": [
+      "집에 바래다 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/fe25be02dc9e4743.mp3"
+    },
+    {
+     "text": "show you the way",
+     "meanings": [
+      "길을 안내해 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/980f6c4eee9623aa.mp3"
+    },
+    {
+     "text": "food",
+     "meanings": [
+      "음식"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/d04f078e4af1506b.mp3"
+    },
+    {
+     "text": "learn",
+     "meanings": [
+      "배우다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/47.mp3"
+    },
+    {
+     "text": "save",
+     "meanings": [
+      "구하다",
+      "절약하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/8.mp3"
+    },
+    {
+     "text": "join",
+     "meanings": [
+      "함께하다",
+      "가입하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/50.mp3"
+    },
+    {
+     "text": "should",
+     "meanings": [
+      "~해야 한다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/9780ffb69753f5a3.mp3"
+    },
+    {
+     "text": "basketball",
+     "meanings": [
+      "농구"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/8.mp3"
+    },
+    {
+     "text": "apple",
+     "meanings": [
+      "사과"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/14.mp3"
+    },
+    {
+     "text": "fish",
+     "meanings": [
+      "물고기",
+      "생선"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/8.mp3"
+    },
+    {
+     "text": "chair",
+     "meanings": [
+      "의자"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/11.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I think I can help.",
+       "ko": "내가 도와줄 수 있을 것 같아.",
+       "audio": "/audio/speak/7e3d6ffc6a5341a3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "How can you help me?",
+       "ko": "너는 어떻게 나를 도와줄 수 있니?",
+       "audio": "/audio/speak/5541e643747d3708.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "I can take you home.",
+       "ko": "나는 너를 집에 바래다 줄 수 있어.",
+       "audio": "/audio/speak/ff97677676f4d86f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Thank you.",
+       "ko": "고마워.",
+       "audio": "/audio/speak/f1de99608e72b15b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I don't think I can help.",
+       "ko": "내가 도와줄 수 없을 것 같아.",
+       "audio": "/audio/speak/acdd132b0bb49f92.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Why not?",
+       "ko": "왜 그럴 수 없니?",
+       "audio": "/audio/speak/5465e078ac83a16b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "It's too heavy.",
+       "ko": "그것은 너무 무거워.",
+       "audio": "/audio/speak/1b1a97cc32062a7c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Okay.",
+       "ko": "알겠어.",
+       "audio": "/audio/speak/8ae0a0acf9a6d6a5.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I think I can help.",
+       "ko": "내가 도와줄 수 있을 것 같아.",
+       "audio": "/audio/speak/7e3d6ffc6a5341a3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "How can you help me?",
+       "ko": "너는 어떻게 나를 도와줄 수 있니?",
+       "audio": "/audio/speak/5541e643747d3708.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "I can clean the house.",
+       "ko": "나는 집을 청소할 수 있어.",
+       "audio": "/audio/speak/2900cf843d9ddc12.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Thank you.",
+       "ko": "고마워.",
+       "audio": "/audio/speak/f1de99608e72b15b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "I don't think I can help.",
+       "ko": "내가 도와줄 수 없을 것 같아.",
+       "audio": "/audio/speak/acdd132b0bb49f92.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Why not?",
+       "ko": "왜 그럴 수 없니?",
+       "audio": "/audio/speak/5465e078ac83a16b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "I'm not good at math.",
+       "ko": "나는 수학을 잘 못 해.",
+       "audio": "/audio/speak/3755280d9878f439.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Okay.",
+       "ko": "알겠어.",
+       "audio": "/audio/speak/8ae0a0acf9a6d6a5.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 3,
+   "name": "It's hard to breathe!",
+   "words": [
+    {
+     "text": "blink",
+     "meanings": [
+      "깜빡이다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/567.mp3"
+    },
+    {
+     "text": "swallow",
+     "meanings": [
+      "삼키다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/498.mp3"
+    },
+    {
+     "text": "cough",
+     "meanings": [
+      "기침하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/128.mp3"
+    },
+    {
+     "text": "sneeze",
+     "meanings": [
+      "재채기하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/127.mp3"
+    },
+    {
+     "text": "yawn",
+     "meanings": [
+      "하품하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/126.mp3"
+    },
+    {
+     "text": "sweat",
+     "meanings": [
+      "땀을 흘리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/401.mp3"
+    },
+    {
+     "text": "snore",
+     "meanings": [
+      "코를 골다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/506.mp3"
+    },
+    {
+     "text": "breathe",
+     "meanings": [
+      "숨을 쉬다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d423b5917b9f6524.mp3"
+    },
+    {
+     "text": "sister",
+     "meanings": [
+      "여동생",
+      "누나",
+      "언니"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/3.mp3"
+    },
+    {
+     "text": "clock",
+     "meanings": [
+      "시계"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/36.mp3"
+    },
+    {
+     "text": "some",
+     "meanings": [
+      "몇몇의",
+      "약간의"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/05eb2b4939f9f79d.mp3"
+    },
+    {
+     "text": "help",
+     "meanings": [
+      "돕다",
+      "도움"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/33.mp3"
+    },
+    {
+     "text": "touch",
+     "meanings": [
+      "만지다",
+      "대다",
+      "닿다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/84.mp3"
+    },
+    {
+     "text": "know",
+     "meanings": [
+      "알다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/81.mp3"
+    },
+    {
+     "text": "long",
+     "meanings": [
+      "긴"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/49.mp3"
+    },
+    {
+     "text": "family",
+     "meanings": [
+      "가족"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/1.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Are you okay?",
+       "ko": "너 괜찮니?",
+       "audio": "/audio/speak/a97ce0cde2807a5c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's hard to blink.",
+       "ko": "눈을 깜빡이기가 어려워.",
+       "audio": "/audio/speak/076d12a713210da9.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What's wrong?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/79d353729a8836f0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "My eyes hurt.",
+       "ko": "내 눈이 아파.",
+       "audio": "/audio/speak/d5b422f76f74602e.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Are you okay?",
+       "ko": "너 괜찮니?",
+       "audio": "/audio/speak/a97ce0cde2807a5c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's hard to swallow.",
+       "ko": "삼키기가 어려워.",
+       "audio": "/audio/speak/7cf6e6f6f16955ac.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What's wrong?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/79d353729a8836f0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "My throat hurts.",
+       "ko": "내 목이 아파.",
+       "audio": "/audio/speak/b14665f75b2f0226.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Are you okay?",
+       "ko": "너 괜찮니?",
+       "audio": "/audio/speak/a97ce0cde2807a5c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's hard not to sweat.",
+       "ko": "땀을 흘리지 않기가 어려워.",
+       "audio": "/audio/speak/0f17a8cecde88020.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What's wrong?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/79d353729a8836f0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's too hot.",
+       "ko": "너무 더워.",
+       "audio": "/audio/speak/0e72be5e89464298.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Are you okay?",
+       "ko": "너 괜찮니?",
+       "audio": "/audio/speak/a97ce0cde2807a5c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's hard not to cough.",
+       "ko": "기침을 하지 않기가 어려워.",
+       "audio": "/audio/speak/b3f3db5422e0242c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What's wrong?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/79d353729a8836f0.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have a cold.",
+       "ko": "나는 감기에 걸렸어.",
+       "audio": "/audio/speak/380e335ceeaf563d.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 4,
+   "name": "They're marching slowly.",
+   "words": [
+    {
+     "text": "quickly",
+     "meanings": [
+      "빠르게",
+      "빨리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/322.mp3"
+    },
+    {
+     "text": "slowly",
+     "meanings": [
+      "느리게",
+      "천천히"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/323.mp3"
+    },
+    {
+     "text": "happily",
+     "meanings": [
+      "행복하게",
+      "기쁘게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/328.mp3"
+    },
+    {
+     "text": "sadly",
+     "meanings": [
+      "슬프게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/329.mp3"
+    },
+    {
+     "text": "loudly",
+     "meanings": [
+      "시끄럽게",
+      "크게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/324.mp3"
+    },
+    {
+     "text": "quietly",
+     "meanings": [
+      "조용히",
+      "조용하게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/325.mp3"
+    },
+    {
+     "text": "beautifully",
+     "meanings": [
+      "아름답게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/4ea3d9a60aa52316.mp3"
+    },
+    {
+     "text": "person",
+     "meanings": [
+      "사람"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/70.mp3"
+    },
+    {
+     "text": "club",
+     "meanings": [
+      "동아리",
+      "클럽"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/149.mp3"
+    },
+    {
+     "text": "plan",
+     "meanings": [
+      "계획",
+      "계획을 세우다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/38.mp3"
+    },
+    {
+     "text": "home",
+     "meanings": [
+      "집",
+      "집으로"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/436.mp3"
+    },
+    {
+     "text": "shirt",
+     "meanings": [
+      "셔츠",
+      "윗옷"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/45.mp3"
+    },
+    {
+     "text": "piano",
+     "meanings": [
+      "피아노"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/368.mp3"
+    },
+    {
+     "text": "bad",
+     "meanings": [
+      "나쁜"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/53.mp3"
+    },
+    {
+     "text": "uncle",
+     "meanings": [
+      "삼촌",
+      "이모부",
+      "고모부"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/427.mp3"
+    },
+    {
+     "text": "dress",
+     "meanings": [
+      "드레스",
+      "원피스"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/62.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are they doing?",
+       "ko": "그들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/22c5da3ffeb189a2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They're marching.",
+       "ko": "그들은 행진하고 있어.",
+       "audio": "/audio/speak/4a7763caf2c1c6ad.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How are they marching?",
+       "ko": "그들은 어떻게 행진하고 있니?",
+       "audio": "/audio/speak/94d280ad8545da94.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They're marching quickly.",
+       "ko": "그들은 빠르게 행진하고 있어.",
+       "audio": "/audio/speak/92ea9fdfe8f5998a.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are they doing?",
+       "ko": "그들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/22c5da3ffeb189a2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They're dancing.",
+       "ko": "그들은 춤 추고 있어.",
+       "audio": "/audio/speak/b237cd2b342a387f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How are they dancing?",
+       "ko": "그들은 어떻게 춤 추고 있니?",
+       "audio": "/audio/speak/a49dc53e743ffb5b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They're dancing happily.",
+       "ko": "그들은 기쁘게 춤 추고 있어.",
+       "audio": "/audio/speak/458dd00193337342.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너희들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're singing.",
+       "ko": "우리는 노래 부르고 있어.",
+       "audio": "/audio/speak/507a344b709e886b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How are you singing?",
+       "ko": "너희들은 어떻게 노래 부르고 있니?",
+       "audio": "/audio/speak/dbf7499003c24214.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're singing beautifully.",
+       "ko": "우리는 아름답게 노래 부르고 있어.",
+       "audio": "/audio/speak/fa2982b02684ace9.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너희들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're walking.",
+       "ko": "우리는 걷고 있어.",
+       "audio": "/audio/speak/8d7f824a734fc16e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How are you walking?",
+       "ko": "너희들은 어떻게 걷고 있니?",
+       "audio": "/audio/speak/8d24990801b37782.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're walking slowly.",
+       "ko": "우리는 천천히 걷고 있어.",
+       "audio": "/audio/speak/dd5d09f181585194.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 5,
+   "name": "I'll tell you the good news.",
+   "words": [
+    {
+     "text": "tell the story",
+     "meanings": [
+      "이야기를 말해주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/7f371455296b6006.mp3"
+    },
+    {
+     "text": "give the present",
+     "meanings": [
+      "선물을 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/eae36f428aa05ec1.mp3"
+    },
+    {
+     "text": "make the pizza",
+     "meanings": [
+      "피자를 만들어 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/71f46db0c632151b.mp3"
+    },
+    {
+     "text": "show the movie",
+     "meanings": [
+      "영화를 보여 주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e30d3215fe6f59fd.mp3"
+    },
+    {
+     "text": "meet",
+     "meanings": [
+      "만나다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/46.mp3"
+    },
+    {
+     "text": "dinner",
+     "meanings": [
+      "저녁 식사"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/28.mp3"
+    },
+    {
+     "text": "evening",
+     "meanings": [
+      "저녁"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/198.mp3"
+    },
+    {
+     "text": "ice",
+     "meanings": [
+      "얼음"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/244.mp3"
+    },
+    {
+     "text": "very",
+     "meanings": [
+      "매우",
+      "아주"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/278.mp3"
+    },
+    {
+     "text": "art",
+     "meanings": [
+      "미술",
+      "예술"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/01d6473b6cfba4ca.mp3"
+    },
+    {
+     "text": "draw",
+     "meanings": [
+      "그리다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/10.mp3"
+    },
+    {
+     "text": "use",
+     "meanings": [
+      "사용하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/443.mp3"
+    },
+    {
+     "text": "scissors",
+     "meanings": [
+      "가위"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/373.mp3"
+    },
+    {
+     "text": "season",
+     "meanings": [
+      "계절"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/202.mp3"
+    },
+    {
+     "text": "shop",
+     "meanings": [
+      "가게",
+      "물건을 사다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/51d8d42b5ee2e77a.mp3"
+    },
+    {
+     "text": "next",
+     "meanings": [
+      "다음의",
+      "다음에"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/282.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Will you tell me the story?",
+       "ko": "너는 나에게 이야기를 말해 줄 거니?",
+       "audio": "/audio/speak/0c4dcacfdffa6328.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. I will tell you the story.",
+       "ko": "물론이지. 내가 너에게 이야기를 말해 줄게.",
+       "audio": "/audio/speak/050cb73ab6449ca5.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Will you sing me the lullaby, too?",
+       "ko": "너는 나에게 자장가도 불러 줄 거니?",
+       "audio": "/audio/speak/496fe5804b0797c3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sorry. I won't sing you the lullaby.",
+       "ko": "미안해. 나는 너에게 자장가를 불러 주지 않을 거야.",
+       "audio": "/audio/speak/37f658aab61a8bf0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Will you give me the present?",
+       "ko": "너는 나에게 선물을 줄 거니?",
+       "audio": "/audio/speak/e26085a6034e5691.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. I will give you the present.",
+       "ko": "물론이지. 내가 너에게 선물을 줄게.",
+       "audio": "/audio/speak/bb205e3f953f9817.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Will you write me a letter, too?",
+       "ko": "너는 나에게 편지도 써 줄 거니?",
+       "audio": "/audio/speak/96d8ee53f33720fb.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sorry. I won't write you a letter.",
+       "ko": "미안해. 나는 너에게 편지를 써 주지 않을 거야.",
+       "audio": "/audio/speak/b81363cc334af9c1.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Will you make me the pizza?",
+       "ko": "너는 나에게 피자를 만들어 줄 거니?",
+       "audio": "/audio/speak/5770d3863845265c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. I will make you the pizza.",
+       "ko": "물론이지. 내가 너에게 피자를 만들어 줄게.",
+       "audio": "/audio/speak/3408e930a774c239.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Will you give me a hug, too?",
+       "ko": "너는 나를 안아 줄 거니?",
+       "audio": "/audio/speak/edb08ffe9f34a937.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sorry. I won't give you a hug.",
+       "ko": "미안해. 나는 너를 안아 주지 않을 거야.",
+       "audio": "/audio/speak/60f13f6bc253b818.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Will you show me the movie?",
+       "ko": "너는 나에게 영화를 보여 줄 거니?",
+       "audio": "/audio/speak/e812f3845cc37012.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sure. I will show you the movie.",
+       "ko": "물론이지. 내가 너에게 영화를 보여 줄게.",
+       "audio": "/audio/speak/8a0303c4d1ac3d1c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Will you buy me popcorn, too?",
+       "ko": "너는 나에게 팝콘도 사 줄 거니?",
+       "audio": "/audio/speak/608812ff0e4106f3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Sorry. I won't buy you popcorn.",
+       "ko": "미안해. 나는 너에게 팝콘을 사 주지 않을 거야.",
+       "audio": "/audio/speak/07dfc25074184fb7.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 6,
+   "name": "The mayor is jumping like a frog!",
+   "words": [
+    {
+     "text": "frog",
+     "meanings": [
+      "개구리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/265.mp3"
+    },
+    {
+     "text": "jumping",
+     "meanings": [
+      "점프하는",
+      "뛰는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a28fdca9072181fa.mp3"
+    },
+    {
+     "text": "dolphin",
+     "meanings": [
+      "돌고래"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/443.mp3"
+    },
+    {
+     "text": "swimming",
+     "meanings": [
+      "수영하는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/318.mp3"
+    },
+    {
+     "text": "bird",
+     "meanings": [
+      "새"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/9.mp3"
+    },
+    {
+     "text": "flying",
+     "meanings": [
+      "나는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/665e9151eb08b194.mp3"
+    },
+    {
+     "text": "caterpillar",
+     "meanings": [
+      "애벌레"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/111.mp3"
+    },
+    {
+     "text": "crawling",
+     "meanings": [
+      "기어가는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/888673b7585fd077.mp3"
+    },
+    {
+     "text": "doctor",
+     "meanings": [
+      "의사"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/28.mp3"
+    },
+    {
+     "text": "open",
+     "meanings": [
+      "열다",
+      "열린"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/58.mp3"
+    },
+    {
+     "text": "notebook",
+     "meanings": [
+      "공책",
+      "수첩"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/370.mp3"
+    },
+    {
+     "text": "welcome",
+     "meanings": [
+      "환영하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/320.mp3"
+    },
+    {
+     "text": "sick",
+     "meanings": [
+      "아픈"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/408.mp3"
+    },
+    {
+     "text": "king",
+     "meanings": [
+      "왕"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/279.mp3"
+    },
+    {
+     "text": "cook",
+     "meanings": [
+      "요리하다",
+      "요리사"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/9.mp3"
+    },
+    {
+     "text": "night",
+     "meanings": [
+      "밤"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/199.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the boy doing?",
+       "ko": "그 소년은 무엇을 하고 있니?",
+       "audio": "/audio/speak/fe2ac5d9e1562d14.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The boy is jumping.",
+       "ko": "그 소년은 점프하고 있어.",
+       "audio": "/audio/speak/64e7bb955f6fe6b3.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How is he jumping?",
+       "ko": "그는 어떻게 점프하고 있니?",
+       "audio": "/audio/speak/ef5cfecb0fa89944.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "He is jumping like a frog.",
+       "ko": "그는 개구리처럼 점프하고 있어.",
+       "audio": "/audio/speak/fc3af0fa6eb15daa.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the girl doing?",
+       "ko": "그 소녀는 무엇을 하고 있니?",
+       "audio": "/audio/speak/2e1421e0a95d733c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The girl is swimming.",
+       "ko": "그 소녀는 수영하고 있어.",
+       "audio": "/audio/speak/13fd1b8cf6548667.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How is she swimming?",
+       "ko": "그녀는 어떻게 수영하고 있니?",
+       "audio": "/audio/speak/8ce4de1e3cb8707f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "She is swimming like a dolphin.",
+       "ko": "그녀는 돌고래처럼 수영하고 있어.",
+       "audio": "/audio/speak/c7e3ccfbed3383e0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the baby doing?",
+       "ko": "그 아기는 무엇을 하고 있니?",
+       "audio": "/audio/speak/8c136b47c1805265.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The baby is crawling.",
+       "ko": "그 아기는 기어 가고 있어.",
+       "audio": "/audio/speak/1d728d29b55b6916.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How is the baby crawling?",
+       "ko": "그 아기는 어떻게 기어 가고 있니?",
+       "audio": "/audio/speak/0d4a21ab1ba2843c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The baby is crawling like a caterpillar.",
+       "ko": "그 아기는 애벌레처럼 기어 가고 있어.",
+       "audio": "/audio/speak/b9d278e70ce0b8ce.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are they doing?",
+       "ko": "그들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/22c5da3ffeb189a2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They are flying.",
+       "ko": "그들은 날고 있어.",
+       "audio": "/audio/speak/95b8c02a8988ee3f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How are they flying?",
+       "ko": "그들은 어떻게 날고 있니?",
+       "audio": "/audio/speak/dbef837e8ff3ef87.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "They are flying like a bird.",
+       "ko": "그들은 새처럼 날고 있어.",
+       "audio": "/audio/speak/d1b270acf1a03d56.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 7,
+   "name": "We're going to the south.",
+   "words": [
+    {
+     "text": "north",
+     "meanings": [
+      "북쪽",
+      "북쪽의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/199.mp3"
+    },
+    {
+     "text": "south",
+     "meanings": [
+      "남쪽",
+      "남쪽의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/200.mp3"
+    },
+    {
+     "text": "east",
+     "meanings": [
+      "동쪽",
+      "동쪽의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/201.mp3"
+    },
+    {
+     "text": "west",
+     "meanings": [
+      "서쪽",
+      "서쪽의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/202.mp3"
+    },
+    {
+     "text": "North America",
+     "meanings": [
+      "북아메리카"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b11bd002c176d95b.mp3"
+    },
+    {
+     "text": "South America",
+     "meanings": [
+      "남아메리카"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/7c4f8bbb4b8bcc0a.mp3"
+    },
+    {
+     "text": "Europe",
+     "meanings": [
+      "유럽"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/4ee559bd2b3b40a4.mp3"
+    },
+    {
+     "text": "Asia",
+     "meanings": [
+      "아시아"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/dd7c85043ba9aff3.mp3"
+    },
+    {
+     "text": "Australia",
+     "meanings": [
+      "호주"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b356a929c322cce3.mp3"
+    },
+    {
+     "text": "Africa",
+     "meanings": [
+      "아프리카"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b8d25454dc3143e1.mp3"
+    },
+    {
+     "text": "Antarctica",
+     "meanings": [
+      "남극 대륙"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/9e7cec9dccfc2401.mp3"
+    },
+    {
+     "text": "sun",
+     "meanings": [
+      "해",
+      "태양"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/10.mp3"
+    },
+    {
+     "text": "where",
+     "meanings": [
+      "어디에",
+      "어디로"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/452.mp3"
+    },
+    {
+     "text": "kitchen",
+     "meanings": [
+      "주방",
+      "부엌"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/29.mp3"
+    },
+    {
+     "text": "walk",
+     "meanings": [
+      "걷다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/54.mp3"
+    },
+    {
+     "text": "wash",
+     "meanings": [
+      "씻다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/60.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which direction are you going?",
+       "ko": "너는 어느 방향으로 갈 거니?",
+       "audio": "/audio/speak/730fc2c7eb9fd5b9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm going to the north.",
+       "ko": "나는 북쪽으로 갈 거야.",
+       "audio": "/audio/speak/183e2cff27fdfc51.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where in the north?",
+       "ko": "북쪽 어디로?",
+       "audio": "/audio/speak/036399b11a127c28.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm going to North America.",
+       "ko": "나는 북아메리카로 갈 거야.",
+       "audio": "/audio/speak/8ec8e0db0544b5d0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which direction are you going?",
+       "ko": "너는 어느 방향으로 갈 거니?",
+       "audio": "/audio/speak/730fc2c7eb9fd5b9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm going to the south.",
+       "ko": "나는 남쪽으로 갈 거야.",
+       "audio": "/audio/speak/6a4c6f8a4ca95930.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where in the south?",
+       "ko": "남쪽 어디로?",
+       "audio": "/audio/speak/a8a395eff18d3645.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm going to Antarctica.",
+       "ko": "나는 남극 대륙으로 갈 거야.",
+       "audio": "/audio/speak/0f873029601c559f.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which direction are you going?",
+       "ko": "너희들은 어느 방향으로 갈 거니?",
+       "audio": "/audio/speak/730fc2c7eb9fd5b9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're going to the east.",
+       "ko": "우리는 동쪽으로 갈 거야.",
+       "audio": "/audio/speak/729ed49284c67b9b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where in the east?",
+       "ko": "동쪽 어디로?",
+       "audio": "/audio/speak/ecfcff953a0b938b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're going to Asia.",
+       "ko": "우리는 아시아로 갈 거야.",
+       "audio": "/audio/speak/8cd6e4d2d3e44b6e.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Which direction are you going?",
+       "ko": "너희들은 어느 방향으로 갈 거니?",
+       "audio": "/audio/speak/730fc2c7eb9fd5b9.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're going to the west.",
+       "ko": "우리는 서쪽으로 갈 거야.",
+       "audio": "/audio/speak/eb2c179711123710.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where in the west?",
+       "ko": "서쪽 어디로?",
+       "audio": "/audio/speak/054e3f5e491170b8.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We're going to Europe.",
+       "ko": "우리는 유럽으로 갈 거야.",
+       "audio": "/audio/speak/31ba4525aa11d19e.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 1,
+   "name": "The Secret in the Wind (2-9)",
+   "words": [
+    {
+     "text": "secret",
+     "meanings": [
+      "비밀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/8.mp3"
+    },
+    {
+     "text": "take off",
+     "meanings": [
+      "~을 벗다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/211.mp3"
+    },
+    {
+     "text": "head",
+     "meanings": [
+      "머리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/39.mp3"
+    },
+    {
+     "text": "donkey",
+     "meanings": [
+      "당나귀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/421.mp3"
+    },
+    {
+     "text": "make fun of",
+     "meanings": [
+      "~을 놀리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/233.mp3"
+    },
+    {
+     "text": "get a haircut",
+     "meanings": [
+      "머리를 자르다",
+      "이발하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d0d3a41434eac008.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "There lives a king.",
+     "ko": "한 왕이 살고 있습니다.",
+     "audio": "/audio/speak/473434e6930463b5.mp3"
+    },
+    {
+     "text": "The king is foolish.",
+     "ko": "그 왕은 어리석습니다.",
+     "audio": "/audio/speak/a74c5d195f1b2911.mp3"
+    },
+    {
+     "text": "People do not respect him very much.",
+     "ko": "사람들은 그를 별로 존경하지 않습니다.",
+     "audio": "/audio/speak/bbeb143327952291.mp3"
+    },
+    {
+     "text": "They make fun of him behind his back.",
+     "ko": "그들은 그가 없는 곳에서 그를 놀립니다.",
+     "audio": "/audio/speak/44ff2b2b6cfb0f44.mp3"
+    },
+    {
+     "text": "The king has a big secret.",
+     "ko": "왕에게는 큰 비밀이 있습니다.",
+     "audio": "/audio/speak/4a46424e4eab5f86.mp3"
+    },
+    {
+     "text": "Nobody knows his secret except for himself.",
+     "ko": "그 자신 외에는 아무도 그의 비밀을 모릅니다.",
+     "audio": "/audio/speak/6d56b4aadc1c008c.mp3"
+    },
+    {
+     "text": "The king has donkey's ears.",
+     "ko": "왕은 당나귀 귀를 가지고 있습니다.",
+     "audio": "/audio/speak/171f35ba32b7bb33.mp3"
+    },
+    {
+     "text": "He always wears a hood to hide them.",
+     "ko": "그는 그것들을 숨기기 위해 항상 후드를 씁니다.",
+     "audio": "/audio/speak/700fc472847d0e15.mp3"
+    },
+    {
+     "text": "One day, the king needs to get a haircut.",
+     "ko": "어느 날, 왕은 머리를 잘라야 합니다.",
+     "audio": "/audio/speak/e07fa4e86ab46d48.mp3"
+    },
+    {
+     "text": "He doesn't want to take off his hood.",
+     "ko": "그는 자신의 후드를 벗고 싶어 하지 않습니다.",
+     "audio": "/audio/speak/eca5950482f51043.mp3"
+    },
+    {
+     "text": "But, he has no choice.",
+     "ko": "하지만, 어쩔 수 없습니다.",
+     "audio": "/audio/speak/c773cdc40476bf60.mp3"
+    },
+    {
+     "text": "The king goes to the barber shop.",
+     "ko": "왕은 이발소로 갑니다.",
+     "audio": "/audio/speak/16e55ed00e4ab373.mp3"
+    },
+    {
+     "text": "He warns the barber, \"Do not tell anybody what you see.\"",
+     "ko": "그는 이발사에게 경고합니다. \"네가 본 것을 아무에게도 말하지 마라.\"",
+     "audio": "/audio/speak/4586f8f64b7df0ad.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 2,
+   "name": "The Secret in the Wind (10-15)",
+   "words": [
+    {
+     "text": "shake one's head",
+     "meanings": [
+      "고개를 젓다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/00db4180581c1505.mp3"
+    },
+    {
+     "text": "bald",
+     "meanings": [
+      "대머리의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ddfcafb35238ad0a.mp3"
+    },
+    {
+     "text": "return",
+     "meanings": [
+      "돌아오다",
+      "반환하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/6.mp3"
+    },
+    {
+     "text": "shocked",
+     "meanings": [
+      "놀란",
+      "충격 받은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l7/246.mp3"
+    },
+    {
+     "text": "swear",
+     "meanings": [
+      "맹세하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ccc00243fd3190cd.mp3"
+    },
+    {
+     "text": "people",
+     "meanings": [
+      "사람들"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/429.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "The king takes off his hood.",
+     "ko": "왕은 그의 후드를 벗는다.",
+     "audio": "/audio/speak/13113b987114b7ae.mp3"
+    },
+    {
+     "text": "The barber sees the king's ears.",
+     "ko": "이발사는 왕의 귀를 본다.",
+     "audio": "/audio/speak/2bbe45b27a659992.mp3"
+    },
+    {
+     "text": "He is shocked.",
+     "ko": "그는 깜짝 놀란다.",
+     "audio": "/audio/speak/cb9f04947a3c0dd6.mp3"
+    },
+    {
+     "text": "\"Never tell anybody my secret or you shall die,\" says the king.",
+     "ko": "왕이 말한다. \"내 비밀을 누구에게도 말하지 마라, 그렇지 않으면 죽을 것이다.\"",
+     "audio": "/audio/speak/837224f75c07369c.mp3"
+    },
+    {
+     "text": "The barber swears to the king.",
+     "ko": "이발사는 왕에게 맹세한다.",
+     "audio": "/audio/speak/6a661d839870ddb2.mp3"
+    },
+    {
+     "text": "He swears never to tell the king's secret to anybody.",
+     "ko": "그는 왕의 비밀을 누구에게도 말하지 않겠다고 맹세한다.",
+     "audio": "/audio/speak/a126f47a69ec7b41.mp3"
+    },
+    {
+     "text": "After the king returns home, people come to the barber.",
+     "ko": "왕이 집으로 돌아간 후, 사람들이 이발사에게 온다.",
+     "audio": "/audio/speak/f8944a64fe8aa1e2.mp3"
+    },
+    {
+     "text": "\"Why does the king always wear a hood?",
+     "ko": "\"왕은 왜 항상 후드를 쓰고 있나요?\"",
+     "audio": "/audio/speak/5ac8e57108b9cf80.mp3"
+    },
+    {
+     "text": "one man asks.",
+     "ko": "한 남자가 묻는다.",
+     "audio": "/audio/speak/25c148ca03726652.mp3"
+    },
+    {
+     "text": "The barber shakes his head and says, \"I can't say.",
+     "ko": "이발사는 고개를 저으며 말한다. \"말할 수 없어요.\"",
+     "audio": "/audio/speak/ddf10dca2aa50858.mp3"
+    },
+    {
+     "text": "\"Is the king bald?",
+     "ko": "\"왕은 대머리인가요?\"",
+     "audio": "/audio/speak/6eb7b7b0815a3a3e.mp3"
+    },
+    {
+     "text": "another man asks.",
+     "ko": "다른 남자가 묻는다.",
+     "audio": "/audio/speak/346b589f3e139d3f.mp3"
+    },
+    {
+     "text": "The barber still shakes his head and says, \"I can't say.\"",
+     "ko": "이발사는 여전히 고개를 저으며 말한다. \"말할 수 없어요.\"",
+     "audio": "/audio/speak/64319136c204b262.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 3,
+   "name": "The Secret in the Wind (16-19)",
+   "words": [
+    {
+     "text": "difficult",
+     "meanings": [
+      "어려운",
+      "힘든",
+      "곤란한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/19.mp3"
+    },
+    {
+     "text": "evening",
+     "meanings": [
+      "저녁"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/198.mp3"
+    },
+    {
+     "text": "fields",
+     "meanings": [
+      "들판",
+      "밭"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/af9a17cb1a92b492.mp3"
+    },
+    {
+     "text": "dig the earth",
+     "meanings": [
+      "땅을 파다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/51b66a50b2c92a72.mp3"
+    },
+    {
+     "text": "whisper",
+     "meanings": [
+      "속삭이다",
+      "귓속말 하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/94.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "People come and ask the barber the same question every day.",
+     "ko": "사람들이 매일 와서 이발사에게 똑같은 질문을 한다.",
+     "audio": "/audio/speak/6e32f0216057d390.mp3"
+    },
+    {
+     "text": "It gets more and more difficult for the barber to keep the secret.",
+     "ko": "이발사는 비밀을 지키는 것이 점점 더 어려워진다.",
+     "audio": "/audio/speak/4d15d95bc9c39fcf.mp3"
+    },
+    {
+     "text": "He knows the king will kill him.",
+     "ko": "그는 왕이 자신을 죽일 것이라는 것을 안다.",
+     "audio": "/audio/speak/55e0fc717c14645e.mp3"
+    },
+    {
+     "text": "One evening, the barber cannot hold the secret anymore.",
+     "ko": "어느 날 저녁, 이발사는 더 이상 비밀을 지킬 수 없게 된다.",
+     "audio": "/audio/speak/20a9d433ac1726e6.mp3"
+    },
+    {
+     "text": "He goes out to the fields.",
+     "ko": "그는 들판으로 나간다.",
+     "audio": "/audio/speak/e432018835d47b4d.mp3"
+    },
+    {
+     "text": "He digs the earth and whispers, \"The king has donkey's ears!",
+     "ko": "그는 땅을 파고 속삭인다. \"왕은 당나귀 귀를 가졌어!\"",
+     "audio": "/audio/speak/8f09d18025a82870.mp3"
+    },
+    {
+     "text": "The barber feels better.",
+     "ko": "이발사는 기분이 나아진다.",
+     "audio": "/audio/speak/e528f098402ef1bd.mp3"
+    },
+    {
+     "text": "\"I didn't tell anybody.",
+     "ko": "\"나는 아무에게도 말하지 않았어.",
+     "audio": "/audio/speak/25a8ee95a21493f9.mp3"
+    },
+    {
+     "text": "Only the earth heard it,\" the barber says.",
+     "ko": "오직 땅만이 그것을 들었어.\"라고 이발사가 말한다.",
+     "audio": "/audio/speak/3ab9a16a87bdc863.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 4,
+   "name": "The Secret in the Wind (20-23)",
+   "words": [
+    {
+     "text": "blow",
+     "meanings": [
+      "불다",
+      "날리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/59bc2d60f2a7c4de.mp3"
+    },
+    {
+     "text": "hear",
+     "meanings": [
+      "듣다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/80.mp3"
+    },
+    {
+     "text": "reed",
+     "meanings": [
+      "갈대"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/8d21790440dbe02b.mp3"
+    },
+    {
+     "text": "sway",
+     "meanings": [
+      "흔들리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/09512e302ec8cd06.mp3"
+    },
+    {
+     "text": "carry",
+     "meanings": [
+      "나르다",
+      "전달하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/42.mp3"
+    },
+    {
+     "text": "grow",
+     "meanings": [
+      "자라다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/444.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "After some time, reeds grow from the earth.",
+     "ko": "얼마 후, 땅에서 갈대가 자라납니다.",
+     "audio": "/audio/speak/f6dfbbaff8abd362.mp3"
+    },
+    {
+     "text": "They sway to-and-fro in the wind.",
+     "ko": "그것들은 바람에 이리저리 흔들립니다.",
+     "audio": "/audio/speak/6dca73d60684ccb5.mp3"
+    },
+    {
+     "text": "They know the king's secret.",
+     "ko": "그것들은 왕의 비밀을 알고 있습니다.",
+     "audio": "/audio/speak/cb9104ce3363b2f4.mp3"
+    },
+    {
+     "text": "\"The king has donkey's ears!",
+     "ko": "“왕은 당나귀 귀를 가졌어!",
+     "audio": "/audio/speak/788db3d3d7051aa2.mp3"
+    },
+    {
+     "text": "the reeds whisper.",
+     "ko": "갈대들이 속삭입니다.",
+     "audio": "/audio/speak/b8c0e4c67ac95772.mp3"
+    },
+    {
+     "text": "The wind carries the secret to the people.",
+     "ko": "바람은 그 비밀을 사람들에게 전합니다.",
+     "audio": "/audio/speak/f1617e1af516589b.mp3"
+    },
+    {
+     "text": "So, whenever the wind blows, people hear \"The king has donkey's ears!",
+     "ko": "그래서 바람이 불 때마다 사람들은 “왕은 당나귀 귀를 가졌어!”라고 듣습니다.",
+     "audio": "/audio/speak/94f420faa959b59e.mp3"
+    },
+    {
+     "text": "in the wind.",
+     "ko": "바람 속에서요.",
+     "audio": "/audio/speak/8686c152ab089883.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 5,
+   "name": "Summer's Terrible Singers (2-7)",
+   "words": [
+    {
+     "text": "summer",
+     "meanings": [
+      "여름"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/514.mp3"
+    },
+    {
+     "text": "sunny",
+     "meanings": [
+      "화창한",
+      "햇빛이 쬐는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/17.mp3"
+    },
+    {
+     "text": "cicada",
+     "meanings": [
+      "매미"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/21112197d3991552.mp3"
+    },
+    {
+     "text": "annoy",
+     "meanings": [
+      "짜증나게 하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l13/219.mp3"
+    },
+    {
+     "text": "go swimming",
+     "meanings": [
+      "수영하러 가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a579e1b31a0221d1.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "My name is Sophia.",
+     "ko": "제 이름은 소피아입니다.",
+     "audio": "/audio/speak/22fda1db62d192f6.mp3"
+    },
+    {
+     "text": "I like summer the best because I like sunny days.",
+     "ko": "저는 화창한 날을 좋아해서 여름을 가장 좋아해요.",
+     "audio": "/audio/speak/af2bcf444b64e56f.mp3"
+    },
+    {
+     "text": "On sunny days, I go swimming with my friends.",
+     "ko": "화창한 날에는 친구들과 수영하러 가요.",
+     "audio": "/audio/speak/063b1877ccbc53ce.mp3"
+    },
+    {
+     "text": "However, there's one thing I don't like about summer.",
+     "ko": "하지만 여름에 제가 싫어하는 한 가지가 있어요.",
+     "audio": "/audio/speak/3f5a43c73c428cc0.mp3"
+    },
+    {
+     "text": "It's the cicadas.",
+     "ko": "바로 매미예요.",
+     "audio": "/audio/speak/91774ea8a1985de0.mp3"
+    },
+    {
+     "text": "Cicadas are terrible and loud singers.",
+     "ko": "매미는 정말 시끄럽고 형편없는 가수예요.",
+     "audio": "/audio/speak/1f98d51ad130a2b7.mp3"
+    },
+    {
+     "text": "They go min min min min day and night.",
+     "ko": "매미는 밤낮으로 맴맴맴맴 울어요.",
+     "audio": "/audio/speak/9f3d197c976d7aa6.mp3"
+    },
+    {
+     "text": "Their singing annoys everybody.",
+     "ko": "매미 소리는 모두를 짜증 나게 해요.",
+     "audio": "/audio/speak/71a7af301416cc33.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 6,
+   "name": "Summer's Terrible Singers (8-11)",
+   "words": [
+    {
+     "text": "feel sorry",
+     "meanings": [
+      "안쓰럽게 여기다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e09c06cafaff1d06.mp3"
+    },
+    {
+     "text": "swimming",
+     "meanings": [
+      "수영",
+      "수영하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/318.mp3"
+    },
+    {
+     "text": "brother",
+     "meanings": [
+      "형",
+      "오빠",
+      "남동생"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/2.mp3"
+    },
+    {
+     "text": "forget",
+     "meanings": [
+      "잊다",
+      "잊어버리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/21.mp3"
+    },
+    {
+     "text": "gone",
+     "meanings": [
+      "사라진",
+      "가 버린"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f678d0d16f28e7a0.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"I wish the cicadas were gone forever.",
+     "ko": "매미들이 영원히 사라졌으면 좋겠어.",
+     "audio": "/audio/speak/3e3d2df42228e836.mp3"
+    },
+    {
+     "text": "They ruin my summer,\" I say to my brother, Alex.",
+     "ko": "“걔네 때문에 내 여름이 망쳐.” 나는 내 동생 알렉스에게 말한다.",
+     "audio": "/audio/speak/e395af65ea95c319.mp3"
+    },
+    {
+     "text": "\"You should feel sorry for the cicadas.",
+     "ko": "“매미들을 불쌍하게 여겨야 해.",
+     "audio": "/audio/speak/49b475d9df6f0b18.mp3"
+    },
+    {
+     "text": "They die after summer once they sing,\" says Alex.",
+     "ko": "걔네는 노래를 부르고 나면 여름이 지나 죽어.” 알렉스가 말한다.",
+     "audio": "/audio/speak/224c65e6b83e5dab.mp3"
+    },
+    {
+     "text": "\"Still their singing is terrible and loud.",
+     "ko": "“그래도 걔네 노랫소리는 끔찍하고 시끄러워.",
+     "audio": "/audio/speak/6f0a4794a888a6ac.mp3"
+    },
+    {
+     "text": "They annoy me day and night,\" I say.",
+     "ko": "걔네는 밤낮으로 나를 짜증 나게 해.” 나는 말한다.",
+     "audio": "/audio/speak/4d8c17ecc08c0d46.mp3"
+    },
+    {
+     "text": "This summer, there are many sunny days.",
+     "ko": "이번 여름에는 화창한 날이 많다.",
+     "audio": "/audio/speak/d398ea8df5fc8887.mp3"
+    },
+    {
+     "text": "I spend the rest of the summer swimming with my friends.",
+     "ko": "나는 남은 여름을 친구들과 수영하며 보낸다.",
+     "audio": "/audio/speak/b8fa1736a5fe270a.mp3"
+    },
+    {
+     "text": "The cicadas still sing terribly and loudly day and night.",
+     "ko": "매미들은 여전히 밤낮으로 끔찍하고 시끄럽게 노래한다.",
+     "audio": "/audio/speak/93c13b6a6142b6e2.mp3"
+    },
+    {
+     "text": "They still annoy me day and night, but I decide to forget about them.",
+     "ko": "걔네는 여전히 밤낮으로 나를 짜증 나게 하지만, 나는 걔네를 잊기로 결심한다.",
+     "audio": "/audio/speak/03f2aa7492bc7e67.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 7,
+   "name": "Summer's Terrible Singers (12-17)",
+   "words": [
+    {
+     "text": "cloud",
+     "meanings": [
+      "구름"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/16.mp3"
+    },
+    {
+     "text": "lying upside down",
+     "meanings": [
+      "뒤집혀 누워 있는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ee5f96d83053fd87.mp3"
+    },
+    {
+     "text": "heavily",
+     "meanings": [
+      "거세게",
+      "무겁게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d1c4c804d2d80789.mp3"
+    },
+    {
+     "text": "look down",
+     "meanings": [
+      "내려다보다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/cd4ab246409a8c42.mp3"
+    },
+    {
+     "text": "weather",
+     "meanings": [
+      "날씨"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/12.mp3"
+    },
+    {
+     "text": "go for a walk",
+     "meanings": [
+      "산책하러 가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/581f57c7bdca5c42.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "One day, some black clouds come.",
+     "ko": "어느 날, 검은 구름들이 몰려옵니다.",
+     "audio": "/audio/speak/527706b81f167a16.mp3"
+    },
+    {
+     "text": "It rains heavily.",
+     "ko": "비가 몹시 내립니다.",
+     "audio": "/audio/speak/b656788918a919ea.mp3"
+    },
+    {
+     "text": "Then the next day, the weather becomes cool.",
+     "ko": "그리고 다음 날, 날씨가 시원해집니다.",
+     "audio": "/audio/speak/bd18969171b353da.mp3"
+    },
+    {
+     "text": "As usual, Alex and I go for a walk in the park.",
+     "ko": "평소처럼, 알렉스와 저는 공원으로 산책을 나갑니다.",
+     "audio": "/audio/speak/18c79ca51bde37f5.mp3"
+    },
+    {
+     "text": "The park is strangely quiet.",
+     "ko": "공원은 이상하게 조용합니다.",
+     "audio": "/audio/speak/82251a3351de1c53.mp3"
+    },
+    {
+     "text": "I don't hear any terrible and loud singing.",
+     "ko": "저는 어떤 끔찍하고 시끄러운 노랫소리도 듣지 못합니다.",
+     "audio": "/audio/speak/8be125bb26039b91.mp3"
+    },
+    {
+     "text": "Then we hear a strange sound.",
+     "ko": "그때 우리는 이상한 소리를 듣습니다.",
+     "audio": "/audio/speak/3d9d56ec12141d0a.mp3"
+    },
+    {
+     "text": "Baaaaaah!",
+     "ko": "바아아아!",
+     "audio": "/audio/speak/b1176f3d9ba008b1.mp3"
+    },
+    {
+     "text": "It comes from the ground.",
+     "ko": "그 소리는 땅에서 납니다.",
+     "audio": "/audio/speak/3c128351ebe3b84a.mp3"
+    },
+    {
+     "text": "We look down at the ground.",
+     "ko": "우리는 땅을 내려다봅니다.",
+     "audio": "/audio/speak/2f36fb2c8d13ea1a.mp3"
+    },
+    {
+     "text": "There's a cicada lying there upside down.",
+     "ko": "그곳에 매미 한 마리가 뒤집힌 채 누워 있습니다.",
+     "audio": "/audio/speak/37dd241e050e9b9e.mp3"
+    },
+    {
+     "text": "It goes baaaaaah.",
+     "ko": "그것이 바아아아 소리를 냅니다.",
+     "audio": "/audio/speak/bfc3704cc8e30a2a.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 8,
+   "name": "Summer's Terrible Singers (18-23)",
+   "words": [
+    {
+     "text": "autumn",
+     "meanings": [
+      "가을"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/71.mp3"
+    },
+    {
+     "text": "dead",
+     "meanings": [
+      "죽은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/bf39db56df6bace0.mp3"
+    },
+    {
+     "text": "branch",
+     "meanings": [
+      "나뭇가지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/255.mp3"
+    },
+    {
+     "text": "different",
+     "meanings": [
+      "다른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/45.mp3"
+    },
+    {
+     "text": "after an hour",
+     "meanings": [
+      "한 시간 후에"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/96169d519712b36e.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"What's wrong with it?",
+     "ko": "무슨 문제라도 있니?",
+     "audio": "/audio/speak/900370b535ea1f60.mp3"
+    },
+    {
+     "text": "Why does it go baaaaaah?",
+     "ko": "왜 '바아아아' 하고 우는 거지?",
+     "audio": "/audio/speak/b2ef6fe76ced93f5.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말한다.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Autumn's here.",
+     "ko": "가을이 왔어.",
+     "audio": "/audio/speak/63f7140b39f822a8.mp3"
+    },
+    {
+     "text": "The cicada is going to die soon,\" says Alex.",
+     "ko": "매미는 곧 죽을 거야,",
+     "audio": "/audio/speak/d55fcf6b8b4c4c93.mp3"
+    },
+    {
+     "text": "\"Let's put it on a branch!",
+     "ko": "가지 위에 올려놓자!",
+     "audio": "/audio/speak/a91f9b9c45b0d81e.mp3"
+    },
+    {
+     "text": "Who knows if it may live?",
+     "ko": "혹시 살 수도 있잖아?",
+     "audio": "/audio/speak/e5306f4eea2a8d1b.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말한다.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "After an hour, Alex and I come back to the tree.",
+     "ko": "한 시간 뒤, 알렉스와 나는 그 나무로 돌아온다.",
+     "audio": "/audio/speak/2e4690a77d151245.mp3"
+    },
+    {
+     "text": "We look on the branch.",
+     "ko": "우리는 가지 위를 본다.",
+     "audio": "/audio/speak/2ef27ff3d20da1ef.mp3"
+    },
+    {
+     "text": "The cicada is dead.",
+     "ko": "매미는 죽어 있다.",
+     "audio": "/audio/speak/be463658415312ae.mp3"
+    },
+    {
+     "text": "Suddenly, I feel sorry for the dead cicada.",
+     "ko": "갑자기, 나는 죽은 매미가 불쌍하게 느껴진다.",
+     "audio": "/audio/speak/c487b75c60b5824f.mp3"
+    },
+    {
+     "text": "That night, I don't hear any cicadas.",
+     "ko": "그날 밤, 나는 어떤 매미 소리도 듣지 못한다.",
+     "audio": "/audio/speak/d5b029875c322aef.mp3"
+    },
+    {
+     "text": "I hear a different singing instead.",
+     "ko": "대신 다른 노랫소리가 들린다.",
+     "audio": "/audio/speak/3b7cdf737d2ae91d.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 1,
+   "name": "It's raining.",
+   "words": [
+    {
+     "text": "raining",
+     "meanings": [
+      "비가 오는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/fb759580a9727fa7.mp3"
+    },
+    {
+     "text": "thundering",
+     "meanings": [
+      "천둥이 치는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d756f221bc65ba44.mp3"
+    },
+    {
+     "text": "warm",
+     "meanings": [
+      "따뜻한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/20.mp3"
+    },
+    {
+     "text": "freezing",
+     "meanings": [
+      "매우 추운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/225.mp3"
+    },
+    {
+     "text": "hailing",
+     "meanings": [
+      "우박이 내리는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/22d48f0687cb9015.mp3"
+    },
+    {
+     "text": "foggy",
+     "meanings": [
+      "안개가 낀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/405.mp3"
+    },
+    {
+     "text": "breezy",
+     "meanings": [
+      "산들바람이 부는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/194.mp3"
+    },
+    {
+     "text": "icy",
+     "meanings": [
+      "얼음으로 덮인",
+      "얼어 있는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/c1f6f6a58f965243.mp3"
+    },
+    {
+     "text": "small",
+     "meanings": [
+      "작은"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/43.mp3"
+    },
+    {
+     "text": "stand",
+     "meanings": [
+      "서다",
+      "서 있다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/87.mp3"
+    },
+    {
+     "text": "when",
+     "meanings": [
+      "언제"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/93.mp3"
+    },
+    {
+     "text": "early",
+     "meanings": [
+      "일찍",
+      "빠른"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/60.mp3"
+    },
+    {
+     "text": "borrow",
+     "meanings": [
+      "빌리다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/1.mp3"
+    },
+    {
+     "text": "tent",
+     "meanings": [
+      "텐트",
+      "천막"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/46b7a208b1f87717.mp3"
+    },
+    {
+     "text": "boy",
+     "meanings": [
+      "소년",
+      "남자아이"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/29.mp3"
+    },
+    {
+     "text": "table",
+     "meanings": [
+      "탁자",
+      "테이블"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/13.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the weather in Seoul?",
+       "ko": "서울의 날씨는 어떠니?",
+       "audio": "/audio/speak/b99bb4ce2fc3b44c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's warm and breezy in Seoul.",
+       "ko": "서울은 따뜻하고 산들바람이 불어.",
+       "audio": "/audio/speak/bebca454fd16ab3a.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How about in New York?",
+       "ko": "뉴욕은 어떠니?",
+       "audio": "/audio/speak/337962b82bd71bbc.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's hot and sunny in New York.",
+       "ko": "뉴욕은 덥고 화창해.",
+       "audio": "/audio/speak/7c9f30c51d972f49.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the weather in Sydney?",
+       "ko": "시드니의 날씨는 어떠니?",
+       "audio": "/audio/speak/245c0bbd688fd37c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's raining and thundering in Sydney.",
+       "ko": "시드니는 비가 오고 천둥이 쳐.",
+       "audio": "/audio/speak/2ce66077770f99b1.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How about in Tokyo?",
+       "ko": "도쿄는 어떠니?",
+       "audio": "/audio/speak/6c211c6d50550061.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's freezing and icy in Tokyo.",
+       "ko": "도쿄는 매우 춥고 얼어 있어.",
+       "audio": "/audio/speak/9e4b4226fd1d8427.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the weather in Bangkok?",
+       "ko": "방콕의 날씨는 어떠니?",
+       "audio": "/audio/speak/137ec0b63ead5324.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's raining and foggy in Bangkok.",
+       "ko": "방콕은 비가 오고 안개가 껴 있어.",
+       "audio": "/audio/speak/f3311ed52e5460d1.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How about in Seoul?",
+       "ko": "서울은 어떠니?",
+       "audio": "/audio/speak/8f892f06f510d82b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's hot and breezy in Seoul.",
+       "ko": "서울은 덥고 산들바람이 불어.",
+       "audio": "/audio/speak/8807705451958991.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the weather in Hong Kong?",
+       "ko": "홍콩의 날씨는 어떠니?",
+       "audio": "/audio/speak/9cc08fe0ef5b9c89.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's hailing and thundering in Hong Kong.",
+       "ko": "홍콩은 우박이 내리고 천둥이 쳐.",
+       "audio": "/audio/speak/0c28b031c534be43.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How about in Tokyo?",
+       "ko": "도쿄는 어떠니?",
+       "audio": "/audio/speak/6c211c6d50550061.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's warm and sunny in Tokyo.",
+       "ko": "도쿄는 따뜻하고 화창해.",
+       "audio": "/audio/speak/64f210eb716646ad.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 2,
+   "name": "The piglet is cute.",
+   "words": [
+    {
+     "text": "piglet",
+     "meanings": [
+      "새끼 돼지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/366.mp3"
+    },
+    {
+     "text": "puppy",
+     "meanings": [
+      "강아지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/398.mp3"
+    },
+    {
+     "text": "kitten",
+     "meanings": [
+      "새끼 고양이"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/281.mp3"
+    },
+    {
+     "text": "duckling",
+     "meanings": [
+      "새끼 오리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/187.mp3"
+    },
+    {
+     "text": "tadpole",
+     "meanings": [
+      "올챙이"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/472.mp3"
+    },
+    {
+     "text": "calf",
+     "meanings": [
+      "송아지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/473.mp3"
+    },
+    {
+     "text": "lamb",
+     "meanings": [
+      "새끼 양"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/242.mp3"
+    },
+    {
+     "text": "chick",
+     "meanings": [
+      "병아리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/136.mp3"
+    },
+    {
+     "text": "boat",
+     "meanings": [
+      "배",
+      "보트"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/95.mp3"
+    },
+    {
+     "text": "sleep",
+     "meanings": [
+      "자다",
+      "수면"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/53.mp3"
+    },
+    {
+     "text": "sure",
+     "meanings": [
+      "확신하는",
+      "그럼요"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/561.mp3"
+    },
+    {
+     "text": "lion",
+     "meanings": [
+      "사자"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/29.mp3"
+    },
+    {
+     "text": "stay",
+     "meanings": [
+      "머무르다",
+      "남다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/83.mp3"
+    },
+    {
+     "text": "enter",
+     "meanings": [
+      "들어오다",
+      "들어가다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/49.mp3"
+    },
+    {
+     "text": "nose",
+     "meanings": [
+      "코"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/34.mp3"
+    },
+    {
+     "text": "grandfather",
+     "meanings": [
+      "할아버지"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/118.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are the pigs doing?",
+       "ko": "그 돼지들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/76bbccd4c5b572ea.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The pigs are rolling in the mud.",
+       "ko": "그 돼지들은 진흙에서 구르고 있어.",
+       "audio": "/audio/speak/7af6624cb84fe902.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you think of the piglet?",
+       "ko": "너는 그 새끼 돼지에 대해 어떻게 생각하니?",
+       "audio": "/audio/speak/260025aae83e197d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The piglet is chubby.",
+       "ko": "그 새끼 돼지는 통통해.",
+       "audio": "/audio/speak/cb77cd6ce7b30e07.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are the dogs doing?",
+       "ko": "그 개들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/e6b95e04a4ccef85.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The dogs are barking in the house.",
+       "ko": "그 개들은 집에서 짖고 있어.",
+       "audio": "/audio/speak/39ec7d38061130f7.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you think of the puppy?",
+       "ko": "너는 그 강아지에 대해서 어떻게 생각하니?",
+       "audio": "/audio/speak/85774d3e267ece23.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The puppy is cute.",
+       "ko": "그 강아지는 귀여워.",
+       "audio": "/audio/speak/ecc51d3ffa00f701.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are the ducks doing?",
+       "ko": "그 오리들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/3c9a312bf201d2ca.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The ducks are walking on the farm.",
+       "ko": "그 오리들은 농장에서 걷고 있어.",
+       "audio": "/audio/speak/ac65e63e5cb531b3.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you think of the duckling?",
+       "ko": "너는 그 새끼 오리에 대해서 어떻게 생각하니?",
+       "audio": "/audio/speak/b1534c8ab5a5551c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The duckling is wobbly.",
+       "ko": "그 새끼 오리는 뒤뚱거려.",
+       "audio": "/audio/speak/1ff9d04c5b079c84.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are the frogs doing?",
+       "ko": "그 개구리들은 무엇을 하고 있니?",
+       "audio": "/audio/speak/5d1547b4014fd234.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The frogs are swimming in the lake.",
+       "ko": "그 개구리들은 호수에서 수영하고 있어.",
+       "audio": "/audio/speak/768985c61a0cc621.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you think of the tadpole?",
+       "ko": "너는 그 올챙이에 대해서 어떻게 생각하니?",
+       "audio": "/audio/speak/c688065e2272598e.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The tadpole is tiny.",
+       "ko": "그 올챙이는 아주 작아.",
+       "audio": "/audio/speak/85ad28c0fdead5a2.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 3,
+   "name": "I need a shirt.",
+   "words": [
+    {
+     "text": "shirt",
+     "meanings": [
+      "셔츠",
+      "윗옷"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/45.mp3"
+    },
+    {
+     "text": "sandals",
+     "meanings": [
+      "샌들"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/3af36ca089fb523e.mp3"
+    },
+    {
+     "text": "shorts",
+     "meanings": [
+      "반바지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/454.mp3"
+    },
+    {
+     "text": "boots",
+     "meanings": [
+      "부츠",
+      "장화"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/018726aa10dd7b38.mp3"
+    },
+    {
+     "text": "scarf",
+     "meanings": [
+      "목도리",
+      "스카프"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/366.mp3"
+    },
+    {
+     "text": "sunglasses",
+     "meanings": [
+      "선글라스"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/417.mp3"
+    },
+    {
+     "text": "coat",
+     "meanings": [
+      "코트",
+      "외투"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/362.mp3"
+    },
+    {
+     "text": "gloves",
+     "meanings": [
+      "장갑"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ef6f6e65ae56cd67.mp3"
+    },
+    {
+     "text": "textbook",
+     "meanings": [
+      "교과서"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/376.mp3"
+    },
+    {
+     "text": "fan",
+     "meanings": [
+      "부채",
+      "선풍기"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/467.mp3"
+    },
+    {
+     "text": "map",
+     "meanings": [
+      "지도"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/256.mp3"
+    },
+    {
+     "text": "nice",
+     "meanings": [
+      "좋은",
+      "친절한"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/445.mp3"
+    },
+    {
+     "text": "bread",
+     "meanings": [
+      "빵"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/20.mp3"
+    },
+    {
+     "text": "bring",
+     "meanings": [
+      "가져오다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/441.mp3"
+    },
+    {
+     "text": "new",
+     "meanings": [
+      "새로운",
+      "새 것의"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/45.mp3"
+    },
+    {
+     "text": "hospital",
+     "meanings": [
+      "병원"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/15.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you need?",
+       "ko": "너는 무엇이 필요하니?",
+       "audio": "/audio/speak/5514602a288af9ec.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I need a shirt.",
+       "ko": "나는 셔츠가 필요해.",
+       "audio": "/audio/speak/30a3ce931b5de58b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you need it?",
+       "ko": "너는 그것이 왜 필요하니?",
+       "audio": "/audio/speak/ab3e28bec38ccc22.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because I got wet.",
+       "ko": "왜냐하면 나는 젖었거든.",
+       "audio": "/audio/speak/b1925790fdddd6e0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you need?",
+       "ko": "너는 무엇이 필요하니?",
+       "audio": "/audio/speak/5514602a288af9ec.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I need shorts.",
+       "ko": "나는 반바지가 필요해.",
+       "audio": "/audio/speak/ab6f815142e580c1.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you need them?",
+       "ko": "너는 그것들이 왜 필요하니?",
+       "audio": "/audio/speak/fb60ed17ee6abf70.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because I spilled juice.",
+       "ko": "왜냐하면 내가 주스를 쏟았거든.",
+       "audio": "/audio/speak/bf28f38b427f0a36.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you need?",
+       "ko": "너는 무엇이 필요하니?",
+       "audio": "/audio/speak/5514602a288af9ec.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I need a coat.",
+       "ko": "나는 코트가 필요해.",
+       "audio": "/audio/speak/350690a6e49bcfa4.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you need it?",
+       "ko": "너는 그것이 왜 필요하니?",
+       "audio": "/audio/speak/ab3e28bec38ccc22.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because it's cold.",
+       "ko": "왜냐하면 춥거든.",
+       "audio": "/audio/speak/17715ec18b91af0b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you need?",
+       "ko": "너는 무엇이 필요하니?",
+       "audio": "/audio/speak/5514602a288af9ec.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I need boots.",
+       "ko": "나는 부츠가 필요해.",
+       "audio": "/audio/speak/aab703eaade4c573.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Why do you need them?",
+       "ko": "너는 그것들이 왜 필요하니?",
+       "audio": "/audio/speak/fb60ed17ee6abf70.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Because they got stained.",
+       "ko": "왜냐하면 그것들에 얼룩이 묻었거든.",
+       "audio": "/audio/speak/40a889a5b84254cb.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 4,
+   "name": "I have some bread and ham.",
+   "words": [
+    {
+     "text": "ham",
+     "meanings": [
+      "햄"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/ab0ff37c86d2835d.mp3"
+    },
+    {
+     "text": "cheese",
+     "meanings": [
+      "치즈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/280.mp3"
+    },
+    {
+     "text": "lettuce",
+     "meanings": [
+      "상추",
+      "양상추"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/502.mp3"
+    },
+    {
+     "text": "milk",
+     "meanings": [
+      "우유"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/16.mp3"
+    },
+    {
+     "text": "bread",
+     "meanings": [
+      "빵"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/20.mp3"
+    },
+    {
+     "text": "butter",
+     "meanings": [
+      "버터"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/281.mp3"
+    },
+    {
+     "text": "chicken",
+     "meanings": [
+      "닭고기",
+      "치킨"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/434.mp3"
+    },
+    {
+     "text": "yogurt",
+     "meanings": [
+      "요구르트",
+      "요거트"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/597.mp3"
+    },
+    {
+     "text": "present",
+     "meanings": [
+      "선물"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/132.mp3"
+    },
+    {
+     "text": "bath",
+     "meanings": [
+      "목욕"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/7d0e84768386a9d7.mp3"
+    },
+    {
+     "text": "sky",
+     "meanings": [
+      "하늘"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/466.mp3"
+    },
+    {
+     "text": "sea",
+     "meanings": [
+      "바다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/79.mp3"
+    },
+    {
+     "text": "line",
+     "meanings": [
+      "줄",
+      "선"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/424.mp3"
+    },
+    {
+     "text": "face",
+     "meanings": [
+      "얼굴"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/38.mp3"
+    },
+    {
+     "text": "travel",
+     "meanings": [
+      "여행하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l5/5.mp3"
+    },
+    {
+     "text": "stop",
+     "meanings": [
+      "멈추다",
+      "그만두다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/40.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you have?",
+       "ko": "너는 무엇을 가지고 있니?",
+       "audio": "/audio/speak/3647d9d5df1308f5.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some chicken and lettuce.",
+       "ko": "나는 치킨과 양상추를 조금 가지고 있어.",
+       "audio": "/audio/speak/3fe65ff34968970c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you have anything else?",
+       "ko": "너는 또 다른 것을 가지고 있니?",
+       "audio": "/audio/speak/8d8920f451cc3f9b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some cheese, too.",
+       "ko": "나는 치즈도 조금 가지고 있어.",
+       "audio": "/audio/speak/103419163592638e.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you have?",
+       "ko": "너는 무엇을 가지고 있니?",
+       "audio": "/audio/speak/3647d9d5df1308f5.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some ham and cheese.",
+       "ko": "나는 햄과 치즈를 조금 가지고 있어.",
+       "audio": "/audio/speak/ca780327f63239ed.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you have anything else?",
+       "ko": "너는 또 다른 것을 가지고 있니?",
+       "audio": "/audio/speak/8d8920f451cc3f9b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some bread, too.",
+       "ko": "나는 빵도 조금 가지고 있어.",
+       "audio": "/audio/speak/1594350c773088f2.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you have?",
+       "ko": "너는 무엇을 가지고 있니?",
+       "audio": "/audio/speak/3647d9d5df1308f5.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some cheese and bread.",
+       "ko": "나는 치즈와 빵을 조금 가지고 있어.",
+       "audio": "/audio/speak/951d24ae949efe78.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you have anything else?",
+       "ko": "너는 또 다른 것을 가지고 있니?",
+       "audio": "/audio/speak/8d8920f451cc3f9b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some yogurt, too.",
+       "ko": "나는 요거트도 조금 가지고 있어.",
+       "audio": "/audio/speak/d43c07d85320715e.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you have?",
+       "ko": "너는 무엇을 가지고 있니?",
+       "audio": "/audio/speak/3647d9d5df1308f5.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some milk and bread.",
+       "ko": "나는 우유와 빵을 조금 가지고 있어.",
+       "audio": "/audio/speak/0aecbd9e5c240a4e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you have anything else?",
+       "ko": "너는 또 다른 것을 가지고 있니?",
+       "audio": "/audio/speak/8d8920f451cc3f9b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I have some butter, too.",
+       "ko": "나는 버터도 조금 가지고 있어.",
+       "audio": "/audio/speak/95e52318b7c6f7ba.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 5,
+   "name": "Be careful with the arrow!",
+   "words": [
+    {
+     "text": "needle",
+     "meanings": [
+      "바늘"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/337.mp3"
+    },
+    {
+     "text": "screwdriver",
+     "meanings": [
+      "드라이버"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/310.mp3"
+    },
+    {
+     "text": "nail",
+     "meanings": [
+      "못"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/4fedc1e8847ab46b.mp3"
+    },
+    {
+     "text": "hammer",
+     "meanings": [
+      "망치"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/147.mp3"
+    },
+    {
+     "text": "knife",
+     "meanings": [
+      "칼"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/288.mp3"
+    },
+    {
+     "text": "scissors",
+     "meanings": [
+      "가위"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/373.mp3"
+    },
+    {
+     "text": "saw",
+     "meanings": [
+      "톱"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/61a86a660023c42f.mp3"
+    },
+    {
+     "text": "fire",
+     "meanings": [
+      "불"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/258.mp3"
+    },
+    {
+     "text": "wait",
+     "meanings": [
+      "기다리다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/53.mp3"
+    },
+    {
+     "text": "all",
+     "meanings": [
+      "모든",
+      "모두"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/e6ca429e2152b9ea.mp3"
+    },
+    {
+     "text": "fine",
+     "meanings": [
+      "좋은",
+      "괜찮은"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l6/475.mp3"
+    },
+    {
+     "text": "energy",
+     "meanings": [
+      "에너지",
+      "기운"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/454.mp3"
+    },
+    {
+     "text": "problem",
+     "meanings": [
+      "문제"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/42.mp3"
+    },
+    {
+     "text": "jacket",
+     "meanings": [
+      "재킷",
+      "상의"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/361.mp3"
+    },
+    {
+     "text": "monkey",
+     "meanings": [
+      "원숭이"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/33.mp3"
+    },
+    {
+     "text": "space",
+     "meanings": [
+      "우주",
+      "공간"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/efb82c8bc2d805f7.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너는 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm making a chair.",
+       "ko": "나는 의자를 만들고 있어.",
+       "audio": "/audio/speak/b8b3449a8b486799.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Can I touch it?",
+       "ko": "내가 그것을 만져도 되니?",
+       "audio": "/audio/speak/673b8d8fdba7a34f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Be careful with the nail!",
+       "ko": "못을 조심해!",
+       "audio": "/audio/speak/928fc763b3022987.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너는 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm making a fence.",
+       "ko": "나는 울타리를 만들고 있어.",
+       "audio": "/audio/speak/86267b4be048e132.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Can I touch it?",
+       "ko": "내가 그것을 만져도 되니?",
+       "audio": "/audio/speak/673b8d8fdba7a34f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Be careful with the hammer!",
+       "ko": "망치를 조심해!",
+       "audio": "/audio/speak/1f7f206d8b35e677.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너는 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm making a doll.",
+       "ko": "나는 인형을 만들고 있어.",
+       "audio": "/audio/speak/5570948b0efd0f77.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Can I touch it?",
+       "ko": "내가 그것을 만져도 되니?",
+       "audio": "/audio/speak/673b8d8fdba7a34f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Be careful with the needle!",
+       "ko": "바늘을 조심해!",
+       "audio": "/audio/speak/b1e816c47a3195df.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What are you doing?",
+       "ko": "너는 무엇을 하고 있니?",
+       "audio": "/audio/speak/25f1c0080d124c47.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm making a sandwich.",
+       "ko": "나는 샌드위치를 만들고 있어.",
+       "audio": "/audio/speak/56d9a836d74ca104.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Can I touch it?",
+       "ko": "내가 그것을 만져도 되니?",
+       "audio": "/audio/speak/673b8d8fdba7a34f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Be careful with the knife!",
+       "ko": "칼을 조심해!",
+       "audio": "/audio/speak/f7a9602f1d1b7eb6.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 6,
+   "name": "Do you live alone?",
+   "words": [
+    {
+     "text": "alone",
+     "meanings": [
+      "혼자서",
+      "외로이"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/330.mp3"
+    },
+    {
+     "text": "early",
+     "meanings": [
+      "일찍",
+      "이른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/60.mp3"
+    },
+    {
+     "text": "fast",
+     "meanings": [
+      "빠르게",
+      "빠른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/50.mp3"
+    },
+    {
+     "text": "high",
+     "meanings": [
+      "높이",
+      "높은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/259.mp3"
+    },
+    {
+     "text": "hard",
+     "meanings": [
+      "열심히",
+      "어려운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/436.mp3"
+    },
+    {
+     "text": "late",
+     "meanings": [
+      "늦게",
+      "늦은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/209.mp3"
+    },
+    {
+     "text": "slowly",
+     "meanings": [
+      "천천히",
+      "느리게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/323.mp3"
+    },
+    {
+     "text": "well",
+     "meanings": [
+      "잘",
+      "좋게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/587.mp3"
+    },
+    {
+     "text": "warm",
+     "meanings": [
+      "따뜻한"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/20.mp3"
+    },
+    {
+     "text": "town",
+     "meanings": [
+      "동네",
+      "마을"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/385.mp3"
+    },
+    {
+     "text": "with",
+     "meanings": [
+      "~와 함께"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/462.mp3"
+    },
+    {
+     "text": "horse",
+     "meanings": [
+      "말"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/35.mp3"
+    },
+    {
+     "text": "number",
+     "meanings": [
+      "숫자",
+      "번호"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/345.mp3"
+    },
+    {
+     "text": "bank",
+     "meanings": [
+      "은행"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/390.mp3"
+    },
+    {
+     "text": "mouse",
+     "meanings": [
+      "쥐",
+      "마우스"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l3/474.mp3"
+    },
+    {
+     "text": "picnic",
+     "meanings": [
+      "소풍"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l2/369.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Do you live alone?",
+       "ko": "너는 혼자 사니?",
+       "audio": "/audio/speak/e24f88b3ec5ddae1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, I do. I live alone.",
+       "ko": "응. 나는 혼자 살아.",
+       "audio": "/audio/speak/4bb0801f99ea4318.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you live alone?",
+       "ko": "너는 혼자 사니?",
+       "audio": "/audio/speak/e24f88b3ec5ddae1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, I don't. I live with my parents.",
+       "ko": "아니. 나는 부모님과 함께 살아.",
+       "audio": "/audio/speak/c5e2d39b911c1118.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Do you get up early?",
+       "ko": "너는 일찍 일어나니?",
+       "audio": "/audio/speak/8efc0fb1fc85fa2f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, I do. I get up at 6:30.",
+       "ko": "응. 나는 6시 30분에 일어나.",
+       "audio": "/audio/speak/0c35c62b4bf6e9ce.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you get up early?",
+       "ko": "너는 일찍 일어나니?",
+       "audio": "/audio/speak/8efc0fb1fc85fa2f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, I don't. I get up late.",
+       "ko": "아니. 나는 늦게 일어나.",
+       "audio": "/audio/speak/ec47317d6f4ec336.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Do you study hard?",
+       "ko": "너는 열심히 공부하니?",
+       "audio": "/audio/speak/ebf792df80b16476.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, I do. I study very hard.",
+       "ko": "응. 나는 매우 열심히 공부해.",
+       "audio": "/audio/speak/3c6e747b1d284d5d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you study hard?",
+       "ko": "너는 열심히 공부하니?",
+       "audio": "/audio/speak/ebf792df80b16476.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, I don't. I play games.",
+       "ko": "아니. 나는 게임을 해.",
+       "audio": "/audio/speak/9c858fe52447f422.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Do you run fast?",
+       "ko": "너는 빨리 달리니?",
+       "audio": "/audio/speak/2123bf1de941309e.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, I do. I run very fast.",
+       "ko": "응. 나는 매우 빨리 달려.",
+       "audio": "/audio/speak/76460d39dc7bf27e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Do you run fast?",
+       "ko": "너는 빨리 달리니?",
+       "audio": "/audio/speak/2123bf1de941309e.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "No, I don't. I run slowly.",
+       "ko": "아니. 나는 천천히 달려.",
+       "audio": "/audio/speak/98b6562929764e28.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 7,
+   "name": "It sounds loud.",
+   "words": [
+    {
+     "text": "look",
+     "meanings": [
+      "~하게 보이다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/44.mp3"
+    },
+    {
+     "text": "beautiful",
+     "meanings": [
+      "아름다운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/57.mp3"
+    },
+    {
+     "text": "sound",
+     "meanings": [
+      "~하게 들리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l12/188.mp3"
+    },
+    {
+     "text": "loud",
+     "meanings": [
+      "시끄러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/303.mp3"
+    },
+    {
+     "text": "feel",
+     "meanings": [
+      "~하게 느끼다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/260.mp3"
+    },
+    {
+     "text": "soft",
+     "meanings": [
+      "부드러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/435.mp3"
+    },
+    {
+     "text": "taste",
+     "meanings": [
+      "~한 맛이 나다",
+      "맛"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/82.mp3"
+    },
+    {
+     "text": "delicious",
+     "meanings": [
+      "맛있는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/58.mp3"
+    },
+    {
+     "text": "smell",
+     "meanings": [
+      "~한 냄새가 나다",
+      "냄새"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/83.mp3"
+    },
+    {
+     "text": "sweet",
+     "meanings": [
+      "달콤한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/58.mp3"
+    },
+    {
+     "text": "grow",
+     "meanings": [
+      "자라다",
+      "재배하다"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l1/444.mp3"
+    },
+    {
+     "text": "farm",
+     "meanings": [
+      "농장"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/l4/24.mp3"
+    },
+    {
+     "text": "show",
+     "meanings": [
+      "보여주다",
+      "공연"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/ff12b44a4d59194b.mp3"
+    },
+    {
+     "text": "twice",
+     "meanings": [
+      "두 번",
+      "두 배로"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/989e1897d3eaca36.mp3"
+    },
+    {
+     "text": "front",
+     "meanings": [
+      "앞",
+      "정면"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/1bc1b3b177f8f3c4.mp3"
+    },
+    {
+     "text": "restroom",
+     "meanings": [
+      "화장실"
+     ],
+     "advancedOnly": true,
+     "audio": "/audio/word/a0459f1bb52891d4.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What's that?",
+       "ko": "저것은 무엇이니?",
+       "audio": "/audio/speak/9ced0e150c733095.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's a horn.",
+       "ko": "그것은 경적이야.",
+       "audio": "/audio/speak/b67ee4595fcc52f0.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it sound?",
+       "ko": "그것은 어떻게 들리니?",
+       "audio": "/audio/speak/c43340c659787bfa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It sounds loud.",
+       "ko": "그것은 시끄럽게 들려.",
+       "audio": "/audio/speak/8579955901de0d90.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What's that?",
+       "ko": "저것은 무엇이니?",
+       "audio": "/audio/speak/9ced0e150c733095.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's a swan.",
+       "ko": "그것은 백조야.",
+       "audio": "/audio/speak/56b4d981d08f94de.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it look?",
+       "ko": "그것은 어떻게 보이니?",
+       "audio": "/audio/speak/30af2eba4461745a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It looks beautiful.",
+       "ko": "그것은 아름다워 보여.",
+       "audio": "/audio/speak/417137a8e2b1b76d.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What's that?",
+       "ko": "저것은 무엇이니?",
+       "audio": "/audio/speak/9ced0e150c733095.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's cotton candy.",
+       "ko": "그것은 솜사탕이야.",
+       "audio": "/audio/speak/02998c4f0ed193e6.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it taste?",
+       "ko": "그것은 어떤 맛이니?",
+       "audio": "/audio/speak/913fc12b187394ea.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It tastes sweet.",
+       "ko": "그것은 달콤한 맛이 나.",
+       "audio": "/audio/speak/b7a0c5a95639f7b9.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What's that?",
+       "ko": "저것은 무엇이니?",
+       "audio": "/audio/speak/9ced0e150c733095.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It's a pizza.",
+       "ko": "그것은 피자야.",
+       "audio": "/audio/speak/0f1d29126fbaf8f6.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How does it smell?",
+       "ko": "그것은 어떤 냄새가 나니?",
+       "audio": "/audio/speak/ac827be027bef627.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It smells delicious.",
+       "ko": "그것은 맛있는 냄새가 나.",
+       "audio": "/audio/speak/ad78ade157361a06.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  }
+ ]
+}

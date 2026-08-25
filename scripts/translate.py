@@ -25,9 +25,11 @@ PROMPT = """다음은 초등·중등 영어 교재의 이야기 본문입니다.
 - 문장 번호와 순서를 그대로 유지하세요.
 - 학생이 영어 원문과 대조해 볼 수 있도록 원문의 뜻을 빠짐없이 옮기되, 한국어로 자연스럽게 쓰세요.
 - 등장인물 이름은 소리 나는 대로 한글로 적으세요 (Jonathan → 조나단).
-- 설명이나 다른 말 없이 아래 JSON 배열 형식으로만 답하세요.
+- 설명이나 다른 말 없이, 아래 형식으로 한 줄에 하나씩만 답하세요.
 
-출력 형식: [{"n": 1, "ko": "번역"}, {"n": 2, "ko": "번역"}]
+출력 형식 (번호|번역):
+1|번역문
+2|번역문
 
 문장:
 """
@@ -36,7 +38,7 @@ PROMPT = """다음은 초등·중등 영어 교재의 이야기 본문입니다.
 def call(text, key):
     body = json.dumps({
         "contents": [{"parts": [{"text": text}]}],
-        "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
+        "generationConfig": {"temperature": 0.3},
     })
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={key}"
     p = subprocess.run(
@@ -57,12 +59,14 @@ def translate_batch(sentences):
         key = KEYS[attempt % len(KEYS)]
         try:
             raw = call(PROMPT + listing, key)
-            m = re.search(r"\[.*\]", raw, re.S)
-            arr = json.loads(m.group(0) if m else raw)
-            for item in arr:
-                n = int(item["n"]) - 1
-                if 0 <= n < len(sentences) and item.get("ko"):
-                    out[sentences[n][0]] = str(item["ko"]).strip()
+            for line in raw.splitlines():
+                m = re.match(r"\s*(\d+)\s*[|\.\)]\s*(.+)", line)
+                if not m:
+                    continue
+                n = int(m.group(1)) - 1
+                ko = m.group(2).strip()
+                if 0 <= n < len(sentences) and ko:
+                    out[sentences[n][0]] = ko
             if len(out) >= len(sentences) * 0.8:
                 return out
         except Exception as e:

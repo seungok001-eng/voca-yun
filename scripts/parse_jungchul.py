@@ -17,6 +17,7 @@ Toon World는 기본용·심화용 두 파일로 나뉘어 오는데, 심화 파
   (--toon/--book 뒤 숫자는 PART 번호. 심화 파일은 생략 가능)
 """
 import json
+import os
 import re
 import sys
 
@@ -50,10 +51,18 @@ def read_words(ws, col_no, col_text, col_mean):
 def split_en_ko(raw):
     """"Let's go now! (우리 지금 가자!)" → ("Let's go now!", "우리 지금 가자!")"""
     s = str(raw).replace("\n", " ").strip()
-    m = re.match(r"^(.*?)\s*[（(]\s*([^()（）]*[가-힣][^()（）]*)\s*[)）]\s*$", s)
-    if m:
-        return m.group(1).strip(), m.group(2).strip()
-    return s, None
+    if not re.search(r"[가-힣]", s):
+        return s, None
+    # 한국어가 시작되는 첫 여는 괄호에서 자른다.
+    # 원본에 닫는 괄호가 빠졌거나 "그의 형(남동생)이"처럼 괄호가 겹쳐 있어도 안전하다.
+    m = re.search(r"\s*[（(]\s*(?=[^)）]*[가-힣])", s)
+    if not m:
+        return s, None
+    en = s[:m.start()].strip()
+    ko = s[m.end():].strip().rstrip(")）").strip()
+    if not en or re.search(r"[가-힣]", en):
+        return s, None
+    return en, (ko or None)
 
 
 def read_dialogues(ws):
@@ -184,7 +193,68 @@ def parse_book(part, path):
     return lessons
 
 
+# ── 폴더 통째로 읽기 ────────────────────────────────────────────
+# 파일 첫 행("FEM PLANET 1-2 Part 1")과 시트 이름(T*/B*)으로 교재·파트·영역을 알아낸다.
+# Toon World가 기본용·심화용 두 파일로 오면 단어가 많은 쪽을 심화 원본으로 삼는다.
+def scan_dir(folder):
+    import glob
+    found = {}  # (교재, 파트, 영역) → [(단어수, 경로)]
+    for f in sorted(glob.glob(os.path.join(folder, "*.xlsx"))):
+        try:
+            wb = openpyxl.load_workbook(f, data_only=True, read_only=True)
+        except Exception:
+            continue
+        sheets = [w.title for w in wb.worksheets if w.title not in SKIP_SHEETS]
+        if not sheets:
+            continue
+        ws = wb[sheets[0]]
+        m = re.search(r"(PLANET|SKY)\s*(\d)-(\d)\s*Part\s*(\d)", str(ws.cell(1, 1).value or ""), re.I)
+        if not m:
+            print(f"  건너뜀(교재 확인 불가): {os.path.basename(f)}")
+            continue
+        book = f"{m.group(1).upper()} {m.group(2)}-{m.group(3)}"
+        part = int(m.group(4))
+        area = "TOON" if sheets[0].upper().startswith("T") else "READING"
+        n = sum(len(read_words(wb[t], 1, 2, 3)) + len(read_words(wb[t], 5, 6, 7)) for t in sheets)
+        found.setdefault((book, part, area), []).append((n, f))
+
+    books = {}
+    for (book, part, area), files in sorted(found.items()):
+        files.sort()  # 단어가 적은 쪽 = 기본, 많은 쪽 = 심화
+        basic = files[0][1]
+        adv = files[-1][1] if len(files) > 1 else None
+        lessons = parse_toon(part, basic, adv) if area == "TOON" else parse_book(part, basic)
+        for L in lessons:
+            if area == "TOON":
+                L["isReview"] = L["order"] == 8            # Toon World L8은 복습
+            elif book.startswith("SKY"):
+                # SKY 북클럽은 복습 단원 없이 L1~4가 Book A, L5~8이 Book B
+                L["bookLabel"] = "Book A" if L["order"] <= 4 else "Book B"
+            else:
+                L["isReview"] = L["order"] in (4, 8)       # PLANET 북클럽 L4·L8은 복습
+        books.setdefault(book, []).extend(lessons)
+        tag = "기본+심화" if adv else "기본만"
+        print(f"  {book} P{part} {'Toon' if area == 'TOON' else 'Book'}: {len(lessons)}레슨 ({tag})")
+    return books
+
+
 def main():
+    if sys.argv[1] == "--dir":
+        folder, outdir = sys.argv[2], sys.argv[3]
+        print("폴더 스캔:")
+        books = scan_dir(folder)
+        for book, lessons in sorted(books.items()):
+            lessons.sort(key=lambda L: (L["part"], L["area"], L["order"]))
+            slug = book.lower().replace(" ", "-")
+            path = os.path.join(outdir, f"textbook-{slug}.json")
+            json.dump({"lessons": lessons}, open(path, "w"), ensure_ascii=False, indent=1)
+            w = sum(len(L.get("words", [])) for L in lessons)
+            adv = sum(1 for L in lessons for x in L.get("words", []) if x.get("advancedOnly"))
+            dl = sum(len(x["lines"]) for L in lessons for x in L.get("dialogues", []))
+            pl = sum(len(L.get("passageLines", [])) for L in lessons)
+            print(f"\n{book}: 레슨 {len(lessons)} · 단어 {w}(심화 {adv}) · 대화 {dl}문장 · 본문 {pl}문장 → {os.path.basename(path)}")
+        return
+
     out_path = sys.argv[1]
     args = sys.argv[2:]
     lessons = []

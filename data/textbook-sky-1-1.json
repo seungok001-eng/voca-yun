@@ -1,0 +1,4986 @@
+{
+ "lessons": [
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 1,
+   "name": "Me and my puppy (2-7)",
+   "words": [
+    {
+     "text": "puppy",
+     "meanings": [
+      "강아지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/398.mp3"
+    },
+    {
+     "text": "tail",
+     "meanings": [
+      "꼬리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/251.mp3"
+    },
+    {
+     "text": "cookie",
+     "meanings": [
+      "쿠키"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/158.mp3"
+    },
+    {
+     "text": "hungry",
+     "meanings": [
+      "배고픈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/26.mp3"
+    },
+    {
+     "text": "sit",
+     "meanings": [
+      "앉다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/38.mp3"
+    },
+    {
+     "text": "talk",
+     "meanings": [
+      "말하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/39.mp3"
+    },
+    {
+     "text": "eat",
+     "meanings": [
+      "먹다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/51.mp3"
+    },
+    {
+     "text": "wag",
+     "meanings": [
+      "(꼬리를) 흔들다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/46c31ff52a556cdd.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "I have a puppy.",
+     "ko": "나는 강아지가 한 마리 있어요.",
+     "audio": "/audio/speak/6137a02a902ce217.mp3"
+    },
+    {
+     "text": "My puppy can talk.",
+     "ko": "내 강아지는 말을 할 수 있어요.",
+     "audio": "/audio/speak/6af05d78afd8c237.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "“멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "내 강아지가 배고프다고 말해요.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "“앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "“앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "내 강아지는 앉지 않아요.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야,” 내가 말해요.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "“네가 앉으면 먹을 수 있어.",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "“멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다봐요.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "녀석은 꼬리를 흔들어요.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "녀석은 앉아서 그것을 먹어요.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "“멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "내 강아지가 배고프다고 말해요.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "“앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "“앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "내 강아지는 앉지 않아요.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야,” 내가 말한다.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "“네가 앉으면 먹을 수 있어.",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다본다.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔든다.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 2,
+   "name": "Me and my puppy (8-11)",
+   "words": [
+    {
+     "text": "fast",
+     "meanings": [
+      "빠른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/50.mp3"
+    },
+    {
+     "text": "look up",
+     "meanings": [
+      "올려다보다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l9/436.mp3"
+    },
+    {
+     "text": "stop",
+     "meanings": [
+      "멈추다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/40.mp3"
+    },
+    {
+     "text": "run",
+     "meanings": [
+      "달리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/36.mp3"
+    },
+    {
+     "text": "play tag",
+     "meanings": [
+      "술래잡기를 하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/1951e44c7c565eca.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he wants to play.",
+     "ko": "내 강아지가 놀고 싶다고 말해요.",
+     "audio": "/audio/speak/301da5a68a279a47.mp3"
+    },
+    {
+     "text": "I play tag with my puppy.",
+     "ko": "나는 내 강아지와 술래잡기를 해요.",
+     "audio": "/audio/speak/9a0764dc1a33831e.mp3"
+    },
+    {
+     "text": "My puppy runs fast.",
+     "ko": "내 강아지는 빨리 달려요.",
+     "audio": "/audio/speak/060b307c138dee35.mp3"
+    },
+    {
+     "text": "\"Stop!",
+     "ko": "“멈춰!",
+     "audio": "/audio/speak/af8f2eaea4dbc945.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Stop!",
+     "ko": "“멈춰!",
+     "audio": "/audio/speak/af8f2eaea4dbc945.mp3"
+    },
+    {
+     "text": "My puppy does not stop.",
+     "ko": "내 강아지는 멈추지 않아요.",
+     "audio": "/audio/speak/8a0a4e3ddcaa3c20.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야,” 내가 말해요.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you stop.",
+     "ko": "“네가 멈추면 먹을 수 있어.",
+     "audio": "/audio/speak/70269493a1195112.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다봐요.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔들어요.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He stops and eats it.",
+     "ko": "그는 멈춰서 그것을 먹어요.",
+     "audio": "/audio/speak/c68718c486b359c6.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "내 강아지가 배고프다고 말해요.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "“앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "“앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "내 강아지는 앉지 않아요.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야.”라고 나는 말한다.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "앉으면 먹을 수 있어.",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다본다.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔든다.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 3,
+   "name": "Me and my puppy (12-15)",
+   "words": [
+    {
+     "text": "park",
+     "meanings": [
+      "공원"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/13.mp3"
+    },
+    {
+     "text": "go outside",
+     "meanings": [
+      "밖으로 나가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/36532d1fe44b12e8.mp3"
+    },
+    {
+     "text": "ball",
+     "meanings": [
+      "공"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/21.mp3"
+    },
+    {
+     "text": "be good",
+     "meanings": [
+      "착하게 행동하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b03efd5297e8e178.mp3"
+    },
+    {
+     "text": "play",
+     "meanings": [
+      "놀다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/55.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he wants to go outside.",
+     "ko": "우리 강아지가 밖에 나가고 싶다고 말해요.",
+     "audio": "/audio/speak/911d5f5f50de25b7.mp3"
+    },
+    {
+     "text": "I take my puppy to the park.",
+     "ko": "나는 우리 강아지를 공원에 데려가요.",
+     "audio": "/audio/speak/9289ad5024bd6a99.mp3"
+    },
+    {
+     "text": "My puppy plays with a ball.",
+     "ko": "우리 강아지는 공을 가지고 놀아요.",
+     "audio": "/audio/speak/f75516c4b7071448.mp3"
+    },
+    {
+     "text": "\"Be good!",
+     "ko": "착하게 굴어!",
+     "audio": "/audio/speak/37fe0875781cec77.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Be good!",
+     "ko": "착하게 굴어!",
+     "audio": "/audio/speak/37fe0875781cec77.mp3"
+    },
+    {
+     "text": "My puppy is not being good.",
+     "ko": "우리 강아지가 착하게 굴지 않아요.",
+     "audio": "/audio/speak/1558c1d9b054e96b.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야,” 내가 말해요.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you are good.",
+     "ko": "“네가 착하게 굴면 먹을 수 있어.”",
+     "audio": "/audio/speak/51a2ef3ee34d51b5.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "우리 강아지가 나를 올려다봐요.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔들어요.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He is being good and eats it.",
+     "ko": "그는 착하게 굴고 그것을 먹어요.",
+     "audio": "/audio/speak/97aab44f4dd6650a.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "우리 강아지가 배고프다고 말해요.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "우리 강아지가 앉지 않아요.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야,”라고 나는 말한다.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "앉으면 먹을 수 있어.",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다본다.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔든다.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 4,
+   "name": "Me and my puppy (16-23)",
+   "words": [
+    {
+     "text": "rain",
+     "meanings": [
+      "비"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/13.mp3"
+    },
+    {
+     "text": "sky",
+     "meanings": [
+      "하늘"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/466.mp3"
+    },
+    {
+     "text": "back",
+     "meanings": [
+      "등"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/68.mp3"
+    },
+    {
+     "text": "love",
+     "meanings": [
+      "사랑하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/31.mp3"
+    },
+    {
+     "text": "roll",
+     "meanings": [
+      "구르다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/119.mp3"
+    },
+    {
+     "text": "look down",
+     "meanings": [
+      "내려다보다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/cd4ab246409a8c42.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "I look up at the sky.",
+     "ko": "나는 하늘을 올려다본다.",
+     "audio": "/audio/speak/b3af71fd3c3f6c81.mp3"
+    },
+    {
+     "text": "I look down at my puppy.",
+     "ko": "나는 나의 강아지를 내려다본다.",
+     "audio": "/audio/speak/7edd9b8b0c3756ab.mp3"
+    },
+    {
+     "text": "\"Run!",
+     "ko": "“달려!",
+     "audio": "/audio/speak/80d364f6fe53c0f7.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "나는 말한다.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Run!",
+     "ko": "“달려!",
+     "audio": "/audio/speak/80d364f6fe53c0f7.mp3"
+    },
+    {
+     "text": "\"Don't sit!",
+     "ko": "“앉지 마!",
+     "audio": "/audio/speak/97445e1177d3eebf.mp3"
+    },
+    {
+     "text": "Don't stop!",
+     "ko": "멈추지 마!",
+     "audio": "/audio/speak/278044a4282ed32d.mp3"
+    },
+    {
+     "text": "Run!",
+     "ko": "달려!",
+     "audio": "/audio/speak/efd60d903c61bb93.mp3"
+    },
+    {
+     "text": "My puppy and I run from the rain.",
+     "ko": "나의 강아지와 나는 비를 피해 달린다.",
+     "audio": "/audio/speak/cd27832c810d6ebc.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야,” 나는 말한다.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You are a good puppy.",
+     "ko": "“너는 착한 강아지야.",
+     "audio": "/audio/speak/091db447b3fb4c2d.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "나의 강아지는 나를 올려다본다.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔든다.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He rolls onto his back.",
+     "ko": "그는 등을 대고 뒹군다.",
+     "audio": "/audio/speak/cd50fe581c9553eb.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "“멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he loves me.",
+     "ko": "나의 강아지는 나를 사랑한다고 말한다.",
+     "audio": "/audio/speak/48d7bae23d93f7e3.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "“멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "나의 강아지는 배고프다고 말한다.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "“앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "나는 말한다.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "내 강아지는 앉지 않는다.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "“이 쿠키는 너를 위한 거야,” 내가 말한다.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "“네가 앉으면 그걸 먹을 수 있어.”",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다본다.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔든다.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 5,
+   "name": "Cookies for Mom (2-7)",
+   "words": [
+    {
+     "text": "Mother's Day",
+     "meanings": [
+      "엄마의 날"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/da46dcd284c6cf3b.mp3"
+    },
+    {
+     "text": "think",
+     "meanings": [
+      "생각하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/440.mp3"
+    },
+    {
+     "text": "present",
+     "meanings": [
+      "선물"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/132.mp3"
+    },
+    {
+     "text": "kitchen",
+     "meanings": [
+      "주방"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/29.mp3"
+    },
+    {
+     "text": "take out",
+     "meanings": [
+      "꺼내다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/4a9b47be7200bbf8.mp3"
+    },
+    {
+     "text": "cookie cutter",
+     "meanings": [
+      "쿠키틀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e1068a6551ad11b5.mp3"
+    },
+    {
+     "text": "wait",
+     "meanings": [
+      "기다리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/53.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Tomorrow is Mother's Day.",
+     "ko": "내일은 어머니날이다.",
+     "audio": "/audio/speak/db8bc111c3682725.mp3"
+    },
+    {
+     "text": "I want to make Mom happy.",
+     "ko": "나는 엄마를 행복하게 해주고 싶다.",
+     "audio": "/audio/speak/b0701b2271433c56.mp3"
+    },
+    {
+     "text": "I think and think.",
+     "ko": "나는 생각하고 또 생각한다.",
+     "audio": "/audio/speak/10c4a3b0ea41d018.mp3"
+    },
+    {
+     "text": "What is a good present?",
+     "ko": "좋은 선물이 무엇일까?",
+     "audio": "/audio/speak/5a0da473dc0083d5.mp3"
+    },
+    {
+     "text": "How about cookies?",
+     "ko": "쿠키는 어때?",
+     "audio": "/audio/speak/5e9d57c91d4280e1.mp3"
+    },
+    {
+     "text": "I go into the kitchen.",
+     "ko": "나는 부엌으로 들어간다.",
+     "audio": "/audio/speak/aa5e91f0d1c5ad28.mp3"
+    },
+    {
+     "text": "I take out the cookie cutters.",
+     "ko": "나는 쿠키 틀을 꺼낸다.",
+     "audio": "/audio/speak/c99e3c57eb0fbe49.mp3"
+    },
+    {
+     "text": "I can't wait to make cookies.",
+     "ko": "나는 빨리 쿠키를 만들고 싶다.",
+     "audio": "/audio/speak/93e9c072942b74e7.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "내 강아지가 배고프다고 말한다.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말한다.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "앉아!",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "내 강아지는 앉지 않는다.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "이 쿠키는 너를 위한 거야,",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "앉으면 먹을 수 있어.",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "멍멍!",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다본다.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔든다.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 6,
+   "name": "Cookies for Mom (8-11)",
+   "words": [
+    {
+     "text": "yummy",
+     "meanings": [
+      "맛있는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/8b9491350034d351.mp3"
+    },
+    {
+     "text": "baby sister",
+     "meanings": [
+      "여동생"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/04ef5c6629b6a5fc.mp3"
+    },
+    {
+     "text": "rectangle",
+     "meanings": [
+      "직사각형"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/518.mp3"
+    },
+    {
+     "text": "make",
+     "meanings": [
+      "만들다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/34.mp3"
+    },
+    {
+     "text": "come along",
+     "meanings": [
+      "따라오다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l9/439.mp3"
+    },
+    {
+     "text": "circle",
+     "meanings": [
+      "동그라미"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/158.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "I make a cookie.",
+     "ko": "나는 쿠키를 만들어요.",
+     "audio": "/audio/speak/cf50a680dbd2de26.mp3"
+    },
+    {
+     "text": "It is a circle.",
+     "ko": "그것은 동그라미 모양이에요.",
+     "audio": "/audio/speak/721435bd6a36dec4.mp3"
+    },
+    {
+     "text": "My baby sister comes along.",
+     "ko": "내 어린 여동생이 다가와요.",
+     "audio": "/audio/speak/2cb4e7241995460b.mp3"
+    },
+    {
+     "text": "She says, \"Yummy!",
+     "ko": "여동생이 말해요, \"맛있겠다!\"",
+     "audio": "/audio/speak/db3477fa1c868ab9.mp3"
+    },
+    {
+     "text": "I say, \"No, it's for Mom.",
+     "ko": "나는 말해요, \"안 돼, 그건 엄마 거야.\"",
+     "audio": "/audio/speak/e4983ae604f162d8.mp3"
+    },
+    {
+     "text": "I make one more cookie.",
+     "ko": "나는 쿠키를 하나 더 만들어요.",
+     "audio": "/audio/speak/9b2317289c66b0e7.mp3"
+    },
+    {
+     "text": "It is a rectangle.",
+     "ko": "그것은 직사각형 모양이에요.",
+     "audio": "/audio/speak/df957331b9ebd469.mp3"
+    },
+    {
+     "text": "My baby sister says, \"Yummy!",
+     "ko": "내 어린 여동생이 말해요, \"맛있겠다!\"",
+     "audio": "/audio/speak/cb05ab5b2bfa9433.mp3"
+    },
+    {
+     "text": "I say, \"No, it's for Mom.",
+     "ko": "나는 말해요, \"안 돼, 그건 엄마 거야.\"",
+     "audio": "/audio/speak/e4983ae604f162d8.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "\"멍멍!\"",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "내 강아지가 배고프다고 말해요.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "\"앉아!\"",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "\"앉아!\"",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "내 강아지는 앉지 않아요.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "나는 말해요, \"이 쿠키는 너를 위한 거야.\"",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "\"네가 앉으면 먹을 수 있어.\"",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "\"멍멍!\"",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다봐요.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "강아지는 꼬리를 흔들어요.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 7,
+   "name": "Cookies for Mom (12-17)",
+   "words": [
+    {
+     "text": "triangle",
+     "meanings": [
+      "삼각형"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/338.mp3"
+    },
+    {
+     "text": "sweet",
+     "meanings": [
+      "달콤한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/58.mp3"
+    },
+    {
+     "text": "smell",
+     "meanings": [
+      "냄새가 나다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/83.mp3"
+    },
+    {
+     "text": "put",
+     "meanings": [
+      "두다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/82.mp3"
+    },
+    {
+     "text": "pink box",
+     "meanings": [
+      "분홍색 상자"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/80ba2e939ea3053b.mp3"
+    },
+    {
+     "text": "surprise",
+     "meanings": [
+      "놀란",
+      "서프라이즈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/86777a39fb185129.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "I make one more cookie.",
+     "ko": "나는 쿠키를 하나 더 만들어요.",
+     "audio": "/audio/speak/9b2317289c66b0e7.mp3"
+    },
+    {
+     "text": "It is a triangle.",
+     "ko": "그것은 삼각형 모양이에요.",
+     "audio": "/audio/speak/ece418ecb84429a6.mp3"
+    },
+    {
+     "text": "My baby sister says, \"Yummy!",
+     "ko": "내 여동생이 \"냠냠!\" 하고 말해요.",
+     "audio": "/audio/speak/cb05ab5b2bfa9433.mp3"
+    },
+    {
+     "text": "I say, \"No, it's for Mom.",
+     "ko": "나는 \"안 돼, 이건 엄마 거야\"라고 말해요.",
+     "audio": "/audio/speak/e4983ae604f162d8.mp3"
+    },
+    {
+     "text": "The cookies look sweet.",
+     "ko": "쿠키들이 달콤해 보여요.",
+     "audio": "/audio/speak/778d9be073668336.mp3"
+    },
+    {
+     "text": "They smell sweet.",
+     "ko": "달콤한 냄새가 나요.",
+     "audio": "/audio/speak/0b99c9f6f5ca8239.mp3"
+    },
+    {
+     "text": "I put them in a pink box.",
+     "ko": "나는 그것들을 분홍색 상자에 넣어요.",
+     "audio": "/audio/speak/b5ad428f7ec53d02.mp3"
+    },
+    {
+     "text": "I can't wait.",
+     "ko": "너무 기대돼요.",
+     "audio": "/audio/speak/3a766b1c467389d0.mp3"
+    },
+    {
+     "text": "Surprise, surprise for Mom!",
+     "ko": "엄마, 깜짝 놀라실 거예요!",
+     "audio": "/audio/speak/671a1a83e05dec51.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "\"멍멍!\"",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "내 강아지가 배고프다고 말해요.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "\"앉아!\"",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말해요.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "\"앉아!\"",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "내 강아지는 앉지 않아요.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "나는 \"이 쿠키는 너를 위한 거야\"라고 말해요.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "\"앉으면 먹을 수 있어.\"",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "\"멍멍!\"",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "내 강아지가 나를 올려다봐요.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "녀석은 꼬리를 흔들어요.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "READING",
+   "order": 8,
+   "name": "Cookies for Mom (18-23)",
+   "words": [
+    {
+     "text": "look",
+     "meanings": [
+      "보다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/44.mp3"
+    },
+    {
+     "text": "hug",
+     "meanings": [
+      "안아주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/111.mp3"
+    },
+    {
+     "text": "kiss",
+     "meanings": [
+      "뽀뽀하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/85.mp3"
+    },
+    {
+     "text": "give",
+     "meanings": [
+      "주다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/41.mp3"
+    },
+    {
+     "text": "open",
+     "meanings": [
+      "열다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/58.mp3"
+    },
+    {
+     "text": "smile",
+     "meanings": [
+      "미소 짓다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/92.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "It is the next morning.",
+     "ko": "다음 날 아침입니다.",
+     "audio": "/audio/speak/25d99826fd5afe8c.mp3"
+    },
+    {
+     "text": "It is Mother's Day.",
+     "ko": "오늘은 어머니의 날입니다.",
+     "audio": "/audio/speak/030cc1e35570920b.mp3"
+    },
+    {
+     "text": "I hug Mom and kiss her.",
+     "ko": "나는 엄마를 안아주고 뽀뽀합니다.",
+     "audio": "/audio/speak/d4960909e2b55963.mp3"
+    },
+    {
+     "text": "I give her the pink box.",
+     "ko": "나는 엄마에게 분홍 상자를 줍니다.",
+     "audio": "/audio/speak/9d77674b33c5c90b.mp3"
+    },
+    {
+     "text": "I say, \"Happy Mother's Day!",
+     "ko": "나는 \"어머니의 날 축하해요!\"라고 말합니다.",
+     "audio": "/audio/speak/0897a00c5a697556.mp3"
+    },
+    {
+     "text": "Mom opens the pink box.",
+     "ko": "엄마는 분홍 상자를 엽니다.",
+     "audio": "/audio/speak/37269e15c31cdbf5.mp3"
+    },
+    {
+     "text": "There aren't any cookies in the pink box.",
+     "ko": "분홍 상자 안에는 쿠키가 하나도 없습니다.",
+     "audio": "/audio/speak/8eec5876563741e9.mp3"
+    },
+    {
+     "text": "I look at my baby sister.",
+     "ko": "나는 아기 여동생을 봅니다.",
+     "audio": "/audio/speak/6f941b6b34356cdd.mp3"
+    },
+    {
+     "text": "My baby sister smiles at me.",
+     "ko": "아기 여동생이 나를 보고 웃습니다.",
+     "audio": "/audio/speak/fa9654158cec075a.mp3"
+    },
+    {
+     "text": "She says, \"Yummy!",
+     "ko": "아기 여동생이 \"냠냠!\"이라고 말합니다.",
+     "audio": "/audio/speak/db3477fa1c868ab9.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "\"멍멍!\"",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy says he is hungry.",
+     "ko": "강아지가 배고프다고 말합니다.",
+     "audio": "/audio/speak/28aba01529b227ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "\"앉아!\"",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "I say.",
+     "ko": "내가 말합니다.",
+     "audio": "/audio/speak/aeb3a5978d5895ad.mp3"
+    },
+    {
+     "text": "\"Sit!",
+     "ko": "\"앉아!\"",
+     "audio": "/audio/speak/82bdd92f7bc84c68.mp3"
+    },
+    {
+     "text": "My puppy does not sit.",
+     "ko": "강아지는 앉지 않습니다.",
+     "audio": "/audio/speak/5e025fb01b087e4a.mp3"
+    },
+    {
+     "text": "\"This cookie is for you,\" I say.",
+     "ko": "내가 \"이 쿠키는 너를 위한 거야\"라고 말합니다.",
+     "audio": "/audio/speak/014f1af35516fbbb.mp3"
+    },
+    {
+     "text": "\"You can eat it if you sit.",
+     "ko": "\"앉으면 먹을 수 있어.\"",
+     "audio": "/audio/speak/a21feb08319eaa3f.mp3"
+    },
+    {
+     "text": "\"Woof!",
+     "ko": "\"멍멍!\"",
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+    },
+    {
+     "text": "My puppy looks up at me.",
+     "ko": "강아지가 나를 올려다봅니다.",
+     "audio": "/audio/speak/620b0bebe8beb42f.mp3"
+    },
+    {
+     "text": "He wags his tail.",
+     "ko": "그는 꼬리를 흔든다.",
+     "audio": "/audio/speak/e80e23002187bdf6.mp3"
+    },
+    {
+     "text": "He sits and eats it.",
+     "ko": "그는 앉아서 그것을 먹는다.",
+     "audio": "/audio/speak/0b3fc378270cb954.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 1,
+   "name": "I see a house",
+   "words": [
+    {
+     "text": "house",
+     "meanings": [
+      "집"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/7.mp3"
+    },
+    {
+     "text": "tree",
+     "meanings": [
+      "나무"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/13.mp3"
+    },
+    {
+     "text": "bike",
+     "meanings": [
+      "자전거"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/435.mp3"
+    },
+    {
+     "text": "bird",
+     "meanings": [
+      "새"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/9.mp3"
+    },
+    {
+     "text": "car",
+     "meanings": [
+      "차"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/25.mp3"
+    },
+    {
+     "text": "flower",
+     "meanings": [
+      "꽃"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/259.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a house.",
+       "ko": "나는 집이 보여.",
+       "audio": "/audio/speak/a386d818098c95be.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a tree.",
+       "ko": "나는 나무가 보여.",
+       "audio": "/audio/speak/9be5605b2c4dfa4b.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a car.",
+       "ko": "나는 차가 보여.",
+       "audio": "/audio/speak/ca62416b05c51038.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a bike.",
+       "ko": "나는 자전거가 보여.",
+       "audio": "/audio/speak/6b7e641b20ddb670.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a flower.",
+       "ko": "나는 꽃이 보여.",
+       "audio": "/audio/speak/d7324f492cfdc94f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a bird.",
+       "ko": "나는 새가 보여.",
+       "audio": "/audio/speak/9035f92efcae5ebf.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a banana.",
+       "ko": "나는 바나나가 보여.",
+       "audio": "/audio/speak/51486c6da4343777.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What do you see?",
+       "ko": "너는 뭐가 보여?",
+       "audio": "/audio/speak/9bf89c430b28c29d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I see a fish.",
+       "ko": "나는 물고기가 보여.",
+       "audio": "/audio/speak/f8409a67ac508b00.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 2,
+   "name": "The house is old",
+   "words": [
+    {
+     "text": "old",
+     "meanings": [
+      "낡은",
+      "오래된"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/46.mp3"
+    },
+    {
+     "text": "new",
+     "meanings": [
+      "새로운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/45.mp3"
+    },
+    {
+     "text": "big",
+     "meanings": [
+      "큰"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/42.mp3"
+    },
+    {
+     "text": "small",
+     "meanings": [
+      "작은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/43.mp3"
+    },
+    {
+     "text": "pretty",
+     "meanings": [
+      "예쁜"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/54.mp3"
+    },
+    {
+     "text": "ugly",
+     "meanings": [
+      "못생긴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/565.mp3"
+    },
+    {
+     "text": "dirty",
+     "meanings": [
+      "더러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/57.mp3"
+    },
+    {
+     "text": "clean",
+     "meanings": [
+      "깨끗한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/56.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the house?",
+       "ko": "그 집은 어때?",
+       "audio": "/audio/speak/f782fb32edd95195.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The house is old.",
+       "ko": "그 집은 오래됐어.",
+       "audio": "/audio/speak/4d74b2651cac673f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How is the house?",
+       "ko": "그 집은 어때?",
+       "audio": "/audio/speak/f782fb32edd95195.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The house is new.",
+       "ko": "그 집은 새 거야.",
+       "audio": "/audio/speak/c5ef06e05deef543.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the tree?",
+       "ko": "그 나무는 어때?",
+       "audio": "/audio/speak/fa4a1caeea5b0eb7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The tree is big.",
+       "ko": "그 나무는 커.",
+       "audio": "/audio/speak/2eb6a6ad3cd462c9.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How is the tree?",
+       "ko": "그 나무는 어때?",
+       "audio": "/audio/speak/fa4a1caeea5b0eb7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The tree is small.",
+       "ko": "그 나무는 작아.",
+       "audio": "/audio/speak/59d96563f65bbab7.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the bike?",
+       "ko": "그 자전거는 어때?",
+       "audio": "/audio/speak/f406d7aecd89a1c1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The bike is dirty.",
+       "ko": "그 자전거는 더러워.",
+       "audio": "/audio/speak/04ac2e73ee3356b6.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How is the bike?",
+       "ko": "그 자전거는 어때?",
+       "audio": "/audio/speak/f406d7aecd89a1c1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The bike is clean.",
+       "ko": "그 자전거는 깨끗해.",
+       "audio": "/audio/speak/1bfa5e2bfc55efc4.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How is the bird?",
+       "ko": "그 새는 어때?",
+       "audio": "/audio/speak/587c92967a47c340.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The bird is ugly.",
+       "ko": "그 새는 못생겼어.",
+       "audio": "/audio/speak/f0367914c84790f2.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How is the bird?",
+       "ko": "그 새는 어때?",
+       "audio": "/audio/speak/587c92967a47c340.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The bird is pretty.",
+       "ko": "그 새는 예뻐.",
+       "audio": "/audio/speak/761611c2cb419c9d.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 3,
+   "name": "Look at the nose!",
+   "words": [
+    {
+     "text": "head",
+     "meanings": [
+      "머리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/39.mp3"
+    },
+    {
+     "text": "eye",
+     "meanings": [
+      "눈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/32.mp3"
+    },
+    {
+     "text": "ear",
+     "meanings": [
+      "귀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/33.mp3"
+    },
+    {
+     "text": "nose",
+     "meanings": [
+      "코"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/34.mp3"
+    },
+    {
+     "text": "shoulder",
+     "meanings": [
+      "어깨"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f78d232472b9d585.mp3"
+    },
+    {
+     "text": "toe",
+     "meanings": [
+      "발가락"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/855379ca6adeb4d5.mp3"
+    },
+    {
+     "text": "mouth",
+     "meanings": [
+      "입"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/42.mp3"
+    },
+    {
+     "text": "knee",
+     "meanings": [
+      "무릎"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/7525c320a652b51f.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the head!",
+       "ko": "머리를 봐!",
+       "audio": "/audio/speak/56a00828a29d00b7.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the eye!",
+       "ko": "눈을 봐!",
+       "audio": "/audio/speak/fdbb3ab2f8c90dc6.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the nose!",
+       "ko": "코를 봐!",
+       "audio": "/audio/speak/32700b270d7d7999.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the mouth!",
+       "ko": "입을 봐!",
+       "audio": "/audio/speak/7c2f34a514425867.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the ear!",
+       "ko": "귀를 봐!",
+       "audio": "/audio/speak/b4ebf98502a40060.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the shoulder!",
+       "ko": "어깨를 봐!",
+       "audio": "/audio/speak/723e20d11b23d002.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the knee!",
+       "ko": "무릎을 봐!",
+       "audio": "/audio/speak/ba171bf1659ee95f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Look at the man!",
+       "ko": "저 남자를 봐!",
+       "audio": "/audio/speak/a6498aee13760efa.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Look at the toe!",
+       "ko": "발가락을 봐!",
+       "audio": "/audio/speak/65093822fc3d68a4.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 4,
+   "name": "It is my bag.",
+   "words": [
+    {
+     "text": "pencil",
+     "meanings": [
+      "연필"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/18.mp3"
+    },
+    {
+     "text": "backpack",
+     "meanings": [
+      "배낭"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/371.mp3"
+    },
+    {
+     "text": "eraser",
+     "meanings": [
+      "지우개"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/19.mp3"
+    },
+    {
+     "text": "ruler",
+     "meanings": [
+      "자"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/372.mp3"
+    },
+    {
+     "text": "pen",
+     "meanings": [
+      "펜",
+      "볼펜"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/22.mp3"
+    },
+    {
+     "text": "pencil case",
+     "meanings": [
+      "필통"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/94.mp3"
+    },
+    {
+     "text": "notebook",
+     "meanings": [
+      "공책"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/370.mp3"
+    },
+    {
+     "text": "book",
+     "meanings": [
+      "책"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/20.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Whose pencil is it?",
+       "ko": "그것은 누구의 연필이니?",
+       "audio": "/audio/speak/85cc78a148444528.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my pencil.",
+       "ko": "그것은 나의 연필이야.",
+       "audio": "/audio/speak/98aff0a181aabb11.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Whose backpack is it?",
+       "ko": "그것은 누구의 배낭이니?",
+       "audio": "/audio/speak/59fe4027394cf6d2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my backpack.",
+       "ko": "그것은 나의 배낭이야.",
+       "audio": "/audio/speak/ab427b922e8007ac.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Whose eraser is it?",
+       "ko": "그것은 누구의 지우개니?",
+       "audio": "/audio/speak/af77104cd82703ae.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my eraser.",
+       "ko": "그것은 나의 지우개야.",
+       "audio": "/audio/speak/27f869251b3189bb.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Whose ruler is it?",
+       "ko": "그것은 누구의 자니?",
+       "audio": "/audio/speak/b8088aeec1f4b0a6.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my ruler.",
+       "ko": "그것은 나의 자야.",
+       "audio": "/audio/speak/ad65679d30c48f4e.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Whose pen is it?",
+       "ko": "그것은 누구의 펜이니?",
+       "audio": "/audio/speak/1f8639d5d697ff8d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my pen.",
+       "ko": "그것은 나의 펜이야.",
+       "audio": "/audio/speak/0b07f806f7b1971e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Whose pencil case is it?",
+       "ko": "그것은 누구의 필통이니?",
+       "audio": "/audio/speak/def83ceb819ec656.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my pencil case.",
+       "ko": "그것은 나의 필통이야.",
+       "audio": "/audio/speak/aa59f8610c348f6a.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Whose notebook is it?",
+       "ko": "그것은 누구의 공책이니?",
+       "audio": "/audio/speak/1f9a4caa4b824ede.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my notebook.",
+       "ko": "그것은 나의 공책이야.",
+       "audio": "/audio/speak/5c6c6f8bd3488d06.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Whose book is it?",
+       "ko": "그것은 누구의 책이니?",
+       "audio": "/audio/speak/ad38d4e34c744d7e.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "It is my book.",
+       "ko": "그것은 나의 책이야.",
+       "audio": "/audio/speak/7c6c4405675e63a0.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 5,
+   "name": "The spaceship has a door.",
+   "words": [
+    {
+     "text": "button",
+     "meanings": [
+      "버튼"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/369.mp3"
+    },
+    {
+     "text": "seat",
+     "meanings": [
+      "좌석"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/438.mp3"
+    },
+    {
+     "text": "wing",
+     "meanings": [
+      "날개"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/431.mp3"
+    },
+    {
+     "text": "window",
+     "meanings": [
+      "창문"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/10.mp3"
+    },
+    {
+     "text": "light",
+     "meanings": [
+      "불빛"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/428.mp3"
+    },
+    {
+     "text": "door",
+     "meanings": [
+      "문"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/9.mp3"
+    },
+    {
+     "text": "ladder",
+     "meanings": [
+      "사다리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/320.mp3"
+    },
+    {
+     "text": "wheel",
+     "meanings": [
+      "바퀴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l8/270.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has a button.",
+       "ko": "우주선은 버튼을 가지고 있어.",
+       "audio": "/audio/speak/a8f9d62ebc151b99.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has a light.",
+       "ko": "우주선은 불빛을 가지고 있어.",
+       "audio": "/audio/speak/bdbab8404bffd1cf.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has a ladder.",
+       "ko": "우주선은 사다리를 가지고 있어.",
+       "audio": "/audio/speak/53b227870549c305.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has a door.",
+       "ko": "우주선은 문을 가지고 있어.",
+       "audio": "/audio/speak/7b5f74f2d6418234.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has seats.",
+       "ko": "우주선은 자리들을 가지고 있어.",
+       "audio": "/audio/speak/e223d1526a6f3d66.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has lights.",
+       "ko": "우주선은 불빛들을 가지고 있어.",
+       "audio": "/audio/speak/3f8bba70a62317a4.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has windows.",
+       "ko": "우주선은 창문들을 가지고 있어.",
+       "audio": "/audio/speak/236499d3255e98ce.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What does the spaceship have?",
+       "ko": "우주선은 무엇을 가지고 있니?",
+       "audio": "/audio/speak/9587668d6a095751.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship has wheels.",
+       "ko": "우주선은 바퀴들을 가지고 있어.",
+       "audio": "/audio/speak/ecd4df5a24a90f20.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 6,
+   "name": "Six buttons!",
+   "words": [
+    {
+     "text": "one",
+     "meanings": [
+      "숫자 1"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/58.mp3"
+    },
+    {
+     "text": "two",
+     "meanings": [
+      "숫자 2"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/59.mp3"
+    },
+    {
+     "text": "three",
+     "meanings": [
+      "숫자 3"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/60.mp3"
+    },
+    {
+     "text": "four",
+     "meanings": [
+      "숫자 4"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/342.mp3"
+    },
+    {
+     "text": "five",
+     "meanings": [
+      "숫자 5"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/522.mp3"
+    },
+    {
+     "text": "six",
+     "meanings": [
+      "숫자 6"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/163.mp3"
+    },
+    {
+     "text": "seven",
+     "meanings": [
+      "숫자 7"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/343.mp3"
+    },
+    {
+     "text": "eight",
+     "meanings": [
+      "숫자 8"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/523.mp3"
+    },
+    {
+     "text": "nine",
+     "meanings": [
+      "숫자 9"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/164.mp3"
+    },
+    {
+     "text": "ten",
+     "meanings": [
+      "숫자 10"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/344.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many doors?",
+       "ko": "문들이 몇 개 있니?",
+       "audio": "/audio/speak/797616f18333d7b2.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Two doors!",
+       "ko": "문이 2개야!",
+       "audio": "/audio/speak/2213086f43244b9b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How many buttons?",
+       "ko": "버튼들이 몇 개 있니?",
+       "audio": "/audio/speak/cabe36e57b0c8377.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Seven buttons!",
+       "ko": "버튼이 7개야!",
+       "audio": "/audio/speak/92b3ff07fce1d406.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many windows?",
+       "ko": "창문들이 몇 개 있니?",
+       "audio": "/audio/speak/6f5bfa3a2bf1b178.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Three windows!",
+       "ko": "창문이 3개야!",
+       "audio": "/audio/speak/2a75a7706c3245f8.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How many wheels?",
+       "ko": "바퀴들이 몇 개 있니?",
+       "audio": "/audio/speak/a69d255567875c7b.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Five wheels!",
+       "ko": "바퀴들이 5개야!",
+       "audio": "/audio/speak/c922c1861b9dc3a2.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many ladders?",
+       "ko": "사다리들이 몇 개 있니?",
+       "audio": "/audio/speak/a8db32f4d1064a77.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Eight ladders!",
+       "ko": "사다리들이 8개야!",
+       "audio": "/audio/speak/1966d6cc88e76409.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How many wings?",
+       "ko": "날개들이 몇 개 있니?",
+       "audio": "/audio/speak/b794a5d89c5dc9f1.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Four wings!",
+       "ko": "날개들이 4개야!",
+       "audio": "/audio/speak/ed1f084b95ab7955.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How many seats?",
+       "ko": "좌석들이 몇 개 있니?",
+       "audio": "/audio/speak/0538aaebb5e7599c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Seven seats!",
+       "ko": "좌석들이 7개야!",
+       "audio": "/audio/speak/cddb559e59e10f41.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How many lights?",
+       "ko": "불빛들이 몇 개 있니?",
+       "audio": "/audio/speak/6e715feb5f8611e3.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "Nine lights!",
+       "ko": "불빛들이 9개야!",
+       "audio": "/audio/speak/46a14a5e6ebe1007.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 1,
+   "area": "TOON",
+   "order": 7,
+   "name": "The spaceship is flying.",
+   "words": [
+    {
+     "text": "walking",
+     "meanings": [
+      "걷기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/00308dbbfbf11a66.mp3"
+    },
+    {
+     "text": "running",
+     "meanings": [
+      "달리기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/34082154eb0b9f17.mp3"
+    },
+    {
+     "text": "jumping",
+     "meanings": [
+      "점프하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a28fdca9072181fa.mp3"
+    },
+    {
+     "text": "flying",
+     "meanings": [
+      "날기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/665e9151eb08b194.mp3"
+    },
+    {
+     "text": "swimming",
+     "meanings": [
+      "수영하기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/318.mp3"
+    },
+    {
+     "text": "sleeping",
+     "meanings": [
+      "자기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/43a571d4c073dbf1.mp3"
+    },
+    {
+     "text": "singing",
+     "meanings": [
+      "노래 부르기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/89ffd357d06788d3.mp3"
+    },
+    {
+     "text": "dancing",
+     "meanings": [
+      "춤추기"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/1919faa06d3c04c5.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the spaceship doing?",
+       "ko": "우주선이 무엇을 하고 있니?",
+       "audio": "/audio/speak/ca680fb5602e5b9d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship is flying.",
+       "ko": "우주선은 날고 있어.",
+       "audio": "/audio/speak/56d3c20a70d37a2e.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the spaceship doing?",
+       "ko": "우주선이 무엇을 하고 있니?",
+       "audio": "/audio/speak/ca680fb5602e5b9d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship is jumping.",
+       "ko": "우주선은 점프하고 있어.",
+       "audio": "/audio/speak/25703d8acac569b0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the spaceship doing?",
+       "ko": "우주선이 무엇을 하고 있니?",
+       "audio": "/audio/speak/ca680fb5602e5b9d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship is walking.",
+       "ko": "우주선은 걷고 있어.",
+       "audio": "/audio/speak/8a2390cdde43d970.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the spaceship doing?",
+       "ko": "우주선이 무엇을 하고 있니?",
+       "audio": "/audio/speak/ca680fb5602e5b9d.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The spaceship is running.",
+       "ko": "우주선은 달리고 있어.",
+       "audio": "/audio/speak/0639cbdd11f0a2cc.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the alien doing?",
+       "ko": "외계인이 무엇을 하고 있니?",
+       "audio": "/audio/speak/deb179b8fcf8feac.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The alien is swimming.",
+       "ko": "외계인은 수영하고 있어.",
+       "audio": "/audio/speak/70488d3a1723f4a1.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the alien doing?",
+       "ko": "외계인이 무엇을 하고 있니?",
+       "audio": "/audio/speak/deb179b8fcf8feac.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The alien is sleeping.",
+       "ko": "외계인은 자고 있어.",
+       "audio": "/audio/speak/3342139064fa2b37.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the alien doing?",
+       "ko": "외계인이 무엇을 하고 있니?",
+       "audio": "/audio/speak/deb179b8fcf8feac.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The alien is singing.",
+       "ko": "외계인은 노래하고 있어.",
+       "audio": "/audio/speak/91db8966193fa5e2.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the alien doing?",
+       "ko": "외계인이 무엇을 하고 있니?",
+       "audio": "/audio/speak/deb179b8fcf8feac.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "The alien is dancing.",
+       "ko": "외계인은 춤추고 있어.",
+       "audio": "/audio/speak/7f38fc7320c7df7b.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 1,
+   "name": "A Dinosaur's Present (2-5)",
+   "words": [
+    {
+     "text": "space",
+     "meanings": [
+      "우주"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/efb82c8bc2d805f7.mp3"
+    },
+    {
+     "text": "planet",
+     "meanings": [
+      "행성"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/15.mp3"
+    },
+    {
+     "text": "mountain",
+     "meanings": [
+      "산"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/22.mp3"
+    },
+    {
+     "text": "dinosaur",
+     "meanings": [
+      "공룡"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a51a92c3fefdcf46.mp3"
+    },
+    {
+     "text": "spaceship",
+     "meanings": [
+      "우주선"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/950ea879db95e4fa.mp3"
+    },
+    {
+     "text": "lake",
+     "meanings": [
+      "호수"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/246.mp3"
+    },
+    {
+     "text": "arrive",
+     "meanings": [
+      "도착하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/2.mp3"
+    },
+    {
+     "text": "volcano",
+     "meanings": [
+      "화산"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/520.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Paul and Jane are space travelers.",
+     "ko": "폴과 제인은 우주 여행자입니다.",
+     "audio": "/audio/speak/675d3323b37a8308.mp3"
+    },
+    {
+     "text": "They travel in their spaceship.",
+     "ko": "그들은 자신들의 우주선으로 여행합니다.",
+     "audio": "/audio/speak/c45df517478fcbfb.mp3"
+    },
+    {
+     "text": "They travel from one planet to another.",
+     "ko": "그들은 한 행성에서 다른 행성으로 여행합니다.",
+     "audio": "/audio/speak/89ddab4820b755b1.mp3"
+    },
+    {
+     "text": "They have lots of fun.",
+     "ko": "그들은 아주 즐거워합니다.",
+     "audio": "/audio/speak/8032a31f14fad83d.mp3"
+    },
+    {
+     "text": "Paul and Jane arrive on a new planet.",
+     "ko": "폴과 제인은 새로운 행성에 도착합니다.",
+     "audio": "/audio/speak/59bd22260a647af1.mp3"
+    },
+    {
+     "text": "They see mountains.",
+     "ko": "그들은 산을 봅니다.",
+     "audio": "/audio/speak/3cefd2085e55119c.mp3"
+    },
+    {
+     "text": "They see lakes.",
+     "ko": "그들은 호수를 봅니다.",
+     "audio": "/audio/speak/22c059eda101e44a.mp3"
+    },
+    {
+     "text": "They see volcanoes.",
+     "ko": "그들은 화산을 봅니다.",
+     "audio": "/audio/speak/b1bf7a6cf525b02e.mp3"
+    },
+    {
+     "text": "They see dinosaurs, too.",
+     "ko": "그들은 공룡도 봅니다.",
+     "audio": "/audio/speak/46585a47c91ba45f.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 2,
+   "name": "A Dinosaur's Present (6-11)",
+   "words": [
+    {
+     "text": "big",
+     "meanings": [
+      "큰"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/42.mp3"
+    },
+    {
+     "text": "oval",
+     "meanings": [
+      "타원형의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/159.mp3"
+    },
+    {
+     "text": "swim",
+     "meanings": [
+      "수영하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/38.mp3"
+    },
+    {
+     "text": "run",
+     "meanings": [
+      "달리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/36.mp3"
+    },
+    {
+     "text": "fly",
+     "meanings": [
+      "날다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/50.mp3"
+    },
+    {
+     "text": "thin",
+     "meanings": [
+      "마른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/434.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Some dinosaurs are small.",
+     "ko": "어떤 공룡들은 작습니다.",
+     "audio": "/audio/speak/56291fbf9cc93cfb.mp3"
+    },
+    {
+     "text": "Some dinosaurs are big.",
+     "ko": "어떤 공룡들은 큽니다.",
+     "audio": "/audio/speak/0c68e44061a2e7b5.mp3"
+    },
+    {
+     "text": "Some dinosaurs are thin.",
+     "ko": "어떤 공룡들은 날씬합니다.",
+     "audio": "/audio/speak/18317e4e65ee2603.mp3"
+    },
+    {
+     "text": "Some dinosaurs are fat.",
+     "ko": "어떤 공룡들은 뚱뚱합니다.",
+     "audio": "/audio/speak/f2f15b12dca98f2f.mp3"
+    },
+    {
+     "text": "Some dinosaurs run around.",
+     "ko": "어떤 공룡들은 뛰어다닙니다.",
+     "audio": "/audio/speak/53b0903214566d80.mp3"
+    },
+    {
+     "text": "Some dinosaurs fly around.",
+     "ko": "어떤 공룡들은 날아다닙니다.",
+     "audio": "/audio/speak/d6381bf23edea08f.mp3"
+    },
+    {
+     "text": "Some dinosaurs swim around.",
+     "ko": "어떤 공룡들은 헤엄쳐 다닙니다.",
+     "audio": "/audio/speak/d4abfa06554098e2.mp3"
+    },
+    {
+     "text": "Paul and Jane see something under a big tree.",
+     "ko": "폴과 제인은 큰 나무 아래에서 무언가를 봅니다.",
+     "audio": "/audio/speak/95cd680693f27970.mp3"
+    },
+    {
+     "text": "It is oval.",
+     "ko": "그것은 타원형입니다.",
+     "audio": "/audio/speak/d7b495e8113d2bb6.mp3"
+    },
+    {
+     "text": "It is huge.",
+     "ko": "그것은 거대합니다.",
+     "audio": "/audio/speak/394e2f1d4533b287.mp3"
+    },
+    {
+     "text": "It is a dinosaur egg.",
+     "ko": "그것은 공룡 알입니다.",
+     "audio": "/audio/speak/c8f0f7397f500c6c.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 3,
+   "name": "A Dinosaur's Present (12-17)",
+   "words": [
+    {
+     "text": "hear",
+     "meanings": [
+      "듣다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/80.mp3"
+    },
+    {
+     "text": "turn around",
+     "meanings": [
+      "돌아보다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/94808e0217a3404c.mp3"
+    },
+    {
+     "text": "behind",
+     "meanings": [
+      "뒤쪽의"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/343.mp3"
+    },
+    {
+     "text": "run after",
+     "meanings": [
+      "쫓아가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/10dfd07be2ef6802.mp3"
+    },
+    {
+     "text": "scream",
+     "meanings": [
+      "소리지르다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/130.mp3"
+    },
+    {
+     "text": "move closer",
+     "meanings": [
+      "더 가까이 다가오다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a8e9ffa47c8880fd.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Paul and Jane want to see the dinosaur egg.",
+     "ko": "폴과 제인은 공룡 알을 보고 싶어 한다.",
+     "audio": "/audio/speak/8e674dfbf3aa4812.mp3"
+    },
+    {
+     "text": "They move closer and closer.",
+     "ko": "그들은 점점 더 가까이 다가간다.",
+     "audio": "/audio/speak/ee0c43c2c8186a7d.mp3"
+    },
+    {
+     "text": "Then, they hear something.",
+     "ko": "그때, 그들은 무언가를 듣는다.",
+     "audio": "/audio/speak/4235fda4bd61cabb.mp3"
+    },
+    {
+     "text": "It is coming from behind them.",
+     "ko": "그것은 그들 뒤에서 들려온다.",
+     "audio": "/audio/speak/b84bcfdd5683e0ba.mp3"
+    },
+    {
+     "text": "Paul and Jane turn around.",
+     "ko": "폴과 제인은 뒤를 돌아본다.",
+     "audio": "/audio/speak/c60655bb2290fb0d.mp3"
+    },
+    {
+     "text": "They scream.",
+     "ko": "그들은 비명을 지른다.",
+     "audio": "/audio/speak/4f145f9547fed23a.mp3"
+    },
+    {
+     "text": "It is the mother dinosaur.",
+     "ko": "그것은 엄마 공룡이다.",
+     "audio": "/audio/speak/df31dd10a7297489.mp3"
+    },
+    {
+     "text": "Paul and Jane start to run.",
+     "ko": "폴과 제인은 달리기 시작한다.",
+     "audio": "/audio/speak/8ca56e11d9871da9.mp3"
+    },
+    {
+     "text": "They run for their lives.",
+     "ko": "그들은 살기 위해 달린다.",
+     "audio": "/audio/speak/ad3c27f5a4a101df.mp3"
+    },
+    {
+     "text": "The mother dinosaur runs after them.",
+     "ko": "엄마 공룡이 그들을 뒤쫓아 달린다.",
+     "audio": "/audio/speak/6e0de548fe0b8478.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 4,
+   "name": "A Dinosaur's Present (18-23)",
+   "words": [
+    {
+     "text": "guess",
+     "meanings": [
+      "추측하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l7/59.mp3"
+    },
+    {
+     "text": "relieved",
+     "meanings": [
+      "안도한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/333.mp3"
+    },
+    {
+     "text": "fly after",
+     "meanings": [
+      "뒤쫓아 날아가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f5ae65caecb20283.mp3"
+    },
+    {
+     "text": "fly off",
+     "meanings": [
+      "날아서 떠나다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b36ae3cb21285d38.mp3"
+    },
+    {
+     "text": "run into",
+     "meanings": [
+      "안으로 뛰어들어가다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/171.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Paul and Jane run into the spaceship.",
+     "ko": "폴과 제인은 우주선 안으로 달려 들어간다.",
+     "audio": "/audio/speak/ca88f39ac3ff48b6.mp3"
+    },
+    {
+     "text": "They fly off the planet right away.",
+     "ko": "그들은 곧바로 행성에서 날아오른다.",
+     "audio": "/audio/speak/956d59eb8206fa0e.mp3"
+    },
+    {
+     "text": "Paul and Jane are relieved.",
+     "ko": "폴과 제인은 안도한다.",
+     "audio": "/audio/speak/a0a35e9d8767e865.mp3"
+    },
+    {
+     "text": "Then, they see something.",
+     "ko": "그때, 그들은 무언가를 본다.",
+     "audio": "/audio/speak/a8e3de9f91f9baa8.mp3"
+    },
+    {
+     "text": "It is oval.",
+     "ko": "그것은 타원형이다.",
+     "audio": "/audio/speak/d7b495e8113d2bb6.mp3"
+    },
+    {
+     "text": "It is huge.",
+     "ko": "그것은 거대하다.",
+     "audio": "/audio/speak/394e2f1d4533b287.mp3"
+    },
+    {
+     "text": "Paul and Jane scream.",
+     "ko": "폴과 제인은 비명을 지른다.",
+     "audio": "/audio/speak/ffba427a5d278d17.mp3"
+    },
+    {
+     "text": "Can you guess why?",
+     "ko": "왜 그런지 짐작할 수 있나요?",
+     "audio": "/audio/speak/a723c40136c7d46d.mp3"
+    }
+   ],
+   "bookLabel": "Book A"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 5,
+   "name": "Baba's Magic Ride (2-7)",
+   "words": [
+    {
+     "text": "carpet",
+     "meanings": [
+      "카펫",
+      "양탄자"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/399.mp3"
+    },
+    {
+     "text": "store",
+     "meanings": [
+      "가게"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/505.mp3"
+    },
+    {
+     "text": "bored",
+     "meanings": [
+      "지루한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/155.mp3"
+    },
+    {
+     "text": "colorful",
+     "meanings": [
+      "알록달록한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/154.mp3"
+    },
+    {
+     "text": "weird-looking",
+     "meanings": [
+      "이상하게 생긴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f72899bdc83a7239.mp3"
+    },
+    {
+     "text": "touch",
+     "meanings": [
+      "만지다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/84.mp3"
+    },
+    {
+     "text": "move",
+     "meanings": [
+      "움직이다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/55.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Baba and his mom go to a carpet store.",
+     "ko": "바바와 그의 엄마는 카펫 가게에 갑니다.",
+     "audio": "/audio/speak/1622bb2d6163a12a.mp3"
+    },
+    {
+     "text": "Baba's mom wants to get a nice carpet.",
+     "ko": "바바의 엄마는 멋진 카펫을 사고 싶어 합니다.",
+     "audio": "/audio/speak/adbc7c7707369c0d.mp3"
+    },
+    {
+     "text": "Baba is bored.",
+     "ko": "바바는 지루합니다.",
+     "audio": "/audio/speak/3935f9f199feb6e5.mp3"
+    },
+    {
+     "text": "He walks around the carpet store.",
+     "ko": "그는 카펫 가게를 돌아다닙니다.",
+     "audio": "/audio/speak/90a44880d77afee6.mp3"
+    },
+    {
+     "text": "Baba sees a room.",
+     "ko": "바바는 방 하나를 봅니다.",
+     "audio": "/audio/speak/2932ab5234fb5e1b.mp3"
+    },
+    {
+     "text": "There are some colorful carpets in the room.",
+     "ko": "그 방에는 알록달록한 카펫들이 몇 개 있습니다.",
+     "audio": "/audio/speak/76272c770403a3ba.mp3"
+    },
+    {
+     "text": "Baba sees a weird-looking carpet.",
+     "ko": "바바는 이상하게 생긴 카펫을 봅니다.",
+     "audio": "/audio/speak/6d0bcdd0825e61d0.mp3"
+    },
+    {
+     "text": "He touches it.",
+     "ko": "그는 그것을 만집니다.",
+     "audio": "/audio/speak/36d9e84acc5cff81.mp3"
+    },
+    {
+     "text": "Suddenly, the carpet moves.",
+     "ko": "갑자기, 그 카펫이 움직입니다.",
+     "audio": "/audio/speak/6a9544e013cd40f7.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 6,
+   "name": "Baba's Magic Ride (8-11)",
+   "words": [
+    {
+     "text": "fly",
+     "meanings": [
+      "날다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/50.mp3"
+    },
+    {
+     "text": "wet",
+     "meanings": [
+      "젖은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/50.mp3"
+    },
+    {
+     "text": "hot",
+     "meanings": [
+      "더운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/48.mp3"
+    },
+    {
+     "text": "jungle",
+     "meanings": [
+      "정글"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/523.mp3"
+    },
+    {
+     "text": "crocodile",
+     "meanings": [
+      "악어"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/107.mp3"
+    },
+    {
+     "text": "voice",
+     "meanings": [
+      "목소리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/74.mp3"
+    },
+    {
+     "text": "hear",
+     "meanings": [
+      "듣다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/80.mp3"
+    },
+    {
+     "text": "get on",
+     "meanings": [
+      "타다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/30a0d193d4534eb9.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "Baba hears a voice.",
+     "ko": "바바는 목소리를 듣는다.",
+     "audio": "/audio/speak/7a570eb87c5c17bd.mp3"
+    },
+    {
+     "text": "It comes from the carpet.",
+     "ko": "그것은 카펫에서 들려온다.",
+     "audio": "/audio/speak/06f4c356a13883a6.mp3"
+    },
+    {
+     "text": "The carpet talks.",
+     "ko": "카펫이 말을 한다.",
+     "audio": "/audio/speak/d213045ce469e549.mp3"
+    },
+    {
+     "text": "Baba gets on the carpet.",
+     "ko": "바바는 카펫에 올라탄다.",
+     "audio": "/audio/speak/6fbb192889a7ef36.mp3"
+    },
+    {
+     "text": "The carpet flies out of the carpet store.",
+     "ko": "카펫은 카펫 가게 밖으로 날아 나간다.",
+     "audio": "/audio/speak/c3e0a4479fdc55d1.mp3"
+    },
+    {
+     "text": "The carpet flies high in the sky.",
+     "ko": "카펫은 하늘 높이 날아간다.",
+     "audio": "/audio/speak/8a639780d3f81ab8.mp3"
+    },
+    {
+     "text": "It flies to a jungle.",
+     "ko": "그것은 정글로 날아간다.",
+     "audio": "/audio/speak/cb5a6419b9b7b929.mp3"
+    },
+    {
+     "text": "The jungle is hot and wet.",
+     "ko": "그 정글은 덥고 습하다.",
+     "audio": "/audio/speak/933302789580a5f9.mp3"
+    },
+    {
+     "text": "\"I see monkeys and crocodiles,\" says Baba.",
+     "ko": "“나는 원숭이와 악어를 봐요,” 바바가 말한다.",
+     "audio": "/audio/speak/1592b3dff1f052c3.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 7,
+   "name": "Baba's Magic Ride (12-15)",
+   "words": [
+    {
+     "text": "cold",
+     "meanings": [
+      "추운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/49.mp3"
+    },
+    {
+     "text": "dry",
+     "meanings": [
+      "마른"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/407.mp3"
+    },
+    {
+     "text": "snowy",
+     "meanings": [
+      "눈이 내리는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/404.mp3"
+    },
+    {
+     "text": "sand",
+     "meanings": [
+      "모래"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/253.mp3"
+    },
+    {
+     "text": "penguin",
+     "meanings": [
+      "펭귄"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/470.mp3"
+    },
+    {
+     "text": "polar bear",
+     "meanings": [
+      "북극곰"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l5/504.mp3"
+    },
+    {
+     "text": "camel",
+     "meanings": [
+      "낙타"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/241.mp3"
+    },
+    {
+     "text": "lizard",
+     "meanings": [
+      "도마뱀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e61afb981fdcf67b.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "The carpet flies high in the sky.",
+     "ko": "카펫이 하늘 높이 날아갑니다.",
+     "audio": "/audio/speak/8a639780d3f81ab8.mp3"
+    },
+    {
+     "text": "It flies to the land of ice.",
+     "ko": "그것은 얼음의 땅으로 날아갑니다.",
+     "audio": "/audio/speak/eecbfbce1cb1f425.mp3"
+    },
+    {
+     "text": "The land of ice is cold and snowy.",
+     "ko": "얼음의 땅은 춥고 눈으로 덮여 있습니다.",
+     "audio": "/audio/speak/937f6bc18c232a4e.mp3"
+    },
+    {
+     "text": "\"I see penguins and polar bears,\" says Baba.",
+     "ko": "“펭귄이랑 북극곰이 보여요,” 바바가 말합니다.",
+     "audio": "/audio/speak/894eb1aeed8d8840.mp3"
+    },
+    {
+     "text": "The carpet flies high in the sky.",
+     "ko": "카펫이 하늘 높이 날아갑니다.",
+     "audio": "/audio/speak/8a639780d3f81ab8.mp3"
+    },
+    {
+     "text": "It flies to the land of sand.",
+     "ko": "그것은 모래의 땅으로 날아갑니다.",
+     "audio": "/audio/speak/097bc817ed9c3bff.mp3"
+    },
+    {
+     "text": "The land of sand is hot and dry.",
+     "ko": "모래의 땅은 덥고 건조합니다.",
+     "audio": "/audio/speak/a050fc0f68ccb1f6.mp3"
+    },
+    {
+     "text": "\"I see camels and lizards,\" says Baba.",
+     "ko": "“낙타랑 도마뱀이 보여요,” 바바가 말합니다.",
+     "audio": "/audio/speak/58e1874e9edf9d8f.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "READING",
+   "order": 8,
+   "name": "Baba's Magic Ride (16-23)",
+   "words": [
+    {
+     "text": "cool",
+     "meanings": [
+      "시원한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/21.mp3"
+    },
+    {
+     "text": "island",
+     "meanings": [
+      "섬"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/12.mp3"
+    },
+    {
+     "text": "koala",
+     "meanings": [
+      "코알라"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/468.mp3"
+    },
+    {
+     "text": "kangaroo",
+     "meanings": [
+      "캥거루"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/467.mp3"
+    },
+    {
+     "text": "get off",
+     "meanings": [
+      "내리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/05014600923823a1.mp3"
+    },
+    {
+     "text": "thunder",
+     "meanings": [
+      "천둥"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/240.mp3"
+    },
+    {
+     "text": "warm",
+     "meanings": [
+      "따뜻한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/20.mp3"
+    }
+   ],
+   "dialogues": [],
+   "passageLines": [
+    {
+     "text": "The carpet flies high in the sky.",
+     "ko": "양탄자가 하늘 높이 날아갑니다.",
+     "audio": "/audio/speak/8a639780d3f81ab8.mp3"
+    },
+    {
+     "text": "It flies to an island.",
+     "ko": "그것은 한 섬으로 날아갑니다.",
+     "audio": "/audio/speak/5f693c00a8df5fc5.mp3"
+    },
+    {
+     "text": "The island is warm and cool.",
+     "ko": "그 섬은 따뜻하고 시원합니다.",
+     "audio": "/audio/speak/1dfe79f7058e06ea.mp3"
+    },
+    {
+     "text": "\"I see koalas and kangaroos,\" says Baba.",
+     "ko": "\"코알라와 캥거루가 보여요,\"라고 바바가 말합니다.",
+     "audio": "/audio/speak/a233ea816faec511.mp3"
+    },
+    {
+     "text": "Suddenly, there is thunder.",
+     "ko": "갑자기, 천둥이 칩니다.",
+     "audio": "/audio/speak/4162ef8c82f51199.mp3"
+    },
+    {
+     "text": "\"What's happening?",
+     "ko": "\"무슨 일이에요?",
+     "audio": "/audio/speak/6c1757071662b0c2.mp3"
+    },
+    {
+     "text": "says Baba.",
+     "ko": "라고 바바가 말합니다.",
+     "audio": "/audio/speak/de6ebed8a10733c8.mp3"
+    },
+    {
+     "text": "The carpet flies high in the sky.",
+     "ko": "양탄자가 하늘 높이 날아갑니다.",
+     "audio": "/audio/speak/8a639780d3f81ab8.mp3"
+    },
+    {
+     "text": "It flies back to the carpet store.",
+     "ko": "그것은 양탄자 가게로 다시 날아갑니다.",
+     "audio": "/audio/speak/bd629b4cc8fba68e.mp3"
+    },
+    {
+     "text": "Baba gets off the carpet.",
+     "ko": "바바는 양탄자에서 내립니다.",
+     "audio": "/audio/speak/fda5c7f5fc876dcf.mp3"
+    },
+    {
+     "text": "The carpet goes back on the wall.",
+     "ko": "양탄자는 다시 벽으로 돌아갑니다.",
+     "audio": "/audio/speak/2f83f8623a7de1fa.mp3"
+    },
+    {
+     "text": "\"What an adventure!",
+     "ko": "\"정말 멋진 모험이었어!",
+     "audio": "/audio/speak/41c8c5315650dac6.mp3"
+    },
+    {
+     "text": "says Baba.",
+     "ko": "라고 바바가 말합니다.",
+     "audio": "/audio/speak/de6ebed8a10733c8.mp3"
+    }
+   ],
+   "bookLabel": "Book B"
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 1,
+   "name": "We are in the forest",
+   "words": [
+    {
+     "text": "sea",
+     "meanings": [
+      "바다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/79.mp3"
+    },
+    {
+     "text": "sky",
+     "meanings": [
+      "하늘"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/466.mp3"
+    },
+    {
+     "text": "desert",
+     "meanings": [
+      "사막"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/13.mp3"
+    },
+    {
+     "text": "forest",
+     "meanings": [
+      "숲"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l6/14.mp3"
+    },
+    {
+     "text": "cave",
+     "meanings": [
+      "동굴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/273.mp3"
+    },
+    {
+     "text": "car",
+     "meanings": [
+      "차"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/25.mp3"
+    },
+    {
+     "text": "house",
+     "meanings": [
+      "집"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/7.mp3"
+    },
+    {
+     "text": "building",
+     "meanings": [
+      "건물"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/111.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the sea.",
+       "ko": "우리는 바다에 있어.",
+       "audio": "/audio/speak/e553e745bd765419.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the forest.",
+       "ko": "우리는 숲에 있어.",
+       "audio": "/audio/speak/9a2056f9279598c2.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the cave.",
+       "ko": "우리는 동굴에 있어.",
+       "audio": "/audio/speak/7d6d8d1d540ccf87.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the desert.",
+       "ko": "우리는 사막에 있어.",
+       "audio": "/audio/speak/b0fe8f0939b23d7a.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the car.",
+       "ko": "우리는 차에 있어.",
+       "audio": "/audio/speak/cd4f45604447f760.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the building.",
+       "ko": "우리는 건물에 있어.",
+       "audio": "/audio/speak/1c2311e2843171d4.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the sky.",
+       "ko": "우리는 하늘에 있어.",
+       "audio": "/audio/speak/a4831a45d3a4473d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are we?",
+       "ko": "우리는 어디에 있어?",
+       "audio": "/audio/speak/19233a9d424fa13a.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are in the house.",
+       "ko": "우리는 집에 있어.",
+       "audio": "/audio/speak/948970f8ebb400b0.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 2,
+   "name": "This is a footprint",
+   "words": [
+    {
+     "text": "ant",
+     "meanings": [
+      "개미"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/7.mp3"
+    },
+    {
+     "text": "bee",
+     "meanings": [
+      "벌"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/6.mp3"
+    },
+    {
+     "text": "mushroom",
+     "meanings": [
+      "버섯"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/500.mp3"
+    },
+    {
+     "text": "footprint",
+     "meanings": [
+      "발자국"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l9/71.mp3"
+    },
+    {
+     "text": "egg",
+     "meanings": [
+      "달걀"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/15.mp3"
+    },
+    {
+     "text": "orange",
+     "meanings": [
+      "오렌지"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/27.mp3"
+    },
+    {
+     "text": "rock",
+     "meanings": [
+      "바위"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/251.mp3"
+    },
+    {
+     "text": "tree",
+     "meanings": [
+      "나무"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/13.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a bee.",
+       "ko": "이것은 한 마리의 벌이야.",
+       "audio": "/audio/speak/e6df6a06b2990886.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a mushroom.",
+       "ko": "이것은 하나의 버섯이야.",
+       "audio": "/audio/speak/19e750b08728ac11.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a footprint.",
+       "ko": "이것은 하나의 발자국이야.",
+       "audio": "/audio/speak/f9737a3eccf32d4d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a rock.",
+       "ko": "이것은 하나의 돌이야.",
+       "audio": "/audio/speak/c0165b6ffb0731a3.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a tree.",
+       "ko": "이것은 한 그루의 나무야.",
+       "audio": "/audio/speak/ecfcadbac04b045f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is an ant.",
+       "ko": "이것은 한 마리의 개미야.",
+       "audio": "/audio/speak/f6f07075ef220a4a.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is an egg.",
+       "ko": "이것은 하나의 달걀이야.",
+       "audio": "/audio/speak/66a4bd0b49aa39be.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is an orange.",
+       "ko": "이것은 하나의 오렌지야.",
+       "audio": "/audio/speak/dc6da1cc56dd17aa.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 3,
+   "name": "That is a dinosaur",
+   "words": [
+    {
+     "text": "bear",
+     "meanings": [
+      "곰"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/31.mp3"
+    },
+    {
+     "text": "deer",
+     "meanings": [
+      "사슴"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/270.mp3"
+    },
+    {
+     "text": "dinosaur",
+     "meanings": [
+      "공룡"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/a51a92c3fefdcf46.mp3"
+    },
+    {
+     "text": "elephant",
+     "meanings": [
+      "코끼리"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/34.mp3"
+    },
+    {
+     "text": "giraffe",
+     "meanings": [
+      "기린"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/465.mp3"
+    },
+    {
+     "text": "horse",
+     "meanings": [
+      "말"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/35.mp3"
+    },
+    {
+     "text": "lion",
+     "meanings": [
+      "사자"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/29.mp3"
+    },
+    {
+     "text": "monkey",
+     "meanings": [
+      "원숭이"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/33.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a bear.",
+       "ko": "이건 한 마리의 곰이야.",
+       "audio": "/audio/speak/ee49f27d3314c029.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is that?",
+       "ko": "저건 뭐야?",
+       "audio": "/audio/speak/f73a15ef907d944c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "That is a deer.",
+       "ko": "저건 한 마리의 사슴이야.",
+       "audio": "/audio/speak/c752d4bf169d4110.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a dinosaur.",
+       "ko": "이건 한 마리의 공룡이야.",
+       "audio": "/audio/speak/2b582f2286ce43f2.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is an elephant.",
+       "ko": "이건 한 마리의 코끼리야.",
+       "audio": "/audio/speak/beaea17bb9f39488.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is this?",
+       "ko": "이건 뭐야?",
+       "audio": "/audio/speak/bcbe2d6c71b90ff7.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "This is a giraffe.",
+       "ko": "이건 한 마리의 기린이야.",
+       "audio": "/audio/speak/2cc85ed751f06311.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is that?",
+       "ko": "저건 뭐야?",
+       "audio": "/audio/speak/f73a15ef907d944c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "That is a horse.",
+       "ko": "저건 한 마리의 말이야.",
+       "audio": "/audio/speak/ed9ddec5917102a0.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is that?",
+       "ko": "저건 뭐야?",
+       "audio": "/audio/speak/f73a15ef907d944c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "That is a lion.",
+       "ko": "저건 한 마리의 사자야.",
+       "audio": "/audio/speak/0285bee3c92c3c43.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is that?",
+       "ko": "저건 뭐야?",
+       "audio": "/audio/speak/f73a15ef907d944c.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "That is a monkey.",
+       "ko": "저건 한 마리의 원숭이야.",
+       "audio": "/audio/speak/6d6439bf1386aff2.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 4,
+   "name": "You look lovely!",
+   "words": [
+    {
+     "text": "lovely",
+     "meanings": [
+      "사랑스러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/152.mp3"
+    },
+    {
+     "text": "happy",
+     "meanings": [
+      "행복한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/22.mp3"
+    },
+    {
+     "text": "tall",
+     "meanings": [
+      "키가 큰"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/48.mp3"
+    },
+    {
+     "text": "short",
+     "meanings": [
+      "키가 작은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/86.mp3"
+    },
+    {
+     "text": "smart",
+     "meanings": [
+      "똑똑한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/473.mp3"
+    },
+    {
+     "text": "sleepy",
+     "meanings": [
+      "피곤한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/188.mp3"
+    },
+    {
+     "text": "strong",
+     "meanings": [
+      "강한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/0a952886d9460c6e.mp3"
+    },
+    {
+     "text": "sick",
+     "meanings": [
+      "아픈"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/408.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look lovely.",
+       "ko": "너는 사랑스러워보여.",
+       "audio": "/audio/speak/e210a086e94a4153.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look happy.",
+       "ko": "너는 행복해보여.",
+       "audio": "/audio/speak/5067bfc696d64fe6.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look tall.",
+       "ko": "너는 키가 커보여.",
+       "audio": "/audio/speak/5c08fc8bf39b9ebd.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look short.",
+       "ko": "너는 키가 작아보여.",
+       "audio": "/audio/speak/4fb4bff9aa0ee0df.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look smart.",
+       "ko": "너는 똑똑해보여.",
+       "audio": "/audio/speak/43780e31f5fa15d8.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look sleepy.",
+       "ko": "너는 피곤해보여.",
+       "audio": "/audio/speak/665a404b20613f52.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look strong.",
+       "ko": "너는 강해보여.",
+       "audio": "/audio/speak/b112a755f3c231cf.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "How do I look?",
+       "ko": "나 어때 보여?",
+       "audio": "/audio/speak/121c11a3baa23b0f.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "You look sick.",
+       "ko": "너는 아파보여.",
+       "audio": "/audio/speak/ee19d298f8635cfc.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 5,
+   "name": "I am from England",
+   "words": [
+    {
+     "text": "Korea",
+     "meanings": [
+      "대한민국"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/0572cc0fe6018be1.mp3"
+    },
+    {
+     "text": "Kenya",
+     "meanings": [
+      "케냐"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/9aee86ad1be96fe2.mp3"
+    },
+    {
+     "text": "America",
+     "meanings": [
+      "미국"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/c0f67fc70971af14.mp3"
+    },
+    {
+     "text": "Australia",
+     "meanings": [
+      "호주"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/b356a929c322cce3.mp3"
+    },
+    {
+     "text": "China",
+     "meanings": [
+      "중국"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/da4e6e489591e9d5.mp3"
+    },
+    {
+     "text": "England",
+     "meanings": [
+      "영국"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/d0fb7b64a101cde1.mp3"
+    },
+    {
+     "text": "India",
+     "meanings": [
+      "인도"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/4c9ca44e4193e012.mp3"
+    },
+    {
+     "text": "Japan",
+     "meanings": [
+      "일본"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f66c869b8eb46512.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I am from India.",
+       "ko": "나는 인도에서 왔어.",
+       "audio": "/audio/speak/9b2a5cdba3504f5c.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I am from America.",
+       "ko": "나는 미국에서 왔어.",
+       "audio": "/audio/speak/caebe08eacd3a2ee.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I am from Australia.",
+       "ko": "나는 호주에서 왔어.",
+       "audio": "/audio/speak/7debe0a704dc4a0f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I am from Kenya.",
+       "ko": "나는 케냐에서 왔어.",
+       "audio": "/audio/speak/0117b79d8868969a.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I am from Japan.",
+       "ko": "나는 일본에서 왔어.",
+       "audio": "/audio/speak/1a823da5b5e518f0.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너희는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are from England.",
+       "ko": "우리는 영국에서 왔어.",
+       "audio": "/audio/speak/79cf4f7ddc041023.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너희는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are from Korea.",
+       "ko": "우리는 한국에서 왔어.",
+       "audio": "/audio/speak/724f69bcf59184cf.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "Where are you from?",
+       "ko": "너희는 어디서 왔니?",
+       "audio": "/audio/speak/a85e1450492082ce.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "We are from China.",
+       "ko": "우리는 중국에서 왔어.",
+       "audio": "/audio/speak/e94b6001182eeabe.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 6,
+   "name": "My foot is swollen",
+   "words": [
+    {
+     "text": "bleeding",
+     "meanings": [
+      "피가 나는"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/8951240adf38c0af.mp3"
+    },
+    {
+     "text": "bruised",
+     "meanings": [
+      "멍이 든"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/71de859254ffa1a8.mp3"
+    },
+    {
+     "text": "burned",
+     "meanings": [
+      "데인",
+      "화상을 입은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/caabeb8b413e2a9b.mp3"
+    },
+    {
+     "text": "hurt",
+     "meanings": [
+      "다친"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/f2e3b24cffb43170.mp3"
+    },
+    {
+     "text": "itching",
+     "meanings": [
+      "간지러운"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/0b9ff26ed4d685f9.mp3"
+    },
+    {
+     "text": "sprained",
+     "meanings": [
+      "삔"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/e4fb14b0b0fa2716.mp3"
+    },
+    {
+     "text": "stiff",
+     "meanings": [
+      "뻣뻣한"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/word/7b68582662918934.mp3"
+    },
+    {
+     "text": "swollen",
+     "meanings": [
+      "부은"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l4/284.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "My eye is bruised.",
+       "ko": "내 눈이 멍들었어.",
+       "audio": "/audio/speak/f4433ab30c10514b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "My nose is bleeding.",
+       "ko": "내 코에서 피가 나.",
+       "audio": "/audio/speak/fd713cbdb8a85ec5.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "My neck is stiff.",
+       "ko": "내 목이 뻣뻣해.",
+       "audio": "/audio/speak/2e489f6645f2546f.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "My arm is itching.",
+       "ko": "내 팔이 간지러워.",
+       "audio": "/audio/speak/337421c8f46ca1a2.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "My leg is swollen.",
+       "ko": "내 다리가 부었어.",
+       "audio": "/audio/speak/7d0917721b4b6e48.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I burned my hand.",
+       "ko": "나 손을 데였어.",
+       "audio": "/audio/speak/ecd5ccf5a27b068d.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I hurt my knee.",
+       "ko": "나 무릎을 다쳤어.",
+       "audio": "/audio/speak/4cba6a0ef54f998b.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What is the matter?",
+       "ko": "무슨 일이야?",
+       "audio": "/audio/speak/9b8d2c0800523b71.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I sprained my ankle.",
+       "ko": "나 발목을 삐었어.",
+       "audio": "/audio/speak/3af3b5b68e544008.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  },
+  {
+   "part": 2,
+   "area": "TOON",
+   "order": 7,
+   "name": "I can walk",
+   "words": [
+    {
+     "text": "walk",
+     "meanings": [
+      "걷다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/54.mp3"
+    },
+    {
+     "text": "jump",
+     "meanings": [
+      "점프하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/37.mp3"
+    },
+    {
+     "text": "run",
+     "meanings": [
+      "달리다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l1/36.mp3"
+    },
+    {
+     "text": "swim",
+     "meanings": [
+      "수영하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/38.mp3"
+    },
+    {
+     "text": "dance",
+     "meanings": [
+      "춤추다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/57.mp3"
+    },
+    {
+     "text": "read",
+     "meanings": [
+      "읽다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/35.mp3"
+    },
+    {
+     "text": "sing",
+     "meanings": [
+      "노래하다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l2/56.mp3"
+    },
+    {
+     "text": "write",
+     "meanings": [
+      "쓰다"
+     ],
+     "advancedOnly": false,
+     "audio": "/audio/l3/36.mp3"
+    }
+   ],
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can sing.",
+       "ko": "나는 노래할 수 있어.",
+       "audio": "/audio/speak/7f2e7ab0e6fc050d.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can dance.",
+       "ko": "나는 춤출 수 있어.",
+       "audio": "/audio/speak/e54ffd346135866a.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can read.",
+       "ko": "나는 읽을 수 있어.",
+       "audio": "/audio/speak/8f57e58745936cd6.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can write.",
+       "ko": "나는 쓸 수 있어.",
+       "audio": "/audio/speak/3cf33ea1ddb2825c.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can run.",
+       "ko": "나는 달릴 수 있어.",
+       "audio": "/audio/speak/00b7f382f7720482.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can jump.",
+       "ko": "나는 점프할 수 있어.",
+       "audio": "/audio/speak/c7394217a186066f.mp3"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can swim.",
+       "ko": "나는 수영할 수 있어.",
+       "audio": "/audio/speak/fc4d5f0632f3ea82.mp3"
+      },
+      {
+       "speaker": "A",
+       "text": "What can you do?",
+       "ko": "너는 무엇을 할 수 있니?",
+       "audio": "/audio/speak/705fe31d0d056082.mp3"
+      },
+      {
+       "speaker": "B",
+       "text": "I can walk.",
+       "ko": "나는 걸을 수 있어.",
+       "audio": "/audio/speak/6cdedf628203a641.mp3"
+      }
+     ]
+    }
+   ],
+   "isReview": false
+  }
+ ]
+}
