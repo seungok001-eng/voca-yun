@@ -53,6 +53,23 @@ export default function ExamPage() {
     })();
   }, [id, role]);
 
+  // 다시 도전 — 끝난 세션은 그대로 두고 새 세션을 받아 처음부터 시작한다
+  async function retry() {
+    setResult(null);
+    setFinished(null);
+    setSession(null);
+    setShowKo(false);
+    try {
+      const s = await api<Session>("/api/textbook/test", {
+        method: "POST",
+        body: JSON.stringify({ lessonId: Number(id), role }),
+      });
+      setSession(s);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "다시 시작할 수 없습니다.");
+    }
+  }
+
   // 전체 줄을 순서대로 (대화 세트 → 줄 순서). 상대 대사 재생을 위해 필요.
   const allLines: Line[] = lesson
     ? (role === "N" ? (lesson.passage?.lines ?? []) : lesson.dialogues.flatMap((d) => d.lines))
@@ -151,7 +168,7 @@ export default function ExamPage() {
         )}
         <div className="flex gap-2 justify-center pt-2">
           <Link href={`/textbook/${id}`} className="btn-ghost">레슨으로</Link>
-          {!ok && <button className="btn-primary" onClick={() => router.refresh()}>다시 도전</button>}
+          {!ok && <button className="btn-primary" onClick={retry}>다시 도전</button>}
         </div>
       </div>
     );
@@ -222,6 +239,7 @@ export default function ExamPage() {
 
           {result && (
             <div className={"rounded-xl p-3 text-sm " + (result.passed ? "bg-emerald-50" : "bg-rose-50")}>
+              <p className="text-[10px] font-bold text-slate-400">직전 문장 채점 결과</p>
               <p className={"font-black " + (result.passed ? "text-emerald-600" : "text-rose-500")}>
                 {result.passed ? "정답!" : "아쉬워요"} · 정확도 {result.score}%
               </p>
@@ -235,7 +253,7 @@ export default function ExamPage() {
       )}
 
       <p className="text-[11px] text-slate-400 text-center">
-        {session.matchRate}% 이상 정확하게 말하면 통과예요. 조용한 곳에서 또박또박 말해주세요.
+        {session.matchRate}% 이상 정확하게 말하면 통과예요. 틀려도 끝까지 진행되니 편하게 말해보세요.
       </p>
 
       <button

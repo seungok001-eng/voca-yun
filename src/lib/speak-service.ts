@@ -103,13 +103,10 @@ export async function submitSpeakAnswer(sessionId: number, studentId: number, re
 
   const passedCount = session.passedCount + (result.passed ? 1 : 0);
   const nextIndex = session.currentIndex + 1;
-  const remaining = ids.length - nextIndex;
 
-  // 남은 문장을 다 맞혀도 기준에 못 미치면 그 시점에 탈락 확정
-  const canStillPass = passedCount + remaining >= session.requiredCount;
+  // 틀려도 중간에 끊지 않는다. 문장을 끝까지 다 말한 뒤에 통과/재도전을 판정한다.
   let status: "IN_PROGRESS" | "PASSED" | "FAILED" = "IN_PROGRESS";
-  if (passedCount >= session.requiredCount) status = "PASSED";
-  else if (!canStillPass || nextIndex >= ids.length) status = "FAILED";
+  if (nextIndex >= ids.length) status = passedCount >= session.requiredCount ? "PASSED" : "FAILED";
 
   await db.speakSession.update({
     where: { id: sessionId },
