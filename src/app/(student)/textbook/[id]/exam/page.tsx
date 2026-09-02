@@ -109,7 +109,7 @@ export default function ExamPage() {
       return;
     }
     setResult(null);
-    await playLeadIn(currentLine);
+    // 상대 대사는 자동으로 틀어주지 않는다 — 화면에 영어로 보이고 🔊 버튼으로 언제든 들을 수 있다
     setListening(true);
     let transcript = "";
     try {

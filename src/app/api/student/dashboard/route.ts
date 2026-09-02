@@ -4,6 +4,7 @@ import { todayWords } from "@/lib/test-service";
 import { resolveSettings } from "@/lib/settings";
 import { loadScheduleContext, isStudyDay } from "@/lib/schedule";
 import { todayStr } from "@/lib/srs";
+import { textbookToday } from "@/lib/textbook-student";
 
 export async function GET() {
   try {
@@ -33,7 +34,11 @@ export async function GET() {
       }
     }
 
+    // 교재 과정 학생은 홈에 오늘의 교재 진도를 보여준다
+    const textbook = settings.program === "TEXTBOOK" ? await textbookToday(s.uid) : null;
+
     return Response.json({
+      textbook,
       name: user?.name,
       className: user?.class?.name ?? null,
       points: user?.points ?? 0,

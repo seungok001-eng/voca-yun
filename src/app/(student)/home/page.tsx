@@ -6,7 +6,20 @@ import Link from "next/link";
 import { api } from "@/lib/client";
 import { useLiveRefresh } from "@/lib/use-live";
 
+type TodayLesson = {
+  id: number; partOrder: number; area: string; order: number; name: string;
+  isReview: boolean; bookLabel: string | null;
+  wordCount: number; hasDialogue: boolean; hasPassage: boolean;
+  roles: string[]; passedRoles: string[]; passedAt: Record<string, string>;
+  wordPassed: boolean; wordPassedAt: string | null; done: boolean;
+};
+type TextbookToday = {
+  textbook: { id: number; course: string; name: string };
+  mode?: string; courseTrack: string;
+  today: TodayLesson | null; doneCount: number; total: number;
+};
 type Dashboard = {
+  textbook: TextbookToday | null;
   name: string;
   className: string | null;
   points: number;
@@ -30,6 +43,115 @@ const MODE_KO: Record<string, string> = {
   EN_TO_KO: "영어 → 한글 4지선다",
   MIXED: "혼합",
 };
+const AREA_KO: Record<string, string> = { TOON: "Toon World", READING: "Book Club" };
+
+// "2026년 9월 2일 14:35" — 미리 통과한 진도의 통과 시각
+function fmtPassedAt(iso: string) {
+  const d = new Date(iso);
+  const hh = String(d.getHours()).padStart(2, "0");
+  const mm = String(d.getMinutes()).padStart(2, "0");
+  return `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일 ${hh}:${mm}`;
+}
+
+// 오늘의 교재 진도 카드 — 단어 카드처럼 '먼저 외우기 / 시험 보기'를 바로 누를 수 있다
+function TextbookTodayCard({ t, starting, onWords }: {
+  t: TextbookToday; starting: boolean; onWords: (lessonId: number, to: "study" | "test") => void;
+}) {
+  const l = t.today;
+  const passedA = l?.passedRoles.includes("A") ?? false;
+  const passedB = l?.passedRoles.includes("B") ?? false;
+  const passedN = l?.passedRoles.includes("N") ?? false;
+  // 통과 시각 표시 — 통과한 항목만 (탈락은 아무 표시도 하지 않는다)
+  const PassedAt = ({ iso }: { iso: string | null | undefined }) =>
+    iso ? <p className="text-[10px] text-emerald-600 mt-0.5">✓ {fmtPassedAt(iso)} 통과</p> : null;
+  const latestPassed = l
+    ? [l.wordPassedAt, ...Object.values(l.passedAt)].filter((x): x is string => !!x).sort().at(-1) ?? null
+    : null;
+
+  return (
+    <section className="card p-5">
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="font-black text-[#16204a]">오늘의 학습</h2>
+        <span className="chip bg-indigo-50 text-indigo-800">📕 {t.textbook.name}</span>
+      </div>
+      <div className="text-xs text-slate-500 mb-3 flex flex-wrap gap-x-3 gap-y-1">
+        <span>{t.courseTrack === "ADVANCED" ? "심화반" : "기본반"}</span>
+        <span>완료 <b>{t.doneCount}/{t.total}</b>레슨</span>
+        {t.mode === "MANUAL" && <span>👩‍🏫 선생님 지정 진도</span>}
+      </div>
+
+      {!l ? (
+        <p className="text-center text-emerald-600 font-bold py-3">🎉 교재의 모든 레슨을 통과했어요!</p>
+      ) : (
+        <div className="space-y-3">
+          <Link href={`/textbook/${l.id}`} className="block rounded-xl border-2 border-[#c9a227] bg-[#fdfaf0] p-3">
+            <p className="text-[11px] font-black text-[#c9a227]">오늘의 진도</p>
+            <p className="font-black text-[#16204a]">
+              PART {l.partOrder} · {AREA_KO[l.area] ?? l.area} L{l.order}
+              {l.isReview && <span className="chip bg-amber-50 text-amber-600 ml-1">복습</span>}
+              {l.bookLabel && <span className="chip bg-indigo-50 text-indigo-600 ml-1">{l.bookLabel}</span>}
+            </p>
+            <p className="text-sm text-slate-500">{l.name}</p>
+            {l.done && latestPassed && (
+              <p className="text-xs font-bold text-emerald-600 mt-1.5">
+                🎉 이 진도는 {fmtPassedAt(latestPassed)}에 이미 통과했어요
+              </p>
+            )}
+          </Link>
+
+          {/* 단어 */}
+          {l.wordCount > 0 && (
+            <div>
+              <p className="text-xs font-bold text-slate-500">📚 단어 {l.wordCount}개{l.wordPassed && " ✓"}</p>
+              <PassedAt iso={l.wordPassedAt} />
+              <div className="grid grid-cols-2 gap-2 mt-1.5">
+                <button className="btn-ghost text-center" disabled={starting} onClick={() => onWords(l.id, "study")}>📖 먼저 외우기</button>
+                <button className={"btn-primary " + (l.wordPassed ? "!bg-emerald-500" : "")} disabled={starting} onClick={() => onWords(l.id, "test")}>
+                  ✏️ 단어 시험{l.wordPassed && " ✓"}
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* 대화 */}
+          {l.hasDialogue && (
+            <div>
+              <p className="text-xs font-bold text-slate-500">🗣️ 대화 (A·B 역할 모두 통과해야 해요)</p>
+              <div className="grid grid-cols-3 gap-2 mt-1.5">
+                <Link href={`/textbook/${l.id}/practice`} className="btn-ghost text-center text-sm">🎧 먼저 연습</Link>
+                <Link href={`/textbook/${l.id}/exam?role=A`} className={"btn-primary text-center text-sm " + (passedA ? "!bg-emerald-500" : "")}>A역 시험{passedA && " ✓"}</Link>
+                <Link href={`/textbook/${l.id}/exam?role=B`} className={"btn-primary text-center text-sm " + (passedB ? "!bg-emerald-500" : "")}>B역 시험{passedB && " ✓"}</Link>
+              </div>
+              <div className="grid grid-cols-3 gap-2">
+                <span />
+                <PassedAt iso={l.passedAt.A} />
+                <PassedAt iso={l.passedAt.B} />
+              </div>
+            </div>
+          )}
+
+          {/* 본문 */}
+          {l.hasPassage && (
+            <div>
+              <p className="text-xs font-bold text-slate-500">📖 본문 읽기{passedN && " ✓"}</p>
+              <PassedAt iso={l.passedAt.N} />
+              <div className="grid grid-cols-2 gap-2 mt-1.5">
+                <Link href={`/textbook/${l.id}/practice?kind=passage`} className="btn-ghost text-center">🎧 먼저 연습</Link>
+                <Link href={`/textbook/${l.id}/exam?role=N`} className={"btn-primary text-center " + (passedN ? "!bg-emerald-500" : "")}>본문 시험{passedN && " ✓"}</Link>
+              </div>
+            </div>
+          )}
+
+          {l.wordCount === 0 && !l.hasDialogue && !l.hasPassage && (
+            <p className="text-center text-slate-400 text-sm py-2">🚧 이 레슨은 아직 준비 중이에요.</p>
+          )}
+
+          <Link href="/textbook" className="btn-back">📕 다른 레슨 보기</Link>
+        </div>
+      )}
+    </section>
+  );
+}
 
 export default function HomePage() {
   const [d, setD] = useState<Dashboard | null>(null);
@@ -61,6 +183,20 @@ export default function HomePage() {
   useEffect(() => {
     api<Dashboard>("/api/student/dashboard").then(setD).catch((e) => setError(e.message));
   }, []);
+
+  // 교재 진도의 단어 외우기/시험 — 레슨 단어장을 학습 대상으로 걸고 기존 단어 화면으로 보낸다
+  async function startLessonWords(lessonId: number, to: "study" | "test") {
+    setStarting(true);
+    try {
+      await api(`/api/textbook/lessons/${lessonId}/words`, { method: "POST", body: JSON.stringify({ mode: to }) });
+      if (to === "study") { router.push("/study"); return; }
+      const res = await api<{ sessionId: number }>("/api/test/start", { method: "POST", body: JSON.stringify({ kind: "DAILY" }) });
+      router.push(`/test/${res.sessionId}`);
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "단어 학습을 시작할 수 없습니다.");
+      setStarting(false);
+    }
+  }
 
   async function startTest(kind: string, retestOf?: number) {
     setStarting(true);
@@ -154,7 +290,10 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* 오늘의 학습 */}
+      {/* 오늘의 학습 — 교재 과정이면 교재 진도 카드, 아니면 단어장 카드 */}
+      {d.textbook ? (
+        <TextbookTodayCard t={d.textbook} starting={starting || !!d.activeSessionId} onWords={startLessonWords} />
+      ) : (
       <section className="card p-5">
         <div className="flex items-center justify-between mb-3">
           <h2 className="font-black text-[#16204a]">오늘의 학습</h2>
@@ -204,6 +343,7 @@ export default function HomePage() {
           <p className="text-sm text-slate-400 py-4 text-center">아직 선생님이 학습을 배정하지 않았어요.</p>
         )}
       </section>
+      )}
 
       {/* 복습 & 오답 */}
       <div className="grid grid-cols-2 gap-3">

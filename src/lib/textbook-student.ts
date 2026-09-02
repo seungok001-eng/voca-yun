@@ -9,7 +9,9 @@ export type LessonCard = {
   wordCount: number; hasDialogue: boolean; hasPassage: boolean;
   roles: string[]; // 이 레슨에서 말해야 하는 역할들 (A, B, N)
   passedRoles: string[]; // 그중 통과한 역할
+  passedAt: Record<string, string>; // 역할 → 통과 시각(ISO). 미리 시험을 통과한 경우 홈에 표시
   wordPassed: boolean;
+  wordPassedAt: string | null; // 단어 시험 통과 시각(ISO)
   done: boolean; // 필요한 역할을 모두 통과
 };
 
@@ -51,14 +53,17 @@ export async function textbookHome(studentId: number) {
   }
 
   const all = textbook.parts.flatMap((p) => p.lessons.map((l) => ({ ...l, partOrder: p.order })));
+  // 통과한 세션만 본다 — 탈락 기록은 화면에 아무 표시도 하지 않는다
   const passedSessions = await db.speakSession.findMany({
     where: { studentId, lessonId: { in: all.map((l) => l.id) }, kind: "TEST", status: "PASSED" },
-    select: { lessonId: true, role: true },
+    select: { lessonId: true, role: true, finishedAt: true },
   });
-  const passedByLesson = new Map<number, Set<string>>();
+  const passedByLesson = new Map<number, Map<string, Date | null>>(); // 레슨 → 역할 → 가장 최근 통과 시각
   for (const s of passedSessions) {
-    if (!passedByLesson.has(s.lessonId)) passedByLesson.set(s.lessonId, new Set());
-    passedByLesson.get(s.lessonId)!.add(s.role);
+    if (!passedByLesson.has(s.lessonId)) passedByLesson.set(s.lessonId, new Map());
+    const m = passedByLesson.get(s.lessonId)!;
+    const prev = m.get(s.role);
+    if (prev === undefined || (s.finishedAt && (!prev || s.finishedAt > prev))) m.set(s.role, s.finishedAt);
   }
 
   // 레슨 단어 시험 통과 여부 — 레슨 단어장 배정의 커서가 끝까지 갔는지로 판단
@@ -71,13 +76,29 @@ export async function textbookHome(studentId: number) {
     : [];
   const cursorByWordbook = new Map(wordAssignments.map((a) => [a.wordbookId!, a.progress[0]?.wordCursor ?? 0]));
 
+  // 단어 시험 통과 시각 — 그 레슨 단어장 배정으로 통과한 가장 최근 세션
+  const wordPassSessions = wordAssignments.length
+    ? await db.testSession.findMany({
+        where: { studentId, status: "PASSED", assignmentId: { in: wordAssignments.map((a) => a.id) } },
+        select: { assignmentId: true, finishedAt: true },
+        orderBy: { finishedAt: "desc" },
+      })
+    : [];
+  const wordPassedAtByWordbook = new Map<number, Date>();
+  for (const a of wordAssignments) {
+    const hit = wordPassSessions.find((s) => s.assignmentId === a.id && s.finishedAt);
+    if (hit?.finishedAt) wordPassedAtByWordbook.set(a.wordbookId!, hit.finishedAt);
+  }
+
   const lessons: LessonCard[] = all.map((l) => {
     const words = l.wordbook?.words ?? [];
     // 기본반은 기본 단어만, 심화반은 전체
     const wordCount = settings.courseTrack === "ADVANCED" ? words.length : words.filter((w) => !w.advancedOnly).length;
     const speakers = new Set(l.dialogues.flatMap((d) => d.lines.map((x) => x.speaker)));
     const roles = ["A", "B", "N"].filter((r) => speakers.has(r));
-    const passed = passedByLesson.get(l.id) ?? new Set<string>();
+    const passed = passedByLesson.get(l.id) ?? new Map<string, Date | null>();
+    const passedAt: Record<string, string> = {};
+    for (const [role, at] of passed) if (at) passedAt[role] = at.toISOString();
     const wordPassed = wordCount > 0 && (cursorByWordbook.get(l.wordbookId ?? -1) ?? 0) >= wordCount;
     return {
       id: l.id, partOrder: l.partOrder, area: l.area, order: l.order, name: l.name,
@@ -86,8 +107,10 @@ export async function textbookHome(studentId: number) {
       hasDialogue: l.dialogues.some((d) => d.kind === "DIALOGUE"),
       hasPassage: l.dialogues.some((d) => d.kind === "PASSAGE"),
       roles,
-      passedRoles: [...passed],
+      passedRoles: [...passed.keys()],
+      passedAt,
       wordPassed,
+      wordPassedAt: wordPassed ? (wordPassedAtByWordbook.get(l.wordbookId ?? -1)?.toISOString() ?? null) : null,
       done: roles.length > 0 && roles.every((r) => passed.has(r)) && (wordCount === 0 || wordPassed),
     };
   });
@@ -106,6 +129,15 @@ export async function textbookHome(studentId: number) {
     lessons,
     todayLessonId,
   };
+}
+
+// 홈 화면용 — 배정 교재와 오늘의 진도 레슨만 추린다
+export async function textbookToday(studentId: number) {
+  const home = await textbookHome(studentId);
+  if (!home.textbook) return null;
+  const today = home.lessons.find((l) => l.id === home.todayLessonId) ?? null;
+  const doneCount = home.lessons.filter((l) => l.done).length;
+  return { textbook: home.textbook, mode: home.mode, courseTrack: home.courseTrack, today, doneCount, total: home.lessons.length };
 }
 
 // 레슨 하나의 학습 내용 (학생용)
