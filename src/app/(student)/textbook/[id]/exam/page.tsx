@@ -31,6 +31,7 @@ export default function ExamPage() {
   const [error, setError] = useState("");
   const [finished, setFinished] = useState<AnswerResult | null>(null);
   const [showKo, setShowKo] = useState(false);
+  const [partnerKo, setPartnerKo] = useState<Record<number, boolean>>({}); // 상대 대사 해석 펼침 여부
   const [quitting, setQuitting] = useState(false);
   const started = useRef(false);
 
@@ -77,23 +78,29 @@ export default function ExamPage() {
   const currentLineId = session && session.index < session.items.length ? session.items[session.index] : null;
   const currentLine = allLines.find((l) => l.id === currentLineId) ?? null;
 
-  // 내 차례 직전까지 상대 대사 자동 재생
-  const playLeadIn = useCallback(async (target: Line) => {
-    if (role === "N") return; // 본문 읽기는 상대가 없다
+  // 이번 내 차례 직전의 상대 대사들 (직전 내 차례 다음부터 이번 차례 전까지)
+  const leadInLines = useCallback((target: Line): Line[] => {
+    if (role === "N") return []; // 본문 읽기는 상대가 없다
     const idx = allLines.findIndex((l) => l.id === target.id);
-    if (idx < 0) return;
-    // 직전 내 차례 다음부터 이번 차례 전까지
+    if (idx < 0) return [];
     let from = 0;
     for (let i = idx - 1; i >= 0; i--) {
       if (allLines[i].speaker === role) { from = i + 1; break; }
     }
+    return allLines.slice(from, idx);
+  }, [allLines, role]);
+
+  // 내 차례 직전까지 상대 대사 자동 재생
+  const playLeadIn = useCallback(async (target: Line) => {
+    const lead = leadInLines(target);
+    if (lead.length === 0) return;
     setPreparing(true);
-    for (let i = from; i < idx; i++) {
-      await playClipAsync(allLines[i].audioUrl, allLines[i].text);
+    for (const l of lead) {
+      await playClipAsync(l.audioUrl, l.text);
       await new Promise((r) => setTimeout(r, 200));
     }
     setPreparing(false);
-  }, [allLines, role]);
+  }, [leadInLines]);
 
   async function answer() {
     if (!session || !currentLine) return;
@@ -216,10 +223,41 @@ export default function ExamPage() {
               </button>
             </div>
           ) : (
-            /* 대화: 한국어 뜻을 보고 영어로 말한다 */
-            <div className="text-center space-y-1">
-              <p className="text-[11px] font-bold text-slate-400">이 뜻을 영어로 말하세요</p>
-              <p className="text-xl font-black text-[#16204a]">{currentLine.textKo ?? "(뜻 없음)"}</p>
+            /* 대화: 상대 대사는 영어로 보여주고, 내 대사는 한국어 뜻을 보고 영어로 말한다 */
+            <div className="space-y-3">
+              {leadInLines(currentLine).length > 0 && (
+                <div className="space-y-1.5">
+                  <p className="text-[11px] font-bold text-slate-400">상대 대사</p>
+                  {leadInLines(currentLine).map((l) => (
+                    <div key={l.id} className="rounded-xl bg-slate-50 p-3">
+                      <div className="flex items-start gap-2">
+                        <span className={"chip shrink-0 " + (l.speaker === "A" ? "bg-[#16204a] text-white" : "bg-[#c9a227] text-white")}>
+                          {l.speaker}
+                        </span>
+                        <div className="min-w-0 flex-1">
+                          <p className="font-bold text-[#16204a]">{l.text}</p>
+                          {partnerKo[l.id] && <p className="text-xs text-slate-500 mt-0.5">{l.textKo ?? "(해석 없음)"}</p>}
+                        </div>
+                      </div>
+                      <div className="flex gap-1.5 mt-2">
+                        <button className="chip bg-white border border-slate-200 text-slate-600 !py-1.5"
+                          disabled={listening || preparing}
+                          onClick={() => playClip(l.audioUrl, l.text)}>🔊 듣기</button>
+                        {l.textKo && (
+                          <button className="chip bg-white border border-slate-200 text-slate-500 !py-1.5"
+                            onClick={() => setPartnerKo((p) => ({ ...p, [l.id]: !p[l.id] }))}>
+                            {partnerKo[l.id] ? "해석 숨기기" : "해석 보기"}
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+              <div className="text-center space-y-1 rounded-xl bg-indigo-50/60 p-3">
+                <p className="text-[11px] font-bold text-indigo-500">내 차례 · 이 뜻을 영어로 말하세요</p>
+                <p className="text-xl font-black text-[#16204a]">{currentLine.textKo ?? "(뜻 없음)"}</p>
+              </div>
             </div>
           )}
 
@@ -229,11 +267,11 @@ export default function ExamPage() {
             {listening ? "🎙️ 듣고 있어요..." : preparing ? "잠시만요..." : role === "N" ? "🎤 따라 말하기" : "🎤 말하기"}
           </button>
 
-          {role !== "N" && (
+          {role !== "N" && leadInLines(currentLine).length > 0 && (
             <button className="btn-ghost w-full !py-2 text-sm"
               disabled={listening || preparing}
               onClick={() => playLeadIn(currentLine)}>
-              🔊 상대 대사 다시 듣기
+              🔊 상대 대사 전체 다시 듣기
             </button>
           )}
 
