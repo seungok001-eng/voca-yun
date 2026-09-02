@@ -17,7 +17,8 @@ export default function PracticePage() {
   const isPassage = params.get("kind") === "passage";
   const [d, setD] = useState<LessonData | null>(null);
   const [mode, setMode] = useState<"listen" | "repeat" | "role">("listen");
-  const [role, setRole] = useState<"A" | "B">("A");
+  // "AB" = A·B 두 역할을 모두 학습자가 말한다
+  const [role, setRole] = useState<"A" | "B" | "AB">("A");
 
   useEffect(() => {
     api<LessonData>(`/api/textbook/lessons/${id}`).then(setD).catch(() => setD(null));
@@ -39,7 +40,7 @@ export default function PracticePage() {
   return (
     <div className="space-y-4">
       <div>
-        <Link href={`/textbook/${id}`} className="text-xs font-bold text-slate-400">← {d.name}</Link>
+        <Link href={`/textbook/${id}`} className="btn-back mb-2">← 레슨으로</Link>
         <h1 className="text-lg font-black text-[#16204a]">
           {isPassage ? "📖 본문 공부" : "🗣️ 대화 공부"}
         </h1>
@@ -58,13 +59,15 @@ export default function PracticePage() {
       {mode === "role" && !isPassage && (
         <div className="card p-3 flex items-center gap-2">
           <span className="text-xs font-bold text-slate-600">내 역할</span>
-          {(["A", "B"] as const).map((r) => (
+          {(["A", "B", "AB"] as const).map((r) => (
             <button key={r} onClick={() => setRole(r)}
               className={"chip !py-1.5 !px-4 " + (role === r ? "bg-[#c9a227] text-white" : "bg-slate-100 text-slate-500")}>
-              {r}역
+              {r === "AB" ? "A·B 모두" : `${r}역`}
             </button>
           ))}
-          <span className="text-[11px] text-slate-400 ml-auto">상대는 자동으로 말해줘요</span>
+          <span className="text-[11px] text-slate-400 ml-auto">
+            {role === "AB" ? "모든 대사를 직접 말해요" : "상대 대사는 🔊 버튼으로 들어보세요"}
+          </span>
         </div>
       )}
 
@@ -100,26 +103,13 @@ function DialogueCard({ lines, index, total, mode, myRole, isPassage, matchRate 
 
   useEffect(() => () => { stopped.current = true; }, []);
 
-  // 역할 연습: 내 차례 전까지 상대 대사를 자동 재생
-  const playUntilMyTurn = useCallback(async (target: Line) => {
-    stopped.current = false;
-    for (const l of lines) {
-      if (l.id === target.id) break;
-      if (l.speaker === myRole) continue;
-      if (stopped.current) return;
-      setPlayingId(l.id);
-      await playClipAsync(l.audioUrl, l.text);
-      await new Promise((r) => setTimeout(r, 200));
-    }
-    setPlayingId(null);
-  }, [lines, myRole]);
-
-  async function speakLine(l: Line, withLeadIn = false) {
+  // 역할 연습에서도 상대 대사를 자동으로 틀어주지 않는다.
+  // 상대 대사는 각 줄의 🔊 버튼으로 언제든 다시 들을 수 있으므로, 말하기 버튼은 바로 듣기만 시작한다.
+  async function speakLine(l: Line) {
     if (!speechRecognitionSupported()) {
       alert("이 브라우저는 음성 인식을 지원하지 않아요. 크롬으로 접속해 주세요.");
       return;
     }
-    if (withLeadIn) await playUntilMyTurn(l);
     setListening(l.id);
     try {
       const { transcript } = await recognizeOnce(7000);
@@ -135,7 +125,8 @@ function DialogueCard({ lines, index, total, mode, myRole, isPassage, matchRate 
     }
   }
 
-  const myTurn = (l: Line) => mode === "role" && l.speaker === myRole;
+  // 역할 연습에서 내가 말할 차례인지 — "AB"면 A·B 모두 내 차례
+  const myTurn = (l: Line) => mode === "role" && (myRole === "AB" || l.speaker === myRole);
 
   return (
     <div className="card p-4 space-y-3">
@@ -184,24 +175,21 @@ function DialogueCard({ lines, index, total, mode, myRole, isPassage, matchRate 
               </div>
 
               <div className="flex flex-wrap items-center gap-1.5 mt-2">
-                {!hidden && (
-                  <>
-                    <button className="chip bg-white border border-slate-200 text-slate-600 !py-1.5"
-                      onClick={() => playClip(l.audioUrl, l.text)}>🔊 듣기</button>
-                    <button className="chip bg-white border border-slate-200 text-slate-600 !py-1.5"
-                      onClick={() => playClip(l.audioUrl, l.text, true)}>🐢 천천히</button>
-                    {l.textKo && (
-                      <button className="chip bg-white border border-slate-200 text-slate-500 !py-1.5"
-                        onClick={() => setShowKo((p) => ({ ...p, [l.id]: !p[l.id] }))}>
-                        {showKo[l.id] ? "해석 숨기기" : "해석 보기"}
-                      </button>
-                    )}
-                  </>
+                {/* 내 대사도 원어민 발음을 들어볼 수 있다 (영어 문장은 계속 감춘 채) */}
+                <button className="chip bg-white border border-slate-200 text-slate-600 !py-1.5"
+                  onClick={() => playClip(l.audioUrl, l.text)}>🔊 듣기</button>
+                <button className="chip bg-white border border-slate-200 text-slate-600 !py-1.5"
+                  onClick={() => playClip(l.audioUrl, l.text, true)}>🐢 천천히</button>
+                {!hidden && l.textKo && (
+                  <button className="chip bg-white border border-slate-200 text-slate-500 !py-1.5"
+                    onClick={() => setShowKo((p) => ({ ...p, [l.id]: !p[l.id] }))}>
+                    {showKo[l.id] ? "해석 숨기기" : "해석 보기"}
+                  </button>
                 )}
                 {(mode === "repeat" || myTurn(l)) && (
                   <button className="chip bg-rose-500 text-white !py-1.5 !px-4"
                     disabled={listening !== null}
-                    onClick={() => speakLine(l, myTurn(l))}>
+                    onClick={() => speakLine(l)}>
                     {listening === l.id ? "🎙️ 듣는 중..." : "🎤 말하기"}
                   </button>
                 )}

@@ -50,11 +50,14 @@ export default function TextbookHomePage() {
 
   return (
     <div className="space-y-4">
-      <div>
-        <h1 className="text-xl font-black text-[#16204a]">📕 {d.textbook.name}</h1>
-        <p className="text-xs text-slate-400 mt-0.5">
-          {d.courseTrack === "ADVANCED" ? "심화반" : "기본반"} · 완료 {doneCount}/{d.lessons.length}레슨
-        </p>
+      <div className="flex items-start justify-between gap-2">
+        <div>
+          <h1 className="text-xl font-black text-[#16204a]">📕 {d.textbook.name}</h1>
+          <p className="text-xs text-slate-400 mt-0.5">
+            {d.courseTrack === "ADVANCED" ? "심화반" : "기본반"} · 완료 {doneCount}/{d.lessons.length}레슨
+          </p>
+        </div>
+        <Link href="/home" className="btn-back shrink-0">🏠 홈으로</Link>
       </div>
 
       {/* 오늘의 진도 */}

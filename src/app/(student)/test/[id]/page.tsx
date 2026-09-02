@@ -322,9 +322,8 @@ export default function TestPage() {
         </div>
       ) : null}
 
-      <button onClick={quitTest} className="w-full text-xs font-bold text-slate-400 py-2 hover:text-rose-500">
-        시험 중단하기
-      </button>
+      <button onClick={quitTest} className="btn-quit">✋ 시험 중단하기</button>
+      <p className="text-[11px] text-slate-400 text-center -mt-2">중단하면 처음부터 다시 볼 수 있어요</p>
     </div>
   );
 }

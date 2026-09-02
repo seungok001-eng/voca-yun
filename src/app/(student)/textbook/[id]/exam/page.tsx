@@ -256,13 +256,10 @@ export default function ExamPage() {
         {session.matchRate}% 이상 정확하게 말하면 통과예요. 틀려도 끝까지 진행되니 편하게 말해보세요.
       </p>
 
-      <button
-        className="w-full text-xs font-bold text-slate-400 hover:text-rose-500 py-2"
-        disabled={listening || preparing || quitting}
-        onClick={quitExam}
-      >
-        {quitting ? "정리하는 중..." : "시험 그만두기 (처음부터 다시 볼 수 있어요)"}
+      <button className="btn-quit" disabled={listening || preparing || quitting} onClick={quitExam}>
+        {quitting ? "정리하는 중..." : "✋ 시험 그만두기"}
       </button>
+      <p className="text-[11px] text-slate-400 text-center -mt-2">그만두면 처음부터 다시 볼 수 있어요</p>
     </div>
   );
 }

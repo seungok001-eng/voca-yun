@@ -57,7 +57,7 @@ export default function StudyPage() {
     <div className="space-y-4">
       <div className="flex items-center justify-between">
         <h1 className="text-lg font-black text-[#16204a]">{label} {words.length}개</h1>
-        <Link href="/home" className="text-xs font-bold text-slate-400">← 홈</Link>
+        <Link href="/home" className="btn-back">🏠 홈으로</Link>
       </div>
 
       {/* 분량 이동 — 학습은 진도와 상관없이 자유롭게 */}

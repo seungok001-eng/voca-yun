@@ -59,7 +59,10 @@ export default function LessonHubPage() {
   return (
     <div className="space-y-4">
       <div>
-        <Link href="/textbook" className="text-xs font-bold text-slate-400">← 교재 목록</Link>
+        <div className="flex items-center justify-between gap-2 mb-2">
+          <Link href="/textbook" className="btn-back">← 교재 목록</Link>
+          <Link href="/home" className="btn-back">🏠 홈으로</Link>
+        </div>
         <h1 className="text-xl font-black text-[#16204a]">
           L{d.order}. {d.name}
           {d.isReview && <span className="chip bg-amber-50 text-amber-600 ml-1.5">복습</span>}

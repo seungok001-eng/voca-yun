@@ -70,6 +70,39 @@ body {
 .btn-ghost:hover { background: rgba(22, 32, 74, 0.04); }
 .btn-ghost:disabled { opacity: 0.4; }
 
+/* 학생이 자주 누르는 '돌아가기' 링크 — 작은 글자 대신 눈에 띄는 알약 버튼 */
+.btn-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1.5px solid rgba(22, 32, 74, 0.18);
+  color: var(--brand-navy);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.55rem 1rem;
+  background: #fff;
+  transition: background 0.15s;
+}
+.btn-back:hover { background: rgba(22, 32, 74, 0.05); }
+
+/* 시험 중단·그만두기 — 크고 잘 보이되 실수로 누르지 않도록 붉은 계열 */
+.btn-quit {
+  display: block;
+  width: 100%;
+  border: 2px solid #fecdd3;
+  color: #e11d48;
+  background: #fff1f2;
+  border-radius: 0.9rem;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 0.85rem 1.25rem;
+  transition: background 0.15s, transform 0.05s;
+}
+.btn-quit:hover { background: #ffe4e6; }
+.btn-quit:active { transform: scale(0.98); }
+.btn-quit:disabled { opacity: 0.4; }
+
 .input {
   width: 100%;
   border: 1.5px solid rgba(22, 32, 74, 0.14);
