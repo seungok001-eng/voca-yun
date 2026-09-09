@@ -27,12 +27,22 @@ SKIP_SHEETS = {"가이드", "교재 로드맵", "샘플", "양식"}
 
 
 def lesson_title(ws):
-    """2행 'Lesson 1 Let's go to the circus now!' → (1, "Let's go to the circus now!")"""
+    """2행 'Lesson 1 Let's go to the circus now!' → (1, "Let's go to the circus now!")
+
+    원본에 레슨 번호가 잘못 적힌 시트가 있어(예: B6 시트 2행에 "Lesson 5"),
+    번호는 시트 이름(T1~T8 / B1~B8)을 우선한다. 제목 글자는 2행에서 가져온다.
+    """
     raw = str(ws.cell(2, 1).value or "").strip()
     m = re.match(r"Lesson\s*(\d+)\s*(.*)", raw, re.I)
-    if not m:
-        return None, raw
-    return int(m.group(1)), m.group(2).strip()
+    n, title = (int(m.group(1)), m.group(2).strip()) if m else (None, raw)
+
+    sm = re.match(r"^[TB](\d+)$", ws.title.strip(), re.I)
+    if sm:
+        sheet_n = int(sm.group(1))
+        if n is not None and n != sheet_n:
+            print(f"    레슨 번호 보정: 시트 {ws.title.strip()} — 2행 Lesson {n} → {sheet_n}")
+        return sheet_n, title
+    return n, title
 
 
 def read_words(ws, col_no, col_text, col_mean):
@@ -142,7 +152,11 @@ def parse_toon(part, basic_file, adv_file=None):
                 continue
             n, _ = lesson_title(ws)
             if n:
-                basic_words[n] = {w["text"].lower() for w in read_words(ws, 1, 2, 3)}
+                # 기본 파일도 오른쪽 칸(11~20번)에 단어가 이어질 수 있으므로 양쪽을 모두 기본으로 본다
+                basic_words[n] = {
+                    w["text"].lower()
+                    for w in read_words(ws, 1, 2, 3) + read_words(ws, 5, 6, 7)
+                }
 
     src = adv_file or basic_file
     wb = openpyxl.load_workbook(src, data_only=True)
@@ -214,6 +228,12 @@ def scan_dir(folder):
             continue
         book = f"{m.group(1).upper()} {m.group(2)}-{m.group(3)}"
         part = int(m.group(4))
+        # 원본 1행에 파트 번호가 잘못 적힌 파일이 있어(예: Part2 북클럽에 "Part 1")
+        # 파일 이름에 파트가 드러나 있으면 그쪽을 믿는다.
+        fm = re.search(r"Part\s*_?(\d)", os.path.basename(f), re.I)
+        if fm and int(fm.group(1)) != part:
+            print(f"  파트 보정: {os.path.basename(f)} — 1행 Part {part} → 파일명 Part {fm.group(1)}")
+            part = int(fm.group(1))
         area = "TOON" if sheets[0].upper().startswith("T") else "READING"
         n = sum(len(read_words(wb[t], 1, 2, 3)) + len(read_words(wb[t], 5, 6, 7)) for t in sheets)
         found.setdefault((book, part, area), []).append((n, f))
@@ -238,15 +258,66 @@ def scan_dir(folder):
     return books
 
 
+def merge_into(path, lessons):
+    """이미 만들어 둔 JSON이 있으면 합친다.
+
+    - 같은 (파트, 영역, 레슨번호)는 새로 읽은 내용으로 교체한다.
+    - 이번에 안 준 레슨은 기존 것을 그대로 둔다. (빈 레슨을 나중에 받아도 안전)
+    - 문장·단어 글자가 같으면 기존 번역(ko)과 음성 경로(audio)를 물려받아
+      번역·음성을 다시 만들지 않는다.
+    """
+    if not os.path.exists(path):
+        return lessons, (len(lessons), 0, 0)
+    old = json.load(open(path))["lessons"]
+    key = lambda L: (L["part"], L["area"], L["order"])
+    old_by = {key(L): L for L in old}
+
+    kept_ko = kept_audio = 0
+
+    def carry(new_items, old_items):
+        """글자가 같은 항목에서 ko·audio를 물려받는다."""
+        nonlocal kept_ko, kept_audio
+        prev = {}
+        for o in old_items:
+            prev.setdefault(o.get("text", "").strip(), o)
+        for n in new_items:
+            o = prev.get(n.get("text", "").strip())
+            if not o:
+                continue
+            if not n.get("ko") and o.get("ko"):
+                n["ko"] = o["ko"]; kept_ko += 1
+            if o.get("audio"):
+                n["audio"] = o["audio"]; kept_audio += 1
+
+    for L in lessons:
+        o = old_by.get(key(L))
+        if not o:
+            continue
+        carry(L.get("words", []), o.get("words", []))
+        carry(
+            [ln for d in L.get("dialogues", []) for ln in d["lines"]],
+            [ln for d in o.get("dialogues", []) for ln in d["lines"]],
+        )
+        carry(L.get("passageLines", []), o.get("passageLines", []))
+
+    new_keys = {key(L) for L in lessons}
+    merged = lessons + [L for L in old if key(L) not in new_keys]
+    replaced = sum(1 for L in lessons if key(L) in old_by)
+    return merged, (len(lessons) - replaced, replaced, len(merged) - len(lessons))
+
+
 def main():
     if sys.argv[1] == "--dir":
         folder, outdir = sys.argv[2], sys.argv[3]
         print("폴더 스캔:")
         books = scan_dir(folder)
         for book, lessons in sorted(books.items()):
-            lessons.sort(key=lambda L: (L["part"], L["area"], L["order"]))
             slug = book.lower().replace(" ", "-")
             path = os.path.join(outdir, f"textbook-{slug}.json")
+            lessons, (added, replaced, kept) = merge_into(path, lessons)
+            lessons.sort(key=lambda L: (L["part"], L["area"], L["order"]))
+            if replaced or kept:
+                print(f"  기존 파일과 병합: 새 레슨 {added} · 교체 {replaced} · 유지 {kept}")
             json.dump({"lessons": lessons}, open(path, "w"), ensure_ascii=False, indent=1)
             w = sum(len(L.get("words", [])) for L in lessons)
             adv = sum(1 for L in lessons for x in L.get("words", []) if x.get("advancedOnly"))
