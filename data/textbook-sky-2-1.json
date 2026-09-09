@@ -2319,7 +2319,7 @@
       {
        "speaker": "A",
        "text": "How many frogs are there?",
-       "audio": "/audio/speak/91212c2b837eab26.mp3",
+       "audio": "/audio/speak/4aaa661a24c5236f.mp3",
        "ko": "개구리가 몇 마리 있어?"
       },
       {
@@ -3221,68 +3221,68 @@
    "passageLines": [
     {
      "text": "My name is Spotty.",
-     "ko": "내 이름은 스포티야.",
-     "audio": "/audio/speak/f06f0c19f190e765.mp3"
+     "audio": "/audio/speak/f06f0c19f190e765.mp3",
+     "ko": "내 이름은 스포티야."
     },
     {
      "text": "I'm a dog.",
-     "ko": "나는 강아지야.",
-     "audio": "/audio/speak/8bc1487529e13804.mp3"
+     "audio": "/audio/speak/8bc1487529e13804.mp3",
+     "ko": "나는 개야."
     },
     {
      "text": "I live with Mr. and Mrs. Anderson and their daughter, Jane.",
-     "ko": "나는 앤더슨 씨 부부와 그들의 딸 제인과 함께 살아.",
-     "audio": "/audio/speak/434cf86f0532e513.mp3"
+     "audio": "/audio/speak/434cf86f0532e513.mp3",
+     "ko": "나는 앤더슨 씨 부부와 그들의 딸 제인과 함께 살아."
     },
     {
      "text": "People from the neighborhood say I'm special.",
-     "ko": "동네 사람들은 내가 특별하다고 말해.",
-     "audio": "/audio/speak/c344d71fd855ee9a.mp3"
+     "audio": "/audio/speak/c344d71fd855ee9a.mp3",
+     "ko": "동네 사람들은 내가 특별하다고 말해."
     },
     {
      "text": "I don't know why I'm special.",
-     "ko": "나는 내가 왜 특별한지 모르겠어.",
-     "audio": "/audio/speak/023d550015bc6b15.mp3"
+     "audio": "/audio/speak/023d550015bc6b15.mp3",
+     "ko": "나는 내가 왜 특별한지 모르겠어."
     },
     {
      "text": "I just do what I feel is right.",
-     "ko": "나는 그저 내가 옳다고 느끼는 것을 할 뿐이야.",
-     "audio": "/audio/speak/b54dff11ab4731bd.mp3"
+     "audio": "/audio/speak/b54dff11ab4731bd.mp3",
+     "ko": "나는 그냥 내가 옳다고 느끼는 것을 할 뿐이야."
     },
     {
      "text": "On Monday, I play with Jane outside.",
-     "ko": "월요일에 나는 제인과 밖에서 놀아.",
-     "audio": "/audio/speak/ed2ac70ff78eb890.mp3"
+     "audio": "/audio/speak/ed2ac70ff78eb890.mp3",
+     "ko": "월요일에 나는 제인과 밖에서 놀아."
     },
     {
      "text": "While playing with her, I see two girls.",
-     "ko": "그녀와 놀다가 나는 두 소녀를 봐.",
-     "audio": "/audio/speak/ca0180fe257c9d78.mp3"
+     "audio": "/audio/speak/ca0180fe257c9d78.mp3",
+     "ko": "그녀와 놀다가 나는 두 소녀를 봐."
     },
     {
      "text": "They are walking in the middle of the road.",
-     "ko": "그들은 길 한가운데로 걷고 있어.",
-     "audio": "/audio/speak/272cc2d049c95b23.mp3"
+     "audio": "/audio/speak/272cc2d049c95b23.mp3",
+     "ko": "그들은 길 한가운데서 걷고 있어."
     },
     {
      "text": "\"Woof!",
-     "ko": "멍!",
+     "ko": "멍멍!",
      "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
     },
     {
      "text": "Woof!",
-     "ko": "멍!",
+     "ko": "멍멍!",
      "audio": "/audio/speak/ff9129da30514867.mp3"
     },
     {
      "text": "I scare the two girls onto the pavement.",
-     "ko": "나는 그 두 소녀를 놀라게 해서 보도로 가게 해.",
-     "audio": "/audio/speak/353cf1ebde2eff28.mp3"
+     "audio": "/audio/speak/353cf1ebde2eff28.mp3",
+     "ko": "나는 그 두 소녀를 놀라게 해서 보도 위로 올라가게 해."
     },
     {
      "text": "Remember, always walk on the pavement!",
-     "ko": "기억해, 항상 보도로 걸어!",
-     "audio": "/audio/speak/41f3ad0f3e8311fe.mp3"
+     "audio": "/audio/speak/41f3ad0f3e8311fe.mp3",
+     "ko": "기억해, 항상 보도 위로 걸어야 해!"
     }
    ],
    "bookLabel": "Book B"
@@ -3290,7 +3290,7 @@
   {
    "part": 2,
    "area": "READING",
-   "order": 5,
+   "order": 6,
    "name": "Watch Out!",
    "words": [
     {
@@ -3338,83 +3338,83 @@
    "passageLines": [
     {
      "text": "On Tuesday, Jane plays baseball with her friend, Paul.",
-     "ko": "화요일에 제인은 친구 폴과 야구를 한다.",
-     "audio": "/audio/speak/e414b7c42a934b86.mp3"
+     "audio": "/audio/speak/e414b7c42a934b86.mp3",
+     "ko": "화요일에, 제인은 친구 폴과 야구를 한다."
     },
     {
      "text": "Paul throws a ball and Jane hits it.",
-     "ko": "폴이 공을 던지면 제인이 친다.",
-     "audio": "/audio/speak/8fa27e3198cfd83f.mp3"
+     "audio": "/audio/speak/8fa27e3198cfd83f.mp3",
+     "ko": "폴이 공을 던지고 제인이 그것을 친다."
     },
     {
      "text": "The ball flies high.",
-     "ko": "공이 높이 날아간다.",
-     "audio": "/audio/speak/616f6bbd413fd6ea.mp3"
+     "audio": "/audio/speak/616f6bbd413fd6ea.mp3",
+     "ko": "공이 높이 날아간다."
     },
     {
      "text": "Paul runs onto the road to catch it.",
-     "ko": "폴은 공을 잡으러 도로로 뛰어든다.",
-     "audio": "/audio/speak/574eb52b2ddbcf98.mp3"
+     "audio": "/audio/speak/574eb52b2ddbcf98.mp3",
+     "ko": "폴은 그것을 잡으려고 도로로 뛰어간다."
     },
     {
      "text": "A car almost hits him.",
-     "ko": "차 한 대가 그를 거의 칠 뻔한다.",
-     "audio": "/audio/speak/12a55158bf7911c1.mp3"
+     "audio": "/audio/speak/12a55158bf7911c1.mp3",
+     "ko": "차가 그를 하마터면 칠 뻔한다."
     },
     {
      "text": "\"Woof!",
-     "ko": "멍멍!",
-     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3",
+     "ko": "\"멍멍!"
     },
     {
      "text": "Woof!",
-     "ko": "멍멍!",
-     "audio": "/audio/speak/ff9129da30514867.mp3"
+     "audio": "/audio/speak/ff9129da30514867.mp3",
+     "ko": "멍멍!"
     },
     {
      "text": "I drag Paul from the road.",
-     "ko": "나는 폴을 도로에서 끌어낸다.",
-     "audio": "/audio/speak/0ad0888924272155.mp3"
+     "audio": "/audio/speak/0ad0888924272155.mp3",
+     "ko": "나는 폴을 도로에서 끌어낸다."
     },
     {
      "text": "Remember, always look around and listen!",
-     "ko": "기억해, 항상 주위를 살피고 소리에 귀 기울여!",
-     "audio": "/audio/speak/7f938cb45437b4b8.mp3"
+     "audio": "/audio/speak/7f938cb45437b4b8.mp3",
+     "ko": "기억해, 항상 주위를 둘러보고 귀 기울여 들어!"
     },
     {
      "text": "On Wednesday, Mrs. Anderson goes to pick up Jane from school.",
-     "ko": "수요일에 앤더슨 부인은 제인을 학교에서 데리러 간다.",
-     "audio": "/audio/speak/812483b12d48d343.mp3"
+     "audio": "/audio/speak/812483b12d48d343.mp3",
+     "ko": "수요일에, 앤더슨 부인이 제인을 학교에서 데리러 간다."
     },
     {
      "text": "As usual, she stops the car to let some children pass.",
-     "ko": "평소처럼, 그녀는 아이들이 지나가도록 차를 멈춘다.",
-     "audio": "/audio/speak/4392b90537fe96c0.mp3"
+     "audio": "/audio/speak/4392b90537fe96c0.mp3",
+     "ko": "평소처럼, 그녀는 몇몇 아이들이 지나가도록 차를 멈춘다."
     },
     {
      "text": "The cars behind us honk.",
-     "ko": "우리 뒤에 있던 차들이 경적을 울린다.",
-     "audio": "/audio/speak/19d729994dc9f4e5.mp3"
+     "audio": "/audio/speak/19d729994dc9f4e5.mp3",
+     "ko": "우리 뒤에 있는 차들이 경적을 울린다."
     },
     {
      "text": "\"Woof!",
-     "ko": "멍멍!",
-     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3"
+     "audio": "/audio/speak/5a4b8c0eae84bad7.mp3",
+     "ko": "\"멍멍!"
     },
     {
      "text": "Woof!",
-     "ko": "멍멍!",
-     "audio": "/audio/speak/ff9129da30514867.mp3"
+     "audio": "/audio/speak/ff9129da30514867.mp3",
+     "ko": "멍멍!"
     },
     {
      "text": "The cars stop honking.",
-     "ko": "차들이 경적을 멈춘다.",
-     "audio": "/audio/speak/2b0fc74efd8229d6.mp3"
+     "audio": "/audio/speak/2b0fc74efd8229d6.mp3",
+     "ko": "차들이 경적을 울리는 것을 멈춘다."
     },
     {
      "text": "Remember, always think of children's safety first!",
-     "ko": "기억해, 항상 아이들의 안전을 최우선으로 생각해!",
-     "audio": "/audio/speak/140353783744647c.mp3"
+     "audio": "/audio/speak/140353783744647c.mp3",
+     "ko": "기억해, 항상 어린이들의 안전을 먼저 생각해!"
     }
    ],
    "bookLabel": "Book B"
@@ -5433,7 +5433,7 @@
       {
        "speaker": "A",
        "text": "Where are you going?",
-       "audio": "/audio/speak/9867c832a5c12db6.mp3",
+       "audio": "/audio/speak/2f86dd2c53ca90dc.mp3",
        "ko": "너 어디 갈 거야?"
       },
       {

@@ -78,6 +78,89 @@ def to_mp3(pcm, rate, outpath):
     )
 
 
+# ── 숫자 읽어주기 ───────────────────────────────────────────────
+# 모델이 "It was 7:32." 나 "$6.56", "1503." 같은 숫자·기호에서 음성을 못 만들 때가 있다.
+# 그럴 때 숫자를 영어 낱말로 풀어 같은 파일에 다시 만든다.
+ONES = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+        "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
+TENS = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+
+
+def say_int(n):
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + (f"-{ONES[n % 10]}" if n % 10 else "")
+    if n < 1000:
+        rest = n % 100
+        return ONES[n // 100] + " hundred" + (f" {say_int(rest)}" if rest else "")
+    for size, word in ((10**9, "billion"), (10**6, "million"), (1000, "thousand")):
+        if n >= size:
+            rest = n % size
+            return f"{say_int(n // size)} {word}" + (f" {say_int(rest)}" if rest else "")
+    return str(n)
+
+
+def say_year(n):
+    """1503 → fifteen oh three, 1814 → eighteen fourteen, 2008 → two thousand eight"""
+    if 1100 <= n < 2000 or 2100 <= n < 3000:
+        hi, lo = divmod(n, 100)
+        if lo == 0:
+            return f"{say_int(hi)} hundred"
+        return f"{say_int(hi)} oh {ONES[lo]}" if lo < 10 else f"{say_int(hi)} {say_int(lo)}"
+    return say_int(n)
+
+
+def spell_numbers(text):
+    """문장 속 숫자·기호를 소리 나는 대로 바꾼다."""
+    t = text
+    t = re.sub(r"(\d+)\s*½", lambda m: f"{say_int(int(m.group(1)))} and a half", t)
+    t = re.sub(r"\$\s?([\d,]+)\.(\d{2})\b",
+               lambda m: f"{say_int(int(m.group(1).replace(',', '')))} dollars and {say_int(int(m.group(2)))} cents", t)
+    t = re.sub(r"\$\s?([\d,]+)", lambda m: f"{say_int(int(m.group(1).replace(',', '')))} dollars", t)
+    t = re.sub(r"\b(\d{1,2}):(\d{2})\b",
+               lambda m: f"{say_int(int(m.group(1)))} {'oh ' + ONES[int(m.group(2))] if int(m.group(2)) < 10 else say_int(int(m.group(2)))}"
+               if int(m.group(2)) else f"{say_int(int(m.group(1)))} o'clock", t)
+    t = re.sub(r"\b(\d{4})\s*[-–]\s*(\d{4})\b",
+               lambda m: f"{say_year(int(m.group(1)))} to {say_year(int(m.group(2)))}", t)
+    t = re.sub(r"\b(1[0-9]{3}|20[0-9]{2})\b", lambda m: say_year(int(m.group(1))), t)
+    t = re.sub(r"\b(\d{1,3}(?:,\d{3})+|\d+)\b", lambda m: say_int(int(m.group(1).replace(",", ""))), t)
+    t = t.replace("½", " and a half").replace("%", " percent")
+    # 왕 이름 뒤 로마 숫자만 바꾼다: Louis XIV → Louis the fourteenth
+    # (CIVIL·MIX 같은 보통 낱말을 숫자로 잘못 읽지 않도록 이름 뒤로 한정한다)
+    t = re.sub(
+        r"\b([A-Z][a-z]+)\s+(?!I\b)([IVXLC]{1,8})\b",  # 단독 I는 대명사라 건드리지 않는다
+        lambda m: f"{m.group(1)} the {ordinal(roman(m.group(2)))}" if roman(m.group(2)) else m.group(0),
+        t,
+    )
+    return re.sub(r"\s+", " ", t).strip()
+
+
+ROMAN = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+ROMAN_RE = re.compile(r"^(C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$")
+ORDINALS = {"one": "first", "two": "second", "three": "third", "five": "fifth", "eight": "eighth",
+            "nine": "ninth", "twelve": "twelfth"}
+
+
+def roman(s):
+    """표준 표기(1~199)만 숫자로 본다. 아니면 0을 돌려 원문을 그대로 둔다."""
+    if not ROMAN_RE.match(s):
+        return 0
+    total = prev = 0
+    for ch in reversed(s):
+        v = ROMAN[ch]
+        total += -v if v < prev else v
+        prev = max(prev, v)
+    return total
+
+
+def ordinal(n):
+    w = say_int(n)
+    head, _, tail = w.rpartition("-")
+    last = ORDINALS.get(tail) or (tail[:-1] + "ieth" if tail.endswith("y") else tail + "th")
+    return f"{head}-{last}" if head else last
+
+
 WORD_PROMPTS = [
     "Pronounce the English word clearly: {t}",
     "Read this word aloud: {t}",
@@ -96,10 +179,15 @@ def gen_one(job):
         return "skip"
     os.makedirs(os.path.dirname(out), exist_ok=True)
     prompts = WORD_PROMPTS if job.get("word", True) else SENTENCE_PROMPTS
+    # 숫자가 든 문장은 몇 번 실패하면 숫자를 영어로 풀어 다시 시도한다 (파일 경로는 그대로)
+    spelled = spell_numbers(job["text"])
+    if spelled == job["text"]:
+        spelled = None
     last, daily_streak, last_ptr = "", 0, 0
     for a in range(20):
         try:
-            pcm, rate = synth(prompts[a % len(prompts)].format(t=job["text"]), job.get("voice", DEFAULT_VOICE))
+            text = spelled if (spelled and a >= 4) else job["text"]
+            pcm, rate = synth(prompts[a % len(prompts)].format(t=text), job.get("voice", DEFAULT_VOICE))
             if len(pcm) < 2000:
                 raise RuntimeError("empty-audio", 0, 0, False)
             to_mp3(pcm, rate, out)
