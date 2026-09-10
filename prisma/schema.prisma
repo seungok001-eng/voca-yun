@@ -536,9 +536,11 @@ model ExamPaper {
   title          String
   level          String
   paperJson      String // 문제·정답·해설 전체
+  tags           String        @default("") // 쉼표로 구분한 태그 ("중2 중간, 3반")
   createdAt      DateTime      @default(now())
 
   @@index([organizationId, createdAt])
+  @@index([createdById, createdAt])
   @@schema("voca")
 }
 

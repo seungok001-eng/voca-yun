@@ -12,13 +12,33 @@ type Q = {
   choices?: string[]; answer: string; explanation: string; points?: string[];
 };
 type Paper = {
-  id?: number; orgName?: string; kind: Kind; title: string; levelLabel: string; instruction: string;
+  id?: number; orgName?: string; canEdit?: boolean; kind: Kind; title: string; levelLabel: string; instruction: string;
   passage?: string; passageKo?: string; wordBank?: string[];
   questions: Q[];
   teacherNotes: { heading: string; body: string }[];
   vocabNotes: { word: string; meaning: string; note?: string }[];
 };
-type SavedRow = { id: number; kind: Kind; title: string; level: string; author: string; createdAt: string };
+type SavedRow = {
+  id: number; kind: Kind; title: string; level: string;
+  author: string; authorId: number; createdAt: string; tags: string[]; canEdit: boolean;
+};
+type SavedFilter = {
+  kind: string; author: string; level: string; tag: string; q: string;
+  range: "all" | "today" | "week" | "month" | "custom"; from: string; to: string;
+  mine: boolean; page: number;
+};
+const EMPTY_FILTER: SavedFilter = { kind: "", author: "", level: "", tag: "", q: "", range: "all", from: "", to: "", mine: true, page: 1 };
+
+// 날짜 범위 → from/to (YYYY-MM-DD, 한국 시간)
+function rangeDates(f: SavedFilter): { from: string; to: string } {
+  const day = (d: Date) => new Date(d.getTime() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+  const now = new Date();
+  if (f.range === "today") return { from: day(now), to: day(now) };
+  if (f.range === "week") return { from: day(new Date(now.getTime() - 6 * 86400000)), to: day(now) };
+  if (f.range === "month") return { from: day(new Date(now.getTime() - 29 * 86400000)), to: day(now) };
+  if (f.range === "custom") return { from: f.from, to: f.to };
+  return { from: "", to: "" };
+}
 type View = "student" | "answer" | "explain";
 
 const KIND_INFO: Record<Kind, { label: string; icon: string; desc: string; want: "WORDS" | "TEXT" }> = {
@@ -329,9 +349,52 @@ export default function ExamMakerPage() {
   const sheetRef = useRef<HTMLDivElement>(null);
   const printRef = useRef<HTMLDivElement>(null);
 
-  const loadSaved = () =>
-    api<{ papers: SavedRow[] }>("/api/admin/exam/saved").then((d) => setSaved(d.papers)).catch(() => setSaved([]));
+  // 만들어 둔 시험지 목록 — 필터·검색·쪽 넘김
+  const [filter, setFilter] = useState<SavedFilter>(EMPTY_FILTER);
+  const [savedMeta, setSavedMeta] = useState<{ total: number; authors: { id: number; name: string }[]; tags: string[]; role: string }>({ total: 0, authors: [], tags: [], role: "" });
+  const filterRef = useRef(filter);
+  filterRef.current = filter;
+  const firstLoad = useRef(true);
+
+  const loadSaved = (f: SavedFilter = filterRef.current) => {
+    const { from, to } = rangeDates(f);
+    const p = new URLSearchParams();
+    if (f.kind) p.set("kind", f.kind);
+    if (f.author) p.set("author", f.author);
+    if (f.level) p.set("level", f.level);
+    if (f.tag) p.set("tag", f.tag);
+    if (f.q.trim()) p.set("q", f.q.trim());
+    if (from) p.set("from", from);
+    if (to) p.set("to", to);
+    if (f.mine && !f.author) p.set("mine", "1");
+    p.set("page", String(f.page));
+    return api<{ papers: SavedRow[]; total: number; authors: { id: number; name: string }[]; tags: string[]; me: { id: number; role: string } }>(
+      `/api/admin/exam/saved?${p.toString()}`
+    ).then((d) => {
+      setSaved(d.papers);
+      setSavedMeta({ total: d.total, authors: d.authors, tags: d.tags, role: d.me.role });
+      // 원장·총관리자는 처음에 학원 전체를 본다
+      if (firstLoad.current) {
+        firstLoad.current = false;
+        if (d.me.role !== "TEACHER" && f.mine) { const nf = { ...f, mine: false }; setFilter(nf); loadSaved(nf); }
+      }
+    }).catch(() => setSaved([]));
+  };
   useEffect(() => { loadSaved(); }, []);
+  const applyFilter = (patch: Partial<SavedFilter>) => {
+    const nf = { ...filterRef.current, ...patch, page: patch.page ?? 1 };
+    setFilter(nf);
+    loadSaved(nf);
+  };
+
+  async function editTags(r: SavedRow) {
+    const v = prompt("태그를 쉼표로 구분해 입력하세요 (예: 중2 중간, 3반)", r.tags.join(", "));
+    if (v === null) return;
+    try {
+      await api("/api/admin/exam/saved", { method: "PUT", body: JSON.stringify({ id: r.id, tags: v }) });
+      loadSaved();
+    } catch (e) { alert(e instanceof Error ? e.message : "저장하지 못했습니다."); }
+  }
 
   // AI 키 설정 (총관리자에게만 보인다 — 권한이 없으면 조용히 숨긴다)
   const [ai, setAi] = useState<{ configured: boolean; source: string | null; masked: string | null } | null>(null);
@@ -815,10 +878,13 @@ export default function ExamMakerPage() {
             {(["student", "answer", "explain"] as View[]).map((v) => (
               <button key={v} className="chip bg-slate-100 text-slate-600 !py-2 !px-4" onClick={() => setShow(v)}>{VIEW_KO[v]}</button>
             ))}
-            <button className="chip bg-slate-100 text-slate-600 !py-2 !px-4" onClick={startQuestions}>📝 문항 편집</button>
-            {paper.kind === "CLOZE" && paper.passage && (
+            {paper.canEdit !== false && (
+              <button className="chip bg-slate-100 text-slate-600 !py-2 !px-4" onClick={startQuestions}>📝 문항 편집</button>
+            )}
+            {paper.canEdit !== false && paper.kind === "CLOZE" && paper.passage && (
               <button className="chip bg-slate-100 text-slate-600 !py-2 !px-4" onClick={startEdit}>✏️ 빈칸 편집</button>
             )}
+            {paper.canEdit === false && <span className="text-[11px] text-slate-400">다른 선생님 시험지 · 보기와 인쇄만</span>}
           </div>
           <div className="flex flex-wrap items-center gap-2 border-t border-slate-100 pt-3">
             <span className="text-xs font-bold text-slate-500">한꺼번에 인쇄:</span>
@@ -865,8 +931,10 @@ export default function ExamMakerPage() {
                     <button key={v} onClick={() => setShow(v)}
                       className={"chip !py-2 !px-4 " + (show === v ? "bg-white text-[#16204a] font-black" : "bg-white/70 text-slate-500")}>{VIEW_KO[v]}</button>
                   ))}
-                  <button className="chip bg-white/70 text-slate-500 !py-2 !px-4" onClick={startQuestions}>📝 문항 편집</button>
-                  {paper.kind === "CLOZE" && paper.passage && (
+                  {paper.canEdit !== false && (
+                    <button className="chip bg-white/70 text-slate-500 !py-2 !px-4" onClick={startQuestions}>📝 문항 편집</button>
+                  )}
+                  {paper.canEdit !== false && paper.kind === "CLOZE" && paper.passage && (
                     <button className="chip bg-white/70 text-slate-500 !py-2 !px-4" onClick={startEdit}>✏️ 빈칸 편집</button>
                   )}
                   <button className="chip bg-[#c9a227] text-white !py-2 !px-4 font-black" onClick={printCurrent}>🖨️ 이 장 인쇄</button>
@@ -922,39 +990,116 @@ export default function ExamMakerPage() {
         {printQueue?.papers.map((p) => printQueue.views.map((v) => <PaperSheet key={`${p.id}-${v}`} paper={p} view={v} />))}
       </div>
 
-      {/* 만들어 둔 시험지 */}
-      {saved.length > 0 && (
-        <div className="card p-5 space-y-3">
-          <div className="flex flex-wrap items-center gap-2">
-            <h2 className="font-black text-[#16204a] flex-1">🗂️ 만들어 둔 시험지</h2>
-            <button className="text-xs font-bold text-slate-400"
-              onClick={() => setPicked(picked.size === saved.length ? new Set() : new Set(saved.map((r) => r.id)))}>
-              {picked.size === saved.length ? "전체 해제" : "전체 선택"}
-            </button>
-          </div>
-          <div className="space-y-1.5">
-            {saved.map((r) => (
-              <div key={r.id} className={"flex items-center gap-2 rounded-xl px-3 py-2 " + (picked.has(r.id) ? "bg-[#f4f6fb] ring-1 ring-[#16204a]/20" : "bg-slate-50")}>
-                <input type="checkbox" checked={picked.has(r.id)} onChange={() => togglePick(r.id)} />
-                <span className="chip bg-white text-slate-500 shrink-0">{KIND_INFO[r.kind]?.icon} {KIND_INFO[r.kind]?.label}</span>
-                <div className="min-w-0 flex-1">
-                  <p className="text-sm font-bold text-[#16204a] truncate">{r.title}</p>
-                  <p className="text-[11px] text-slate-400">{r.level} · {r.author} · {new Date(r.createdAt).toLocaleDateString("ko-KR")}</p>
-                </div>
-                <button className="chip bg-white text-slate-600 !py-1.5 shrink-0" onClick={() => openSaved(r.id)}>열기</button>
-                <button className="chip bg-white text-rose-500 !py-1.5 shrink-0" onClick={() => removeSaved(r.id)}>삭제</button>
-              </div>
-            ))}
-          </div>
-          <div className="flex flex-wrap items-center gap-2 border-t border-slate-100 pt-3">
-            <span className="text-xs font-bold text-slate-500">선택한 {picked.size}장 인쇄:</span>
-            <ViewPicker />
-            <button className="chip bg-[#c9a227] text-white !py-2 !px-4 font-black ml-auto" disabled={printing || picked.size === 0} onClick={printPicked}>
-              {printing ? "준비 중..." : "🖨️ 선택한 시험지 모두 인쇄"}
-            </button>
-          </div>
+      {/* 만들어 둔 시험지 — 유형·선생님·날짜·태그로 찾기 */}
+      <div className="card p-5 space-y-3">
+        <div className="flex flex-wrap items-center gap-2">
+          <h2 className="font-black text-[#16204a] flex-1">🗂️ 만들어 둔 시험지 <span className="text-slate-400 font-normal text-sm">{savedMeta.total}장</span></h2>
+          <label className={"chip cursor-pointer !py-1.5 " + (filter.mine && !filter.author ? "bg-[#16204a] text-white" : "bg-slate-100 text-slate-500")}>
+            <input type="checkbox" className="hidden" checked={filter.mine} onChange={(e) => applyFilter({ mine: e.target.checked, author: "" })} />
+            내 것만
+          </label>
         </div>
-      )}
+
+        {/* 필터 줄 */}
+        <div className="grid gap-2 sm:grid-cols-4">
+          <select className="input !py-2 text-sm" value={filter.kind} onChange={(e) => applyFilter({ kind: e.target.value })}>
+            <option value="">모든 유형</option>
+            {(Object.keys(KIND_INFO) as Kind[]).map((k) => <option key={k} value={k}>{KIND_INFO[k].icon} {KIND_INFO[k].label}</option>)}
+          </select>
+          <select className="input !py-2 text-sm" value={filter.author} onChange={(e) => applyFilter({ author: e.target.value, mine: false })}>
+            <option value="">모든 선생님</option>
+            {savedMeta.authors.map((a) => <option key={a.id} value={a.id}>{a.name}</option>)}
+          </select>
+          <select className="input !py-2 text-sm" value={filter.range} onChange={(e) => applyFilter({ range: e.target.value as SavedFilter["range"] })}>
+            <option value="all">전체 기간</option>
+            <option value="today">오늘</option>
+            <option value="week">최근 7일</option>
+            <option value="month">최근 30일</option>
+            <option value="custom">기간 지정</option>
+          </select>
+          <select className="input !py-2 text-sm" value={filter.level} onChange={(e) => applyFilter({ level: e.target.value })}>
+            <option value="">모든 학년</option>
+            {EXAM_LEVELS.map((l) => <option key={l.code} value={l.label}>{l.label}</option>)}
+          </select>
+        </div>
+        {filter.range === "custom" && (
+          <div className="flex flex-wrap items-center gap-2">
+            <input type="date" className="input !py-2 text-sm w-auto" value={filter.from} onChange={(e) => setFilter((f) => ({ ...f, from: e.target.value }))} />
+            <span className="text-slate-400">~</span>
+            <input type="date" className="input !py-2 text-sm w-auto" value={filter.to} onChange={(e) => setFilter((f) => ({ ...f, to: e.target.value }))} />
+            <button className="chip bg-[#16204a] text-white !py-2" onClick={() => applyFilter({})}>적용</button>
+          </div>
+        )}
+        <div className="flex flex-wrap items-center gap-2">
+          <input className="input !py-2 text-sm flex-1 min-w-[200px]" placeholder="제목 검색 (Enter)"
+            value={filter.q} onChange={(e) => setFilter((f) => ({ ...f, q: e.target.value }))}
+            onKeyDown={(e) => e.key === "Enter" && !e.nativeEvent.isComposing && applyFilter({})} />
+          {savedMeta.tags.length > 0 && (
+            <select className="input !py-2 text-sm w-auto" value={filter.tag} onChange={(e) => applyFilter({ tag: e.target.value })}>
+              <option value="">모든 태그</option>
+              {savedMeta.tags.map((t) => <option key={t} value={t}>🏷️ {t}</option>)}
+            </select>
+          )}
+          {(filter.kind || filter.author || filter.level || filter.tag || filter.q || filter.range !== "all") && (
+            <button className="text-xs font-bold text-slate-400" onClick={() => applyFilter({ ...EMPTY_FILTER, mine: filter.mine })}>필터 지우기</button>
+          )}
+        </div>
+
+        {saved.length === 0 ? (
+          <p className="text-sm text-slate-400 text-center py-6">조건에 맞는 시험지가 없습니다.</p>
+        ) : (
+          <>
+            <div className="flex items-center justify-between">
+              <button className="text-xs font-bold text-slate-400"
+                onClick={() => setPicked(saved.every((r) => picked.has(r.id)) ? new Set() : new Set(saved.map((r) => r.id)))}>
+                {saved.every((r) => picked.has(r.id)) ? "이 쪽 전체 해제" : "이 쪽 전체 선택"}
+              </button>
+              <span className="text-[11px] text-slate-400">
+                {(filter.page - 1) * 20 + 1}~{Math.min(filter.page * 20, savedMeta.total)} / {savedMeta.total}
+              </span>
+            </div>
+            <div className="space-y-1.5">
+              {saved.map((r) => (
+                <div key={r.id} className={"flex items-center gap-2 rounded-xl px-3 py-2 " + (picked.has(r.id) ? "bg-[#f4f6fb] ring-1 ring-[#16204a]/20" : "bg-slate-50")}>
+                  <input type="checkbox" checked={picked.has(r.id)} onChange={() => togglePick(r.id)} />
+                  <span className="chip bg-white text-slate-500 shrink-0">{KIND_INFO[r.kind]?.icon} {KIND_INFO[r.kind]?.label}</span>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-sm font-bold text-[#16204a] truncate">{r.title}</p>
+                    <p className="text-[11px] text-slate-400 flex flex-wrap items-center gap-x-1.5">
+                      <span>{r.level}</span>·<span>{r.author}</span>·
+                      <span>{new Date(r.createdAt).toLocaleString("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}</span>
+                      {r.tags.map((t) => (
+                        <button key={t} className="text-[#c9a227] font-bold hover:underline" onClick={() => applyFilter({ tag: t })}>🏷️ {t}</button>
+                      ))}
+                    </p>
+                  </div>
+                  <button className="chip bg-white text-slate-600 !py-1.5 shrink-0" onClick={() => openSaved(r.id)}>열기</button>
+                  {r.canEdit && (
+                    <>
+                      <button className="chip bg-white text-slate-500 !py-1.5 shrink-0" onClick={() => editTags(r)}>태그</button>
+                      <button className="chip bg-white text-rose-500 !py-1.5 shrink-0" onClick={() => removeSaved(r.id)}>삭제</button>
+                    </>
+                  )}
+                </div>
+              ))}
+            </div>
+            {savedMeta.total > 20 && (
+              <div className="flex items-center justify-center gap-2">
+                <button className="chip bg-slate-100 text-slate-600 !py-1.5" disabled={filter.page <= 1} onClick={() => applyFilter({ page: filter.page - 1 })}>← 이전</button>
+                <span className="text-xs text-slate-500">{filter.page} / {Math.ceil(savedMeta.total / 20)}</span>
+                <button className="chip bg-slate-100 text-slate-600 !py-1.5" disabled={filter.page * 20 >= savedMeta.total} onClick={() => applyFilter({ page: filter.page + 1 })}>다음 →</button>
+              </div>
+            )}
+            <div className="flex flex-wrap items-center gap-2 border-t border-slate-100 pt-3">
+              <span className="text-xs font-bold text-slate-500">선택한 {picked.size}장 인쇄:</span>
+              <ViewPicker />
+              <button className="chip bg-[#c9a227] text-white !py-2 !px-4 font-black ml-auto" disabled={printing || picked.size === 0} onClick={printPicked}>
+                {printing ? "준비 중..." : "🖨️ 선택한 시험지 모두 인쇄"}
+              </button>
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }
