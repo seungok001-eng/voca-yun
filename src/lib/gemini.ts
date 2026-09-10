@@ -79,6 +79,20 @@ async function once(parts: Part[], key: string, o: CallOpts): Promise<string> {
 }
 
 export async function gemini(parts: Part[], o: CallOpts = {}): Promise<string> {
+  try {
+    return await geminiRaw(parts, o);
+  } catch (e) {
+    // 무료 키는 Pro를 못 쓴다 (2026년부터 Pro는 결제 등록 키 전용).
+    // 고급을 골랐는데 막히면 표준(Flash)으로 한 번 더 시도한다.
+    const code = (e as Error & { code?: number }).code;
+    if (o.model === PRO && code && [400, 403, 404, 429].includes(code)) {
+      return geminiRaw(parts, { ...o, model: FLASH });
+    }
+    throw e;
+  }
+}
+
+async function geminiRaw(parts: Part[], o: CallOpts = {}): Promise<string> {
   const keys = o.keys?.length ? o.keys : await loadKeys();
   if (keys.length === 0) {
     throw new Error("AI 키가 설정되지 않았습니다. 총관리자가 'AI 시험지 → AI 키 설정'에서 Gemini 키를 넣어 주세요.");

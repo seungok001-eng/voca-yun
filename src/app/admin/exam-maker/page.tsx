@@ -767,9 +767,9 @@ export default function ExamMakerPage() {
             </div>
           )}
           <div>
-            <label className="text-xs font-bold text-slate-600 block mb-1">문제 품질</label>
+            <label className="text-xs font-bold text-slate-600 block mb-1">문제 품질 <span className="font-normal text-slate-400">(고급은 결제 등록 키에서만, 무료 키면 표준으로 자동 전환)</span></label>
             <div className="flex gap-2">
-              {([["FLASH", "표준 (빠름)"], ["PRO", "고급 (느림)"]] as const).map(([v, l]) => (
+              {([["FLASH", "표준 (빠름)"], ["PRO", "고급 (결제 키)"]] as const).map(([v, l]) => (
                 <button key={v} onClick={() => setQuality(v)}
                   className={"chip flex-1 justify-center " + (quality === v ? "bg-[#16204a] text-white" : "bg-slate-100 text-slate-500")}>{l}</button>
               ))}
