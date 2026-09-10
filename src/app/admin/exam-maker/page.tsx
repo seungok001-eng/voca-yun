@@ -333,6 +333,23 @@ export default function ExamMakerPage() {
     api<{ papers: SavedRow[] }>("/api/admin/exam/saved").then((d) => setSaved(d.papers)).catch(() => setSaved([]));
   useEffect(() => { loadSaved(); }, []);
 
+  // PC에서 스크린샷을 찍고 Ctrl+V 하면 바로 첨부된다 (글자를 붙여넣는 건 그대로 둔다)
+  const kindRef = useRef(kind);
+  kindRef.current = kind;
+  useEffect(() => {
+    const onPaste = (e: ClipboardEvent) => {
+      if (kindRef.current === "GRAMMAR") return;
+      const files = Array.from(e.clipboardData?.files ?? []).filter((f) => f.type.startsWith("image/") || f.type === "application/pdf");
+      if (files.length === 0) return;
+      e.preventDefault();
+      void onFiles(files);
+    };
+    window.addEventListener("paste", onPaste);
+    return () => window.removeEventListener("paste", onPaste);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const [dragging, setDragging] = useState(false);
+
   // 사진은 업로드 전에 화면 크기로 줄인다 (휴대폰 사진이 너무 큰 경우)
   async function shrink(file: File): Promise<File> {
     if (!file.type.startsWith("image/") || file.size < 600 * 1024) return file;
@@ -346,6 +363,12 @@ export default function ExamMakerPage() {
       const blob = await new Promise<Blob | null>((r) => cv.toBlob(r, "image/jpeg", 0.85));
       return blob ? new File([blob], "photo.jpg", { type: "image/jpeg" }) : file;
     } catch { return file; }
+  }
+
+  // 드래그해서 놓거나 붙여넣은 파일도 같은 길로 온다 (여러 장이면 순서대로)
+  async function onFiles(list: FileList | File[] | null) {
+    if (!list) return;
+    for (const f of Array.from(list)) await onFile(f);
   }
 
   async function onFile(f: File | null) {
@@ -362,7 +385,7 @@ export default function ExamMakerPage() {
       if (!res.ok) throw new Error(d.error || `읽지 못했습니다. (${res.status})`);
       if (KIND_INFO[kind].want === "WORDS") {
         if (!d.words?.length) throw new Error("단어를 찾지 못했습니다. 사진이 선명한지 확인해 주세요.");
-        setWords(d.words);
+        setWords((prev) => [...prev, ...d.words]);
       } else {
         if (!d.text?.trim()) throw new Error("글을 찾지 못했습니다.");
         setText((prev) => (prev.trim() ? `${prev}\n\n${d.text}` : d.text));
@@ -612,18 +635,26 @@ export default function ExamMakerPage() {
           </div>
         </div>
 
-        {/* 2. 재료 */}
-        <div>
-          <label className="text-xs font-bold text-slate-600 block mb-1.5">2. 자료 넣기</label>
+        {/* 2. 재료 — 파일을 끌어다 놓거나 스크린샷을 붙여넣어도 된다 */}
+        <div
+          className={"rounded-xl transition-colors " + (dragging ? "ring-2 ring-[#c9a227] bg-[#fdfaf0] p-2 -m-2" : "")}
+          onDragOver={(e) => { if (kind !== "GRAMMAR") { e.preventDefault(); setDragging(true); } }}
+          onDragLeave={() => setDragging(false)}
+          onDrop={(e) => { e.preventDefault(); setDragging(false); if (kind !== "GRAMMAR") void onFiles(e.dataTransfer.files); }}
+        >
+          <label className="text-xs font-bold text-slate-600 block mb-1.5">
+            2. 자료 넣기
+            {kind !== "GRAMMAR" && <span className="font-normal text-slate-400"> — 파일을 여기로 끌어다 놓거나, 스크린샷을 찍고 Ctrl+V</span>}
+          </label>
           {kind === "GRAMMAR" ? (
             <input className="input" placeholder="예: 현재완료, 관계대명사 주격·목적격 (쉼표로 여러 개)"
               value={topics} onChange={(e) => setTopics(e.target.value)} />
           ) : (
             <>
               <div className="flex flex-wrap items-center gap-2 mb-2">
-                <input ref={fileRef} type="file" className="hidden"
+                <input ref={fileRef} type="file" className="hidden" multiple
                   accept="image/*,.pdf,application/pdf,.xlsx,.xlsm,.xls,.csv,.txt"
-                  onChange={(e) => onFile(e.target.files?.[0] ?? null)} />
+                  onChange={(e) => onFiles(e.target.files)} />
                 <button className="btn-primary !py-2 text-sm" disabled={extracting} onClick={() => fileRef.current?.click()}>
                   {extracting ? "읽는 중..." : "📎 사진 · PDF · 엑셀 올리기"}
                 </button>
@@ -631,6 +662,7 @@ export default function ExamMakerPage() {
                   {KIND_INFO[kind].want === "WORDS" ? "단어와 뜻이 보이는 사진·PDF 또는 엑셀" : "본문이 보이는 사진·PDF, 엑셀, 텍스트 파일"} · 4MB 이하
                 </span>
               </div>
+              {dragging && <p className="text-sm font-bold text-[#c9a227] mb-2">📥 여기에 놓으세요</p>}
               {note && <p className="text-[11px] text-amber-600 mb-2">⚠️ {note}</p>}
 
               {KIND_INFO[kind].want === "WORDS" ? (
