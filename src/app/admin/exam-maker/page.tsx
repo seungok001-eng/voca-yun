@@ -653,7 +653,7 @@ export default function ExamMakerPage() {
             <>
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 <input ref={fileRef} type="file" className="hidden" multiple
-                  accept="image/*,.pdf,application/pdf,.xlsx,.xlsm,.xls,.csv,.txt"
+                  accept=".jpg,.jpeg,.png,.webp,.gif,.bmp,.heic,.heif,.pdf,.xlsx,.xlsm,.xls,.csv,.txt,image/jpeg,image/png,image/webp,application/pdf"
                   onChange={(e) => onFiles(e.target.files)} />
                 <button className="btn-primary !py-2 text-sm" disabled={extracting} onClick={() => fileRef.current?.click()}>
                   {extracting ? "읽는 중..." : "📎 사진 · PDF · 엑셀 올리기"}
