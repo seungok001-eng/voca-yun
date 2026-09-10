@@ -11,8 +11,9 @@ export async function POST(req: Request) {
     const file = form.get("file");
     const want = form.get("want") === "WORDS" ? "WORDS" : "TEXT";
     if (!(file instanceof File)) return Response.json({ error: "파일을 선택하세요." }, { status: 400 });
-    if (file.size > 8 * 1024 * 1024) {
-      return Response.json({ error: "파일이 너무 큽니다. 8MB 이하로 올려주세요." }, { status: 400 });
+    // 서버 요청 한도가 4.5MB라 그 안에서 받는다 (사진은 화면에서 미리 줄여서 온다)
+    if (file.size > 4 * 1024 * 1024) {
+      return Response.json({ error: "파일이 너무 큽니다. 4MB 이하로 올려주세요." }, { status: 400 });
     }
     return Response.json(await extractFromFile(file, want));
   } catch (e) {

@@ -335,15 +335,15 @@ export default function ExamMakerPage() {
 
   // 사진은 업로드 전에 화면 크기로 줄인다 (휴대폰 사진이 너무 큰 경우)
   async function shrink(file: File): Promise<File> {
-    if (!file.type.startsWith("image/") || file.size < 1.2 * 1024 * 1024) return file;
+    if (!file.type.startsWith("image/") || file.size < 600 * 1024) return file;
     try {
       const bmp = await createImageBitmap(file);
-      const scale = Math.min(1, 2000 / Math.max(bmp.width, bmp.height));
+      const scale = Math.min(1, 1800 / Math.max(bmp.width, bmp.height));
       const cv = document.createElement("canvas");
       cv.width = Math.round(bmp.width * scale);
       cv.height = Math.round(bmp.height * scale);
       cv.getContext("2d")!.drawImage(bmp, 0, 0, cv.width, cv.height);
-      const blob = await new Promise<Blob | null>((r) => cv.toBlob(r, "image/jpeg", 0.9));
+      const blob = await new Promise<Blob | null>((r) => cv.toBlob(r, "image/jpeg", 0.85));
       return blob ? new File([blob], "photo.jpg", { type: "image/jpeg" }) : file;
     } catch { return file; }
   }
@@ -357,8 +357,9 @@ export default function ExamMakerPage() {
       fd.append("file", await shrink(f));
       fd.append("want", KIND_INFO[kind].want);
       const res = await fetch("/api/admin/exam/extract", { method: "POST", body: fd });
-      const d = await res.json();
-      if (!res.ok) throw new Error(d.error || "읽지 못했습니다.");
+      if (res.status === 413) throw new Error("파일이 너무 큽니다. 4MB 이하로 줄여서 올려주세요.");
+      const d = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(d.error || `읽지 못했습니다. (${res.status})`);
       if (KIND_INFO[kind].want === "WORDS") {
         if (!d.words?.length) throw new Error("단어를 찾지 못했습니다. 사진이 선명한지 확인해 주세요.");
         setWords(d.words);
@@ -627,7 +628,7 @@ export default function ExamMakerPage() {
                   {extracting ? "읽는 중..." : "📎 사진 · PDF · 엑셀 올리기"}
                 </button>
                 <span className="text-[11px] text-slate-400">
-                  {KIND_INFO[kind].want === "WORDS" ? "단어와 뜻이 보이는 사진·PDF 또는 엑셀" : "본문이 보이는 사진·PDF, 엑셀, 텍스트 파일"} · 8MB 이하
+                  {KIND_INFO[kind].want === "WORDS" ? "단어와 뜻이 보이는 사진·PDF 또는 엑셀" : "본문이 보이는 사진·PDF, 엑셀, 텍스트 파일"} · 4MB 이하
                 </span>
               </div>
               {note && <p className="text-[11px] text-amber-600 mb-2">⚠️ {note}</p>}
