@@ -52,3 +52,31 @@ export async function DELETE(req: Request) {
     return errorResponse(e);
   }
 }
+
+// 편집한 시험지 저장 (빈칸 편집 등) — 만든 사람, 같은 학원 원장, 총관리자만
+export async function PUT(req: Request) {
+  try {
+    const s = await requireStaff();
+    const b = await req.json();
+    const id = Number(b.id);
+    const paper = b.paper;
+    if (!id || !paper?.questions) return Response.json({ error: "저장할 내용이 없습니다." }, { status: 400 });
+    const row = await db.examPaper.findUnique({ where: { id } });
+    if (!row) return Response.json({ error: "시험지를 찾을 수 없습니다." }, { status: 404 });
+    const me = await db.user.findUnique({ where: { id: s.uid }, select: { organizationId: true } });
+    const mine = row.createdById === s.uid;
+    const sameOrg = row.organizationId === me?.organizationId;
+    if (s.role !== "SUPER_ADMIN" && !mine && !(s.role === "DIRECTOR" && sameOrg) && !(sameOrg && s.role === "TEACHER")) {
+      return Response.json({ error: "권한이 없습니다." }, { status: 403 });
+    }
+    const { id: _id, orgName: _o, ...body } = paper;
+    void _id; void _o;
+    await db.examPaper.update({
+      where: { id },
+      data: { title: String(body.title || row.title), paperJson: JSON.stringify(body) },
+    });
+    return Response.json({ ok: true });
+  } catch (e) {
+    return errorResponse(e);
+  }
+}

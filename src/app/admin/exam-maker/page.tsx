@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { api } from "@/lib/client";
 import { EXAM_LEVELS, CLOZE_LEVELS } from "@/lib/exam-levels";
+import { parseCloze, buildCloze, sentenceOf, blankAt, type Token, type Blank } from "@/lib/cloze-edit";
 
 type Kind = "VOCAB" | "GRAMMAR" | "CLOZE" | "COMPOSITION";
 type WordPair = { text: string; meaning: string };
@@ -70,6 +71,12 @@ const SHEET_CSS = `
 .e-vocab b { color:#16204a; }
 .e-vocab i { color:#777; font-style:normal; font-size:11.5px; display:block; }
 .e-foot { margin-top:20px; text-align:center; font-size:10px; color:#999; }
+.ed-passage { font-size:15px; line-height:2.4; white-space:pre-wrap; }
+.ed-w { cursor:pointer; border-radius:4px; padding:1px 2px; transition:background .1s; }
+.ed-w:hover { background:#e9edf8; }
+.ed-b { cursor:pointer; display:inline-block; background:#16204a; color:#fff; border-radius:6px; padding:0 8px; margin:0 1px; font-weight:700; }
+.ed-b:hover { background:#c9a227; }
+.ed-b small { opacity:.75; font-weight:400; margin-right:4px; }
 @media print { body{margin:0} .esheet{padding:10mm 12mm; max-width:none} }
 `;
 
@@ -91,7 +98,10 @@ export default function ExamMakerPage() {
   const [busy, setBusy] = useState(false);
   const [note, setNote] = useState("");
   const [paper, setPaper] = useState<Paper | null>(null);
-  const [show, setShow] = useState<"none" | "student" | "answer" | "explain">("none");
+  const [show, setShow] = useState<"none" | "student" | "answer" | "explain" | "edit">("none");
+  // 빈칸 편집: 본문을 낱말로 쪼개 들고 있다가 저장할 때 다시 합친다
+  const [edit, setEdit] = useState<{ tokens: Token[]; blanks: Blank[]; bank: boolean } | null>(null);
+  const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState<SavedRow[]>([]);
   const fileRef = useRef<HTMLInputElement>(null);
   const sheetRef = useRef<HTMLDivElement>(null);
@@ -172,6 +182,84 @@ export default function ExamMakerPage() {
     if (!confirm("이 시험지를 삭제할까요?")) return;
     try { await api(`/api/admin/exam/saved?id=${id}`, { method: "DELETE" }); loadSaved(); }
     catch (e) { alert(e instanceof Error ? e.message : "삭제하지 못했습니다."); }
+  }
+
+  // ── 빈칸 편집 ──
+  function startEdit() {
+    if (!paper?.passage) return;
+    const answers = new Map(paper.questions.map((q) => [q.no, q.answer]));
+    const { tokens, blanks } = parseCloze(paper.passage, answers);
+    setEdit({ tokens, blanks, bank: !!paper.wordBank?.length });
+    setShow("edit");
+  }
+
+  function toggleToken(i: number) {
+    setEdit((e) => {
+      if (!e) return e;
+      const at = blankAt(e.blanks, i);
+      if (at >= 0) return { ...e, blanks: e.blanks.filter((_, k) => k !== at) };  // 빈칸 → 낱말로
+      if (!e.tokens[i].core) return e;                                            // 문장부호만 있는 조각
+      return { ...e, blanks: [...e.blanks, { start: i, end: i + 1 }] };            // 낱말 → 빈칸으로
+    });
+  }
+
+  async function saveEdit() {
+    if (!paper || !edit) return;
+    setSaving(true);
+    try {
+      const sorted = [...edit.blanks].sort((a, b) => a.start - b.start);
+      const { passage, answers } = buildCloze(edit.tokens, sorted);
+
+      // 원래 있던 빈칸은 해설을 그대로 물려받고, 새로 만든 빈칸만 표시해 둔다
+      const old = parseCloze(paper.passage!, new Map(paper.questions.map((q) => [q.no, q.answer])));
+      const oldQ = new Map(old.blanks.map((b, k) => [`${b.start}-${b.end}`, paper.questions[k]]));
+      const questions: Q[] = sorted.map((b, k) => {
+        const prev = oldQ.get(`${b.start}-${b.end}`);
+        return {
+          no: k + 1,
+          prompt: sentenceOf(edit.tokens, b),
+          answer: answers[k],
+          explanation: prev?.explanation ?? "",
+          points: prev?.points,
+        };
+      });
+
+      // 새 빈칸 해설은 AI에게 받는다 (실패해도 저장은 된다)
+      const fresh = questions.filter((q) => !q.explanation);
+      if (fresh.length > 0) {
+        try {
+          const full = edit.tokens.map((t) => t.lead + t.core + t.trail + t.ws).join("");
+          const got = await api<{ items: { no: number; explanation: string; points?: string[] }[] }>(
+            "/api/admin/exam/explain",
+            { method: "POST", body: JSON.stringify({ passage: full, level: paper.levelLabel,
+              items: fresh.map((q) => ({ no: q.no, answer: q.answer, sentence: q.prompt })) }) }
+          );
+          for (const it of got.items) {
+            const q = questions.find((x) => x.no === it.no);
+            if (q) { q.explanation = it.explanation; q.points = it.points; }
+          }
+        } catch { /* 해설 없이 저장 */ }
+        for (const q of questions) if (!q.explanation) q.explanation = "선생님이 추가한 빈칸입니다.";
+      }
+
+      // <보기>: 정답은 모두 넣고, 원래 있던 오답 낱말은 그대로 둔다
+      let wordBank: string[] | undefined;
+      if (edit.bank) {
+        const oldAnswers = new Set(paper.questions.map((q) => q.answer));
+        const distractors = (paper.wordBank ?? []).filter((w) => !oldAnswers.has(w));
+        wordBank = [...new Set([...answers, ...distractors])].sort(() => Math.random() - 0.5);
+      }
+
+      const next: Paper = { ...paper, passage, questions, wordBank };
+      if (paper.id) await api("/api/admin/exam/saved", { method: "PUT", body: JSON.stringify({ id: paper.id, paper: next }) });
+      setPaper(next);
+      setEdit(null);
+      setShow("student");
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "저장하지 못했습니다.");
+    } finally {
+      setSaving(false);
+    }
   }
 
   function printSheet() {
@@ -366,6 +454,9 @@ export default function ExamMakerPage() {
           <button className="chip bg-slate-100 text-slate-600 !py-2 !px-4" onClick={() => setShow("student")}>📄 문제지</button>
           <button className="chip bg-slate-100 text-slate-600 !py-2 !px-4" onClick={() => setShow("answer")}>✅ 정답지</button>
           <button className="chip bg-slate-100 text-slate-600 !py-2 !px-4" onClick={() => setShow("explain")}>📚 해설지</button>
+          {paper.kind === "CLOZE" && paper.passage && (
+            <button className="chip bg-[#c9a227] text-white !py-2 !px-4 font-black" onClick={startEdit}>✏️ 빈칸 편집</button>
+          )}
         </div>
       )}
 
@@ -375,14 +466,78 @@ export default function ExamMakerPage() {
           onClick={() => setShow("none")}>
           <div className="max-w-[860px] mx-auto" onClick={(e) => e.stopPropagation()}>
             <div className="flex flex-wrap justify-end gap-2 mb-2">
-              {([["student", "📄 문제지"], ["answer", "✅ 정답지"], ["explain", "📚 해설지"]] as const).map(([v, l]) => (
-                <button key={v} onClick={() => setShow(v)}
-                  className={"chip !py-2 !px-4 " + (show === v ? "bg-white text-[#16204a] font-black" : "bg-white/70 text-slate-500")}>{l}</button>
-              ))}
-              <button className="chip bg-[#c9a227] text-white !py-2 !px-4 font-black" onClick={printSheet}>🖨️ 인쇄</button>
-              <button className="chip bg-white text-slate-600 !py-2 !px-4" onClick={() => setShow("none")}>✕ 닫기</button>
+              {show === "edit" ? (
+                <>
+                  <span className="text-white text-sm font-bold self-center mr-auto">
+                    ✏️ 낱말을 누르면 빈칸이 되고, 빈칸을 누르면 낱말로 돌아옵니다
+                    · 빈칸 {edit?.blanks.length ?? 0}개
+                    {edit && ` (${Math.round((edit.blanks.length / Math.max(1, edit.tokens.filter((t) => t.core).length)) * 100)}%)`}
+                  </span>
+                  <label className="chip bg-white/80 text-slate-600 !py-2 !px-3 cursor-pointer">
+                    <input type="checkbox" className="mr-1.5" checked={edit?.bank ?? false}
+                      onChange={(e) => setEdit((x) => x && { ...x, bank: e.target.checked })} />
+                    &lt;보기&gt; 넣기
+                  </label>
+                  <button className="chip bg-[#c9a227] text-white !py-2 !px-4 font-black" disabled={saving} onClick={saveEdit}>
+                    {saving ? "저장 중..." : "💾 저장"}
+                  </button>
+                  <button className="chip bg-white text-slate-600 !py-2 !px-4" disabled={saving}
+                    onClick={() => { setEdit(null); setShow("student"); }}>취소</button>
+                </>
+              ) : (
+                <>
+                  {([["student", "📄 문제지"], ["answer", "✅ 정답지"], ["explain", "📚 해설지"]] as const).map(([v, l]) => (
+                    <button key={v} onClick={() => setShow(v)}
+                      className={"chip !py-2 !px-4 " + (show === v ? "bg-white text-[#16204a] font-black" : "bg-white/70 text-slate-500")}>{l}</button>
+                  ))}
+                  {paper.kind === "CLOZE" && paper.passage && (
+                    <button className="chip bg-white/70 text-slate-500 !py-2 !px-4" onClick={startEdit}>✏️ 빈칸 편집</button>
+                  )}
+                  <button className="chip bg-[#c9a227] text-white !py-2 !px-4 font-black" onClick={printSheet}>🖨️ 인쇄</button>
+                  <button className="chip bg-white text-slate-600 !py-2 !px-4" onClick={() => setShow("none")}>✕ 닫기</button>
+                </>
+              )}
             </div>
             <div className="rounded-xl overflow-hidden shadow-2xl" ref={sheetRef}>
+              {/* 빈칸 편집 */}
+              {show === "edit" && edit && (
+                <div className="esheet">
+                  <p className="e-org">{paper.orgName ?? "정철 VOCA"} · 빈칸 편집</p>
+                  <h2 className="e-title">{paper.title}</h2>
+                  <p className="e-sub">{paper.levelLabel}</p>
+                  <div className="ed-passage">
+                    {edit.tokens.map((t, i) => {
+                      const at = blankAt(edit.blanks, i);
+                      if (at >= 0) {
+                        const b = edit.blanks[at];
+                        if (i !== b.start) return null; // 여러 낱말 빈칸은 첫 낱말에서 한 번만 그린다
+                        const no = [...edit.blanks].sort((x, y) => x.start - y.start).indexOf(b) + 1;
+                        const last = edit.tokens[b.end - 1];
+                        return (
+                          <span key={i}>
+                            {t.lead}
+                            <span className="ed-b" title="누르면 낱말로 돌아갑니다" onClick={() => toggleToken(i)}>
+                              <small>{no}</small>{edit.tokens.slice(b.start, b.end).map((x) => x.core).join(" ")}
+                            </span>
+                            {last.trail}{last.ws}
+                          </span>
+                        );
+                      }
+                      return (
+                        <span key={i}>
+                          {t.lead}
+                          {t.core
+                            ? <span className="ed-w" title="누르면 빈칸이 됩니다" onClick={() => toggleToken(i)}>{t.core}</span>
+                            : null}
+                          {t.trail}{t.ws}
+                        </span>
+                      );
+                    })}
+                  </div>
+                  <p className="e-foot">저장하면 번호가 순서대로 다시 매겨지고, 새 빈칸에는 해설이 자동으로 붙습니다.</p>
+                </div>
+              )}
+
               {/* 문제지 */}
               {show === "student" && (
                 <div className="esheet">
