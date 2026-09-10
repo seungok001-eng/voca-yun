@@ -83,10 +83,12 @@ export async function extractFromFile(file: File, want: "WORDS" | "TEXT"): Promi
     return { words: [], text: text.trim() };
   }
 
-  if (IMAGE_TYPES.includes(type) || /\.(jpe?g|png|webp|heic|heif)$/i.test(name)) {
+  const isPdf = type === "application/pdf" || /\.pdf$/i.test(name);
+  if (isPdf || IMAGE_TYPES.includes(type) || /\.(jpe?g|png|webp|heic|heif)$/i.test(name)) {
+    // PDF도 사진과 같은 방식으로 Gemini가 직접 읽는다 (여러 쪽이면 모두 읽는다)
     const buf = Buffer.from(await file.arrayBuffer());
     const image: Part = {
-      inlineData: { mimeType: type || "image/jpeg", data: buf.toString("base64") },
+      inlineData: { mimeType: isPdf ? "application/pdf" : (type || "image/jpeg"), data: buf.toString("base64") },
     };
 
     if (want === "WORDS") {
@@ -131,5 +133,5 @@ export async function extractFromFile(file: File, want: "WORDS" | "TEXT"): Promi
     };
   }
 
-  throw new Error("사진(jpg·png), 엑셀(xlsx·csv), 텍스트 파일만 올릴 수 있습니다.");
+  throw new Error("사진(jpg·png), PDF, 엑셀(xlsx·csv), 텍스트 파일만 올릴 수 있습니다.");
 }
