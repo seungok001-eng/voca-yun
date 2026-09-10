@@ -7,8 +7,14 @@
 
 import { db } from "./db";
 
-export const FLASH = process.env.GEMINI_TEXT_MODEL || "gemini-2.5-flash";
-export const PRO = process.env.GEMINI_PRO_MODEL || "gemini-2.5-pro";
+// 모델 역할별 기본값 (환경변수로 바꿀 수 있다)
+//  OCR   : 사진·PDF 읽기 — 가장 싼 모델로 충분하다
+//  FLASH : 문제 생성 '표준' — 3.8 Flash가 내신 문항 조건·어투를 훨씬 잘 맞춘다 (약 80원/장)
+//  PRO   : 문제 생성 '고급' — 수능 수준 오답 선택지가 필요할 때 (결제 등록 키)
+export const OCR = process.env.GEMINI_OCR_MODEL || "gemini-2.5-flash";
+export const FLASH = process.env.GEMINI_TEXT_MODEL || "gemini-3.8-flash";
+export const PRO = process.env.GEMINI_PRO_MODEL || "gemini-3.1-pro-preview";
+const LEGACY = "gemini-2.5-flash"; // 위 모델이 이 키에서 안 될 때 마지막으로 시도
 
 const ENV_KEYS = [
   ...(process.env.GEMINI_API_KEY ? [process.env.GEMINI_API_KEY] : []),
@@ -79,17 +85,19 @@ async function once(parts: Part[], key: string, o: CallOpts): Promise<string> {
 }
 
 export async function gemini(parts: Part[], o: CallOpts = {}): Promise<string> {
-  try {
-    return await geminiRaw(parts, o);
-  } catch (e) {
-    // 무료 키는 Pro를 못 쓴다 (2026년부터 Pro는 결제 등록 키 전용).
-    // 고급을 골랐는데 막히면 표준(Flash)으로 한 번 더 시도한다.
-    const code = (e as Error & { code?: number }).code;
-    if (o.model === PRO && code && [400, 403, 404, 429].includes(code)) {
-      return geminiRaw(parts, { ...o, model: FLASH });
+  // 고른 모델이 이 키에서 막히면(무료 키의 Pro, 아직 안 열린 새 모델 등) 한 단계 아래 모델로 내려간다
+  const chain = [...new Set([o.model || FLASH, FLASH, LEGACY])];
+  let last: unknown;
+  for (const model of chain) {
+    try {
+      return await geminiRaw(parts, { ...o, model });
+    } catch (e) {
+      last = e;
+      const code = (e as Error & { code?: number }).code;
+      if (!(code && [400, 403, 404, 429].includes(code))) throw e;
     }
-    throw e;
   }
+  throw last instanceof Error ? last : new Error("AI 호출에 실패했습니다.");
 }
 
 async function geminiRaw(parts: Part[], o: CallOpts = {}): Promise<string> {

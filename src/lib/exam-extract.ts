@@ -4,7 +4,7 @@
 //  - 텍스트 파일: 그대로 읽는다
 
 import * as XLSX from "xlsx";
-import { geminiJson, FLASH, type Part } from "./gemini";
+import { geminiJson, OCR, type Part } from "./gemini";
 import type { WordPair } from "./exam-maker";
 
 export type Extracted = { words: WordPair[]; text: string; note?: string };
@@ -104,7 +104,7 @@ export async function extractFromFile(file: File, want: "WORDS" | "TEXT"): Promi
 - 글씨가 흐려 확실하지 않으면 그 줄은 넣지 마라.`,
         }],
         WORDS_SCHEMA,
-        { model: FLASH, temperature: 0.1, maxOutputTokens: 16384 }
+        { model: OCR, temperature: 0.1, maxOutputTokens: 16384 }
       );
       return {
         words: (got.words ?? []).filter((w) => w.text?.trim() && w.meaning?.trim()),
@@ -124,7 +124,7 @@ export async function extractFromFile(file: File, want: "WORDS" | "TEXT"): Promi
 - 영어와 한국어가 같이 있으면 둘 다 옮긴다.`,
       }],
       TEXT_SCHEMA,
-      { model: FLASH, temperature: 0.1, maxOutputTokens: 16384 }
+      { model: OCR, temperature: 0.1, maxOutputTokens: 16384 }
     );
     return {
       words: [],
