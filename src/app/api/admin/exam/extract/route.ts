@@ -17,6 +17,11 @@ export async function POST(req: Request) {
     }
     return Response.json(await extractFromFile(file, want));
   } catch (e) {
+    // AI 쪽 오류(한도 초과, 키 문제 등)는 원인을 그대로 보여준다
+    const msg = e instanceof Error ? e.message : "";
+    if (/^\d{3}:|빈 응답|AI 키|AI 응답|AI 호출/.test(msg)) {
+      return Response.json({ error: `AI 오류: ${msg.slice(0, 220)}` }, { status: 502 });
+    }
     return errorResponse(e);
   }
 }

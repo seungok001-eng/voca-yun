@@ -121,6 +121,40 @@ async function geminiRaw(parts: Part[], o: CallOpts = {}): Promise<string> {
   throw last instanceof Error ? last : new Error("AI 호출에 실패했습니다.");
 }
 
+/**
+ * 키가 살아 있는지 확인한다 — 가장 싼 모델로 한 번만 부르고, 응답 본문이 비어도 오류만 없으면 통과.
+ * (생각 토큰을 쓰는 모델은 짧은 출력 한도에서 본문이 비어 나올 수 있어 본문으로 판단하지 않는다)
+ */
+export async function pingKey(key: string): Promise<{ ok: true; model: string } | { ok: false; reason: string }> {
+  const body = {
+    contents: [{ parts: [{ text: "Reply with OK." }] }],
+    generationConfig: { maxOutputTokens: 200, temperature: 0 },
+  };
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 25000);
+  try {
+    for (const model of [LEGACY, FLASH]) {
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+        { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body), signal: ctrl.signal }
+      );
+      const d = await res.json().catch(() => ({}));
+      if (!d?.error) return { ok: true, model };
+      const code = d.error.code;
+      const msg = String(d.error.message ?? "");
+      // 이 모델만 막힌 경우(404·403)는 다음 모델로, 키 자체 문제(400 invalid key 등)는 바로 실패
+      if (code === 404 || code === 403) continue;
+      if (code === 429) return { ok: false, reason: `요청 한도에 걸렸습니다 (429). 무료 키면 잠시 뒤 다시 시도하세요. ${msg.slice(0, 120)}` };
+      return { ok: false, reason: `${code}: ${msg.slice(0, 160)}` };
+    }
+    return { ok: false, reason: "이 키로 쓸 수 있는 모델을 찾지 못했습니다." };
+  } catch (e) {
+    return { ok: false, reason: e instanceof Error ? e.message : String(e) };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 /** JSON 스키마를 주고 결과를 파싱해서 돌려준다. */
 export async function geminiJson<T>(parts: Part[], schema: unknown, o: CallOpts = {}): Promise<T> {
   const raw = await gemini(parts, { ...o, schema });

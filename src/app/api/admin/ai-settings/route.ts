@@ -1,6 +1,8 @@
 import { db } from "@/lib/db";
 import { requireSuperAdmin, errorResponse } from "@/lib/auth";
-import { gemini, invalidateKeyCache, FLASH } from "@/lib/gemini";
+import { pingKey, invalidateKeyCache } from "@/lib/gemini";
+
+export const maxDuration = 60;
 
 // AI(Gemini) 키 설정 — 총관리자만. 키는 DB에 저장되고 화면에는 앞뒤 몇 글자만 보여준다.
 function mask(v: string) {
@@ -31,22 +33,25 @@ export async function PUT(req: Request) {
     if (!value) return Response.json({ error: "키를 입력하세요." }, { status: 400 });
 
     // 저장 전에 실제로 되는 키인지 한 번 불러본다
-    invalidateKeyCache();
-    try {
-      await gemini([{ text: "Reply with the single word OK." }], { model: FLASH, keys: [value], maxOutputTokens: 16, timeoutMs: 30000 });
-    } catch (e) {
-      return Response.json({ error: `키가 동작하지 않습니다: ${e instanceof Error ? e.message : String(e)}` }, { status: 400 });
-    }
+    const ping = await pingKey(value);
+    if (!ping.ok) return Response.json({ error: `키가 동작하지 않습니다: ${ping.reason}` }, { status: 400 });
 
-    await db.appSetting.upsert({
-      where: { key: "gemini_api_key" },
-      update: { value },
-      create: { key: "gemini_api_key", value },
-    });
+    try {
+      await db.appSetting.upsert({
+        where: { key: "gemini_api_key" },
+        update: { value },
+        create: { key: "gemini_api_key", value },
+      });
+    } catch (e) {
+      // 관리자 전용 화면이므로 원인을 그대로 보여준다 (표가 아직 없으면 배포가 덜 끝난 것)
+      const msg = e instanceof Error ? e.message : String(e);
+      return Response.json({ error: `키는 정상인데 저장에 실패했습니다: ${msg.slice(0, 200)}` }, { status: 500 });
+    }
     invalidateKeyCache();
-    return Response.json({ ok: true, masked: mask(value) });
+    return Response.json({ ok: true, masked: mask(value), model: ping.model });
   } catch (e) {
-    return errorResponse(e);
+    const msg = e instanceof Error ? e.message : String(e);
+    return Response.json({ error: `오류: ${msg.slice(0, 200)}` }, { status: 500 });
   }
 }
 
