@@ -333,6 +333,27 @@ export default function ExamMakerPage() {
     api<{ papers: SavedRow[] }>("/api/admin/exam/saved").then((d) => setSaved(d.papers)).catch(() => setSaved([]));
   useEffect(() => { loadSaved(); }, []);
 
+  // AI 키 설정 (총관리자에게만 보인다 — 권한이 없으면 조용히 숨긴다)
+  const [ai, setAi] = useState<{ configured: boolean; source: string | null; masked: string | null } | null>(null);
+  const [aiKey, setAiKey] = useState("");
+  const [aiBusy, setAiBusy] = useState(false);
+  const loadAi = () => api<typeof ai>("/api/admin/ai-settings").then(setAi).catch(() => setAi(null));
+  useEffect(() => { loadAi(); }, []);
+  async function saveAiKey() {
+    if (!aiKey.trim()) return;
+    setAiBusy(true);
+    try {
+      await api("/api/admin/ai-settings", { method: "PUT", body: JSON.stringify({ key: aiKey.trim() }) });
+      setAiKey("");
+      await loadAi();
+      alert("키가 확인됐고 저장했습니다. 이제 AI 시험지를 만들 수 있어요.");
+    } catch (e) {
+      alert(e instanceof Error ? e.message : "저장하지 못했습니다.");
+    } finally {
+      setAiBusy(false);
+    }
+  }
+
   // PC에서 스크린샷을 찍고 Ctrl+V 하면 바로 첨부된다 (글자를 붙여넣는 건 그대로 둔다)
   const kindRef = useRef(kind);
   kindRef.current = kind;
@@ -618,6 +639,28 @@ export default function ExamMakerPage() {
           사진·PDF·엑셀을 올리면 단어·문법·빈칸 채우기·영작 시험지를 만들어 드립니다. 정답지와 해설지도 함께 나옵니다.
         </p>
       </div>
+
+      {/* AI 키 설정 — 총관리자만 */}
+      {ai && (
+        <div className={"card p-4 " + (ai.configured ? "" : "border-2 !border-amber-300")}>
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="flex-1 min-w-[220px]">
+              <p className="font-black text-[#16204a] text-sm">🔑 AI 키 설정 (Gemini)</p>
+              <p className="text-[11px] text-slate-400 mt-0.5">
+                {ai.configured
+                  ? `설정됨 · ${ai.source === "ENV" ? "배포 환경변수" : `저장된 키 ${ai.masked}`}`
+                  : "아직 키가 없어요. Google AI Studio에서 받은 키를 붙여넣고 저장하세요. 저장 전에 실제로 되는지 확인합니다."}
+              </p>
+            </div>
+            <input className="input !py-2 flex-1 min-w-[260px] font-mono text-xs" type="password"
+              placeholder={ai.configured ? "바꾸려면 새 키 입력" : "AIza… 또는 AQ.… 로 시작하는 키"}
+              value={aiKey} onChange={(e) => setAiKey(e.target.value)} />
+            <button className="btn-primary !py-2 text-sm" disabled={aiBusy || !aiKey.trim()} onClick={saveAiKey}>
+              {aiBusy ? "확인 중..." : "확인 후 저장"}
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* 1. 종류 */}
       <div className="card p-5 space-y-4">

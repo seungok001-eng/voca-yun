@@ -12,9 +12,9 @@ export const maxDuration = 300;
 export async function POST(req: Request) {
   try {
     const s = await requireStaff();
-    if (!geminiReady()) {
+    if (!(await geminiReady())) {
       return Response.json(
-        { error: "AI 키가 설정되지 않았습니다. 배포 환경변수 GEMINI_API_KEY 를 추가해 주세요." },
+        { error: "AI 키가 설정되지 않았습니다. 총관리자가 이 화면 위쪽 'AI 키 설정'에서 Gemini 키를 넣어 주세요." },
         { status: 503 }
       );
     }

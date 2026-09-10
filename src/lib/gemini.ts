@@ -1,18 +1,38 @@
 // Gemini 텍스트·이미지 호출 (서버 전용)
 //
-// 키는 Vercel 환경변수 GEMINI_API_KEY (또는 GEMINI_KEYS 에 쉼표로 여러 개)로 넣는다.
-// 여러 개를 넣으면 한도가 걸릴 때 다음 키로 넘어간다.
+// 키를 찾는 순서
+//  1) 배포 환경변수 GEMINI_API_KEY (또는 GEMINI_KEYS 에 쉼표로 여러 개)
+//  2) 총관리자가 화면(AI 시험지 → AI 키 설정)에서 넣어 DB에 저장한 키
+// 여러 개면 한도가 걸릴 때 다음 키로 넘어간다.
 
-const KEYS = [
-  ...(process.env.GEMINI_API_KEY ? [process.env.GEMINI_API_KEY] : []),
-  ...(process.env.GEMINI_KEYS || "").split(",").map((k) => k.trim()).filter(Boolean),
-];
+import { db } from "./db";
 
 export const FLASH = process.env.GEMINI_TEXT_MODEL || "gemini-2.5-flash";
 export const PRO = process.env.GEMINI_PRO_MODEL || "gemini-2.5-pro";
 
-export function geminiReady() {
-  return KEYS.length > 0;
+const ENV_KEYS = [
+  ...(process.env.GEMINI_API_KEY ? [process.env.GEMINI_API_KEY] : []),
+  ...(process.env.GEMINI_KEYS || "").split(",").map((k) => k.trim()).filter(Boolean),
+];
+
+// DB 키는 1분 동안 기억해 두고 쓴다 (요청마다 DB를 읽지 않게)
+let cache: { keys: string[]; at: number } | null = null;
+export function invalidateKeyCache() { cache = null; }
+
+async function loadKeys(): Promise<string[]> {
+  if (cache && Date.now() - cache.at < 60_000) return cache.keys;
+  let dbKey = "";
+  try {
+    const row = await db.appSetting.findUnique({ where: { key: "gemini_api_key" } });
+    dbKey = row?.value?.trim() ?? "";
+  } catch { /* 테이블이 아직 없거나 DB 오류 — 환경변수만 쓴다 */ }
+  const keys = [...new Set([...ENV_KEYS, ...(dbKey ? [dbKey] : [])])];
+  cache = { keys, at: Date.now() };
+  return keys;
+}
+
+export async function geminiReady() {
+  return (await loadKeys()).length > 0;
 }
 
 export type Part = { text: string } | { inlineData: { mimeType: string; data: string } };
@@ -23,6 +43,7 @@ type CallOpts = {
   temperature?: number;
   maxOutputTokens?: number;
   timeoutMs?: number;
+  keys?: string[];       // 특정 키로만 부를 때 (키 검증용)
 };
 
 async function once(parts: Part[], key: string, o: CallOpts): Promise<string> {
@@ -50,10 +71,7 @@ async function once(parts: Part[], key: string, o: CallOpts): Promise<string> {
     }
     const cand = d?.candidates?.[0];
     const text = (cand?.content?.parts ?? []).map((p: { text?: string }) => p.text ?? "").join("");
-    if (!text) {
-      // 길이 초과나 안전 필터로 본문이 비는 경우
-      throw new Error(`빈 응답 (${cand?.finishReason ?? "unknown"})`);
-    }
+    if (!text) throw new Error(`빈 응답 (${cand?.finishReason ?? "unknown"})`);
     return text;
   } finally {
     clearTimeout(timer);
@@ -61,18 +79,19 @@ async function once(parts: Part[], key: string, o: CallOpts): Promise<string> {
 }
 
 export async function gemini(parts: Part[], o: CallOpts = {}): Promise<string> {
-  if (KEYS.length === 0) {
-    throw new Error("AI 키가 설정되지 않았습니다. 배포 환경변수 GEMINI_API_KEY 를 추가해 주세요.");
+  const keys = o.keys?.length ? o.keys : await loadKeys();
+  if (keys.length === 0) {
+    throw new Error("AI 키가 설정되지 않았습니다. 총관리자가 'AI 시험지 → AI 키 설정'에서 Gemini 키를 넣어 주세요.");
   }
   let last: unknown;
-  for (let attempt = 0; attempt < KEYS.length * 2; attempt++) {
-    const key = KEYS[attempt % KEYS.length];
+  for (let attempt = 0; attempt < keys.length * 2; attempt++) {
+    const key = keys[attempt % keys.length];
     try {
       return await once(parts, key, o);
     } catch (e) {
       last = e;
       const code = (e as Error & { code?: number }).code;
-      // 429·503은 잠깐 쉬었다가 다시, 그 외 4xx는 바로 포기
+      // 429·5xx는 잠깐 쉬었다가 다시, 그 외 4xx는 바로 포기
       if (code && code !== 429 && code !== 500 && code !== 503) break;
       await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
     }
@@ -86,7 +105,6 @@ export async function geminiJson<T>(parts: Part[], schema: unknown, o: CallOpts 
   try {
     return JSON.parse(raw) as T;
   } catch {
-    // 드물게 코드펜스가 섞여 오는 경우를 걷어낸다
     const m = raw.match(/\{[\s\S]*\}|\[[\s\S]*\]/);
     if (m) return JSON.parse(m[0]) as T;
     throw new Error("AI 응답을 읽지 못했습니다. 다시 시도해 주세요.");

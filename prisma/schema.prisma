@@ -541,3 +541,12 @@ model ExamPaper {
   @@index([organizationId, createdAt])
   @@schema("voca")
 }
+
+// 앱 전체 설정 (AI 키 등) — 총관리자가 화면에서 넣는다
+model AppSetting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+
+  @@schema("voca")
+}
