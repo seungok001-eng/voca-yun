@@ -25,6 +25,7 @@ model Organization {
   members  User[]    @relation("OrgMembers")
   classes  Class[]
   holidays Holiday[]
+  examPapers ExamPaper[] @relation("OrgExamPapers")
 
   @@schema("voca")
 }
@@ -81,6 +82,8 @@ model User {
   badges        BadgeLog[]
   speakSessions SpeakSession[]
   course        CourseAssignment?
+
+  examPapers ExamPaper[] @relation("MyExamPapers")
 
   @@index([organizationId, status])
   @@schema("voca")
@@ -519,5 +522,22 @@ model SpeakAnswer {
   missedJson String? // 부정확했던 단어 목록 JSON
   createdAt  DateTime     @default(now())
 
+  @@schema("voca")
+}
+
+// AI로 만든 시험지 — 나중에 다시 열어 인쇄할 수 있게 보관한다
+model ExamPaper {
+  id             Int           @id @default(autoincrement())
+  organizationId Int?
+  organization   Organization? @relation("OrgExamPapers", fields: [organizationId], references: [id], onDelete: Cascade)
+  createdById    Int
+  createdBy      User          @relation("MyExamPapers", fields: [createdById], references: [id], onDelete: Cascade)
+  kind           String // VOCAB | GRAMMAR | CLOZE | COMPOSITION
+  title          String
+  level          String
+  paperJson      String // 문제·정답·해설 전체
+  createdAt      DateTime      @default(now())
+
+  @@index([organizationId, createdAt])
   @@schema("voca")
 }

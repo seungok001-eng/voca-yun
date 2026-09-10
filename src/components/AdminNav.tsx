@@ -21,6 +21,7 @@ const ITEMS: Item[] = [
   { href: "/admin/wordbooks", label: "📚 단어장", min: "super" },
   { href: "/admin/textbooks", label: "📕 교재 관리", min: "super" },
   { href: "/admin/paper", label: "📝 시험지 출제", min: "staff" },
+  { href: "/admin/exam-maker", label: "🤖 AI 시험지", min: "staff" },
   { href: "/admin/reports", label: "📄 리포트", min: "staff" },
   { href: "/admin/notifications", label: "💬 학부모 알림", min: "staff" },
   { href: "/admin/errors", label: "🚨 오류 로그", min: "super" },
