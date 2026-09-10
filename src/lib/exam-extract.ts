@@ -6,6 +6,7 @@
 import * as XLSX from "xlsx";
 import { geminiJson, OCR, type Part } from "./gemini";
 import type { WordPair } from "./exam-maker";
+import { cleanWordPair } from "./word-clean";
 
 export type Extracted = { words: WordPair[]; text: string; note?: string };
 
@@ -48,7 +49,7 @@ function wordsFromSheet(rows: unknown[][]): WordPair[] {
     // 한 줄에서 영어 칸과 한국어 칸을 각각 찾는다 (번호 칸이 앞에 있어도 상관없다)
     const en = cells.find((c) => hasEn(c) && !hasKo(c) && !/^\d+$/.test(c));
     const ko = cells.find((c) => hasKo(c));
-    if (en && ko && en !== ko) out.push({ text: en, meaning: ko });
+    if (en && ko && en !== ko) out.push(cleanWordPair({ text: en, meaning: ko }));
   }
   return out;
 }
@@ -101,13 +102,16 @@ export async function extractFromFile(file: File, want: "WORDS" | "TEXT"): Promi
 - text에는 영어 낱말(또는 숙어), meaning에는 우리말 뜻을 넣는다.
 - 뜻이 여러 개면 사진에 적힌 대로 쉼표로 이어 쓴다.
 - 번호, 페이지 머리글, 표 제목 같은 것은 빼고 낱말만 담는다.
+- 발음기호([ˈempərər] 같은 것)는 넣지 마라.
+- 시험 힌트가 되는 것은 모두 뺀다: 과거형·과거분사(went, gone), 반의어·동의어·유의어(↔ sad, = large), 복수형, 비교급, 예문.
+  낱말과 우리말 뜻만 남긴다. 품사 표시(n. v. adj.)는 뜻 앞에 있으면 그대로 둔다.
 - 글씨가 흐려 확실하지 않으면 그 줄은 넣지 마라.`,
         }],
         WORDS_SCHEMA,
         { model: OCR, temperature: 0.1, maxOutputTokens: 16384 }
       );
       return {
-        words: (got.words ?? []).filter((w) => w.text?.trim() && w.meaning?.trim()),
+        words: (got.words ?? []).map(cleanWordPair).filter((w) => w.text && w.meaning),
         text: "",
         note: "사진에서 읽었습니다. 잘못 읽은 곳이 없는지 확인하고 고쳐 주세요.",
       };

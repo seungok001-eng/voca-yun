@@ -6,6 +6,7 @@
 import { geminiJson, FLASH, PRO, type Part } from "./gemini";
 import { levelBrief, LEVEL_BY_CODE, CLOZE_BY_CODE } from "./exam-levels";
 import { shuffle } from "./grading";
+import { cleanWordPair } from "./word-clean";
 
 export type ExamKind = "VOCAB" | "GRAMMAR" | "CLOZE" | "COMPOSITION";
 
@@ -182,7 +183,8 @@ export async function makeVocabPaper(opts: {
   words: WordPair[]; mode: VocabMode; count?: number; level: string; title?: string; quality?: string;
 }): Promise<ExamPaper> {
   const level = LEVEL_BY_CODE.get(opts.level);
-  const all = opts.words.filter((w) => w.text.trim() && w.meaning.trim());
+  // 발음기호·과거형·반의어 같은 힌트는 문제에 나오면 안 되므로 여기서 한 번 더 걷어낸다
+  const all = opts.words.map(cleanWordPair).filter((w) => w.text && w.meaning);
   if (all.length < 2) throw new Error("단어가 2개 이상 필요합니다.");
 
   const count = Math.min(all.length, Math.max(1, opts.count || all.length));
