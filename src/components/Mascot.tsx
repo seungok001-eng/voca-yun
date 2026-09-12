@@ -31,8 +31,8 @@ export default function Mascot({ mood = "happy", size = 120, className = "", bou
           <>
             <ellipse cx="44" cy="54" rx="5" ry="6" fill={ink} /><circle cx="46" cy="52" r="1.6" fill="#fff" />
             <ellipse cx="80" cy="54" rx="5" ry="6" fill={ink} /><circle cx="82" cy="52" r="1.6" fill="#fff" />
-            <path d="M36 44 q8 4 14 2" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
-            <path d="M88 44 q-8 4 -14 2" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
+            <path d="M36 48 q8 -7 14 -5" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
+            <path d="M88 48 q-8 -7 -14 -5" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
             <path d="M84 62 q3 8 0 12" stroke="#60a5fa" strokeWidth="3" fill="none" strokeLinecap="round" />
           </>
         );
@@ -41,8 +41,8 @@ export default function Mascot({ mood = "happy", size = 120, className = "", bou
           <>
             <ellipse cx="44" cy="55" rx="5.5" ry="6.5" fill={ink} /><circle cx="46" cy="53" r="1.8" fill="#fff" />
             <ellipse cx="80" cy="55" rx="5.5" ry="6.5" fill={ink} /><circle cx="82" cy="53" r="1.8" fill="#fff" />
-            <path d="M36 43 q8 -2 14 3" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
-            <path d="M88 43 q-8 -2 -14 3" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
+            <path d="M36 46 q8 -5 14 -3" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
+            <path d="M88 46 q-8 -5 -14 -3" stroke={ink} strokeWidth="2.5" fill="none" strokeLinecap="round" />
           </>
         );
       case "sleepy":
