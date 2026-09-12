@@ -1,6 +1,6 @@
 import { db } from "./db";
 import { resolveSettings } from "./settings";
-import { todayPlanFor } from "./plan";
+import { todayPlanFor, lessonOrder } from "./plan";
 
 // 학생 관점의 교재 과정 — 배정된 교재, 오늘의 진도, 레슨별 진행 상태
 
@@ -53,7 +53,8 @@ export async function textbookHome(studentId: number) {
     return { program: settings.program, courseTrack: settings.courseTrack, textbook: null, lessons: [], todayLessonId: null };
   }
 
-  const all = textbook.parts.flatMap((p) => p.lessons.map((l) => ({ ...l, partOrder: p.order })));
+  // 진행 순서: 파트 → (Toon L1, Book L1, Toon L2, Book L2 …)
+  const all = textbook.parts.flatMap((p) => [...p.lessons].sort(lessonOrder).map((l) => ({ ...l, partOrder: p.order })));
   // 통과한 세션만 본다 — 탈락 기록은 화면에 아무 표시도 하지 않는다
   const passedSessions = await db.speakSession.findMany({
     where: { studentId, lessonId: { in: all.map((l) => l.id) }, kind: "TEST", status: "PASSED" },

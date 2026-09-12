@@ -1,5 +1,6 @@
 import { db } from "@/lib/db";
 import { requireStaff, accessibleClassIds, errorResponse, AuthError } from "@/lib/auth";
+import { lessonOrder } from "@/lib/plan";
 
 async function guard(s: Awaited<ReturnType<typeof requireStaff>>, classId: number) {
   const ids = await accessibleClassIds(s);
@@ -37,7 +38,7 @@ export async function GET(_req: Request, ctx: { params: Promise<{ id: string }> 
 
     // 레슨별 문장 수 (설정 화면에서 통과 기준을 정할 때 참고)
     const lessons = course?.textbook.parts.flatMap((p) =>
-      p.lessons.map((l) => {
+      [...p.lessons].sort(lessonOrder).map((l) => {
         const lines = l.dialogues.flatMap((d) => d.lines);
         return {
           id: l.id, partOrder: p.order, area: l.area, order: l.order, name: l.name,

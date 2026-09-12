@@ -9,6 +9,11 @@ import { db } from "./db";
 import { addDays, dayCodeOf, krHolidayMap } from "./schedule";
 import { todayStr } from "./srs";
 
+/** 교재 레슨 진행 순서 — 같은 파트 안에서 Toon L1 → Book L1 → Toon L2 → Book L2 … */
+export function lessonOrder(a: { area: string; order: number }, b: { area: string; order: number }) {
+  return a.order - b.order || (a.area === "TOON" ? -1 : 1) - (b.area === "TOON" ? -1 : 1);
+}
+
 export type PlanUnit = {
   key: string;        // "W:1:30" | "L:123"
   kind: "WORDS" | "LESSON";
@@ -50,7 +55,7 @@ export async function unitsForClass(classId: number): Promise<{ words: PlanUnit[
   const lessons: PlanUnit[] = [];
   const areaKo: Record<string, string> = { TOON: "Toon", READING: "Book" };
   for (const p of course?.textbook.parts ?? []) {
-    for (const l of p.lessons) {
+    for (const l of [...p.lessons].sort(lessonOrder)) {
       lessons.push({
         key: `L:${l.id}`, kind: "LESSON", lessonId: l.id,
         label: `P${p.order} ${areaKo[l.area] ?? l.area} L${l.order}`, sub: l.name,
