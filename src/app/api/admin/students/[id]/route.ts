@@ -123,6 +123,7 @@ export async function PATCH(req: Request, ctx: { params: Promise<{ id: string }>
           speakPassCount: o.speakPassCount ?? null,
           courseTrack: o.courseTrack ?? null,
           program: o.program ?? null,
+          uiTheme: o.uiTheme ?? null,
         };
         await db.studentSetting.upsert({
           where: { userId: studentId },

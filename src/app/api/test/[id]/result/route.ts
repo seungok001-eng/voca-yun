@@ -13,8 +13,16 @@ export async function GET(_req: Request, ctx: { params: Promise<{ id: string }> 
     if (!session) return Response.json({ error: "시험을 찾을 수 없습니다." }, { status: 404 });
     if (s.role === "STUDENT" && session.studentId !== s.uid) throw new AuthError(403, "권한이 없습니다.");
 
+    // 통과 시 얻은 포인트 (finalizeSession과 같은 식) — 결과 화면 '오늘 얻은 것'
+    const correctCount = session.answers.filter((a) => a.correct).length;
+    const earned = session.status === "PASSED" ? correctCount * 2 + 20 + Math.max(0, 10 - (session.attemptNo - 1) * 5) : 0;
+
     return Response.json({
       id: session.id,
+      earned,
+      streak: session.student.streak,
+      bestStreak: session.student.bestStreak,
+      points: session.student.points,
       kind: session.kind,
       mode: session.mode,
       status: session.status,

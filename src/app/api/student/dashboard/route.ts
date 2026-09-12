@@ -6,6 +6,7 @@ import { loadScheduleContext, isStudyDay } from "@/lib/schedule";
 import { todayStr } from "@/lib/srs";
 import { textbookToday } from "@/lib/textbook-student";
 import { upcomingForStudent } from "@/lib/plan";
+import { earnedBadges } from "@/lib/badges";
 
 export async function GET() {
   try {
@@ -39,10 +40,16 @@ export async function GET() {
     const textbook = settings.program === "TEXTBOOK" ? await textbookToday(s.uid) : null;
     // 예습: 앞으로 일주일 진도 (실패해도 홈은 뜨게)
     const preview = await upcomingForStudent(s.uid, 7).catch(() => []);
+    // 자라는 나무·뱃지용 (실패해도 홈은 뜨게)
+    const badges = await earnedBadges(s.uid).catch(() => null);
 
     return Response.json({
       textbook,
       preview,
+      wordsLearned: badges?.stats.words ?? 0,
+      badgeCount: badges?.earnedCount ?? 0,
+      badgeTotal: badges?.total ?? 0,
+      uiTheme: settings.uiTheme,
       name: user?.name,
       className: user?.class?.name ?? null,
       points: user?.points ?? 0,

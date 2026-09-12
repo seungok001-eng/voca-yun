@@ -98,6 +98,7 @@ export async function PATCH(req: Request, ctx: { params: Promise<{ id: string }>
         ...(st.speakPassCount != null ? { speakPassCount: st.speakPassCount } : {}),
         ...(st.courseTrack ? { courseTrack: st.courseTrack } : {}),
         ...(st.program ? { program: st.program } : {}),
+        ...(st.uiTheme ? { uiTheme: st.uiTheme } : {}),
       };
       await db.classSetting.upsert({
         where: { classId },

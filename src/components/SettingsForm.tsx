@@ -16,6 +16,7 @@ export type SettingsValues = {
   speakPassCount: number | null; // 통과에 필요한 문장 수 (0/빈칸 = 전체)
   courseTrack: string | null; // BASIC | ADVANCED
   program: string | null; // VOCA | TEXTBOOK
+  uiTheme: string | null; // CUTE | CLEAN
 };
 
 // 교재 과정 설정 옆에 보여줄 레슨별 문장 수 (선생님이 통과 기준을 정할 때 참고)
@@ -54,6 +55,7 @@ export default function SettingsForm({
     speakPassCount: initial?.speakPassCount ?? (inherit ? null : 0),
     courseTrack: initial?.courseTrack ?? (inherit ? null : "BASIC"),
     program: initial?.program ?? (inherit ? null : "VOCA"),
+    uiTheme: initial?.uiTheme ?? (inherit ? null : "CUTE"),
   });
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
@@ -76,6 +78,7 @@ export default function SettingsForm({
     if (k === "retestScope") return { ALL: "전체", WRONG_ONLY: "틀린 것만" }[val as string] ?? val;
     if (k === "program") return { VOCA: "VOCA 과정", TEXTBOOK: "교재 과정" }[val as string] ?? val;
     if (k === "courseTrack") return { BASIC: "기본반", ADVANCED: "심화반" }[val as string] ?? val;
+    if (k === "uiTheme") return { CUTE: "귀여움", CLEAN: "깔끔함" }[val as string] ?? val;
     if (k === "speakPassCount") return Number(val) === 0 ? "전체 문장" : `${val}문장`;
     if (k === "studyDays") {
       const koMap: Record<string, string> = { MON: "월", TUE: "화", WED: "수", THU: "목", FRI: "금", SAT: "토", SUN: "일" };
@@ -106,6 +109,15 @@ export default function SettingsForm({
           어떤 과정으로 학습할지 먼저 정합니다. 과정 안의 단계·진도는 반 관리에서 배정합니다.
         </p>
       </div>
+
+      {/* 학생 화면 테마 */}
+      <Field label="🎨 학생 화면 테마" note={inheritNote("uiTheme")}>
+        <select className="input" value={v.uiTheme ?? "__inherit"} onChange={(e) => set("uiTheme", e.target.value === "__inherit" ? null : e.target.value)}>
+          {inherit && <option value="__inherit">반 설정 따름</option>}
+          <option value="CUTE">귀여움 — 초등용 (둥근 글꼴, 파스텔, 캐릭터가 통통)</option>
+          <option value="CLEAN">깔끔함 — 중고등용 (남색·금색, 절제된 동작)</option>
+        </select>
+      </Field>
 
       {/* 시험 방식 */}
       <Field label="시험 방식" note={inheritNote("testMode")}>

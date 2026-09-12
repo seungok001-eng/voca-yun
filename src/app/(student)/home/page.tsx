@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { api } from "@/lib/client";
 import { useLiveRefresh } from "@/lib/use-live";
+import Mascot, { type Mood } from "@/components/Mascot";
+import GrowthTree, { treeStage, TREE_STAGES } from "@/components/GrowthTree";
 
 type TodayLesson = {
   id: number; partOrder: number; area: string; order: number; name: string;
@@ -25,6 +27,7 @@ type PreviewItem = {
 type Dashboard = {
   textbook: TextbookToday | null;
   preview: PreviewItem[];
+  wordsLearned: number; badgeCount: number; badgeTotal: number; uiTheme: string;
   planLabel: string | null;
   name: string;
   className: string | null;
@@ -59,6 +62,25 @@ function fmtPassedAt(iso: string) {
   return `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일 ${hh}:${mm}`;
 }
 
+// 진행률 링
+function Ring({ pct, size = 64, label }: { pct: number; size?: number; label?: string }) {
+  const r = (size - 8) / 2, c = 2 * Math.PI * r;
+  return (
+    <div className="relative shrink-0" style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90">
+        <circle cx={size / 2} cy={size / 2} r={r} stroke="rgba(22,32,74,.1)" strokeWidth="8" fill="none" />
+        <circle cx={size / 2} cy={size / 2} r={r} stroke="url(#ringGrad)" strokeWidth="8" fill="none" strokeLinecap="round"
+          strokeDasharray={c} strokeDashoffset={c * (1 - Math.min(1, pct / 100))} style={{ transition: "stroke-dashoffset .8s ease" }} />
+        <defs><linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#3b82f6" /><stop offset="1" stopColor="#22c55e" /></linearGradient></defs>
+      </svg>
+      <div className="absolute inset-0 grid place-items-center text-center leading-none">
+        <span className="text-sm font-black text-[#16204a]">{pct}%</span>
+        {label && <span className="text-[9px] text-slate-400">{label}</span>}
+      </div>
+    </div>
+  );
+}
+
 // 오늘의 교재 진도 카드 — 단어 카드처럼 '먼저 외우기 / 시험 보기'를 바로 누를 수 있다
 function TextbookTodayCard({ t, starting, onWords }: {
   t: TextbookToday; starting: boolean; onWords: (lessonId: number, to: "study" | "test") => void;
@@ -75,10 +97,10 @@ function TextbookTodayCard({ t, starting, onWords }: {
     : null;
 
   return (
-    <section className="card p-5">
+    <section className="card p-5 border-2 tone-speak">
       <div className="flex items-center justify-between mb-3">
-        <h2 className="font-black text-[#16204a]">오늘의 학습</h2>
-        <span className="chip bg-indigo-50 text-indigo-800">📕 {t.textbook.name}</span>
+        <h2 className="text-[#16204a] flex items-center gap-2"><span className="tone-icon">📕</span>오늘의 학습</h2>
+        <span className="chip bg-white/80 text-indigo-800">{t.textbook.name}</span>
       </div>
       <div className="text-xs text-slate-500 mb-3 flex flex-wrap gap-x-3 gap-y-1">
         <span>{t.courseTrack === "ADVANCED" ? "심화반" : "기본반"}</span>
@@ -226,33 +248,51 @@ export default function HomePage() {
 
   return (
     <div className="space-y-4">
-      {/* 인사 + 스탯 */}
-      <section className="card p-5 bg-gradient-to-br from-[#16204a] to-[#2a3c7d] !border-0 text-white">
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="text-xs text-indigo-200">{d.className ?? "반 미배정"}</p>
-            <h1 className="text-xl font-black mt-0.5">{d.name}님, 안녕하세요! 👋</h1>
-          </div>
-          <div className="text-right">
-            <p className="text-2xl font-black text-[color:var(--brand-gold-soft,#e7cf7a)]">🔥 {d.streak}일</p>
-            <p className="text-[10px] text-indigo-200">연속 학습 (최고 {d.bestStreak}일)</p>
-          </div>
-        </div>
-        <div className="mt-4 flex gap-3">
-          <div className="flex-1 rounded-xl bg-white/10 p-3 text-center">
-            <p className="text-lg font-black">{d.points.toLocaleString()}P</p>
-            <p className="text-[10px] text-indigo-200">포인트</p>
-          </div>
-          <div className="flex-1 rounded-xl bg-white/10 p-3 text-center">
-            <p className="text-lg font-black">{d.todayCount}</p>
-            <p className="text-[10px] text-indigo-200">오늘의 단어</p>
-          </div>
-          <div className="flex-1 rounded-xl bg-white/10 p-3 text-center">
-            <p className="text-lg font-black">{d.dueReviews}</p>
-            <p className="text-[10px] text-indigo-200">복습 대기</p>
-          </div>
-        </div>
-      </section>
+      {/* 인사 · 마스코트 · 나무 · 스탯 */}
+      {(() => {
+        const mood: Mood = d.activeSessionId ? "think" : d.lastSession?.status === "FAILED" ? "worried"
+          : !d.todayIsStudyDay ? "sleepy" : d.todayCount === 0 && !d.textbook ? "cheer" : "happy";
+        const msg = d.activeSessionId ? "시험이 진행 중이에요. 이어서 해볼까요?"
+          : d.lastSession?.status === "FAILED" ? "괜찮아요, 재시험으로 다시 도전!"
+          : !d.todayIsStudyDay ? "오늘은 쉬는 날! 예습은 언제든 자유예요."
+          : d.textbook ? "오늘 진도가 기다리고 있어요!"
+          : d.todayCount > 0 ? `오늘 단어 ${d.todayCount}개가 기다려요!` : "오늘 할 일 끝! 최고예요 👍";
+        const tree = treeStage(d.wordsLearned);
+        return (
+          <section className="hero card p-5 relative overflow-hidden">
+            <div className="flex items-center gap-3">
+              <Mascot mood={mood} size={92} bounce={mood === "cheer" || mood === "happy"} />
+              <div className="flex-1 min-w-0">
+                <p className="text-[11px] opacity-70">{d.className ?? "반 미배정"}</p>
+                <h1 className="text-2xl leading-tight">{d.name}님, 안녕! 👋</h1>
+                <p className="text-sm opacity-80 mt-1">{msg}</p>
+              </div>
+              <Link href="/badges" className="shrink-0 text-center" title="내 나무 보기">
+                <GrowthTree words={d.wordsLearned} size={88} />
+                <p className="text-[10px] font-bold opacity-80 -mt-1">{TREE_STAGES[tree.stage].name}</p>
+              </Link>
+            </div>
+            <div className="mt-4 grid grid-cols-4 gap-2">
+              {[
+                ["🔥", `${d.streak}일`, `연속 (최고 ${d.bestStreak})`, null],
+                ["🪙", d.points.toLocaleString(), "포인트", null],
+                ["🌳", d.wordsLearned.toLocaleString(), "외운 단어", null],
+                ["🏅", `${d.badgeCount}/${d.badgeTotal}`, "뱃지", "/badges"],
+              ].map(([icon, v, l, href]) => {
+                const inner = (
+                  <>
+                    <p className="text-base font-black leading-tight">{icon} {v}</p>
+                    <p className="text-[10px] opacity-70">{l}</p>
+                  </>
+                );
+                return href
+                  ? <Link key={String(l)} href={String(href)} className="rounded-2xl bg-white/60 p-2.5 text-center block hover:bg-white/80 transition-colors">{inner}</Link>
+                  : <div key={String(l)} className="rounded-2xl bg-white/60 p-2.5 text-center">{inner}</div>;
+              })}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* 오늘은 쉬는 날 */}
       {!d.todayIsStudyDay && (
@@ -284,8 +324,8 @@ export default function HomePage() {
 
       {/* 탈락 → 재시험 */}
       {!d.activeSessionId && d.lastSession?.status === "FAILED" && (
-        <div className="card p-4 border-2 !border-rose-300">
-          <p className="font-black text-rose-600">😢 지난 시험에서 탈락했어요 ({d.lastSession.attemptNo}차)</p>
+        <div className="card p-4 border-2 tone-test">
+          <p className="font-black text-rose-600">💪 지난 시험에서 아쉬웠어요 ({d.lastSession.attemptNo}차)</p>
           <p className="text-xs text-slate-500 mt-1">재시험은 단어 순서가 랜덤으로 바뀌어요. 다시 도전!</p>
           <button
             className="btn-primary w-full mt-3"
@@ -301,9 +341,9 @@ export default function HomePage() {
       {d.textbook ? (
         <TextbookTodayCard t={d.textbook} starting={starting || !!d.activeSessionId} onWords={startLessonWords} />
       ) : (
-      <section className="card p-5">
+      <section className="card p-5 border-2 tone-words">
         <div className="flex items-center justify-between mb-3">
-          <h2 className="font-black text-[#16204a]">오늘의 학습</h2>
+          <h2 className="text-[#16204a] flex items-center gap-2"><span className="tone-icon">📚</span>오늘의 학습</h2>
           {d.assignment && (
             <span className="chip bg-indigo-50 text-indigo-800">
               {d.assignment.group ? `${d.assignment.group} · ` : ""}{d.assignment.name}
@@ -312,16 +352,13 @@ export default function HomePage() {
         </div>
         {d.assignment ? (
           <>
-            <div className="mb-4">
-              <div className="flex justify-between text-xs font-semibold text-slate-500 mb-1">
-                <span>전체 진도</span>
-                <span>{d.cursor} / {d.total} 단어 ({progressPct}%)</span>
-              </div>
-              <div className="h-2.5 rounded-full bg-slate-100 overflow-hidden">
-                <div
-                  className="h-full rounded-full bg-gradient-to-r from-[#2a3c7d] to-[#c9a227] transition-all"
-                  style={{ width: `${progressPct}%` }}
-                />
+            <div className="mb-4 flex items-center gap-3">
+              <Ring pct={progressPct} label="전체" />
+              <div className="flex-1">
+                <p className="text-sm font-bold text-[#16204a]">전체 진도 {d.cursor} / {d.total} 단어</p>
+                <div className="h-2.5 rounded-full bg-white/70 overflow-hidden mt-1.5">
+                  <div className="h-full rounded-full bg-gradient-to-r from-blue-500 to-emerald-500 transition-all" style={{ width: `${progressPct}%` }} />
+                </div>
               </div>
             </div>
             <div className="text-xs text-slate-500 mb-4 flex flex-wrap gap-x-3 gap-y-1">
@@ -333,8 +370,8 @@ export default function HomePage() {
             </div>
             {d.todayCount > 0 ? (
               <div className="grid grid-cols-2 gap-2">
-                <Link href="/study" className="btn-ghost text-center">📖 먼저 외우기</Link>
-                <button className="btn-primary" disabled={starting || !!d.activeSessionId} onClick={() => startTest("DAILY")}>
+                <Link href="/study" className="btn-big secondary">📖 먼저 외우기</Link>
+                <button className="btn-big" disabled={starting || !!d.activeSessionId} onClick={() => startTest("DAILY")}>
                   ✏️ 시험 보기
                 </button>
               </div>
@@ -355,15 +392,15 @@ export default function HomePage() {
 
       {/* 복습 & 오답 */}
       <div className="grid grid-cols-2 gap-3">
-        <div className="card p-4">
-          <p className="text-sm font-black text-[#16204a]">🔄 누적 복습</p>
+        <div className="card p-4 border-2 tone-review">
+          <p className="text-sm font-black text-[#16204a] flex items-center gap-2"><span className="tone-icon !w-8 !h-8 text-base">🔄</span>누적 복습</p>
           <p className="text-[11px] text-slate-500 mt-1 mb-3">3일·7일·21일 주기로 다시 확인 ({d.dueReviews}개)</p>
           <button className="btn-ghost w-full text-sm" disabled={d.dueReviews === 0 || starting || !!d.activeSessionId} onClick={() => startTest("REVIEW")}>
             복습 시험
           </button>
         </div>
-        <div className="card p-4">
-          <p className="text-sm font-black text-[#16204a]">📝 오답 정복</p>
+        <div className="card p-4 border-2 tone-test">
+          <p className="text-sm font-black text-[#16204a] flex items-center gap-2"><span className="tone-icon !w-8 !h-8 text-base">📝</span>오답 정복</p>
           <p className="text-[11px] text-slate-500 mt-1 mb-3">틀렸던 단어만 모아서 ({d.wrongNotes}개)</p>
           <button className="btn-ghost w-full text-sm" disabled={d.wrongNotes === 0 || starting || !!d.activeSessionId} onClick={() => startTest("WRONG_NOTE")}>
             오답 시험
@@ -372,9 +409,9 @@ export default function HomePage() {
       </div>
 
       {/* 예습 — 앞으로 일주일 진도를 미리 공부 (시험은 그날에) */}
-      <section className="card p-4">
+      <section className="card p-4 border-2 tone-preview">
         <div className="flex items-center justify-between">
-          <p className="text-sm font-black text-[#16204a]">🔭 예습 — 앞으로 일주일</p>
+          <p className="text-sm font-black text-[#16204a] flex items-center gap-2"><span className="tone-icon !w-8 !h-8 text-base">🔭</span>예습 — 앞으로 일주일</p>
           <span className="text-[10px] text-slate-400">{d.preview.some((p) => p.planned) ? "선생님이 정한 진도" : "순서대로 나갈 예정"}</span>
         </div>
         {d.preview.length === 0 ? (

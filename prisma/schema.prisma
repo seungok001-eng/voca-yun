@@ -163,6 +163,7 @@ model ClassSetting {
   speakPassCount Int     @default(0) // 말하기: 통과에 필요한 문장 수 (0 = 전체)
   courseTrack    String  @default("BASIC") // 반 과정: BASIC(기본반) | ADVANCED(심화반)
   program        String  @default("VOCA") // 학습 프로그램: VOCA(초등~수능 단어장) | TEXTBOOK(정철 교재)
+  uiTheme        String  @default("CUTE") // 학생 화면 테마: CUTE(귀여움, 초등) | CLEAN(깔끔함, 중고등)
 
   @@schema("voca")
 }
@@ -185,6 +186,7 @@ model StudentSetting {
   speakPassCount Int?
   courseTrack    String?
   program        String?
+  uiTheme        String?
 
   @@schema("voca")
 }

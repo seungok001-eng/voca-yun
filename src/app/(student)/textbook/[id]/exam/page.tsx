@@ -5,6 +5,8 @@ import { useParams, useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { api, playClip, playClipAsync, recognizeOnce, speechRecognitionSupported } from "@/lib/client";
 import type { LessonData } from "../page";
+import { sfx, confetti } from "@/lib/fx";
+import Mascot from "@/components/Mascot";
 
 type Line = { id: number; order: number; speaker: string; text: string; textKo: string | null; audioUrl: string | null };
 type Session = {
@@ -126,7 +128,11 @@ export default function ExamPage() {
       setResult(res);
       setShowKo(false);
       setSession((s) => s ? { ...s, index: res.index, passedCount: res.passedCount, status: res.status } : s);
-      if (res.status !== "IN_PROGRESS") setFinished(res);
+      sfx(res.passed ? "correct" : "wrong");
+      if (res.status !== "IN_PROGRESS") {
+        setFinished(res);
+        if (res.status === "PASSED") { sfx("pass"); confetti(); } else sfx("fail");
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : "채점에 실패했습니다.");
     }
@@ -163,9 +169,9 @@ export default function ExamPage() {
   if (finished) {
     const ok = finished.status === "PASSED";
     return (
-      <div className="card p-8 text-center space-y-3 pop-in">
-        <p className="text-5xl">{ok ? "🎉" : "💪"}</p>
-        <p className="text-xl font-black text-[#16204a]">{ok ? "통과했어요!" : "아쉬워요"}</p>
+      <div className="card p-8 text-center space-y-3 bounce-in">
+        <div className="flex justify-center"><Mascot mood={ok ? "cheer" : "worried"} size={120} bounce={ok} /></div>
+        <p className="text-2xl font-black text-[#16204a]">{ok ? "통과했어요!" : "아쉬워요, 다시 해봐요!"}</p>
         <p className="text-sm text-slate-500">
           {finished.total}문장 중 <b className="text-[#16204a]">{finished.passedCount}문장</b> 통과
           <span className="text-slate-400"> (기준 {finished.requiredCount}문장)</span>

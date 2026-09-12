@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { api, speak, recognizeOnce, speechRecognitionSupported, POS_KO } from "@/lib/client";
+import { sfx } from "@/lib/fx";
+import Mascot from "@/components/Mascot";
 
 type Question = {
   dir: "KO_TO_EN" | "EN_TO_KO"; prompt: string; pos: string; wordId: number;
@@ -102,6 +104,7 @@ export default function TestPage() {
           correct: !!res.correct, reveal: res.reveal, given: value,
           finished: res.finished, status: res.status,
         });
+        sfx(res.correct ? "correct" : "wrong");
         if (res.correct) speak(res.reveal.word);
       }
       setGiven("");
@@ -135,6 +138,7 @@ export default function TestPage() {
         body: JSON.stringify({ recognized: rec.transcript, confidence: rec.confidence }),
       });
       setPronMode(null);
+      sfx(res.correct ? "correct" : "wrong");
       setFeedback({
         correct: res.correct, reveal: res.reveal, given: rec.transcript,
         pronScore: res.pronScore, threshold: res.threshold,
@@ -213,8 +217,8 @@ export default function TestPage() {
 
       {/* 피드백 화면 */}
       {feedback ? (
-        <div className={"card p-6 text-center space-y-3 pop-in border-2 " + (feedback.correct ? "!border-emerald-300" : "!border-rose-300")}>
-          <p className="text-5xl">{feedback.correct ? "⭕" : "❌"}</p>
+        <div className={"card p-6 text-center space-y-3 border-2 " + (feedback.correct ? "!border-emerald-300 bounce-in" : "!border-rose-300 shake")}>
+          <div className="flex justify-center"><Mascot mood={feedback.correct ? "cheer" : "sad"} size={88} /></div>
           <p className={"font-black text-lg " + (feedback.correct ? "text-emerald-600" : "text-rose-600")}>
             {feedback.correct ? "정답입니다!" : "틀렸어요"}
           </p>
