@@ -1,5 +1,5 @@
 // 채점 로직
-// - KO→EN: 영어 철자 정확 일치 (대소문자/공백 무시)
+// - KO→EN: 영어 철자 정확 일치 (대소문자/공백/앞 관사 a·an·the 무시)
 // - EN→KO: 등록된 모든 한글 뜻 + 선생님이 인정한 추가 정답(alias) 중 하나와 일치하면 정답
 //   posStrict=true  → 조사/어미까지 정확히 일치해야 정답 (거대한 ≠ 거대하다)
 //   posStrict=false → 어간이 같으면 정답 (저학년용: 거대한 = 거대하다 = 거대)
@@ -34,8 +34,19 @@ export function koStem(s: string): string {
   return n;
 }
 
+// 앞의 관사(a / an / the)는 채점에서 무시: "the park" ↔ "park" 모두 정답
+export function stripArticle(s: string): string {
+  return s.replace(/^(a|an|the)\s+/, "");
+}
+
 export function gradeKoToEn(given: string, answer: string): boolean {
-  return normalizeEn(given) === normalizeEn(answer) && normalizeEn(given).length > 0;
+  const g = normalizeEn(given);
+  const a = normalizeEn(answer);
+  if (!g) return false;
+  if (g === a) return true;
+  const gs = stripArticle(g);
+  const as = stripArticle(a);
+  return gs.length > 0 && gs === as;
 }
 
 export function gradeEnToKo(given: string, meanings: string[], aliases: string[], posStrict: boolean): boolean {
