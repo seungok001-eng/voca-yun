@@ -3,6 +3,7 @@ import { shuffle } from "./grading";
 import { resolveSettings } from "./settings";
 import { nextDue, todayStr } from "./srs";
 import { loadScheduleContext, countStudyDays } from "./schedule";
+import { todayPlanFor, type PlanRow } from "./plan";
 
 export type TestItem = { wordId: number; dir: "KO_TO_EN" | "EN_TO_KO" };
 
@@ -114,7 +115,7 @@ export async function activeAssignmentFor(studentId: number) {
 // 오늘의 단어: 진도 커서부터 dailyWordCount개
 export async function todayWords(studentId: number) {
   const assignment = await activeAssignmentFor(studentId);
-  if (!assignment) return { assignment: null, words: [], cursor: 0, total: 0, progress: null };
+  if (!assignment) return { assignment: null, words: [], cursor: 0, total: 0, progress: null, plan: null as PlanRow | null };
   const settings = await resolveSettings(studentId);
   const where =
     assignment.sourceType === "LEVEL"
@@ -129,13 +130,17 @@ export async function todayWords(studentId: number) {
       data: { studentId, assignmentId: assignment.id },
     });
   }
-  const words = await db.word.findMany({
-    where,
-    orderBy: { id: "asc" },
-    skip: progress.wordCursor,
-    take: settings.dailyWordCount,
-  });
-  return { assignment, words, cursor: progress.wordCursor, total, settings, progress };
+  // 선생님이 달력에서 오늘 진도를 정해 두었으면 그 범위를 낸다 (반 배정일 때만)
+  let plan: PlanRow | null = null;
+  const me = await db.user.findUnique({ where: { id: studentId }, select: { classId: true } });
+  if (assignment.classId && assignment.classId === me?.classId) {
+    const p = await todayPlanFor(me.classId);
+    if (p && p.kind === "WORDS" && p.wordFrom && p.wordTo) plan = p;
+  }
+  const words = plan
+    ? await db.word.findMany({ where, orderBy: { id: "asc" }, skip: plan.wordFrom! - 1, take: plan.wordTo! - plan.wordFrom! + 1 })
+    : await db.word.findMany({ where, orderBy: { id: "asc" }, skip: progress.wordCursor, take: settings.dailyWordCount });
+  return { assignment, words, cursor: progress.wordCursor, total, settings, progress, plan };
 }
 
 // 시험 세션 생성
@@ -158,24 +163,31 @@ export async function startSession(opts: {
   let attemptNo = 1;
   let parentSessionId: number | null = null;
   let advanceCount = 0;
+  let plannedTo: number | null = null;
 
   if (kind === "DAILY") {
     const today = await todayWords(studentId);
     if (!today.assignment || today.words.length === 0) {
       throw new Error("배정된 학습이 없거나 모든 단어를 끝냈습니다.");
     }
-    // 진도 상한: 밀린 분량 + 오늘 분량 + 다음 1회 분량까지만 (쉬는 날에도 동일하게 허용)
-    // 기준점은 학생별 시작 지점(선생님이 재설정 가능)
-    const ctx = await loadScheduleContext(studentId, settings.studyDays);
-    const baseCursor = today.progress?.baseCursor ?? 0;
-    const startDate = todayStr(today.progress?.startedAt ?? today.assignment.createdAt);
-    const expectedThroughToday = baseCursor + settings.dailyWordCount * countStudyDays(startDate, todayStr(), ctx);
-    if (today.cursor >= expectedThroughToday + settings.dailyWordCount) {
-      throw new Error("여기까지 미리 다 끝냈어요! 🎉 다음 학습일에 이어서 할 수 있어요.");
+    if (today.plan) {
+      // 선생님이 정한 오늘 진도 — 상한 계산 없이 그 범위를 그대로 시험 본다
+      plannedTo = today.plan.wordTo!;
+      // 이미 통과한 범위면 다시 볼 수는 있지만 진도는 더 나가지 않는다
+    } else {
+      // 진도 상한: 밀린 분량 + 오늘 분량 + 다음 1회 분량까지만 (쉬는 날에도 동일하게 허용)
+      // 기준점은 학생별 시작 지점(선생님이 재설정 가능)
+      const ctx = await loadScheduleContext(studentId, settings.studyDays);
+      const baseCursor = today.progress?.baseCursor ?? 0;
+      const startDate = todayStr(today.progress?.startedAt ?? today.assignment.createdAt);
+      const expectedThroughToday = baseCursor + settings.dailyWordCount * countStudyDays(startDate, todayStr(), ctx);
+      if (today.cursor >= expectedThroughToday + settings.dailyWordCount) {
+        throw new Error("여기까지 미리 다 끝냈어요! 🎉 다음 학습일에 이어서 할 수 있어요.");
+      }
     }
     assignmentId = today.assignment.id;
     wordIds = today.words.map((w) => w.id);
-    advanceCount = wordIds.length;
+    advanceCount = today.plan ? 0 : wordIds.length;
     // 누적 복습 섞기: 복습 기한이 된 단어를 추가 출제
     if (settings.reviewMixCount > 0) {
       const due = await db.reviewItem.findMany({
@@ -197,6 +209,7 @@ export async function startSession(opts: {
     assignmentId = parent.assignmentId;
     attemptNo = parent.attemptNo + 1;
     advanceCount = parent.advanceCount;
+    plannedTo = parent.plannedTo ?? null;
     const allIds = (JSON.parse(parent.itemsJson) as TestItem[]).map((i) => i.wordId);
     if (settings.retestScope === "WRONG_ONLY") {
       const wrongIds = parent.answers.filter((a) => !a.correct).map((a) => a.wordId);
@@ -256,6 +269,7 @@ export async function startSession(opts: {
       attemptNo,
       parentSessionId,
       advanceCount,
+      plannedTo,
     },
   });
 }
@@ -355,6 +369,17 @@ export async function finalizeSession(sessionId: number, status: "PASSED" | "FAI
       }
     }
 
+    // 날짜별 진도로 본 시험 통과 → 커서를 그 범위 끝까지 옮긴다 (이미 더 나가 있으면 그대로)
+    if ((session.kind === "DAILY" || session.kind === "RETEST") && session.assignmentId && session.plannedTo) {
+      const cur = await db.studentProgress.findUnique({
+        where: { studentId_assignmentId: { studentId: student.id, assignmentId: session.assignmentId } },
+      });
+      if (!cur) {
+        await db.studentProgress.create({ data: { studentId: student.id, assignmentId: session.assignmentId, wordCursor: session.plannedTo } });
+      } else if (cur.wordCursor < session.plannedTo) {
+        await db.studentProgress.update({ where: { id: cur.id }, data: { wordCursor: session.plannedTo } });
+      }
+    }
     if ((session.kind === "DAILY" || session.kind === "RETEST") && session.assignmentId && session.advanceCount > 0) {
       // 진도 전진
       await db.studentProgress.upsert({

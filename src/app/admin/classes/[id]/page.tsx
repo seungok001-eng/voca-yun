@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { api } from "@/lib/client";
 import SettingsForm, { type SettingsValues } from "@/components/SettingsForm";
+import PlanCalendar from "@/components/PlanCalendar";
 
 type Detail = {
   id: number; name: string;
@@ -25,7 +26,7 @@ export default function ClassDetailPage() {
   const [d, setD] = useState<Detail | null>(null);
   const [levels, setLevels] = useState<LevelRow[]>([]);
   const [wordbooks, setWordbooks] = useState<WordbookRow[]>([]);
-  const [tab, setTab] = useState<"students" | "settings" | "assign" | "course" | "holidays">("students");
+  const [tab, setTab] = useState<"students" | "settings" | "plan" | "assign" | "course" | "holidays">("students");
   const [newStudent, setNewStudent] = useState({ username: "", password: "", name: "", parentPhone: "", school: "", grade: "" });
   const [showNew, setShowNew] = useState(false);
 
@@ -79,10 +80,10 @@ export default function ClassDetailPage() {
           <p className="text-xs text-slate-400">담당 {d.teacher?.name ?? "미지정"} · 현재 학습: <b className="text-[#c9a227]">{d.assignment?.name ?? "미배정"}</b></p>
         </div>
         <div className="flex gap-1.5">
-          {(["students", "settings", "assign", "course", "holidays"] as const).map((t) => (
+          {(["students", "settings", "plan", "assign", "course", "holidays"] as const).map((t) => (
             <button key={t} onClick={() => setTab(t)}
               className={"chip !py-2 !px-4 " + (tab === t ? "bg-[#16204a] text-white" : "bg-white border border-slate-200 text-slate-500")}>
-              {{ students: "👨‍🎓 학생", settings: "⚙️ 시험 설정", assign: "📚 VOCA 배정", course: "📕 교재 배정", holidays: "🏖️ 반 휴무" }[t]}
+              {{ students: "👨‍🎓 학생", settings: "⚙️ 시험 설정", plan: "📅 날짜별 진도", assign: "📚 VOCA 배정", course: "📕 교재 배정", holidays: "🏖️ 반 휴무" }[t]}
             </button>
           ))}
         </div>
@@ -139,7 +140,10 @@ export default function ClassDetailPage() {
 
       {tab === "settings" && (
         <div className="card p-5">
-          <h2 className="font-black text-[#16204a] mb-1">반 기본 시험 설정</h2>
+          <div className="flex items-center justify-between mb-1">
+            <h2 className="font-black text-[#16204a]">반 기본 시험 설정</h2>
+            <button className="chip bg-[#c9a227] text-white !py-1.5 !px-3 font-bold" onClick={() => setTab("plan")}>📅 그날그날 진도 정하기</button>
+          </div>
           <p className="text-xs text-slate-400 mb-4">이 반 모든 학생에게 적용됩니다. 학생별 개별 설정이 있으면 그 값이 우선합니다.</p>
           <SettingsForm
             initial={d.setting}
@@ -150,6 +154,8 @@ export default function ClassDetailPage() {
           />
         </div>
       )}
+
+      {tab === "plan" && <PlanCalendar classId={d.id} />}
 
       {tab === "assign" && (
         <div className="space-y-4">

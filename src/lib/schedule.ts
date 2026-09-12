@@ -45,33 +45,43 @@ const isWeekend = (d: string) => {
   return c === "SAT" || c === "SUN";
 };
 
-function buildYear(year: number, set: Set<string>) {
-  const fixed = [`${year}-01-01`, `${year}-03-01`, `${year}-05-05`, `${year}-06-06`, `${year}-08-15`, `${year}-10-03`, `${year}-10-09`, `${year}-12-25`];
-  const lunarTrios: string[] = [];
-  if (SEOLLAL[year]) lunarTrios.push(SEOLLAL[year]);
-  if (CHUSEOK[year]) lunarTrios.push(CHUSEOK[year]);
+function buildYear(year: number, map: Map<string, string>) {
+  const put = (d: string, name: string) => { if (!map.has(d)) map.set(d, name); };
+  const fixed: [string, string][] = [
+    [`${year}-01-01`, "신정"], [`${year}-03-01`, "삼일절"], [`${year}-05-05`, "어린이날"],
+    [`${year}-06-06`, "현충일"], [`${year}-08-15`, "광복절"], [`${year}-10-03`, "개천절"],
+    [`${year}-10-09`, "한글날"], [`${year}-12-25`, "성탄절"],
+  ];
+  // 2026년 「공휴일에 관한 법률」 개정으로 새로 들어온 공휴일 (대체공휴일 적용)
+  if (year >= 2026) {
+    fixed.push([`${year}-05-01`, "노동절"]);
+    fixed.push([`${year}-07-17`, "제헌절"]);
+  }
+  const lunarTrios: [string, string][] = [];
+  if (SEOLLAL[year]) lunarTrios.push([SEOLLAL[year], "설날"]);
+  if (CHUSEOK[year]) lunarTrios.push([CHUSEOK[year], "추석"]);
 
   // 1) 음력 연휴 3일 먼저 등록
   const trioDays: string[] = [];
-  for (const main of lunarTrios) {
+  for (const [main, name] of lunarTrios) {
     for (const d of [addDays(main, -1), main, addDays(main, 1)]) {
-      set.add(d);
+      put(d, d === main ? name : `${name} 연휴`);
       trioDays.push(d);
     }
   }
   // 2) 고정 공휴일 + 석가탄신일 등록
-  for (const d of fixed) set.add(d);
-  if (BUDDHA[year]) set.add(BUDDHA[year]);
+  for (const [d, name] of fixed) put(d, name);
+  if (BUDDHA[year]) put(BUDDHA[year], "부처님오신날");
 
   const nextFreeWeekday = (from: string): string => {
     let d = addDays(from, 1);
-    while (isWeekend(d) || set.has(d)) d = addDays(d, 1);
+    while (isWeekend(d) || map.has(d)) d = addDays(d, 1);
     return d;
   };
 
   // 3) 대체공휴일 — 설/추석: 연휴 중 일요일이 낀 날 수만큼
   //    (다른 공휴일과 겹친 경우는 아래 4)에서 해당 공휴일 쪽 대체로 1회만 처리)
-  for (const main of lunarTrios) {
+  for (const [main, name] of lunarTrios) {
     const trio = [addDays(main, -1), main, addDays(main, 1)];
     let owed = 0;
     for (const d of trio) {
@@ -80,24 +90,34 @@ function buildYear(year: number, set: Set<string>) {
     let cursor = trio[2];
     for (let i = 0; i < owed; i++) {
       const sub = nextFreeWeekday(cursor);
-      set.add(sub);
+      put(sub, `대체공휴일(${name})`);
       cursor = sub;
     }
   }
-  // 4) 대체공휴일 — 삼일절·어린이날·광복절·개천절·한글날·석탄일·성탄절: 토/일 또는 음력연휴와 겹침
-  const subEligible = [`${year}-03-01`, `${year}-05-05`, `${year}-08-15`, `${year}-10-03`, `${year}-10-09`, `${year}-12-25`, BUDDHA[year]].filter(Boolean) as string[];
-  for (const d of subEligible) {
-    if (isWeekend(d) || trioDays.includes(d)) set.add(nextFreeWeekday(d));
+  // 4) 대체공휴일 — 삼일절·어린이날·광복절·개천절·한글날·석탄일·성탄절·노동절·제헌절: 토/일 또는 음력연휴와 겹침
+  const subEligible: [string, string][] = fixed.filter(([d]) => !d.endsWith("-01-01") && !d.endsWith("-06-06"));
+  if (BUDDHA[year]) subEligible.push([BUDDHA[year], "부처님오신날"]);
+  for (const [d, name] of subEligible) {
+    if (isWeekend(d) || trioDays.includes(d)) put(nextFreeWeekday(d), `대체공휴일(${name})`);
   }
+}
+
+let cachedMap: Map<string, string> | null = null;
+/** 날짜 → 공휴일 이름 (2026~2040). 선거일·대체공휴일 포함. */
+export function krHolidayMap(): Map<string, string> {
+  if (cachedMap) return cachedMap;
+  const map = new Map<string, string>();
+  for (const d of ELECTIONS) map.set(d, "선거일");
+  for (let y = 2026; y <= 2040; y++) buildYear(y, map);
+  cachedMap = map;
+  return map;
 }
 
 let cachedHolidays: Set<string> | null = null;
 export function krHolidays(): Set<string> {
   if (cachedHolidays) return cachedHolidays;
-  const set = new Set<string>(ELECTIONS);
-  for (let y = 2026; y <= 2040; y++) buildYear(y, set);
-  cachedHolidays = set;
-  return set;
+  cachedHolidays = new Set(krHolidayMap().keys());
+  return cachedHolidays;
 }
 
 // ─────────────────────────────────────────────────────────────

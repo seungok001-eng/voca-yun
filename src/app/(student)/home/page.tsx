@@ -20,6 +20,7 @@ type TextbookToday = {
 };
 type Dashboard = {
   textbook: TextbookToday | null;
+  planLabel: string | null;
   name: string;
   className: string | null;
   points: number;
@@ -78,6 +79,7 @@ function TextbookTodayCard({ t, starting, onWords }: {
         <span>{t.courseTrack === "ADVANCED" ? "심화반" : "기본반"}</span>
         <span>완료 <b>{t.doneCount}/{t.total}</b>레슨</span>
         {t.mode === "MANUAL" && <span>👩‍🏫 선생님 지정 진도</span>}
+        {t.mode === "PLAN" && <span>📅 오늘 진도 (선생님 달력)</span>}
       </div>
 
       {!l ? (
@@ -318,6 +320,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="text-xs text-slate-500 mb-4 flex flex-wrap gap-x-3 gap-y-1">
+              {d.planLabel && <span className="font-bold text-[#c9a227]">📅 오늘 진도 {d.planLabel}</span>}
               <span>📋 시험: <b>{MODE_KO[d.settings.testMode]}</b></span>
               <span>🎯 하루 <b>{d.settings.dailyWordCount}단어</b></span>
               <span>❌ <b>{d.settings.failThreshold}개</b> 틀리면 재시험</span>

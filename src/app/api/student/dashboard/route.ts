@@ -45,6 +45,7 @@ export async function GET() {
       streak: user?.streak ?? 0,
       bestStreak: user?.bestStreak ?? 0,
       todayCount: today.words.length,
+      planLabel: today.plan?.label ?? null, // 선생님이 달력에서 정한 오늘 진도
       todayWords: today.words.map((w) => ({
         id: w.id, text: w.text, pos: w.pos, meanings: JSON.parse(w.meaningsJson),
         example: w.example, exampleKo: w.exampleKo, emoji: w.emoji,

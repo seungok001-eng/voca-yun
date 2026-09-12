@@ -139,6 +139,7 @@ model Class {
   createdAt DateTime      @default(now())
   assignments Assignment[]
   course    CourseAssignment?
+  plans     DailyPlan[]
 
   @@index([organizationId])
   @@schema("voca")
@@ -307,6 +308,7 @@ model TestSession {
   parentSessionId Int?
   cheatCount      Int          @default(0)
   advanceCount    Int          @default(0) // DAILY 통과시 커서 전진량 (복습 섞기 제외)
+  plannedTo    Int? // 날짜별 진도(DailyPlan)로 본 시험이면 그 범위의 끝 번호 — 통과 시 커서를 여기까지 옮긴다
   startedAt       DateTime     @default(now())
   finishedAt      DateTime?
   answers         TestAnswer[]
@@ -433,6 +435,8 @@ model Lesson {
   sessions   SpeakSession[]
   todayFor   CourseAssignment[] @relation("TodayLesson")
 
+  plans        DailyPlan[]
+
   @@unique([partId, area, order])
   @@schema("voca")
 }
@@ -550,5 +554,27 @@ model AppSetting {
   value     String
   updatedAt DateTime @updatedAt
 
+  @@schema("voca")
+}
+
+// 반의 날짜별 진도 — 선생님이 달력에서 날짜마다 정한 학습 범위
+// kind WORDS: 단어 번호 wordFrom~wordTo (반의 VOCA 배정 기준)
+// kind LESSON: 교재 레슨 lessonId (반의 교재 배정 기준)
+model DailyPlan {
+  id          Int      @id @default(autoincrement())
+  classId     Int
+  class       Class    @relation(fields: [classId], references: [id], onDelete: Cascade)
+  date        String // YYYY-MM-DD
+  kind        String // WORDS | LESSON
+  lessonId    Int?
+  lesson      Lesson?  @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  wordFrom    Int?
+  wordTo      Int?
+  label       String // 화면 표시용 ("1~30번", "P1 Toon L3")
+  createdById Int?
+  updatedAt   DateTime @updatedAt
+
+  @@unique([classId, date])
+  @@index([classId, date])
   @@schema("voca")
 }

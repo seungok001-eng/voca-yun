@@ -1,5 +1,6 @@
 import { db } from "./db";
 import { resolveSettings } from "./settings";
+import { todayPlanFor } from "./plan";
 
 // 학생 관점의 교재 과정 — 배정된 교재, 오늘의 진도, 레슨별 진행 상태
 
@@ -115,17 +116,21 @@ export async function textbookHome(studentId: number) {
     };
   });
 
-  // 오늘의 진도: 선생님 지정이 최우선, 아니면 아직 끝내지 않은 첫 레슨
+  // 오늘의 진도: 달력에서 정한 오늘 진도 > 선생님 고정 지정 > 아직 끝내지 않은 첫 레슨
+  const me = await db.user.findUnique({ where: { id: studentId }, select: { classId: true } });
+  const plan = await todayPlanFor(me?.classId);
+  const planned = plan?.kind === "LESSON" && plan.lessonId && lessons.some((l) => l.id === plan.lessonId) ? plan.lessonId : null;
   const todayLessonId =
-    course.mode === "MANUAL" && course.todayLessonId
+    planned ??
+    (course.mode === "MANUAL" && course.todayLessonId
       ? course.todayLessonId
-      : lessons.find((l) => !l.done)?.id ?? null;
+      : lessons.find((l) => !l.done)?.id ?? null);
 
   return {
     program: settings.program,
     courseTrack: settings.courseTrack,
     textbook: { id: textbook.id, course: textbook.course, name: textbook.name },
-    mode: course.mode,
+    mode: planned ? "PLAN" : course.mode,
     lessons,
     todayLessonId,
   };
