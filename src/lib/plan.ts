@@ -28,7 +28,7 @@ export type PlanRow = {
 };
 
 /** 반의 진도 단위 목록 — VOCA 범위와 교재 레슨을 모두 돌려준다 */
-export async function unitsForClass(classId: number): Promise<{ words: PlanUnit[]; lessons: PlanUnit[]; wordTotal: number; sourceName: string; textbookName: string; perDay: number }> {
+export async function unitsForClass(classId: number): Promise<{ words: PlanUnit[]; lessons: PlanUnit[]; wordTotal: number; sourceName: string; textbookName: string; perDay: number; program: string }> {
   const [cls, assignment, course] = await Promise.all([
     db.class.findUnique({ where: { id: classId }, include: { setting: true } }),
     db.assignment.findFirst({ where: { classId, active: true }, orderBy: { createdAt: "desc" }, include: { level: true, wordbook: true } }),
@@ -62,7 +62,84 @@ export async function unitsForClass(classId: number): Promise<{ words: PlanUnit[
       });
     }
   }
-  return { words, lessons, wordTotal, sourceName, textbookName: course?.textbook.name ?? "", perDay };
+  return { words, lessons, wordTotal, sourceName, textbookName: course?.textbook.name ?? "", perDay, program: cls?.setting?.program ?? "VOCA" };
+}
+
+// ── 예습: 앞으로 일주일 진도 ────────────────────────────────────
+export type PreviewItem = {
+  date: string; kind: "WORDS" | "LESSON"; label: string; sub?: string;
+  lessonId?: number; wordFrom?: number; wordTo?: number; planned: boolean;
+};
+
+/**
+ * 내일부터 7일 동안의 진도.
+ * 선생님이 달력에 정해 둔 날은 그것을, 없는 날은 지금 방식(순서대로)으로 나갈 예정인 분량을 계산해 보여준다.
+ */
+export async function upcomingForStudent(studentId: number, days = 7): Promise<PreviewItem[]> {
+  const { resolveSettings } = await import("./settings");
+  const { loadScheduleContext, isStudyDay } = await import("./schedule");
+  const me = await db.user.findUnique({ where: { id: studentId }, select: { classId: true } });
+  const settings = await resolveSettings(studentId);
+  const today = todayStr();
+  const from = addDays(today, 1), to = addDays(today, days);
+
+  // 1) 달력에 정해 둔 진도
+  const planned = me?.classId
+    ? await db.dailyPlan.findMany({ where: { classId: me.classId, date: { gte: from, lte: to } }, orderBy: { date: "asc" } })
+    : [];
+  const out: PreviewItem[] = [];
+  const lessonNames = new Map<number, { label: string; sub: string }>();
+  if (planned.some((p) => p.kind === "LESSON")) {
+    const ls = await db.lesson.findMany({
+      where: { id: { in: planned.filter((p) => p.lessonId).map((p) => p.lessonId!) } },
+      include: { part: true },
+    });
+    for (const l of ls) lessonNames.set(l.id, { label: `P${l.part.order} ${l.area === "TOON" ? "Toon" : "Book"} L${l.order}`, sub: l.name });
+  }
+  for (const p of planned) {
+    if (p.kind === "LESSON" && p.lessonId) {
+      const n = lessonNames.get(p.lessonId);
+      out.push({ date: p.date, kind: "LESSON", label: n?.label ?? p.label, sub: n?.sub, lessonId: p.lessonId, planned: true });
+    } else if (p.wordFrom && p.wordTo) {
+      out.push({ date: p.date, kind: "WORDS", label: p.label, wordFrom: p.wordFrom, wordTo: p.wordTo, planned: true });
+    }
+  }
+  if (out.length > 0) return out;
+
+  // 2) 정해 둔 게 없으면 순서대로 나갈 예정인 분량 — 학습일에만
+  const ctx = await loadScheduleContext(studentId, settings.studyDays);
+  const studyDates: string[] = [];
+  for (let d = from; d <= to; d = addDays(d, 1)) if (isStudyDay(d, ctx)) studyDates.push(d);
+  if (studyDates.length === 0) return [];
+
+  if (settings.program === "TEXTBOOK") {
+    const { textbookHome } = await import("./textbook-student");
+    const home = await textbookHome(studentId);
+    if (!home.textbook) return [];
+    const idx = home.lessons.findIndex((l) => l.id === home.todayLessonId);
+    const rest = home.lessons.slice(idx + 1).filter((l) => !l.done);
+    return studyDates.slice(0, rest.length).map((date, i) => {
+      const l = rest[i];
+      return { date, kind: "LESSON", label: `P${l.partOrder} ${l.area === "TOON" ? "Toon" : "Book"} L${l.order}`, sub: l.name, lessonId: l.id, planned: false };
+    });
+  }
+
+  // VOCA: 오늘 분량 다음부터 하루 단어 수씩
+  const { activeAssignmentFor } = await import("./test-service");
+  const assignment = await activeAssignmentFor(studentId);
+  if (!assignment) return [];
+  const where = assignment.sourceType === "LEVEL" ? { levelId: assignment.levelId! } : { wordbookId: assignment.wordbookId! };
+  const total = await db.word.count({ where });
+  const progress = await db.studentProgress.findUnique({ where: { studentId_assignmentId: { studentId, assignmentId: assignment.id } } });
+  const daily = settings.dailyWordCount;
+  let start = (progress?.wordCursor ?? 0) + daily; // 오늘 분량 다음
+  for (const date of studyDates) {
+    if (start >= total) break;
+    const f = start + 1, t = Math.min(total, start + daily);
+    out.push({ date, kind: "WORDS", label: `${f}~${t}번`, wordFrom: f, wordTo: t, planned: false });
+    start += daily;
+  }
+  return out;
 }
 
 /** "W:1:30" / "L:12" → 저장할 값 */

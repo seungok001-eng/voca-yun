@@ -18,8 +18,13 @@ type TextbookToday = {
   mode?: string; courseTrack: string;
   today: TodayLesson | null; doneCount: number; total: number;
 };
+type PreviewItem = {
+  date: string; kind: "WORDS" | "LESSON"; label: string; sub?: string;
+  lessonId?: number; wordFrom?: number; wordTo?: number; planned: boolean;
+};
 type Dashboard = {
   textbook: TextbookToday | null;
+  preview: PreviewItem[];
   planLabel: string | null;
   name: string;
   className: string | null;
@@ -365,6 +370,38 @@ export default function HomePage() {
           </button>
         </div>
       </div>
+
+      {/* 예습 — 앞으로 일주일 진도를 미리 공부 (시험은 그날에) */}
+      <section className="card p-4">
+        <div className="flex items-center justify-between">
+          <p className="text-sm font-black text-[#16204a]">🔭 예습 — 앞으로 일주일</p>
+          <span className="text-[10px] text-slate-400">{d.preview.some((p) => p.planned) ? "선생님이 정한 진도" : "순서대로 나갈 예정"}</span>
+        </div>
+        {d.preview.length === 0 ? (
+          <p className="text-[11px] text-slate-400 mt-2">예습할 진도가 아직 없어요.</p>
+        ) : (
+          <div className="mt-2 space-y-1.5">
+            {d.preview.map((p) => {
+              const dt = new Date(`${p.date}T00:00:00+09:00`);
+              const dow = "일월화수목금토"[dt.getDay()];
+              return (
+                <div key={p.date + p.label} className="flex items-center gap-2 rounded-xl bg-slate-50 px-3 py-2">
+                  <span className="text-[11px] font-bold text-slate-500 w-14 shrink-0">{dt.getMonth() + 1}/{dt.getDate()} ({dow})</span>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-sm font-bold text-[#16204a] truncate">{p.kind === "LESSON" ? "📕 " : "📚 "}{p.label}</p>
+                    {p.sub && <p className="text-[11px] text-slate-400 truncate">{p.sub}</p>}
+                  </div>
+                  {p.kind === "LESSON" && p.lessonId ? (
+                    <Link href={`/textbook/${p.lessonId}`} className="chip bg-white border border-slate-200 text-[#16204a] !py-1.5 shrink-0">예습하기</Link>
+                  ) : (
+                    <Link href={`/study?from=${p.wordFrom}&to=${p.wordTo}`} className="chip bg-white border border-slate-200 text-[#16204a] !py-1.5 shrink-0">예습하기</Link>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </section>
     </div>
   );
 }

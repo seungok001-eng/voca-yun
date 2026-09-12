@@ -11,7 +11,7 @@ import { api } from "@/lib/client";
 type Unit = { key: string; kind: "WORDS" | "LESSON"; label: string; sub?: string; wordFrom?: number; wordTo?: number; lessonId?: number };
 type Plan = { date: string; kind: string; label: string; lessonId: number | null; wordFrom: number | null; wordTo: number | null };
 type Data = {
-  units: { words: Unit[]; lessons: Unit[]; wordTotal: number; sourceName: string; textbookName: string; perDay: number };
+  units: { words: Unit[]; lessons: Unit[]; wordTotal: number; sourceName: string; textbookName: string; perDay: number; program: string };
   days: Record<string, { off: string | null; kr: string | null }>;
   studyDays: string[];
   plans: Plan[];
@@ -42,8 +42,10 @@ export default function PlanCalendar({ classId }: { classId: number }) {
   const load = useCallback(() => {
     api<Data>(`/api/admin/classes/${classId}/plan?from=${from}&to=${to}`).then((d) => {
       setData(d);
-      // 처음 열 때 왼쪽 목록은 있는 쪽으로
-      setSide((s) => (d.units.words.length === 0 && d.units.lessons.length > 0 ? "LESSON" : d.units.lessons.length === 0 ? "WORDS" : s));
+      // 반 과정에 맞는 쪽을 보여준다 (교재 과정 반에는 VOCA 범위가 의미 없다)
+      const showWords = d.units.program !== "TEXTBOOK" && d.units.words.length > 0;
+      const showLessons = d.units.lessons.length > 0;
+      setSide(showLessons && (!showWords || d.units.program === "TEXTBOOK") ? "LESSON" : "WORDS");
     }).catch((e) => alert(e instanceof Error ? e.message : "불러오지 못했습니다."));
   }, [classId, from, to]);
   useEffect(load, [load]);
@@ -126,7 +128,7 @@ export default function PlanCalendar({ classId }: { classId: number }) {
   const firstDow = new Date(Date.UTC(year, month - 1, 1)).getUTCDay();
   const cells: (string | null)[] = [...Array(firstDow).fill(null), ...Array.from({ length: lastDay }, (_, i) => ymd(year, month, i + 1))];
   while (cells.length % 7) cells.push(null);
-  const noUnits = data.units.words.length === 0 && data.units.lessons.length === 0;
+  const noUnits = (data.units.program === "TEXTBOOK" || data.units.words.length === 0) && data.units.lessons.length === 0;
 
   return (
     <div className="space-y-3">
@@ -147,14 +149,19 @@ export default function PlanCalendar({ classId }: { classId: number }) {
       <div className="grid gap-3 lg:grid-cols-[280px_1fr]">
         {/* 진도 단위 */}
         <div className="card p-3 space-y-2 self-start lg:sticky lg:top-24">
-          <div className="flex gap-1">
-            {data.units.words.length > 0 && (
-              <button onClick={() => setSide("WORDS")} className={"chip flex-1 justify-center " + (side === "WORDS" ? "bg-[#16204a] text-white" : "bg-slate-100 text-slate-500")}>📚 VOCA</button>
-            )}
-            {data.units.lessons.length > 0 && (
-              <button onClick={() => setSide("LESSON")} className={"chip flex-1 justify-center " + (side === "LESSON" ? "bg-[#16204a] text-white" : "bg-slate-100 text-slate-500")}>📕 교재</button>
-            )}
-          </div>
+          {(() => {
+            const showWords = data.units.program !== "TEXTBOOK" && data.units.words.length > 0;
+            const showLessons = data.units.lessons.length > 0;
+            if (!(showWords && showLessons)) return (
+              <p className="text-xs font-black text-[#16204a]">{side === "LESSON" ? "📕 교재 레슨" : "📚 VOCA 단어 범위"}</p>
+            );
+            return (
+              <div className="flex gap-1">
+                <button onClick={() => setSide("WORDS")} className={"chip flex-1 justify-center " + (side === "WORDS" ? "bg-[#16204a] text-white" : "bg-slate-100 text-slate-500")}>📚 VOCA</button>
+                <button onClick={() => setSide("LESSON")} className={"chip flex-1 justify-center " + (side === "LESSON" ? "bg-[#16204a] text-white" : "bg-slate-100 text-slate-500")}>📕 교재</button>
+              </div>
+            );
+          })()}
           <p className="text-[11px] text-slate-400">
             {side === "WORDS" ? `${data.units.sourceName} · ${data.units.wordTotal}단어 · 하루 ${data.units.perDay}개씩` : data.units.textbookName}
           </p>

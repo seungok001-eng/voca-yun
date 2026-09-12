@@ -5,6 +5,7 @@ import { resolveSettings } from "@/lib/settings";
 import { loadScheduleContext, isStudyDay } from "@/lib/schedule";
 import { todayStr } from "@/lib/srs";
 import { textbookToday } from "@/lib/textbook-student";
+import { upcomingForStudent } from "@/lib/plan";
 
 export async function GET() {
   try {
@@ -36,9 +37,12 @@ export async function GET() {
 
     // 교재 과정 학생은 홈에 오늘의 교재 진도를 보여준다
     const textbook = settings.program === "TEXTBOOK" ? await textbookToday(s.uid) : null;
+    // 예습: 앞으로 일주일 진도 (실패해도 홈은 뜨게)
+    const preview = await upcomingForStudent(s.uid, 7).catch(() => []);
 
     return Response.json({
       textbook,
+      preview,
       name: user?.name,
       className: user?.class?.name ?? null,
       points: user?.points ?? 0,

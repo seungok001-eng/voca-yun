@@ -31,16 +31,21 @@ export async function GET(req: Request) {
     });
     const cursor = progress?.wordCursor ?? 0;
 
-    const start = Math.max(0, cursor + chunk * daily);
+    // ?from=&to= 가 있으면 그 번호 범위를 (예습·복습용), 없으면 chunk 단위
+    const qFrom = Number(url.searchParams.get("from")), qTo = Number(url.searchParams.get("to"));
+    const ranged = qFrom >= 1 && qTo >= qFrom;
+    const start = ranged ? qFrom - 1 : Math.max(0, cursor + chunk * daily);
+    const take = ranged ? Math.min(200, qTo - qFrom + 1) : daily;
     const words = await db.word.findMany({
-      where, orderBy: { id: "asc" }, skip: start, take: daily,
+      where, orderBy: { id: "asc" }, skip: start, take,
     });
 
     return Response.json({
       chunk,
       dailyWordCount: daily,
+      ranged,
       hasPrev: start > 0,
-      hasNext: start + daily < total,
+      hasNext: start + take < total,
       words: words.map((w, i) => ({
         id: w.id, no: start + i + 1, levelOrder, audioUrl: w.audioUrl, text: w.text, pos: w.pos, meanings: JSON.parse(w.meaningsJson),
         example: w.example, exampleKo: w.exampleKo, emoji: w.emoji, defEn: w.defEn,

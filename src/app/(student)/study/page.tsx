@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { api, playClip, audioUrlFor, POS_KO } from "@/lib/client";
 
@@ -27,17 +28,26 @@ const MODES = [
   { key: "match", label: "매칭 게임", icon: "🧩" },
 ] as const;
 
-type ChunkData = { chunk: number; hasPrev: boolean; hasNext: boolean; words: W[] };
+type ChunkData = { chunk: number; ranged?: boolean; hasPrev: boolean; hasNext: boolean; words: W[] };
 
 export default function StudyPage() {
+  return <Suspense fallback={<p className="text-slate-400 text-center py-20">불러오는 중...</p>}><StudyInner /></Suspense>;
+}
+
+function StudyInner() {
+  const sp = useSearchParams();
+  // /study?from=31&to=60 → 예습·복습용 범위 지정 (홈 예습 칸에서 온다)
+  const rFrom = Number(sp.get("from")), rTo = Number(sp.get("to"));
+  const ranged = rFrom >= 1 && rTo >= rFrom;
   const [data, setData] = useState<ChunkData | null>(null);
   const [chunk, setChunk] = useState(0);
   const [mode, setMode] = useState<(typeof MODES)[number]["key"]>("card");
 
   useEffect(() => {
     setData(null);
-    api<ChunkData>(`/api/student/study-words?chunk=${chunk}`).then(setData);
-  }, [chunk]);
+    const q = ranged ? `from=${rFrom}&to=${rTo}` : `chunk=${chunk}`;
+    api<ChunkData>(`/api/student/study-words?${q}`).then(setData);
+  }, [chunk, ranged, rFrom, rTo]);
 
   if (!data) return <p className="text-slate-400 text-center py-20">불러오는 중...</p>;
   const words = data.words;
@@ -51,7 +61,7 @@ export default function StudyPage() {
       </div>
     );
 
-  const label = chunk === 0 ? "오늘의 단어" : chunk > 0 ? `미리 학습 (+${chunk}일 분량)` : `지난 분량 복습 (${chunk}일)`;
+  const label = ranged ? `🔭 예습 ${rFrom}~${rTo}번` : chunk === 0 ? "오늘의 단어" : chunk > 0 ? `미리 학습 (+${chunk}일 분량)` : `지난 분량 복습 (${chunk}일)`;
 
   return (
     <div className="space-y-4">
@@ -60,8 +70,8 @@ export default function StudyPage() {
         <Link href="/home" className="btn-back">🏠 홈으로</Link>
       </div>
 
-      {/* 분량 이동 — 학습은 진도와 상관없이 자유롭게 */}
-      <div className="flex items-center justify-between gap-2">
+      {/* 분량 이동 — 학습은 진도와 상관없이 자유롭게 (범위 지정으로 왔을 때는 숨긴다) */}
+      {!ranged && <div className="flex items-center justify-between gap-2">
         <button className="btn-ghost !py-1.5 !px-3 text-xs" disabled={!data.hasPrev} onClick={() => setChunk(chunk - 1)}>
           ◀ 이전 분량
         </button>
@@ -71,7 +81,7 @@ export default function StudyPage() {
         <button className="btn-ghost !py-1.5 !px-3 text-xs" disabled={!data.hasNext} onClick={() => setChunk(chunk + 1)}>
           다음 분량 ▶
         </button>
-      </div>
+      </div>}
       <div className="flex gap-1.5 overflow-x-auto pb-1">
         {MODES.map((m) => (
           <button
